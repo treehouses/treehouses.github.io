@@ -1,0 +1,10 @@
+language: node_js
+env:
+  global:
+    secure: fdhQHNFGs/fvXLZ79oF4w2Csps1lIrJHyMq+NPoM9oYumDgtjNOG3FUl0rswWzRdzURbI4NrwM9ViCKNmb8axFavwDjnyD9/Ad4URPaDvLg/tQA6uZePOh7IMnHh8PG6FIIe/Hu5vRNjWpxYoocx9u/GZlDDpndwy4d4802cHpg=
+before_script:
+  - npm install grunt-cli
+script:
+  - grunt release-fat release-slim release-debug
+
+after_success: ./upload-build.sh

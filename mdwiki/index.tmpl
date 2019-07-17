@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<!--
+   This is <%= grunt.config('pkg').name %> v<%= grunt.config('pkg').version %>
+   (C) 2013 by Timo Dörr and contributors. This software is licensed
+   under the terms of the GNU GPLv3 with additional terms applied.
+   See https://github.com/Dynalon/mdwiki/blob/master/LICENSE.txt for more detail.
+   See http://github.com/Dynalon/mdwiki for a copy of the source code.
+-->
+<head>
+    <title>MDwiki</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="fragment" content="!">
+    <link rel="shortcut icon" type="image/x-icon" href="../favicon.ico" />
+    <meta charset="UTF-8">
+    <style type="text/css">
+    /* hide the main content while we assemble everything */
+    .md-hidden-load { display: none; }
+
+    /* for pageContentMenu */
+    #md-page-menu {
+        position: static;
+        width: 100%;
+    }
+    #md-page-menu a.active {
+        /* background-color: rgba(0, 0, 0, 0.01); */
+        font-weight: bold;
+        padding-left: 6px;
+    }
+    @media (min-width: 992px) {
+        #md-page-menu.affix {
+            position: fixed;
+        }
+        #md-page-menu {
+            width: 212.5px;
+        }
+    }
+    @media (min-width:1200px) {
+        #md-page-menu {
+            width: 262.5px;
+        }
+    }
+    @media (min-width: 768px) {
+        .md-float-left .col-sm-8, .md-float-right .col-sm-8 {
+            max-width: 66.67%;
+        }
+        .md-float-left .col-sm-4, .md-float-right .col-sm-4  {
+            max-width: 33.33%;
+        }
+        .md-float-left .col-sm-2, .md-float-right .col-sm-2 {
+            max-width: 16.67%;
+        }
+
+    }
+    @media (max-width: 992px) {
+        a.forkmeongithub {
+            display: none;
+        }
+    }
+    @media (max-width: 768px) {
+        /* don't use floating for smaller screens */
+        .md-float-left .col-sm-8, .md-float-left .col-sm-4, .md-float-left .col-sm-2 {
+            width: 100%;
+            max-width: !important;
+            min-width: 100%;
+        }
+        .md-float-right .col-sm-8, .md-float-right .col-sm-4, .md-float-right .col-sm-2 {
+            width: 100%;
+            max-width: !important;
+            min-width: 100%;
+        }
+    }
+
+    .md-floatenv .md-text {
+        /* md-text is not of md-col-* but needs the spacing */
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    /* float images */
+    .md-float-left .col-sm-8, .md-float-left .col-sm-4, .md-float-left .col-sm-2 {
+        width: auto;
+    }
+    .md-float-right .col-sm-8, .md-float-right .col-sm-4, .md-float-right .col-sm-2 {
+        float: right !important;
+        width: auto;
+    }
+    #md-all .md-copyright-footer {
+        background-color: !important;
+        font-size: smaller;
+        padding: 1em;
+    }
+	
+	/* Begin Added for Open Learning Exchange */
+    .navbar-brand {
+        margin-left: 35px;
+    }
+	
+    @font-face {
+       font-family: 'Lato Offline';
+       font-style: normal;
+       font-weight: 400;
+       src: url("fonts/Lato-Regular.woff") format('woff');
+    }
+    @font-face {
+        font-family: 'Lato Offline';
+        font-style: normal;
+        font-weight: 700;
+        src: url("fonts/Lato-Bold.woff") format('woff');
+    }
+    @font-face {
+        font-family: 'Lato Offline';
+        font-style: normal;
+        font-weight: 900;
+        src: url("fonts/Lato-Black.woff") format('woff');
+    }
+
+    @font-face {
+        font-family: 'Lato Offline';
+        font-style: italic;
+        font-weight: 400;
+        src: url("fonts/Lato-Italic.woff") format('woff');
+	}
+	
+	/* Use Lato Offline as fallback for Lato font */
+	body, h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, .tooltip, .popover {
+        font-family: "Lato", "Lato Offline", "Helvetica Neue", Helvetica, Arial, sans-serif !important;
+	}
+	
+	/* End Added for Open Learning Exchange */
+    </style>
+	
+	<!-- Added below script for Open Learning Exchange -->
+	<script src="extlib/js/highlight-7.3.pack.min.js"></script>
+
+<%
+    var task = grunt.config('currentTask').name;
+    grunt.log.writeln('Building single index.html of type: ' + task);
+
+    var ownJsFileFull = grunt.config('concat').dev.dest;
+    var ownJsFileMin = grunt.config('uglify').dist.dest;
+
+    var internalJsFiles = grunt.config('internalJsFiles');
+    var internalCssFiles = grunt.config('internalCssFiles');
+
+    var externalJsFiles = grunt.config('externalJsFiles');
+    var externalCssFiles = grunt.config('externalCssFiles');
+
+    var externalJsRefs = grunt.config('externalJsRefs');
+    var externalCssRefs = grunt.config('externalCssRefs');
+
+    function print_script_ref(ref) {
+        print('<script type="text/javascript" src="//' + ref + '"></script>\n');
+    }
+    function print_style_ref(ref) {
+        print('<link rel="stylesheet" href="//' + ref + '" type="text/css"></link>\n');
+    }
+    function print_script_inline(name, content) {
+        print('<!-- START ' + name + ' -->\n');
+        print('<script type="text/javascript">');
+        print(content);
+        print('</script>\n');
+        print('<!-- END ' + name + ' -->\n');
+    }
+    function print_style_inline(name, content) {
+        print('<!-- START ' + name + ' -->\n');
+        print('<style id="style:' + name + '">');
+        print(content);
+        print('</style>');
+        print('<!-- END ' + name + ' -->\n');
+    }
+
+    if (task === 'slim') {
+        // INCLUDE REFERENCES TO CDN
+
+        // css
+        for(var i = 0, len = externalCssRefs.length; i < len; i++) {
+            print_style_ref(externalCssRefs[i]);
+        }
+
+        // js
+        for(var i = 0, len = externalJsRefs.length; i < len; i++) {
+            print_script_ref(externalJsRefs[i]);
+        }
+    }
+    else if (task === 'fat' || task ==='debug') {
+        // INLINE SCRIPTS AND CSS
+
+        for(var i = 0, len = externalCssFiles.length; i < len; i++) {
+            var fileContent = grunt.file.read(externalCssFiles[i]);
+            print_style_inline(externalCssFiles[i], fileContent);
+        }
+        for(var i = 0, len = externalJsFiles.length; i < len; i++) {
+            var fileContent = grunt.file.read(externalJsFiles[i]);
+            print_script_inline(externalJsFiles[i], fileContent);
+        }
+    }
+
+    // STUFF WE ALWAYS INLINE (not available on any CDN)
+    for(var i = 0, len = internalCssFiles.length; i < len; i++) {
+        var fileContent = grunt.file.read(internalCssFiles[i]);
+        print_style_inline(internalCssFiles[i], fileContent);
+    }
+    for(var i = 0, len = internalJsFiles.length; i < len; i++) {
+        var fileContent = grunt.file.read(internalJsFiles[i]);
+        print_script_inline(internalJsFiles[i], fileContent);
+    }
+
+    // OUR OWN CODE
+    var fileContent = '';
+    if (task === 'debug') {
+        fileContent = grunt.file.read(ownJsFileFull);
+        print_script_inline(ownJsFileFull, fileContent);
+    } else if (task === 'fat' || task === 'slim') {
+        fileContent = grunt.file.read(ownJsFileMin);
+        print_script_inline(ownJsFileMin, fileContent);
+    }
+
+    if (task === 'debug') {
+        print('<script type="text/javascript">$.md.logThreshold = $.md.loglevel.DEBUG;</script>')
+    }
+
+%>
+</head>
+<body>
+    <noscript>
+        This website requires Javascript to be enabled. Please turn on Javascript
+        and reload the page.
+    </noscript>
+	<a href="https://github.com/treehouses"><img style="z-index:2000;width: 35px;position: fixed;margin-top: 12.5px;margin-left: 9px;" src="images/logo.png"></a>
+    <div id="md-all">
+    </div>
+</body>
+</html>
