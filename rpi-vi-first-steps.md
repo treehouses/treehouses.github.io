@@ -135,7 +135,7 @@ The process will take approximately 10 min to complete.
 
 -----------------------------------------------------------------------
 
-# Step 2 - Planet and Docker
+# Step 2 - Docker
 *NEW DOCKER PROCESS NEEDED* 
 Follow the instructions on the [Docker Tutorial page](vi-docker-tutorial.md). **Docker** is a computer program that performs operating-system-level virtualization also known as containerization. In this section, you will learn the basics of interacting with Docker and Docker Compose through the command-line interface and basic commands for maintaining your Planet installation.
 
