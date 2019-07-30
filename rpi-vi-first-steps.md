@@ -19,18 +19,11 @@ This equipment will be deployed in the field with little or no access to the int
 
 ### Pre-Requisites
 #### Hardware requirement:
-1. A Raspberry Pi Version Pi 3 • Pi 3b+ • Pi 4 
+1. A Raspberry Pi 4 
 1. A Class 10 microSD card (minimal 16GB, but we recommend 32GB or greater)
-1. A microSD card reader
-1. A virtualization enabled computer with Vagrant & Virtualbox (If you can run the vagrant tutorial without problems, then this is fine.)
+1. A microSD card reader (Check if your computer sd slot or if a usb/microSD card adapter is needed)
 1. 8 GB of harddrive space
-1. 4 GB of memory
-
-#### System requirement:
-1. Ubuntu or Debian based Linux distribution (Other distros are untested)
-1. An Internet connection
-1. OR build on Travis CI
-
+1. 8 GB of memory 
 
 # The Steps
 
@@ -62,6 +55,11 @@ In GitHub, we "[Watch](https://help.github.com/en/articles/watching-and-unwatchi
 **NOTE**: See the [Planet User Manual](#!./pages/techgenius/tg-planet-user-manual.md) for an overview of functionality and an explanation of various terms. Your contributions will not only help us out but also give you a better understanding of what Planet does.
 
 
+# Setting up your environmnent
+
+We interact with the Raspberry Pi via a command terminal which is natively available for both Mac and Linux based systems, if however you are utilizing a windows device Ubuntu or Debian based distribution system will be required.  
+### Setting up Debian on Windows 
+##### Disclaimer 
 
 -----------------------------------------------------------------------
 # Step 1 - Installing and finding your Raspberry Pi 
@@ -76,7 +74,7 @@ The OLE Raspberry Pi image is a modified [Raspbian](https://www.raspberrypi.org/
 2. The Raspberry Pi is used in the field to allow devices to connect to it. 
 3. Through this connection, these devices can access educational material (Planet).
 
-##Get your RPi Up and Running
+## Get your RPi Up and Running
 After getting your microSD cards and card reader/adapter, our first step will be to burn an image of the treehouse onto the a microSD card which we will later insert into our Rasperry Pi.
 
 ### Prepping the microSD card
@@ -101,18 +99,20 @@ The process will take approximately 10 min to complete.
 ### Starting up the Raspberry Pi
 1. Place the microSD card into the RPi.
 
-2. Connect the RPi to power, if there in an "on" switch or button ensure the Rpi has power.
-
-3. If you possess an android phone, find the Treehouses Remote app on Google Play Store and [download](https://play.google.com/store/apps/details?id=io.treehouses.remote) it.
-
-4. Wait for a minute or two and look for `treehouses` in your Android device's Bluetooth pairing screen.
+2. Connect the RPi to power, if there in an "on" switch or button ensure the Rpi has power, a red light will be visible.
 
 
-## Setting Up the Android Device
+## Setting Up via an Android Device
 
-*If you do not have an android device, please use and android emulator as described below PROCESS NEEDED* 
+#### If you do not have an android device please continue to:
+## Option 2: NEEDED*Mac* 
 
-#### Connect to Raspsberry Pi via Bluetooth
+1. If you have an android phone, find the Treehouses Remote app on Google Play Store and [download](https://play.google.com/store/apps/details?id=io.treehouses.remote) it.
+
+1. Wait for a minute or two and look for `treehouses` in your Android device's Bluetooth pairing screen.
+
+
+### Connect to Raspsberry Pi via Bluetooth
 
 1. In the android bluetooth settings, scan and pair with the Pi device.
 
@@ -133,6 +133,12 @@ The process will take approximately 10 min to complete.
   - The circle on the upper left corner shows the Raspberry Pi's internet connectivity status using color green and red.
   - To return to dashboard, click on the back button at the bottom of the device.
 
+## Interfacing with the Raspberry Pi
+### Option 2: NEEDED Mac 
+
+### Option 3: NEEDED Linux 
+
+### Option 3: NEEDED Windows 
 -----------------------------------------------------------------------
 
 # Step 2 - Docker
@@ -152,7 +158,9 @@ Follow the instructions on the [GitHub and Markdown page](vi-github-and-markdown
 Learning about VNC 
 -----------------------------------------------------------------------
 
-# Step 4 - Rpi Tutorial
+# Step 4 - RPi Tutorial
+
+
 
 Treehouse Repositories:
 https://docs.google.com/document/d/1g9Odinwx6GbyvH0B-8GSi5wL2ilUm2ohvrg3I-P_2q8/edit 
