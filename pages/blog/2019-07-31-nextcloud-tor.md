@@ -23,6 +23,6 @@ reboot
 ```
 Replace `wifiname` and `wifipassword` with your wifi name and password.  Save the file, and safely eject the SD card.  
 
-### Step 2 - Install the Tor browser on your computer. 
+### Step 2 - Set up your computer. 
 
-To access the Tor address, you will need to install the Tor browser on your computer.
+
