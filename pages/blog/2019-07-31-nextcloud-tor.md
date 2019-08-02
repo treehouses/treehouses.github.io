@@ -4,6 +4,7 @@ Jul 17, 2018 • [liew211](https://www.github.com/Liew211)
 
 I have recently learned about using Tor to allow a Raspberry Pi to be accessed remotely, and have implemented this with [Nextcloud](https://nextcloud.com/#why-nextcloud).  Nextcloud is a file-storage service similar to Dropbox, but hosted privately from your own Raspberry Pi.  By using Tor to open up the port occupied by Nextcloud, you will be able to access it without needing to be on the same Wifi network, which allows you to use Nextcloud's collaborative features, such as file-sharing and messaging.
 
+
 ### Step 1 - Prepare Treehouses image
 
 Download the latest treehouses image from http://download.treehouses.io, then use [balenaEtcher](https://etcher.io) to flash the image onto your SD card.  Be sure to change balenaEtcher's settings to prevent it from automatically unmounting the SD card once it's done flashing.  
@@ -23,6 +24,49 @@ reboot
 ```
 Replace `wifiname` and `wifipassword` with your wifi name and password.  Save the file, and safely eject the SD card.  
 
+
 ### Step 2 - Set up your computer. 
 
+#### macOS
+
+You should already have [Homebrew](https://brew.sh) installed.  You can check if it's already installed by running `brew -v` in your terminal.  
+
+Then, run the following:
+```
+brew install tor
+brew cask install tor-browser
+```
+
+#### Windows
+
+Windows installation of Tor and Tor Browser here
+
+#### Linux
+
+Linux installation of Tor and Tor Browser here
+
+
+### Step 3 - Start up Nextcloud
+
+Plug the microSD into your Raspberry Pi, and power it on.  The red LED should turn on, indicating that the Raspberry Pi is connected to power.  Once the green LED next to it on your Raspberry Pi stabilizes into a solid green, you should see "treehouses" appear in available Wifi networks.  Connect to it, and make sure that you have an internet connection by opening up another web page.  
+
+Find the Raspberry Pi's IP address in your network settings (it will probably be `192.168.2.1`).  Open up your terminal or command prompt, and run `ssh root@[IP address]` to enter the root of your Pi.  Run `docker run -d -p 8080:80 --name nextcloud nextcloud` to pull the Docker image for Nextcloud, and start up the container - this will take a few minutes.  To check if the container is running, run `docker ps`:
+```bash
+root@treehouses:~# docker ps
+CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                  NAMES
+b9484a8d681e        nextcloud           "/entrypoint.sh apac…"   12 minutes ago      Up 12 minutes       0.0.0.0:8080->80/tcp   nextcloud
+```
+Now that the container has been created, you can stop and start it with `docker stop nextcloud` and `docker start nextcloud`.  To view all running and stopped containers, run `docker ps -a`.
+
+
+### Step 4 - Start up Tor
+
+As we have run Nextcloud on port 8080, that's the port that we will have to open up with Tor.  While still in the root of treehouses, run `treehouses tor add 8080`, then run `treehouses tor` to find the tor address.  You should see something like this:
+```bash
+root@treehouses:~# treehouses tor add 8080
+Success: the port has been added
+root@treehouses:~# treehouses tor
+b3pesvpay2ouaxl556jwbknf32qlurspdregg672lgm5wjk5gejuonid.onion
+```
+In the Tor browser on your computer, navigate to the .onion address with ":8080" at the end.  For instance, I would navigate to `b3pesvpay2ouaxl556jwbknf32qlurspdregg672lgm5wjk5gejuonid.onion:8080` in my Tor browser.  If the Nextcloud container is up and running, you should see the Nextcloud set up page:
 
