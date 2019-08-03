@@ -20,7 +20,7 @@ treehouses rename treehouses
 treehouses expandfs
 treehouses button bluetooth
 
-treehouses bridge "wifiname" treehouses "wifipassword"
+treehouses bridge 'wifiname' treehouses 'wifipassword'
 
 reboot
 ```
@@ -43,14 +43,9 @@ brew install tor
 brew cask install tor-browser
 ```
 
-#### Windows
+#### Windows & Linux
 
-Windows installation of Tor and Tor Browser here
-
-#### Linux
-
-Linux installation of Tor and Tor Browser here
-
+Install [Tor](https://www.torproject.org/download/)
 
 ### Step 3 - Start up Nextcloud
 
