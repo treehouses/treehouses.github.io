@@ -4,13 +4,13 @@
 
 Welcome to the first steps for becoming an OLE Virtual Intern! We treat these first steps as a vetting process to prove that you can follow simple instructions before you can progress to working on harder projects in bigger teams. Consider them to be the interview for the internship.
 
-If you are selected for the internship after completing the steps, you will be officially invited to join the OLE interns team! We’ll add you to the Virtual Interns Gitter chatroom and assign you to a specific team to work on developing and improving OLE’s software. 
+If you are selected for the internship after completing the steps, you will be officially invited to join the OLE interns team! We’ll add you to the Virtual Interns Gitter chatroom and assign you to a specific team to work on developing and improving OLE’s software.
 
 Once accepted, you and your team will work on an assignment, and we’ll switch up the assignments each week. As part of this internship, you will have the opportunity to work with software and languages including **[Git](https://git-scm.com/)**, **[GitHub](https://github.com/)**, **[Markdown](https://daringfireball.net/projects/markdown/syntax)**, **[Vagrant](https://www.vagrantup.com/)**, **[VirtualBox](https://www.virtualbox.org/)**, **[Command Line/Terminal](https://en.wikipedia.org/wiki/Command-line_interface)**, **[Command Line/Terminal Scripts](https://www.codecademy.com/articles/command-line-commands)**, **[Vim](https://www.vim.org/)**, **[CouchDB](http://couchdb.apache.org/)** and **[Docker](https://www.docker.com/)**.
 
 
 Throughout these 10 steps and subsequently throughout your internship with OLE you will be working with a Raspberry Pi, a key piece of hardware essential to OLE's remote educational projects.
-The goal of OLE is to provide educational material to learners and educators in remote areas of the globe, the Raspberry Pi is utilized in pursuit of this goal to provide a means by which devices can access educational resources.
+The goal of OLE is to provide educational material to learners and educators in remote areas of the globe and the Raspberry Pi is utilized in pursuit of this goal to provide a means by which devices can access educational resources.
 Our goal is to provide a stable system that is widely accessible by numerous devices and operating systems.
 This equipment will be deployed in the field with little or no access to the internet, so its reliability is of paramount importance.
 
@@ -19,11 +19,19 @@ This equipment will be deployed in the field with little or no access to the int
 
 ### Pre-Requisites
 #### Hardware requirement:
-1. A Raspberry Pi 4 
-1. A Class 10 microSD card (minimal 16GB, but we recommend 32GB or greater)
-1. A microSD card reader (Check if your computer sd slot or if a usb/microSD card adapter is needed)
-1. 8 GB of harddrive space
-1. 8 GB of memory (RAM)
+1.  A Raspberry Pi 4
+	- Pi 3, Pi 3b+, Pi Zero W are also options
+1.  A power cord for the Pi
+	- Standard micro USB power cord: 2.4A for Pi 3 and Pi 3b+, 1.2A for Pi Zero W, or 15.3W for Pi 4
+1.  3 Class 10 microSD cards
+	- minimal 16GB, but we recommend 32GB or greater
+1.  A microSD card reader
+	- Check your computer if you have a slot for a card reader otherwise use a USB reader
+1.  Ethernet cable or wifi dongle
+1.  USB keyboard, monitor, and HDMI cable
+	- Optional if using your own laptop via VNC
+1.  8 GB of hard-drive space
+1.  8 GB of memory (RAM)
 
 # The Steps
 
@@ -31,9 +39,9 @@ Social coding is a huge part of any open source and collaborative project, and t
 
 Because these steps are simple, we expect high-quality work, which may take a longer time. We want to see that you are capable of using or learning how to use these tools (writing good GitHub issues, creating pull requests, using Vagrant and Docker, etc.). These steps may seem easy, but we want you to impress us with good GitHub etiquette and quality Markdown. The bare minimum would be to just passively follow the steps; you should do further reading about the tools/languages we use so you can further your understanding and relieve confusion if you're unclear about how something works. **Treat these steps as learning opportunities!** The GitHub and Markdown skills you practice here are very important for both this internship and a future software development career.
 
-The MDwiki has plenty of resources to help you complete the steps. There is a list of useful links at the end of each step. We also created a [FAQ page](vi-faq.md) where you can find the answers to some commonly asked questions. This page has even more [useful links and video tutorials](https://open-learning-exchange.github.io/#!./pages/vi/vi-faq.md#Helpful_Links) that will help you become familiar with the tools/languages we use. For anything that is not on the FAQ page, Google and Stack Exchange are your friends :)
+The MDwiki has plenty of resources to help you complete the steps. There is a list of useful links at the end of each step. We also created a [FAQ page](https://open-learning-exchange.github.io/#!./pages/vi/vi-faq.md) where you can find the answers to some commonly asked questions. This page has even more [useful links and video tutorials](https://open-learning-exchange.github.io/#!./pages/vi/vi-faq.md#Helpful_Links) that will help you become familiar with the tools/languages we use. For anything that is not on the FAQ page, Google and Stack Exchange are your friends :)
 
-**We also want you to keep us updated a relatively good amount in the Gitter chat as you complete these steps. We will ask you to send us messages, links, and screenshots along the First Steps, and we will use this to track your progress, so please do not forget to do so.** Check our [Gitter chat](vi-chat.md) page for more information about how to best communicate in Gitter.
+**We also want you to keep us updated a relatively good amount in the Gitter chat as you complete these steps. We will ask you to send us messages, links, and screenshots along the First Steps, and we will use this to track your progress, so please do not forget to do so.** Check our [Gitter chat](https://open-learning-exchange.github.io/#!./pages/vi/vi-chat.md) page for more information about how to best communicate in Gitter.
 
 A very large part of these steps is finding problems with these steps and this MDwiki, so take note of any issues that you run into or suggestions for improvement while doing these steps. Think of it as improving these steps and this MDwiki for future interns.
 
@@ -65,7 +73,7 @@ We interact with the Raspberry Pi via a command terminal which is natively avail
 # Step 1 - Installing and finding your Raspberry Pi 
 
 #### So What is the Raspberry Pi?
-The Raspberry Pi is a low cost single board computer, think of it as a downsized desktop tower, with the ability to receive, compute and output data and information, just without a mouse, keyboard or screen. 
+The Raspberry Pi is a low cost single board computer, think of it as a downsized desktop tower, with the ability to receive, compute and output data and information, just without a mouse, keyboard or screen.
 The OLE Raspberry Pi image is a modified [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) image, with additional software pertaining to the open learning exchange program, which you can put onto the microSD card for the Raspberry Pi.
 
 
