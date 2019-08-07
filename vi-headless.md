@@ -1,13 +1,13 @@
 # First Steps
 
 ## Headless Set up
-
+&nbsp;
 Don’t have an extra keyboard or HDMI cable? Here’s how to do a headless [Treehouses](http://download.treehouses.io/) install on your Pi.
-
+&nbsp;
 Here is the list of hardware requirements once again for you to refer to.
+&nbsp;
 #### Hardware requirement review:
 1.  A Raspberry Pi 4
-	- Pi 3, Pi 3b+, Pi Zero W are also options
 1.  A power cord for the Pi
 	- Standard micro USB power cord: 2.4A for Pi 3 and Pi 3b+, 1.2A for Pi Zero W, or 15.3W for Pi 4
 1.  3 Class 10 microSD cards
@@ -28,7 +28,6 @@ You just flashed the latest treehouses image on your SD card and now you want to
 
 Gather your Pi, the SD card, an ethernet cable, your laptop, and the Pi's power cord.
 
------------------------------------------------------------------------
 ## Step 1 - SSH file
 
 Place your SD card into your laptop and open the boot file.
