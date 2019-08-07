@@ -4,7 +4,7 @@
 
 # treehouses.io
 
-[gimmick:theme (inverse: false)](bootstrap)
+[gimmick:theme (inverse: false)](darkly)
 
 [Docs]()
 
