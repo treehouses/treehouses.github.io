@@ -20,7 +20,7 @@ This equipment will be deployed in the field with little or no access to the int
 ### Pre-Requisites
 #### Hardware requirement:
 1.  A Raspberry Pi 4
-	- Pi 3, Pi 3b+, Pi Zero W are also options
+
 1.  A power cord for the Pi
 	- Standard micro USB power cord: 2.4A for Pi 3 and Pi 3b+, 1.2A for Pi Zero W, or 15.3W for Pi 4
 1.  3 Class 10 microSD cards
