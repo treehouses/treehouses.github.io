@@ -27,7 +27,7 @@ This equipment will be deployed in the field with little or no access to the int
 	- Recommend U1 speed class
 1.  A microSD card reader
 	- Check your computer if you have a slot for a card reader otherwise use a USB reader
-1.  Ethernet cable or wifi dongle
+1.  Ethernet cable
 1.  USB keyboard, monitor, and HDMI cable
 	- Optional if using your own laptop via VNC
 1.  8 GB of hard-drive space
