@@ -2,15 +2,10 @@
 
 ## Headless Set up
 &nbsp;
-&nbsp;
-&nbsp;
-
 Don’t have an extra keyboard or HDMI cable? Here’s how to do a headless [Treehouses](http://download.treehouses.io/) install on your Pi.
 &nbsp;
 Here is the list of hardware requirements once again for you to refer to.
 &nbsp;
-&nbsp;
-
 #### Hardware requirement review:
 1.  A Raspberry Pi 4
 1.  A power cord for the Pi
