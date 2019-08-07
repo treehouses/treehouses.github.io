@@ -20,18 +20,20 @@ This equipment will be deployed in the field with little or no access to the int
 ### Pre-Requisites
 #### Hardware requirement:
 1.  A Raspberry Pi 4 ([Pi 4 information](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/))
-1.  A power cord for the Pi
+2.  A power cord for the Pi
 	- Standard micro USB power cord: 15.3W for Pi 4
-1.  3 Class 10 microSD cards
+3.  3 Class 10 microSD cards
 	- 16gb or greater
 	- Recommend U1 speed class
-1.  A microSD card reader
+4.  A microSD card reader
 	- Check your computer if you have a slot for a card reader otherwise use a USB reader
-1.  Ethernet cable
-1.  USB keyboard, monitor, and HDMI cable
+5.  Ethernet cable
+6.  USB keyboard, monitor, and HDMI cable
 	- Optional if using your own laptop via VNC
-1.  8 GB of hard-drive space
-1.  8 GB of memory (RAM)
+7.  An Android device 
+	- Memory (Ram): Minimum of 6 GB
+	- Operating System: Minimum of Android 8 (Oreo)
+8.  Laptop or computer with 8 GB of RAM
 
 # The Steps
 
