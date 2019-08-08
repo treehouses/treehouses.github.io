@@ -15,6 +15,7 @@
 ## Technical Questions
 
 
+---
 
 ### General Internship Questions
 
@@ -59,6 +60,7 @@
 ### Technical Questions
 
 
+---
 ## Helpful Links
 
 #### *GitHub and Markdown*
