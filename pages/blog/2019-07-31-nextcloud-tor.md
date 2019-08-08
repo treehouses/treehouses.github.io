@@ -20,6 +20,7 @@ treehouses rename treehouses
 treehouses expandfs
 treehouses button bluetooth
 
+
 treehouses bridge 'wifiname' 'treehouses' 'wifipassword'
 
 reboot
@@ -66,7 +67,7 @@ Now that the container has been created, you can stop and start it with `docker 
 
 ### Step 4 - Start up Tor
 
-As we have run Nextcloud on port 8080, that's the port that we will have to open up with Tor.  While still in the root of treehouses, run `treehouses tor add 8080`, then run `treehouses tor` to find the tor address.  You should see something like this:
+As we have run Nextcloud on port 8080, that's the port that we will have to open up with Tor.  While still in the root of treehouses, run `treehouses tor add 80 8080`, then run `treehouses tor` to find the tor address.  You should see something like this:
 ```bash
 root@treehouses:~# treehouses tor add 80 8080
 Success: the port has been added
