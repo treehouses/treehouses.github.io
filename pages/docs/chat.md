@@ -8,7 +8,7 @@ Communication is key in every collaborative project, and Treehouses is no differ
 
 ## Best Practices
 
-As you complete the [First Steps](rpi-vi-first-steps.md), we want you to keep us updated in the Gitter chat. Generally, you should comment in the chat when you make an issue or pull request, and then link to it. Make a mention (@*name*) of someone when you comment on their issue/pull request, then link to it. For example:
+As you complete the [First Steps](pages/vi/first-steps.md), we want you to keep us updated in the Gitter chat. Generally, you should comment in the chat when you make an issue or pull request, and then link to it. Make a mention (@*name*) of someone when you comment on their issue/pull request, then link to it. For example:
 
 > Hey @dogi, just commented on your issue: [https://github.com/treehouses/treehouses.github.io/issues/2](https://github.com/treehouses/treehouses.github.io/issues/2)
 
