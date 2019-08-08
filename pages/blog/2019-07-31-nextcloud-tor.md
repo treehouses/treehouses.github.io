@@ -68,12 +68,12 @@ Now that the container has been created, you can stop and start it with `docker 
 
 As we have run Nextcloud on port 8080, that's the port that we will have to open up with Tor.  While still in the root of treehouses, run `treehouses tor add 8080`, then run `treehouses tor` to find the tor address.  You should see something like this:
 ```bash
-root@treehouses:~# treehouses tor add 8080
+root@treehouses:~# treehouses tor add 80 8080
 Success: the port has been added
 root@treehouses:~# treehouses tor
 b3pesvpay2ouaxl556jwbknf32qlurspdregg672lgm5wjk5gejuonid.onion
 ```
-In the Tor browser on your computer, navigate to the .onion address with ":8080" at the end.  For instance, I would navigate to `b3pesvpay2ouaxl556jwbknf32qlurspdregg672lgm5wjk5gejuonid.onion:8080` in my Tor browser.  If the Nextcloud container is up and running, you should see the Nextcloud set up page:  
+In the Tor browser on your computer, navigate to the .onion address.  For instance, I would navigate to `b3pesvpay2ouaxl556jwbknf32qlurspdregg672lgm5wjk5gejuonid.onion` in my Tor browser.  If the Nextcloud container is up and running, you should see the Nextcloud set up page:  
 
 ![](/images/nextcloud-login.png)
 
