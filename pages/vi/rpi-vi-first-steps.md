@@ -17,19 +17,20 @@ This equipment will be deployed in the field with little or no access to the int
 
 ### Pre-Requisites
 #### Hardware requirement:
-1.  A Raspberry Pi 4 ([Pi 4 information](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/))
-2.  A power cord for the Pi
+1.  Raspberry Pi 4 ([Pi 4 information](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/))
+        - Note: Raspberry Pi 3b and 3b+ are also working
+2.  Power cord for the Pi
 	- Standard USB-C power cord: 15.3W for Pi 4
-3.  3 Class 10 microSD cards
+3.  3 microSD cards
 	- 16gb or greater
-	- Recommend U1 speed class
-4.  A microSD card reader
+	- U1 is recommend (Class 10 is ok)
+4.  MicroSD card reader
 	- Check your computer if you have a slot for a card reader otherwise use a USB reader
 5.  Ethernet cable
-6.  An Android device 
-	- Memory (Ram): Minimum of 6 GB
-	- Operating System: Minimum of Android 8 (Oreo)
-7.  Laptop or computer with 8 GB of RAM
+6.  Android device (phone or tablet)
+	- Memory (Ram): Minimum of 2 GB
+	- Operating System: Suggested Android 8 (Oreo) (minimum Android 6)
+7.  Laptop or computer with 8 or more GB of RAM
 8.  Optional: USB keyboard, monitor, and HDMI cable
 
 
@@ -41,9 +42,9 @@ Social coding is a huge part of any open source and collaborative project, and t
 
 Because these steps are simple, we expect high-quality work, which may take a longer time. We want to see that you are capable of using or learning how to use these tools (writing good GitHub issues, creating pull requests, using Vagrant and Docker, etc.). These steps may seem easy, but we want you to impress us with good GitHub etiquette and quality Markdown. The bare minimum would be to just passively follow the steps; you should do further reading about the tools/languages we use so you can further your understanding and relieve confusion if you're unclear about how something works. **Treat these steps as learning opportunities!** The GitHub and Markdown skills you practice here are very important for both this internship and a future software development career.
 
-The MDwiki has plenty of resources to help you complete the steps. There is a list of useful links at the end of each step. We also created a [FAQ page](https://treehouses.github.io/#!./pages/vi/vifaq.md) where you can find the answers to some commonly asked questions. This page has even more [useful links and video tutorials](https://treehouses.github.io/#!./pages/vi/faq.md#Helpful_Links) that will help you become familiar with the tools/languages we use. For anything that is not on the FAQ page, Google and Stack Exchange are your friends :)
+The MDwiki has plenty of resources to help you complete the steps. There is a list of useful links at the end of each step. We also created a [FAQ page](https://treehouses.github.io/#!./pages/vi/faq.md) where you can find the answers to some commonly asked questions. This page has even more [useful links and video tutorials](https://treehouses.github.io/#!./pages/vi/faq.md#Helpful_Links) that will help you become familiar with the tools/languages we use. For anything that is not on the FAQ page, Google and Stack Exchange are your friends :)
 
-**We also want you to keep us updated a relatively good amount in the Gitter chat as you complete these steps. We will ask you to send us messages, links, and screenshots along the First Steps, and we will use this to track your progress, so please do not forget to do so.** Check our [Gitter chat](https://treehouses.github.io/#!./pages/vi/chat.md) page for more information about how to best communicate in Gitter.
+**We also want you to keep us updated a relatively good amount in the Gitter chat as you complete these steps. We will ask you to send us messages, links, and screenshots along the First Steps, and we will use this to track your progress, so please do not forget to do so.** Check our [Gitter chat](https://treehouses.github.io/#!./pages/chat/chat.md) page for more information about how to best communicate in Gitter.
 
 A very large part of these steps is finding problems with these steps and this MDwiki, so take note of any issues that you run into or suggestions for improvement while doing these steps.
 
@@ -54,7 +55,7 @@ There is no official deadline to complete these steps, but most candidates who a
 
 1. Complete the [New Virtual Intern Application form](https://docs.google.com/forms/d/e/1FAIpQLSeooEi9vJeb_nsf8WEXqEVRn1Ko6d4M-qF76ik4v0xgToUiSA/viewform?usp=sf_link).
 
-2. Create a [GitHub account](https://github.com/) then watch <a href="https://github.com/treehouses.github.io" target="_blank">treehouses.github.io repo</a> and Follow [Dogi](https://github.com/dogi), [Ryan](https://github.com/indepthh), [Vassilis](https://github.com/vers4ce), [Roshan](https://github.com/rrijal53), [Sam](https://github.com/Liew211) and [Arran](https://github.com/ArranHL) on GitHub. 
+2. Create a [GitHub account](https://github.com/) then watch <a href="https://github.com/treehouses.github.io" target="_blank">treehouses.github.io repo</a> and Follow [Dogi](https://github.com/dogi), [Ryan](https://github.com/indepthh), [Vassilis](https://github.com/vers4ce), [Roshan](https://github.com/rrijal53), [Sam](https://github.com/Liew211), [Samuel](https://github.com/samuelchen1213) and [Arran](https://github.com/ArranHL) on GitHub. 
 
 In GitHub, we "[Watch](https://help.github.com/en/articles/watching-and-unwatching-repositories)" organization repositories and ["Follow"](https://help.github.com/en/articles/following-people) individuals. Look for the "Watch" button at the top right of the page when you are in a repository.  Also, follow each other to see what others in the group are doing. (Click on the image to enlarge.)   
 
@@ -187,7 +188,7 @@ NEW .md PROCESS NEEDED
 
 # Step 8 - Create Issues and Pull Requests
 
-Create three more issues, add comments to three other issues, and resolve three issues by making the necessary changes in your repo with three separate pull requests. You should resolve three issues created by yourself, and make sure you mention in the issue you are working on, that you are in fact working on it. **Besides, you should make sure someone from the OLE team confirms to make the change that your issue has brought up before you start working on the issue.** You will follow the same steps as in [GitHub Issues](vi-github-issues.md), continuing to improve this Markdown Wiki so that it is educational, yet easy to understand for future interns.
+Create three more issues, add comments to three other issues, and resolve three issues by making the necessary changes in your repo with three separate pull requests. You should resolve three issues created by yourself, and make sure you mention in the issue you are working on, that you are in fact working on it. **Besides, you should make sure someone from the OLE team confirms to make the change that your issue has brought up before you start working on the issue.** You will follow the same steps as in [GitHub Issues](github-issues.md), continuing to improve this Markdown Wiki so that it is educational, yet easy to understand for future interns.
 
 Just as your learning with this Wiki was made possible by the efforts of previous interns, now we turn to you to continue that tradition and help future interns take their First Steps. Through this step, you should try to further improve our Markdown Wiki, with better explanations, formatting fixes, and more! You must have made your pull requests and have them each approved by at least two other OLE team members/interns in order for it to be merged to the upstream repository. Just as before, announce your Pull Request on the Gitter chat so other members can review it. You may need to make some additional corrections. Learn by teaching - or editing our teaching tool, in this case!
 
@@ -198,7 +199,7 @@ Just as your learning with this Wiki was made possible by the efforts of previou
    * 4 comments made on *issues you didn't create* (one at step 6 and three at step 8)
    * 4 issues created (one at step 6 and three at step 8)
 
-**NOTE**: You can track your progress with the number of pull requests and issues [here](vi-track-progress.md).
+**NOTE**: You can track your progress with the number of pull requests and issues [here](vtrack-progress.md).
 
 
 
