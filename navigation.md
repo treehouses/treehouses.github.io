@@ -15,7 +15,13 @@
 
 [Download](pages/download.md)
 
-[Join Chat](https://gitter.im/treehouses/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link) <!-- System Manual -->
+[Chat]()
+
+  * [**Introduction**](pages/docs/vi/vi-chat.md)
+  - - - -
+  * [General Chat (Open to Public)](https://gitter.im/treehouses/Lobby)
+  * [Virtual Interns](https://gitter.im/open-learning-exchange/interns)
+  * [Tech Geniuses](https://gitter.im/open-learning-exchange/techgenius) <!-- System Manual -->
 
 <!-- Default theme (Read: http://dynalon.github.io/mdwiki/#!customizing.md#Theme_chooser)  -->
 
