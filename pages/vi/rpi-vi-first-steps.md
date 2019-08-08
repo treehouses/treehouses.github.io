@@ -143,7 +143,7 @@ The process will take approximately 10 min to complete.
 # Step 3 - Markdown and Fork Tutorial
 *NEW Fork PROCESS NEEDED* 
 Follow the instructions on the NEW .md PROCESS NEEDED  
-Make sure that you've linked to your github.io and pull request link on the [Gitter chat](https://gitter.im/open-learning-exchange/chat) (https://YourUserName.github.io and `LinkToYourPullRequest`). Also include Raw.githack link in your pull request(https://raw.githack.com/YourUserName/YourUserName.github.io/YourBranchName/#!pages/vi/profiles/YourUserName.md).
+Make sure that you've linked to your github.io and pull request link on the [Gitter chat](https://gitter.im/open-learning-exchange/treehouses) (https://YourUserName.github.io and `LinkToYourPullRequest`). Also include Raw.githack link in your pull request(https://raw.githack.com/YourUserName/YourUserName.github.io/YourBranchName/#!pages/vi/profiles/YourUserName.md).
 
 **NOTE**: Raw.githack link above is case sensitive to your username.
 
@@ -168,7 +168,7 @@ Follow the directions at NEW .md PROCESS NEEDED to keep your username.github.io 
 
 # Step 6 - GitHub Issues Tutorial
 
-Follow the tutorial under the NEW .md PROCESS NEEDED to create at least one issue. Post a link in [Gitter](https://gitter.im/open-learning-exchange/chat) whenever you create an issue or when you comment on someone else's issue. You are encouraged to post as many issues as you can for improving the page as well as for personal practice. No issue is too big or too small to be filed and it is OK if you are not sure how to fix it yourself. If you know how to solve an issue, be sure to provide a detailed account of your research and show how to fix it. It is ok to file an issue about minor typos and very small changes, but do not make this the case for all of the issues that you file. You can also work on issues that you didn't create.
+Follow the tutorial under the NEW .md PROCESS NEEDED to create at least one issue. Post a link in [Gitter](https://gitter.im/open-learning-exchange/treehouses) whenever you create an issue or when you comment on someone else's issue. You are encouraged to post as many issues as you can for improving the page as well as for personal practice. No issue is too big or too small to be filed and it is OK if you are not sure how to fix it yourself. If you know how to solve an issue, be sure to provide a detailed account of your research and show how to fix it. It is ok to file an issue about minor typos and very small changes, but do not make this the case for all of the issues that you file. You can also work on issues that you didn't create.
 
 Make sure you have created at least one issue, resolved it, commented on an issue you didn't create and have a pull request with the fix merged. You may continue making Issues, Pull requests and Comments, or move on to the next step, while you are waiting for your pull request to be merged. The approval process for your Step 6 fix may take time, but it is OK to continue working.
 
