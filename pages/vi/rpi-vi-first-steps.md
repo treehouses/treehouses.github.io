@@ -8,9 +8,7 @@ If you are selected for the internship after completing the steps, you will be o
 
 Once accepted, you and your team will work on an assignment, and we’ll switch up the assignments each week. As part of this internship, you will have the opportunity to work with software and languages including **[Git](https://git-scm.com/)**, **[GitHub](https://github.com/)**, **[Markdown](https://daringfireball.net/projects/markdown/syntax)**, **[Vagrant](https://www.vagrantup.com/)**, **[VirtualBox](https://www.virtualbox.org/)**, **[Command Line/Terminal](https://en.wikipedia.org/wiki/Command-line_interface)**, **[Command Line/Terminal Scripts](https://www.codecademy.com/articles/command-line-commands)**, **[Vim](https://www.vim.org/)**, **[CouchDB](http://couchdb.apache.org/)** and **[Docker](https://www.docker.com/).** Furthermore, you will be able to learn and practice your skills in using **[Raspberry Pi Hardware](https://raspberrypi.org**).
 
-
-Throughout these 10 steps and subsequently throughout your internship with OLE you will be working with a Raspberry Pi, a key piece of hardware essential to OLE's remote educational projects.
-The goal of OLE is to provide educational material to learners and educators in remote areas of the globe and the Raspberry Pi is utilized in pursuit of this goal to provide a means by which devices can access educational resources.
+The goal of OLE is to provide educational infrastructure to learners and educators in remote areas of the globe. The Raspberry Pi is utilized in pursuit of this goal to provide a means by which devices can access educational resources.
 Our goal is to provide a stable system that is widely accessible by numerous devices and operating systems.
 This equipment will be deployed in the field with little or no access to the internet, so its reliability is of paramount importance.
 
@@ -35,6 +33,8 @@ This equipment will be deployed in the field with little or no access to the int
 	- Operating System: Minimum of Android 8 (Oreo)
 8.  Laptop or computer with 8 GB of RAM
 
+---
+
 # The Steps
 
 Social coding is a huge part of any open source and collaborative project, and the Open Learning Exchange (OLE) is no different. In the following series of steps, you will learn about Markdown, Vagrant, Docker, Git, GitHub, GitHub issues, GitHub pull requests, etc. You will also be introduced to OLE’s digital library that hosts the learning materials – [Planet](https://github.com/open-learning-exchange/planet).
@@ -45,13 +45,12 @@ The MDwiki has plenty of resources to help you complete the steps. There is a li
 
 **We also want you to keep us updated a relatively good amount in the Gitter chat as you complete these steps. We will ask you to send us messages, links, and screenshots along the First Steps, and we will use this to track your progress, so please do not forget to do so.** Check our [Gitter chat](https://open-learning-exchange.github.io/#!./pages/vi/vi-chat.md) page for more information about how to best communicate in Gitter.
 
-A very large part of these steps is finding problems with these steps and this MDwiki, so take note of any issues that you run into or suggestions for improvement while doing these steps. Think of it as improving these steps and this MDwiki for future interns.
+A very large part of these steps is finding problems with these steps and this MDwiki, so take note of any issues that you run into or suggestions for improvement while doing these steps.
 
 There is no official deadline to complete these steps, but most candidates who are approved for the internship program finished the steps within 7-8 days. Good luck!
 
--------------------------------------------------------------------------------
 
-## Step 0 - Introductory Steps
+# Step 0 - Introductory Steps
 
 1. Complete the [New Virtual Intern Application form](https://docs.google.com/forms/d/e/1FAIpQLSeooEi9vJeb_nsf8WEXqEVRn1Ko6d4M-qF76ik4v0xgToUiSA/viewform?usp=sf_link).
 
@@ -59,74 +58,60 @@ There is no official deadline to complete these steps, but most candidates who a
 
 In GitHub, we "[Watch](https://help.github.com/en/articles/watching-and-unwatching-repositories)" organization repositories and ["Follow"](https://help.github.com/en/articles/following-people) individuals. Look for the "Watch" button at the top right of the page when you are in a repository.  Also, follow each other to see what others in the group are doing. (Click on the image to enlarge.)   
 
-
-# Setting up your environmnent
+### Setting up your environmnent
 
 We interact with the Raspberry Pi via a command terminal which is natively available for both Mac and Linux based systems, if however you are utilizing a windows device Ubuntu or Debian based distribution system will be required.  
 ### Setting up Debian on Windows 
 ##### Disclaimer 
 
------------------------------------------------------------------------
+
 # Step 1 - Installing and finding your Raspberry Pi 
 
-#### So What is the Raspberry Pi?
+### So What is the Raspberry Pi?
 The Raspberry Pi is a low cost single board computer, think of it as a downsized desktop tower, with the ability to receive, compute and output data and information, just without a mouse, keyboard or screen.
 The OLE Raspberry Pi image is a modified [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) image, with additional software pertaining to the open learning exchange program, which you can put onto the microSD card for the Raspberry Pi.
 
-
-##### How it works:  
+### How it works:  
 1. The Raspberry Pi is loaded with an operating system developed by the OLE team.
 2. The Raspberry Pi is used in the field to allow devices to connect to it. 
 3. Through this connection, these devices can access educational material (Planet).
 
-## Get your RPi Up and Running
+### Get your RPi Up and Running
 After getting your microSD cards and card reader/adapter, our first step will be to burn an image of the treehouse onto the a microSD card which we will later insert into our Rasperry Pi.
 
-### Prepping the microSD card
+### Prepping the microSD card:
 1. Download the latest treehouse image that is available [here](http://download.treehouses.io)
-
 2. Download and install [Etcher](https://etcher.io)
-
 3. Insert a microSD card into the card reader and connect this to your computer 
-
 4. Burn the treehouses image onto the microSD card, this is done by:
 * Opening Etcher
 * Clicking "Select Image" -This is the downloaded image
 * Selecting the "Target" - This is your microSD card
 * Clicking "Flash!"
-
 The process will take approximately 10 min to complete.
-
 5.  Once it's done burning,  if you chose you can view the contents in the `boot` partition. You will see a long list of files.
-
 6. Unmount and safely eject the microSD card from your computer. 
 
-### Starting up the Raspberry Pi
+### Starting up the Raspberry Pi:
 1. Place the microSD card into the RPi.
-
 2. Connect the RPi to power, if there in an "on" switch or button ensure the Rpi has power, a red light will be visible.
 
 
-## Setting Up via an Android Device
+### Setting Up via an Android Device:
 
 #### If you do not have an android device please continue to:
 
 
 1. If you have an android phone, find the Treehouses Remote app on Google Play Store and [download](https://play.google.com/store/apps/details?id=io.treehouses.remote) it.
-
-1. Wait for a minute or two and look for `treehouses` in your Android device's Bluetooth pairing screen.
+2. Wait for a minute or two and look for `treehouses` in your Android device's Bluetooth pairing screen.
 
 
 ### Connect to Raspsberry Pi via Bluetooth
 
 1. In the android bluetooth settings, scan and pair with the Pi device.
-
 2. Click on the three dots (menu icon) at the upper right corner of the app. 
-
 3. Click on `Connect a device - Insecure` to display paired Bluetooth devices or scan for new devices around you.
-
 4. Select `raspberrypi` or whatever name that is given to your Raspberry Pi device to connect to the Raspberry Pi.
-
 5. If it does not work, please click on `cmd` button and repeat steps 1 through 3.
 
 
@@ -148,13 +133,12 @@ The process will take approximately 10 min to complete.
 ### Option 3: NEW Linux .md PROCESS NEEDED  
 
 ### Option 3: NEW Windows .md PROCESS NEEDED  
------------------------------------------------------------------------
+
 
 # Step 2 - Docker
 *NEW DOCKER .md PROCESS NEEDED* 
  **Docker** is a computer program that performs operating-system-level virtualization also known as containerization. In this section, you will learn the basics of interacting with Docker and Docker Compose through the command-line interface and basic commands for maintaining your Planet installation.
 
------------------------------------------------------------------------
 
 # Step 3 - Markdown and Fork Tutorial
 *NEW Fork PROCESS NEEDED* 
@@ -166,7 +150,7 @@ Make sure that you've linked to your github.io and pull request link on the [Git
 * Once you complete Step 3 you will have:
     * 1 Pull request made
 Learning about VNC 
------------------------------------------------------------------------
+
 
 # Step 4 - RPi Tutorial
 
@@ -176,13 +160,11 @@ Treehouse Repositories:
 https://docs.google.com/document/d/1g9Odinwx6GbyvH0B-8GSi5wL2ilUm2ohvrg3I-P_2q8/edit 
 https://docs.google.com/document/d/1rzRlMifcY6ClLymQMCRwOqyrWL9ZV6H5MBmHow6wuIY/edit# 
 
------------------------------------------------------------------------
 
 # Step 5 - Keeping Fork Updated
 
 Follow the directions at NEW .md PROCESS NEEDED to keep your username.github.io and your local repository up to date.
 
------------------------------------------------------------------------
 
 # Step 6 - GitHub Issues Tutorial
 
@@ -197,14 +179,11 @@ Make sure you have created at least one issue, resolved it, commented on an issu
 
 Please note that creating and working on Issues are not exactly bound by the "Step" you are in. Feel free to move on to other steps, and make more Issues and Pull Requests while you wait on OLE approval for your merge(s). 
 
------------------------------------------------------------------------
 
 # Step 7 - Pihole? Next Cloud, Tor browser, Planet 
 
 NEW .md PROCESS NEEDED  
 
-
------------------------------------------------------------------------
 
 # Step 8 - Create Issues and Pull Requests
 
@@ -221,7 +200,7 @@ Just as your learning with this Wiki was made possible by the efforts of previou
 
 **NOTE**: You can track your progress with the number of pull requests and issues [here](vi-track-progress.md).
 
------------------------------------------------------------------------
+
 
 # Step 9 - Be part of the team
 
