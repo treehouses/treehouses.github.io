@@ -11,11 +11,21 @@
   * [Getting Started](pages/docs/getting_started.md)
   * [Treehouses Builder](pages/docs/treehouses_builder.md)
 
+[Interns](pages/vi/firststeps.md)
+
 [Blog](pages/blog/list.md)
 
 [Download](pages/download.md)
 
-[Join Chat](https://gitter.im/treehouses/Lobby?utm_source=share-link&utm_medium=link&utm_campaign=share-link) <!-- System Manual -->
+[Chat]()
+
+  * [**Introduction**](pages/docs/chat.md)
+  - - - -
+  * [General Chat (Open to Public)](https://gitter.im/treehouses/Lobby)
+  * [Virtual Interns](https://gitter.im/open-learning-exchange/interns)
+  * [RaspberryPi](https://gitter.im/open-learning-exchange/raspberrypi)
+  
+<!-- System Manual -->
 
 <!-- Default theme (Read: http://dynalon.github.io/mdwiki/#!customizing.md#Theme_chooser)  -->
 
