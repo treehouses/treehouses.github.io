@@ -6,7 +6,7 @@ Welcome to the first steps for becoming becoming a Virtual Systems Engineering I
 
 If you are selected for the internship after completing the steps, you will be officially invited to join the OLE interns team! We’ll add you to the Virtual Interns Gitter chatroom and assign you to a specific team to work on developing and improving OLE’s software.
 
-Once accepted, you and your team will work on an assignment, and we’ll switch up the assignments each week. As part of this internship, you will have the opportunity to work with software and languages including **[Git](https://git-scm.com/)**, **[GitHub](https://github.com/)**, **[Markdown](https://daringfireball.net/projects/markdown/syntax)**, **[Vagrant](https://www.vagrantup.com/)**, **[VirtualBox](https://www.virtualbox.org/)**, **[Command Line/Terminal](https://en.wikipedia.org/wiki/Command-line_interface)**, **[Command Line/Terminal Scripts](https://www.codecademy.com/articles/command-line-commands)**, **[Vim](https://www.vim.org/)**, **[CouchDB](http://couchdb.apache.org/)** and **[Docker](https://www.docker.com/).** Furthermore, you will be able to learn and practice your skills in using **[Raspberry Pi Hardware](https://raspberrypi.org**).
+Once accepted, you and your team will work on an assignment, and we’ll switch up the assignments each week. As part of this internship, you will have the opportunity to work with software and languages including **[Git](https://git-scm.com/)**, **[GitHub](https://github.com/)**, **[Markdown](https://daringfireball.net/projects/markdown/syntax)**, **[Vagrant](https://www.vagrantup.com/)**, **[VirtualBox](https://www.virtualbox.org/)**, **[Command Line/Terminal](https://en.wikipedia.org/wiki/Command-line_interface)**, **[Command Line/Terminal Scripts](https://www.codecademy.com/articles/command-line-commands)**, **[Vim](https://www.vim.org/)**, **[CouchDB](http://couchdb.apache.org/)** and **[Docker](https://www.docker.com/).** Furthermore, you will be able to learn and practice your skills using **[Raspberry Pi Hardware](https://raspberrypi.org).**
 
 The goal of OLE is to provide educational infrastructure to learners and educators in remote areas of the globe. The Raspberry Pi is utilized in pursuit of this goal to provide a means by which devices can access educational resources.
 Our goal is to provide a stable system that is widely accessible by numerous devices and operating systems.
@@ -17,20 +17,21 @@ This equipment will be deployed in the field with little or no access to the int
 
 ### Pre-Requisites
 #### Hardware requirement:
-1.  Raspberry Pi 4 ([Pi 4 information](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/))
-        - Note: Raspberry Pi 3b and 3b+ are also working
-2.  Power cord for the Pi
+1.  A Raspberry Pi 4 ([Pi 4 information](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/))
+        
+	- Note: Raspberry Pi 3b and 3b+ are also working
+2.  A Power cord for the Pi
 	- Standard USB-C power cord: 15.3W for Pi 4
 3.  3 microSD cards
 	- 16gb or greater
 	- U1 is recommend (Class 10 is ok)
-4.  MicroSD card reader
+4.  A MicroSD card reader
 	- Check your computer if you have a slot for a card reader otherwise use a USB reader
-5.  Ethernet cable
-6.  Android device (phone or tablet)
+5.  An Ethernet cable
+6.  An Android device (phone or tablet)
 	- Memory (Ram): Minimum of 2 GB
 	- Operating System: Suggested Android 8 (Oreo) (minimum Android 6)
-7.  Laptop or computer with 8 or more GB of RAM
+7.  A Laptop or computer with 8 or more GB of RAM
 8.  Optional: USB keyboard, monitor, and HDMI cable
 
 
@@ -59,11 +60,14 @@ There is no official deadline to complete these steps, but most candidates who a
 
 In GitHub, we "[Watch](https://help.github.com/en/articles/watching-and-unwatching-repositories)" organization repositories and ["Follow"](https://help.github.com/en/articles/following-people) individuals. Look for the "Watch" button at the top right of the page when you are in a repository.  Also, follow each other to see what others in the group are doing. (Click on the image to enlarge.)   
 
-### Setting up your environmnent
+
+## Setting up your environmnent
 
 We interact with the Raspberry Pi via a command terminal which is natively available for both Mac and Linux based systems, if however you are utilizing a windows device Ubuntu or Debian based distribution system will be required.  
-### Setting up Debian on Windows 
-##### Disclaimer 
+
+If you are running Windows you will need to set up a second operating system to fully participate in OLE's system project, please see our **[Debian for Windows](https://github.com/treehouses/treehouses.github.io/blob/master/pages/vi/DebianforWindows.md) page to do this.**
+
+
 
 
 # Step 1 - Installing and finding your Raspberry Pi 
@@ -129,11 +133,8 @@ The process will take approximately 10 min to complete.
   - To return to dashboard, click on the back button at the bottom of the device.
 
 ## Interfacing with the Raspberry Pi
-### Option 2: NEW Mac .md PROCESS NEEDED  
-
-### Option 3: NEW Linux .md PROCESS NEEDED  
-
-### Option 3: NEW Windows .md PROCESS NEEDED  
+### Option 1: NEW Mac .md PROCESS NEEDED  
+### Option 2: NEW Linux .md PROCESS NEEDED  (Windows has been removed because the VI's now have Debian Installed) 
 
 
 # Step 2 - Docker
