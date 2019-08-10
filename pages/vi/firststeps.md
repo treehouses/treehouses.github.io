@@ -188,7 +188,7 @@ NEW .md PROCESS NEEDED
 
 # Step 8 - Create Issues and Pull Requests
 
-In this step we will adopt the motto of "Practice makes Perfect". You will follow the same steps as in **Step 3**, continuing to improve this Markdown Wiki so that it is educational, yet easy to understand for future interns.
+In this step we will adopt the motto of "Practice makes Perfect". You will follow the same steps as in **Step 6**, continuing to improve this Markdown Wiki so that it is educational, yet easy to understand for future interns.
 
 You should: 
 * Add comments to three issues other other than your own (somebody else's issue)
