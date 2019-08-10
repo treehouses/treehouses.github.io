@@ -181,9 +181,10 @@ Make sure you have created at least one issue, resolved it, commented on an issu
 Please note that creating and working on Issues are not exactly bound by the "Step" you are in. Feel free to move on to other steps, and make more Issues and Pull Requests while you wait on OLE approval for your merge(s). 
 
 
-# Step 7 - Pihole? Next Cloud, Tor browser, Planet 
+# Step 7 - Next Cloud, Tor browser
 
-NEW .md PROCESS NEEDED  
+This section's objective are to provide the VI's an understanding of the nature of the file service that OLE uses and the reasons why docker and Tor are used in this way.
+Step 7 could have the VI's build a Treehouses [NextCloudPi](https://github.com/nextcloud/nextcloudpi) variant
 
 
 # Step 8 - Create Issues and Pull Requests
