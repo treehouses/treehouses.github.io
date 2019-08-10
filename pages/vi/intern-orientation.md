@@ -2,7 +2,10 @@
 
 ## Welcome to the Treehouses Intern Team!
 
-Congratulations! You have completed the first steps and have been selected to join the Open Learning Exchange's systems engineering team. Please remember that we expect interns to have at least 16 hours a week for the minimal of 3 months to work on Open Learning Exchange issues. If you do not currently have enough time, we will be happy to have you later when you do have time.
+Congratulations! You have completed the first steps and have been selected to join the Open Learning Exchange's Systems Engineering team. 
+Please remember that we expect interns to contribute at least 16 hours a week for a minimum duration of 3 months, in which time you will be working on the Treehouses repositories to solve issues and devellop tools for the Open Learning Exchange. 
+
+If you do not think that this is a commitment that you can currently honour, we would be happy to have you later when circumstances will allow you to fully participate.
 
 ## Get to Know the Team
 
@@ -12,30 +15,48 @@ The first thing is to meet the team, starting with CTO [dogi](https://github.com
 
 Typically, interns choose what project they want to work on based on their experience. If you get tired of a certain project, there is an opportunity to switch. Take a look at our current projects below, if any particular ones interest you, there is a very good chance that you can work on them.
 
-#### Active System Teams Projects
+### Active System Teams Projects
 
-* [Remote](https://github.com/treehouses/remote/)
-*The Remote repository contain the android application developed by the systems team that **allows Android devices to connect to the Raspberry Pi** via Bluetooth.
-  * The application can be found via the Google App Store by searching “treehouses remote” 
-  ![RemoteIcon](images/RemoteIcon.jpg)
+#### [Remote](https://github.com/treehouses/remote/)
+ * The Remote repository contain the android application developed by the systems team that **allows Android devices to connect to the Raspberry Pi** via Bluetooth.
+   * The application can be found via the Google App Store by searching “treehouses remote”
+   
+   
+  ![](images/remoteiconsml.jpg)
   
   
+#### [Treehouses](https://github.com/treehouses/treehouses.github.io/)
+* Treehouses is the name of our markdown wiki which you have been using throughout the 10 steps.
+
+#### [builder](https://github.com/treehouses/builder)
+ * Builder is the ongoing repository that contains script  latest Raspbian image by installing packages, purging packages and executing custom commands, and then finally creates a bootable .img file that can be burned to the microSD card.
  
- * [Raspberry Pi](rbts-raspberry-pi.md)
-  * The modified Raspbian image can be placed on a microsd card for deployment in the field with a Raspberry Pi.
-* [Docker](https://hub.docker.com/r/treehouses/) <!--replace link to rbts-docker.md once PR #1384 is finished-->
-  * Containerize CouchDB, `planet`, BeLL, and other educational applications
+#### [Cli](https://github.com/treehouses/cli)
+* Cli is  Command-Line Interface for the treehouses system image, it allows different commands to be entered in the Raspberry Pi terminal
+
+#### [control](https://github.com/treehouses/control)
+* Bluetooth service for treehouses image which interacts with treehouses/remote android app
+
+#### [RPi-CouchDB](https://github.com/treehouses/rpi-couchdb)
+* CouchDB is a document database meaning that it. This means a NOSQL database that uses JSON for documents, an HTTP API, & JavaScript/declarative indexing. 
+ * The OLE Systems team aims to use CouchDB to ensure that the programs we develop operate reliably on different computing environments.
+
+
+#### [Docker](https://hub.docker.com/r/treehouses/) <!--replace link to rbts-docker.md once PR #1384 is finished-->
+* Docker is a powerful and widely-used software option for creating, deploying, and running applications in containers. 
+  * Used by OLE for educational applications such as `planet`
   
   
  #### Active Planet Teams Projects 
+ The Planet team is a second group of Virtual Interns that work on develloping the edicational applications for that are hoasted on the Raspberry Pi's
+ 
 * [`planet`](rbts-angular.md)
   * A Progressive Web App using Angular & CouchDB with the BeLL Apps functionality.
+  
 * [Takeout](rbts-takeout.md)
   * Takeout is an Android port of the `planet` apps.
 
 
-
-[Past Projects](rbts-past-projects.md)
 
 ## A Few Things to Know...
 
@@ -115,11 +136,14 @@ While you are free to work in your own style, we recommend you follow this basic
 
 All of our Google Hangouts sessions can be joined at <http://talk.ole.org>. Currently, we have a few scheduled sessions each week:
 
-* Happy hacking hangout
+* Happy Hacking Hangout
 * angular asia (h)acking (h)angout
-* BeLL Reboot Angular Hacking Hangout
+* Systems Hacking Hangout
+* Mobile Hacking Backup Hangout
 * Raspberry Pi Hangout
-* Take Home Hangout
+* Angular Hacking Hangout
+* Secret Hacking Hangout
+
 
 Every Monday at the "[Happy hacking hangout](http://talk.ole.org)" session, we work on problems together and catch up on what people have been doing all week. It is also advisable to schedule a day out of the week to meet with a team leader, especially if you can’t make it to the meeting. Use the calendar to set up meetings and other events with interns.
 
