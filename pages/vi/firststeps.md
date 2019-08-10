@@ -188,7 +188,15 @@ NEW .md PROCESS NEEDED
 
 # Step 8 - Create Issues and Pull Requests
 
-Create three more issues, add comments to three other issues, and resolve three issues by making the necessary changes in your repo with three separate pull requests. You should resolve three issues created by yourself, and make sure you mention in the issue you are working on, that you are in fact working on it. **Besides, you should make sure someone from the OLE team confirms to make the change that your issue has brought up before you start working on the issue.** You will follow the same steps as in [GitHub Issues](github-issues.md), continuing to improve this Markdown Wiki so that it is educational, yet easy to understand for future interns.
+In this step we will adopt the motto of "Practice makes Perfect". You will follow the same steps as in **Step 3**, continuing to improve this Markdown Wiki so that it is educational, yet easy to understand for future interns.
+
+You should: 
+* Add comments to three issues other other than your own (somebody else's issue)
+* Create three new issues (in addition to those you have already created in previous steps)
+	* Get approval to work on the issues you have created **Make sure someone from the System's team confirms that you should work on the isseue, BEFORE you start to work on it** 
+* Resolve the three issues by making the necessary changes in your repo with three separate pull requests. 
+
+	
 
 Just as your learning with this Wiki was made possible by the efforts of previous interns, now we turn to you to continue that tradition and help future interns take their First Steps. Through this step, you should try to further improve our Markdown Wiki, with better explanations, formatting fixes, and more! You must have made your pull requests and have them each approved by at least two other OLE team members/interns in order for it to be merged to the upstream repository. Just as before, announce your Pull Request on the Gitter chat so other members can review it. You may need to make some additional corrections. Learn by teaching - or editing our teaching tool, in this case!
 
@@ -198,9 +206,6 @@ Just as your learning with this Wiki was made possible by the efforts of previou
    * 5 merged pull requests (one at step 3, one at step 6 and three at step 8)
    * 4 comments made on *issues you didn't create* (one at step 6 and three at step 8)
    * 4 issues created (one at step 6 and three at step 8)
-
-**NOTE**: You can track your progress with the number of pull requests and issues [here](vtrack-progress.md).
-
 
 
 # Step 9 - Be part of the team
