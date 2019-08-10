@@ -152,7 +152,7 @@ Please subscribe to our calendar:
 * In [Google Calendar](https://calendar.google.com/), paste `ole.org_u2koassrool56icb7fqko9abac@group.calendar.google.com` into "*Add a friend's calendar*" and **hit `Enter` (do not click the + sign)**.
 * Use [this iCalendar file](https://calendar.google.com/calendar/ical/ole.org_u2koassrool56icb7fqko9abac%40group.calendar.google.com/public/basic.ics) to access our calendar from other applications.
 
-![Google Calendar add a friend's calendar](images/rbts-orientation-add-calendar.png)
+![Google Calendar add a friend's calendar](images/calendar.jpg)
 
 ## Communicate, Communicate, Communicate!
 
