@@ -207,15 +207,10 @@ Just as your learning with this Wiki was made possible by the efforts of previou
    * 4 comments made on *issues you didn't create* (one at step 6 and three at step 8)
    * 4 issues created (one at step 6 and three at step 8)
 
+**NOTE**: You can track your progress with the number of pull requests and issues [here](vtrack-progress.md).
 
 # Step 9 - Be part of the team
 
+Next thing is to add yourself to the virtual intern list found in [team.md](team.md) and create a pull request. Message us ("@/all" and "@dogi") in the Gitter chat room so that we can set up a meeting and add you to the team as soon as possible.
 
-
-
-
-
-
-
-
-
+Make sure to read through the [intern orientation document](orientation.md) before the meeting.
