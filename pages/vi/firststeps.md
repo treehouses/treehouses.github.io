@@ -153,13 +153,9 @@ Make sure that you've linked to your github.io and pull request link on the [Git
 Learning about VNC 
 
 
-# Step 4 - RPi Tutorial
+# Step 4 - Docker Tutorial
 
-NEW .md PROCESS NEEDED  
-
-Treehouse Repositories:
-https://docs.google.com/document/d/1g9Odinwx6GbyvH0B-8GSi5wL2ilUm2ohvrg3I-P_2q8/edit 
-https://docs.google.com/document/d/1rzRlMifcY6ClLymQMCRwOqyrWL9ZV6H5MBmHow6wuIY/edit# 
+Follow the directions in the [Docker Tutorial](dockertutorial.md)
 
 
 # Step 5 - Keeping Fork Updated
