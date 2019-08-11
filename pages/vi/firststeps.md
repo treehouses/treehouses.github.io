@@ -164,7 +164,7 @@ https://docs.google.com/document/d/1rzRlMifcY6ClLymQMCRwOqyrWL9ZV6H5MBmHow6wuIY/
 
 # Step 5 - Keeping Fork Updated
 
-Follow the directions at NEW .md PROCESS NEEDED to keep your username.github.io and your local repository up to date.
+Follow the directions at [Git Repositories](gitrepositories.md) to keep your username.github.io and your local repository up to date.
 
 
 # Step 6 - GitHub Issues Tutorial
