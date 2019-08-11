@@ -17,27 +17,25 @@ Typically, interns choose what project they want to work on based on their exper
 
 ### Active System Teams Projects
 
-#### [Remote](https://github.com/treehouses/remote/)
+#### [treehouses.io](https://github.com/treehouses/treehouses.github.io/)
+* Treehouses is the name of our markdown wiki which you have been using throughout the 10 steps.
+
+#### [remote](https://github.com/treehouses/remote/)
  * The Remote repository contain the android application developed by the systems team that **allows Android devices to connect to the Raspberry Pi** via Bluetooth.
    * The application can be found via the Google App Store by searching “treehouses remote”
-   
-   
+
   ![](images/remoteiconsml.jpg)
-  
-  
-#### [Treehouses](https://github.com/treehouses/treehouses.github.io/)
-* Treehouses is the name of our markdown wiki which you have been using throughout the 10 steps.
 
 #### [builder](https://github.com/treehouses/builder)
  * Builder is the ongoing repository that contains script  latest Raspbian image by installing packages, purging packages and executing custom commands, and then finally creates a bootable .img file that can be burned to the microSD card.
- 
-#### [Cli](https://github.com/treehouses/cli)
+
+#### [cli](https://github.com/treehouses/cli)
 * Cli is  Command-Line Interface for the treehouses system image, it allows different commands to be entered in the Raspberry Pi terminal
 
 #### [control](https://github.com/treehouses/control)
 * Bluetooth service for treehouses image which interacts with treehouses/remote android app
 
-#### [RPi-CouchDB](https://github.com/treehouses/rpi-couchdb)
+#### [rpi-couchdb](https://github.com/treehouses/rpi-couchdb)
 * CouchDB is a document database meaning that it. This means a NOSQL database that uses JSON for documents, an HTTP API, & JavaScript/declarative indexing. 
  * The OLE Systems team aims to use CouchDB to ensure that the programs we develop operate reliably on different computing environments.
 
@@ -47,8 +45,8 @@ Typically, interns choose what project they want to work on based on their exper
   * Used by OLE for educational applications such as `planet`
   
   
- #### Active Planet Teams Projects 
- The Planet team is a second group of Virtual Interns that work on develloping the edicational applications for that are hoasted on the Raspberry Pi's
+#### Active Planet Teams Projects 
+The Planet team is a second group of Virtual Interns that work on developing the educational applications for that are hosted on the Raspberry Pi's
  
 * [`planet`](rbts-angular.md)
   * A Progressive Web App using Angular & CouchDB with the BeLL Apps functionality.
