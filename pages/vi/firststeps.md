@@ -145,25 +145,27 @@ In this step you will:
 - [Add the SSH key to your GitHub account](https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account)
 
 
-### Find the RPi with the SSH user
-To connect to Pi via SSH you will need to know your Raspberry Pi's local IP address. If you are running the Pi without a screen, you can find the IP address by opening your terminal and type `nmap -sP 192.168.1.*` to find your raspberri Pi's IP address 
+### Log in with the Pi user
+
+Once you start up your Raspberry Pi and find its local IP address, you can connect to it from your computer. Windows users can use an SSH client like PuTTY.  
+
+Run the following in your Terminal or Git Bash:  
+`ssh pi@[local IP address]`
+
+When you connect through SSH for the first time, you will be prompted to accept the RSA key fingerprint, Type “yes” to continue.  The Pi user's default password is "raspberry".
 
 
-### Log in by Pi by the SSH key
-When you’ve found the IP address, you can connect to your Raspberry Pi from your computer. Windows users can use an SSH client like PuTTY.
+### Add ssh key to the Raspberry Pi
 
-`ssh pi@pi_ip_address` where `pi_ip_address` is the ip you found by using `nmap`
-
-When you connect through SSH for the first time, you will be prompted to accept the RSA key fingerprint, Type “yes” to continue.
-
-
-### Add the Key to treehouses
-
-### Add the key on RPI
+To add your ssh key to your Raspberry Pi, run: `treehouses sshkey add "your ssh key"`
 
 ### Log in by Root
 
+To log into root, you can run `sudo -s` while logged into the Pi user, or ssh directly into it by running `ssh root@[local IP address]` instead of `ssh pi@[local IP address]`.
+
 ### Rename Pi by Github Name
+
+To rename your Raspberry Pi, run `treehouses rename "username"` and replace `username` with your Github username.
 
 ## Tor
 Tor is a computer network run by volunteers worldwide. Each volunteer runs what is called a relay, which is just a computer that runs software allowing users to connect to the Internet via the Tor network.
