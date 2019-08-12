@@ -142,11 +142,13 @@ The process will take approximately 10 min to complete.
 
 
 # Step 3 - Markdown and Fork Tutorial
-*NEW Fork PROCESS NEEDED* 
-Follow the instructions on the NEW .md PROCESS NEEDED  
+
+Follow the instructions on the [GitHub Markdown](githubandmarkdown.md)
+
 Make sure that you've linked to your github.io and pull request link on the [Gitter chat](https://gitter.im/treehouses/Lobby) (https://YourUserName.github.io and `LinkToYourPullRequest`). Also include Raw.githack link in your pull request(https://raw.githack.com/YourUserName/YourUserName.github.io/YourBranchName/#!pages/vi/profiles/YourUserName.md).
 
-**NOTE**: Raw.githack link above is case sensitive to your username.
+| **NOTE**: Raw.githack link above is case sensitive to your username. 
+|--|
 
 * Once you complete Step 3 you will have:
     * 1 Pull request made
