@@ -145,26 +145,6 @@ In this step you will:
 - [Add the SSH key to your GitHub account](https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account)
 
 
-#### Enable SSH on your Raspberry Pi
-To enable SSH on your Raspberry Pi perform the following steps:
-1. Power off your Raspberry Pi and remove the SD card.
-1. Insert the SD card into your computer’s card reader.  
-1. Navigate to the SD card boot directory using your file manager.
-1. Create a new empty file named `ssh`, without any extension, inside the boot directory.
-1. Safely eject the SD card from your computer and put it in your Raspberry Pi.
-1. Power on your Pi. On boot Pi will check whether the ssh file exists and if it does, SSH will be enabled and the file is removed.  You will now be able to SSH into your Raspberry Pi.
-
-#### Alternative 
-To start with navigate to the home directory :
-`cd ~`
-and create a new directory called “ssh” :
-`mkdir .ssh`
-Navigate into the new directory :
-`cd .ssh`
-and create an empty “authorized_keys” file :
-
-`touch authorized_keys`
-
 ### Find the RPi with the SSH user
 To connect to Pi via SSH you will need to know your Raspberry Pi's local IP address. If you are running the Pi without a screen, you can find the IP address by opening your terminal and type `nmap -sP 192.168.1.*` to find your raspberri Pi's IP address 
 
