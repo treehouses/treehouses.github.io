@@ -136,28 +136,23 @@ The process will take approximately 10 min to complete.
 ### Option 3: NEW Windows .md PROCESS NEEDED  
 
 
-# Step 2 - Use SSH to remote control your Raspberry Pi
+# Step 2 - Use SSH to remotely control your Raspberry Pi
 
-The Systems team uses SSH(Secure Shell) to securly and remotly control the Raspberry Pi's we work with. 
-SSH works by providing an administration protocol that allows users to control and modify their remote servers over the Internet
+The Systems team uses SSH (Secure Shell) to securely and remotely control the Raspberry Pis we work with.  SSH works by providing an admin protocol that allows users to control and modify their remote servers over the Internet.
 
-In thos step please first:
-- [Generate a new SSH key and adding it to the ssh-agent](https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
-
-Then:
-- [Add a new SSH key to your GitHub account[(https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account)
-
+In this step you will:
+- [Generate a new SSH key and add it to the ssh-agent](https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)  
+- [Add the SSH key to your GitHub account](https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account)
 
 
 #### Enable SSH on your Raspberry Pi
 To enable SSH on your Raspberry Pi perform the following steps:
 1. Power off your Raspberry Pi and remove the SD card.
-1. Insert the SD card into your computer’s card reader. The SD card will mount automatically.
-1. Navigate to the SD card boot directory using your OS file manager. Linux and macOS users can also do this from the command line.
-1. Create a new empty file named ssh, without any extension, inside the boot directory.
-1. Remove the SD card from your computer and put it in your Raspberry Pi.
-1. Power on your Pi board. On boot Pi will check whether this file exists and if it does, SSH will be enabled and the file is removed.
-1. That’s all. Once Raspberry Pi boots up you can SSH into it.
+1. Insert the SD card into your computer’s card reader.  
+1. Navigate to the SD card boot directory using your file manager.
+1. Create a new empty file named `ssh`, without any extension, inside the boot directory.
+1. Safely eject the SD card from your computer and put it in your Raspberry Pi.
+1. Power on your Pi. On boot Pi will check whether the ssh file exists and if it does, SSH will be enabled and the file is removed.  You will now be able to SSH into your Raspberry Pi.
 
 #### Alternative 
 To start with navigate to the home directory :
@@ -171,7 +166,7 @@ and create an empty “authorized_keys” file :
 `touch authorized_keys`
 
 ### Find the RPi with the SSH user
-To connect to Pi via SSH you will need to know your Raspberry Pi IP address. If you are running the Pi without a screen, you can find the IP address by opening your terminal and type `nmap -sP 192.168.1.*` to find your raspberri Pi's IP address 
+To connect to Pi via SSH you will need to know your Raspberry Pi's local IP address. If you are running the Pi without a screen, you can find the IP address by opening your terminal and type `nmap -sP 192.168.1.*` to find your raspberri Pi's IP address 
 
 
 ### Log in by Pi by the SSH key
