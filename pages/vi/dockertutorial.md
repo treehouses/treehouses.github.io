@@ -9,9 +9,9 @@
 **[Docker](https://www.docker.com/what-docker)** is a computer program that performs operating-system-level virtualization also known as containerization. 
 In this section, you will learn the basics of interacting with Docker and Docker Compose through the command-line interface.
 
-The Systems team uses Docker to ensure that the tools develloped by the remote team on a wide range of devices and operating systems work the same way, so a program will not perform diffrently on computer A than computer B.
+The Systems team uses Docker to ensure that the tools developed by the remote team on a wide range of devices and operating systems work the same way, so a program will not perform differently on different computers.
 
-The docker cli is used when managing individual containers on a docker engine. It is the client command line to access the docker daemon api.
+The docker cli is used when managing individual containers on a docker engine. It uses the client command line to access the docker daemon api.
 
 We install and run Docker and Docker Compose from the Vagrant virtual machine because it is quicker to get everyone up and running and easier to troubleshoot as issues come up. Docker can also be installed directly on your machine. If you are curious about how to install Docker you can [read our guide](vi-docker-installation.md). We do **not recommend** running Planet this way because we may **not be able to help** if there are issues.
 
