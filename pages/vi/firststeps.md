@@ -136,10 +136,76 @@ The process will take approximately 10 min to complete.
 ### Option 3: NEW Windows .md PROCESS NEEDED  
 
 
-# Step 2 - Docker
-*NEW DOCKER .md PROCESS NEEDED* 
- **Docker** is a computer program that performs operating-system-level virtualization also known as containerization. In this section, you will learn the basics of interacting with Docker and Docker Compose through the command-line interface and basic commands for maintaining your Planet installation.
+# Step 2 - Use SSH to remote control your Raspberry Pi
 
+The Systems team uses SSH(Secure Shell) to securly and remotly control the Raspberry Pi's we work with. 
+SSH works by providing an administration protocol that allows users to control and modify their remote servers over the Internet
+
+In thos step please first:
+- [Generate a new SSH key and adding it to the ssh-agent](https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
+
+Then:
+- [Add a new SSH key to your GitHub account[(https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account)
+
+
+
+#### Enable SSH on your Raspberry Pi
+To enable SSH on your Raspberry Pi perform the following steps:
+1. Power off your Raspberry Pi and remove the SD card.
+1. Insert the SD card into your computer’s card reader. The SD card will mount automatically.
+1. Navigate to the SD card boot directory using your OS file manager. Linux and macOS users can also do this from the command line.
+1. Create a new empty file named ssh, without any extension, inside the boot directory.
+1. Remove the SD card from your computer and put it in your Raspberry Pi.
+1. Power on your Pi board. On boot Pi will check whether this file exists and if it does, SSH will be enabled and the file is removed.
+1. That’s all. Once Raspberry Pi boots up you can SSH into it.
+
+#### Alternative 
+To start with navigate to the home directory :
+`cd ~`
+and create a new directory called “ssh” :
+`mkdir .ssh`
+Navigate into the new directory :
+`cd .ssh`
+and create an empty “authorized_keys” file :
+
+`touch authorized_keys`
+
+### Find the RPi with the SSH user
+To connect to Pi via SSH you will need to know your Raspberry Pi IP address. If you are running the Pi without a screen, you can find the IP address by opening your terminal and type `nmap -sP 192.168.1.*` to find your raspberri Pi's IP address 
+
+
+### Log in by Pi by the SSH key
+When you’ve found the IP address, you can connect to your Raspberry Pi from your computer. Windows users can use an SSH client like PuTTY.
+
+`ssh pi@pi_ip_address` where `pi_ip_address` is the ip you found by using `nmap`
+
+When you connect through SSH for the first time, you will be prompted to accept the RSA key fingerprint, Type “yes” to continue.
+
+
+### Add the Key to treehouses
+
+### Add the key on RPI
+
+### Log in by Root
+
+### Rename Pi by Github Name
+
+## Tor
+Tor is a computer network run by volunteers worldwide. Each volunteer runs what is called a relay, which is just a computer that runs software allowing users to connect to the Internet via the Tor network.
+
+Before hitting the open Internet, the Tor Browser will connect to several different relays, wiping its tracks each step of the way, making it difficult to figure out where, and who, you really are.
+
+First start by watching this {video](https://www.youtube.com/watch?v=6czcc1gZ7Ak) on the Tor browser 
+[Get Tor](https://www.torproject.org/download/)
+
+The Systems Team utilizes this tool to provide a furhter layer of security when interacting with the Raspberry Pi's deployed in the field.
+
+### Get Tor
+[Get Tor](https://www.torproject.org/download/) and once the browser is installed, you'll have a plain old folder called Tor Browser. Open that and inside you'll see "Start Tor Browser.exe"
+
+### Turn on Tor
+
+### Turn on Tor Notice
 
 # Step 3 - Markdown and Fork Tutorial
 *NEW Fork PROCESS NEEDED* 
