@@ -147,12 +147,12 @@ In this step you will:
 
 ### Log in with the Pi user
 
-Once you start up your Raspberry Pi and find its local IP address, you can connect to it from your computer. Windows users can use an SSH client like PuTTY.  
+Once you start up your Raspberry Pi and find its **local IP address**, you can connect to it from your computer. Windows users should use Git Bash.  
 
-Run the following in your Terminal or Git Bash:  
+Run the following in your Terminal:  
 `ssh pi@[local IP address]`
 
-When you connect through SSH for the first time, you will be prompted to accept the RSA key fingerprint, Type “yes” to continue.  The Pi user's default password is "raspberry".
+When you connect through SSH for the first time, you will be prompted to accept the RSA key fingerprint, type “yes” to continue.  The Pi user's default password is "raspberry".
 
 
 ### Add ssh key to the Raspberry Pi
@@ -175,14 +175,32 @@ Before hitting the open Internet, the Tor Browser will connect to several differ
 First start by watching this {video](https://www.youtube.com/watch?v=6czcc1gZ7Ak) on the Tor browser 
 [Get Tor](https://www.torproject.org/download/)
 
-The Systems Team utilizes this tool to provide a furhter layer of security when interacting with the Raspberry Pi's deployed in the field.
+The Systems Team utilizes this tool to provide a further layer of security when interacting with the Raspberry Pis deployed in the field.
 
 ### Get Tor
-[Get Tor](https://www.torproject.org/download/) and once the browser is installed, you'll have a plain old folder called Tor Browser. Open that and inside you'll see "Start Tor Browser.exe"
+
+#### macOS
+
+You should already have [Homebrew](https://brew.sh) installed.  You can check if it's already installed by running `brew -v` in your terminal.  If you haven't yet installed it, run the following:
+```
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+brew install wget
+```
+
+Then, install Tor and Tor Browser:
+```
+brew install tor
+brew cask install tor-browser
+```
+
+#### Windows & Linux
+
+Install [Tor](https://www.torproject.org/download/)
+
 
 ### Turn on Tor
 
-### Turn on Tor Notice
+To activate Tor, ssh into your Raspberry Pi with `root`, and run `treehouses tor start` and `treehouses tor notice on`.
 
 # Step 3 - Markdown and Fork Tutorial
 *NEW Fork PROCESS NEEDED* 
