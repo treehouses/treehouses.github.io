@@ -8,7 +8,7 @@
 
 ## Introduction
 
-On GitHub, our software code is organized in repositories, each of which represents a different projects or componants of projects we're working on. For example, you have been working on one of our repositories, called ****. We would strongly suggest you to look (**look, don't touch**) at our different repositories on GitHub [here](https://github.com/treehouses/treehouses.github.io). These repositories act as a categorizing system for us to organize our code.
+On GitHub, our software code is organized in repositories, each of which represents a different projects or componants of projects we're working on. For example, you have been working on one of our repositories, called ****. We would strongly suggest you to look (**look, don't touch**) at our different repositories on [GitHub](https://github.com/treehouses/). These repositories act as a categorizing system for us to organize our code.
 
 You have previously forked a repository from Treehouses to work on, this mean that that a version of the Treehouses repository was available on your own GitHub account. You were then able to modify your fork and when you were happy with them update the upstream repository in the form of a pull request. 
 
