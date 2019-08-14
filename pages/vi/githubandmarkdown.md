@@ -95,7 +95,7 @@ Then, in the new Markdown file, include the following information:
 * your name, location/time zone, and OS (including version)
 * a short description of yourself (so your fellow virtual interns know who you are)
 
-You may use the "Preview" tab to have a primitive look of what your Markdown will look like. Please use at least 5 different types of Markdown elements so you can get an idea of how it works. Avoid using HTML as the purpose of Markdown is to make pages easy to write and read. Try to be as creative as possible. Some good examples of profiles are: [Profile 1](profiles/Loshma93.md) (links), [Profile 2](profiles/ketruong.md) (picture), [Profile 3](profiles/paulbert.md) (lists)
+You may use the "Preview" tab to have a primitive look of what your Markdown will look like. Please use at least 5 different types of Markdown elements so you can get an idea of how it works. Avoid using HTML as the purpose of Markdown is to make pages easy to write and read. Try to be as creative as possible. Some good examples of profiles are: [Profile 1](profiles/Loshma93.md) (links), [Profile 2](profiles/ketruong.md) (picture), [Profile 3](profiles/paulbert.md) (lists) **Needs to be changed!**
 
 When you are finished, press 'commit changes' below.
 
@@ -119,7 +119,7 @@ Once you have your profile ready, it's time to create a pull request. Click on o
 * include the raw.githack link to your Markdown profile page in the pull request description
 * scroll down the page and verify you used at least 5 **different** Markdown elements in your profile
 
-Finally, click "Create pull request" button and post the link to your github.io and profile pull request in the [gitter chat](https://gitter.im/open-learning-exchange/systems):
+Finally, click "Create pull request" button and post the link to your github.io and profile pull request in the [gitter chat](https://gitter.im/treehouses/Lobby):
 
 > @/all I'm on step 3 - GitHub and Markdown, please look at `https://YourUserName.github.io` and review my profile pull request `LinkToYourPullRequest`
 
@@ -128,7 +128,7 @@ Remember, it can take a while for `https://YourUserName.github.io` to be up and 
 
 Someone from our team will review the changes and notify you on gitter. Often there will be some feedback from the reviewer for you to address. If that is the case, make changes to your branch and comment on the pull request when done. Any changes you make to your branch will be automatically updated in the pull request. Once you get 3 approving reviews, we will merge your Markdown profile with the main repository.
 
-After the pull request is merged, you'll be able to see your personal page at `treehouses.github.io/#!pages/vi/profiles/<YourUserName>.md`. Let us know in the [gitter.im chat](https://gitter.im/open-learning-exchange/systems) after you complete this step.
+After the pull request is merged, you'll be able to see your personal page at `treehouses.github.io/#!pages/vi/profiles/<YourUserName>.md`. Let us know in the [gitter.im chat](https://gitter.im/treehouses/Lobby) after you complete this step.
 
 **NOTE**: Try to add and experiment with as many markdown elements as you can and make your page attractive. A list of sample profile pages can be found [**here**](https://github.com/treehouses/treehouses.github.io/tree/master/pages/vi/profiles). Be creative.
 
