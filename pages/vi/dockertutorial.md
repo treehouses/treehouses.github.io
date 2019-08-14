@@ -1,7 +1,6 @@
 # Docker Tutorial
 
 ## Objectives
-- Install Docker
 - Learn about Docker and Docker Compose
 
 ## Introduction
@@ -11,9 +10,9 @@ In this section, you will learn the basics of interacting with Docker and Docker
 
 The Systems team uses Docker to ensure that the tools developed by the remote team on a wide range of devices and operating systems work the same way, so a program will not perform differently on different computers.
 
-The docker cli is used when managing individual containers on a docker engine. It uses the client command line to access the docker daemon api.
+The Docker CLI is used when managing individual containers on a docker engine. It uses the client command line to access the Docker daemon api.
 
-We install and run Docker and Docker Compose from the Vagrant virtual machine because it is quicker to get everyone up and running and easier to troubleshoot as issues come up. Docker can also be installed directly on your machine. If you are curious about how to install Docker you can [read our guide](vi-docker-installation.md). We do **not recommend** running Planet this way because we may **not be able to help** if there are issues.
+Docker and Docker Compose are installed on the Raspberry Pi by default, and you can access these commands by ssh-ing into your Pi.
 
 We suggest you to look at [Docker CLI's reference](https://docs.docker.com/engine/reference/commandline/cli/) and [docker-compose CLI's reference](https://docs.docker.com/compose/reference/overview/) to find out more about their commands and usage.
 
