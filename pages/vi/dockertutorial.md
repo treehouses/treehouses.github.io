@@ -5,21 +5,16 @@
 
 ## Introduction
 
-**[Docker](https://www.docker.com/what-docker)** is a computer program that performs operating-system-level virtualization also known as containerization. 
-In this section, you will learn the basics of interacting with Docker and Docker Compose through the command-line interface.
+**[Docker](https://www.docker.com/what-docker)** is a computer program that performs operating-system-level virtualization also known as containerization.  In this section, you will learn the basics of interacting with Docker and Docker Compose through the command-line interface by **ssh-ing into your Raspberry Pi**.
 
 The Systems team uses Docker to ensure that the tools developed by the remote team on a wide range of devices and operating systems work the same way, so a program will not perform differently on different computers.
 
 The Docker CLI is used when managing individual containers on a docker engine. It uses the client command line to access the Docker daemon api.
 
-Docker and Docker Compose are installed on the Raspberry Pi by default, and you can access these commands by ssh-ing into your Pi.
-
 We suggest you to look at [Docker CLI's reference](https://docs.docker.com/engine/reference/commandline/cli/) and [docker-compose CLI's reference](https://docs.docker.com/compose/reference/overview/) to find out more about their commands and usage.
 
 You could also use `docker --help` and `docker-compose --help` to see brief usage instruction of other commands that you might need. It's also very helpful to run `docker COMMAND --help` or `docker-compose COMMAND --help` for information on a specific command.
 
- 
- 
 The docker-compose cli can be used to manage a multi-container application. It also moves many of the options you would enter on the docker run cli into the docker-compose.yml file for easier reuse. 
 It works as a front end "script" on top of the same docker api used by docker, so you can do everything docker-compose does with docker commands and a lot of shell scripting.
 
@@ -29,9 +24,9 @@ It works as a front end "script" on top of the same docker api used by docker, s
 
 
 
-# Docker Installation
+## Docker Installation
 
-The below guide includes steps to install Docker directly on to your machine. 
+**Docker and Docker Compose are installed on your Raspberry Pi by default, and the subsequent exercises can be performed without any installations.**  The below guide includes steps to install Docker and Docker Compose directly on to your computer, in case of further development, but is entirely optional. 
 
 
 ### Windows
@@ -120,7 +115,7 @@ Follow the official [Install Docker Compose](https://docs.docker.com/compose/ins
 
 
 
-## Docker
+## Docker Commands
 
 Please read about [Docker concepts](https://docs.docker.com/get-started/#docker-concepts) and [Docker overview](https://docs.docker.com/engine/docker-overview/) to get a sense of what Docker is.
 
