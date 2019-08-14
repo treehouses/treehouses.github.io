@@ -8,7 +8,7 @@
 
 ## Preparation
 
-[GitHub](https://help.github.com/categories/writing-on-github/) – a web-based hosting service for version control using git, source code management system for Treehouses.
+[GitHub](https://help.github.com/categories/writing-on-github/) – a web-based hosting service for version control using git, source code management system for treehouses.
 
 [Markdown](https://en.wikipedia.org/wiki/Markdown) – a lightweight markup language with plain text formatting syntax.
 
@@ -54,10 +54,10 @@ There is a lot to learn about GitHub, but to acclimatize you to it, we will walk
 
 Forking is essentially creating a copy of a repository on your own GitHub account, to avoid editing and, possibly, messing up with the main repository.
 
-Now, go to [Treehouses github.io repository](https://github.com/treehouses/treehouses.github.io) and click on the "Fork" button to fork the repository to your own GitHub account.
+Now, go to [treehouses github.io repository](https://github.com/treehouses/treehouses.github.io) and click on the "Fork" button to fork the repository to your own GitHub account.
 
-**NOTE**: It is very important to **distinguish between your personal GitHub account and Treehouses's account**.
-As we want to keep a 'clean' version of our code, you should first fork the repository. You should commit any changes you make to a branch on this version of the repository. These changes should be sent back to Treehouses repository through pull requests. Treehouses code will be updated when the pull requests are approved.
+**NOTE**: It is very important to **distinguish between your personal GitHub account and treehouses's account**.
+As we want to keep a 'clean' version of our code, you should first fork the repository. You should commit any changes you make to a branch on this version of the repository. These changes should be sent back to treehouses repository through pull requests. treehouses code will be updated when the pull requests are approved.
 
 ### Go to Settings and rename your repository
 
