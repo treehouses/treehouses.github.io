@@ -147,8 +147,8 @@ Follow the instructions on [GitHub and Markdown](githubandmarkdown.md)
 
 Make sure that you've linked to your github.io and pull request in the [Gitter chat](https://gitter.im/treehouses/Lobby). Also include the `raw.githack` link in your pull request (https://raw.githack.com/YourUserName/YourUserName.github.io/YourBranchName/#!pages/vi/profiles/YourUserName.md).
 
-| **NOTE**: The `raw.githack` link is case sensitive to your username. 
-|--|
+**NOTE**: The `raw.githack` link is case sensitive to your username. 
+
 
 * Once you complete Step 3 you will have:
     * 1 Pull request made
