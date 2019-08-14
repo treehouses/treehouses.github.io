@@ -142,6 +142,6 @@ After the pull request is merged, you'll be able to see your personal page at `t
 
 [GitHub - How to fork a repo](https://help.github.com/articles/fork-a-repo/) - A more in-depth explanation about how and why we fork repositories.
 
-[Other helpful links and videos](vi-faq.md#Helpful_Links)
+[Other helpful links and videos](faq.md#Helpful_Links)
 
 #### Return to [First Steps](firststeps.md)
