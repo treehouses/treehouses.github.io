@@ -8,14 +8,14 @@
 
 ## Introduction
 
-On GitHub, our software code is organized in repositories, each of which represents a different projects or componants of projects we're working on. For example, you have been working on one of our repositories, called ****. We would strongly suggest you to look (**look, don't touch**) at our different repositories on [GitHub](https://github.com/treehouses/). These repositories act as a categorizing system for us to organize our code.
+On GitHub, our software code is organized in repositories, each of which represents different projects or components of projects we're working on. For example, you have been working on one of our repositories, called **treehouses.github.io**. We would strongly suggest you to look (**look, don't touch**) at our different repositories on [GitHub](https://github.com/treehouses/). These repositories act as a categorizing system for us to organize our code.
 
-You have previously forked a repository from Treehouses to work on, this mean that that a version of the Treehouses repository was available on your own GitHub account. You were then able to modify your fork and when you were happy with them update the upstream repository in the form of a pull request. 
+You previously forked a repository from treehouses to work on, which means that that a version of the treehouses repository was available on your own GitHub account. You were then able to modify your fork, then send an update to the upstream repository in the form of a pull request. 
 
 
 ## Start here
 
-This is just a summary of the steps that you will need to perform. Please, keep on reading for a detailed explanation of each step.
+This is just a summary of the steps that you will need to perform. Keep on reading for a detailed explanation of each step.
 
 
 * [Clone Your GitHub Repository username.github.io](#Clone_Your_GitHub_Repository_username.github.io)
@@ -24,12 +24,12 @@ This is just a summary of the steps that you will need to perform. Please, keep 
 * [Configure a Remote Repository for Your Fork](#Configure_a_Remote_Repository_for_Your_Fork)
 * [Sync Your Fork](#Sync_Your_Fork)
 
-| **NOTE**: You will see some common names used in git (*which you can change*), such as `master: the name of the main branch`, `upstream: the location where you forked the repository from`, and `origin: the location you cloned repository from`. Both `upstream and origin` are considered **remote**. Keep in mind also, a repository may contain many branches.
-|--|
+**NOTE**: You will see some common names used in git (*which you can change*), such as `master`: the name of the main branch, `upstream`: the location where you forked the repository from, and `origin`: the location you cloned repository from. Both `upstream and origin` are considered **remote**. Keep in mind also, a repository may contain many branches.
+
 
 ### Clone Your GitHub Repository username.github.io
 
-Now, we will be using GitHub repositories on a command line, which means that there is a separate step to get your GitHub repository on your OS. To be clear, you will be using both the command line and the GitHub user interface, meaning that you need to constantly be checking to make sure that your version is not behind to avoid merge conflicts. Therefore, open a command line and open your username.github.io repository on the  GitHub user interface. You then need to copy the link provided in the repository.
+Now, we will be using GitHub repositories on a command line, which means that there is a separate step to get your GitHub repository on your OS. To be clear, you will be using both the command line and the GitHub user interface, meaning that you **need to constantly check to make sure that your version is not behind to avoid merge conflicts**. Therefore, open a command line and open your username.github.io repository on the  GitHub user interface. You then need to copy the link provided in the repository.
 
 Then, turn to your command prompt and type your repository URL in the form of `git clone https://github.com/EmilyLarkin/EmilyLarkin.github.io.git` into the command line. Be sure to use the correct URL to clone your repository (you will obviously type your own username).  If you  `cd  ` into your `username.github.io` you can see different files which you will be working on during your internship.
 
