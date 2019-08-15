@@ -20,8 +20,29 @@ Once you start up your Raspberry Pi and find its **local IP address**, you can c
 Run the following:  
 `ssh pi@[local IP address]`
 
-When you connect through SSH for the first time, you will be prompted to accept the RSA key fingerprint, type “yes” to continue.  The Pi user's default password is "raspberry".
+When you connect through SSH for the first time, you will be prompted to accept the RSA key fingerprint, type “yes” to continue.  The Pi user's default password is "raspberry".  You should see something like this:
+```bash
+$ ssh pi@10.0.0.32
+The authenticity of host '10.0.0.32 (10.0.0.32)' can't be established.
+ECDSA key fingerprint is SHA256:BzmwLK14V/EVa0m/0/SYFtGM/60zm7mFe5vVCWAxqe4.
+Are you sure you want to continue connecting (yes/no)? yes 
+Warning: Permanently added '10.0.0.32' (ECDSA) to the list of known hosts.
+Enter passphrase for key '/Users/username/.ssh/id_rsa': 
+Linux treehouses 4.19.58-v7+ #1245 SMP Fri Jul 12 17:25:51 BST 2019 armv7l
 
+The programs included with the Debian GNU/Linux system are free software;
+the exact distribution terms for each program are described in the
+individual files in /usr/share/doc/*/copyright.
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Thu Aug 15 03:24:59 2019 from 10.0.0.36
+
+SSH is enabled and the default password for the 'pi' user has not been changed.
+This is a security risk - please login as the 'pi' user and type 'passwd' to set a new password.
+
+pi@treehouses:~ $ 
+```
 
 ### Add ssh key to the Raspberry Pi
 
