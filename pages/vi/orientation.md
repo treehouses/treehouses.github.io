@@ -60,7 +60,7 @@ The Planet team is a second group of Virtual Interns that work on developing the
 
 Once you officially become a virtual intern, you will receive email invites to become GitHub organization members of [open-learning-exchange](https://github.com/open-learning-exchange), [ole-vi](https://github.com/ole-vi), and [treehouses](https://github.com/treehouses).
 
-**Now you should work on OLE's repositories instead of your own forked repositories, the workflow will be [Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)**. Note that this will give you the ability to make bigger mistakes - so make sure you always double check what branch you are working on. Remember to commit often and create pull request early, so other virtual interns could look at your code and make sure you are on the right track at an early stage.
+**Now you should work on Treehouses's repositories instead of your own forked repositories, the workflow will be [Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)**. Note that this will give you the ability to make bigger mistakes - so make sure you always double check what branch you are working on. Remember to commit often and create pull request early, so other virtual interns could look at your code and make sure you are on the right track at an early stage.
 
 You will now have the ability to review, close, and merge pull requests and issues.
 
@@ -68,7 +68,7 @@ Once you have accepted your invitation, mark yourself as a public member in the 
 
 ### Reviewing Pull Requests and Issues
 
-One major responsibility as an intern is to review and help prospective interns with their issues / pull request in OLE. You can start a review by going to the files changed tab on a pull request. You can read more about [Review on GitHub](https://help.github.com/articles/about-pull-request-reviews/). 
+One major responsibility as an intern is to review and help prospective interns with their issues / pull request in OLE Treehouses. You can start a review by going to the files changed tab on a pull request. You can read more about [Review on GitHub](https://help.github.com/articles/about-pull-request-reviews/). 
 
 Since we are a very diverse community with people coming from different background and culture, it might be hard to find the right language to use in reviewing other's code. Please make sure to read [**a guide for reviewing code and having your code reviewed**](https://github.com/thoughtbot/guides/tree/master/code-review#code-review) for some useful tips.
 
@@ -82,7 +82,7 @@ You should check if the following conditions are met:
 * [x] no merge conflicts
 * [x] commits are associated with GitHub account
 
-When you comment / review an issue or pull request, message those involved on the [Gitter chat](https://gitter.im/open-learning-exchange/chat) with a link to the issue / pull request. Also, if you find any issue that must be addressed with a pull request, do not forget to use the `Request changes` option when creating your review.
+When you comment / review an issue or pull request, message those involved on the [Gitter chat](https://gitter.im/open-learning-exchange/treehouses/Lobby) with a link to the issue / pull request. Also, if you find any issue that must be addressed with a pull request, do not forget to use the `Request changes` option when creating your review.
 
 ### Merging a Pull Request
 
@@ -97,7 +97,7 @@ When you are ready to merge the pull request:
   * An example of good commit title is: "update vi-configuration.md (fix #1530) (#1557)", where "1530" is the issue number and "1557" is pull request number.
   * Read more about [closing Issues using keywords](https://help.github.com/articles/closing-issues-using-keywords/).
 
-Every time you merge a pull request, message the author on [Gitter chat](https://gitter.im/open-learning-exchange/chat), make sure you include a link to the pull request and commit id.
+Every time you merge a pull request, message the author on [Gitter chat](https://gitter.im/open-learning-exchange/treehouses/Lobby), make sure you include a link to the pull request and commit id.
 
 ## Form a Working Routine and Schedule
 
