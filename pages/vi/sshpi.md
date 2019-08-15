@@ -89,4 +89,4 @@ Install [Tor](https://www.torproject.org/download/)
 
 ### Turn on Tor
 
-To activate Tor, SSH into your Raspberry Pi with `root`, and run `treehouses tor start` and `treehouses tor notice on`.
+To activate Tor, SSH into your Raspberry Pi with `root`, and run `treehouses tor add 22`, `treehouses tor add 80`, and `treehouses tor notice on`.
