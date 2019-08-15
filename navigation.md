@@ -18,7 +18,7 @@
   - - - -
   * [Step 0 - Introductory Steps](pages/vi/firststeps.md#Step_0_-_Introductory_Steps)
   * [Step 1 - Installing and finding your Raspberry Pi](pages/vi/firststeps.md#Step_1_-_Installing_and_finding_your_Raspberry_Pi)
-  * [Step 2 - Docker](pages/vi/firststeps.md#step_2_Docker)
+  * [Step 2 - SSH Tutorial](pages/vi/sshpi.md)
   * [Step 3 - Markdown and Fork Tutorial](pages/vi/githubandmarkdown.md)
   * [Step 4 - Docker Tutorial](pages/vi/dockertutorial.md)
   * [Step 5 - Keeping Fork Updated](pages/vi/gitrepositories.md)
