@@ -99,23 +99,6 @@ When you are ready to merge the pull request:
 
 Every time you merge a pull request, message the author on [Gitter chat](https://gitter.im/open-learning-exchange/chat), make sure you include a link to the pull request and commit id.
 
-### Standup Message
-
-Every time you work on OLE projects and issues, you should post the "[stand-up](https://en.wikipedia.org/wiki/Stand-up_meeting)" message in [our Gitter standup room](https://gitter.im/open-learning-exchange/standup) before you start working. Use the following format:
-
-```
-What did I achieve yesterday?
-- Mention what you were able to achieve
-
-What is my aim for today?
-- List what you are working on - consider linking to the issues
-
-What obstacles are in the way of our progress?
-- List any problems
-```
-
-This is especially helpful if you are not able to attend our Google Hangouts sessions.
-
 ## Form a Working Routine and Schedule
 
 ### Recommended Daily Routine
@@ -124,7 +107,6 @@ While you are free to work in your own style, we recommend you follow this basic
 
 * Check Gitter interns room and your Gitter private messages.
 * Join the [OLE Google Hangouts session](http://talk.ole.org) if you are able to, so you can follow what everyone is working on and get help fast.
-* Write a message in [Gitter standup room](https://gitter.im/open-learning-exchange/standup) with the format mentioned above.
 * Review any issues or pull requests that have been added or changed on [open-learning-exchange.github.io](https://github.com/open-learning-exchange/open-learning-exchange.github.io) since last time you reviewed.
 * Work on your issues and write in intern chat any time you run into problems.
 * Make pull requests as early as possible so you can get feedback as you work.
