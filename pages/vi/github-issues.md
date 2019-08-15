@@ -20,8 +20,8 @@ We encourage you to file as many issues as you can, no matter how big or small. 
 
 ## Create an Issue
 
-First, you will need to open an issue within the right repository, in this case [treehouses](https://github.com/treehouses/treehouses.github.io) and explain what problem you have discovered or improvement you want to implement. If you are explaining a bug or how to replicate an issue, please be as explicit as possible and use pictures as necessary. You will then research the possible solutions or ideas on how to address the issue before detailing your proposed solution. 
-Your Pull Request (PR) will then be aproved and someone else will hopefully provide some helpful input, you can then move ahead with making the proposed changes.
+First, you will need to open an issue within the right repository, in this case [treehouses.github.io](https://github.com/treehouses/treehouses.github.io), and explain the problem you have discovered, or improvement you want to implement. If you are explaining a bug or how to replicate an issue, please be as explicit as possible and use pictures as necessary. You will then research the possible solutions or ideas on how to address the issue before detailing your proposed solution. 
+Your Pull Request (PR) will then be approved and someone else will hopefully provide some helpful input, you can then move ahead with making the proposed changes.
 
 ### Image needed
 | **IMPORTANT:** Issues are _not required_ to be approved _before_ a Pull Request is submitted for the respective fix; however, we do suggest that you wait until someone from the the System Team confirms/approves the change that your issue addresses BEFORE you begin work on the fix. |
@@ -30,7 +30,7 @@ Your Pull Request (PR) will then be aproved and someone else will hopefully prov
 If a Systems Team member does not approve your issue prior to the creation of the Pull Request, your efforts may be in vain. Your Issue may not be approved, among many other reasons this may be because:
 * Your issue is not a problem to begin with
 * Your issue does not improve treehouses enough 
-* Your fix is not siutable 
+* Your fix is not suitable 
 
 In this case your the Pull Request will not be merged and the Issue will not be counted towards your "First Steps" progress. Therefore, it is suggested that you wait for the OLE member(s) to approve your Issue submission.'
 
@@ -54,16 +54,17 @@ Use `git checkout master` to switch to master branch, then use `git checkout -b 
 
 Now you can go and make the proposed changes to your local files. You can use any IDE or text editor you prefer. You can also use VIM or Nano to edit files from the terminal. [This guide on VIM](https://www.vim.org/docs.php ) and [this guide on Nano](https://www.nano-editor.org/docs.php) contain more information on their proper usage.
 
-| NOTE: Use `git branch` to see which branch you are in. Your `master` branch is the base working branch. It needs to remain untouched just in case you need to revert some changes back to a working version. Make sure you are on right branch using `git checkout <branch-name>` while making proposed changes to your local files and while committing.
+| NOTE: Use `git branch` to see which branch you are in. Your `master` branch is the base working branch. It needs to remain untouched just in case you need to revert some changes back to a working version. Make sure you are on right branch using `git branch` to see what branch you are currently on, and `git checkout <branch-name>` to switch to the proper branch before making changes to your local files and committing.
 | --- |
 If you're still confused, that's quite alright. [Forking Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow) can be quite challenging at first. See this diagram below. For better context, the new branch you just made is inside your "Forked GitHub IO".
 
+## NEED DIAGRAM HERE
 
 ### Preview Changes Locally
 
 After making modifications to your local files and before making a commit, you should preview the changes locally. The following link, [how to preview changes](http://dynalon.github.io/mdwiki/#!faq.md), gives all the information about how to preview changes from your machine. There's also another option to preview using online environment. This [link](https://dillinger.io/) takes you to the online environment.
 
-| NOTE: In case you have come up with the wrong edit and if you'd like to revert it back to the previous version of the file follow this        [link](https://githowto.com/undoing_local_changes). This is applicable only before committing the change. 
+| NOTE: In case you have come up with the wrong edit and if you'd like to revert it back to the previous version of the file follow this [link](https://githowto.com/undoing_local_changes). This is applicable only before committing the change. 
 | --- |
 
 ## Create a Commit and Push the Changes
@@ -81,9 +82,9 @@ Use the next commands to commit and push the changes:
 
 ### Commit Message Style Guide
 
-Because the commits you will be making on this markdown wiki are fairly basic, it is not necessary to enforce a wordy commit style. However, in the future, when you start to work on more complex projects, it is helpful to write your commit messages in a certain way. Here is an article on [how to write good commit messages](https://chris.beams.io/posts/git-commit/).
+Because the commits you will be making on this Markdown wiki are fairly basic, it is not necessary to enforce a wordy commit style. However, in the future, when you start to work on more complex projects, it is helpful to write your commit messages in a certain way. Here is an article on [how to write good commit messages](https://chris.beams.io/posts/git-commit/).
 
-For edits to this markdown wiki, we recommend that your commit messages only consist of the subject line (refer to the article for more on what the subject is). Rules 2-5 are the most important:
+For edits to this Markdown wiki, we recommend that your commit messages only consist of the subject line (refer to the article for more on what the subject is). Rules 2-5 are the most important:
 
 * Limit the subject line to 50 characters
 * Capitalize the subject line
@@ -108,9 +109,9 @@ You can also use the raw.githack url generator on <https://raw.githack.com>
 2.  Navigate to the page you changed in your fork of the GitHub repository  
 3.  Copy the URL in your browser and paste it in the field on <https://raw.githack.com>
 4.  Select the Development URL
-5.  Add ```#!``` after the forward slash proceeding your branch name, this will show the markdown in presentation mode rather than as raw markdown.
+5.  Add `#!` after the forward slash proceeding your branch name, this will show the markdown in presentation mode rather than as raw markdown.
 
-Raw.githack makes it easy to see what the page will look like if your branch is merged, so don't forget to include a raw.githack link in your next step, the pull request.
+Raw.githack makes it easy to see what the page will look like if your branch is merged, so don't forget to include a raw.githack link in your pull request.
 
 ## Create a Pull Request
 If you login to your own fork of OLE on Github, GitHub will notice that you recently pushed a new branch. The fork can be found via `https://github.com/YourUsername/YourUsername.github.io`, replacing YourUsername with your own details. Press the green button that says Compare & pull request. In this new page, give the PR a title and description. Once you are done with filling out these forms, submit the pull request by clicking on the green create pull request button.
@@ -124,7 +125,7 @@ Additionally, creating a checklist will help others understand what you have don
 [x] Did they make a branch for their patch?
 [x] Does the pull request actually fix the issue?
 [x] Check the pull request on raw.githack, does it display without any errors?
-[x] Is there any merge conflicts?
+[x] Are there any merge conflicts?
 [x] Make sure that people use their GitHub accounts when making commits through git
 
 Some of these items are of course optional, but try to include as much useful information for others as possible in your checklists because nobody really wants to work on something that has already been completed by someone else.
@@ -151,7 +152,7 @@ This is an exercise to help you familiarize with GitHub issues, committing, and 
 ## Useful Links
 
 [Mastering Issues](https://guides.github.com/features/issues/) - The official Git Guide on the basics of filing an issue.
-[Helpful links and videos](vi-faq.md#Helpful_Links)
+[Helpful links and videos](faq.md#Helpful_Links)
 [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
 
 
