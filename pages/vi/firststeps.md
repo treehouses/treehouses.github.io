@@ -161,7 +161,7 @@ Follow the directions in the [Docker Tutorial](dockertutorial.md)
 
 # Step 5 - Keeping Fork Updated
 
-Follow the directions at NEW .md PROCESS NEEDED to keep your username.github.io and your local repository up to date.
+Follow the directions at [Git Repositories](gitrepositories.md) to keep your username.github.io and your local repository up to date.
 
 
 # Step 6 - GitHub Issues Tutorial
