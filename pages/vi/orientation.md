@@ -39,32 +39,19 @@ Interns usually choose what project they want to work on based on their experien
 * CouchDB is a document database meaning that it. This means a NOSQL database that uses JSON for documents, an HTTP API, & JavaScript/declarative indexing. 
   * The OLE Systems team aims to use CouchDB to ensure that the programs we develop operate reliably on different computing environments.
 
-
-#### [Docker](https://hub.docker.com/r/treehouses/) <!--replace link to rbts-docker.md once PR #1384 is finished-->
+#### [Docker](https://hub.docker.com/r/treehouses/)
 * Docker is a powerful and widely-used software option for creating, deploying, and running applications in containers. 
   * Used by OLE for educational applications such as `planet`
-  
-  
-#### Active Planet Teams Projects 
-The Planet team is a second group of Virtual Interns that work on developing the educational applications for that are hosted on the Raspberry Pi's
- 
-* [`planet`](rbts-angular.md)
-  * A Progressive Web App using Angular & CouchDB with the BeLL Apps functionality.
-  
-* [Takeout](rbts-takeout.md)
-  * Takeout is an Android port of the `planet` apps.
-
-
 
 ## A Few Things to Know...
 
-Once you officially become a virtual intern, you will receive email invites to become GitHub organization members of [open-learning-exchange](https://github.com/open-learning-exchange), [ole-vi](https://github.com/ole-vi), and [treehouses](https://github.com/treehouses).
+Once you officially become a virtual intern, you will receive email invites to become GitHub organization members of[treehouses](https://github.com/treehouses), [open-learning-exchange](https://github.com/open-learning-exchange), and [ole-vi](https://github.com/ole-vi).
 
 **Now you should work on Treehouses's repositories instead of your own forked repositories, the workflow will be [Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)**. Note that this will give you the ability to make bigger mistakes - so make sure you always double check what branch you are working on. Remember to commit often and create pull request early, so other virtual interns could look at your code and make sure you are on the right track at an early stage.
 
 You will now have the ability to review, close, and merge pull requests and issues.
 
-Once you have accepted your invitation, mark yourself as a public member in the [list of OLE contributors.](https://github.com/orgs/open-learning-exchange/people)
+Once you have accepted your invitation, mark yourself as a public member in the [list of OLE contributors.](https://github.com/orgs/treehouses/people)
 
 ### Reviewing Pull Requests and Issues
 
@@ -82,7 +69,7 @@ You should check if the following conditions are met:
 * [x] no merge conflicts
 * [x] commits are associated with GitHub account
 
-When you comment / review an issue or pull request, message those involved on the [Gitter chat](https://gitter.im/open-learning-exchange/treehouses/Lobby) with a link to the issue / pull request. Also, if you find any issue that must be addressed with a pull request, do not forget to use the `Request changes` option when creating your review.
+When you comment / review an issue or pull request, message those involved on the [Gitter chat](https://gitter.im/treehouses/Lobby) with a link to the issue / pull request. Also, if you find any issue that must be addressed with a pull request, do not forget to use the `Request changes` option when creating your review.
 
 ### Merging a Pull Request
 
@@ -97,7 +84,7 @@ When you are ready to merge the pull request:
   * An example of good commit title is: "update vi-configuration.md (fix #1530) (#1557)", where "1530" is the issue number and "1557" is pull request number.
   * Read more about [closing Issues using keywords](https://help.github.com/articles/closing-issues-using-keywords/).
 
-Every time you merge a pull request, message the author on [Gitter chat](https://gitter.im/open-learning-exchange/treehouses/Lobby), make sure you include a link to the pull request and commit id.
+Every time you merge a pull request, message the author on [Gitter chat](https://gitter.im/treehouses/Lobby), make sure you include a link to the pull request and commit id.
 
 ## Form a Working Routine and Schedule
 
@@ -107,7 +94,7 @@ While you are free to work in your own style, we recommend you follow this basic
 
 * Check Gitter interns room and your Gitter private messages.
 * Join the [OLE Google Hangouts session](http://talk.ole.org) if you are able to, so you can follow what everyone is working on and get help fast.
-* Review any issues or pull requests that have been added or changed on [open-learning-exchange.github.io](https://github.com/open-learning-exchange/open-learning-exchange.github.io) since last time you reviewed.
+* Review any issues or pull requests that have been added or changed on [treehouses.io](https://github.com/treehouses/treehouses.github.io) since last time you reviewed.
 * Work on your issues and write in intern chat any time you run into problems.
 * Make pull requests as early as possible so you can get feedback as you work.
 * Try to close issues using some of the following keywords and variations of them in the headings: `close`, `fix` and `resolve`. [Closing Issues using keywords](https://help.github.com/articles/closing-issues-using-keywords/)
