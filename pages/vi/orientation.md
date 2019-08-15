@@ -2,7 +2,7 @@
 
 ## Welcome to the Treehouses Intern Team!
 
-Congratulations! You have completed the first steps and have been selected to join the Open Learning Exchange's Systems Engineering team. 
+Congratulations! You have completed the first steps and have been selected to join treehouses the Open Learning Exchange's Systems Engineering team. 
 Please remember that we expect interns to contribute at least 16 hours a week for a minimum duration of 3 months, in which time you will be working on the Treehouses repositories to solve issues and develop tools for the Open Learning Exchange. 
 
 If you do not think that this is a commitment that you can currently honor, we are happy to accept you later on when you are able to!
