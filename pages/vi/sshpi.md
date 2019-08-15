@@ -1,13 +1,23 @@
-In this step you will:
+# SSH Tutorial
+
+## Objectives
+
+* Set up your SSH key
+* Log into your Pi with Root
+* Set up Tor
+
+
+### Create your SSH key
+Follow these steps to create your SSH key:
 - [Generate a new SSH key and add it to the ssh-agent](https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)  
 - [Add the SSH key to your GitHub account](https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account)
 
 
 ### Log in with the Pi user
 
-Once you start up your Raspberry Pi and find its **local IP address**, you can connect to it from your computer. Windows users should use Git Bash.  
+Once you start up your Raspberry Pi and find its **local IP address**, you can connect to it from your computer using your Terminal. Windows users should use Git Bash.  
 
-Run the following in your Terminal:  
+Run the following:  
 `ssh pi@[local IP address]`
 
 When you connect through SSH for the first time, you will be prompted to accept the RSA key fingerprint, type “yes” to continue.  The Pi user's default password is "raspberry".
@@ -15,11 +25,11 @@ When you connect through SSH for the first time, you will be prompted to accept 
 
 ### Add ssh key to the Raspberry Pi
 
-To add your ssh key to your Raspberry Pi, run: `treehouses sshkey add "your ssh key"`
+To add your SSH key to your Raspberry Pi, run: `treehouses sshkey add "your SSH key"` (copy-paste your SSH key in between the quotes).
 
 ### Log in by Root
 
-To log into root, you can run `sudo -s` while logged into the Pi user, or ssh directly into it by running `ssh root@[local IP address]` instead of `ssh pi@[local IP address]`.
+To log into root, you can run `sudo -s` while logged into the Pi user, or SSH directly into it by running `ssh root@[local IP address]` instead of `ssh pi@[local IP address]`.
 
 ### Rename Pi by Github Name
 
@@ -58,4 +68,4 @@ Install [Tor](https://www.torproject.org/download/)
 
 ### Turn on Tor
 
-To activate Tor, ssh into your Raspberry Pi with `root`, and run `treehouses tor start` and `treehouses tor notice on`.
+To activate Tor, SSH into your Raspberry Pi with `root`, and run `treehouses tor start` and `treehouses tor notice on`.
