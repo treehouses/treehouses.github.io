@@ -1,9 +1,9 @@
 # Virtual Intern Orientation
 
-## Welcome to the Treehouses Intern Team!
+## Welcome to the treehouses Intern Team!
 
 Congratulations! You have completed the first steps and have been selected to join treehouses the Open Learning Exchange's Systems Engineering team. 
-Please remember that we expect interns to contribute at least 16 hours a week for a minimum duration of 3 months, in which time you will be working on the Treehouses repositories to solve issues and develop tools for the Open Learning Exchange. 
+Please remember that we expect interns to contribute at least 16 hours a week for a minimum duration of 3 months, in which time you will be working on the treehouses repositories to solve issues and develop tools for the Open Learning Exchange. 
 
 If you do not think that this is a commitment that you can currently honor, we are happy to accept you later on when you are able to!
 
@@ -18,11 +18,11 @@ Interns usually choose what project they want to work on based on their experien
 ### Active System Teams Projects
 
 #### [treehouses.io](https://github.com/treehouses/treehouses.github.io/)
-* Treehouses is the name of our markdown wiki which you have been using throughout the 10 steps.
+* treehouses is the name of our Markdown wiki which you have been using throughout the 10 steps.
 
 #### [remote](https://github.com/treehouses/remote/)
- * The Remote repository contain the android application developed by the systems team that **allows Android devices to connect to the Raspberry Pi** via Bluetooth.
-   * The application can be found via the Google App Store by searching “treehouses remote”
+ * The Remote repository contain the Android application developed by the systems team that **allows Android devices to connect to the Raspberry Pi** via Bluetooth.
+   * The application can be found in the Google App Store by searching “treehouses remote”
 
   ![](images/remoteiconsml.jpg)
 
@@ -47,7 +47,7 @@ Interns usually choose what project they want to work on based on their experien
 
 Once you officially become a virtual intern, you will receive email invites to become GitHub organization members of[treehouses](https://github.com/treehouses), [open-learning-exchange](https://github.com/open-learning-exchange), and [ole-vi](https://github.com/ole-vi).
 
-**Now you should work on Treehouses's repositories instead of your own forked repositories, the workflow will be [Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)**. Note that this will give you the ability to make bigger mistakes - so make sure you always double check what branch you are working on. Remember to commit often and create pull request early, so other virtual interns could look at your code and make sure you are on the right track at an early stage.
+**Now you should work on treehouses's repositories instead of your own forked repositories, the workflow will be [Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)**. Note that this will give you the ability to make bigger mistakes - so make sure you always double check what branch you are working on. Remember to commit often and create pull requests early, so other virtual interns can look at your code and make sure you are on the right track at an early stage.
 
 You will now have the ability to review, close, and merge pull requests and issues.
 
@@ -55,7 +55,7 @@ Once you have accepted your invitation, mark yourself as a public member in the 
 
 ### Reviewing Pull Requests and Issues
 
-One major responsibility as an intern is to review and help prospective interns with their issues / pull request in OLE Treehouses. You can start a review by going to the files changed tab on a pull request. You can read more about [Review on GitHub](https://help.github.com/articles/about-pull-request-reviews/). 
+One major responsibility as an intern is to review and help prospective interns with their issues / pull request in OLE treehouses. You can start a review by going to the files changed tab on a pull request. You can read more about [Review on GitHub](https://help.github.com/articles/about-pull-request-reviews/). 
 
 Since we are a very diverse community with people coming from different background and culture, it might be hard to find the right language to use in reviewing other's code. Please make sure to read [**a guide for reviewing code and having your code reviewed**](https://github.com/thoughtbot/guides/tree/master/code-review#code-review) for some useful tips.
 
@@ -69,7 +69,7 @@ You should check if the following conditions are met:
 * [x] no merge conflicts
 * [x] commits are associated with GitHub account
 
-When you comment / review an issue or pull request, message those involved on the [Gitter chat](https://gitter.im/treehouses/Lobby) with a link to the issue / pull request. Also, if you find any issue that must be addressed with a pull request, do not forget to use the `Request changes` option when creating your review.
+When you comment / review an issue or pull request, message those involved on the [Gitter chat](https://gitter.im/treehouses/Lobby) with a link to the issue / pull request. Also, if you find any issue that must be addressed with another commit, do not forget to use the `Request changes` option when creating your review.
 
 ### Merging a Pull Request
 
@@ -95,7 +95,7 @@ While you are free to work in your own style, we recommend you follow this basic
 * Check Gitter interns room and your Gitter private messages.
 * Join the [OLE Google Hangouts session](http://talk.ole.org) if you are able to, so you can follow what everyone is working on and get help fast.
 * Review any issues or pull requests that have been added or changed on [treehouses.io](https://github.com/treehouses/treehouses.github.io) since last time you reviewed.
-* Work on your issues and write in intern chat any time you run into problems.
+* Work on your issues and write in the intern chat any time you run into problems.
 * Make pull requests as early as possible so you can get feedback as you work.
 * Try to close issues using some of the following keywords and variations of them in the headings: `close`, `fix` and `resolve`. [Closing Issues using keywords](https://help.github.com/articles/closing-issues-using-keywords/)
 
@@ -123,6 +123,4 @@ Please subscribe to our calendar:
 
 ## Communicate, Communicate, Communicate!
 
-It’s not good to go silent on Gitter or any other forms of communication. If you are ever unsure of what to work on, or cannot work for any other reason, please talk to us in the Gitter chat. It's better that we know why you aren’t able to do anything than to imagine reasons ourselves. Also make sure you are `away` in the [OLE google hangout](http://talk.ole.org/). Remember, the more you put into this internship the more you will get out of it. It may take a while to get used to the fact that you will need a good amount of self-discipline and initiative to get anything done in a remote internship, but we are here to help, so take advantage of it!
-
-Also, if you find any issue that must be addressed with a pull request, do not forget to use the `Request changes` option when creating your review.
+It’s not good to go silent on Gitter or any other forms of communication. If you are ever unsure of what to work on, or cannot work for any other reason, please talk to us in the Gitter chat. It's better that we know why you aren’t able to do anything than to imagine reasons ourselves. Remember, the more you put into this internship, the more you will get out of it. It may take a while to get used to the fact that you will need a good amount of self-discipline and initiative to get anything done in a remote internship, but we are here to help, so take advantage of it!
