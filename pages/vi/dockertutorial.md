@@ -58,47 +58,7 @@ Check your current Linux version with `uname -r` . You should see something like
 
 Please use [this](https://docs.docker.com/install/linux/docker-ce/ubuntu/) set of instructions 
 
-#### For:
-- Ubuntu Xenial 16.04 LTS
-- Ubuntu Wily 15.10
-- Ubuntu Trusty 14.04 LTS
-- Ubuntu Precise 12.04 LTS
-- Debian testing stretch
-- Debian 8.0 Jessie
-- Debian 7.0 Wheezy (you must enable backports)
-
-Please use [this](https://runnable.com/docker/install-docker-on-linux) set of instructions 
-
-
-### Install Docker CE using the repository
-
-##### Set Up the Repository
-
-- Update the apt package index: `sudo apt-get update`
-- Install packages to allow apt to use a repository over HTTPS
-  ```
-  sudo apt-get install \
-    apt-transport-https \
-    ca-certificates \
-    curl \
-    software-properties-common
-  ```
-- Add Docker’s official GPG key: `curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -`
-- Use the following command to set up the stable repository
-  ```
-  sudo add-apt-repository \
-    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
-    $(lsb_release -cs) \
-    stable"
-  ```
-
-##### Install Docker CE
-
-- Update the apt package index: `sudo apt-get update`
-- Install the latest version of Docker CE: `sudo apt-get install docker-ce`
-- Verify that Docker CE is installed correctly by running the hello-world image: `sudo docker run hello-world`
-
-#### Install Docker Compose
+### Install Docker Compose
 
 Follow the official [Install Docker Compose](https://docs.docker.com/compose/install/#install-compose) guide or the brief rundown below:
 
@@ -111,8 +71,6 @@ Follow the official [Install Docker Compose](https://docs.docker.com/compose/ins
 - Test the installation: `docker-compose --version`
 
 ---
-
-
 
 
 ## Docker Commands
