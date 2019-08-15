@@ -20,10 +20,17 @@ We encourage you to file as many issues as you can, no matter how big or small. 
 
 ## Create an Issue
 
-First, you will need to open an issue within the right repository, in this case [treehouses.github.io](https://github.com/treehouses/treehouses.github.io), and explain the problem you have discovered, or improvement you want to implement. If you are explaining a bug or how to replicate an issue, please be as explicit as possible and use pictures as necessary. You will then research the possible solutions or ideas on how to address the issue before detailing your proposed solution. 
+First, you will need to open an issue within the right repository, in this case [treehouses.github.io](https://github.com/treehouses/treehouses.github.io), and explain the problem you have discovered, or improvement you want to implement. You will then research the possible solutions or ideas on how to address the issue before detailing your proposed solution. 
 Your Pull Request (PR) will then be approved and someone else will hopefully provide some helpful input, you can then move ahead with making the proposed changes.
 
-### Image needed
+Go to the "Issues" tab and click on "New issue" to create a new issue:
+
+![New Issue](/images/fs6-new-issue.png)
+
+Give it a short title and a decriptive body and you can now submit your issue. If you are explaining a bug or how to replicate an issue, please be as explicit as possible and use pictures as necessary.
+
+![New Issue 2](/images/fs6-issue.png)
+
 | **IMPORTANT:** Issues are _not required_ to be approved _before_ a Pull Request is submitted for the respective fix; however, we do suggest that you wait until someone from the the System Team confirms/approves the change that your issue addresses BEFORE you begin work on the fix. |
 | --- |
  
