@@ -18,20 +18,20 @@ This equipment will be deployed in the field with little or no access to the int
 ### Pre-Requisites
 #### Hardware requirement:
 1.  Raspberry Pi 4 ([Pi 4 information](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/))
-        
-	- Note: Raspberry Pi 3b and 3b+ are also working
+	- Raspberry Pi 3B/3B+ also work, but Pi 4 is recommended
 2.  Power cord for the Pi
-	- Standard USB-C power cord: 15.3W for Pi 4
+	- Standard USB-C power cord: 3.0A for Pi 4
+	- Micro USB power cord: 2.5A for Pi 3B/3B+
 3.  3 microSD cards
 	- 16gb or greater
-	- U1 is recommend (Class 10 is ok)
+	- U1 or Class 10 highly recommended
 4.  MicroSD card reader
-	- Check your computer if you have a slot for a card reader otherwise use a USB reader
+	- You may need a USB reader if you don't have a card reader on your computer
 5.  Ethernet cable
-6.  Android device (phone or tablet)
+6.  Laptop or computer with 8 or more GB of RAM
+7.  Android device (phone or tablet)
 	- Memory (Ram): Minimum of 2 GB
-	- Operating System: Suggested Android 8 (Oreo) (minimum Android 6)
-7.  Laptop or computer with 8 or more GB of RAM
+	- Operating System: Suggested Android 8 (Oreo) (minimum Android 6) 
 8.  Optional: USB keyboard, monitor, and HDMI cable
 
 
