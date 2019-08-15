@@ -136,9 +136,10 @@ The process will take approximately 10 min to complete.
 ### Option 3: NEW Windows .md PROCESS NEEDED  
 
 
-# Step 2 - Docker
-*NEW DOCKER .md PROCESS NEEDED* 
- **Docker** is a computer program that performs operating-system-level virtualization also known as containerization. In this section, you will learn the basics of interacting with Docker and Docker Compose through the command-line interface and basic commands for maintaining your Planet installation.
+# Step 2 - Use SSH and Tor to remotely control your Raspberry Pi
+
+The Systems team uses SSH (Secure Shell) to securely and remotely control the Raspberry Pis we work with.  SSH works by providing an admin protocol that allows users to control and modify their remote servers over the Internet.  Follow the [Raspberry Pi SSH  & Tor Tutorial](sshpi.md) to learn how.
+
 
 
 # Step 3 - Markdown and Fork Tutorial
