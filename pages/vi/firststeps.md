@@ -68,6 +68,11 @@ We interact with the Raspberry Pi via a command terminal which is natively avail
 
 # Step 1 - Installing and finding your Raspberry Pi 
 
+There are 3 sections in this step:
+1. Starting up your Raspberry Pi
+2. Using Treehouses Remote
+3. Finding your Pi
+
 ### So What is the Raspberry Pi?
 The Raspberry Pi is a low cost single board computer, think of it as a downsized desktop tower, with the ability to receive, compute and output data and information, just without a mouse, keyboard or screen.
 The OLE Raspberry Pi image is a modified [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) image, with additional software for OLE's Planet program, which you can put onto the microSD card for the Raspberry Pi.
