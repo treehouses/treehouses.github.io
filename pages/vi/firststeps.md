@@ -37,7 +37,7 @@ The goal of OLE is to provide educational infrastructure to learners and educato
 
 # The Steps
 
-Social coding is a huge part of any open source and collaborative project, and treehouses is no different. In the following series of steps, you will learn about Markdown, Docker, Bash, Vim, Git, GitHub, GitHub issues, and GitHub pull requests.
+Social coding is a huge part of any open source and collaborative project, and [treehouses](https://github.com/treehouses) is no different. In the following series of steps, you will learn about Markdown, Docker, Bash, Vim, Git, GitHub, GitHub issues, and GitHub pull requests.
 
 Because these steps are simple, we expect high-quality work, which may take a longer time. We want to see that you are capable of using or learning how to use these tools (writing good GitHub issues, creating pull requests, using Markdown and Docker, etc.). These steps may seem easy, but we want you to impress us with good GitHub etiquette and quality Markdown. The bare minimum would be to just passively follow the steps; you should do further reading about the tools/languages we use so you can further your understanding and relieve confusion if you're unclear about how something works. **Treat these steps as learning opportunities!** The GitHub and Markdown skills you practice here are very important for both this internship and a future software development career.
 
