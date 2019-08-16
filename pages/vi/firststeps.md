@@ -1,50 +1,49 @@
 # First Steps
 
-### The Big Picture
+# The Big Picture
 
-Welcome to the first steps for becoming becoming a Virtual Systems Engineering Intern at OLE! After completing these steps, you will be working on OLE’s project, treehouses.io. These first steps is a process to prove that you have learned the foundational skills before you can progress to working on harder projects with larger teams. Consider this to be the interview for the internship.
+Welcome to the first steps for becoming becoming a Systems Engineering Virtual Intern at OLE! After completing these steps, you will be working on OLE’s project, treehouses. These first steps are a process to prove that you have learned the foundational skills before you can progress to working on harder projects with larger teams. Consider this to be the interview for the internship.
 
 If you are selected for the internship after completing the steps, you will be officially invited to join the OLE interns team! We’ll add you to the Virtual Interns Gitter chatroom and assign you to a specific team to work on developing and improving OLE’s software.
 
-Once accepted, you and your team will work on an assignment, and we’ll switch up the assignments each week. As part of this internship, you will have the opportunity to work with software and languages including **[Git](https://git-scm.com/)**, **[GitHub](https://github.com/)**, **[Markdown](https://daringfireball.net/projects/markdown/syntax)**, **[Vagrant](https://www.vagrantup.com/)**, **[VirtualBox](https://www.virtualbox.org/)**, **[Command Line/Terminal](https://en.wikipedia.org/wiki/Command-line_interface)**, **[Command Line/Terminal Scripts](https://www.codecademy.com/articles/command-line-commands)**, **[Vim](https://www.vim.org/)**, **[CouchDB](http://couchdb.apache.org/)** and **[Docker](https://www.docker.com/).** Furthermore, you will be able to learn and practice your skills in using **[Raspberry Pi Hardware](https://raspberrypi.org**).
+Once accepted, you and your team will work on an assignment, and we’ll switch up the assignments each week. As part of this internship, you will have the opportunity to work with software and languages including **[Git](https://git-scm.com/)**, **[GitHub](https://github.com/)**, **[Markdown](https://daringfireball.net/projects/markdown/syntax)**, **[Command Line/Terminal](https://en.wikipedia.org/wiki/Command-line_interface)**, **[Command Line/Terminal Scripts](https://www.codecademy.com/articles/command-line-commands)**, **[Vim](https://www.vim.org/)**, and **[Docker](https://www.docker.com/).** Furthermore, you will be able to learn and practice your skills in using **[Raspberry Pi Hardware](https://raspberrypi.org)**.
 
-The goal of OLE is to provide educational infrastructure to learners and educators in remote areas of the globe. The Raspberry Pi is utilized in pursuit of this goal to provide a means by which devices can access educational resources.
-Our goal is to provide a stable system that is widely accessible by numerous devices and operating systems.
-This equipment will be deployed in the field with little or no access to the internet, so its reliability is of paramount importance.
+The goal of OLE is to provide educational infrastructure to learners and educators in remote areas of the globe. The Raspberry Pi is used in pursuit of this goal to provide a cost-effective means by which devices can access educational resources.  We aim to provide a stable system that is widely accessible by numerous devices and operating systems.  This equipment will be deployed in the field with little or no access to the internet, so its reliability is of paramount importance.
 
 
-**NOTE**: This is an unpaid but intensive internship that requires 16 hours of work each week. More information about the internship can be found in our [FAQ](vi-faq.md#General_Internship_Questions). If you have further questions, don’t hesitate to ask other members in the Gitter [chat](vi-chat.md)!
+**NOTE**: This is an unpaid but intensive internship that requires 16 hours of work each week. More information about the internship can be found in our [FAQ](faq.md#General_Internship_Questions). If you have further questions, don’t hesitate to ask other members in the Gitter [chat](https://gitter.im/treehouses/Lobby)!
 
-### Pre-Requisites
-#### Hardware requirement:
+## Pre-Requisites
+### Hardware requirement:
 1.  Raspberry Pi 4 ([Pi 4 information](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/))
-        - Note: Raspberry Pi 3b and 3b+ are also working
+	- Raspberry Pi 3B/3B+ also work, but Pi 4 is recommended
 2.  Power cord for the Pi
-	- Standard USB-C power cord: 15.3W for Pi 4
+	- Standard USB-C power cord: 3.0A for Pi 4
+	- Micro USB power cord: 2.5A for Pi 3B/3B+
 3.  3 microSD cards
-	- 16gb or greater
-	- U1 is recommend (Class 10 is ok)
+	- Minimum 16GB
+	- U1 or Class 10 required
 4.  MicroSD card reader
-	- Check your computer if you have a slot for a card reader otherwise use a USB reader
+	- You will need a USB reader if your computer doesn't have an SD card slot
 5.  Ethernet cable
-6.  Android device (phone or tablet)
-	- Memory (Ram): Minimum of 2 GB
-	- Operating System: Suggested Android 8 (Oreo) (minimum Android 6)
-7.  Laptop or computer with 8 or more GB of RAM
-8.  Optional: USB keyboard, monitor, and HDMI cable
+6.  Laptop or computer with minimum 8GB of RAM
+7.  Android device (phone or tablet)
+	- Memory (Ram): Minimum 2GB
+	- Operating System: Suggested Android 8 (Oreo) (minimum Android 6) 
+8.  Optional: USB keyboard, mouse, monitor, and HDMI cable
 
 
 ---
 
 # The Steps
 
-Social coding is a huge part of any open source and collaborative project, and the Open Learning Exchange (OLE) is no different. In the following series of steps, you will learn about Markdown, Vagrant, Docker, Git, GitHub, GitHub issues, GitHub pull requests, etc. You will also be introduced to OLE’s digital library that hosts the learning materials – [Planet](https://github.com/open-learning-exchange/planet).
+Social coding is a huge part of any open source and collaborative project, and treehouses is no different. In the following series of steps, you will learn about Markdown, Docker, Bash, Vim, Git, GitHub, GitHub issues, and GitHub pull requests.
 
-Because these steps are simple, we expect high-quality work, which may take a longer time. We want to see that you are capable of using or learning how to use these tools (writing good GitHub issues, creating pull requests, using Vagrant and Docker, etc.). These steps may seem easy, but we want you to impress us with good GitHub etiquette and quality Markdown. The bare minimum would be to just passively follow the steps; you should do further reading about the tools/languages we use so you can further your understanding and relieve confusion if you're unclear about how something works. **Treat these steps as learning opportunities!** The GitHub and Markdown skills you practice here are very important for both this internship and a future software development career.
+Because these steps are simple, we expect high-quality work, which may take a longer time. We want to see that you are capable of using or learning how to use these tools (writing good GitHub issues, creating pull requests, using Markdown and Docker, etc.). These steps may seem easy, but we want you to impress us with good GitHub etiquette and quality Markdown. The bare minimum would be to just passively follow the steps; you should do further reading about the tools/languages we use so you can further your understanding and relieve confusion if you're unclear about how something works. **Treat these steps as learning opportunities!** The GitHub and Markdown skills you practice here are very important for both this internship and a future software development career.
 
-The MDwiki has plenty of resources to help you complete the steps. There is a list of useful links at the end of each step. We also created a [FAQ page](https://treehouses.github.io/#!./pages/vi/faq.md) where you can find the answers to some commonly asked questions. This page has even more [useful links and video tutorials](https://treehouses.github.io/#!./pages/vi/faq.md#Helpful_Links) that will help you become familiar with the tools/languages we use. For anything that is not on the FAQ page, Google and Stack Exchange are your friends :)
+The MDwiki has plenty of resources to help you complete the steps. There is a list of useful links at the end of each step. We also created a [FAQ page](faq.md) where you can find the answers to some commonly asked questions. This page has even more [useful links and video tutorials](faq.md#Helpful_Links) that will help you become familiar with the tools/languages we use. For anything that is not on the FAQ page, Google and Stack Exchange are your friends :)
 
-**We also want you to keep us updated a relatively good amount in the Gitter chat as you complete these steps. We will ask you to send us messages, links, and screenshots along the First Steps, and we will use this to track your progress, so please do not forget to do so.** Check our [Gitter chat](https://treehouses.github.io/#!./pages/chat/chat.md) page for more information about how to best communicate in Gitter.
+**We also want you to keep us updated a relatively good amount in the [Gitter chat](https://gitter.im/treehouses/Lobby) as you complete these steps. We will ask you to send us messages, links, and screenshots along the First Steps, and we will use this to track your progress, so please do not forget to do so.**
 
 A very large part of these steps is finding problems with these steps and this MDwiki, so take note of any issues that you run into or suggestions for improvement while doing these steps.
 
@@ -59,11 +58,9 @@ There is no official deadline to complete these steps, but most candidates who a
 
 In GitHub, we "[Watch](https://help.github.com/en/articles/watching-and-unwatching-repositories)" organization repositories and ["Follow"](https://help.github.com/en/articles/following-people) individuals. Look for the "Watch" button at the top right of the page when you are in a repository.  Also, follow each other to see what others in the group are doing. (Click on the image to enlarge.)   
 
-### Setting up your environmnent
+## Setting up your environmnent
 
-We interact with the Raspberry Pi via a command terminal which is natively available for both Mac and Linux based systems, if however you are utilizing a windows device Ubuntu or Debian based distribution system will be required.  
-### Setting up Debian on Windows 
-##### Disclaimer 
+We interact with the Raspberry Pi via a command terminal which is natively available for both Mac and Linux based systems. If however you are on a Windows device, [Git Bash](https://git-scm.com/download/win) is high
 
 
 # Step 1 - Installing and finding your Raspberry Pi 
