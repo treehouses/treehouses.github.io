@@ -60,7 +60,7 @@ In GitHub, we "[Watch](https://help.github.com/en/articles/watching-and-unwatchi
 
 ## Setting up your environmnent
 
-We interact with the Raspberry Pi via a command terminal which is natively available for both Mac and Linux based systems. If however you are on a Windows device, [Git Bash](https://git-scm.com/download/win) is high
+We interact with the Raspberry Pi via a command terminal which is natively available for both Mac and Linux based systems. If however you are on a Windows device, [Git Bash](https://git-scm.com/download/win) is highly recommended.
 
 
 # Step 1 - Installing and finding your Raspberry Pi 
