@@ -70,26 +70,26 @@ We interact with the Raspberry Pi via a command terminal which is natively avail
 
 ### So What is the Raspberry Pi?
 The Raspberry Pi is a low cost single board computer, think of it as a downsized desktop tower, with the ability to receive, compute and output data and information, just without a mouse, keyboard or screen.
-The OLE Raspberry Pi image is a modified [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) image, with additional software pertaining to the open learning exchange program, which you can put onto the microSD card for the Raspberry Pi.
+The OLE Raspberry Pi image is a modified [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) image, with additional software for OLE's Planet program, which you can put onto the microSD card for the Raspberry Pi.
 
 ### How it works:  
 1. The Raspberry Pi is loaded with an operating system developed by the OLE team.
 2. The Raspberry Pi is used in the field to allow devices to connect to it. 
-3. Through this connection, these devices can access educational material (Planet).
+3. Through this connection, these devices can access educational materials (Planet).
 
 ### Get your RPi Up and Running
-After getting your microSD cards and card reader/adapter, our first step will be to burn an image of the treehouse onto the a microSD card which we will later insert into our Rasperry Pi.
+After getting your microSD cards and card reader/adapter, our first step will be to burn a treehouses image onto a microSD card which we will later use to boot up our Rasperry Pi.
 
 ### Prepping the microSD card:
-1. Download the latest treehouse image that is available [here](http://download.treehouses.io)
+1. Download the latest treehouses image that is available [here](http://download.treehouses.io)
 2. Download and install [Etcher](https://etcher.io)
-3. Insert a microSD card into the card reader and connect this to your computer 
-4. Burn the treehouses image onto the microSD card, this is done by:
-* Opening Etcher
-* Clicking "Select Image" -This is the downloaded image
-* Selecting the "Target" - This is your microSD card
-* Clicking "Flash!"
-The process will take approximately 10 min to complete.
+3. Insert a microSD card into your computer's card reader
+4. Burn the treehouses image onto the microSD card:
+* Open Etcher
+* Select the treehouses image that you have just downloaded
+* Select the microSD card
+* Click "Flash!"
+The process will take approximately 10 minutes to complete.
 5.  Once it's done burning,  if you chose you can view the contents in the `boot` partition. You will see a long list of files.
 6. Unmount and safely eject the microSD card from your computer. 
 
