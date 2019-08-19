@@ -11,7 +11,8 @@ There are currently two versions of WSL, version 1 and version 2
 WSL 1 has been in use in Windows 10 for a while and allowes you to use different Linux distros directly from your Windows 10 machine. 
 WSL 2 includes the capabilities of WSL 1 and provides increased file system performance and full system call compatibility, for this reson OLE system's engeneering team members require WSL2.
 
-[WSL2 Achitecture](image to be added)
+![](images/steps/images/steps/WSL 2 .jpg)
+
 
 
 ## Pre-Requisits to setting up the Windows Subsystem for Linux 2 
@@ -24,7 +25,8 @@ Most recent CPUs have this feature enabled already, but if you are unsure whethe
 2. Go to Performance Tab 
 3. Find whether virtualization is enabled or not
 
-Virtual Enabled (VirtualEnabled.jpg)
+![](images/steps/images/steps/VirtualEnabled.jpg)
+
 
 If you're device has vertualization enables you're good to go! 
 
@@ -40,7 +42,8 @@ We will first check what current version of windows you are running by following
   3. Hit enter 
   
   The follwoing will appear :
-  WindowsBuild(WindowsBuild.jpg)
+![](images/steps/images/steps/WindowsBuild.jpg)
+ 
   
   If you are already an Windows 10 Insider Preview Build 18917 or higher you're all set, otherwise carry on to the `Getting Windows insider edition ` section
 
