@@ -50,7 +50,7 @@ A very large part of these steps is finding problems with these steps and this M
 There is no official deadline to complete these steps, but most candidates who are approved for the internship program finished the steps within 7-8 days. Good luck!
 
 
-# Step 0 - Introductory Steps
+## Step 0 - Introductory Steps
 
 1. Complete the [New Virtual Intern Application form](https://docs.google.com/forms/d/e/1FAIpQLSeooEi9vJeb_nsf8WEXqEVRn1Ko6d4M-qF76ik4v0xgToUiSA/viewform?usp=sf_link).
 
@@ -58,12 +58,12 @@ There is no official deadline to complete these steps, but most candidates who a
 
 In GitHub, we "[Watch](https://help.github.com/en/articles/watching-and-unwatching-repositories)" organization repositories and ["Follow"](https://help.github.com/en/articles/following-people) individuals. Look for the "Watch" button at the top right of the page when you are in a repository.  Also, follow each other to see what others in the group are doing. (Click on the image to enlarge.)   
 
-## Setting up your environmnent
+### Setting up your environmnent
 
 We interact with the Raspberry Pi via a command terminal which is natively available for both Mac and Linux based systems. If however you are on a Windows device, [Git Bash](https://git-scm.com/download/win) is highly recommended.
 
 
-# Step 1 - Installing and finding your Raspberry Pi 
+## Step 1 - Installing and finding your Raspberry Pi 
 
 ### So What is the Raspberry Pi?
 The Raspberry Pi is a low cost single board computer, think of it as a downsized desktop tower, with the ability to receive, compute and output data and information, just without a mouse, keyboard or screen.
@@ -133,13 +133,13 @@ The process will take approximately 10 min to complete.
 ### Option 3: NEW Windows .md PROCESS NEEDED  
 
 
-# Step 2 - Use SSH and Tor to remotely control your Raspberry Pi
+## Step 2 - Use SSH and Tor to remotely control your Raspberry Pi
 
 The Systems team uses SSH (Secure Shell) to securely and remotely control the Raspberry Pis we work with.  SSH works by providing an admin protocol that allows users to control and modify their remote servers over the Internet.  Follow the [Raspberry Pi SSH  & Tor Tutorial](sshpi.md) to learn how.
 
 
 
-# Step 3 - Markdown and Fork Tutorial
+## Step 3 - Markdown and Fork Tutorial
 
 Follow the instructions on [GitHub and Markdown](githubandmarkdown.md)
 
@@ -152,17 +152,17 @@ Make sure that you've linked to your github.io and pull request in the [Gitter c
     * 1 Pull request made
 
 
-# Step 4 - Docker Tutorial
+## Step 4 - Docker Tutorial
 
 Follow the directions in the [Docker Tutorial](dockertutorial.md)
 
 
-# Step 5 - Keeping Fork Updated
+## Step 5 - Keeping Fork Updated
 
 Follow the directions at [Git Repositories](gitrepositories.md) to keep your username.github.io and your local repository up to date.
 
 
-# Step 6 - GitHub Issues Tutorial
+## Step 6 - GitHub Issues Tutorial
 
 Follow the [GitHub Issues tutorial](github-issues.md) to create at least one issue. Post a link in [Gitter](https://gitter.im/treehouses/Lobby) whenever you create an issue or when you comment on someone else's issue. You are encouraged to post as many issues as you can for improving the page as well as for personal practice. No issue is too big or too small to be filed and it is OK if you are not sure how to fix it yourself. If you know how to solve an issue, be sure to provide a detailed account of your research and show how to fix it. It is ok to file an issue about minor typos and very small changes, but do not make this the case for all of the issues that you file. You can also work on issues that you didn't create.
 
@@ -176,14 +176,14 @@ Make sure you have created at least one issue, resolved it, commented on an issu
 Please note that creating and working on Issues are not exactly bound by the "Step" you are in. Feel free to move on to other steps, and make more Issues and Pull Requests while you wait on OLE approval for your merge(s). 
 
 
-# Step 7 - other Services running from a Raspberry Pi
+## Step 7 - other Services running from a Raspberry Pi
 
 ### Nextcloud over Tor
 
 Follow the [Nextcloud and Tor Tutorial](nextcloud-tor.md) to set up the Nextcloud service on your Pi, and access it via Tor.  
 
 
-# Step 8 - Create Issues and Pull Requests
+## Step 8 - Create Issues and Pull Requests
 
 In this step we will adopt the motto of "Practice makes Perfect". You will follow the same steps as in **Step 6**, continuing to improve this Markdown Wiki so that it is educational, yet easy to understand for future interns.
 
@@ -206,7 +206,7 @@ Just as your learning with this Wiki was made possible by the efforts of previou
 
 **NOTE**: You can track your progress with the number of pull requests and issues [here](vtrack-progress.md).
 
-# Step 9 - Be part of the team
+## Step 9 - Be part of the team
 
 Next thing is to add yourself to the virtual intern list found in [team.md](team.md) and create a pull request. Message us ("@/all" and "@dogi") in the Gitter chat room so that we can set up a meeting and add you to the team as soon as possible.
 
