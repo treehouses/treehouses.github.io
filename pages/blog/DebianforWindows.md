@@ -11,7 +11,7 @@ There are currently two versions of WSL, version 1 and version 2
 WSL 1 has been in use in Windows 10 for a while and allowes you to use different Linux distros directly from your Windows 10 machine. 
 WSL 2 includes the capabilities of WSL 1 and provides increased file system performance and full system call compatibility, for this reson OLE system's engeneering team members require WSL2.
 
-![](images/steps/images/steps/WSL 2 .jpg)
+![](images/steps/images/steps/WSL2.jpg)
 
 
 
