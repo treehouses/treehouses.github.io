@@ -25,7 +25,7 @@ Most recent CPUs have this feature enabled already, but if you are unsure whethe
 2. Go to Performance Tab 
 3. Find whether virtualization is enabled or not
 
-![](images/steps/images/steps/VirtualEnabled.jpg)
+![](images/dw-virtual-enabled.jpg)
 
 
 If you're device has vertualization enables you're good to go! 
@@ -42,7 +42,7 @@ We will first check what current version of windows you are running by following
   3. Hit enter 
   
   The follwoing will appear :
-![](images/steps/images/steps/WindowsBuild.jpg)
+![](images/dw-windows-build.jpg)
  
   
   If you are already an Windows 10 Insider Preview Build 18917 or higher you're all set, otherwise carry on to the `Getting Windows insider edition ` section
@@ -58,22 +58,23 @@ Once you've completed this steps, your device will be enrolled in the Windows In
 2. Click on Update & security.
 3. Click on Windows Insider program. 
 4. Click the Get started button.
-![](images/steps/winI1.jpg)
+
+![](images/dw-1.jpg)
 
 5. Click the Link an account option.
 
-![](images/steps/winI2.jpg)
+![](images/dw-2.jpg)
 
 
 6. Select your Microsoft account, and click the Continue button.
-![](images/steps/winI3.jpg)
+![](images/dw-3.jpg)
 
 
 7. On the "What kind of content would you like to receive?" page, use the drop-down menu, and select one of the following:
 
 `Just fixes, apps, and drivers: Enrolls your device in the Release preview ring without getting preview builds. However, pre-releases will be available in this ring as soon as the new version is considered complete.`
 
-![](images/steps/winI4.jpg)
+![](images/dw-4.jpg)
 
 8. Click the Confirm button.
 
@@ -81,16 +82,15 @@ Once you've completed this steps, your device will be enrolled in the Windows In
 
 Slow: Gets preview builds with the latest features and changes with minimal risks of coming across bugs and significant problems.
 
-![](images/steps/winI5.jpg)
-
+![](images/dw-5.jpg)
 
 10. Click the Confirm button.
 
-![](images/steps/winI6.jpg)
+![](images/dw-6.jpg)
 
 11. Click the Confirm button again to agree to the terms.
 
-![](images/steps/winI7.jpg)
+![](images/dw-7.jpg)
 
 12. Click the Restart Now button.
 
@@ -105,7 +105,7 @@ Before installing any Linux distros for WSL, you must ensure that the "Windows S
 2. Restart your computer when prompted.
 
 3. Open the Microsoft Store and search '"Linux"' 
-![](images/steps/store1.jpg)
+![](images/dw-store.jpg)
   
 
 4. Click on 'Debian'
