@@ -28,7 +28,7 @@ On an android device, find the [treehouses remote](https://play.google.com/store
   
 1. Now type `treehouses default network`
   1. Here we are getting things in place to get internet access 
-1. Type `treehouses bridge "name of your wifi" treehouses "your wifi password" 
+1. Type `treehouses bridge` "name of your wifi" `treehouses` "your wifi password" 
 
  #### Congrats you have just connected to your Raspberri Pi! 
   
