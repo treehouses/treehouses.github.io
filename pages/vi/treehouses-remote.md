@@ -8,6 +8,8 @@
 ## Installation
 On an android device, find the [treehouses remote app](https://play.google.com/store/apps/details?id=io.treehouses.remote) on the Google Play Store download it.
 
+![](remoteicon.jpg)
+
 
 ## Connect to Raspberry Pi via Bluetooth
 
