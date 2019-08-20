@@ -3,7 +3,7 @@
 There are several ways to find the local IP address of your Raspberry Pi, which you will need to know for the subsequent steps.
 
 ## Method 1: Using treehouses remote
-
+In the previous step [treehouses remote](treehouses-remote.md)
 
 ## Method 2: Pinging your Raspberry Pi
 
