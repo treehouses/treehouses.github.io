@@ -23,12 +23,14 @@ On an android device, find the [treehouses remote](https://play.google.com/store
 1. Once you have connected to your Raspberry Pi, click the three "bars" on the top left of your screen this will give you a whole host of options to interact with your Raspberry Pi.
 1. Go to Terminal
   1. Just like a computer terminal the Treehouses Remote app allows you to interact with your Raspberry Pi using Cli (command line interface)
-1. in the Terminal Window type `treehouses detectrpi` amd "send" it 
+1. in the Terminal Window type `treehouses detectrpi` and "send" it 
   1. you can also access this command without writing it by clicking on the `Commands` button at the top right of your screen, these are a set of pre-entered commands you can use.
   
 1. Now type `treehouses default network`
-  1. Here we are getting things in place to get internet access 
-1. Type `treehouses bridge "name of your wifi" treehouses "your wifi password"`
+  1. Here we are getting things in place to get internet access
+  1. Now reboot the system by entering the command `reboot` and go back to the home screen to re-connect to your Pi
+1. Back in the terminal type `treehouses bridge "name of your wifi" treehouses "your wifi password"`
+  1.Reboot once again
 
  #### Congrats you have just connected to your Raspberry Pi! 
   
