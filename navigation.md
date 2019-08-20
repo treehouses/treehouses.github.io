@@ -26,7 +26,7 @@
   * [Step 7 - Other Services Running from a Raspberry Pi](pages/vi/nextcloud-tor.md)
   * [Step 8 - Create Issues and Pull Requests](pages/vi/firststeps.md#Step_8_-_Create_Issues_and_Pull_Requests)
   * [Step 9 - Be Part of the Team](pages/vi/firststeps.md#Step_9_-_Be_Part_of_the_Team)
-  * [Track Progress](pages/vi/vi-track-progress.md)
+  * [Track Progress](pages/vi/trackprogress.md)
   - - - -
   * [**Members**](pages/vi/team.md)
 
@@ -41,7 +41,7 @@
   * [General Chat (Open to Public)](https://gitter.im/treehouses/Lobby)
   * [Virtual Interns](https://gitter.im/open-learning-exchange/interns)
   * [RaspberryPi](https://gitter.im/open-learning-exchange/raspberrypi)
-  
+
 <!-- System Manual -->
 
 <!-- Default theme (Read: http://dynalon.github.io/mdwiki/#!customizing.md#Theme_chooser)  -->
