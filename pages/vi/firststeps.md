@@ -65,72 +65,10 @@ We interact with the Raspberry Pi via a command terminal which is natively avail
 
 ## Step 1 - Installing and finding your Raspberry Pi 
 
-### So What is the Raspberry Pi?
-The Raspberry Pi is a low cost single board computer, think of it as a downsized desktop tower, with the ability to receive, compute and output data and information, just without a mouse, keyboard or screen.
-The OLE Raspberry Pi image is a modified [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) image, with additional software pertaining to the open learning exchange program, which you can put onto the microSD card for the Raspberry Pi.
-
-### How it works:  
-1. The Raspberry Pi is loaded with an operating system developed by the OLE team.
-2. The Raspberry Pi is used in the field to allow devices to connect to it. 
-3. Through this connection, these devices can access educational material (Planet).
-
-### Get your RPi Up and Running
-After getting your microSD cards and card reader/adapter, our first step will be to burn an image of the treehouse onto the a microSD card which we will later insert into our Rasperry Pi.
-
-### Prepping the microSD card:
-1. Download the latest treehouse image that is available [here](http://download.treehouses.io)
-2. Download and install [Etcher](https://etcher.io)
-3. Insert a microSD card into the card reader and connect this to your computer 
-4. Burn the treehouses image onto the microSD card, this is done by:
-* Opening Etcher
-* Clicking "Select Image" -This is the downloaded image
-* Selecting the "Target" - This is your microSD card
-* Clicking "Flash!"
-The process will take approximately 10 min to complete.
-5.  Once it's done burning,  if you chose you can view the contents in the `boot` partition. You will see a long list of files.
-6. Unmount and safely eject the microSD card from your computer. 
-
-### Starting up the Raspberry Pi:
-1. Place the microSD card into the RPi.
-2. Connect the RPi to power, if there in an "on" switch or button ensure the Rpi has power, a red light will be visible.
-
-
-### Setting Up via an Android Device:
-
-#### If you do not have an android device please continue to:
-
-
-1. If you have an android phone, find the Treehouses Remote app on Google Play Store and [download](https://play.google.com/store/apps/details?id=io.treehouses.remote) it.
-2. Wait for a minute or two and look for `treehouses` in your Android device's Bluetooth pairing screen.
-
-
-### Connect to Raspsberry Pi via Bluetooth
-
-1. In the android bluetooth settings, scan and pair with the Pi device.
-2. Click on the three dots (menu icon) at the upper right corner of the app. 
-3. Click on `Connect a device - Insecure` to display paired Bluetooth devices or scan for new devices around you.
-4. Select `raspberrypi` or whatever name that is given to your Raspberry Pi device to connect to the Raspberry Pi.
-5. If it does not work, please click on `cmd` button and repeat steps 1 through 3.
-
-
-## Option 2: *Mac* .md PROCESS NEEDED  
-
-
-### Features
-
-- The connection status is shown on the action bar.
-- In `cmd`
-  - Use the Wi-Fi icon on the action bar to comfigure the Raspberry Pi to connect to a Wi-Fi network.
-  - Use buttons on the lower part of the screen to performe various commands.
-  - The circle on the upper left corner shows the Raspberry Pi's internet connectivity status using color green and red.
-  - To return to dashboard, click on the back button at the bottom of the device.
-
-## Interfacing with the Raspberry Pi
-### Option 2: NEW Mac .md PROCESS NEEDED  
-
-### Option 3: NEW Linux .md PROCESS NEEDED  
-
-### Option 3: NEW Windows .md PROCESS NEEDED  
+There are 3 sections in this step:
+1. [Starting up your Raspberry Pi](pi-setup.md)
+2. [Using treehouses Remote](treehouses-remote.md)
+3. [Finding your Pi](find-pi.md)
 
 
 ## Step 2 - Use SSH and Tor to remotely control your Raspberry Pi
