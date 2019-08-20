@@ -16,10 +16,14 @@ On an android device, find the [treehouses remote app](https://play.google.com/s
 Wait for a minute or two and look for `treehouses` in your Android device's Bluetooth pairing screen.
 
 1. In the android bluetooth settings, scan and pair with the Pi device.
-2. Click on the three dots (menu icon) at the upper right corner of the app. 
-3. Click on `Connect a device - Insecure` to display paired Bluetooth devices or scan for new devices around you.
-4. Select `raspberrypi` or whatever name that is given to your Raspberry Pi device to connect to the Raspberry Pi.
-5. If it does not work, please click on `cmd` button and repeat steps 1 through 3.
+  
+`Note: You will need to unpair and re-pair eveytime you use a new Image version`
+
+2. Open the `Treehouses Remote` app
+3. Click on "Connect to RPI"
+4. Select your Raspberry Pi ( `treehouses`)
+
+
 
 ### Features
 
