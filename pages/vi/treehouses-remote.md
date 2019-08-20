@@ -10,6 +10,7 @@ On an android device, find the [treehouses remote](https://play.google.com/store
 
 ![](remoteiconsml.jpg)
 
+`the app may ask for your device location, feel free to decline`
 
 ## Use treehouses remote to connect to Raspberry Pi via Bluetooth
 
