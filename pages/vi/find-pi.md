@@ -2,21 +2,34 @@
 
 There are several ways to find the local IP address of your Raspberry Pi, which you will need to know for the subsequent steps.
 
+## Method 0: Looking at your router
+
+If you have access to your router's admin account, you can log into it and view the currently connected devices.  Here, you will be able to find your Raspberry Pi device (named "treehouses"), and its IP address.
+
 ## Method 1: Using treehouses remote
-In the previous step [treehouses remote](treehouses-remote.md)
+
+In the [previous step](treehouses-remote.md), you were able to access the terminal on treeehouses remote using Bluetooth.  Here, run `treehouses networkmode info`.  The output in `bridge` mode will look like this:
+```
+wlan0: essid: wifiname, ip: 192.168.0.19, has password
+ap0: essid: treehouses, ip: 192.168.2.1, has no password
+```
+
+
 
 ## Method 2: Pinging your Raspberry Pi
 
-Type `ping treehouses.local` or `ping treehouses.home` in your terminal or command prompt.  You should see something like this:
+Type `ping treehouses.local`, `ping treehouses.home` or `ping treehouses.lan` in your terminal or command prompt (Windows users will need to install [Bonjour](https://support.apple.com/kb/DL999?viewlocale=en_US&locale=en_US)). You should see something like this:
 ```
 $ ping treehouses.local
-PING treehouses.local (10.0.0.31): 56 data bytes
-64 bytes from 10.0.0.31: icmp_seq=0 ttl=64 time=69.424 ms
-64 bytes from 10.0.0.31: icmp_seq=1 ttl=64 time=4.640 ms
-64 bytes from 10.0.0.31: icmp_seq=2 ttl=64 time=2.945 ms
-64 bytes from 10.0.0.31: icmp_seq=3 ttl=64 time=3.372 ms
+PING treehouses.local (192.168.0.19): 56 data bytes
+64 bytes from 192.168.0.19: icmp_seq=0 ttl=64 time=69.424 ms
+64 bytes from 192.168.0.19: icmp_seq=1 ttl=64 time=4.640 ms
+64 bytes from 192.168.0.19: icmp_seq=2 ttl=64 time=2.945 ms
+64 bytes from 192.168.0.19: icmp_seq=3 ttl=64 time=3.372 ms
 ```
-As you can see here its local IP address is `10.0.0.31`.
+You can stop this process with `Ctrl`+`C`.
+
+As you can see here its local IP address is `192.168.0.19`.
 
 ## Method 3: nmap command
 
