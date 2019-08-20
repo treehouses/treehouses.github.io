@@ -6,32 +6,30 @@
 * Connect to treehouses via Bluetooth
 
 ## Installation
-On an android device, find the [treehouses remote app](https://play.google.com/store/apps/details?id=io.treehouses.remote) on the Google Play Store download it.
+On an android device, find the [treehouses remote](https://play.google.com/store/apps/details?id=io.treehouses.remote) app on the Google Play Store download it.
 
-![](remoteicon.jpg)
+![](remoteiconsml.jpg)
 
 
-## Connect to Raspberry Pi via Bluetooth
+## Use treehouses remote to connect to Raspberry Pi via Bluetooth
 
-Wait for a minute or two and look for `treehouses` in your Android device's Bluetooth pairing screen.
+1. After downloading the app go to your Android device's Bluetooth pairing screen
+1. Scan and pair with the Pi device (look for `treehouses`)
+1. Open the `Treehouses Remote` app
+1. Click on "Connect to RPI"
+1. Select your Raspberry Pi ( `treehouses-version`)
 
-1. In the android bluetooth settings, scan and pair with the Pi device.
+1. Once you have connected to your Raspberry Pi, click the three "bars" on the top left of your screen this will give you a whole host of options to interact with your Raspberry Pi.
+1. Go to Terminal
+  1. Just like a computer terminal the Treehouses Remote app allows you to interact with your Raspberry Pi using Cli (command line interface)
+1. in the Terminal Window type `treehouses detectrpi` amd "send" it 
+  1. you can also access this command without writing it by clicking on the `Commands` button at the top right of your screen, these are a set of pre-entered commands you can use.
   
-`Note: You will need to unpair and re-pair eveytime you use a new Image version`
+1. Now type `treehouses default network`
+  1. Here we are getting things in place to get internet access 
+1. Type `treehouses bridge "name of your wifi" treehouses "your wifi password" 
 
-2. Open the `Treehouses Remote` app
-3. Click on "Connect to RPI"
-4. Select your Raspberry Pi ( `treehouses`)
-
-
-
-### Features
-
-- The connection status is shown on the action bar.
-- In `cmd`
-  - Use the Wi-Fi icon on the action bar to comfigure the Raspberry Pi to connect to a Wi-Fi network.
-  - Use buttons on the lower part of the screen to performe various commands.
-  - The circle on the upper left corner shows the Raspberry Pi's internet connectivity status using color green and red.
-  - To return to dashboard, click on the back button at the bottom of the device.
-
+ #### Congrats you have just connected to your Raspberri Pi! 
+  
+`Note for later: You will need to unpair and re-pair eveytime you use a new Image version`
 ## Next Section: [Finding your Pi](find-pi.md)
