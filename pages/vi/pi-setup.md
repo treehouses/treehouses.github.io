@@ -21,15 +21,21 @@ After getting your microSD cards and card reader/adapter, your first step will b
 ### Prepping the microSD card:
 1. Download the latest treehouses image that is available [here](http://download.treehouses.io)
  1. In the list scroll down and find the latest release
-2. Download and install [Etcher](https://etcher.io)
-3. Insert a microSD card into your computer's card reader
-4. Burn the treehouses image onto the microSD card:
-  * Open Etcher
-  * Select the treehouses image that you have just downloaded
-  * Select the microSD card
-  * Click "Flash!".  The process will take approximately 10 minutes to complete.
-5. Once it's done burning, you can view the contents in the `boot` partition.
-6. Unmount and safely eject the microSD card from your computer. 
+1. Download and install [Etcher](https://etcher.io)
+![](etcher.jpg)
+
+### Burning the treehouses image onto the microSD card:
+1. Insert a microSD card into your computer's card reader
+1. Open Etcher
+1. Click on `Select Image`
+1.  * Select the treehouses image that you have just downloaded
+1.  * Select the microSD card you have just inserted 
+1.  * Click "Flash!".  The process will take approximately 10 minutes to complete.
+![](etcher1.jpg)
+
+1. Once it's done burning, you can view the contents in the `boot` partition.
+ 1. You can access this through a your file explorer
+1. Unmount and safely eject the microSD card from your computer. 
 
 ### Starting up the Raspberry Pi:
 Insert the microSD card into the RPi.  Use an ethernet cable to connect it to a router, and connect the power cable.  A red "power" LED should turn on.
