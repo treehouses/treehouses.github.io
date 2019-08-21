@@ -8,39 +8,39 @@
 ## So What is the Raspberry Pi?
 The Raspberry Pi is a low cost single board computer.  Think of it as a downsized desktop tower, with the ability to receive, compute and output data and information, just without a mouse, keyboard or screen.
 
-The OLE Raspberry Pi image is a modified [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) image, with additional software for OLE's Planet program.  The Raspberry Pi can boot from this image using a microSD card.
+The treehouses Raspberry Pi image is a modified [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) image, with additional software for OLE's Planet program.  The Raspberry Pi can boot from this image using a microSD card.
 
-### How OLE uses the Pi:  
-1. The Raspberry Pi is loaded with an operating system developed by the OLE team.
+### How the treehouses team uses the Pi:  
+1. The Raspberry Pi is loaded with an operating system developed by the treehouses team.
 2. The Raspberry Pi is used in the field to allow devices to connect to it. 
 3. Through this connection, these devices can access educational materials (Planet).
 
 ## Get your RPi Up and Running
 After getting your microSD cards and card reader/adapter, your first step will be to burn a treehouses image onto a microSD card, which you will later use to boot up your Raspberry Pi.
 
-### Prepping the microSD card:
-1. Download the latest treehouses image that is available [here](http://download.treehouses.io)
- 1. In the list scroll down and find the latest release
+### Preparing the image:
 1. Download and install [Etcher](https://etcher.io)
 ![](images/etcher.jpg)
+1. Go to http://download.treehouses.io
+1. Scroll down to find the latest release, and download it to your computer.
+
 
 ### Burning the treehouses image onto the microSD card:
 1. Insert a microSD card into your computer's card reader
 1. Open Etcher
-1. Click on `Select Image`
-1.  * Select the treehouses image that you have just downloaded
-1.  * Select the microSD card you have just inserted 
-1.  * Click "Flash!".  The process will take approximately 10 minutes to complete.
+    * Click on `Select Image`
+    * Select the treehouses image that you have just downloaded
+    * Select the microSD card you have just inserted 
+    * Click "Flash!".  The process will take approximately 10 minutes to complete.
 ![](images/etcher1.jpg)
 
-1. Once it's done burning, you can view the contents in the `boot` partition.
- 1. You can access this through a your file explorer
+1. Once it's done burning, you can view the contents in the `boot` partition of your microSD card using a file explorer.
 1. Unmount and safely eject the microSD card from your computer. 
 
 ### Powering on the Raspberry Pi:
-1. With the Raspberry Pi still off, insert the microSD card into small card reader.  
-1. If you have an an ethernet cable, connect it to a router.
-1. Connect the power cable and if your device has an on switch turn it `on`
- 1. A red "power" LED should turn on.
+1. With the Raspberry Pi still off, insert the microSD card into the card reader on the bottom. 
+1. Use an ethernet cable to connect it to a router.
+1. Connect the power cable, and if your device has a power switch, turn it on.
+    * A red "power" LED should turn on.
 
 ## Next Section: [Using Treehouses Remote](treehouses-remote.md)
