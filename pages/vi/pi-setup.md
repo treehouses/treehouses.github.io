@@ -10,7 +10,7 @@ The Raspberry Pi is a low cost single board computer.  Think of it as a downsize
 
 The OLE Raspberry Pi image is a modified [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) image, with additional software for OLE's Planet program.  The Raspberry Pi can boot from this image using a microSD card.
 
-### How it works:  
+### How OLE uses the Pi:  
 1. The Raspberry Pi is loaded with an operating system developed by the OLE team.
 2. The Raspberry Pi is used in the field to allow devices to connect to it. 
 3. Through this connection, these devices can access educational materials (Planet).
@@ -20,6 +20,7 @@ After getting your microSD cards and card reader/adapter, your first step will b
 
 ### Prepping the microSD card:
 1. Download the latest treehouses image that is available [here](http://download.treehouses.io)
+ 1. In the list scroll down and find the latest release
 2. Download and install [Etcher](https://etcher.io)
 3. Insert a microSD card into your computer's card reader
 4. Burn the treehouses image onto the microSD card:
