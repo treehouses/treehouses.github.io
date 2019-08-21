@@ -8,7 +8,7 @@
 ## So What is the Raspberry Pi?
 The Raspberry Pi is a low cost single board computer.  Think of it as a downsized desktop tower, with the ability to receive, compute and output data and information, just without a mouse, keyboard or screen.
 
-The treehouses Raspberry Pi image is a modified [Raspbian](https://www.raspberrypi.org/downloads/raspbian/) image, with additional software for OLE's Planet program.  The Raspberry Pi can boot from this image using a microSD card.
+The treehouses Raspberry Pi image is a modified [Raspbian](https://en.wikipedia.org/wiki/Raspbian) image, with additional software for OLE's Planet program.  The Raspberry Pi can boot from this image using a microSD card.
 
 ### How the treehouses team uses the Pi:  
 1. The Raspberry Pi is loaded with an operating system developed by the treehouses team.
