@@ -56,12 +56,16 @@ Forking is essentially creating a copy of a repository on your own GitHub accoun
 
 Now, go to [treehouses github.io repository](https://github.com/treehouses/treehouses.github.io) and click on the "Fork" button to fork the repository to your own GitHub account.
 
+![](images/fork.jpg)
+
 **NOTE**: It is very important to **distinguish between your personal GitHub account and treehouses's account**.
 As we want to keep a 'clean' version of our code, you should first fork the repository. You should commit any changes you make to a branch on this version of the repository. These changes should be sent back to treehouses repository through pull requests. treehouses code will be updated when the pull requests are approved.
 
 ### Go to Settings and rename your repository
 
 After you fork the repository, you will be on your repository: &lt;YourUserName&gt;/treehouses.github.io. Next, you should go to **Settings** at the top middle of the page and rename your repository to &lt;YourUserName&gt;.github.io. See example below.
+
+![](images/fork1.jpg)
 
 **Note:** In case you have the **https://YourUserName.github.io** in use, please refer to the [FAQ](faq.md).
 
@@ -95,7 +99,7 @@ Then, in the new Markdown file, include the following information:
 * your name, location/time zone, and OS (including version)
 * a short description of yourself (so your fellow virtual interns know who you are)
 
-You may use the "Preview" tab to have a primitive look of what your Markdown will look like. Please use at least 5 different types of Markdown elements so you can get an idea of how it works. Avoid using HTML as the purpose of Markdown is to make pages easy to write and read. Try to be as creative as possible. Some good examples of profiles are: [Profile 1](profiles/Loshma93.md) (links), [Profile 2](profiles/ketruong.md) (picture), [Profile 3](profiles/paulbert.md) (lists) **Needs to be changed!**
+You may use the "Preview" tab to have a primitive look of what your Markdown will look like. Please use at least 5 different types of Markdown elements so you can get an idea of how it works. Avoid using HTML as the purpose of Markdown is to make pages easy to write and read. Try to be as creative as possible. Some good examples of profiles are: [Profile 1](profiles/Loshma93.md) (links), [Profile 2](profiles/ketruong.md) (picture), [Profile 3](profiles/paulbert.md) (lists)
 
 When you are finished, press 'commit changes' below.
 
