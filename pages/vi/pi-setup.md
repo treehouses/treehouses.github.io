@@ -22,7 +22,7 @@ After getting your microSD cards and card reader/adapter, your first step will b
 1. Download the latest treehouses image that is available [here](http://download.treehouses.io)
  1. In the list scroll down and find the latest release
 1. Download and install [Etcher](https://etcher.io)
-![](etcher.jpg)
+![](images/etcher.jpg)
 
 ### Burning the treehouses image onto the microSD card:
 1. Insert a microSD card into your computer's card reader
@@ -31,7 +31,7 @@ After getting your microSD cards and card reader/adapter, your first step will b
 1.  * Select the treehouses image that you have just downloaded
 1.  * Select the microSD card you have just inserted 
 1.  * Click "Flash!".  The process will take approximately 10 minutes to complete.
-![](etcher1.jpg)
+![](images/etcher1.jpg)
 
 1. Once it's done burning, you can view the contents in the `boot` partition.
  1. You can access this through a your file explorer
