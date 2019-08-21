@@ -37,7 +37,10 @@ After getting your microSD cards and card reader/adapter, your first step will b
  1. You can access this through a your file explorer
 1. Unmount and safely eject the microSD card from your computer. 
 
-### Starting up the Raspberry Pi:
-Insert the microSD card into the RPi.  Use an ethernet cable to connect it to a router, and connect the power cable.  A red "power" LED should turn on.
+### Powering on the Raspberry Pi:
+1. With the Raspberry Pi still off, insert the microSD card into small card reader.  
+1. If you have an an ethernet cable, connect it to a router.
+1. Connect the power cable and if your device has an on switch turn it `on`
+ 1. A red "power" LED should turn on.
 
 ## Next Section: [Using Treehouses Remote](treehouses-remote.md)
