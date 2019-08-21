@@ -20,7 +20,7 @@ After getting your microSD cards and card reader/adapter, your first step will b
 
 ### Preparing the image:
 1. Download and install [Etcher](https://etcher.io)
-![](images/etcher.jpg)
+![](images/etcher.png)
 1. Go to http://download.treehouses.io
 1. Scroll down to find the latest release, and download it to your computer.
 
