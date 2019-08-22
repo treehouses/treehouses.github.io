@@ -9,7 +9,7 @@ I have recently learned about using Tor to allow a Raspberry Pi to be accessed r
 
 Download the latest treehouses image from http://download.treehouses.io, then use [balenaEtcher](https://etcher.io) to flash the image onto your SD card.  Be sure to change balenaEtcher's settings to prevent it from automatically unmounting the SD card once it's done flashing.  
 
-![](/images/balenaEtcher-settings.png)
+![](images/balenaEtcher-settings.png)
 
 In your file explorer, navigate to the `boot` drive, and open the `autorunonce` file in a text editor of your choice.  Delete everthing, and paste this in:
 	
@@ -76,12 +76,12 @@ b3pesvpay2ouaxl556jwbknf32qlurspdregg672lgm5wjk5gejuonid.onion
 ```
 In the Tor browser on your computer, navigate to the .onion address.  For instance, I would navigate to `b3pesvpay2ouaxl556jwbknf32qlurspdregg672lgm5wjk5gejuonid.onion` in my Tor browser.  If the Nextcloud container is up and running, you should see the Nextcloud set up page:  
 
-![](/images/nextcloud-login.png)
+![](images/nextcloud-login.png)
 
 
 ### Step 5 - Wrap up    
 
-![](/images/nextcloud-dashboard.png)
+![](images/nextcloud-dashboard.png)
 
 After you have created an admin account and logged in, you can play around with the settings, add users, install apps to augment your Nextcloud experience, and more.  As long as your Raspberry Pi is connected to internet, and the Docker container is running, you will be able to access Nextcloud through the same Tor address (if you forget it, you can always ssh into your Pi and run `treehouses tor`).
 
