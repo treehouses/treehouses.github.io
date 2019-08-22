@@ -8,7 +8,7 @@
 ## Installation
 On an Android device, find the [treehouses remote](https://play.google.com/store/apps/details?id=io.treehouses.remote) app on the Google Play Store download it.
 
-![](remoteiconsml.jpg)
+![](images/remoteiconsml.jpg)
 
 The app may ask for your device location, feel free to decline.
 
