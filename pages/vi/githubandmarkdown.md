@@ -65,7 +65,7 @@ As we want to keep a 'clean' version of our code, you should first fork the repo
 
 After you fork the repository, you will be on your repository: &lt;YourUserName&gt;/treehouses.github.io. Next, you should go to **Settings** at the top middle of the page and rename your repository to &lt;YourUserName&gt;.github.io. See example below.
 
-![](images/fork1.jpg)
+![](images/fork1.png)
 
 **Note:** In case you have the **https://YourUserName.github.io** in use, please refer to the [FAQ](faq.md).
 
