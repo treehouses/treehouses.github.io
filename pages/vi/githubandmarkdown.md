@@ -56,7 +56,7 @@ Forking is essentially creating a copy of a repository on your own GitHub accoun
 
 Now, go to [treehouses github.io repository](https://github.com/treehouses/treehouses.github.io) and click on the "Fork" button to fork the repository to your own GitHub account.
 
-![](images/fork.jpg)
+![](images/fork.png)
 
 **NOTE**: It is very important to **distinguish between your personal GitHub account and treehouses's account**.
 As we want to keep a 'clean' version of our code, you should first fork the repository. You should commit any changes you make to a branch on this version of the repository. These changes should be sent back to treehouses repository through pull requests. treehouses code will be updated when the pull requests are approved.
