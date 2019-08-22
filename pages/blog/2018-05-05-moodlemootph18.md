@@ -30,17 +30,17 @@ In essence the requirements are
 
 So we choose Docker.
 
-![](../../images/container-meme.jpg "Container container everywhere!")
+![](/images/container-meme.jpg "Container container everywhere!")
 
 If you never heard about Docker, it is a container engine, an implementation of container technology. For the past 4 years, it is reinventing how we deploy software and make container technology become mainstream.
 
 What is special with Docker? If you come from the time where you can spawn another instance of software by installing some Virtual Machine engine like Virtual Box or VMWare, it is something similar but quite different. Well, my first time meeting with the virtual machine was using it for doing some cheat on my favorite online game. Just several years ago I know that people using the virtual machine for managing server and deploying an application on the internet.
 
-![](../../images/run-on-my-machine.jpeg "Container container everywhere!")
+![](/images/run-on-my-machine.jpeg "Container container everywhere!")
 
 Well, the problem is still about deployment. Docker and container technology, in general, want to reduce time installing the application and giving us more time to test and deploy our application, instead of spending time in the repetitive installation process. Remember the time where people said "it is works on my machine"?
 
-![](../../images/virtualization.png "Virtualization")
+![](/images/virtualization.png "Virtualization")
 
 In old days, with a virtual machine, we virtualize our machine with a hypervisor and install a guest operating system on top of that then we install our app on the guest operating system. The problem with the virtual machine is we have a big overhead with the virtualization and it cost us a big portion of our computer resources. In the other hand, a container is the light version of the VM (however quite different). We change two layers (hypervisor & guest OS) with a docker engine, and we can deploy the application and its `bin/libs` directly.
 
@@ -54,7 +54,7 @@ To solve the problem we also develop our own Raspberry Pi OS image based on Rasp
 
 The ultimate tool is the Bluetooth remote where we can remote controlling the Raspberry Pi for operational purpose. The problem we have is since we deploy the application mostly in remote area where computer expertise is minimum, we need to lower the barrier for people to operate our stuff. So we develop [treehouses/remote](https://github.com/treehouses/remote/). We have this by installing a bluetooth server in the Raspberry Pi which already included in our specialized Raspberry Pi OS Image, the [treehouses/builder](https://github.com/treehouses/builder), then after that we can connect to that server via the [treehouses/remote](https://github.com/treehouses/remote/). Here are some illustration.
 
-![](../../images/remote.jpg "Remote")
+![](/images/remote.jpg "Remote")
 
 ### Recap
 
