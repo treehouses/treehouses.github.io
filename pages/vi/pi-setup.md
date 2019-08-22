@@ -19,14 +19,14 @@ The treehouses Raspberry Pi image is a modified [Raspbian](https://en.wikipedia.
 After getting your microSD cards and card reader/adapter, your first step will be to burn a treehouses image onto a microSD card, which you will later use to boot up your Raspberry Pi.
 
 ### Preparing the image:
-![](images/etcher.png)
-
 1. Download and install [Etcher](https://etcher.io)
 1. Go to http://download.treehouses.io
 1. Scroll down to find the latest release, and download it to your computer.
 
 
 ### Burning the treehouses image onto the microSD card:
+![](images/etcher.gif)
+
 1. Insert a microSD card into your computer's card reader
 1. Open Etcher
     * Click on `Select Image`
@@ -35,8 +35,6 @@ After getting your microSD cards and card reader/adapter, your first step will b
     * Click "Flash!".  The process will take approximately 10 minutes to complete.
 1. Once it's done burning, you can view the contents in the `boot` partition of your microSD card using a file explorer.
 1. Unmount and safely eject the microSD card from your computer. 
-
-![](images/etcher.gif)
 
 
 ### Powering on the Raspberry Pi:
