@@ -11,7 +11,7 @@ Last April we speak at DevOpsDay Jakarta 2018 where we talk about our progress i
 
 My first software conference is PyCon Indonesia 2017 where I talk about load testing and performance engineering of application with a simple little tool called Locust. It was gaining some interest from the audience so I got very excited and wanted to talk more about my experience. You know, for an introvert coder like me, having some public speaking exercise is always both exciting and not that exciting. Very exciting because I can learn how to communicate better, and not that exciting because I am shy.
 
-![](images/how-introvert-feels.png "How introvert feels")
+![](images/20180505-how-introvert-feels.png "How introvert feels")
 
 So, when there was an opportunity to talk at DevOpsDay Jakarta, I thought about my contribution here at Open Learning Exchange and decided to talk about our DevOps practice, hoping it would inspire other people and organizations.
 
@@ -19,7 +19,7 @@ Actually, the time was not very good, I also do talk one day before DevOpsDay in
 
 ***
 
-![](images/devopsday-mappuji.jpg_large "Mappuji at DevOpsDay Jakarta 18")
+![](images/20180505-devopsday-mappuji.jpg_large "Mappuji at DevOpsDay Jakarta 18")
 
 In this talk, we talked about how we implement the three-way of DevOps and how we deliver small batch size of work continuously and fast cycle manner.
 
@@ -29,7 +29,7 @@ So what is DevOps? Well, like any other jargons, DevOps means many things to man
 
 So far I've found no strict definition of DevOps, but there is one important insight about it. It comes from [Gene Kim](https://twitter.com/RealGeneKim), the author of The Phoenix Project and DevOps Handbook. The loose definition or let alone insight from him is DevOps is a way leveraging advancement of manufacturing and applying the principle of lean manufacturing in software development, wherein the modern era of software development it is more and more applicable. Frankly speaking, it is about how we implementing small batch of delivery to the user and the business.
 
-![](images/envelope.png "Small batches: Simulation of “envelope game")
+![](images/20180505-envelope.png "Small batches: Simulation of “envelope game")
 
 *Simulation of “envelope game” (fold, insert, seal, and stamp the envelope)
 (Source: Stefan Luyten, “Single Piece Flow: Why mass production isn’t the most efficient way of doing ‘stuff’,” Medium.com, August 8, 2014, https://medium.com/@stefanluyten/single-piece-flow-5d2c2bec845b#.9o7sn74ns.)*
