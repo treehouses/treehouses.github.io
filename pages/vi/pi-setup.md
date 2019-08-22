@@ -33,11 +33,11 @@ After getting your microSD cards and card reader/adapter, your first step will b
     * Select the treehouses image that you have just downloaded
     * Select the microSD card you have just inserted 
     * Click "Flash!".  The process will take approximately 10 minutes to complete.
+1. Once it's done burning, you can view the contents in the `boot` partition of your microSD card using a file explorer.
+1. Unmount and safely eject the microSD card from your computer. 
 
 ![](images/etcher.gif)
 
-1. Once it's done burning, you can view the contents in the `boot` partition of your microSD card using a file explorer.
-1. Unmount and safely eject the microSD card from your computer. 
 
 ### Powering on the Raspberry Pi:
 1. With the Raspberry Pi still off, insert the microSD card into the card reader on the bottom. 
