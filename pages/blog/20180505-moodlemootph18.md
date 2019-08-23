@@ -70,4 +70,4 @@ By the way, we are always looking for self-driven contributor who wants to devel
 * System Engineering Intern/Volunteer, and
 * Mobile Engineering Intern/Volunteer
 
-Excited? Visit [treehouses/contribute](https://github.com/treehouses/contribute).
+Excited? Visit [first steps](https://treehouses.io/#!pages/vi/firststeps.md) even if you are not aspire to be a virtual intern.
