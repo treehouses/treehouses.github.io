@@ -92,7 +92,29 @@ Install [Tor](https://www.torproject.org/download/)
 To activate Tor, SSH into your Raspberry Pi with `root`, and run `treehouses tor add 22`, `treehouses tor add 80`, and `treehouses tor notice on`.  To view the Tor address of your Pi, run `treehouses tor`, then copy-paste this address into your Tor Browser, to make sure it works; you should see a configuration page for Planet Learning, one of our other services.
 
 --------------------------------------------------------------
-#### At the end of this section, take a screenshot of your successful SSH terminal and post it to the Gitter [chat](https://gitter.im/treehouses/Lobby)
+#### At the end of this section, post the code of your successful SSH terminal and post it to the Gitter [chat](https://gitter.im/treehouses/Lobby)
+
+This may look like this:
+```
+ssh root@18.27.196.249
+The authenticity of host '18.27.196.249 (18.27.196.249)' can't be established.                                                                                                                                                    
+ECDSA key fingerprint is SHA256:OQcmJteKgWOmNiK6OlrZ3CxC5+T/KMKowQ5qNHn9NOI.                                                                                                                                                      
+Are you sure you want to continue connecting (yes/no)? yes                                                                                                                                                                        
+Warning: Permanently added '18.27.196.249' (ECDSA) to the list of known hosts.                                                                                                                                                    
+
+The programs included with the Debian GNU/Linux system are free software;                                                                                                                                                         
+the exact distribution terms for each program are described in the                                                                                                                                                                
+individual files in /usr/share/doc/*/copyright.                                                                                                                                                                                   
+
+Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
+permitted by applicable law.
+Last login: Thu Aug 22 23:20:37 2019 from c-66-31-202-62.hsd1.ma.comcast.net
+root@youruser:~#
+```
+
 --------------------------------------------------------------
+
+You can find instructions on Code and Syntax Highlighting [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code-and-syntax-highlighting)
+
 
 #### Return to [First Steps](firststeps.md#)
