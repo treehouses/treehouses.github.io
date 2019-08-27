@@ -1,5 +1,5 @@
 ### About Me ###
-My name is An Pham. My local time zone is Boston/Eastern Time. I'm running Windows 10 Pro. But I'm a linux evangelist. 	:snowman:
+My name is An Pham. My local time zone is Boston/Eastern Time. I'm running Windows 10 Pro. But I'm a linux evangelist. 	
 
 ### Description ###
 Although, I am a IT student who studies sysadmin track, I want to  participate in a  proper SDLC (Systems development life cycle) like this on going project. Especially, I want to use git as main drive for any fureture development.
@@ -14,7 +14,7 @@ I always want to find a good use for single board computers. SBC is powerfull to
  
 
  My website: [Personal Web](http://anpham.ddns.net)
- :email: My email: vincentpham1993@gmail.com or an.pham001@umb.edu
+ My email: vincentpham1993@gmail.com or an.pham001@umb.edu
  
 Linux Related | Markup language | Development tools and Environment.
 ------------ | ------------- | -------------
