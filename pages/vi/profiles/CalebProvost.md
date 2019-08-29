@@ -1,6 +1,6 @@
 # Caleb Provost
 
-![Profile Photo](../images/CalebProvost.jpg)
+![Profile Photo](images/CalebProvost.jpg)
 
 &#x1f554; EST (UTC-5)
 
