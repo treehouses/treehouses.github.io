@@ -20,12 +20,12 @@ A: Type in the following command to fix the issues `rm "your home directory"/.ss
 
 For example:
 
-    In linux (ubuntu, fedora, ... ):\    
-        type in the following command \
+    In linux (ubuntu, fedora, ... ):    
+        Type in the following command 
         `rm "/home/$(whoami)/.ssh/known_hosts"
         
     In Windows:\
-        type in the following command in powershell\
+        Type in the following command in powershell
          `rm C:\Users\"your_user_name"\.ssh\known_hosts`
 
 
