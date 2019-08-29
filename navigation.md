@@ -30,7 +30,7 @@
 
 [Download](pages/download.md)
 
-[Chat]()
+[Chat](pages/chat.md)
 
   * [**Introduction**](pages/docs/chat.md)
   - - - -
