@@ -14,7 +14,7 @@
 
 ## Technical Questions
 
-- **Q1:** [What if you encounter host fail ?](#Q1:_If_user_encounter_the_ssh_error.)
+- **Q1:** [What if you encounter **Host key verification fail** or **Add correct host key in C:\\Users\\USER/.ssh/known_hosts to get rid of this message** ?](#Q1:_If_user_encounter_the_ssh_error.)
 
 
 
@@ -61,7 +61,7 @@
 
 ### Technical Questions
 
-#### Q1: If user encounter the ssh error.
+#### Q1: What if you encounter Host key verification fail?
 
 + To fix the issue, please type  `rm YourHomeDirectory/.ssh/known_hosts` in your powershell or terminal.
 
