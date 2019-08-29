@@ -15,13 +15,17 @@
 ## Technical Questions
 
 - **Q1:** [What if you encounter host fail ?](#Q1:_If_user_encounter_the_ssh_error.)
+
 A: Type in the following command to fix the issues `rm "your home directory"/.ssh/known_hosts`
+
 For example:
-    In linux (ubuntu, fedora, ... ):
-        type in the following command 
-        `rm "/home/$(whoami)/.ssh/known_hosts"`
-    In Windows:
-        type in the following command in powershell
+
+    In linux (ubuntu, fedora, ... ):\    
+        type in the following command \
+        `rm "/home/$(whoami)/.ssh/known_hosts"
+        
+    In Windows:\
+        type in the following command in powershell\
          `rm C:\Users\"your_user_name"\.ssh\known_hosts`
 
 
