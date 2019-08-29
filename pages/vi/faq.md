@@ -20,11 +20,11 @@ A: Type in the following command to fix the issues `rm "your home directory"/.ss
 
 For example:
 
-    In linux (ubuntu, fedora, ... ):    
+In linux (ubuntu, fedora, ... ):    
         Type in the following command 
-        `rm "/home/$(whoami)/.ssh/known_hosts"
-        
-    In Windows:\
+        `rm "/home/$(whoami)/.ssh/known_hosts"`
+       
+In Windows:
         Type in the following command in powershell
          `rm C:\Users\"your_user_name"\.ssh\known_hosts`
 
