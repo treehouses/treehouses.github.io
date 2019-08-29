@@ -52,7 +52,7 @@ There is no official deadline to complete these steps, but most candidates who a
 
 ## Step 0 - Introductory Steps
 
-1. Complete the [New Virtual Intern Application form](https://docs.google.com/forms/d/e/1FAIpQLSe33R-UmijuIvVg8vfyAH-ohF01r4A-wijNGrEu4HIZk8BTaQ/viewform?usp=sf_link). If you have already done this after being invited to join the team then good job, you're all set!
+1. Complete the [New Virtual Intern Application form](http://apply.treehouses.io). If you have already done this after being invited to join the team then good job, you're all set!
 
 2. Log into your [GitHub account](https://github.com/) then watch [treehouses.github.io repo](https://github.com/treehouses/treehouses.github.io) and Follow [Dogi](https://github.com/dogi), [Ryan](https://github.com/indepthh), [Vassilis](https://github.com/vers4ce), [Roshan](https://github.com/rrijal53), [Sam](https://github.com/Liew211), [Samuel](https://github.com/samuelchen1213) and [Arran](https://github.com/ArranHL) on GitHub. 
 
