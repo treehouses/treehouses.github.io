@@ -6,10 +6,6 @@
 
 [gimmick:theme (inverse: false)](darkly)
 
-[Docs]()
-
-  * [Getting Started](pages/docs/getting_started.md)
-  * [Treehouses Builder](pages/docs/treehouses_builder.md)
 
 [Virtual Interns]()
 
