@@ -11,7 +11,6 @@
 - **Q7:** [If I'm an international student, how soon can I get my paperwork required by my visa?](#Q7:_If_I'm_an_international_student,_how_soon_can_I_get_my_paperwork_required_by_my_visa?)
 - **Q8:** [How many pull requests and issues in total do I need to make to finish the steps?](#Q8:_How_many_pull_requests_and_issues_in_total_do_I_need_to_make_to_finish_the_steps?)
 - **Q9:** [How long do I have to complete these steps?](#Q9:_How_long_do_I_have_to_complete_these_steps?)
-- **Q10:** [What do I do if '&lt;YourUserName&gt;.github.io' is already in use?](#Q10:_What_do_I_do_if_'&lt;YourUserName&gt;.github.io'_is_already_in_use?)
 
 ## Technical Questions
 
@@ -57,13 +56,6 @@
 
 + There is no official deadline, so work on your own time. However, please note that most people who continued into the internship program completed the steps within 7-8 days.
 
-
-#### Q10: What do I do if '&lt;YourUserName&gt;.github.io' is already in use?
-
-+ Create an organization and use it to fork the repository:
-    - Click on the '+' icon next to your account icon (top right corner in github) and select 'New organization'.
-    - Name the organization '&lt;YourUserName&gt;-OLE', select 'My personal account', choose the 'Team For Open Source' option, and enter your email address to create the account.
-    - Now it will prompt you for which profile to use when you fork the [treehouses repository](https://github.com/treehouses/treehouses.github.io).
 
 ### Technical Questions
 
