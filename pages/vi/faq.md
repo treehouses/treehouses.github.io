@@ -14,7 +14,7 @@
 
 ## Technical Questions
 
-- **Q1:** [What if you encounter **Host key verification fail** or **Add correct host key in C:\\Users\\USER/.ssh/known_hosts to get rid of this message** ?](#Q1:_If_user_encounter_the_ssh_error.)
+- **Q1:** [What if you encounter **Host key verification fail** or **Add correct host key in C:\\Users\\USER/.ssh/known_hosts to get rid of this message** ?](#Q1:_What_if_you_encounter_Host_key_verification_fail?)
 
 
 
