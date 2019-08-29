@@ -1,4 +1,4 @@
-[Join us](https://github.com/treehouses/contribute)
+[Running Nextcloud on Raspberry Pi using Tor](20190731-nextcloud-tor.md) on July 31, 2019 by liew211
 
 [Experience with developing Treehouses CLI for OLE as a virtual intern](2018-08-15-CLIVIexp.md) on August 15, 2018 by rhuturajm
 
