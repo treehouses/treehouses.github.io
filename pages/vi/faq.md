@@ -61,8 +61,9 @@
 
 ### Technical Questions
 
-#### Q1: If user encounter the ssh error
-A: To fix the issue, please type  `rm "your home directory"/.ssh/known_hosts` in your powershell or terminal.
+#### Q1: If user encounter the ssh error.
+
++ To fix the issue, please type  `rm "your home directory"/.ssh/known_hosts` in your powershell or terminal.
 
 For example:
 
