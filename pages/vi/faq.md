@@ -65,14 +65,14 @@
 
 + To fix the issue, please type  `rm YourHomeDirectory/.ssh/known_hosts` in your powershell or terminal.
 
-For example:
+For example: I would type
 
  *In linux (ubuntu, fedora, ... )*  
-* I would type 
+ 
         `rm "/home/$(whoami)/.ssh/known_hosts"`
        
 *In Windows*
-* I would type
+
          `rm C:\Users\"your_user_name"\.ssh\known_hosts`
 
 
