@@ -18,6 +18,10 @@ treehouses consists of several parts:
 
 We have created our own suite of commands to be used in the Raspberry Pi terminal, which can be found in [treehouses/cli](https://www.npmjs.com/package/@treehouses/cli)
 
+```
+npm i @treehouses/cli
+```
+
 ### builder
 
 This is where our [modified Raspberry Pi images](https://download.treehouses.io) are created: [treehouses/builder](https://github.com/treehouses/builder).
