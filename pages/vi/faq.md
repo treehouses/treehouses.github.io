@@ -63,16 +63,16 @@
 
 #### Q1: If user encounter the ssh error.
 
-+ To fix the issue, please type  `rm "your home directory"/.ssh/known_hosts` in your powershell or terminal.
++ To fix the issue, please type  `rm YourHomeDirectory/.ssh/known_hosts` in your powershell or terminal.
 
 For example:
 
-In linux (ubuntu, fedora, ... ):    
-        Type in the following command 
+ *In linux (ubuntu, fedora, ... )*  
+* I would type 
         `rm "/home/$(whoami)/.ssh/known_hosts"`
        
-In Windows:
-        Type in the following command in powershell
+*In Windows*
+* I would type
          `rm C:\Users\"your_user_name"\.ssh\known_hosts`
 
 
