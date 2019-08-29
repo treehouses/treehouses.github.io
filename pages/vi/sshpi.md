@@ -36,7 +36,7 @@ individual files in /usr/share/doc/*/copyright.
 
 Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
 permitted by applicable law.
-Last login: Thu Aug 15 03:24:59 2019 from 192.168.0.101
+Last login: Thu Aug 15 03:24:59 2019 from 192.168.0.100
 
 SSH is enabled and the default password for the 'pi' user has not been changed.
 This is a security risk - please login as the 'pi' user and type 'passwd' to set a new password.
