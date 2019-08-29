@@ -2,10 +2,10 @@ Jul 17, 2018 • [liew211](https://www.github.com/Liew211)
 
 # Running Nextcloud on Raspberry Pi with Tor
 
-I have recently learned about using Tor to allow a Raspberry Pi to be accessed remotely, and have implemented this with [Nextcloud](https://nextcloud.com/#why-nextcloud).  Nextcloud is a file-storage service similar to Dropbox, or Google Drive, but hosted privately from your own Raspberry Pi.  By using Tor to open up the port occupied by Nextcloud, you will be able to access it without needing to be on the same Wifi network, which enhances Nextcloud's collaborative features, such as file-sharing and messaging.
+I have recently learned about using Tor to allow a Raspberry Pi to be accessed remotely, and have implemented this with [Nextcloud](https://nextcloud.com/).  Nextcloud is a file-storage service similar to Dropbox, or Google Drive, but hosted privately from your own Raspberry Pi.  By using Tor to open up the port occupied by Nextcloud, you will be able to access it without needing to be on the same Wifi network, which enhances Nextcloud's collaborative features, such as file-sharing and messaging.
 
 
-### Step 1 - Prepare Treehouses image
+## Step 1 - Prepare Treehouses image
 
 Download the latest treehouses image from http://download.treehouses.io, then use [balenaEtcher](https://etcher.io) to flash the image onto your SD card.  Be sure to change balenaEtcher's settings to prevent it from automatically unmounting the SD card once it's done flashing.  
 
@@ -28,9 +28,9 @@ reboot
 Replace `wifiname` and `wifipassword` with your wifi name and password.  Save the file, and safely eject the SD card.  
 
 
-### Step 2 - Set up your computer. 
+## Step 2 - Set up your computer. 
 
-#### macOS
+### macOS
 
 You should already have [Homebrew](https://brew.sh) installed.  You can check if it's already installed by running `brew -v` in your terminal.  If you haven't yet installed it, run the following:
 ```
@@ -44,11 +44,11 @@ brew install tor
 brew cask install tor-browser
 ```
 
-#### Windows & Linux
+### Windows & Linux
 
 Install [Tor](https://www.torproject.org/download/)
 
-### Step 3 - Start up Nextcloud
+## Step 3 - Start up Nextcloud
 
 Plug the microSD into your Raspberry Pi, and power it on.  The red LED should turn on, indicating that the Raspberry Pi is connected to power.  Once the green LED next to it on your Raspberry Pi stabilizes into a solid green, you should see "treehouses" appear in available Wifi networks.  Connect to it, and make sure that you have an internet connection by opening up another web page.  
 
@@ -65,7 +65,7 @@ b9484a8d681e        nextcloud           "/entrypoint.sh apac…"   12 minutes ag
 Now that the container has been created, you can stop and start it with `docker stop nextcloud` and `docker start nextcloud`.  To view all running and stopped containers, run `docker ps -a`.
 
 
-### Step 4 - Start up Tor
+## Step 4 - Start up Tor
 
 As we have run Nextcloud on port 8080, that's the port that we will have to open up with Tor.  While still in the root of treehouses, run `treehouses tor add 80 8080`, then run `treehouses tor` to find the tor address.  You should see something like this:
 ```bash
@@ -79,7 +79,7 @@ In the Tor browser on your computer, navigate to the .onion address.  For instan
 ![](images/20190731-nextcloud-login.png)
 
 
-### Step 5 - Wrap up    
+## Step 5 - Wrap up    
 
 ![](images/20190731-nextcloud-dashboard.png)
 
