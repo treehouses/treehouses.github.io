@@ -96,11 +96,11 @@ To activate Tor, SSH into your Raspberry Pi with `root`, and run `treehouses tor
 
 This may look like this:
 ```
-ssh root@18.27.196.249
-The authenticity of host '18.27.196.249 (18.27.196.249)' can't be established.                                                                                                                                                    
+ssh root@192.168.0.101
+The authenticity of host '192.168.0.101 (192.168.0.101)' can't be established.                                                                                                                                                    
 ECDSA key fingerprint is SHA256:OQcmJteKgWOmNiK6OlrZ3CxC5+T/KMKowQ5qNHn9NOI.                                                                                                                                                      
 Are you sure you want to continue connecting (yes/no)? yes                                                                                                                                                                        
-Warning: Permanently added '18.27.196.249' (ECDSA) to the list of known hosts.                                                                                                                                                    
+Warning: Permanently added '192.168.0.101' (ECDSA) to the list of known hosts.                                                                                                                                                    
 
 The programs included with the Debian GNU/Linux system are free software;                                                                                                                                                         
 the exact distribution terms for each program are described in the                                                                                                                                                                
@@ -108,8 +108,8 @@ individual files in /usr/share/doc/*/copyright.
 
 Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
 permitted by applicable law.
-Last login: Thu Aug 22 23:20:37 2019 from c-66-31-202-62.hsd1.ma.comcast.net
-root@youruser:~#
+Last login: Thu Aug 22 23:20:37 2019 from unknown.comcast.net
+root@treehouses:~#
 ```
 
 --------------------------------------------------------------
