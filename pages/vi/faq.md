@@ -57,7 +57,6 @@
 
 + There is no official deadline, so work on your own time. However, please note that most people who continued into the internship program completed the steps within 7-8 days.
 
-
 ### Technical Questions
 
 #### Q10: What do I do if '&lt;YourUserName&gt;.github.io' is already in use?
@@ -66,9 +65,6 @@
     - Click on the '+' icon next to your account icon (top right corner in github) and select 'New organization'.
     - Name the organization '&lt;YourUserName&gt;-OLE', select 'My personal account', choose the 'Team For Open Source' option, and enter your email address to create the account.
     - Now it will prompt you for which profile to use when you fork the [treehouses repository](https://github.com/treehouses/treehouses.github.io).
-
-
-
 
 ---
 ## Helpful Links
