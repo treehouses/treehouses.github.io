@@ -69,11 +69,11 @@ For example: I would type
 
  *In linux (ubuntu, fedora, ... )*  
  
-        `rm "/home/$(whoami)/.ssh/known_hosts"`
+ `rm "/home/$(whoami)/.ssh/known_hosts"`
        
 *In Windows*
 
-         `rm C:\Users\"your_user_name"\.ssh\known_hosts`
+ `rm C:\Users\"your_user_name"\.ssh\known_hosts`
 
 
 ---
