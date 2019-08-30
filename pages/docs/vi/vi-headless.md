@@ -1,50 +1,41 @@
-# First Steps
+# Raspberry Pi Headless Setup
 
-## Headless Set up
-&nbsp;
-Don’t have an extra keyboard or HDMI cable? Here’s how to do a headless [Treehouses](http://download.treehouses.io/) install on your Pi.
-&nbsp;
-Here is the list of hardware requirements once again for you to refer to.
-&nbsp;
-#### Hardware requirement review:
-1.  A Raspberry Pi 4
-1.  A power cord for the Pi
-	- Standard micro USB power cord: 2.4A for Pi 3 and Pi 3b+, 1.2A for Pi Zero W, or 15.3W for Pi 4
-1.  3 Class 10 microSD cards
-	- minimal 16GB, but we recommend 32GB or greater
+Don’t have an extra keyboard or monitor?? Here’s how to do a headless Raspberry Pi setup with a [treehouses](http://download.treehouses.io/) image, which is our modified version of Debian.
+
+## Hardware requirements:
+1.  Raspberry Pi 4 B, 3 B/B+, or Zero W
+1.  Power cord
+	- 3A USB-C for Pi 4, 2.5A microUSB for Pi 3 B/B+, or 1.2A microUSB for Pi Zero W
+1.  3 Class 10 or U1 microSD cards
+	- minimum 16GB, but we recommend 32GB or greater
 1.  A microSD card reader
-	- Check your computer if you have a slot for a card reader otherwise use a USB reader
+	- Check your computer if you have a slot for a card reader, otherwise use a USB reader
 1.  Ethernet cable or wifi dongle
-1.  USB keyboard, monitor, and HDMI cable
-	- Optional if using your own laptop via VNC
-1.  8 GB of hard-drive space
-1.  8 GB of memory (RAM)
+1.  Laptop or computer with mimimum of 8 GB of free hard-drive space and 8 GB of RAM
 
 
 
-## Step 0 - Gather Items
+## Step 0 - Prepare image
 
-You just flashed the latest treehouses image on your SD card and now you want to get it running. 
+Download the [latest treehouses image](http://download.treehouses.io/) to your computer, and flash it onto your microSD card using [balenaEtcher](https://etcher.io).
 
-Gather your Pi, the SD card, an ethernet cable, your laptop, and the Pi's power cord.
+## ADD ETCHER SETTINGS INSTRUCTIONS HERE ##
 
 ## Step 1 - SSH file
 
-Place your SD card into your laptop and open the boot file.
+Open your file explorer and find the microSD card; it should be named "boot".
 
-Enable [SSH](https://en.wikipedia.org/wiki/Secure_Shell) by placing a file named “ssh” (without any extension) onto the boot partition of the SD card
+Enable [SSH](https://en.wikipedia.org/wiki/Secure_Shell) by creating a file named `ssh` (without any extension) onto the boot drive.
 
-On mac: 
-1. Open textedit file
-2. make plain text
-3. select “save” and
-4. deselect “if no ext. is provided, use .txt”
-5. rename “ssh” and save inside boot file
+On macOS: 
+1. Open Textedit and create a new file
+2. Select "Make plain text" in the Format menu
+3. Save the file with the name `ssh` inside the boot file, and deselect “If no ext. is provided, use .txt”
 
 ## Step 2: Get your RPi Up and Running
 
-Unmount your SD card and place it inside the RPi. 
-Now connect the Pi to your laptop via ethernet cable and plug in it's power cord. 
+Unmount your SD card and place it inside the RPi.  
+Connect the Pi to your laptop via ethernet cable and plug in its power cord. 
 
 Give it a few minutes to get started and check for the flashing green light to make sure the image burned correctly. 
 
@@ -86,6 +77,6 @@ Reboot will restart the Pi so you will need wait a few minutes and then SSH back
 ssh pi@treehouses.local
 ~~~
 
-## Step 5:  View your Treehouses desktop
+## Step 5:  View your treehouses desktop
 
-Once you're back inside Treehouses, open up RealVNC again and enter the Pi's IP address once more, the desktop should now appear. You will be prompted for a password (raspberry) and a few more prompts, but otherwise everything should now be up and running. 
+Once you're back inside treehouses, open up RealVNC again and enter the Pi's IP address once more, the desktop should now appear. You will be prompted for a password (raspberry) and a few more prompts, but otherwise everything should now be up and running. 
