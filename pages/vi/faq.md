@@ -14,9 +14,13 @@
 
 ## Technical Questions
 
+<<<<<<< HEAD
 - **Q1:** [What if you encounter *Host key verification fail* or *Add correct host key in C:\\Users\\USER/.ssh/known_hosts to get rid of this message*?](#Q1:_What_if_you_encounter_Host_key_verification_fail?)
 
 
+=======
+- **Q10:** [What do I do if '&lt;YourUserName&gt;.github.io' is already in use?](#Q10:_What_do_I_do_if_'&lt;YourUserName&gt;.github.io'_is_already_in_use?)
+>>>>>>> upstream/master
 
 
 ### General Internship Questions
@@ -58,9 +62,9 @@
 
 + There is no official deadline, so work on your own time. However, please note that most people who continued into the internship program completed the steps within 7-8 days.
 
-
 ### Technical Questions
 
+<<<<<<< HEAD
 #### Q1: What if you encounter Host key verification fail?
 
 + To fix the issue, please type  `rm YourHomeDirectory/.ssh/known_hosts` in your powershell or terminal.
@@ -75,6 +79,14 @@ For example: I would type
 
  `rm C:\Users\"your_user_name"\.ssh\known_hosts`
 
+=======
+#### Q10: What do I do if '&lt;YourUserName&gt;.github.io' is already in use?
+
++ Create an organization and use it to fork the repository:
+    - Click on the '+' icon next to your account icon (top right corner in github) and select 'New organization'.
+    - Name the organization '&lt;YourUserName&gt;-OLE', select 'My personal account', choose the 'Team For Open Source' option, and enter your email address to create the account.
+    - Now it will prompt you for which profile to use when you fork the [treehouses repository](https://github.com/treehouses/treehouses.github.io).
+>>>>>>> upstream/master
 
 ---
 ## Helpful Links
