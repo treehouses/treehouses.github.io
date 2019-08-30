@@ -30,7 +30,11 @@ Enable [SSH](https://en.wikipedia.org/wiki/Secure_Shell) by creating a file name
 On macOS: 
 1. Open Textedit and create a new file
 2. Select "Make plain text" in the Format menu
-3. Save the file with the name `ssh` inside the boot file, and deselect “If no ext. is provided, use .txt”
+3. Save the file with the name `ssh` inside the boot drive, and deselect “If no ext. is provided, use .txt”
+
+On Windows:
+1. Create a new file with Notepad
+2. Save the file with the name `ssh` as a plain text file inside the boot drive, without a file extension.
 
 ## Step 2: Get your RPi Up and Running
 
@@ -41,10 +45,11 @@ Give it a few minutes to get started and check for the flashing green light to m
 
 ## Step 3: Accessing Treehouses 
 
-Now you will open up your terminal or command prompt. To configure your Pi, you will need the IP address. To do this, enter the command:
+Open up your terminal or command prompt. To configure your Pi, you will need the IP address. To do this, enter the command:
 ~~~
 ping treehouses.local
 ~~~
+
 Once the IP address appears press Ctrl + C.
 
 Copy the IP address and paste it into the command below.
@@ -53,29 +58,25 @@ SSH into the Pi by using:
 ~~~
 ssh pi@enter_IP_address_here
 ~~~
-You will now see a message that reads 
->Authenticity of host can't be established, are you sure you want to continue? (yes/no)
->
+You will now see a message that reads
+```bash
+Authenticity of host can't be established, are you sure you want to continue? (yes/no)
+```
 You will enter yes and then be prompted for a password which in all cases for RPis is "raspberry" until you change it.
 
-## Step 4: Download RealVNC
+## Step 4: Set Up RealVNC
 
-Download [RealVNC](http://realvnc.com/en/connect/download/vnc/) here
-
-Once it finishes downloading, open it up and enter the IP address from earlier in the search bar. Your Pi desktop should appear. 
-
-It may give you an error at first, so ensure VNC is turned on in Treehouses by going back to terminal and entering:
-
+Enable VNC on your Pi by running the following in your terminal while SSHed in:
 ~~~
 sudo -s
-Treehouses vnc on
+treehouses vnc on
 reboot
 ~~~
-Reboot will restart the Pi so you will need wait a few minutes and then SSH back into it using:
 
-~~~
-ssh pi@treehouses.local
-~~~
+Download [RealVNC Viewer](https://www.realvnc.com/en/connect/download/viewer/)
+
+Once it finishes downloading, open it up and enter the IP address of the Raspberry Pi that you found earlier in the search bar.  You may be prompted to log in: username `pi`, password `raspberry`.  Your Pi desktop should appear. 
+
 
 ## Step 5:  View your treehouses desktop
 
