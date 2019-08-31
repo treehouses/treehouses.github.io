@@ -13,6 +13,7 @@
 - **Q9:** [How long do I have to complete these steps?](#Q9:_How_long_do_I_have_to_complete_these_steps?)
 
 ## Technical Questions
+- **Q1:** [What if you encounter *Host key verification fail* or *Add correct host key in C:\\Users\\USER/.ssh/known_hosts to get rid of this message*?](#Q1:_What_if_you_encounter_Host_key_verification_fail?)
 
 - **Q10:** [What do I do if '&lt;YourUserName&gt;.github.io' is already in use?](#Q10:_What_do_I_do_if_'&lt;YourUserName&gt;.github.io'_is_already_in_use?)
 
@@ -58,6 +59,20 @@
 + There is no official deadline, so work on your own time. However, please note that most people who continued into the internship program completed the steps within 7-8 days.
 
 ### Technical Questions
+
+#### Q1: What if you encounter Host key verification fail?
+
++ To fix the issue, please type  `rm YourHomeDirectory/.ssh/known_hosts` in your powershell or terminal.
+
+For example: I would type
+
+ *In linux (ubuntu, fedora, ... )*  
+ 
+ `rm "/home/$(whoami)/.ssh/known_hosts"`
+       
+*In Windows*
+
+ `rm C:\Users\"your_user_name"\.ssh\known_hosts`
 
 #### Q10: What do I do if '&lt;YourUserName&gt;.github.io' is already in use?
 
