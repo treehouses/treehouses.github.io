@@ -46,7 +46,8 @@ pi@treehouses:~ $
 
 ### Add ssh key to the Raspberry Pi
 
-To add your SSH key to your Raspberry Pi, run: `treehouses sshkey add "your SSH key"` (copy-paste your SSH key in between the quotes).
+To add your SSH key to your Raspberry Pi, run: `sudo treehouses sshkey add "your SSH key"` (copy-paste your SSH key in between the quotes). You will be prompted to type in the password for pi user, please type in `raspberry` as default password.
+
 
 ### Log in by Root
 
