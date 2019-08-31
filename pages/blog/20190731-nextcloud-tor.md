@@ -1,6 +1,8 @@
+# Running Nextcloud on Raspberry Pi with Tor
+
 Jul 17, 2018 • [liew211](https://www.github.com/Liew211)  
 
-# Running Nextcloud on Raspberry Pi with Tor
+---
 
 I have recently learned about using Tor to allow a Raspberry Pi to be accessed remotely, and have implemented this with [Nextcloud](https://nextcloud.com/).  Nextcloud is a file-storage service similar to Dropbox, or Google Drive, but hosted privately from your own Raspberry Pi.  By using Tor to open up the port occupied by Nextcloud, you will be able to access it without needing to be on the same Wifi network, which enhances Nextcloud's collaborative features, such as file-sharing and messaging.
 
