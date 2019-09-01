@@ -14,15 +14,12 @@
                      ||                                          ||----w||
 MVMVMVMVMVMVMVMVMVMVMVMMVMVMVMVMMVMVMVMVMMVMVMVMVMVMVMVMVMVMVMVMV||VMVMV||MVMVMVMVMVMVMVMVMVM
 ```
-[![GitHub issues](https://img.shields.io/github/issues/xdmtk/xdmtk.github.io)](https://github.com/xdmtk/xdmtk.github.io/issues)
-[![GitHub forks](https://img.shields.io/github/forks/xdmtk/xdmtk.github.io)](https://github.com/xdmtk/xdmtk.github.io/network)
-[![GitHub stars](https://img.shields.io/github/stars/xdmtk/xdmtk.github.io)](https://github.com/xdmtk/xdmtk.github.io/stargazers)
 
 ### Introduction
 Hi there, welcome to my page. 
-* **Current** Junior @ California State University Northridge
-* **Former** Full-Time Software Engineer @ Collide.com
-* **Forever**  Builder / Tinkerer / Hacker @ Life
+*  **Current** Junior @ California State University Northridge
+*  **Former** Full-Time Software Engineer @ Collide.com
+*  **Forever**  Builder / Tinkerer / Hacker @ Life
 
 ### Languages 
 * PHP
