@@ -17,9 +17,9 @@ MVMVMVMVMVMVMVMVMVMVMVMMVMVMVMVMMVMVMVMVMMVMVMVMVMVMVMVMVMVMVMVMV||VMVMV||MVMVMV
 
 ### Introduction
 Hi there, welcome to my page. 
-*  Current: Junior @ California State University Northridge 
-*  Former: Full-Time Software Engineer @ Collide.com
-*  Forever:  Builder / Tinkerer / Hacker @ Life
+* Current: Junior @ California State University Northridge 
+* Former: Full-Time Software Engineer @ Collide.com
+* Forever:  Builder / Tinkerer / Hacker @ Life
 
 ### Languages 
 * PHP
