@@ -14,4 +14,4 @@ I am using Windows 10 Enterprise Version 1511 (I am not positive why it has Ente
   
 ## Just for fun
 Here is a cool picture of my dog I made with [picsart](https://picsart.com)  
-![Baxter](/images/baxter.jpg)
+![Baxter](jpadilla9.treehouses.github.io/pages/vi/profiles/images/baxter.jpg)
