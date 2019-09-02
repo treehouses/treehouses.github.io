@@ -62,17 +62,18 @@
 
 #### Q1: What if you encounter Host key verification fail?
 
+
 + To fix the issue, please type  `rm YourHomeDirectory/.ssh/known_hosts` in your powershell or terminal.
+Method 1 (removing the old remote host):
+	Look for this line:
+	`Offending key in /home/peter/.ssh/known_hosts:**3**`
+	This means that your host is on line 3.
+	Run the following command to remove the host:
+	`$ sed -i 3d ~/.ssh/known_hosts`
+Method 2 (adding argument for ssh command):
+	ssh -o StrictHostKeyChecking=no pi@192.168.2.1
 
-For example: I would type
 
- *In linux (ubuntu, fedora, ... )*  
- 
- `rm "/home/$(whoami)/.ssh/known_hosts"`
-       
-*In Windows*
-
- `rm C:\Users\"your_user_name"\.ssh\known_hosts`
 
 #### Q10: What do I do if '&lt;YourUserName&gt;.github.io' is already in use?
 
