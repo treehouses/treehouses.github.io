@@ -15,6 +15,7 @@
 ## Technical Questions
 
 - **Q10:** [What do I do if '&lt;YourUserName&gt;.github.io' is already in use?](#Q10:_What_do_I_do_if_'&lt;YourUserName&gt;.github.io'_is_already_in_use?)
+- **Q11:** [What if you encounter *Host key verification fail*?](#Q11:_What_if_you_encounter_Host_key_verification_fail?)
 
 ---
 
@@ -66,7 +67,15 @@
     - Name the organization '&lt;YourUserName&gt;-OLE', select 'My personal account', choose the 'Team For Open Source' option, and enter your email address to create the account.
     - Now it will prompt you for which profile to use when you fork the [treehouses repository](https://github.com/treehouses/treehouses.github.io).
 
+#### Q11: What if you encounter Host key verification fail?
++ You encountered this error because the host key has been changed due to new installation of the raspberry pi or your host key has been changed.
++ To fix the issue, You can try the following methods:
+    - remove `known_hosts` file with `rm ~/.ssh/known_hosts`
+    - avoid checking for host keys with `ssh -o StrictHostKeyChecking=no <user>@<host>`
+    - remove the exact key line of the offending host by looking in the output for `Offending key in /home/peter/.ssh/known_hosts:<linenumber>` and then with `sed -i <linenumber>d ~/.ssh/known_hosts` remove this exact line
+
 ---
+
 ## Helpful Links
 
 #### *GitHub and Markdown*
@@ -109,3 +118,4 @@
 - [How to Manually Fix Git Merge Conflicts](https://www.youtube.com/watch?v=g8BRcB9NLp4) - Please note that this video will explain how to fix a merge conflict from the point of view of the repo owner who is trying to merge a pull request. However, it is helpful also when you have to fix a merge conflict on your own local and forked repos.
 - [How to Use VirtualBox](https://www.youtube.com/watch?v=Dbblu_HVROk)
 - [Vagrant Tutorial](https://www.youtube.com/watch?v=PmOMc4zfCSw)
+
