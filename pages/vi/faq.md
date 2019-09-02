@@ -68,9 +68,13 @@
     - Now it will prompt you for which profile to use when you fork the [treehouses repository](https://github.com/treehouses/treehouses.github.io).
 
 #### Q11: What if you encounter Host key verification fail?
++ You encountered this error because the host key has been changed due to new installation of the raspberry pi or your host key has been changed.
++ To fix the issue, You can try the following method.
+**Method 1** (remove the known host file):
 
-+ To fix the issue, You can follow the following method.
-**Method 1** (removing the old remote host):
+    rm $HOME/.ssh/known_hosts
+
+**Method 2** (removing the old remote host):
 Look for this line:
 <<<<<<< HEAD
 
