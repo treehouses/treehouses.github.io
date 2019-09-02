@@ -65,7 +65,7 @@ CONTAINER ID        IMAGE               COMMAND                  CREATED        
 b9484a8d681e        nextcloud           "/entrypoint.sh apac…"   12 minutes ago      Up 12 minutes       0.0.0.0:8080->80/tcp   nextcloud
 ```
 Now that the container has been created, you can stop and start it with `docker stop nextcloud` and `docker start nextcloud`.  To view all running and stopped containers, run `docker ps -a`.
-
+Before moving on, use `docker stop <container>` on any running containers other than Nextcloud, as they may cause tor to fail when loading Nextcloud. If you encounter "Planet Learning", there is a strong chance that it is due to multiple containers running.
 
 ## Start up Tor
 
