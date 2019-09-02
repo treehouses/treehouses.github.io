@@ -76,7 +76,7 @@
 
 Look for this line:
 
-    Offending key in /home/peter/.ssh/known_hosts:3
+> Offending key in /home/peter/.ssh/known_hosts:3
 
 This means that your host is on line 3.
 
@@ -86,7 +86,7 @@ Run the following command to remove the host:
 
 **Method 2** (adding argument for ssh command):
 
-    ssh -o StrictHostKeyChecking=no pi@192.168.2.1
+    $ ssh -o StrictHostKeyChecking=no pi@192.168.2.1
 
 
 
