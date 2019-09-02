@@ -74,6 +74,8 @@
     - avoid checking for host keys with `ssh -o StrictHostKeyChecking=no <user>@<host>`
     - remove the exact key line of the offending host by looking in the output for `Offending key in /home/peter/.ssh/known_hosts:<linenumber>` and then with `sed -i <linenumber>d ~/.ssh/known_hosts` remove this exact line
 
+---
+
 ## Helpful Links
 
 #### *GitHub and Markdown*
