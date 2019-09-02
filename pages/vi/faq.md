@@ -69,36 +69,11 @@
 
 #### Q11: What if you encounter Host key verification fail?
 + You encountered this error because the host key has been changed due to new installation of the raspberry pi or your host key has been changed.
-+ To fix the issue, You can try the following method.
++ To fix the issue, You can try the following methods:
+    - remove `known_hosts` file with `rm $HOME/.ssh/known_hosts`
+    - avoid checking for host keys with `ssh -o StrictHostKeyChecking=no <user>@<host>`
+    - remove the exact key line of the offending host by looking in the output for `Offending key in /home/peter/.ssh/known_hosts:<linenumber>` and then with `sed -i <linenumber>d ~/.ssh/known_hosts` remove this exact line
 
-**Method 1** (remove the known host file):
-
-```
-    rm $HOME/.ssh/known_hosts
-```
-
-**Method 2** (removing the old remote host):
-Look for this line:
-
-```
-    Offending key in /home/peter/.ssh/known_hosts:3
-```
-
-This means that your host is on line 3.
-Run the following command to remove the host:
-
-```
-    sed -i 3d ~/.ssh/known_hosts
-
-```
-
-**Method 3** (adding argument for ssh command):
-```
-    $ ssh -o StrictHostKeyChecking=no pi@192.168.2.1
-```
-
-
----
 ## Helpful Links
 
 #### *GitHub and Markdown*
