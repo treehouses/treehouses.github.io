@@ -13,5 +13,5 @@ About me
 ![penguin]https://media.mnn.com/assets/images/2019/02/emperor-penguin-juvenile-adults-book.jpeg.653x0_q80_crop-smart.jpg
 
 
-
+You can find my blog here
 [My tech blog](https://vmnet8.github.io/)
