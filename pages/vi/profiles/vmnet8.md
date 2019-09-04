@@ -4,7 +4,7 @@ About me
 
 * Time Zone: Pacific Standard Time(PST).
 
-* I am using Windows 10 and Ubuntu 4.15.
+* I am using Windows 10 and Ubuntu 16.05.
 
 * I like penguins.
 
