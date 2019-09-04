@@ -1,16 +1,16 @@
 About me
 =========
-*I am Anna X, live in Bay area San Franscisco.
+* I am Anna X, live in Bay area San Franscisco.
 
-*Time Zone: Pacific Standard Time(PST).
+* Time Zone: Pacific Standard Time(PST).
 
-*I am using Windows 10 and Ubuntu 4.15.
+* I am using Windows 10 and Ubuntu 4.15.
 
-*I like penguins.
+* I like penguins.
 
-###penguin image
+### penguin image
 
-![penguin]https://media.mnn.com/assets/images/2019/02/emperor-penguin-juvenile-adults-book.jpeg.653x0_q80_crop-smart.jpg
+![penguin](https://media.mnn.com/assets/images/2019/02/emperor-penguin-juvenile-adults-book.jpeg.653x0_q80_crop-smart.jpg)
 
 
 You can find my blog here
