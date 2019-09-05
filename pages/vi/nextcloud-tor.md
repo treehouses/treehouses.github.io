@@ -27,7 +27,9 @@ treehouses bridge 'wifiname' 'treehouses' 'wifipassword'
 
 reboot
 ```
-Replace `username`, `wifiname`, and `wifipassword` with your Github username, wifi name, and wifi password.  Save the file, and safely eject the SD card.  
+Replace `username`, `wifiname`, and `wifipassword` with your Github username, wifi name, and wifi password.  Save the file, and safely eject the SD card.
+
+**NOTE**: You must modify the `autorunonce` file _before_ using the SD card with the Raspberry Pi. Failure to do this step correctly will cause "Planet Learning" - another OLE service - to load when starting Tor. Don’t hesitate to ask other members in the [Gitter chat](https://gitter.im/treehouses/Lobby) if you are not able to load Nextcloud _after attempting this step again_.  
 
 
 ## Install Tor 
@@ -66,6 +68,7 @@ b9484a8d681e        nextcloud           "/entrypoint.sh apac…"   12 minutes ag
 ```
 Now that the container has been created, you can stop and start it with `docker stop nextcloud` and `docker start nextcloud`.  To view all running and stopped containers, run `docker ps -a`.
 
+**NOTE**: If you encounter an SSH error when attempting to log into your Raspberry Pi, see [FAQ #Q11](faq.md#Q11:_What_if_you_encounter_Host_key_verification_fail%3F) for potential solutions.
 
 ## Start up Tor
 
