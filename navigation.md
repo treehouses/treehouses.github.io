@@ -5,7 +5,7 @@
 # treehouses.io
 
 [gimmick:theme (inverse: false)](darkly)
-[gimmick:ForkMeOnGitHub](http:///github.com/treehouses/treehouses.github.io)
+[gimmick:ForkMeOnGitHub](http:///www.github.com/treehouses/treehouses.github.io)
 [Virtual Interns]()
 
   * [**Introduction / First Steps**](pages/vi/firststeps.md)
