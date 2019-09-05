@@ -68,7 +68,7 @@ b9484a8d681e        nextcloud           "/entrypoint.sh apac…"   12 minutes ag
 ```
 Now that the container has been created, you can stop and start it with `docker stop nextcloud` and `docker start nextcloud`.  To view all running and stopped containers, run `docker ps -a`.
 
-**NOTE**: If you encounter an SSH error when attempting to log into your Raspberry Pi, see [FAQ #Q11](https://treehouses.io/#!pages/vi/faq.md#https://treehouses.io/pages/vi/#Q11:_What_if_you_encounter_Host_key_verification_fail?) for potential solutions.
+**NOTE**: If you encounter an SSH error when attempting to log into your Raspberry Pi, see [FAQ #Q11](https://treehouses.io/#!pages/vi/faq.md#https://treehouses.io/pages/vi/#Q11:_What_if_you_encounter_Host_key_verification_fail%3F) for potential solutions.
 
 ## Start up Tor
 
