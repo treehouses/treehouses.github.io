@@ -20,7 +20,7 @@ We encourage you to file as many issues as you can, no matter how big or small. 
 
 ## Create an Issue
 
-First, you will need to open an issue within the right repository, in this case [treehouses.github.io](https://github.com/treehouses/treehouses.github.io), and explain the problem you have discovered, or improvement you want to implement. You will then research the possible solutions or ideas on how to address the issue before detailing your proposed solution. 
+First, you will need to open an issue within the right repository, in this case [treehouses.github.io](https://github.com/treehouses/treehouses.github.io), and explain the problem you have discovered, or improvement you want to implement. You will then research the possible solutions or ideas on how to address the issue before detailing your proposed solution.
 Your Pull Request (PR) will then be approved and someone else will hopefully provide some helpful input, you can then move ahead with making the proposed changes.
 
 Go to the "Issues" tab and click on "New issue" to create a new issue:
@@ -31,13 +31,14 @@ Give it a short title and a decriptive body and you can now submit your issue. I
 
 ![New Issue 2](/images/fs6-issue.png)
 
-| **IMPORTANT:** Issues are _not required_ to be approved _before_ a Pull Request is submitted for the respective fix; however, we do suggest that you wait until someone from the the System Team confirms/approves the change that your issue addresses BEFORE you begin work on the fix. |
+| **IMPORTANT:** Issues are _not required_ to be approved _before_ a Pull Request is submitted for the respective fix; however, we do suggest that you wait until someone from the System Team confirms/approves the change that your issue addresses BEFORE you begin work on the fix. |
 | --- |
- 
+
 If a Systems Team member does not approve your issue prior to the creation of the Pull Request, your efforts may be in vain. Your Issue may not be approved, among many other reasons this may be because:
+
 * Your issue is not a problem to begin with
-* Your issue does not improve treehouses enough 
-* Your fix is not suitable 
+* Your issue does not improve treehouses enough
+* Your fix is not suitable
 
 In this case your the Pull Request will not be merged and the Issue will not be counted towards your "First Steps" progress. Therefore, it is suggested that you wait for the OLE member(s) to approve your Issue submission.'
 
@@ -47,8 +48,8 @@ _**SPECIAL NOTE:**_ Aspiring Virtual Interns have a tendency to speed through th
 
 ## Create a New Branch
 
-**Every time you start to work on an issue, you need to create a branch to keep issues you are working on separated from each other.** 
-Before you create your branch, sync your repo using next commands: 
+**Every time you start to work on an issue, you need to create a branch to keep issues you are working on separated from each other.**
+Before you create your branch, sync your repo using next commands:
 `git fetch upstream`  
 `git checkout master`
 `git merge upstream/master`
@@ -71,7 +72,7 @@ If you're still confused, that's quite alright. [Forking Workflow](https://www.a
 
 After making modifications to your local files and before making a commit, you should preview the changes locally. The following link, [how to preview changes](http://dynalon.github.io/mdwiki/#!faq.md), gives all the information about how to preview changes from your machine. There's also another option to preview using online environment. This [link](https://dillinger.io/) takes you to the online environment.
 
-| NOTE: In case you have come up with the wrong edit and if you'd like to revert it back to the previous version of the file follow this [link](https://githowto.com/undoing_local_changes). This is applicable only before committing the change. 
+| NOTE: In case you have come up with the wrong edit and if you'd like to revert it back to the previous version of the file follow this [link](https://githowto.com/undoing_local_changes). This is applicable only before committing the change.
 | --- |
 
 ## Create a Commit and Push the Changes
