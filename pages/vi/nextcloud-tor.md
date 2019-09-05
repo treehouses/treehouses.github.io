@@ -68,6 +68,8 @@ b9484a8d681e        nextcloud           "/entrypoint.sh apac…"   12 minutes ag
 ```
 Now that the container has been created, you can stop and start it with `docker stop nextcloud` and `docker start nextcloud`.  To view all running and stopped containers, run `docker ps -a`.
 
+**NOTE**: If you encounter an SSH error when attempting to log into your Raspberry Pi, see [FAQ #Q11](https://treehouses.io/#!pages/vi/faq.md#https://treehouses.io/pages/vi/#Q11:_What_if_you_encounter_Host_key_verification_fail?) for potential solutions.
+
 ## Start up Tor
 
 As we have run Nextcloud on port 8080, that's the port that we will have to open up with Tor.  While still in the root of treehouses, run `treehouses tor add 80 8080`, `treehouses tor notice on`, then `treehouses tor` to find the tor address.  You should see something like this:
