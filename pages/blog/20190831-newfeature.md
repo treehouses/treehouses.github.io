@@ -24,7 +24,7 @@ Vim is an easy way to test your code. Here are instructions on how to use it.
 
 1. Download Vim  (or type `brew install vim` in your terminal)
 1. Create a new file `vim newfile`
-1. ![](../../images/vim_file)
+1. ![](../../images/vim_file.png)
 1. The new file will automatically open, now press i on your keyboard to edit it
 1. Include `#!/bin/bash` at the top
 1. Copy the above script and press `:wq` to save it and exit
@@ -57,6 +57,7 @@ For example `treehouses temperature` will return the temperature in a default se
 Shown below is how to create subcommands using cases
 
 ![](../../images/case.png)
+
 For convenience, the function above does not actually convert celsius to fahrenheit or kelvin, just displays a short message. However two new subcommands have just been added.
 Now instead of your command being just `treehouses temperature` it can now also be `treehouses temperature fahrenheit` or `treehouses temperature kelvin`
 
