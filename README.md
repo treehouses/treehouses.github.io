@@ -1,10 +1,10 @@
-Welcome to Treehouses
+Welcome to treehouses
 =====================
 
-What is Treehouses?
+What is treehouses?
 -------------------
 
-Treehouses is the name of our system allowing us to share our different learning platforms via the Rasperry Pi series of single-board computer devices.
+treehouses is the name of our system allowing us to share our different learning platforms via the Rasperry Pi series of single-board computer devices.
 
 Currently the Raspberry Pi models supported are: the zero W, the Pi 3, the Pi 3B+ and the Pi 4
 
@@ -12,25 +12,20 @@ Currently the Raspberry Pi models supported are: the zero W, the Pi 3, the Pi 3B
 Main system branches
 --------------------
 
-Treehouses is constructed of several parts:
+treehouses consists of several parts:
 
-### Builder
+### cli
 
-This is where our different images intended for the Raspberry Pi are being built.
+We have created our own suite of commands to be used in the Raspberry Pi terminal, which can be found in [treehouses/cli](https://www.npmjs.com/package/@treehouses/cli)
 
-### Remote
+```
+npm i @treehouses/cli
+```
 
-Currently in remote, we are developing an app for Android devices which interact with the terminal of the Raspberry Pi.
+### builder
 
-### Cli
+This is where our [modified Raspberry Pi images](https://download.treehouses.io) are created: [treehouses/builder](https://github.com/treehouses/builder).
 
-Cli is a platform by which we are scripting the different commands to be entered in the Raspberry Pi terminal
+### remote
 
-### rpi-couchdb
-
-In this part, we are attempting to use CouchDB through Docker in order to be able to use it on the Raspberry Pi.
-
-CouchDB is a single-node database which can be improved into a clustered database allowing the user to run single logical database server on any number of servers or virtual machines. It is built for servers (i.e. Raspberry Pi).
-
-Docker packages up code and all its dependencies with the purpose to run application quickly and reliably through computing environments.
-
+Currently in remote, we are developing an [Android app](https://play.google.com/store/apps/details?id=io.treehouses.remote) which allows Android phones and tablets interact with the terminal of the Raspberry Pi over Bluetooth: [treehouses/remote](https://github.com/treehouses/remote).
