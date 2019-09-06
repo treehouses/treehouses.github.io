@@ -12,6 +12,7 @@ Follow these steps to create your SSH key:
 - [Generate a new SSH key and add it to the ssh-agent](https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)  
 - [Add the SSH key to your GitHub account](https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account)
 
+**NOTE**: To check that your SSH key has been added correctly run the command `ls -l ~/.ssh/id_rsa` you should see a recently created SSH key. And to copy your new SSH key onto your clipboard run the command `cat ~/.ssh/id_rsa.pub | clip` 
 
 ### Log in with the Pi user
 
@@ -25,9 +26,9 @@ When you connect through SSH for the first time, you will be prompted to accept 
 $ ssh pi@192.168.0.101
 The authenticity of host '192.168.0.101 (192.168.0.101)' can't be established.
 ECDSA key fingerprint is SHA256:BzmwLK14V/EVa0m/0/SYFtGM/60zm7mFe5vVCWAxqe4.
-Are you sure you want to continue connecting (yes/no)? yes 
+Are you sure you want to continue connecting (yes/no)? yes
 Warning: Permanently added '192.168.0.101' (ECDSA) to the list of known hosts.
-Enter passphrase for key '/Users/username/.ssh/id_rsa': 
+Enter passphrase for key '/Users/username/.ssh/id_rsa':
 Linux treehouses 4.19.58-v7+ #1245 SMP Fri Jul 12 17:25:51 BST 2019 armv7l
 
 The programs included with the Debian GNU/Linux system are free software;
@@ -41,7 +42,7 @@ Last login: Thu Aug 15 03:24:59 2019 from 192.168.0.100
 SSH is enabled and the default password for the 'pi' user has not been changed.
 This is a security risk - please login as the 'pi' user and type 'passwd' to set a new password.
 
-pi@treehouses:~ $ 
+pi@treehouses:~ $
 ```
 
 ### Add ssh key to the Raspberry Pi
@@ -61,7 +62,7 @@ Tor is a computer network run by volunteers worldwide. Each volunteer runs what 
 
 Before hitting the open Internet, the Tor Browser will connect to several different relays, wiping its tracks each step of the way, making it difficult to figure out where, and who, you really are.
 
-First start by watching this {video](https://www.youtube.com/watch?v=6czcc1gZ7Ak) on the Tor browser 
+First start by watching this {video](https://www.youtube.com/watch?v=6czcc1gZ7Ak) on the Tor browser
 [Get Tor](https://www.torproject.org/download/)
 
 The Systems Team utilizes this tool to provide a further layer of security when interacting with the Raspberry Pis deployed in the field.
