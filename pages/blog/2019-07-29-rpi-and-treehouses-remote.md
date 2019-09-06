@@ -21,7 +21,8 @@ treehousesWifi would be your local wifi name; treehousesBridge would be your hot
 After entering the command you will be asked to reboot. Just enter the command "reboot." This will disconnect your device. Wait a few moment for the device to boot up and connect like you did in Step 4.
 To verify if your raspberry pi is connected to the internet just type "treehouses internet" into your terminal. if it returns true, that means your Raspberry Pi is connected. if it returns false, that means your Raspberry Pi is not connected to the internet and you should check your spelling on your WiFi name and your WiFi password.
 
-N.B.: To be certain of the network mode in which your raspberry pi is connected you can use treehouses networkmode and it should return whether your Raspberry Pi is connected via AP internet, WiFi or bridge
+NOTE To be certain of the network mode in which your raspberry pi is connected you can use treehouses networkmode and it should return whether your Raspberry Pi is connected via AP internet, WiFi or bridge
+
 ## Step 6
 Once you are connected to the internet, let's configure your tor access.
 ### Verify if tor is already configured
@@ -42,4 +43,4 @@ In order to verify that the previous step is working, we publish the onion addre
 Here is the command to accomplish the step:
 Type treehouses tor notice now to appear in the gitter treehouses chat.
 
-N.B.: you can type treehouses tor notice off to disable your presence from the chat 
+NOTE You can type treehouses tor notice off to disable your presence from the chat 
