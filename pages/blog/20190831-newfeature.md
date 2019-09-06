@@ -4,7 +4,9 @@ Aug 31, 2019 • [irisb1701](https://github.com/irisb1701)
 
 ---
 
-As a system's engineer you may need to work with the treehouses cli (command line interface). Here are step by step instructions on how to create a new feature for treehouses.
+As a system's engineer you may need to work with the treehouses cli (command line interface). 
+
+Here are step by step instructions on how to create a new feature for treehouses.
 
 ## Determining a New Feature:
 
@@ -42,7 +44,7 @@ You may want to modify it.
 1. Inside the function we will call `vcgencmd measure_temp` by simply writing in the command
 1. ![](../../images/vgenc.png)
 1. This can be the end of the function, however we want to modify what is returned
-    1. First lets puts the `vcgencmd measure_temp` command in a variable and call it "reading" so we can refer to it: `reading=$(vcgencmd measure_temp)`
+    1. First lets put the `vcgencmd measure_temp` command in a variable and call it "reading" so we can refer to it: `reading=$(vcgencmd measure_temp)`
     1. Lets make a new variable called number0 referring `reading` to remove "temp=": `number0=${reading:5}`
     1. Now let's make a third variable callled number which refers to number0 to remove `'C`: `number=${number0/%??/}`
     1. Now if we echo $number we will get the pure number.
