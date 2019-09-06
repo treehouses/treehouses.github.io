@@ -1,5 +1,7 @@
 # Blogs
 
+[Adding a New Feature to the cli](20190831-newfeature.md) on August 31, 2019 by irisb1701
+
 [Raspberry Pi Headless Setup](20190816-headless.md) on August 16, 2019 by irisb1701
 
 [Running Nextcloud on Raspberry Pi using Tor](20190731-nextcloud-tor.md) on July 31, 2019 by liew211
