@@ -66,7 +66,7 @@ Now you can go and make the proposed changes to your local files. You can use an
 | --- |
 If you're still confused, that's quite alright. [Forking Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow) can be quite challenging at first. See this diagram below. For better context, the new branch you just made is inside your "Forked GitHub IO".
 
-## NEED DIAGRAM HERE
+![flowchart](images/flowchart.png)
 
 ### Preview Changes Locally
 
