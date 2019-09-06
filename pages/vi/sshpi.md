@@ -12,7 +12,7 @@ Follow these steps to create your SSH key:
 - [Generate a new SSH key and add it to the ssh-agent](https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)  
 - [Add the SSH key to your GitHub account](https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account)
 
-**NOTE**: To check that your SSH key has been added correctly run the command `ls -l ~/.ssh/id_rsa` you should see a recently created SSH key. And to copy your new SSH key onto your clipboard run the command `cat ~/.ssh/id_rsa.pub | clip` 
+**NOTE**: To check that your SSH key has been added correctly run the command `ls -l ~/.ssh/id_rsa` you should see a recently created SSH key. Please be sure that you have added the SSH key to your computer **not** on your Pi. To add the SSH key to your clipboard run the command `cat ~/.ssh/id_rsa.pub | clip`
 
 ### Log in with the Pi user
 
