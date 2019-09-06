@@ -47,7 +47,7 @@ You may want to modify it.
     1. First lets put the `vcgencmd measure_temp` command in a variable and call it "reading" so we can refer to it: `reading=$(vcgencmd measure_temp)`
     1. Lets make a new variable called number0 referring `reading` to remove "temp=": `number0=${reading:5}`
     1. Now let's make a third variable callled number which refers to number0 to remove `'C`: `number=${number0/%??/}`
-    1. Now if we echo $number we will get the pure number.
+    1. Now if we `echo $number` we will get the pure number.
     1. We're going to finish the function by using `echo $number"°C"`
     1. This returns our desired output which may look something like 65.34°C
     1. ![](../../images/no_case.png)
