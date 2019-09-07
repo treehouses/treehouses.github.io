@@ -106,6 +106,7 @@ Before installing any Linux distros for WSL, you must ensure that the "Windows S
 2. Restart your computer when prompted.
 
 3. Open the Microsoft Store and search '"Linux"' 
+
 ![](images/20190808-dwstore.jpg)
   
 
