@@ -68,6 +68,7 @@ Once you've completed this steps, your device will be enrolled in the Windows In
 
 
 6. Select your Microsoft account, and click the Continue button.
+
 ![](images/20190808-dw3.jpg)
 
 
