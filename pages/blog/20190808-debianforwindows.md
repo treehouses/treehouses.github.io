@@ -42,6 +42,7 @@ We will first check what current version of windows you are running by following
   3. Hit enter 
   
   The follwoing will appear :
+  
 ![](images/20190808-dwwindowsbuild.jpg)
  
   
