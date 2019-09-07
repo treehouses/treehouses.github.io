@@ -11,7 +11,7 @@ There are currently two versions of WSL, version 1 and version 2
 WSL 1 has been in use in Windows 10 for a while and allowes you to use different Linux distros directly from your Windows 10 machine. 
 WSL 2 includes the capabilities of WSL 1 and provides increased file system performance and full system call compatibility, for this reson OLE system's engeneering team members require WSL2.
 
-![](images/dw-wsl2.jpg)
+![](images/20190808-dwwsl2.jpg)
 
 
 
@@ -25,7 +25,7 @@ Most recent CPUs have this feature enabled already, but if you are unsure whethe
 2. Go to Performance Tab 
 3. Find whether virtualization is enabled or not
 
-![](images/dw-virtual-enabled.jpg)
+![](images/20190808-dwvirtualenabled.jpg)
 
 
 If you're device has vertualization enables you're good to go! 
@@ -42,7 +42,7 @@ We will first check what current version of windows you are running by following
   3. Hit enter 
   
   The follwoing will appear :
-![](images/dw-windows-build.jpg)
+![](images/20190808-dwwindowsbuild.jpg)
  
   
   If you are already an Windows 10 Insider Preview Build 18917 or higher you're all set, otherwise carry on to the `Getting Windows insider edition ` section
@@ -59,22 +59,22 @@ Once you've completed this steps, your device will be enrolled in the Windows In
 3. Click on Windows Insider program. 
 4. Click the Get started button.
 
-![](images/dw-1.jpg)
+![](images/20190808-dw1.jpg)
 
 5. Click the Link an account option.
 
-![](images/dw-2.jpg)
+![](images/20190808-dw2.jpg)
 
 
 6. Select your Microsoft account, and click the Continue button.
-![](images/dw-3.jpg)
+![](images/20190808-dw3.jpg)
 
 
 7. On the "What kind of content would you like to receive?" page, use the drop-down menu, and select one of the following:
 
 `Just fixes, apps, and drivers: Enrolls your device in the Release preview ring without getting preview builds. However, pre-releases will be available in this ring as soon as the new version is considered complete.`
 
-![](images/dw-4.jpg)
+![](images/20190808-dw4.jpg)
 
 8. Click the Confirm button.
 
@@ -82,15 +82,15 @@ Once you've completed this steps, your device will be enrolled in the Windows In
 
 Slow: Gets preview builds with the latest features and changes with minimal risks of coming across bugs and significant problems.
 
-![](images/dw-5.jpg)
+![](images/20190808-dw5.jpg)
 
 10. Click the Confirm button.
 
-![](images/dw-6.jpg)
+![](images/20190808-dw6.jpg)
 
 11. Click the Confirm button again to agree to the terms.
 
-![](images/dw-7.jpg)
+![](images/20190808-dw7.jpg)
 
 12. Click the Restart Now button.
 
@@ -105,7 +105,7 @@ Before installing any Linux distros for WSL, you must ensure that the "Windows S
 2. Restart your computer when prompted.
 
 3. Open the Microsoft Store and search '"Linux"' 
-![](images/dw-store.jpg)
+![](images/20190808-dwstore.jpg)
   
 
 4. Click on 'Debian'
