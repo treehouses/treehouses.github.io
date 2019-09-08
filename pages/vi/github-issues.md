@@ -32,7 +32,8 @@ Give it a short title and a decriptive body and you can now submit your issue. I
 ![New Issue 2](images/fs6-issue.png)
 
 | **IMPORTANT:** Issues are _not required_ to be approved _before_ a Pull Request is submitted for the respective fix; however, we do suggest that you wait until someone from the System Team confirms/approves the change that your issue addresses BEFORE you begin work on the fix. |
-| --- |
+
+---
 
 If a Systems Team member does not approve your issue prior to the creation of the Pull Request, your efforts may be in vain. Your Issue may not be approved, among many other reasons this may be because:
 
