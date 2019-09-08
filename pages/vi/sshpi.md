@@ -12,7 +12,9 @@ Follow these steps to create your SSH key:
 - [Generate a new SSH key and add it to the ssh-agent](https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)  
 - [Add the SSH key to your GitHub account](https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account)
 
-**NOTE**: To check that your SSH key has been added to your computer correctly run the command `cat ~/.ssh/id_rsa*`. Both parts (private and public) of your recently created SSH key should show up. Please be sure that you have added the SSH key to your computer **not** on your Pi. To check that your SSH key has been properly linked to your GitHub account - navigate to `https://github.com/<yourgithubusername>.keys` in a browser - if the SSH key was added it will show up here.
+**NOTE**: With `cat ~/.ssh/id_rsa*` you can check your SSH key pair. Both parts (private and public) of your recently created SSH key should show up. Please be sure that your (private) key is protected by a passphrase has been created on your computer and **not** on the Raspberry Pi.
+
+A trick to weather github is configured correctly is to navigate to `https://github.com/<yourgithubusername>.keys` in a browser - your public SSH key should show up there.
 
 ### Log in with the Pi user
 
