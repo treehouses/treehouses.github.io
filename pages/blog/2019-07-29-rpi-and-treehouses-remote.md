@@ -35,9 +35,14 @@ At the terminal we'll get into setting up a bridge and setting up a WiFi
 ### Setting Up WiFi
 In your terminal enter "treehouses wifi <your local WiFi name> [your password]"
 
+![treehouses terminal keyboard](https://umf2ng.sn.files.1drv.com/y4mC0FSBKeaVG-hBA8CxB_eZ1yhaLnEiAhzdvV5KS3J6VG4gdUgqambgt7q3OKAYr6EMqbwaF3kCjjs_JDV1JxtQim3e1nqTj73o8x6cowIY5BEu616DbDzDPYA1YK7mZ8HnTXCzclZpt39JST18eTzAP-lKQe6ko4jv0ScT3N2tVfalrKe6FYHBBmEZSHP2uwlCgeM7w1evRka82n3hJmSIg?width=660&height=347&cropmode=none)
 
+![treehouses wifi red](https://umf5ng.sn.files.1drv.com/y4mMw_3pDqDL2bLlciiaT5qGXVqQqZMph2b0YLgC42uW2zu3YxVG71_pMEzGhNdtuFjGpkDGnVm3zWg19NXaXcwz9C8zH6U0lf-j3WybxpfBQcPu6ftqnGGt2e0tG5DSb2u52pToVEey2d1HH-wgcCNq_HAoy5p_3OakeIbf_hE7Fqdrq-BQOCIq8MXFJaopekjbclZq3Vf3WVyFrnxP7LNsQ?width=385&height=660&cropmode=none)
+
+![treehouses wifi blue](https://umf4ng.sn.files.1drv.com/y4m3H_1d4-x2aP04SG8S9w-vRirLQTUS4_JbQ0ZB51Ew0OnnESgdffSj-hK3J86URD6SferJC4PbpFMrCe9_LKfJyoFr822e4IYvn28U3urA_B3acCIu588G_kPwxs-o7WAbI4z_PulNqM_NxTYVNg3msedn3TnVoR7SESv6hBuRlFDZLpiNwc5YB410XDpwJfjxmj941J_AwBivIqab8FbwQ?width=386&height=660&cropmode=none)
 
 treehousesWifi would be your wifi name 0123456789 woud be your password
+
 To verify if your raspberry pi is connected to the internet, just type "treehouses internet" into your terminal. If it returns true, it means your Raspberry Pi is connected. If it returns false, it means your Raspberry Pi is not connected to the internet. In that latter case, you should check the spelling of your WiFi name and corresponding password.
 ### Setting up a bridge
 In your terminal, enter "treehouses bridge <your local wifi name> <the new name for your hotspot> [your wifi password] [(optional) your password for your new hotspot] "
