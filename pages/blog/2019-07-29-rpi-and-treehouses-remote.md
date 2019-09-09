@@ -44,18 +44,33 @@ In your terminal enter "treehouses wifi <your local WiFi name> [your password]"
 treehousesWifi would be your wifi name 0123456789 woud be your password
 
 To verify if your raspberry pi is connected to the internet, just type "treehouses internet" into your terminal. If it returns true, it means your Raspberry Pi is connected. If it returns false, it means your Raspberry Pi is not connected to the internet. In that latter case, you should check the spelling of your WiFi name and corresponding password.
+
+![treehouses internet](https://usf2ng.sn.files.1drv.com/y4m_FlAdCVdNu20VDpR24fQKM9Z4xFQiz6owQKUhTa8pFGg4IMS8tPCcRG8Ygquf9TwJcgfqw2Cs4Qu_FyoTB0t_lptAPSscDElzJdk5if66L3v7hkucLFWBaK20K3Q61Op-WkkMR2EWFh82_NJCuW3NKhR4g2Owsj1ca7Zh73KSjczanXarg64URX9BqZAId7CLBB-QypgyRHUtqfUBnOd-A?width=386&height=660&cropmode=none)
+
 ### Setting up a bridge
 In your terminal, enter "treehouses bridge <your local wifi name> <the new name for your hotspot> [your wifi password] [(optional) your password for your new hotspot] "
+
+![treehouses bridge](https://usf5ng.sn.files.1drv.com/y4mKvK4QMxHcenlxy3kGJWnKd3w3cbrQUXCsFiX3cEqwJBns6PoW7uYDxXwfQZ8fg21b68yOg4sZy3JC5Wj1eeN9xLJKYfU_HVUw78-ZpkgEyOfwnsB7UCBdxzvr8blKZsNDItZuX53GNRhh1k9ULr_3LmZA7ms9YzDVHI7lzpkhmlerhvEJXEtPH0PoO9QYME0-KMcFR-s4Vsdsz32e7OAWw?width=386&height=660&cropmode=none)
+
 treehousesWifi would be your local wifi name; treehousesBridge would be your hotspot name; 0123456789 woud be your wifi password; optionally ABCDEFGHIJ woud be your hotspot password
+
 After entering the command you will be asked to reboot. Just enter the command "reboot." This will disconnect your device. Wait a few moment for the device to boot up and connect like you did in Step 4.
-To verify if your raspberry pi is connected to the internet just type "treehouses internet" into your terminal. if it returns true, that means your Raspberry Pi is connected. if it returns false, that means your Raspberry Pi is not connected to the internet and you should check your spelling on your WiFi name and your WiFi password.
+
+![treehouses bridge disconnected](https://usf4ng.sn.files.1drv.com/y4mno52heVl9QZDa1jX9vHMheTD7s94pZ60o8fgVJpUssh8nvzmw4N11kfNVfi_omAOnzUmjEGscInD4aNS-FzMHUmRNmQF7JSx7LnvpAVHE4M8a6-lKyaNQwDnIpDrVf6kbkVhaUVgky_7UR8m8WxGGZIH-ufvRJ7Z42Zhn7mkX5W5IHkh9-GBjy23U2b2G_xFAvB3vaTlJmhzjBQoXgIn4A?width=386&height=660&cropmode=none)
+
+![treehouses bridge reconnected](https://w8fxng.sn.files.1drv.com/y4mjw8J9VcnuYV2u4HHM06cXaLLccl3-kDy1n-_wbYKyUf5yn1PjQt-HnFmB5xxdnWJAXAV-3OFlowWqNHCQyFqh7Hk2vZvtFxNPJavq4OvxSt0h7DFXYLS0s1o71G78mEOXniwG0fBAbtIEVh4CiMP9Sn961NIErsHq8rphb6S68WKHdFanwO_A3Ojn0rFnOI973oydF38I2PhJk7k0tnIXw?width=386&height=660&cropmode=none)
 
 NOTE To be certain of the network mode in which your raspberry pi is connected you can use treehouses networkmode and it should return whether your Raspberry Pi is connected via AP internet, WiFi or bridge
+
+![treehouses networkmode](https://w8fwng.sn.files.1drv.com/y4mfY6MqEluQPCCqoLZVAn6udSlJgtKhe3kMrOGpqTzpNGIJcy3NEWGvFpPcG1j_CJwUfFSCYtsDiwp5isSckowhFb5r9-f63uVPQpJcoz4oPRHk-xhsq3oXyv9-gURodylEm8tcegHTjxKAI-6KCTB0dzUxjrn41I8XBGbvpUPDxLYaB849g9FIa4HvE6bk6-0pf1VqmipA6NmgN7oPl4RVQ?width=386&height=660&cropmode=none)
 
 ## Step 6
 Once you are connected to the internet, let's configure your tor access.
 ### Verify if tor is already configured
 In the terminal, type treehouses tor to verify if you get a onion address. Normally you shouldn't and it would return this:
+
+
+
 ### Configure tor tunnels
 Type treehouses tor add 22
 Type treehouses tor list in order to verify if tor tunnel has been configured
@@ -63,8 +78,13 @@ Type treehouses tor add 80
 Type treehouses tor add 2200
 Type treehouses tor start to configure tor for your Raspberry Pi 
 Type treehouses tor list in order to verify all tunnels have been configured
+
+![treehouses tor add & list](https://usfzng.sn.files.1drv.com/y4mQSl-1SvUgb2xOR15roZUnaDJqilULU29WtSAYXeHo1lWxUB3JGe6TxlcwUQ2m32U52221Qjmve4DAPfO8h-pjdBEkhO8p2IN6dW8NwYiIYR1L3BGkqlQkOVL1yXFjdWFOqA7zUF3_Zwl8w1xUs3V8YNee4hqvh_R_gxa3F9HV7Fps0AbBJ5yYUvjxaZKSO6HQF7PHz-tD--wzvzfiaYEpw?width=386&height=660&cropmode=none)
+
 ### Display your onion address
 Use treehouses tor to display your onion address
+
+![treehouses tor](https://usf1ng.sn.files.1drv.com/y4mY_TGqYIMclSDtzKkho3DsGY2Ou6yk0Pd1u3aiCnMQktlDwxXF_Yjf-3v2avH76U-0leD6LXZv8_X82L2ZtSDwUOl5d0P7nJb45WS03yAG2qgjkNTsY_0GS3TsBAzVPMu2r9R4WJKoD5a4RmRFdsAAU1e4_1MOF0Ks3NuGCVVTkPgninoa_3872Jj5UpsygXZoUz19qUmrM0C0RccnsTmrw?width=386&height=660&cropmode=none)
 
 Once you see the display of your onion address that concludes your 6th step.
 ## Step 7
@@ -72,4 +92,4 @@ In order to verify that the previous step is working, we publish the onion addre
 Here is the command to accomplish the step:
 Type treehouses tor notice now to appear in the gitter treehouses chat.
 
-NOTE You can type treehouses tor notice off to disable your presence from the chat 
+![treehouses tor notice now](https://usf3ng.sn.files.1drv.com/y4mHNlwYF1Pmwi1PCskGcKCBp-0KCoNyCvl2AxlUZ62nzRnIXKCzKn8fTlqyIly4wPtdgOOLmOlSGEq6F1leZUDVDUZLIXfzB797AlLP6BgJ5xkUJO75gyp6XkC_ZACsGXFOylrtMe_eTbZ0l6_rjW4pQYvKbSwXZxNGmea21XcNN_8D_Qg4rxHeCwOfB6HejUxYPxvBTwJ2DpvmQYuCj4R9w?width=386&height=660&cropmode=none)
