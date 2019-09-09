@@ -6,13 +6,37 @@ Download the latest version of treehouses image [here](http://download.treehouse
 ## Step 2
 With your android device download [treehouses remote](https://play.google.com/store/apps/details?id=io.treehouses.remote). 
 ## Step 3
-After installing it, get into your bluetooth settings and pair your system with your Raspberry Pi. 
+After installing it, get into your bluetooth settings and pair your system with your Raspberry Pi.
+
+![bluetooth setting](https://t8f5ng.sn.files.1drv.com/y4mYF-F5p7h9FSFt3MBeSvZKo2ulfZ3bwmmqSrgdmXV1ra9-ETg2eIE6uttDgKX5BYFXCYfmkmQdyQ408KGNJOkZBJNkAQYH7L1RezQ3gIGG8Q8dnt8vp73PtLRJMVCkAI2GclEZ6E7c0jRe-IbWQMhr7CR8q43iLhP7B5t5yyIslzi1r8nEq99LzYIojrsGkLnOmrf6mi-4nGuyCL4B97XGg?width=386&height=660&cropmode=none)
+
+![bluetooth pairing](https://t8f4ng.sn.files.1drv.com/y4mhBtw5v6qYzMSmfMlgjg0rW12pIzuVZcQeHECRBgelYi85SbKN7bRfiZ2qVqWndwDvdwXX12aswYB42WxNZyCbJcronQlcEqclcqlvGLfm9JRxmHAAaZ3eoInUIbI0SwvCXV-1p7c_FyDf7r1XIDqWwPl0ygUQzLQ-L6-tiQF_yErZW7m5w1eAVw4BN5Yt83yRlS3fcJx5CQIrsKsG-WWGA?width=385&height=660&cropmode=none)
+
+![bluetooth paired](https://umfxng.sn.files.1drv.com/y4mdFf3QEh6MdAOwJt3_fQ0lhySCGDu6GcV5pj0lIMh6VNOSkZTEaNiVP23UGrFavcez4G3yf6rj3PLPX8IXlr755GhhtjqBFUILXln6jha1joX1VFTPlNvfGLTsrW8OwxrNRhSTyeWGbU0wkYZa2j0287eyidvL_aZouQMbJdSAiKjG_cJFRVUnDenFlOI7UWNQ_1sGaiHKg7MDl8SFj8GlA?width=385&height=660&cropmode=none)
+
 ## Step 4
 Once you're paired with your Raspberry Pi, open treehouses remote and connect to your Raspberry Ri.
+
+![treehouses remote start page](https://umfwng.sn.files.1drv.com/y4msr8sunq_qg0hu39-C7CWEuOgyZMyg_SgJfYL6jU76Wb_lQlWhKn4mcq8tm0m7IembIpZuZhzFpeSoU0PujmAitllAV4iANX_dbyDNTfAdrxxDwksJkQttxJQR9Qf6GrOl3W7ZcvKrv2lufaKFuu469Y7UexHkNpLP8-tz5xbz5I7ctfAMF-NMtQHCBwK_HYbRIvt6jI6YWYZqghVALxmFg?width=385&height=660&cropmode=none)
+
+![treehouses remote wm pg select device](https://umfzng.sn.files.1drv.com/y4mQ40_hZQUze_wSgi0rVxRGrvav7wJs5PLHjlcJd5Jm47_XknTBfo6BbD_DzN2P4OwePly3CJHtq2zkLnPYFzI0n47MXzwWU4nMuJFKmrx3UqZsDDUdxB_1r3qWUaqCOdJ7GTu9eVrwbBoGerOadcA8kdN050x_HMTmTa5RYhWkzZtOiw-LoFTbEQWC31UbLko2b4yPXA0bC35RtcKn44PWA?width=385&height=660&cropmode=none)
+
+![treehouses remote wm pg connecting device](https://umfyng.sn.files.1drv.com/y4mRUnWtsHKL7ssDVVgMgO1izlua8O60RtbN6AhE_7Az0LjMVr2maotyh_8dLOW3UtyDO9lRD3XpbwvNY_dWknQV54o-dwrjhz1UqIsopdrju5UIzMyR0KQBF7RsqhnFpa9nHP63G1IT960-GXap_wHcEYaGKQYIEC2rOAKYM5JvkyYm60MR23iG1RvPcS7nTzjg7TQ1ADyTGGGwDPCf9_jJQ?width=386&height=660&cropmode=none)
+
+![treehouses remote wm pg connected device](https://umf1ng.sn.files.1drv.com/y4m8822OJm2YjnJoqw6E6eexXFpsW3VgTteG_-VIvt1L0oVkFpy7DpVf6D4vU034Ffnw8_Gnb2WqmBrAoeGguAGSOSR1GvuL4bqHJjmL0P7LcMSWk6khxfG1G5jF6X1TC__jkfl2MlzmeCC0vBLOku6wxmjpJysvo2gKF1Y5ehjENsvvAf2Owa81FleIeHOtSoiVpP4aS2gjeQ073bCjFo77A?width=385&height=660&cropmode=none)
+
 ## Step 5
 At the terminal we'll get into setting up a bridge and setting up a WiFi
+
+![treehouses remote getting to terminal](https://umf0ng.sn.files.1drv.com/y4mFAcpkZ33W8F3tF9JXERJFiFD2GKOi3kzGFC5_ofRitSd0SP1w1xG8QpFhY99tNr_ioNtpmiTN5-oZscVlKWMRDuwgzPkkofrSSnUYjU7JHwAm_dfQE4-DbeDkb5pw59pTZxWxNT1EjDMV55HdDuzXjW5gsf2vJDiPssPsT4fiXufGQoYydVlm47tZvJxsPh3y87vfa6TANj00erPs326Jg?width=386&height=660&cropmode=none)
+
+![treehouses remote terminal](https://umf3ng.sn.files.1drv.com/y4mOpuDbds7VR5J5W2TPvKmdP4lc8kkL81u5lwEsd-2mG848G0aemiSH3oPQM0wr7-EaGPhFgvZBXEZDChyS1ADEuGGFSJz-oUUGzwNuGRXRk4ERj732q_26055-LgFkFnSlKNXuMWSqcvkm2Mgu5E-Efj2TIih-uBDDeYkf9ghhFbseB-HiLEE5Q8agQyF4qqbFfRaUxQNCUWMHeJ5LwNK2Q?width=386&height=660&cropmode=none)
+
 ### Setting Up WiFi
 In your terminal enter "treehouses wifi <your local WiFi name> [your password]"
+
+
+
 treehousesWifi would be your wifi name 0123456789 woud be your password
 To verify if your raspberry pi is connected to the internet, just type "treehouses internet" into your terminal. If it returns true, it means your Raspberry Pi is connected. If it returns false, it means your Raspberry Pi is not connected to the internet. In that latter case, you should check the spelling of your WiFi name and corresponding password.
 ### Setting up a bridge
