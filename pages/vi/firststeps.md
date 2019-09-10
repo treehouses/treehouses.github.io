@@ -142,7 +142,7 @@ Just as your learning with this Wiki was made possible by the efforts of previou
    * 4 comments made on *issues you didn't create* (one at step 6 and three at step 8)
    * 4 issues created (one at step 6 and three at step 8)
 
-**NOTE**: You can track your progress with the number of pull requests and issues [here](vtrack-progress.md).
+**NOTE**: You can track your progress with the number of pull requests and issues [here](trackprogress.md).
 
 ## Step 9 - Be part of the team
 
