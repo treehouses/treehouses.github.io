@@ -8,11 +8,7 @@ With your android device download [treehouses remote](https://play.google.com/st
 ## Step 3
 After installing it, get into your bluetooth settings and pair your system with your Raspberry Pi.
 
-![bluetooth setting](https://t8f5ng.sn.files.1drv.com/y4mYF-F5p7h9FSFt3MBeSvZKo2ulfZ3bwmmqSrgdmXV1ra9-ETg2eIE6uttDgKX5BYFXCYfmkmQdyQ408KGNJOkZBJNkAQYH7L1RezQ3gIGG8Q8dnt8vp73PtLRJMVCkAI2GclEZ6E7c0jRe-IbWQMhr7CR8q43iLhP7B5t5yyIslzi1r8nEq99LzYIojrsGkLnOmrf6mi-4nGuyCL4B97XGg?width=386&height=660&cropmode=none)
-
-![bluetooth pairing](https://t8f4ng.sn.files.1drv.com/y4mhBtw5v6qYzMSmfMlgjg0rW12pIzuVZcQeHECRBgelYi85SbKN7bRfiZ2qVqWndwDvdwXX12aswYB42WxNZyCbJcronQlcEqclcqlvGLfm9JRxmHAAaZ3eoInUIbI0SwvCXV-1p7c_FyDf7r1XIDqWwPl0ygUQzLQ-L6-tiQF_yErZW7m5w1eAVw4BN5Yt83yRlS3fcJx5CQIrsKsG-WWGA?width=385&height=660&cropmode=none)
-
-![bluetooth paired](https://umfxng.sn.files.1drv.com/y4mdFf3QEh6MdAOwJt3_fQ0lhySCGDu6GcV5pj0lIMh6VNOSkZTEaNiVP23UGrFavcez4G3yf6rj3PLPX8IXlr755GhhtjqBFUILXln6jha1joX1VFTPlNvfGLTsrW8OwxrNRhSTyeWGbU0wkYZa2j0287eyidvL_aZouQMbJdSAiKjG_cJFRVUnDenFlOI7UWNQ_1sGaiHKg7MDl8SFj8GlA?width=385&height=660&cropmode=none)
+![bluetooth setting](https://t8f5ng.sn.files.1drv.com/y4mYF-F5p7h9FSFt3MBeSvZKo2ulfZ3bwmmqSrgdmXV1ra9-ETg2eIE6uttDgKX5BYFXCYfmkmQdyQ408KGNJOkZBJNkAQYH7L1RezQ3gIGG8Q8dnt8vp73PtLRJMVCkAI2GclEZ6E7c0jRe-IbWQMhr7CR8q43iLhP7B5t5yyIslzi1r8nEq99LzYIojrsGkLnOmrf6mi-4nGuyCL4B97XGg?width=150&height=256&cropmode=none) ![bluetooth pairing](https://t8f4ng.sn.files.1drv.com/y4mhBtw5v6qYzMSmfMlgjg0rW12pIzuVZcQeHECRBgelYi85SbKN7bRfiZ2qVqWndwDvdwXX12aswYB42WxNZyCbJcronQlcEqclcqlvGLfm9JRxmHAAaZ3eoInUIbI0SwvCXV-1p7c_FyDf7r1XIDqWwPl0ygUQzLQ-L6-tiQF_yErZW7m5w1eAVw4BN5Yt83yRlS3fcJx5CQIrsKsG-WWGA?width=149&height=256&cropmode=none) ![bluetooth paired](https://umfxng.sn.files.1drv.com/y4mdFf3QEh6MdAOwJt3_fQ0lhySCGDu6GcV5pj0lIMh6VNOSkZTEaNiVP23UGrFavcez4G3yf6rj3PLPX8IXlr755GhhtjqBFUILXln6jha1joX1VFTPlNvfGLTsrW8OwxrNRhSTyeWGbU0wkYZa2j0287eyidvL_aZouQMbJdSAiKjG_cJFRVUnDenFlOI7UWNQ_1sGaiHKg7MDl8SFj8GlA?width=149&height=256&cropmode=none)
 
 ## Step 4
 Once you're paired with your Raspberry Pi, open treehouses remote and connect to your Raspberry Ri.
