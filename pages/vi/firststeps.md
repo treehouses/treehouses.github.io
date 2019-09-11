@@ -126,7 +126,7 @@ Follow the [Nextcloud and Tor Tutorial](nextcloud-tor.md) to set up the Nextclou
 In this step we will adopt the motto of "Practice makes Perfect". You will follow the same steps as in **Step 6**, continuing to improve this Markdown Wiki so that it is educational, yet easy to understand for future interns.
 
 You should: 
-* Add comments to three issues other other than your own (somebody else's issue)
+* Add comments to three issues other than your own (somebody else's issue)
 * Create three new issues (in addition to those you have already created in previous steps)
 	* Get approval to work on the issues you have created **Make sure someone from the System's team confirms that you should work on the isseue, BEFORE you start to work on it** 
 * Resolve the three issues by making the necessary changes in your repo with three separate pull requests. 
