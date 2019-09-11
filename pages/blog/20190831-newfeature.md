@@ -24,14 +24,16 @@ Now that you have an idea for a new command, you will create a new issue and whe
 
 Vim is an easy way to test your code. Here are instructions on how to use it.
 
-1. Download Vim  (or type `brew install vim` in your terminal)
-1. Create a new file `vim newfile`
-1. ![](../../images/vim_file.png)
+1. Download Vim [here](https://www.vim.org/download.php) for windows and follow their instructions for set-up or
+    1. type `brew install vim` in your terminal for Mac
+    1. `sudo apt-get install vim` in your terminal for Ubuntu
+1. Create a new file and give it a name`vim mycoolnewfile`
 1. The new file will automatically open, now press i on your keyboard to edit it
 1. Include `#!/bin/bash` at the top
-1. Copy the above script and press `:wq` to save it and exit
-1. Now enter the command `chmod 755 newfile` so you can run it
-1. Enter `./newfile`
+1. Copy the below script and press `:wq` to save it and exit
+1. ![](../../images/vim_file.png)
+1. Now enter the command `chmod 755 mycoolnewfile` so you can run it
+1. Enter `./mycoolnewfile`
 1. You should now see what the function returns. This is how you can easily test your functions
 1. ![](../../images/vim_commands.png)
 
@@ -45,11 +47,11 @@ You may want to modify it.
 1. ![](../../images/vgenc.png)
 1. This can be the end of the function, however we want to modify what is returned
     1. First lets put the `vcgencmd measure_temp` command in a variable and call it "reading" so we can refer to it: `reading=$(vcgencmd measure_temp)`
-    1. Lets make a new variable called number0 referring `reading` to remove "temp=": `number0=${reading:5}`
-    1. Now let's make a third variable callled number which refers to number0 to remove `'C`: `number=${number0/%??/}`
-    1. Now if we `echo $number` we will get the pure number.
-    1. We're going to finish the function by using `echo $number"°C"`
-    1. This returns our desired output which may look something like 65.34°C
+    1. Lets make a new variable called number0 referencing our variable `reading` to remove "temp=": `number0=${reading:5}`
+    1. Now let's make a third variable called number which refers to our variable number0 to remove `'C`: `number=${number0/%??/}`
+    1. Now if we `echo $number` we will get the pure number returned, no `temp=` or `'C`, just `60.00`.
+    1. We're going to finish the function by adding `°C` to our number by using `echo $number"°C"`
+    1. This returns our desired output which will look like this: `60.00°C` instead of like this: `temp=60.00'C` 
     1. ![](../../images/no_case.png)
 
 ## Step 2: Subcommands
