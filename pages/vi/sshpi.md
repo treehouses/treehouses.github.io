@@ -68,7 +68,7 @@ Tor is a computer network run by volunteers worldwide. Each volunteer runs what 
 
 Before hitting the open Internet, the Tor Browser will connect to several different relays, wiping its tracks each step of the way, making it difficult to figure out where, and who, you really are.
 
-First start by watching this {video](https://www.youtube.com/watch?v=6czcc1gZ7Ak) on the Tor browser
+First start by watching this [video](https://www.youtube.com/watch?v=6czcc1gZ7Ak) on the Tor browser
 [Get Tor](https://www.torproject.org/download/)
 
 The Systems Team utilizes this tool to provide a further layer of security when interacting with the Raspberry Pis deployed in the field.
