@@ -17,9 +17,9 @@ The goal of OLE is to provide educational infrastructure to learners and educato
 ### Hardware requirement:
 1.  Raspberry Pi 4 ([Pi 4 information](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/))
 	- Raspberry Pi 3B/3B+ also work, but Pi 4 is recommended
-2.  Power cord for the Pi
-	- Standard USB-C power cord: 3.0A for Pi 4
-	- Micro USB power cord: 2.5A for Pi 3B/3B+
+2.  Power supply for the Pi
+	- Pi 4: minimum 3.0A, Standard USB-C port
+	- Pi 3B/3B+: minimum 2.5A, Micro USB port
 3.  3 microSD cards
 	- Minimum 16GB
 	- U1 or Class 10 required
