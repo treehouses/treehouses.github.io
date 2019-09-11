@@ -13,29 +13,21 @@ After installing it, get into your bluetooth settings and pair your system with 
 ## Step 4
 Once you're paired with your Raspberry Pi, open treehouses remote and connect to your Raspberry Ri.
 
-![treehouses remote start page](https://umfwng.sn.files.1drv.com/y4msr8sunq_qg0hu39-C7CWEuOgyZMyg_SgJfYL6jU76Wb_lQlWhKn4mcq8tm0m7IembIpZuZhzFpeSoU0PujmAitllAV4iANX_dbyDNTfAdrxxDwksJkQttxJQR9Qf6GrOl3W7ZcvKrv2lufaKFuu469Y7UexHkNpLP8-tz5xbz5I7ctfAMF-NMtQHCBwK_HYbRIvt6jI6YWYZqghVALxmFg?width=385&height=660&cropmode=none)
+![treehouses remote start page](https://umfwng.sn.files.1drv.com/y4msr8sunq_qg0hu39-C7CWEuOgyZMyg_SgJfYL6jU76Wb_lQlWhKn4mcq8tm0m7IembIpZuZhzFpeSoU0PujmAitllAV4iANX_dbyDNTfAdrxxDwksJkQttxJQR9Qf6GrOl3W7ZcvKrv2lufaKFuu469Y7UexHkNpLP8-tz5xbz5I7ctfAMF-NMtQHCBwK_HYbRIvt6jI6YWYZqghVALxmFg?width=385&height=660&cropmode=none) ![treehouses remote wm pg select device](https://umfzng.sn.files.1drv.com/y4mQ40_hZQUze_wSgi0rVxRGrvav7wJs5PLHjlcJd5Jm47_XknTBfo6BbD_DzN2P4OwePly3CJHtq2zkLnPYFzI0n47MXzwWU4nMuJFKmrx3UqZsDDUdxB_1r3qWUaqCOdJ7GTu9eVrwbBoGerOadcA8kdN050x_HMTmTa5RYhWkzZtOiw-LoFTbEQWC31UbLko2b4yPXA0bC35RtcKn44PWA?width=385&height=660&cropmode=none)
 
-![treehouses remote wm pg select device](https://umfzng.sn.files.1drv.com/y4mQ40_hZQUze_wSgi0rVxRGrvav7wJs5PLHjlcJd5Jm47_XknTBfo6BbD_DzN2P4OwePly3CJHtq2zkLnPYFzI0n47MXzwWU4nMuJFKmrx3UqZsDDUdxB_1r3qWUaqCOdJ7GTu9eVrwbBoGerOadcA8kdN050x_HMTmTa5RYhWkzZtOiw-LoFTbEQWC31UbLko2b4yPXA0bC35RtcKn44PWA?width=385&height=660&cropmode=none)
-
-![treehouses remote wm pg connecting device](https://umfyng.sn.files.1drv.com/y4mRUnWtsHKL7ssDVVgMgO1izlua8O60RtbN6AhE_7Az0LjMVr2maotyh_8dLOW3UtyDO9lRD3XpbwvNY_dWknQV54o-dwrjhz1UqIsopdrju5UIzMyR0KQBF7RsqhnFpa9nHP63G1IT960-GXap_wHcEYaGKQYIEC2rOAKYM5JvkyYm60MR23iG1RvPcS7nTzjg7TQ1ADyTGGGwDPCf9_jJQ?width=386&height=660&cropmode=none)
-
-![treehouses remote wm pg connected device](https://umf1ng.sn.files.1drv.com/y4m8822OJm2YjnJoqw6E6eexXFpsW3VgTteG_-VIvt1L0oVkFpy7DpVf6D4vU034Ffnw8_Gnb2WqmBrAoeGguAGSOSR1GvuL4bqHJjmL0P7LcMSWk6khxfG1G5jF6X1TC__jkfl2MlzmeCC0vBLOku6wxmjpJysvo2gKF1Y5ehjENsvvAf2Owa81FleIeHOtSoiVpP4aS2gjeQ073bCjFo77A?width=385&height=660&cropmode=none)
+![treehouses remote wm pg connecting device](https://umfyng.sn.files.1drv.com/y4mRUnWtsHKL7ssDVVgMgO1izlua8O60RtbN6AhE_7Az0LjMVr2maotyh_8dLOW3UtyDO9lRD3XpbwvNY_dWknQV54o-dwrjhz1UqIsopdrju5UIzMyR0KQBF7RsqhnFpa9nHP63G1IT960-GXap_wHcEYaGKQYIEC2rOAKYM5JvkyYm60MR23iG1RvPcS7nTzjg7TQ1ADyTGGGwDPCf9_jJQ?width=386&height=660&cropmode=none) ![treehouses remote wm pg connected device](https://umf1ng.sn.files.1drv.com/y4m8822OJm2YjnJoqw6E6eexXFpsW3VgTteG_-VIvt1L0oVkFpy7DpVf6D4vU034Ffnw8_Gnb2WqmBrAoeGguAGSOSR1GvuL4bqHJjmL0P7LcMSWk6khxfG1G5jF6X1TC__jkfl2MlzmeCC0vBLOku6wxmjpJysvo2gKF1Y5ehjENsvvAf2Owa81FleIeHOtSoiVpP4aS2gjeQ073bCjFo77A?width=385&height=660&cropmode=none)
 
 ## Step 5
 At the terminal we'll get into setting up a bridge and setting up a WiFi
 
-![treehouses remote getting to terminal](https://umf0ng.sn.files.1drv.com/y4mFAcpkZ33W8F3tF9JXERJFiFD2GKOi3kzGFC5_ofRitSd0SP1w1xG8QpFhY99tNr_ioNtpmiTN5-oZscVlKWMRDuwgzPkkofrSSnUYjU7JHwAm_dfQE4-DbeDkb5pw59pTZxWxNT1EjDMV55HdDuzXjW5gsf2vJDiPssPsT4fiXufGQoYydVlm47tZvJxsPh3y87vfa6TANj00erPs326Jg?width=386&height=660&cropmode=none)
-
-![treehouses remote terminal](https://umf3ng.sn.files.1drv.com/y4mOpuDbds7VR5J5W2TPvKmdP4lc8kkL81u5lwEsd-2mG848G0aemiSH3oPQM0wr7-EaGPhFgvZBXEZDChyS1ADEuGGFSJz-oUUGzwNuGRXRk4ERj732q_26055-LgFkFnSlKNXuMWSqcvkm2Mgu5E-Efj2TIih-uBDDeYkf9ghhFbseB-HiLEE5Q8agQyF4qqbFfRaUxQNCUWMHeJ5LwNK2Q?width=386&height=660&cropmode=none)
+![treehouses remote getting to terminal](https://umf0ng.sn.files.1drv.com/y4mFAcpkZ33W8F3tF9JXERJFiFD2GKOi3kzGFC5_ofRitSd0SP1w1xG8QpFhY99tNr_ioNtpmiTN5-oZscVlKWMRDuwgzPkkofrSSnUYjU7JHwAm_dfQE4-DbeDkb5pw59pTZxWxNT1EjDMV55HdDuzXjW5gsf2vJDiPssPsT4fiXufGQoYydVlm47tZvJxsPh3y87vfa6TANj00erPs326Jg?width=386&height=660&cropmode=none) ![treehouses remote terminal](https://umf3ng.sn.files.1drv.com/y4mOpuDbds7VR5J5W2TPvKmdP4lc8kkL81u5lwEsd-2mG848G0aemiSH3oPQM0wr7-EaGPhFgvZBXEZDChyS1ADEuGGFSJz-oUUGzwNuGRXRk4ERj732q_26055-LgFkFnSlKNXuMWSqcvkm2Mgu5E-Efj2TIih-uBDDeYkf9ghhFbseB-HiLEE5Q8agQyF4qqbFfRaUxQNCUWMHeJ5LwNK2Q?width=386&height=660&cropmode=none)
 
 ### Setting Up WiFi
 In your terminal enter "treehouses wifi <your local WiFi name> [your password]"
 
 ![treehouses terminal keyboard](https://umf2ng.sn.files.1drv.com/y4mC0FSBKeaVG-hBA8CxB_eZ1yhaLnEiAhzdvV5KS3J6VG4gdUgqambgt7q3OKAYr6EMqbwaF3kCjjs_JDV1JxtQim3e1nqTj73o8x6cowIY5BEu616DbDzDPYA1YK7mZ8HnTXCzclZpt39JST18eTzAP-lKQe6ko4jv0ScT3N2tVfalrKe6FYHBBmEZSHP2uwlCgeM7w1evRka82n3hJmSIg?width=660&height=347&cropmode=none)
 
-![treehouses wifi red](https://umf5ng.sn.files.1drv.com/y4mMw_3pDqDL2bLlciiaT5qGXVqQqZMph2b0YLgC42uW2zu3YxVG71_pMEzGhNdtuFjGpkDGnVm3zWg19NXaXcwz9C8zH6U0lf-j3WybxpfBQcPu6ftqnGGt2e0tG5DSb2u52pToVEey2d1HH-wgcCNq_HAoy5p_3OakeIbf_hE7Fqdrq-BQOCIq8MXFJaopekjbclZq3Vf3WVyFrnxP7LNsQ?width=385&height=660&cropmode=none)
-
-![treehouses wifi blue](https://umf4ng.sn.files.1drv.com/y4m3H_1d4-x2aP04SG8S9w-vRirLQTUS4_JbQ0ZB51Ew0OnnESgdffSj-hK3J86URD6SferJC4PbpFMrCe9_LKfJyoFr822e4IYvn28U3urA_B3acCIu588G_kPwxs-o7WAbI4z_PulNqM_NxTYVNg3msedn3TnVoR7SESv6hBuRlFDZLpiNwc5YB410XDpwJfjxmj941J_AwBivIqab8FbwQ?width=386&height=660&cropmode=none)
+![treehouses wifi red](https://umf5ng.sn.files.1drv.com/y4mMw_3pDqDL2bLlciiaT5qGXVqQqZMph2b0YLgC42uW2zu3YxVG71_pMEzGhNdtuFjGpkDGnVm3zWg19NXaXcwz9C8zH6U0lf-j3WybxpfBQcPu6ftqnGGt2e0tG5DSb2u52pToVEey2d1HH-wgcCNq_HAoy5p_3OakeIbf_hE7Fqdrq-BQOCIq8MXFJaopekjbclZq3Vf3WVyFrnxP7LNsQ?width=385&height=660&cropmode=none) ![treehouses wifi blue](https://umf4ng.sn.files.1drv.com/y4m3H_1d4-x2aP04SG8S9w-vRirLQTUS4_JbQ0ZB51Ew0OnnESgdffSj-hK3J86URD6SferJC4PbpFMrCe9_LKfJyoFr822e4IYvn28U3urA_B3acCIu588G_kPwxs-o7WAbI4z_PulNqM_NxTYVNg3msedn3TnVoR7SESv6hBuRlFDZLpiNwc5YB410XDpwJfjxmj941J_AwBivIqab8FbwQ?width=386&height=660&cropmode=none)
 
 treehousesWifi would be your wifi name 0123456789 woud be your password
 
@@ -52,11 +44,9 @@ treehousesWifi would be your local wifi name; treehousesBridge would be your hot
 
 After entering the command you will be asked to reboot. Just enter the command "reboot." This will disconnect your device. Wait a few moment for the device to boot up and connect like you did in Step 4.
 
-![treehouses bridge disconnected](https://usf4ng.sn.files.1drv.com/y4mno52heVl9QZDa1jX9vHMheTD7s94pZ60o8fgVJpUssh8nvzmw4N11kfNVfi_omAOnzUmjEGscInD4aNS-FzMHUmRNmQF7JSx7LnvpAVHE4M8a6-lKyaNQwDnIpDrVf6kbkVhaUVgky_7UR8m8WxGGZIH-ufvRJ7Z42Zhn7mkX5W5IHkh9-GBjy23U2b2G_xFAvB3vaTlJmhzjBQoXgIn4A?width=386&height=660&cropmode=none)
+![treehouses bridge disconnected](https://usf4ng.sn.files.1drv.com/y4mno52heVl9QZDa1jX9vHMheTD7s94pZ60o8fgVJpUssh8nvzmw4N11kfNVfi_omAOnzUmjEGscInD4aNS-FzMHUmRNmQF7JSx7LnvpAVHE4M8a6-lKyaNQwDnIpDrVf6kbkVhaUVgky_7UR8m8WxGGZIH-ufvRJ7Z42Zhn7mkX5W5IHkh9-GBjy23U2b2G_xFAvB3vaTlJmhzjBQoXgIn4A?width=386&height=660&cropmode=none) ![treehouses bridge reconnected](https://w8fxng.sn.files.1drv.com/y4mjw8J9VcnuYV2u4HHM06cXaLLccl3-kDy1n-_wbYKyUf5yn1PjQt-HnFmB5xxdnWJAXAV-3OFlowWqNHCQyFqh7Hk2vZvtFxNPJavq4OvxSt0h7DFXYLS0s1o71G78mEOXniwG0fBAbtIEVh4CiMP9Sn961NIErsHq8rphb6S68WKHdFanwO_A3Ojn0rFnOI973oydF38I2PhJk7k0tnIXw?width=386&height=660&cropmode=none)
 
-![treehouses bridge reconnected](https://w8fxng.sn.files.1drv.com/y4mjw8J9VcnuYV2u4HHM06cXaLLccl3-kDy1n-_wbYKyUf5yn1PjQt-HnFmB5xxdnWJAXAV-3OFlowWqNHCQyFqh7Hk2vZvtFxNPJavq4OvxSt0h7DFXYLS0s1o71G78mEOXniwG0fBAbtIEVh4CiMP9Sn961NIErsHq8rphb6S68WKHdFanwO_A3Ojn0rFnOI973oydF38I2PhJk7k0tnIXw?width=386&height=660&cropmode=none)
-
-NOTE To be certain of the network mode in which your raspberry pi is connected you can use treehouses networkmode and it should return whether your Raspberry Pi is connected via AP internet, WiFi or bridge
+_NOTE To be certain of the network mode in which your raspberry pi is connected you can use treehouses networkmode and it should return whether your Raspberry Pi is connected via AP internet, WiFi or bridge_
 
 ![treehouses networkmode](https://w8fwng.sn.files.1drv.com/y4mfY6MqEluQPCCqoLZVAn6udSlJgtKhe3kMrOGpqTzpNGIJcy3NEWGvFpPcG1j_CJwUfFSCYtsDiwp5isSckowhFb5r9-f63uVPQpJcoz4oPRHk-xhsq3oXyv9-gURodylEm8tcegHTjxKAI-6KCTB0dzUxjrn41I8XBGbvpUPDxLYaB849g9FIa4HvE6bk6-0pf1VqmipA6NmgN7oPl4RVQ?width=386&height=660&cropmode=none)
 
@@ -68,12 +58,12 @@ In the terminal, type treehouses tor to verify if you get a onion address. Norma
 
 
 ### Configure tor tunnels
-Type treehouses tor add 22
-Type treehouses tor list in order to verify if tor tunnel has been configured
-Type treehouses tor add 80
-Type treehouses tor add 2200
-Type treehouses tor start to configure tor for your Raspberry Pi 
-Type treehouses tor list in order to verify all tunnels have been configured
+ * Type treehouses tor add 22
+ * Type treehouses tor list in order to verify if tor tunnel has been configured
+ * Type treehouses tor add 80
+ * Type treehouses tor add 2200
+ * Type treehouses tor start to configure tor for your Raspberry Pi 
+ * Type treehouses tor list in order to verify all tunnels have been configured
 
 ![treehouses tor add & list](https://usfzng.sn.files.1drv.com/y4mQSl-1SvUgb2xOR15roZUnaDJqilULU29WtSAYXeHo1lWxUB3JGe6TxlcwUQ2m32U52221Qjmve4DAPfO8h-pjdBEkhO8p2IN6dW8NwYiIYR1L3BGkqlQkOVL1yXFjdWFOqA7zUF3_Zwl8w1xUs3V8YNee4hqvh_R_gxa3F9HV7Fps0AbBJ5yYUvjxaZKSO6HQF7PHz-tD--wzvzfiaYEpw?width=386&height=660&cropmode=none)
 
