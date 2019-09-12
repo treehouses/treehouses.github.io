@@ -3,11 +3,12 @@
 ## Objectives
 
 * Practice using ssh and Treehouses Remote  
+* Practice running Docker container
 * Learn how to use Tor to remotely access your Raspberry Pi  
 
 ## Introduction
 
-Nextcloud is a customizable file-storage service similar to Dropbox, or Google Drive, but hosted privately from your own Raspberry Pi.  It has add-on features such as text editors, messaging services, video players, and much more.  By using Tor to open up the port occupied by Nextcloud, you will be able to access it without needing to be on the same Wifi network.
+[Nextcloud](https://nextcloud.com/) is a customizable file-storage service similar to Dropbox, or Google Drive, but hosted privately from your own Raspberry Pi.  It has add-on features such as text editors, messaging services, video players, and much more. You will start up [Nextcloud container](https://hub.docker.com/_/nextcloud/) with docker. By using [Tor](https://torproject.org) to open up the port occupied by Nextcloud, you will be able to access it without needing to be on the same Wifi network.
 
 ## Prepare Treehouses image
 
@@ -60,7 +61,7 @@ Find the Raspberry Pi's IP address in your network settings (it will probably be
 ```
 docker run -d -p 8080:80 --name nextcloud --restart=unless-stopped nextcloud
 ```
-to pull the Docker image for Nextcloud, and start up the container - this will take a few minutes.  To check if the container is running, run `docker ps`:
+to pull the [Docker image for Nextcloud](https://hub.docker.com/_/nextcloud/), and start up the container - this will take a few minutes.  To check if the container is running, run `docker ps`:
 ```bash
 root@treehouses:~# docker ps
 CONTAINER ID        IMAGE               COMMAND                  CREATED             STATUS              PORTS                  NAMES

@@ -49,11 +49,15 @@ pi@treehouses:~ $
 
 ### Add ssh key to the Raspberry Pi
 
-To add your SSH key to your Raspberry Pi, run: `sudo treehouses sshkey add "your SSH key"` (copy-paste your SSH key in between the quotes). It should ask you for password where as before you use the default password for pi user "raspberry".
+To add your SSH key to your Raspberry Pi you first need to copy your public key. Since you did copy this same key to already github you can see it by navigating with your browser to `https://github.com/<yourgithubusername>.keys` or by running linux/macosx from command line you can run `wget -O- -q https://github.com/<yourgithubusername>.keys`.
+
+Now you can add the public key to run: `sudo treehouses sshkey add "your SSH key"` (copy-paste your SSH key in between the quotes) or just `sudo treehouse sshkey addgithubuser <yourgithubusername>`.
+
+In the future on ssh login it will ask you for your sshkey passphrase where as before used the default password for pi user "raspberry".
 
 ### Log in by Root
 
-To log into root, you can run `sudo -s` while logged into the Pi user, or SSH directly into it by running `ssh root@[local IP address]` instead of `ssh pi@[local IP address]`.
+To log into root, you can run `sudo -s` while logged into the Pi user, or with the keys over SSH directly into it by running `ssh root@[local IP address]` instead of `ssh pi@[local IP address]`.
 
 ### Rename Pi by Github Name
 
@@ -64,7 +68,7 @@ Tor is a computer network run by volunteers worldwide. Each volunteer runs what 
 
 Before hitting the open Internet, the Tor Browser will connect to several different relays, wiping its tracks each step of the way, making it difficult to figure out where, and who, you really are.
 
-First start by watching this {video](https://www.youtube.com/watch?v=6czcc1gZ7Ak) on the Tor browser
+First start by watching this [video](https://www.youtube.com/watch?v=6czcc1gZ7Ak) on the Tor browser
 [Get Tor](https://www.torproject.org/download/)
 
 The Systems Team utilizes this tool to provide a further layer of security when interacting with the Raspberry Pis deployed in the field.
