@@ -18,3 +18,6 @@ $(function(){
   console.log('Hello OLE!');
   });
   ```
+  
+  Contact info: Xavierh93@hotmail.com
+  [LinkedIN](https://www.linkedin.com/in/xavier-hollingsworth-524144127/)
