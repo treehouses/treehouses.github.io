@@ -19,5 +19,5 @@ $(function(){
   });
   ```
   
-  Contact info: Xavierh93@hotmail.com
+  Contact info: Xavierh93@hotmail.com  
   [LinkedIN](https://www.linkedin.com/in/xavier-hollingsworth-524144127/)
