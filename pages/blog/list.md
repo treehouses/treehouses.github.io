@@ -1,9 +1,9 @@
 
 ## Blog Overview
 # Table of Contents 
-1. [Treehouses project](#example)
-2. [Apps that work on dockers](#example2)
-3. [Set up  development Enviroment](#third-example)
+1. [Treehouses project](#Treehouses Projects)
+2. [Apps that work on dockers](##Dockers apps supported with treehouses)
+3. [Set up  development Enviroment](#Development enviroment)
 4. [Blogs](#fourth-examplehttpwwwfourthexamplecom)
 
 ## Treehouses Projects
@@ -25,6 +25,9 @@
 5. E-learning library from OLE.
 
 `docker pull treehouses/bell`
+
+
+# Development enviroment
 
 ## Blogs
 [Raspberry Pi Headless Setup](20190816-headless.md) on August 16, 2019 by irisb1701  *(Demonstrate VNC mode)*
