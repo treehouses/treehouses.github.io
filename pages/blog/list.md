@@ -3,7 +3,7 @@
 # Table of Contents 
 1. [Treehouses project](#Treehouses Projects)
 2. [Apps that work on dockers](##Dockers apps supported with treehouses)
-3. [Set up  development Enviroment](#Development enviroment)
+3. [Set up  development Enviroment](## Set up development Enviroment)
 4. [Blogs](#fourth-examplehttpwwwfourthexamplecom)
 
 ## Treehouses Projects
@@ -26,8 +26,8 @@
 
 `docker pull treehouses/bell`
 
-
-# Development enviroment
+## Set up development Enviroment
+ Get linux on your windows pc. Arral writes a concise guide how to get linux on your windows 10 machine with best performence. Please read his blog for further detail.
 
 ## Blogs
 [Raspberry Pi Headless Setup](20190816-headless.md) on August 16, 2019 by irisb1701  *(Demonstrate VNC mode)*
