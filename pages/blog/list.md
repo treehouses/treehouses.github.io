@@ -7,8 +7,8 @@
 4. [Blogs](#fourth-examplehttpwwwfourthexamplecom)
 
 ## Treehouses Projects
-- treehouses-cli ( click here to fork)
-- treehouses.io (websites writen by markdown, which offers CMS )
+- [treehouses-cli](https://github.com/treehouses/cli)
+- [treehouses.io](https://github.com/treehouses/treehouses.github.io) (websites writen by markdown, which offers CMS )
 - treehouses-builld (production of images)
 - Open Learning Exchange (moodles) 
 
