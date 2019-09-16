@@ -1,4 +1,4 @@
- GitHub Issues
+# GitHub Issues
 
 ## Objectives
 
@@ -71,7 +71,7 @@ If you're still confused, that's quite alright. [Forking Workflow](https://www.a
 
 After making modifications to your local files and before making a commit, you should preview the changes locally. The following link, [how to preview changes](http://dynalon.github.io/mdwiki/#!faq.md), gives all the information about how to preview changes from your machine. There's also another option to preview using online environment. This [link](https://dillinger.io/) takes you to the online environment.
 
-| NOTE: In case you have come up with the wrong edit and if you'd like to revert it back to the previous version of the file follow this [link](https://githowto.com/undoing_local_changes). This is applicable only before committing the change.
+_**NOTE:**_ In case you have come up with the wrong edit and if you'd like to revert it back to the previous version of the file follow this [link](https://githowto.com/undoing_local_changes). This is applicable only before committing the change.
 | --- |
 
 ## Create a Commit and Push the Changes
