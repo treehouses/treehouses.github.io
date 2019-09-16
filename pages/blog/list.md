@@ -1,15 +1,42 @@
-# Blogs
 
-[Raspberry Pi Headless Setup](20190816-headless.md) on August 16, 2019 by irisb1701
+## Blog Overview
+# Table of Contents 
+1. [Treehouses project](#example)
+2. [Apps that work on dockers](#example2)
+3. [Set up  development Enviroment](#third-example)
+4. [Blogs](#fourth-examplehttpwwwfourthexamplecom)
 
-[Debian for Windows 10](20190808-debianforwindows.md) on August 8, 2019 by ArranHL
+## Treehouses Projects
+- treehouses-cli ( click here to fork)
+- treehouses.io (websites writen by markdown, which offers CMS )
+- treehouses-builld (production of images)
+- Open Learning Exchange (moodles) 
 
-[Running Nextcloud on Raspberry Pi using Tor](20190731-nextcloud-tor.md) on July 31, 2019 by liew211
 
-[Setting up Pihole on boot drive for Raspberry Pi](20190717-pihole.md) on July 17, 2019 by liew211
 
-[Experience with developing Treehouses CLI for OLE as a virtual intern](20180815-CLIVIexp.md) on August 15, 2018 by rhuturajm
+## Dockers apps supported with treehouses
+1. pi-hole (dns adblocking services)
+2. nexcloud (private storagre solution)
+3. Open Learning Exchange (OLE)/planet
+4. crouch-db (web friendly database)
 
-[treehouses.io in MoodleMoot Philippines 2018](20180505-moodlemootph18.md) on May 5, 2018 by empeje
+ `docker pull treehouses/couchdb`
 
-[treehouses.io in DevOpsDay Jakarta 2018](20180505-devopsdayjkt18.md) on May 5, 2018 by empeje
+5. E-learning library from OLE.
+
+`docker pull treehouses/bell`
+
+## Blogs
+[Raspberry Pi Headless Setup](20190816-headless.md) on August 16, 2019 by irisb1701  *(Demonstrate VNC mode)*
+
+[Debian for Windows 10](20190808-debianforwindows.md) on August 8, 2019 by ArranHL *set up the development enviroment with WSL2*
+
+[Running Nextcloud on Raspberry Pi using Tor](20190731-nextcloud-tor.md) on July 31, 2019 by liew211 *(Set up private cloud)*
+
+[Setting up Pihole on boot drive for Raspberry Pi](20190717-pihole.md) on July 17, 2019 by liew211 *(Blocking ads with raspberry pi)*
+
+[Experience with developing Treehouses CLI for OLE as a virtual intern](20180815-CLIVIexp.md) on August 15, 2018 by rhuturajm *(Virtual Intern Journal)*
+
+[treehouses.io in MoodleMoot Philippines 2018](20180505-moodlemootph18.md) on May 5, 2018 by empeje *(Learning Managemen System by treehoouses)*
+
+[treehouses.io in DevOpsDay Jakarta 2018](20180505-devopsdayjkt18.md) on May 5, 2018 by empeje *(Devops in non-profits)*
