@@ -1,6 +1,6 @@
 # Adding a New Feature
 
-Aug 31, 2019 • [irisb1701](https://github.com/irisb1701)
+31, August 2019 • [irisb1701](https://github.com/irisb1701)
 
 ---
 
@@ -31,11 +31,11 @@ Vim is an easy way to test your code. Here are instructions on how to use it.
 1. The new file will automatically open, now press i on your keyboard to edit it
 1. Include `#!/bin/bash` at the top
 1. Copy the below script and press `:wq` to save it and exit
-1. ![](../../images/20190831-vim-file.png)
+1. ![](../../pages/blog/images/20190831-vim-file.png)
 1. Now enter the command `chmod 755 mycoolnewfile` so you can run it
 1. Enter `./mycoolnewfile`
 1. You should now see what the function returns. This is how you can easily test your functions
-1. ![](../../images/20190831-vim-commands.png)
+1. ![](../../pages/blog/images/20190831-vim-commands.png)
 
 
 ## Step 1: Creating your new Command
@@ -44,7 +44,7 @@ You may want to modify it.
 
 1. Your first line will define a function which we will call temperature
 1. Inside the function we will call `vcgencmd measure_temp` by simply writing in the command
-1. ![](../../images/20190831-vgenc.png)
+1. ![](../../pages/blog/images/20190831-vgenc.png)
 1. This can be the end of the function, however we want to modify what is returned
     1. First lets put the `vcgencmd measure_temp` command in a variable and call it "reading" so we can refer to it: `reading=$(vcgencmd measure_temp)`
     1. Lets make a new variable called number0 referencing our variable `reading` to remove "temp=": `number0=${reading:5}`
@@ -52,7 +52,7 @@ You may want to modify it.
     1. Now if we `echo $number` we will get the pure number returned, no `temp=` or `'C`, just `60.00`.
     1. We're going to finish the function by adding `°C` to our number by using `echo $number"°C"`
     1. This returns our desired output which will look like this: `60.00°C` instead of like this: `temp=60.00'C` 
-    1. ![](../../images/20190831-no_case.png)
+    1. ![](../../pages/blog/images/20190831-no_case.png)
 
 ## Step 2: Subcommands
 Additionally you may want to add subcommands to return different temperature scales such as Fahrenheit or Kelvin.
@@ -60,7 +60,7 @@ For example `treehouses temperature` will return the temperature in a default se
 
 Shown below is how to create subcommands using cases
 
-![](../../images/20190831-case.png)
+![](../../pages/blog/images/20190831-case.png)
 
 For convenience, the function above does not actually convert celsius to fahrenheit or kelvin, just displays a short message. However two new subcommands have just been added.
 Now instead of your command being just `treehouses temperature` it can now also be `treehouses temperature fahrenheit` or `treehouses temperature kelvin`
@@ -93,7 +93,7 @@ You will now add/modify these 4 files to your branch of the cli repo. Remember t
            We want to include `checkrpi` inside right above `temperature "$2"`. Checkrpi detects if our command is being used with a raspberry pi or a non-raspberry pi environment (vagrant for example).
            Since our command is specifically related to the Pi, this condition ensures that the user will see a message saying it cannot be run if attempted with a nonrpi environment.
         1. Your entry will look like this:
-        ![](../../images/20190831-cli-addition.png)
+        ![](../../pages/blog/images/20190831-cli-addition.png)
 
 
 1. **Modules**: Lastly you will add your temperature.sh file into the modules folder. This is the file that has the source code for your new feature.
@@ -101,8 +101,8 @@ You will now add/modify these 4 files to your branch of the cli repo. Remember t
     1. Each command has a help function that when called will display a description of the command and show examples of its usage.
     1. Using a different command's help function as a template you can easily create one for your own command
     1. Your final temperature.sh file should look like this:
-    ![](../../images/20190831-temp-function.png)
-    ![](../../images/20190831-temp-help.png)
+    ![](../../pages/blog/images/20190831-temp-function.png)
+    ![](../../pages/blog/images/20190831-temp-help.png)
 
 Now go ahead and push all the changes you've made to your branch on Github.
 
