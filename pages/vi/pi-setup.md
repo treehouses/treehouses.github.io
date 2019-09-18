@@ -23,6 +23,7 @@ After getting your microSD cards and card reader/adapter, your first step will b
 1. Go to http://download.treehouses.io
 1. Scroll down to find the latest release, and download it to your computer.
 
+_**NOTE:**_ The latest image will be at the bottom of the download page and will have the format _treehouses-xxx.img.gz_ where _xxx_ is the version number.
 
 ### Burning the treehouses image onto the microSD card:
 ![](images/etcher.gif)
