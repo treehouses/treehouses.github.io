@@ -11,6 +11,7 @@ Here is where I currently go to School
 
 ![](https://mir-s3-cdn-cf.behance.net/project_modules/disp/95e46965467217.5af4fe079fbb9.png)
 
-```var s = "JavaScript syntax highlighting";
-alert(s);
+```python
+s = "Python syntax highlighting"
+print s
 ```
