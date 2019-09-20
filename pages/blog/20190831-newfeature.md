@@ -4,7 +4,7 @@
 
 ---
 
-As a system's engineer you may need to work with the treehouses cli (command line interface). 
+As a system's engineer you may need to work with the [treehouses cli](https://github.com/treehouses/cli) (command line interface). 
 
 Here are step by step instructions on how to create a new feature for treehouses.
 
@@ -25,8 +25,8 @@ Now that you have an idea for a new command, you will create a new issue and whe
 Vim is an easy way to test your code. Here are instructions on how to use it.
 
 1. Download Vim [here](https://www.vim.org/download.php) for windows and follow their instructions for set-up or
-    1. type `brew install vim` in your terminal for Mac
-    1. `sudo apt-get install vim` in your terminal for Ubuntu
+    * type `brew install vim` in your terminal for Mac
+    * `sudo apt-get install vim` in your terminal for Ubuntu
 1. Create a new file and give it a name`vim mycoolnewfile`
 1. The new file will automatically open, now press i on your keyboard to edit it
 1. Include `#!/bin/bash` at the top
@@ -46,13 +46,13 @@ You may want to modify it.
 1. Inside the function we will call `vcgencmd measure_temp` by simply writing in the command
 1. ![](../../pages/blog/images/20190831-vgenc.png)
 1. This can be the end of the function, however we want to modify what is returned
-    1. First lets put the `vcgencmd measure_temp` command in a variable and call it "reading" so we can refer to it: `reading=$(vcgencmd measure_temp)`
-    1. Lets make a new variable called number0 referencing our variable `reading` to remove "temp=": `number0=${reading:5}`
-    1. Now let's make a third variable called number which refers to our variable number0 to remove `'C`: `number=${number0/%??/}`
-    1. Now if we `echo $number` we will get the pure number returned, no `temp=` or `'C`, just `60.00`.
-    1. We're going to finish the function by adding `°C` to our number by using `echo $number"°C"`
-    1. This returns our desired output which will look like this: `60.00°C` instead of like this: `temp=60.00'C` 
-    1. ![](../../pages/blog/images/20190831-no-case.png)
+    * First lets put the `vcgencmd measure_temp` command in a variable and call it "reading" so we can refer to it: `reading=$(vcgencmd measure_temp)`
+    * Lets make a new variable called number0 referencing our variable `reading` to remove "temp=": `number0=${reading:5}`
+    * Now let's make a third variable called number which refers to our variable number0 to remove `'C`: `number=${number0/%??/}`
+    * Now if we `echo $number` we will get the pure number returned, no `temp=` or `'C`, just `60.00`.
+    * We're going to finish the function by adding `°C` to our number by using `echo $number"°C"`
+    * This returns our desired output which will look like this: `60.00°C` instead of like this: `temp=60.00'C` 
+    * ![](../../pages/blog/images/20190831-no-case.png)
 
 ## Step 2: Subcommands
 Additionally you may want to add subcommands to return different temperature scales such as Fahrenheit or Kelvin.
@@ -70,37 +70,37 @@ Now instead of your command being just `treehouses temperature` it can now also 
 
 You will now add/modify these 4 files to your branch of the cli repo. Remember to only make changes to your own branch and make sure you are on it before pushing these changes.
 
-1. **README.md**: First you will include your command in the README.md file in the cli Repo
-    1. Place the new command either at the end of the list or near commands it is similar to
-    1. Copy the structure of the previous commands and include a description
-    1. In brackets [] place any optional subcommands divided by a pipe |
-    1. In angled brackets <> place mandatory subcommands
-        1. A mandatory subcommand for example would be <on|off>, for some commands one or the other must be selected
-        1. An optional subcommand would be, like in this case, choosing to see the temperature in Fahrenheit or Kelvin which you don't necessarily have to do to run the command
-        1. It should look like this: `echo "  temperature [fahrenheit|kelvin]     displays raspberry pi's CPU temperature"`
+1. **README.md**: First you will include your command in the `README.md` file in the cli Repo
+    * Place the new command either at the end of the list or near commands it is similar to
+    * Copy the structure of the previous commands and include a description
+    * In brackets `[]` place any optional subcommands divided by a pipe `|`
+    * In angled brackets `<>` place mandatory subcommands
+        * A mandatory subcommand for example would be <on|off>, for some commands one or the other must be selected
+        * An optional subcommand would be, like in this case, choosing to see the temperature in Fahrenheit or Kelvin which you don't necessarily have to do to run the command
+    * Your entry should look like this: `echo "  temperature [fahrenheit|kelvin]     displays raspberry pi's CPU temperature"`
 
 1. **help.sh**: Now go into cli/modules and modify the help.sh file in the exact same way you modified the README.md file
 
 1. **cli.sh**: Next you will modify the cli.sh file
     In this file you will include two entries, a filepath and a case that calls the command. Place your new entries here in the same spots you placed it in the README.md
 
-    1. For the filepath, your new entry will look like this `source "$SCRIPTFOLDER/modules/temperature.sh"`
-    1. Below you will see cases.
-        1. Copy the format of the other cases to create a new one for temperature
-        1. Inside you will include `temperature "$2"` ($0 is `treehouses`, $1 is `temperature` and "$2" is for our subcommands.)
+    * For the filepath, your new entry will look like this `source "$SCRIPTFOLDER/modules/temperature.sh"`
+    * Below you will see cases.
+        * Copy the format of the other cases to create a new one for temperature
+        * Inside you will include `temperature "$2"` (`$0` is `treehouses`, `$1` is `temperature` and `"$2"` is for our subcommands.)
             Without this, your command will not run when you call it.
-        1. If your command is affected by a condition then you will include a second entry.
+        * If your command is affected by a condition then you will include a second entry.
            We want to include `checkrpi` inside right above `temperature "$2"`. Checkrpi detects if our command is being used with a raspberry pi or a non-raspberry pi environment (vagrant for example).
            Since our command is specifically related to the Pi, this condition ensures that the user will see a message saying it cannot be run if attempted with a nonrpi environment.
-        1. Your entry will look like this:
+        * Your entry will look like this:
         ![](../../pages/blog/images/20190831-cli-addition.png)
 
 
 1. **Modules**: Lastly you will add your temperature.sh file into the modules folder. This is the file that has the source code for your new feature.
-    1. Inside the file you will make sure you have a second function called function temperature_help
-    1. Each command has a help function that when called will display a description of the command and show examples of its usage.
-    1. Using a different command's help function as a template you can easily create one for your own command
-    1. Your final temperature.sh file should look like this:
+    * Inside the file you will make sure you have a second function called function temperature_help
+    * Each command has a help function that when called will display a description of the command and show examples of its usage.
+    * Using a different command's help function as a template you can easily create one for your own command
+    * Your final temperature.sh file should look like this:
     ![](../../pages/blog/images/20190831-temp-function.png)
     ![](../../pages/blog/images/20190831-temp-help.png)
 
