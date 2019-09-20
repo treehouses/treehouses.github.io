@@ -11,7 +11,4 @@ Here is where I currently go to School
 
 ![](https://mir-s3-cdn-cf.behance.net/project_modules/disp/95e46965467217.5af4fe079fbb9.png)
 
-```python
-s = "Python syntax highlighting"
-print s
-```
+*I am excited to go on this journey with you all*
