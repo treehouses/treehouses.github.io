@@ -52,7 +52,7 @@ You may want to modify it.
     1. Now if we `echo $number` we will get the pure number returned, no `temp=` or `'C`, just `60.00`.
     1. We're going to finish the function by adding `°C` to our number by using `echo $number"°C"`
     1. This returns our desired output which will look like this: `60.00°C` instead of like this: `temp=60.00'C` 
-    1. ![](../../pages/blog/images/20190831-no_case.png)
+    1. ![](../../pages/blog/images/20190831-no-case.png)
 
 ## Step 2: Subcommands
 Additionally you may want to add subcommands to return different temperature scales such as Fahrenheit or Kelvin.
