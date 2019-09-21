@@ -66,7 +66,7 @@ For convenience, the function above does not actually convert celsius to fahrenh
 Now instead of your command being just `treehouses temperature` it can now also be `treehouses temperature fahrenheit` or `treehouses temperature kelvin`
 
 
-## Step 3:  The 4 Files That Must Be Added/Modified in the Cli Repo
+## Step 3:  The 4 Files That Must Be Added/Modified in the cli Repo
 
 You will now add/modify these 4 files to your branch of the cli repo. Remember to only make changes to your own branch and make sure you are on it before pushing these changes.
 
@@ -79,10 +79,10 @@ You will now add/modify these 4 files to your branch of the cli repo. Remember t
         * An optional subcommand would be, like in this case, choosing to see the temperature in Fahrenheit or Kelvin which you don't necessarily have to do to run the command
     * Your entry should look like this: `echo "  temperature [fahrenheit|kelvin]     displays raspberry pi's CPU temperature"`
 
-1. **help.sh**: Now go into cli/modules and modify the help.sh file in the exact same way you modified the README.md file
+1. **help.sh**: Now go into cli/modules and modify the `help.sh` file in the exact same way you modified the `README.md` file
 
-1. **cli.sh**: Next you will modify the cli.sh file
-    In this file you will include two entries, a filepath and a case that calls the command. Place your new entries here in the same spots you placed it in the README.md
+1. **cli.sh**: Next you will modify the `cli.sh` file
+    In this file you will include two entries, a filepath and a case that calls the command. Place your new entries here in the same spots you placed it in the `README.md`
 
     * For the filepath, your new entry will look like this `source "$SCRIPTFOLDER/modules/temperature.sh"`
     * Below you will see cases.
@@ -96,11 +96,11 @@ You will now add/modify these 4 files to your branch of the cli repo. Remember t
         ![](images/20190831-cli-addition.png)
 
 
-1. **Modules**: Lastly you will add your temperature.sh file into the modules folder. This is the file that has the source code for your new feature.
-    * Inside the file you will make sure you have a second function called function temperature_help
+1. **Modules**: Lastly you will add your `temperature.sh` file into the modules folder. This is the file that has the source code for your new feature.
+    * Inside the file you will make sure you have a second function called function `temperature_help`
     * Each command has a help function that when called will display a description of the command and show examples of its usage.
     * Using a different command's help function as a template you can easily create one for your own command
-    * Your final temperature.sh file should look like this:
+    * Your final `temperature.sh` file should look like this:
     ![](images/20190831-temp-function.png)
     ![](images/20190831-temp-help.png)
 
