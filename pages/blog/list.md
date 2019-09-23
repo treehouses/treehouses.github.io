@@ -1,34 +1,4 @@
 
-## Blog Overview
-# Table of Contents 
-1. [Treehouses project](#Treehouses Projects)
-2. [Apps that work on dockers](##Dockers apps supported with treehouses)
-3. [Set up  development Enviroment](## Set up development Enviroment)
-4. [Blogs](#fourth-examplehttpwwwfourthexamplecom)
-
-## Treehouses Projects
-- [treehouses-cli](https://github.com/treehouses/cli)
-- [treehouses.io](https://github.com/treehouses/treehouses.github.io) (websites writen by markdown, which offers CMS )
-- treehouses-builld (production of images)
-- Open Learning Exchange (moodles) 
-
-
-
-## Dockers apps supported with treehouses
-1. pi-hole (dns adblocking services)
-2. nexcloud (private storagre solution)
-3. Open Learning Exchange (OLE)/planet
-4. crouch-db (web friendly database)
-
- `docker pull treehouses/couchdb`
-
-5. E-learning library from OLE.
-
-`docker pull treehouses/bell`
-
-## Set up development Enviroment
- Get linux on your windows pc. Arral writes a concise guide how to get linux on your windows 10 machine with best performence. Please read his blog for further detail.
-
 ## Blogs
 [Raspberry Pi Headless Setup](20190816-headless.md) on August 16, 2019 by irisb1701  *(Demonstrate VNC mode)*
 
