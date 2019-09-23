@@ -5,7 +5,6 @@
 [Adding a New Feature to the cli](20190831-newfeature.md) on August 31, 2019 by irisb1701
 
 [Raspberry Pi Headless Setup](20190816-headless.md) on August 16, 2019 by irisb1701
->>>>>>> 25539cf901a187b0bbe1551de67a89b31e030b67
 
 [Debian for Windows 10](20190808-debianforwindows.md) on August 8, 2019 by ArranHL *set up the development enviroment with WSL2*
 
