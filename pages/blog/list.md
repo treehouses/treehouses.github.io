@@ -1,5 +1,4 @@
 
-<<<<<<< HEAD
 ## Blogs
 [Raspberry Pi Headless Setup](20190816-headless.md) on August 16, 2019 by irisb1701  *(Demonstrate VNC mode)*
 =======
