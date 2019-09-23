@@ -1,4 +1,3 @@
-
 ## Blogs
 
 [Adding a New Feature to the cli](20190831-newfeature.md) on August 31, 2019 by irisb1701 *(Guide to add new features for treehouses-cli)*
