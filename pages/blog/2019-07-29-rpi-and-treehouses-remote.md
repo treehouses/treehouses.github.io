@@ -1,7 +1,7 @@
 # Initial Steps to Get Started with Treehouses
 Welcome to treehouses. This is our system allowing us to share our different learning platforms via the Rasperry Pi series of single-board computer devices. Here is a quick start for interacting your Raspberry Pi with Treehouses Remote.
 ## Step 1
-Assuming you have an Android device and/or using an Android simulator; there are two ways of going about it:
+Assuming you have an Android device and/or using an Android simulator; here is the way to go about it:
 Download the latest version of treehouses image [here](http://download.treehouses.io/) and burn it with [etcher](https://www.balena.io/etcher/). Once burned put your microsd card into your raspberry pi 
 ## Step 2
 With your android device download [treehouses remote](https://play.google.com/store/apps/details?id=io.treehouses.remote). 
@@ -79,3 +79,6 @@ Here is the command to accomplish the step:
 Type treehouses tor notice now to appear in the gitter treehouses chat.
 
 ![treehouses tor notice now](https://w8etew.sn.files.1drv.com/y4m5Y8tjltwoCx8Yi5XnJwORs2c_8hNH1Q0m52fQtkYORGj9SQRLd1m0kustmYUwsimMfsQ4GXxxsXKBAnEQxYPYce-F1tQrz9Ak2JmDhVqxucP25yZb0oaItgioA6zVaxqbBkCW5g6tqzfWcmDShqrz96u5RzhwJ3EAPdE_i_OtugQYyYfwcvRzxcL1XoCEpspYLxLiZK7xOSDtIG3EAhDQw?width=386&height=660&cropmode=none)
+![gitter chat treehouses log](https://pvf5kg.sn.files.1drv.com/y4mWtGiORBqsj3hfzCdvjnUpU9G1ZpvzqQ3K-luxjEMzBlTXp8ovhUxLFZm9_yliokEHe-sdk8rZ-fuQrQMnILJpsHqLJ-ARsC2Aw4S9h1EKoKT4iqlME9D2p7Vl-M3ayCNjM5wmC5cK2nzdJwl1h-43y1FULFCh35IEikvjy4BvOhzSDDLydTutBRmEtJ27IhczOYh3f7mbxs3yQ-9DzrpQA?width=992&height=189&cropmode=none)
+
+**Congrats you have successfully completed this blog session !!!**
