@@ -1,7 +1,7 @@
 
 ## Blogs
 [Raspberry Pi Headless Setup](20190816-headless.md) on August 16, 2019 by irisb1701  *(Demonstrate VNC mode)*
-=======
+
 [Adding a New Feature to the cli](20190831-newfeature.md) on August 31, 2019 by irisb1701
 
 [Raspberry Pi Headless Setup](20190816-headless.md) on August 16, 2019 by irisb1701
