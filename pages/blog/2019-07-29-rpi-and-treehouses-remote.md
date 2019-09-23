@@ -8,7 +8,7 @@ With your android device download [treehouses remote](https://play.google.com/st
 ## Step 3
 After installing it, get into your bluetooth settings and pair your system with your Raspberry Pi.
 
-![bluetooth setting](https://t8f5ng.sn.files.1drv.com/y4mYF-F5p7h9FSFt3MBeSvZKo2ulfZ3bwmmqSrgdmXV1ra9-ETg2eIE6uttDgKX5BYFXCYfmkmQdyQ408KGNJOkZBJNkAQYH7L1RezQ3gIGG8Q8dnt8vp73PtLRJMVCkAI2GclEZ6E7c0jRe-IbWQMhr7CR8q43iLhP7B5t5yyIslzi1r8nEq99LzYIojrsGkLnOmrf6mi-4nGuyCL4B97XGg?width=150&height=256&cropmode=none) ![bluetooth pairing](https://t8f4ng.sn.files.1drv.com/y4mhBtw5v6qYzMSmfMlgjg0rW12pIzuVZcQeHECRBgelYi85SbKN7bRfiZ2qVqWndwDvdwXX12aswYB42WxNZyCbJcronQlcEqclcqlvGLfm9JRxmHAAaZ3eoInUIbI0SwvCXV-1p7c_FyDf7r1XIDqWwPl0ygUQzLQ-L6-tiQF_yErZW7m5w1eAVw4BN5Yt83yRlS3fcJx5CQIrsKsG-WWGA?width=149&height=256&cropmode=none) ![bluetooth paired](https://umfxng.sn.files.1drv.com/y4mdFf3QEh6MdAOwJt3_fQ0lhySCGDu6GcV5pj0lIMh6VNOSkZTEaNiVP23UGrFavcez4G3yf6rj3PLPX8IXlr755GhhtjqBFUILXln6jha1joX1VFTPlNvfGLTsrW8OwxrNRhSTyeWGbU0wkYZa2j0287eyidvL_aZouQMbJdSAiKjG_cJFRVUnDenFlOI7UWNQ_1sGaiHKg7MDl8SFj8GlA?width=149&height=256&cropmode=none)
+![bluetooth pairing](https://t8f4ng.sn.files.1drv.com/y4mhBtw5v6qYzMSmfMlgjg0rW12pIzuVZcQeHECRBgelYi85SbKN7bRfiZ2qVqWndwDvdwXX12aswYB42WxNZyCbJcronQlcEqclcqlvGLfm9JRxmHAAaZ3eoInUIbI0SwvCXV-1p7c_FyDf7r1XIDqWwPl0ygUQzLQ-L6-tiQF_yErZW7m5w1eAVw4BN5Yt83yRlS3fcJx5CQIrsKsG-WWGA?width=385&height=660&cropmode=none) ![bluetooth paired](https://umfxng.sn.files.1drv.com/y4mdFf3QEh6MdAOwJt3_fQ0lhySCGDu6GcV5pj0lIMh6VNOSkZTEaNiVP23UGrFavcez4G3yf6rj3PLPX8IXlr755GhhtjqBFUILXln6jha1joX1VFTPlNvfGLTsrW8OwxrNRhSTyeWGbU0wkYZa2j0287eyidvL_aZouQMbJdSAiKjG_cJFRVUnDenFlOI7UWNQ_1sGaiHKg7MDl8SFj8GlA?width=385&height=660&cropmode=none)
 
 ## Step 4
 Once you're paired with your Raspberry Pi, open treehouses remote and connect to your Raspberry Ri.
@@ -65,12 +65,12 @@ In the terminal, type treehouses tor to verify if you get a onion address. Norma
  * Type treehouses tor start to configure tor for your Raspberry Pi 
  * Type treehouses tor list in order to verify all tunnels have been configured
 
-![treehouses tor add & list](https://usfzng.sn.files.1drv.com/y4mQSl-1SvUgb2xOR15roZUnaDJqilULU29WtSAYXeHo1lWxUB3JGe6TxlcwUQ2m32U52221Qjmve4DAPfO8h-pjdBEkhO8p2IN6dW8NwYiIYR1L3BGkqlQkOVL1yXFjdWFOqA7zUF3_Zwl8w1xUs3V8YNee4hqvh_R_gxa3F9HV7Fps0AbBJ5yYUvjxaZKSO6HQF7PHz-tD--wzvzfiaYEpw?width=386&height=660&cropmode=none)
+![treehouses tor add & list](https://w8erew.sn.files.1drv.com/y4mMU73wKFlnodzx--9Daa4ZaudITu73o_uw60fuD4c49Lh5gUMehHx2n2UZugdTx5juSm7uCcgbBuBHB-JKxl_xrOwlmP3nTY488Fv22CkhjKtcJ9fQJyij-M8KqqJCo_ososLsPeYQzHGEa9eKnsKfi23wINWONGneI2P1PcmLxLbvMG_LqDfLJgmJn0C4vafxitwk0eSDDeGJrSaGmNtXA?width=386&height=660&cropmode=none)
 
 ### Display your onion address
 Use treehouses tor to display your onion address
 
-![treehouses tor](https://usf1ng.sn.files.1drv.com/y4mY_TGqYIMclSDtzKkho3DsGY2Ou6yk0Pd1u3aiCnMQktlDwxXF_Yjf-3v2avH76U-0leD6LXZv8_X82L2ZtSDwUOl5d0P7nJb45WS03yAG2qgjkNTsY_0GS3TsBAzVPMu2r9R4WJKoD5a4RmRFdsAAU1e4_1MOF0Ks3NuGCVVTkPgninoa_3872Jj5UpsygXZoUz19qUmrM0C0RccnsTmrw?width=386&height=660&cropmode=none)
+![treehouses tor](https://w8euew.sn.files.1drv.com/y4m3YcMQ_14gUV5le3fMMHqWOCqPeoNxKzkAP7zKhxrUaiGLPjfokW7uIDwY4KKdd8ZUTiiBO_L2VQHIGPpcfncj1z1QiR54vVjTk2W79_tofYovG6L_rJ8C8MgfkyKcTEk_OfhyzY7ZKXfleFORpvh_Mf-kW6GI2PK2IDlF3aS5ie7yiKABFQ6l3ehugYqecZp8-Teu-7D-nrvCxbbplfAXQ?width=386&height=660&cropmode=none)
 
 Once you see the display of your onion address that concludes your 6th step.
 ## Step 7
@@ -78,4 +78,4 @@ In order to verify that the previous step is working, we publish the onion addre
 Here is the command to accomplish the step:
 Type treehouses tor notice now to appear in the gitter treehouses chat.
 
-![treehouses tor notice now](https://usf3ng.sn.files.1drv.com/y4mHNlwYF1Pmwi1PCskGcKCBp-0KCoNyCvl2AxlUZ62nzRnIXKCzKn8fTlqyIly4wPtdgOOLmOlSGEq6F1leZUDVDUZLIXfzB797AlLP6BgJ5xkUJO75gyp6XkC_ZACsGXFOylrtMe_eTbZ0l6_rjW4pQYvKbSwXZxNGmea21XcNN_8D_Qg4rxHeCwOfB6HejUxYPxvBTwJ2DpvmQYuCj4R9w?width=386&height=660&cropmode=none)
+![treehouses tor notice now](https://w8etew.sn.files.1drv.com/y4m5Y8tjltwoCx8Yi5XnJwORs2c_8hNH1Q0m52fQtkYORGj9SQRLd1m0kustmYUwsimMfsQ4GXxxsXKBAnEQxYPYce-F1tQrz9Ak2JmDhVqxucP25yZb0oaItgioA6zVaxqbBkCW5g6tqzfWcmDShqrz96u5RzhwJ3EAPdE_i_OtugQYyYfwcvRzxcL1XoCEpspYLxLiZK7xOSDtIG3EAhDQw?width=386&height=660&cropmode=none)
