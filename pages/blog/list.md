@@ -1,8 +1,9 @@
 
 ## Blogs
-[Raspberry Pi Headless Setup](20190816-headless.md) on August 16, 2019 by irisb1701  *(Demonstrate VNC mode with treehouses-cli)*
 
 [Adding a New Feature to the cli](20190831-newfeature.md) on August 31, 2019 by irisb1701 *(Guide to add new features for treehouses-cli)*
+
+[Raspberry Pi Headless Setup](20190816-headless.md) on August 16, 2019 by irisb1701  *(Demonstrate VNC mode with treehouses-cli)*
 
 [Debian for Windows 10](20190808-debianforwindows.md) on August 8, 2019 by ArranHL *(set up the development enviroment with WSL2)*
 
