@@ -17,7 +17,7 @@
 |[CalebProvost](profiles/CalebProvost.md)|2019-09-04|
 |[AnPham](profiles/phamduchongan93.md)|2019-09-07|
 |[vmnet8](profiles/vmnet8.md)|2019-09-11|
-
+|[Xavierh93](profiles/Xavierh93.md)|2019-09-19|
 
 ## Former Interns
 To view the list of former interns, go to [former members page](retiredinterns.md).
