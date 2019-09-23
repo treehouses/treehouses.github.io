@@ -4,8 +4,6 @@
 
 [Adding a New Feature to the cli](20190831-newfeature.md) on August 31, 2019 by irisb1701
 
-[Raspberry Pi Headless Setup](20190816-headless.md) on August 16, 2019 by irisb1701
-
 [Debian for Windows 10](20190808-debianforwindows.md) on August 8, 2019 by ArranHL *set up the development enviroment with WSL2*
 
 [Running Nextcloud on Raspberry Pi using Tor](20190731-nextcloud-tor.md) on July 31, 2019 by liew211 *(Set up private cloud)*
