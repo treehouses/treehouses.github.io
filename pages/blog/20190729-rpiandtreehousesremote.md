@@ -70,7 +70,7 @@ In the terminal, type treehouses tor to verify if you get a onion address. Norma
 ### Display your onion address
 Use treehouses tor to display your onion address
 
-![treehouses tor](images/20190918-treehouses%20tor.png){:height="660px" width="386px"}
+![treehouses tor](images/20190918-treehouses-tor.png){:height="660px" width="386px"}
 
 Once you see the display of your onion address that concludes your 6th step.
 ## Step 7
@@ -78,7 +78,7 @@ In order to verify that the previous step is working, we publish the onion addre
 Here is the command to accomplish the step:
 Type treehouses tor notice now to appear in the gitter treehouses chat.
 
-![treehouses tor notice now](images/20190918-treehouses%20tor%20notice%20now.png)
-![gitter chat treehouses log](images/20190923-gitter%20chat%20treehouses%20log.png)
+![treehouses tor notice now](images/20190918-treehouses-tor-notice-now.png)
+![gitter chat treehouses log](images/20190923-gitter-chat-treehouses-log.png)
 
 **Congrats you have successfully completed this blog session !!!**
