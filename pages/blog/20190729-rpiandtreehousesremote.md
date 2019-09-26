@@ -6,7 +6,7 @@ Download the latest version of treehouses image [here](http://download.treehouse
 ## Step 2
 With your android device download [treehouses remote](https://play.google.com/store/apps/details?id=io.treehouses.remote). 
 ## Step 3
-After installing it, get into your bluetooth settings and pair your system with your Raspberry Pi.
+After installing it, get into your bluetooth settings and pair your system with your Raspberry Pi (optional).
 
 ![bluetooth pairing](images/20190906-bluetooth-pairing.png) ![bluetooth paired](images/20190906-bluetooth-paired.png)
 
@@ -65,12 +65,12 @@ In the terminal, type treehouses tor to verify if you get a onion address. Norma
  * Type treehouses tor start to configure tor for your Raspberry Pi 
  * Type treehouses tor list in order to verify all tunnels have been configured
 
-![treehouses tor add & list](images/20190918-treehouses-tor-add-and-list.png){:height="660px" width="386px"}
+![treehouses tor add & list](images/20190918-treehouses-tor-add-and-list.png)
 
 ### Display your onion address
 Use treehouses tor to display your onion address
 
-![treehouses tor](images/20190918-treehouses-tor.png){:height="660px" width="386px"}
+![treehouses tor](images/20190918-treehouses-tor.png)                                     
 
 Once you see the display of your onion address that concludes your 6th step.
 ## Step 7
