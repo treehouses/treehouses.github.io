@@ -29,6 +29,8 @@ The app may ask for your device location, feel free to decline.
 1. Now type `treehouses default network`
     * Here we are preparing to get internet access
 1. Reboot the system by entering the command `reboot` and go back to the home screen to re-connect to your Pi
+**Note:** Taking time to reboot is about 2-4 minutes.
+
 1. Back in the terminal type `treehouses bridge "wifiname" treehouses "wifipassword"`, and replace `wifiname` with the name of your wifi network, and `wifipassword` with the password.
 1. Reboot once again
 
