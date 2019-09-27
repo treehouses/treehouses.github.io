@@ -16,14 +16,14 @@ I'm a graduate student at Cleveland State University studying Computer Science a
 
 In my free time, I play bass in a hardcore band, keyboards for a rock band, guitar for a shoegazey project, and make noises with my little Eurorack.
 
-| My        | Euro        | Rack      | 176HP            |
+| *My*      | *Euro*      | *Rack*    | *176HP*          |
 |:--------- |:-----------:|:---------:| ----------------:|
 | Mother-32 | Disting Mk4 | Maths     | Zeus             |
 | DFAM      | 2HP Verb    | Buff Mult | System Interface |
 
 ---
 
-Current Favorite Languages:
+## Current Favorite Languages:
 
 * Rust:
   - ```rust
