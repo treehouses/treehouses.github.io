@@ -4,4 +4,8 @@ My name is **Huralain Mohamed** and I am located in **El Paso, TX, USA**. My cur
 
 Just so you can get to know a little bit about me, I am 26 years old and a US Army veteran. I have been working in the tech industry for 9 years, however, I started learning how to code this year. I am excited to start working with you all at OLE to further expand my skillset.
 
-<img src="https://ibb.co/FzvwkmQ">
+Some fun facts about me are:
++ Pizza is my favorite food.
++ I've been to 15+ countries.
++ I was born in LA, but raised in Boston.
++ I'm a fashion designer as well as a coder.
