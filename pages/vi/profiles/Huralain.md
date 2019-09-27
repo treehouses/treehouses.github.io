@@ -10,9 +10,12 @@ Some fun facts about me are:
 + I was born in LA, but raised in Boston.
 + I'm a fashion designer as well as a coder.
 
-![Photo](DSC0662323.jpg)
 
 ### I can be reached at the following:
-- [GitHub](http://www.github.com/Huralain "GitHub")
-- [LinkedIn](https://www.linkedin.com/in/huralainm "LinkedIn")
-- [Email](mailto:mohamedhuralain@gmail.com "Email Address")
++ [GitHub](http://www.github.com/Huralain "GitHub")
++ [LinkedIn](https://www.linkedin.com/in/huralainm "LinkedIn")
++ [Email](mailto:mohamedhuralain@gmail.com "Email Address")
+
+### Here is a photo of me:
+![Photo](images/DSC0662323.jpg)
+
