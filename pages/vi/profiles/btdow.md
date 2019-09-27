@@ -24,7 +24,7 @@ In my free time, I play bass in a hardcore band, keyboards for a rock band, guit
 
 ---
 
-| My            | Pedal         | Board          | For now        |
+| Column        | Headers       | Improperly     | Aligned?       |
 |:------------- |:-------------:|:--------------:| --------------:|
 | IN-> Polytune | Palisades     | Infinite Jets  | Data Corrupter |
 | Ottobit Jr.   | Avalanche Run | Ditto Jam X2   | Sentry OUT->   |
