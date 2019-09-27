@@ -17,14 +17,14 @@ I'm a graduate student at Cleveland State University studying Computer Science a
 
 In my free time, I play bass in a hardcore band, keyboards for a rock band, guitar for a shoegazey project, and make noises with my little Eurorack.
 
-| My        | Euro        | Rack      | 176HP            |
+| Entries   | should      | be        | centered         |
 |:---------:|:-----------:|:---------:|:----------------:|
 | Mother-32 | Disting Mk4 | Maths     | Zeus             |
 | DFAM      | 2HP Verb    | Buff Mult | System Interface |
 
 ---
 
-| Column        | Headers       | Improperly     | Aligned?       |
+| Works         | on            | Github         | preview        |
 |:------------- |:-------------:|:--------------:| --------------:|
 | IN-> Polytune | Palisades     | Infinite Jets  | Data Corrupter |
 | Ottobit Jr.   | Avalanche Run | Ditto Jam X2   | Sentry OUT->   |
