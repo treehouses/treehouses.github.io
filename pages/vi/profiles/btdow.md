@@ -23,7 +23,7 @@ In my free time, I play bass in a hardcore band, keyboards for a rock band, guit
 
 ---
 
-## Current Favorite Languages:
+### Current Favorite Languages:
 
 * Rust:
   - ```rust
