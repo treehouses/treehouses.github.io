@@ -46,7 +46,7 @@ To install and build the dependencies manually, follow the below steps pertainin
 $ sudo apt install adb ffmpeg libsdl2-2.0-0 make gcc git pkg-config meson ninja-build libavcodec-dev libavformat-dev libavutil-dev libsdl2-dev openjdk-8-jdk
 ```
     * If you are running an older version of Debian/Ubuntu, then you’ll need to install meson through pip3 by running command `sudo apt install python3-pip && pip3 install meson`.
-1. Download the [server application](https://github.com/Genymobile/scrcpy/releases/download/v1.10/scrcpy-server-v1.10.jar) and install it in `/usr/local/bin`
+1. Download the [server application](https://github.com/Genymobile/scrcpy/releases/download/v1.10/scrcpy-server-v1.10.jar) and install it in `/usr/local/bin`.
 1. The next download will be the [source code](https://github.com/Genymobile/scrcpy/archive/v1.10.tar.gz) which will need to be extracted to the home directory of your system and remove the version number from the directory.
 1. Proceed to build the application by running the following commands:
 ```
@@ -64,7 +64,7 @@ $ sudo ninja install
 $ sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm
 ```
 1. Now build the client dependencies with `sudo dnf install SDL2-devel ffms2-devel meson gcc make`.
-1. Once the client dependencies are finished, build the server dependencies: `sudo dnf install java-devel`
+1. Once the client dependencies are finished, build the server dependencies: `sudo dnf install java-devel`.
 1. Continue to the [USB Debugging](20190925-mobilescreenshare.md#USB_Debugging) section with your android device.
 
 
