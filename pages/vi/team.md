@@ -17,10 +17,9 @@
 |[vmnet8](profiles/vmnet8.md)|2019-09-11|
 |[Xavierh93](profiles/Xavierh93.md)|2019-09-19|
 
-
 ## Former Interns
 
-|**Username**|**Join Date**|****|
+|**Username**|**Join Date**|**Until**|
 |------------|-------------|----|
 |**➤ Interns**|||
 |[jeevast](profiles/jeevast.md)|2019-05-31|2019-09-31|
