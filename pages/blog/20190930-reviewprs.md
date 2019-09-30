@@ -6,16 +6,13 @@
 
 As a system's engineer you may need to work with the [treehouses cli](https://github.com/treehouses/cli) (command line interface). 
 
-Here are step by step instructions on how to review Pull Resquests for the Treehouses CLI repository.
+Here are step by step instructions on how to review Pull Resquests (PR) for the Treehouses/CLI repository.
 
 ## Step 1: Check the pull request title and description
 
 Make sure the issue number that the pull request is fixing is in the pull request title. An example is shown below.
 
 ![](images/20190930-prtitle.png)
-
-_**SPECIAL NOTE:**_ **If you are in the treehouses repository:**
-    Make sure the githack preview link is listed in the description. This link is how you will check that the changes are rendered correctly on the preview. The correct format is `https://raw.githack.com/{YourGitHubUsername}/{YourGitHubUsername}.github.io/{YourBranchName}/#!index.md` and viewing the pages that have been changed.
 
 
 ## Step 2: Verify that there is a branch for the pull request
@@ -24,7 +21,7 @@ _**SPECIAL NOTE:**_ **If you are in the treehouses repository:**
 
 ![](images/20190930-branchpr.png)
 
-## Step 3: There are non unnecessary file/line changes in the pull request
+## Step 3: There are no unnecessary file/line changes in the pull request
 
 Click on the files changed tab beneath the branch in the previous step. On this page you can see all the changes that have been made in this pull request including all the files that were changed and every line that was added or removed from each file. Green lines indicate lines that were added while red lines indicate which lines were removed. Directly above the green "Review Changes" box is a green number that indicates how many lines were added followed by a red number that indicates how many lines were removed in total in the pull request.
 
@@ -39,11 +36,11 @@ If you scroll down on the main conversation page, beneath the *Review Required* 
 ![](images/20190930-mergeconflicts.png)
 
 
-## Step 5: The Pull Request Fixes the Issue
+## Step 5: The pull request fixes the issue
 
 Before you can submit your review of the pull request you must verify that it is actually fixing the issue it refers to in the title. If it is a new feature that is being added you will have to test the feature on your raspberry pi. In order to do this you will need to ssh into your raspberry pi and switch to the branch that the feature is added on via `git checkout <branchname>`.
 
-## Step 6: The Commits are Associated with a Github Account
+## Step 6: The commits are associated with a Github Account
 
 Click on the *Commits* tab. This will  display all the commits for this pull request. You will need to verify that all commits were made by the same Github account.
 
