@@ -60,4 +60,4 @@ If you find any issue that needs to be addressed with another commit, you can us
 
 If everything in the pull requests checks out submit your review and leave a comment for feedback. Make sure you click the `Approve` radio box when submitting.
 
-![](20190930-approve.png)
+![]images/(20190930-approve.png)
