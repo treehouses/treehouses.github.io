@@ -1,5 +1,7 @@
 # Blogs
 
+[Reviewing Pull Requests on the CLI Repository](20190930-reviewprs.md) on September 30th, 2019 by Xavierh93
+
 [Adding a New Feature to the cli](20190831-newfeature.md) on August 31, 2019 by irisb1701
 
 [Raspberry Pi Headless Setup](20190816-headless.md) on August 16, 2019 by irisb1701
