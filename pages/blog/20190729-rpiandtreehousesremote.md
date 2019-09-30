@@ -76,7 +76,7 @@ Once you see the display of your onion address that concludes your 6th step.
 ## Step 7
 In order to verify that the previous step is working, we publish the onion address on the [treehouses gitter chat](https://gitter.im/open-learning-exchange/treehouses)
 Here is the command to accomplish the step:
-Type treehouses tor notice now to appear in the gitter treehouses chat.
+`treehouses tor notice now` to appear in the gitter treehouses chat.
 
 ![treehouses tor notice now](images/20190918-treehouses-tor-notice-now.png)
 ![gitter chat treehouses log](images/20190923-gitter-chat-treehouses-log.png)
