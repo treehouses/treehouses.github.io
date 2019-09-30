@@ -8,7 +8,7 @@ If you have access to your router's admin account, you can log into it and view 
 
 ## Method 1: Using treehouses remote
 
-In the [previous step](treehouses-remote.md), you were able to access the terminal on treeehouses remote using Bluetooth.  Here, run `treehouses networkmode info`.  The output in `bridge` mode will look like this:
+In the [previous step](treehouses-remote.md), you were able to access the terminal on treehouses remote using Bluetooth.  Here, run `treehouses networkmode info`.  The output in `bridge` mode will look like this:
 ```
 wlan0: essid: wifiname, ip: 192.168.0.19, has password
 ap0: essid: treehouses, ip: 192.168.2.1, has no password
