@@ -23,7 +23,7 @@ At the terminal we'll get into setting up a bridge and setting up a WiFi
 ![treehouses remote getting to terminal](images/20190906-treehouses-remote-getting-to-terminal.png) ![treehouses remote terminal](images/20190906-treehouses-remote-terminal.png)
 
 ### Setting Up WiFi
-In your terminal enter "treehouses wifi <your local WiFi name> [your password]"
+In your terminal enter `treehouses wifi <your local WiFi name> [your password]`
 
 ![treehouses terminal keyboard](images/20190906-treehouses-terminal-keyboard.png)
 
@@ -31,18 +31,18 @@ In your terminal enter "treehouses wifi <your local WiFi name> [your password]"
 
 treehousesWifi would be your wifi name 0123456789 woud be your password
 
-To verify if your raspberry pi is connected to the internet, just type "treehouses internet" into your terminal. If it returns true, it means your Raspberry Pi is connected. If it returns false, it means your Raspberry Pi is not connected to the internet. In that latter case, you should check the spelling of your WiFi name and corresponding password.
+To verify if your raspberry pi is connected to the internet, just type `treehouses internet` into your terminal. If it returns true, it means your Raspberry Pi is connected. If it returns false, it means your Raspberry Pi is not connected to the internet. In that latter case, you should check the spelling of your WiFi name and corresponding password.
 
 ![treehouses internet](images/20190909-treehouses-internet.png)
 
 ### Setting up a bridge
-In your terminal, enter "treehouses bridge <your local wifi name> <the new name for your hotspot> [your wifi password] [(optional) your password for your new hotspot] "
+In your terminal, enter `treehouses bridge <your local wifi name> <the new name for your hotspot> [your wifi password] [(optional) your password for your new hotspot]`
 
 ![treehouses bridge](images/20190909-treehouses-bridge.png)
 
 treehousesWifi would be your local wifi name; treehousesBridge would be your hotspot name; 0123456789 woud be your wifi password; optionally ABCDEFGHIJ woud be your hotspot password
 
-After entering the command you will be asked to reboot. Just enter the command "reboot." This will disconnect your device. Wait a few moment for the device to boot up and connect like you did in Step 4.
+After entering the command you will be asked to reboot. Just enter the command `reboot`. This will disconnect your device. Wait a few moment for the device to boot up and connect like you did in Step 4.
 
 ![treehouses bridge disconnected](images/20190909-treehouses-bridge-disconnected.png)
 
@@ -58,12 +58,12 @@ In the terminal, type treehouses tor to verify if you get a onion address. Norma
 ![treehouses tor error](images/20190923-treehouses-tor-error.png)
 
 ### Configure tor tunnels
- * Type treehouses tor add 22
- * Type treehouses tor list in order to verify if tor tunnel has been configured
- * Type treehouses tor add 80
- * Type treehouses tor add 2200
- * Type treehouses tor start to configure tor for your Raspberry Pi 
- * Type treehouses tor list in order to verify all tunnels have been configured
+ * Type `treehouses tor add 22`
+ * Type `treehouses tor list` in order to verify if tor tunnel has been configured
+ * Type `treehouses tor add 80`
+ * Type `treehouses tor add 2200`
+ * Type `treehouses tor start` to configure tor for your Raspberry Pi 
+ * Type `treehouses tor list` in order to verify all tunnels have been configured
 
 ![treehouses tor add & list](images/20190918-treehouses-tor-add-and-list.png)
 
