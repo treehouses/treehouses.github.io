@@ -17,7 +17,6 @@ Make sure the issue number that the pull request is fixing is in the pull reques
 _**SPECIAL NOTE:**_ **If you are in the treehouses repository:**
     Make sure the githack preview link is listed in the description. This link is how you will check that the changes are rendered correctly on the preview. The correct format is `https://raw.githack.com/{YourGitHubUsername}/{YourGitHubUsername}.github.io/{YourBranchName}/#!index.md` and viewing the pages that have been changed.
 
-    ![](images/20190930-prdescription.png)
 
 ## Step 2: Verify that there is a branch for the pull request
 
