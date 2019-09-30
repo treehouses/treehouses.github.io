@@ -33,29 +33,29 @@ treehousesWifi would be your wifi name 0123456789 woud be your password
 
 To verify if your raspberry pi is connected to the internet, just type "treehouses internet" into your terminal. If it returns true, it means your Raspberry Pi is connected. If it returns false, it means your Raspberry Pi is not connected to the internet. In that latter case, you should check the spelling of your WiFi name and corresponding password.
 
-![treehouses internet](images/20190909-treehouses-internet.png){:height="660px" width="386px"}
+![treehouses internet](images/20190909-treehouses-internet.png)
 
 ### Setting up a bridge
 In your terminal, enter "treehouses bridge <your local wifi name> <the new name for your hotspot> [your wifi password] [(optional) your password for your new hotspot] "
 
-![treehouses bridge](images/20190909-treehouses-bridge.png){:height="660px" width="386px"}
+![treehouses bridge](images/20190909-treehouses-bridge.png)
 
 treehousesWifi would be your local wifi name; treehousesBridge would be your hotspot name; 0123456789 woud be your wifi password; optionally ABCDEFGHIJ woud be your hotspot password
 
 After entering the command you will be asked to reboot. Just enter the command "reboot." This will disconnect your device. Wait a few moment for the device to boot up and connect like you did in Step 4.
 
-![treehouses bridge disconnected](images/20190909-treehouses-bridge-disconnected.png){:height="660px" width="386px"}
+![treehouses bridge disconnected](images/20190909-treehouses-bridge-disconnected.png)
 
 _NOTE To be certain of the network mode in which your raspberry pi is connected you can use treehouses networkmode and it should return whether your Raspberry Pi is connected via AP internet, WiFi or bridge_
 
-![treehouses networkmode](images/20190909-treehouses-networkmode.png){:height="660px" width="386px"}
+![treehouses networkmode](images/20190909-treehouses-networkmode.png)
 
 ## Step 6
 Once you are connected to the internet, let's configure your tor access.
 ### Verify if tor is already configured
 In the terminal, type treehouses tor to verify if you get a onion address. Normally it shouldn't and it would return this:
 
-![treehouses tor error](images/20190923-treehouses-tor-error.png){:height="660px" width="386px"}
+![treehouses tor error](images/20190923-treehouses-tor-error.png)
 
 ### Configure tor tunnels
  * Type treehouses tor add 22
