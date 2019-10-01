@@ -29,5 +29,3 @@ I am on social networks here:
 [Twitter](twitter.com/Andrewz_os)
 
 [DEV](dev.to/andrewzos)
-
-[LinkedIn](linkedin.com/in/andrewzos/)
