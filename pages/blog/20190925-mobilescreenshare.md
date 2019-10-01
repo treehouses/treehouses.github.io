@@ -29,7 +29,7 @@ sudo ninja install
 ```
 1. Now that you have `scrcpy`, continue to the [USB Debugging](20190925-mobilescreenshare.md#USB_Debugging) section with your android device.
 
-<div class="alert alert-info">Note: It might be necessary for you to create your own server (which will require Java 8 from Caskroom to be installed):<pre class="md-text">brew tap caskroom/versions
+<div class="alert alert-info">Note: It might be necessary for you to create your own server (which will require Java 8 from Caskroom to be installed):<pre class="md-text" style="margin-bottom: -10px;">brew tap caskroom/versions
 brew cask install java11
 export JAVA_HOME="$(/usr/libexec/java_home --version 1.11)"
 export PATH="$JAVA_HOME/bin:$PATH"</pre></div>
