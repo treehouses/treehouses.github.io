@@ -31,8 +31,8 @@ $ sudo ninja install
 
 Note: It might be necessary for you to create your own server (which will require Java 8 from Caskroom to be installed):
     $ brew tap caskroom/versions
-    $ brew cask install java8
-    $ export JAVA_HOME="$(/usr/libexec/java_home --version 1.8)"
+    $ brew cask install java11
+    $ export JAVA_HOME="$(/usr/libexec/java_home --version 1.11)"
     $ export PATH="$JAVA_HOME/bin:$PATH"
 
 
@@ -73,14 +73,16 @@ $ sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-re
 1. Open your Android device's settings and select "About Phone" or "About Device".
 1. Locate "Build Number" within the settings referencing system software (sub settings are different per device).
 1. Press the "Build Number" 7 times where it should state developer mode unlocked.
+<p style="width: 800px; heigth: auto;">![](images/20190925-Android-Settings.png)![](images/20190925-Android-About-Phone.png)![](images/20190925-Android-Build-Num.png)</p>
 
 #### Enable USB Debugging
 1. Now that you have developer mode unlocked, go to newly aquired developer settings (within the main settings page).
 1. Scroll down to "USB Debugging" and enable the option.
+<p style="width: 500px; heigth: auto;">![](images/20190925-Android-Developer.png)![](images/20190925-Android-USB-Debug.png)</p>
 
 ## Use scrcpy!
 1. Connect your android device to your PC.
-1. A pop-up will ask for confirmation to allow connection with your PC, accept it.
+1. A pop-up will ask for confirmation to allow connection with your PC, accept it.<p style="width: 300px; heigth: auto;">![](images/20190925-Android-Allow-Debug.png)</p>
 1. Next, start scrcpy in the method designed for your OS:
     * Windows: Open the directory you saved from the .zip file and execute `scrcpy-noconsole.exe`.
     * Mac: Open terminal and enter `scrcpy`.
