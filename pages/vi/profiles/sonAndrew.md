@@ -26,6 +26,6 @@ My favorite games to play are Destiny 2, any Monster Hunter game from U4 up, and
 
 I am on social networks here:
 
-[Twitter](http://twitter.com/Andrewz_os)
+[Twitter](https://twitter.com/Andrewz_os)
 
-[DEV](http://dev.to/andrewzos)
+[DEV](https://dev.to/andrewzos)
