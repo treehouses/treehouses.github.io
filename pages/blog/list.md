@@ -7,7 +7,7 @@ During their internships at treehouses, interns have completed a wide variety of
 
 * [Raspberry Pi Headless Setup](20190816-headless.md) on August 16, 2019 by irisb1701 `(Demonstrate VNC mode with treehouses-cli)`
 
-* [Debian for Windows 10](20190808-debianforwindows.md) on August 8, 2019 by ArranHL `(set up the development enviroment with WSL2)`
+* [Debian for Windows 10](20190808-debianforwindows.md) on August 8, 2019 by ArranHL `(Set up the development enviroment with WSL2)`
 
 * [Running Nextcloud on Raspberry Pi using Tor](20190731-nextcloud-tor.md) on July 31, 2019 by liew211 `(Set up a private cloud on a Raspberry Pi)`
 
