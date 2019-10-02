@@ -13,9 +13,9 @@
 ## Prepare Treehouses image
 
 Download the latest treehouses image from http://download.treehouses.io, then use [balenaEtcher](https://etcher.io) to flash the image onto your SD card.
-
-Note: Use one of the SD cards FIXME
-
+```
+Use a new the SD cards (Don't use the one that used for step 1)
+```
 In your file explorer, navigate to the `boot` drive, and open the `autorunonce` file in a text editor of your choice.  Delete everything, and paste this in:
 	
 ```bash
