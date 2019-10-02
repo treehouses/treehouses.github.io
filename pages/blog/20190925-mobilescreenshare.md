@@ -19,10 +19,7 @@ To make things easier, this tutorial style blog has been written so you can skip
 1. scrcpy will need Homebrew dependent packages installed to run: `brew install sd12 ffmpeg` and `brew install pkg-config meson`.
 1. Allow `adb` accessable to PATH by using ` brew cask install android-platform-tools`.
 1. Next, download the source files needed to run scrcpy [here](https://github.com/Genymobile/scrcpy/archive/master.zip) and extract the directory where desired.
-1. Download the [server](https://github.com/Genymobile/scrcpy/releases/download/v1.10/scrcpy-server-v1.10.jar) and store it within the directory you just extracted.
-
-**NOTE:** If you get the warning pops up at bottom of your browser asking to keep or discard, select keep.
-
+1. Download the [server](https://github.com/Genymobile/scrcpy/releases/download/v1.10/scrcpy-server-v1.10.jar) and store it within the directory you just extracted. <div class="alert alert-info">Note: If prompted by your browser to keep or discard the download, select keep.<div>
 1. Specify the path with `meson` by running the following commands: 
 ``` 
 meson <directory> --buildtype release --strip -Db_lto=true -Dprebuilt_server=/<path-to-directory>/scrcpy-server.jar
@@ -30,9 +27,7 @@ cd <directory>
 ninja
 sudo ninja install
 ```
-1. Now that you have `scrcpy`, continue to the [USB Debugging](20190925-mobilescreenshare.md#USB_Debugging) section with your android device.
-
-<div class="alert alert-info">Note: It might be necessary for you to create your own server (which will require Java 8 from Caskroom to be installed):<pre class="md-text" style="margin-bottom: -10px;">brew tap caskroom/versions
+1. Now that you have `scrcpy`, continue to the [USB Debugging](20190925-mobilescreenshare.md#USB_Debugging) section with your android device.<div class="alert alert-info">Note: It might be necessary for you to create your own server (which will require Java 8 from Caskroom to be installed):<pre class="md-text" style="margin-bottom: -10px;">brew tap caskroom/versions
 brew cask install java11
 export JAVA_HOME="$(/usr/libexec/java_home --version 1.11)"
 export PATH="$JAVA_HOME/bin:$PATH"</pre></div>
