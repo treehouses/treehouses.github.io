@@ -20,9 +20,9 @@ To make things easier, this tutorial style blog has been written so you can skip
 1. Allow `adb` accessable to PATH by using ` brew cask install android-platform-tools`.
 1. Next, download the source files needed to run scrcpy [here](https://github.com/Genymobile/scrcpy/archive/master.zip) and extract the directory where desired.
 1. Download the [server](https://github.com/Genymobile/scrcpy/releases/download/v1.10/scrcpy-server-v1.10.jar) and store it within the directory you just extracted.
-```
-If you get the warning pops up at bottom of your browser asking to keep or discard, select keep.
-```
+
+**NOTE:** If you get the warning pops up at bottom of your browser asking to keep or discard, select keep.
+
 1. Specify the path with `meson` by running the following commands: 
 ``` 
 meson <directory> --buildtype release --strip -Db_lto=true -Dprebuilt_server=/<path-to-directory>/scrcpy-server.jar
