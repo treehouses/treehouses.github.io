@@ -86,7 +86,7 @@ Displays Raspberry Pi's Bluetooth Host ID and Number.
 Optionally displays Bluetooth ID individually.
 
 Example:
-~~~
+
   cli.sh bluetoothid
       treehouses-9012
   cli.sh bluetoothid number
