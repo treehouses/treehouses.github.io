@@ -1,6 +1,10 @@
 # Reviewing PRs on the CLI repository
 
+<<<<<<< HEAD
 30, September 2019 • [Xavierh93](https://github.com/xavierh93)[vmnet8](https://github.com/vmnet8)
+=======
+30, September 2019 • [Xavierh93](https://github.com/xavierh93)[vmnet8](https://github.com/vmnet8)
+>>>>>>> 6f494ae1643f003e40cffcda3acfe107f1c3b839
 
 ---
 
@@ -46,6 +50,7 @@ Click on the *Commits* tab. This will  display all the commits for 
 
 ![](images/20190930-commits.png)
 
+<<<<<<< HEAD
 ## Step 7: Test the cli code
 The next step is testing the code to make sure it works as expected. For example, we will test the command `bluetoothid` below.  
 The first thing you can check is that all checks have passed on the Github PR page. If all the checks have passed it means the code passed the travis and codeclimate test.If it shows pending or failed, the developer who pushed the PR will have to fix it before you can continue to test the code.
@@ -104,6 +109,61 @@ The `bluetoothid` command works.
 ## Step 8: (Optional) Request Changes
 
 If you find any issue that needs to be addressed with another commit, you can use the `Request Changes` option when creating your review. Make sure to leave a comment about what needs to be addressed in the change. 
+=======
+## Step 7: test codes
+Before giving the comments to the PR, you need to test code whether it works.
+for example, we will test the new command `speedtest`.  
+first you can check on the github pull request page in the middle, there is a "all checks have passed, it means the code passed the travis and codeclimate test.If it shows pending or failed, you just wait the developer to fix the bug first, then you continue to test the code. 
+
+![](images/20191002-check_travis.jpg) 
+
+1.  go to your local machine,log in your PI.
+2.  clone the repo github.com/treehouse/cli in your local machine (using https url is okay, because you don't need to push back to repo)
+  `git clone https://github.com/treehouses/cli.git`
+3. check which branch does new command speedtest in, then switch to that branch
+   `git checkout speedtest`
+  
+   `git branch`
+    please double check you are in the right working branch.
+4.  check the PI version
+```
+     pi@pi:~ $ treehouses version
+     1.8.4
+```
+5. find the `treehouses` is the link file with /cli.sh
+```
+pi@pi:~ $ which treehouses
+/usr/bin/treehouses
+pi@pi:~ $ ls -al `which treehouses`
+lrwxrwxrwx 1 root root 42 Sep 27 06:41 /usr/bin/treehouses -> ../lib/node_modules/@treehouses/cli/cli.sh
+```
+     So before the speedtest command be merged and burned in the new image, you can't use `treehouse speedtest` to execute it, you need do like following.
+6.  execute cli command:
+```
+pi@pi:~/git_repo/cli $ ./cli.sh speedtest --help
+...............
+
+pi@pi:~/git_repo/cli $ ./cli.sh speedtest --list
+...............
+20045) Geek Patrol (Durban, South Africa) [17391.77 km]
+1714) iSPACE (Durban, South Africa) [17391.77 km]
+...............
+pi@pi:~/git_repo/cli $ ./cli.sh speedtest --server 20045
+Retrieving speedtest.net configuration...
+Retrieving speedtest.net server list...
+Retrieving information for the selected server...
+Hosted by Geek Patrol (Durban) [17391.77 km]: 442.538 ms
+Testing download speed................................................................................
+Download: 38.72 Mbit/s
+Testing upload speed......................................................................................................
+Upload: 2.24 Mbit/s 
+```
+   It shows the speedtest works well.
+     
+## Step 8: (Optional) Request Changes
+
+If you find any issue that needs to be addressed with another commit, you can use the `Request Changes` option when creating your review. Make sure to leave a comment about what needs to be addressed in the change. 
+>>>>>>> 6f494ae1643f003e40cffcda3acfe107f1c3b839
 
 ![](images/20190930-requestchanges.png)
 
