@@ -46,7 +46,6 @@ Click on the *Commits* tab. This will  display all the commits for 
 
 ![](images/20190930-commits.png)
 
-<<<<<<< HEAD
 ## Step 7: Test the cli code
 The next step is testing the code to make sure it works as expected. For example, we will test the command `bluetoothid` below.  
 The first thing you can check is that all checks have passed on the Github PR page. If all the checks have passed it means the code passed the travis and codeclimate test.If it shows pending or failed, the developer who pushed the PR will have to fix it before you can continue to test the code.
