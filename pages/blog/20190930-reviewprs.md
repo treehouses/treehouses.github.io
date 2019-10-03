@@ -54,7 +54,7 @@ The first thing you can check is that all checks have passed on the
 
 **Testing the code**
 
-1.  Log into your raspberry Pi via SSH
+1.  Log into your raspberry Pi via SSH as root.
 
 2.  If you dont already have the cli repository cloned to your rPi you will need to do so now. Clone the repo  by typing
   `git clone https://github.com/treehouses/cli.git`
@@ -69,31 +69,23 @@ The first thing you can check is that all checks have passed on the
 
 5. Find where the `treehouses` /cli.sh file is.
 ~~~
-pi@pi:~ $ which treehouses
+root@treehouses:~ $ which treehouses
 /usr/bin/treehouses
-pi@pi:~ $ ls -al `which treehouses`
+root@treehouses:~ $ ls -al `which treehouses`
 lrwxrwxrwx 1 root root 42 Sep 27 06:41 /usr/bin/treehouses -> ../lib/node_modules/@treehouses/cli/cli.sh
 ~~~
 
 6. Execute the cli command:
 View the help page of the command to see it's usage:
+
 ~~~
 root@xavierelon:/home/pi/cli# ./cli.sh help bluetoothid
 
 Usage: cli.sh bluetoothid [number]
-
-Displays Raspberry Pi's Bluetooth Host ID and Number.
-Optionally displays Bluetooth ID individually.
-
-Example:
-
-  cli.sh bluetoothid
-      treehouses-9012
-  cli.sh bluetoothid number
-      9012
 ~~~
 
 Run the command:
+
 ~~~
 root@xavierelon:/home/pi/cli#  ./cli.sh bluetoothid
 xavierelon-8941
