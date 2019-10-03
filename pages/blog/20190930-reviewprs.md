@@ -1,10 +1,6 @@
 # Reviewing PRs on the CLI repository
 
-<<<<<<< HEAD
 30, September 2019 • [Xavierh93](https://github.com/xavierh93)[vmnet8](https://github.com/vmnet8)
-=======
-30, September 2019 • [Xavierh93](https://github.com/xavierh93)[vmnet8](https://github.com/vmnet8)
->>>>>>> 6f494ae1643f003e40cffcda3acfe107f1c3b839
 
 ---
 
@@ -58,6 +54,7 @@ The first thing you can check is that all checks have passed on the
 ![](images/20191002-check_travis.jpg) 
 
 **Testing the code**
+
 1.  Log into your raspberry Pi via SSH
 
 2.  If you dont already have the cli repository cloned to your rPi you will need to do so now. Clone the repo  by typing
@@ -90,13 +87,14 @@ Displays Raspberry Pi's Bluetooth Host ID and Number.
 Optionally displays Bluetooth ID individually.
 
 Example:
+~~~
   cli.sh bluetoothid
       treehouses-9012
   cli.sh bluetoothid number
       9012
 ~~~
 
-Run the command
+Run the command:
 ~~~
 root@xavierelon:/home/pi/cli#  ./cli.sh bluetoothid
 xavierelon-8941
@@ -104,7 +102,7 @@ root@xavierelon:/home/pi/cli# treehouses bluetoothid number
 8941
 ~~~
 
-The `bluetoothid` command works.
+As you can see the `bluetoothid` command works.
      
 ## Step 8: (Optional) Request Changes
 
