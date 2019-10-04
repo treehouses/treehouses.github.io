@@ -54,48 +54,49 @@ The first thing you can check is that all checks have passed on the
 
 **Testing the code**
 
-1. Log into your raspberry Pi via SSH as root.
+1. Log into your Raspberry Pi via SSH as root.
 
-2. Check which treehouses version you are on by typing the command `treehouses version`.You may need to update your treehouses by typing `treehouses upgrade`.
-
-3. If you dont already have the cli repository cloned to your rPi you will need to do so now. Clone the repo  by typing
+2. If you dont already have the cli repository cloned to your Raspberry Pi you will need to do so now. Clone the repo  by typing
   `git clone https://github.com/treehouses/cli.git`
   You can also clone the repository via the SSH option.
 
-4. Switch to the branch 
-   `git checkout bluetoothid`
+3. Switch to the branch  
+  Change into the cli directory by `cd cli`.
+  `git checkout bluetoothid`
   Check that you are in the correct branch by typing:
-   `git branch`
-   `git pull`
+  `git branch`
+  `git pull`
+  
+4. Differences between `treehouses` and `./cli.sh`
+ Type the command `treehouses version`. Then type `./cli.sh version`. In most cases they are different numbers meaning they are different versions of treehouses. You may need to update your treehouses by typing `treehouses upgrade`.
 
 5. Find where the `treehouses` file is locate and find out what type of file treehouses.
-~~~
+```
 root@treehouses:~ $ which treehouses
 /usr/bin/treehouses
 root@treehouses:~ $ ls -al `which treehouses`
 lrwxrwxrwx 1 root root 42 Sep 27 06:41 /usr/bin/treehouses -> ../lib/node_modules/@treehouses/cli/cli.sh
-~~~
-As you can see the `treehouses` file is a symbolic link for the cli.sh file located in the /usr/bin directory.
+```
+As you can see the `treehouses` file is a symbolic link for a `cli.sh` file located in the `/usr/lib/node_modules/@treehouses/cli` directory. 
 
-6. Change into the cli directory by `cd cli`.
 
-7. Execute the cli command:
+6. Execute the cli command:
 View the help page of the command to see it's usage:
 
-~~~
-root@treehouses:/home/pi/cli# ./cli.sh help bluetoothid
+```
+root@treehouses:/root/cli# ./cli.sh help bluetoothid
 
 Usage: cli.sh bluetoothid [number]
-~~~
+```
 
 Run the command:
 
-~~~
-root@treehouses:/home/pi/cli#  ./cli.sh bluetoothid
+```
+root@treehouses:/root/cli#  ./cli.sh bluetoothid
 xavierelon-8941
-root@treehouses:/home/pi/cli# treehouses bluetoothid number
+root@treehouses:/root/cli# treehouses bluetoothid number
 8941
-~~~
+```
 
 As you can see the `bluetoothid` command works!
      
