@@ -54,22 +54,21 @@ The first thing you can check is that all checks have passed on the
 
 **Testing the code**
 
-1.  Log into your raspberry Pi via SSH as root.
+1. Log into your raspberry Pi via SSH as root.
 
-2.
-Check which treehouses version you are on by typing the command `treehouses version`.You may need to update your treehouses by typing `treehouses upgrade`.
+2. Check which treehouses version you are on by typing the command `treehouses version`.You may need to update your treehouses by typing `treehouses upgrade`.
 
-3.  If you dont already have the cli repository cloned to your rPi you will need to do so now. Clone the repo  by typing
+3. If you dont already have the cli repository cloned to your rPi you will need to do so now. Clone the repo  by typing
   `git clone https://github.com/treehouses/cli.git`
   You can also clone the repository via the SSH option.
 
-4. Switch to the branch 
+4. Switch to the branch 
    `git checkout bluetoothid`
   Check that you are in the correct branch by typing:
    `git branch`
    `git pull`
 
-5. Find where the `treehouses` file is locate and find out what type of file treehouses.
+5. Find where the `treehouses` file is locate and find out what type of file treehouses.
 ~~~
 root@treehouses:~ $ which treehouses
 /usr/bin/treehouses
@@ -80,11 +79,11 @@ As you can see the `treehouses` file is a symbolic link for the cli.sh file loca
 
 6. Change into the cli directory by `cd cli`.
 
-7. Execute the cli command:
+7. Execute the cli command:
 View the help page of the command to see it's usage:
 
 ~~~
-root@xavierelon:/home/pi/cli# ./cli.sh help bluetoothid
+root@treehouses:/home/pi/cli# ./cli.sh help bluetoothid
 
 Usage: cli.sh bluetoothid [number]
 ~~~
@@ -92,9 +91,9 @@ Usage: cli.sh bluetoothid [number]
 Run the command:
 
 ~~~
-root@xavierelon:/home/pi/cli#  ./cli.sh bluetoothid
+root@treehouses:/home/pi/cli#  ./cli.sh bluetoothid
 xavierelon-8941
-root@xavierelon:/home/pi/cli# treehouses bluetoothid number
+root@treehouses:/home/pi/cli# treehouses bluetoothid number
 8941
 ~~~
 
