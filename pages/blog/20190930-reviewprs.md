@@ -1,6 +1,6 @@
 # Reviewing PRs on the CLI repository
 
-30, September 2019 • [Xavierh93](https://github.com/xavierh93) [vmnet8](https://github.com/vmnet8)
+30, September 2019 • [Xavierh93](https://github.com/xavierh93) | [vmnet8](https://github.com/vmnet8)
 
 ---
 
