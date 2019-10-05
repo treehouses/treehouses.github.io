@@ -33,6 +33,8 @@ The app may ask for your device location, feel free to decline.
 1. Reboot once again
 
 #### Congrats, you have just connected your Raspberry Pi! 
-  
+
+**NOTE:** The time it takes to reboot is about 2-4 minutes.
+
 **Note for later:** You will need to unpair and re-pair eveytime you use a new Image version
 ## Next Section: [Finding your Pi](find-pi.md)
