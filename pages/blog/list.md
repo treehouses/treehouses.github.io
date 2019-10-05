@@ -2,6 +2,7 @@
 
 During their internships at treehouses, interns have completed a wide variety of projects, and have documented their experiences in the form of tutorials and journals below.  Feel free to follow along and learn something new!
 
+[Android Screen Sharing](20190925-mobilescreenshare.md) on September 25, 2019 by CalebProvost `(Guide to share Android device's screen on PC)`
 
 [Adding a New Feature to the cli](20190831-newfeature.md) on August 31, 2019 by irisb1701 `(Guide to add new features for treehouses-cli)`
 
