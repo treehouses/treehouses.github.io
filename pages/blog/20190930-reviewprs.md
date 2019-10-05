@@ -79,7 +79,6 @@ lrwxrwxrwx 1 root root 42 Sep 27 06:41 /usr/bin/treehouses -> ../lib/n
 ```
 As you can see the `treehouses` file is a symbolic link for a `cli.sh` file located in the `/usr/lib/node_modules/@treehouses/cli` directory. 
 
-
 6. Execute the cli command:
 View the help page of the command to see it's usage:
 
