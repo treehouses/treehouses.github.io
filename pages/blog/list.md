@@ -4,6 +4,8 @@ During their internships at treehouses, interns have completed a wide variety of
 
 [Android Screen Sharing](20190925-mobilescreenshare.md) on September 25, 2019 by CalebProvost `(Guide to share Android device's screen on PC)`
 
+[Creating a Script for Builder](20190921-builder.md) on September 21, 2019 by irisb1701 `(Howto create new feature images with treehouses-builder)`
+
 [Adding a New Feature to the cli](20190831-newfeature.md) on August 31, 2019 by irisb1701 `(Guide to add new features for treehouses-cli)`
 
 [Raspberry Pi Headless Setup](20190816-headless.md) on August 16, 2019 by irisb1701 `(Demonstrate VNC mode with treehouses-cli)`
