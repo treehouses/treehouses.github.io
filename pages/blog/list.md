@@ -1,6 +1,6 @@
 # Blogs
 
-[Creating a Script for Builder](20190921-builder.md) on September 21, 2019 by irisb1701
+[Creating a Script for Builder](20190921-builder.md) on September 21, 2019 by irisb1701 `(Howto create new feature images with treehouses-builder)`
 
 [Adding a New Feature to the cli](20190831-newfeature.md) on August 31, 2019 by irisb1701
 
