@@ -2,9 +2,9 @@
 
 Hello Everyone! I am currently *17 years old* studying in high school, and next year I hope to pursue a Computer Science degree at the **University of Waterloo**. Here are some facts about me:
 
-* :earth_americas: I am from Waterloo, Canada
-* :clock10: Eastern Daylight Savings
-* :computer: MacOS High Sierra 10.13.6
+* &#x1f30e; I am from Waterloo, Canada
+* &#x1f554; Eastern Daylight Savings
+* &#x1F4BB; MacOS High Sierra 10.13.6
 
 ## Here's some extra information :smile: :
 
