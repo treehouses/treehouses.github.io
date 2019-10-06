@@ -6,7 +6,7 @@ Hello Everyone! I am currently *17 years old* studying in high school, and next 
 * &#x1f554; Eastern Daylight Savings
 * &#x1F4BB; MacOS High Sierra 10.13.6
 
-## Here's some extra information :smile: :
+## Here's some extra information &#128515; :
 
 ### Technical Background
   Familiar With:
