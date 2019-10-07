@@ -1,12 +1,45 @@
-# Welcome!
+# Welcome & Congratulations!
+### You just took your first step towards becoming a Virtual Intern!
 
-This MDwiki serves as an information repository for treehouses, a project of the Open Learning Exchange.  Please feel free to join us on our [Gitter chat](https://gitter.im/treehouses/Lobby).
+<br />
 
-The treehouses project is divided into several parts to meet the needs of different users, including those participating in our Virtual Intern program.
+![OLE International Team](./images/OLE_International_Team.jpg)
+###### The OLE International Team. [Left to Right] Rabi, April Stone, Stefan Unterhauser, Rory Phimister, Denisia Mangue, Richard R. Rowe, Boyah J. Farah and Leonard Maximus Ireneous Mensah not pictured.
 
-If you are a new Virtual Intern, please go to the "Virtual Interns" tab and go to "Introduction / First Steps", or [click here](pages/vi/firststeps.md) to get started!  Please remember that many team members are available to help you on Gitter chat.
+<br />
+
+This **MDwiki** serves as an information repository for treehouses, a project of the Open Learning Exchange.
+
+<br />
+
+**Virtual systems engineering interns** will be helping develop OLE’s treehouses system. Treehouses allows us to share our different learning platforms via the Rasperry Pi series of single-board computer devices.
+
+<br />
+
+<img style="width:50%; margin-left:5%; float:right;" src="./images/OLE_RPi.png" alt="OLE Raspberry Pi">
+
+The **treehouses** project is divided into several parts to meet the needs of different users, including those participating in our Virtual Intern program.
+
+> More information about the internship can be found in our [FAQ](https://treehouses.io/#!./pages/vi/faq.md#General_Internship_Questions). 
+
+<br />
+
+If you are a new Virtual Intern, please go to the **"Virtual Interns"** tab and go to **"Introduction / First Steps"**, or [Get Started](pages/vi/firststeps.md) to get started!  Please remember that many team members are available to help you on [Gitter chat](https://gitter.im/treehouses/Lobby).
+
+<br />
+
+#### Here are the leaders you should reach out to if you need help:
+
+> **Dogi**, **Ryan**, **Vassilis**, **Roshan**, **Sam**, **Samuel** and **Arran**
+
+<br />
 
 The [Open Learning Exchange](http://www.ole.org/) is a social benefit and for-purpose organization based in Cambridge, Massachusetts. Our mission is to provide universal quality education using open source materials and technology to overcome educational barriers.
 
+<br />
+
+> OLE believe **everyone** has the right to a quality basic education.
+
+<br />
 
 **Find Us On:** [Linkedin](https://www.linkedin.com/company/open-learning-exchange) | [Twitter](https://twitter.com/oleorg) | [Facebook](https://www.facebook.com/openlearningexchange/)
