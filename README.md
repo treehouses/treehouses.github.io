@@ -1,5 +1,5 @@
 Welcome to treehouses
-=====================
+====================
 
 What is treehouses?
 -------------------
