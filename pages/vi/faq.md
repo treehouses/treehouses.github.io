@@ -16,7 +16,7 @@
 
 - **Q10:** [What do I do if '&lt;YourUserName&gt;.github.io' is already in use?](#Q10:_What_do_I_do_if_'&lt;YourUserName&gt;.github.io'_is_already_in_use?)
 - **Q11:** [What if you encounter *Host key verification fail*?](#Q11:_What_if_you_encounter_Host_key_verification_fail?)
-- **Q12:** [Why can't I ssh into my Raspbery Pi after installing a new treehouses image?](#Q12:_Why_can't_I_ssh_into_my_Raspberry_Pi_after_installing_a_new_treehouses_image?)
+- **Q12:** [Why can't I ssh into my Raspberry Pi after installing a new treehouses image?](#Q12:_Why_can't_I_ssh_into_my_Raspberry_Pi_after_installing_a_new_treehouses_image?)
 
 ---
 
