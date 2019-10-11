@@ -79,9 +79,9 @@ You will now add/modify these 5 files to your branch of the cli repo. Remember t
         * An optional subcommand would be, like in this case, choosing to see the temperature in Fahrenheit or Kelvin which you don't necessarily have to do to run the command
     * Your entry should look like this: `echo "  temperature [fahrenheit|kelvin]     displays raspberry pi's CPU temperature"`
 
-1. **help.sh**: Now go into cli/modules and modify the `help.sh` file in the exact same way you modified the `README.md` file
+2. **help.sh**: Now go into cli/modules and modify the `help.sh` file in the exact same way you modified the `README.md` file
 
-1. **cli.sh**: Next you will modify the `cli.sh` file
+3. **cli.sh**: Next you will modify the `cli.sh` file
     In this file you will include two entries, a filepath and a case that calls the command. Place your new entries here in the same spots you placed it in the `README.md`
 
     * For the filepath, your new entry will look like this `source "$SCRIPTFOLDER/modules/temperature.sh"`
@@ -96,7 +96,7 @@ You will now add/modify these 5 files to your branch of the cli repo. Remember t
         ![](images/20190831-cli-addition.png)
 
 
-1. **Modules**: Now you will add your `temperature.sh` file into the modules folder. This is the file that has the source code for your new feature.
+4. **Modules**: Now you will add your `temperature.sh` file into the modules folder. This is the file that has the source code for your new feature.
     * Inside the file you will make sure you have a second function called function `temperature_help`
     * Each command has a help function that when called will display a description of the command and show examples of its usage.
     * Using a different command's help function as a template you can easily create one for your own command
@@ -105,7 +105,7 @@ You will now add/modify these 5 files to your branch of the cli repo. Remember t
     ![](images/20190831-temp-help.png)
 
 
-1. **_treehouses**: Lastly you will open up _treehouses in the cli repo and make these four additions for tab autocompletion:
+5. **_treehouses**: Lastly you will open up _treehouses in the cli repo and make these four additions for tab autocompletion:
    * Under `commands=` and `help_cmds="` include the name of your feature in both lists alphabetically 
    * next under `# services_cmds=""` add the subcommands by inlcuding this line: `temperature_cmds="celsius"`
    * Lastly under the cases you will include a case for your feature placed alphabetically. It should look like this:
