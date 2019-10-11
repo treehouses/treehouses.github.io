@@ -68,7 +68,7 @@ Now instead of your command being just `treehouses temperature` it can now also 
 
 ## Step 3:  The 4 Files That Must Be Added/Modified in the cli Repo
 
-You will now add/modify these 4 files to your branch of the cli repo. Remember to only make changes to your own branch and make sure you are on it before pushing these changes.
+You will now add/modify these 5 files to your branch of the cli repo. Remember to only make changes to your own branch and make sure you are on it before pushing these changes.
 
 1. **README.md**: First you will include your command in the `README.md` file in the cli Repo
     * Place the new command either at the end of the list or near commands it is similar to
@@ -96,7 +96,7 @@ You will now add/modify these 4 files to your branch of the cli repo. Remember t
         ![](images/20190831-cli-addition.png)
 
 
-1. **Modules**: Lastly you will add your `temperature.sh` file into the modules folder. This is the file that has the source code for your new feature.
+1. **Modules**: Now you will add your `temperature.sh` file into the modules folder. This is the file that has the source code for your new feature.
     * Inside the file you will make sure you have a second function called function `temperature_help`
     * Each command has a help function that when called will display a description of the command and show examples of its usage.
     * Using a different command's help function as a template you can easily create one for your own command
@@ -104,7 +104,19 @@ You will now add/modify these 4 files to your branch of the cli repo. Remember t
     ![](images/20190831-temp-function.png)
     ![](images/20190831-temp-help.png)
 
-Now go ahead and push all the changes you've made to your branch on Github.
+
+1. **_treehouses**: Lastly you will open up _treehouses in the cli repo and make these four additions for tab autocompletion:
+   * Under `commands=` and `help_cmds="` include the name of your feature in both lists alphabetically 
+   * next under `# services_cmds=""` add the subcommands by inlcuding this line: `temperature_cmds="celsius"`
+   * Lastly under the cases you will include a case for your feature placed alphabetically. It should look like this:
+   ```
+   "temperature")
+        COMPREPLY=( $(compgen -W "$temperature_cmds" -- $cur) ) 
+        ;;
+   ```
+  
+  Now go ahead and push all the changes you've made to your branch on Github.
+
 
 ## Step 4: Testing Your Command
 
