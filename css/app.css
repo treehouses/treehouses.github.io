@@ -1,0 +1,146 @@
+/* hide the main content while we assemble everything */
+.md-hidden-load {
+  display: none;
+}
+
+/* overflow hidden so that on mobile there is no extra spacing on the right */
+html {
+  overflow: hidden;
+}
+
+/* for pageContentMenu */
+#md-page-menu {
+  position: static;
+  width: 100%;
+}
+#md-page-menu a.active {
+  /* background-color: rgba(0, 0, 0, 0.01); */
+  font-weight: bold;
+  padding-left: 6px;
+}
+@media (min-width: 992px) {
+  #md-page-menu.affix {
+    position: fixed;
+  }
+  #md-page-menu {
+    width: 212.5px;
+  }
+}
+@media (min-width: 1200px) {
+  #md-page-menu {
+    width: 262.5px;
+  }
+}
+@media (min-width: 768px) {
+  .md-float-left .col-sm-8,
+  .md-float-right .col-sm-8 {
+    max-width: 66.67%;
+  }
+  .md-float-left .col-sm-4,
+  .md-float-right .col-sm-4 {
+    max-width: 33.33%;
+  }
+  .md-float-left .col-sm-2,
+  .md-float-right .col-sm-2 {
+    max-width: 16.67%;
+  }
+}
+@media (max-width: 992px) {
+  a.forkmeongithub {
+    display: none;
+  }
+}
+@media (max-width: 768px) {
+  /* don't use floating for smaller screens */
+  .md-float-left .col-sm-8,
+  .md-float-left .col-sm-4,
+  .md-float-left .col-sm-2 {
+    width: 100%;
+    max-width: !important;
+    min-width: 100%;
+  }
+  .md-float-right .col-sm-8,
+  .md-float-right .col-sm-4,
+  .md-float-right .col-sm-2 {
+    width: 100%;
+    max-width: !important;
+    min-width: 100%;
+  }
+}
+
+.md-floatenv .md-text {
+  /* md-text is not of md-col-* but needs the spacing */
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+/* float images */
+.md-float-left .col-sm-8,
+.md-float-left .col-sm-4,
+.md-float-left .col-sm-2 {
+  width: auto;
+}
+.md-float-right .col-sm-8,
+.md-float-right .col-sm-4,
+.md-float-right .col-sm-2 {
+  float: right !important;
+  width: auto;
+}
+#md-all .md-copyright-footer {
+  background-color: !important;
+  font-size: smaller;
+  padding: 1em;
+}
+
+/* Begin Added for Open Learning Exchange */
+.navbar-brand {
+  margin-left: 35px;
+}
+
+@font-face {
+  font-family: "Lato Offline";
+  font-style: normal;
+  font-weight: 400;
+  src: url("fonts/Lato-Regular.woff") format("woff");
+}
+@font-face {
+  font-family: "Lato Offline";
+  font-style: normal;
+  font-weight: 700;
+  src: url("fonts/Lato-Bold.woff") format("woff");
+}
+@font-face {
+  font-family: "Lato Offline";
+  font-style: normal;
+  font-weight: 900;
+  src: url("fonts/Lato-Black.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Lato Offline";
+  font-style: italic;
+  font-weight: 400;
+  src: url("fonts/Lato-Italic.woff") format("woff");
+}
+
+/* Use Lato Offline as fallback for Lato font */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+.tooltip,
+.popover {
+  font-family: "Lato", "Lato Offline", "Helvetica Neue", Helvetica, Arial,
+    sans-serif !important;
+}
+
+/* End Added for Open Learning Exchange */
