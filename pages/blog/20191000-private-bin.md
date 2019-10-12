@@ -4,7 +4,7 @@ Oct 09, 2019 • [hiroTochigi](https://www.github.com/hiroTochigi)
 
 ---
 
-This tutorial lets you install Privatebin on your Raspberry Pi by a treehouses image. The treehouses image already has Tor Hidden Service and Docker so you can easily configure Privatebin on your Raspberry Pi through your Onion Server with Docker. You can use Privatebin through your Tor Browser with your Onion address. You can learn a simple example of a way to use Docker and a configuration of the installed software on your Onion address.
+This tutorial lets you install Privatebin on your Raspberry Pi via a Treehouses image. The Treehouses image already has Tor Hidden Service and Docker so you can easily configure Privatebin on your Raspberry Pi through your Onion Server with Docker. You can use Privatebin through your Tor Browser with your Onion address. Also, you can learn a simple example of a way to use Docker and a configuration of the installed software on your Onion address.
 
 ### Prerequisite 
 * Raspberry Pi with treehouses
@@ -68,14 +68,11 @@ This two codes deal with zip file. The first code decompresses the master.zip. T
 ### Modify Three Lines
 Change three lines
 
-1. apt-get install -y unzip zlib1g-dev libpng-dev && \` → `apt-get install -y zlib1g-dev libpng-dev && \
-1. mv PrivateBin-master html && \`→ `mv PrivateBin html && \
-1. a2enmod rewrite && \`→ `a2enmod rewrite
+1. apt-get install -y unzip zlib1g-dev libpng-dev && \  →  apt-get install -y zlib1g-dev libpng-dev && \
+1. mv PrivateBin-master html && \  →  mv PrivateBin html && \
+1. a2enmod rewrite && \ →  a2enmod rewrite
 
-The first modification is optional. You do not need to use upzip in this Dockerfile.
-The second and third modifications are crucial. 
-The second command changes from the first directory name to html. If there is not the first name, you get an error.
-The third command must be the last command in the first `RUN command. && \` means that there is a next command. If there is `&& \` but no command proceeds, you get an error.
+The first modification is optional. You do not need to use upzip in this Dockerfile. The second and third modifications are crucial. The second command changes the first directory name to html. If the name of the first directory is not PrivateBin, you get an error. The third command must be the last command in the first RUN command block. `&& \` tells Docker engine that there is a next command. If there is `&& \` but no command proceeds, you get an error.
 
 After that you should have the below Dockerfile.
 
@@ -89,9 +86,7 @@ Type the below command
 docker build -t privatebin
 ```
 
-The command docker `build .` builds Docker image from Dockerfile if there is a Dockerfile in the current directory. 
-`-t privatebin` means that put the name: privatebin on the built image
-You can see it from the below command.
+The command docker `build .` builds Docker image from Dockerfile if there is a Dockerfile in the current directory. In order to identify the image you just built easily, you should name your image. The flag `-t privatebin` means that you are naming your images as privatebin. You can see it from the below command.
 
 ```
 docker images
