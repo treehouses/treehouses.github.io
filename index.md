@@ -1,45 +1,22 @@
-# Welcome & Congratulations!
-### You just took your first step towards becoming a Virtual Intern!
-
-<br />
-
-![OLE International Team](./images/OLE_International_Team.jpg)
-###### The OLE International Team. [Left to Right] Rabi, April Stone, Stefan Unterhauser, Rory Phimister, Denisia Mangue, Richard R. Rowe, Boyah J. Farah and Leonard Maximus Ireneous Mensah not pictured.
-
-<br />
-
-This **MDwiki** serves as an information repository for treehouses, a project of the Open Learning Exchange.
-
-<br />
-
-**Virtual systems engineering interns** will be helping develop OLE’s treehouses system. Treehouses allows us to share our different learning platforms via the Rasperry Pi series of single-board computer devices.
-
-<br />
-
-<img style="width:50%; margin-left:5%; float:right;" src="./images/OLE_RPi.png" alt="OLE Raspberry Pi">
-
-The **treehouses** project is divided into several parts to meet the needs of different users, including those participating in our Virtual Intern program.
-
-> More information about the internship can be found in our [FAQ](https://treehouses.io/#!./pages/vi/faq.md#General_Internship_Questions). 
-
-<br />
-
-If you are a new Virtual Intern, please go to the **"Virtual Interns"** tab and go to **"Introduction / First Steps"**, or [Get Started](pages/vi/firststeps.md) to get started!  Please remember that many team members are available to help you on [Gitter chat](https://gitter.im/treehouses/Lobby).
-
-<br />
-
-#### Here are the leaders you should reach out to if you need help:
-
-> **Dogi**, **Ryan**, **Vassilis**, **Roshan**, **Sam**, **Samuel** and **Arran**
-
-<br />
+## Welcome to the treehouses project!
 
 The [Open Learning Exchange](http://www.ole.org/) is a social benefit and for-purpose organization based in Cambridge, Massachusetts. Our mission is to provide universal quality education using open source materials and technology to overcome educational barriers.
 
-<br />
+---
 
-> OLE believe **everyone** has the right to a quality basic education.
+This [MDwiki](https://dynalon.github.io/mdwiki/#!index.md) serves as an information repository for [treehouses](https://github.com/treehouses), a project of the Open Learning Exchange.
 
-<br />
+
+The  project is divided into several parts to meet the needs of different users, including those participating in our Virtual Intern program. Open Learning Exchange believes that **everyone** has the right to a quality basic education and works to provide this through the Raspberry Pi single board computers. 
+
+![OLE Raspberry Pi](./images/OLE_RPi.png)
+
+More information about the internship and treehouses can be found in our [FAQ](https://treehouses.io/#!./pages/vi/faq.md#General_Internship_Questions). 
+Should you wish to reach out for information or assistance, feel free to contact us in the [Gitter chatroom](https://gitter.im/treehouses/Lobby). Feel free to direct message our [members](./pages/vi/team.md) in Gitter if you like.
+
+---
+
+#### Become a Virtual Intern!
+Follow the [first steps](pages/vi/firststeps.md) in order to learn how.
 
 **Find Us On:** [Linkedin](https://www.linkedin.com/company/open-learning-exchange) | [Twitter](https://twitter.com/oleorg) | [Facebook](https://www.facebook.com/openlearningexchange/)
