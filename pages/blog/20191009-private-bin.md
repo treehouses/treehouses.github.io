@@ -39,7 +39,7 @@ You get the below text
 This Dockerfile builds an image of Privatebin based on Apache server. However, it has a problem; In October/2019, the Privatebin of this Dockerfile does not support Tor Browser. Fortunately, the latest code supports Tor Browser. Therefore, you need to use the latest Privatebin code which you git-cloned.
 
 ### Add ADD Command
-Add one line between FROM command and RUN command
+Add one line between `FROM` command and `RUN` command
 
 ```
 ADD PrivateBin var/www/PrivateBin
@@ -50,7 +50,7 @@ This code downloads a `master.zip` file from the Privatebin archive repository a
 ### Delete Three Lines
 Delete the three lines
 
-1. `curl -L https://github.com/PrivateBin/PrivateBin/archive/master.zip` > /var/www/master.zip && \`
+1. `curl -L https://github.com/PrivateBin/PrivateBin/archive/master.zip  > /var/www/master.zip && \`
 1. `unzip -q master.zip && \`
 1. `rm -rf master.zip`
 
@@ -77,6 +77,23 @@ Change three lines
 The first modification is optional. You do not need to use upzip in this Dockerfile. The second and third modifications are crucial. The second command changes the first directory name to html. If the name of the first directory is not PrivateBin, you get an error. The third command must be the last command in the first RUN command block. `&& \` tells Docker engine that there is a next command. If there is `&& \` but no command proceeds, you get an error.
 
 After that you should have the below Dockerfile.
+
+```
+FROM php:apache
+
+ADD PrivateBin /var/www/privatebin
+
+RUN apt-get update && \
+    apt-get install -y zlib1g-dev libpng-dev && \
+    docker-php-ext-install gd && \
+    cd /var/www && \
+    rmdir html && \
+    mv privatebin html && \
+    mv html/.htaccess.disabled html/.htaccess && \
+    a2enmod rewrite
+
+RUN chmod 777 -R /var/www/html
+```
 
 ![](images/20191009-Dockerfile-after.png)
 
