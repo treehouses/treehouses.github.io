@@ -9,7 +9,7 @@ This [MDwiki](https://dynalon.github.io/mdwiki/#!index.md) serves as an informat
 
 The  project is divided into several parts to meet the needs of different users, including those participating in our Virtual Intern program. Open Learning Exchange believes that **everyone** has the right to a quality basic education and works to provide this through the Raspberry Pi single board computers. 
 
-![OLE Raspberry Pi](./images/OLE_RPi2.png)
+![OLE Raspberry Pi](./images/OLE_RPi.png)
 
 More information about the internship and treehouses can be found in our [FAQ](https://treehouses.io/#!./pages/vi/faq.md#General_Internship_Questions). 
 Should you wish to reach out for information or assistance, feel free to contact us in the [Gitter chatroom](https://gitter.im/treehouses/Lobby). Feel free to direct message our [members](./pages/vi/team.md) in Gitter if you like.
