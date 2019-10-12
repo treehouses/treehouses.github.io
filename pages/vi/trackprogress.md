@@ -2,7 +2,7 @@
 ## Directions: ##
  * Click on the blue "Get PRs/Issues Count" button below.
  * Type in a valid Github username
- * Remember, in order to complete the ["First Steps"](firststeps.md) you need at least 5 valid PRs and 4 issues.
+ * Remember, in order to complete the ["First Steps"](firststeps.md) you need at least 5 valid PRs, 4 commits, and 4 issues.
  * Click [here](firststeps.md#Step_8_-_Create_Issues_and_Pull_Requests) to return to Step 8.
 
 <style><!--
@@ -44,6 +44,7 @@
                 .then(function(data) {
                     res.innerHTML = "<h2> Progress: </h2>";
                     Total_PRs();
+                    Total_Commits();
                     Total_Issues();
                     Merged_PRs();
                 })
@@ -69,6 +70,22 @@
             .then(function(data) {
                 let p = document.createElement('p');
                 p.innerHTML = "<strong>Number of PRs:<strong> " + data.total_count;
+                res.appendChild(p);
+            })
+            .catch(function(error) {
+                console.log(error);
+            });
+    }
+
+    //Check total number of commits
+    function Total_Commits() {
+        var url = "https://api.github.com/search/search-commit?q=repo:treehouses/treehouses.github.io+author:" + user + "+type:search-commit&sort=created&order=asc";
+        fetch(url)
+            .then(checkStatus)
+            .then((resp) => resp.json())
+            .then(function(data) {
+                let p = document.createElement('p');
+                p.innerHTML = "<strong>Number of Commits:<strong> " + data.total_count;
                 res.appendChild(p);
             })
             .catch(function(error) {
