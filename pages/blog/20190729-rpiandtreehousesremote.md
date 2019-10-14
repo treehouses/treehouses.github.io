@@ -28,23 +28,19 @@ In your terminal enter `treehouses wifi <your local WiFi name> [your password]`
 ![treehouses terminal keyboard](images/20190906-treehouses-terminal-keyboard.png)
 
 ![treehouses wifi red](images/20190906-treehouses-wifi-red.png) ![treehouses wifi blue](images/20190906-treehouses-wifi-blue.png)
-
 _treehousesWifi_ would be your wifi name _0123456789_ woud be your password
 
 To verify if your raspberry pi is connected to the internet, just type `treehouses internet` into your terminal. If it returns true, it means your Raspberry Pi is connected. If it returns false, it means your Raspberry Pi is not connected to the internet. In that latter case, you should check the spelling of your WiFi name and corresponding password.
 
-![treehouses internet](images/20190909-treehouses-internet.png)
+![treehouses internet red](images/20191014-treehouses-internet-red.png) ![treehouses internet](images/20190909-treehouses-internet.png)
 
 ### Setting up a bridge
 In your terminal, enter `treehouses bridge <your local wifi name> <the new name for your hotspot> [your wifi password] [(optional) your password for your new hotspot]`
 
-![treehouses bridge](images/20190909-treehouses-bridge.png)
-
-_treehousesWifi_ would be your local wifi name; _treehousesBridge_ would be your hotspot name; _0123456789_ woud be your wifi password; optionally _ABCDEFGHIJ_ woud be your hotspot password
-
 After entering the command you will be asked to reboot. Just enter the command `reboot`. This will disconnect your device. Wait a few moment for the device to boot up and connect like you did in Step 4.
 
-![treehouses bridge disconnected](images/20190909-treehouses-bridge-disconnected.png)
+![treehouses bridge](images/20190909-treehouses-bridge.png) ![treehouses bridge disconnected](images/20190909-treehouses-bridge-disconnected.png)
+_treehousesWifi_ would be your local wifi name; _treehousesBridge_ would be your hotspot name; _0123456789_ woud be your wifi password; optionally _ABCDEFGHIJ_ woud be your hotspot password
 
 Note: To be certain of the network mode in which your raspberry pi is connected you can use treehouses networkmode and it should return whether your Raspberry Pi is connected via AP internet, WiFi or bridge
 
@@ -55,7 +51,7 @@ Once you are connected to the internet, let's configure your tor access.
 ### Verify if tor is already configured
 In the terminal, type treehouses tor to verify if you get a onion address. Normally it shouldn't and it would return this:
 
-![treehouses tor error](images/20190923-treehouses-tor-error.png)
+![treehouses tor red](images/20191014-treehouses-tor-red) ![treehouses tor error](images/20190923-treehouses-tor-error.png)
 
 ### Configure tor tunnels
  * Type `treehouses tor add 22`
@@ -65,14 +61,9 @@ In the terminal, type treehouses tor to verify if you get a onion address. Norma
  * Type `treehouses tor start` to configure tor for your Raspberry Pi 
  * Type `treehouses tor list` in order to verify all tunnels have been configured
 
-![treehouses tor add & list](images/20190918-treehouses-tor-add-and-list.png)
+After configuring tor you can use `treehouses tor` to display your onion address
 
-### Display your onion address
-Use treehouses tor to display your onion address
-
-<p align="justify">
-![treehouses tor](images/20190918-treehouses-tor.png)
-</p>
+![treehouses tor add & list](images/20190918-treehouses-tor-add-and-list.png) ![treehouses tor](images/20190918-treehouses-tor.png)
 
 Once you see the display of your onion address that concludes your 6th step.
 ## Step 7: Onion Address
