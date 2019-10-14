@@ -6,8 +6,6 @@
 |------------|-------------|
 |**➤ Interns**||
 |[Liew211](profiles/Liew211.md)|2019-05-22|
-|[samuelchen1213](profiles/samuelchen1213.md)|2019-05-29|
-|[jeevast](profiles/jeevast.md)|2019-05-31|
 |[Kid243](profiles/Kid243.md)|2019-06-03|
 |[ArranHL](profiles/ArranHL.md)|2019-06-17|
 |[Chiragawale](profiles/chiragawale.md)|2019-06-17|
@@ -18,6 +16,14 @@
 |[AnPham](profiles/phamduchongan93.md)|2019-09-07|
 |[vmnet8](profiles/vmnet8.md)|2019-09-11|
 |[Xavierh93](profiles/Xavierh93.md)|2019-09-19|
+|[pattanawadee88](profiles/pattanawadee88.md)|2019-09-20|
 
 ## Former Interns
+
+|**Username**|**Join Date**|**Until**|
+|------------|-------------|----|
+|**➤ Interns**|||
+|[jeevast](profiles/jeevast.md)|2019-05-31|2019-09-31|
+|[samuelchen1213](profiles/samuelchen1213.md)|2019-05-29|2019-08-29|
+
 To view the list of former interns, go to [former members page](retiredinterns.md).
