@@ -81,8 +81,7 @@ You will now add/modify these 5 files to your branch of the cli repo. Remember t
 
 1. **help.sh**: Now go into cli/modules and modify the `help.sh` file in the exact same way you modified the `README.md` file
 
-1. **cli.sh**: Next you will modify the `cli.sh` file
-    In this file you will include two entries, a filepath and a case that calls the command. Place your new entries here in the same spots you placed it in the `README.md`
+1. **cli.sh**: Next you will modify the `cli.sh` file. In this file you will include two entries, a filepath and a case that calls the command. Place your new entries here in the same spots you placed it in the `README.md`
 
     * For the filepath, your new entry will look like this `source "$SCRIPTFOLDER/modules/temperature.sh"`
     * Below you will see cases.
@@ -92,8 +91,7 @@ You will now add/modify these 5 files to your branch of the cli repo. Remember t
         * If your command is affected by a condition then you will include a second entry.
            We want to include `checkrpi` inside right above `temperature "$2"`. Checkrpi detects if our command is being used with a raspberry pi or a non-raspberry pi environment (vagrant for example).
            Since our command is specifically related to the Pi, this condition ensures that the user will see a message saying it cannot be run if attempted with a nonrpi environment.
-        * Your entry will look like this:
-        ![](images/20190831-cli-addition.png)
+        * Your entry will look like this: ![](images/20190831-cli-addition.png)
 
 
 1. **Modules**: Now you will add your `temperature.sh` file into the modules folder. This is the file that has the source code for your new feature.
