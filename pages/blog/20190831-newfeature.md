@@ -107,7 +107,7 @@ You will now add/modify these 5 files to your branch of the cli repo. Remember t
 
 5. **_treehouses**: Lastly you will open up `_treehouses` in the cli repo and make these four additions for tab autocompletion:
    * Under `commands=` and `help_cmds="` include the name of your feature in both lists alphabetically 
-   * next under `# services_cmds=""` add the subcommands by inlcuding this line: `temperature_cmds="celsius"`
+   * next under `# services_cmds=""` add the subcommands by inlcuding this line: `temperature_cmds="kelvin, fahrenheit"`
    * Lastly under the cases you will include a case for your feature placed alphabetically. It should look like this:
    ```
    "temperature")
