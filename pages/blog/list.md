@@ -8,7 +8,7 @@
 
 [Running Nextcloud on Raspberry Pi using Tor](20190731-nextcloud-tor.md) on July 31, 2019 by liew211
 
-[Raspberry Pi and treehouses remote](20190729-rpi%26treehousesremote.md) on July 29, 2019 by Kid243
+[Raspberry Pi and treehouses remote](20190729-rpiandtreehousesremote.md) on July 29, 2019 by Kid243
 
 [Setting up Pihole on boot drive for Raspberry Pi](20190717-pihole.md) on July 17, 2019 by liew211
 
