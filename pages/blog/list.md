@@ -1,5 +1,7 @@
 ## Blogs
 
+[Reviewing PRs on the CLI repository](20190930-reviewprs.md) on September 30, 2019 by XavierElon `(Guide to review pull requests)`
+
 [Android Screen Sharing](20190925-mobilescreenshare.md) on September 25, 2019 by CalebProvost `(Guide to share Android device's screen on PC)`
 
 [Creating a Script for Builder](20190921-builder.md) on September 21, 2019 by irisb1701 `(Howto create new feature images with treehouses-builder)`
