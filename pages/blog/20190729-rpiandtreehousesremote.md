@@ -51,7 +51,7 @@ Once you are connected to the internet, let's configure your tor access.
 ### Verify if tor is already configured
 In the terminal, type treehouses tor to verify if you get a onion address. Normally it shouldn't and it would return this:
 
-![treehouses tor red](images/20191014-treehouses-tor-red) ![treehouses tor error](images/20190923-treehouses-tor-error.png)
+![treehouses tor red](images/20191014-treehouses-tor-red.png) ![treehouses tor error](images/20190923-treehouses-tor-error.png)
 
 ### Configure tor tunnels
  * Type `treehouses tor add 22`
