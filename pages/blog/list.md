@@ -1,7 +1,5 @@
 ## Blogs
 
-- During their internships at treehouses, interns have completed a wide variety of projects, and have documented their experiences in the form of tutorials and journals below.  Feel free to follow along and learn something new!
-
 [Reviewing PRs on the CLI repository](20190930-reviewprs.md) on September 30, 2019 by XavierElon `(Guide to review pull requests)`
 
 [Android Screen Sharing](20190925-mobilescreenshare.md) on September 25, 2019 by CalebProvost `(Guide to share Android device's screen on PC)`
