@@ -85,7 +85,7 @@
             .then((resp) => resp.json())
             .then(function(data) {
                 let p = document.createElement('p');
-                p.innerHTML = "<strong>Number of Commits:<strong> " + data.total_count;
+                p.innerHTML = "<strong>Number of Comments:<strong> " + data.total_count;
                 res.appendChild(p);
             })
             .catch(function(error) {
