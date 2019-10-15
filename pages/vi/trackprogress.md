@@ -79,7 +79,7 @@
 
     //Check total number of commits
     function Total_Commits() {
-        var url = "https://api.github.com/search/search-commit?q=repo:treehouses/treehouses.github.io+author:" + user + "+type:search-commit&sort=created&order=asc";
+        var url = "https://api.github.com/search/issues?q=repo:treehouses/treehouses.github.io+author:" + user + "+type:commit&sort=created&order=asc";
         fetch(url)
             .then(checkStatus)
             .then((resp) => resp.json())
