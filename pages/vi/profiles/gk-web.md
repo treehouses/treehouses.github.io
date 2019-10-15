@@ -6,4 +6,4 @@
     * C/C++
     * Python
   3. Sports
-* I am very excited about this new OLE project and I hope we achieve the mission with perfection.
+* And, I am very excited about this new OLE project and I hope we achieve the mission with perfection.
