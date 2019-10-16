@@ -10,9 +10,6 @@ On an Android device, find the [treehouses remote](https://play.google.com/store
 
 ![](images/remoteiconsml.jpg)
 
-_**Rate the app**_.
-Follow [this link](https://play.google.com/apps/testing/io.treehouses.remote) to join and download the beta version.
-
 The app may ask for your device location, feel free to decline.
 
 ## Use treehouses remote to connect to Raspberry Pi via Bluetooth
