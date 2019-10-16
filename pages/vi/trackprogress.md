@@ -2,7 +2,10 @@
 ## Directions: ##
  * Click on the blue "Get PRs/Issues Count" button below.
  * Type in a valid Github username
- * Remember, in order to complete the ["First Steps"](firststeps.md) you need at least 5 valid PRs and 4 issues.
+ * Remember, in order to complete the ["First Steps"](firststeps.md) you need:
+    * at least 5 valid PRs
+    * 4 comments made on issues you didn't create
+    * 4 issues created
  * Click [here](firststeps.md#Step_8_-_Create_Issues_and_Pull_Requests) to return to Step 8.
 
 <style><!--
@@ -69,6 +72,22 @@
             .then(function(data) {
                 let p = document.createElement('p');
                 p.innerHTML = "<strong>Number of PRs:<strong> " + data.total_count;
+                res.appendChild(p);
+            })
+            .catch(function(error) {
+                console.log(error);
+            });
+    }
+
+    //Check total number of Comments
+    function Total_PRs() {
+        var url = "https://api.github.com/search/issues?q=repo:treehouses/treehouses.github.io+commenter:" + user + "+type:comment&sort=created&order=asc";
+        fetch(url)
+            .then(checkStatus)
+            .then((resp) => resp.json())
+            .then(function(data) {
+                let p = document.createElement('p');
+                p.innerHTML = "<strong>Number of Comments:<strong> " + data.total_count;
                 res.appendChild(p);
             })
             .catch(function(error) {
