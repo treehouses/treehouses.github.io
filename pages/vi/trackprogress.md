@@ -79,9 +79,9 @@
             });
     }
 
-    //Check total number of pull requests
+    //Check total number of Comments
     function Total_PRs() {
-        var url = "https://api.github.com/search/issues?q=repo:treehouses/treehouses.github.io+author:" + user + "+type:comment&sort=created&order=asc";
+        var url = "https://api.github.com/search/issues?q=repo:treehouses/treehouses.github.io+commenter:" + user + "+type:comment&sort=created&order=asc";
         fetch(url)
             .then(checkStatus)
             .then((resp) => resp.json())
