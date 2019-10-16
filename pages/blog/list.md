@@ -8,6 +8,10 @@
 
 [Adding a New Feature to the cli](20190831-newfeature.md) on August 31, 2019 by irisb1701 `(Guide to add new features for treehouses-cli)`
 
+[Raspberry Pi and treehouses remote](20190729-rpiandtreehousesremote.md) on July 29, 2019 by Kid243
+
+[Setting up Pihole on boot drive for Raspberry Pi](20190717-pihole.md) on July 17, 2019 by liew211
+
 [Raspberry Pi Headless Setup](20190816-headless.md) on August 16, 2019 by irisb1701 `(Demonstrate VNC mode with treehouses-cli)`
 
 [Debian for Windows 10](20190808-debianforwindows.md) on August 8, 2019 by ArranHL `(Set up the development enviroment with WSL2)`
