@@ -2,8 +2,8 @@
 
 ## Welcome to the treehouses Intern Team!
 
-Congratulations! You have completed the first steps and have been selected to join treehouses the Open Learning Exchange's Systems Engineering team. 
-Please remember that we expect interns to contribute at least 16 hours a week for a minimum duration of 3 months, in which time you will be working on the treehouses repositories to solve issues and develop tools for the Open Learning Exchange. 
+Congratulations! You have completed the first steps and have been selected to join treehouses the Open Learning Exchange's Systems Engineering team.
+Please remember that we expect interns to contribute at least 16 hours a week for a minimum duration of 3 months, in which time you will be working on the treehouses repositories to solve issues and develop tools for the Open Learning Exchange.
 
 If you do not think that this is a commitment that you can currently honor, we are happy to accept you later on when you are able to!
 
@@ -14,6 +14,10 @@ The first thing is to meet the team, starting with CTO [dogi](https://github.com
 ## Familiarize Yourself with Current Projects and Issues
 
 Interns usually choose what project they want to work on based on their experience. If you get tired of a certain project, there is an opportunity to switch. Take a look at our current projects below, if any particular ones interest you, there is a very good chance that you can work on them.
+
+To stay up to date with the projects you are contributing to, make sure you "star" the repository in GitHub.
+
+![](images/star-repo-example.png)
 
 ### Active System Teams Projects
 
@@ -38,11 +42,11 @@ Interns usually choose what project they want to work on based on their experien
 * Bluetooth service for treehouses image which interacts with treehouses/remote android app
 
 #### [rpi-couchdb](https://github.com/treehouses/rpi-couchdb)
-* CouchDB is a document database meaning that it. This means a NOSQL database that uses JSON for documents, an HTTP API, & JavaScript/declarative indexing. 
+* CouchDB is a document database meaning that it. This means a NOSQL database that uses JSON for documents, an HTTP API, & JavaScript/declarative indexing.
   * The OLE Systems team aims to use CouchDB to ensure that the programs we develop operate reliably on different computing environments.
 
 #### [Docker](https://hub.docker.com/r/treehouses/)
-* Docker is a powerful and widely-used software option for creating, deploying, and running applications in containers. 
+* Docker is a powerful and widely-used software option for creating, deploying, and running applications in containers.
   * Used by OLE for educational applications such as `planet`
 
 ## A Few Things to Know...
@@ -57,7 +61,7 @@ Once you have accepted your invitation, mark yourself as a public member in the 
 
 ### Reviewing Pull Requests and Issues
 
-One major responsibility as an intern is to review and help prospective interns with their issues / pull request in OLE treehouses. You can start a review by going to the files changed tab on a pull request. You can read more about [Review on GitHub](https://help.github.com/articles/about-pull-request-reviews/). 
+One major responsibility as an intern is to review and help prospective interns with their issues / pull request in OLE treehouses. You can start a review by going to the files changed tab on a pull request. You can read more about [Review on GitHub](https://help.github.com/articles/about-pull-request-reviews/).
 
 Since we are a very diverse community with people coming from different background and culture, it might be hard to find the right language to use in reviewing other's code. Please make sure to read [**a guide for reviewing code and having your code reviewed**](https://github.com/thoughtbot/guides/tree/master/code-review#code-review) for some useful tips.
 
@@ -80,7 +84,7 @@ The pull request can be merged if at least two other people have approved the pu
 When you are ready to merge the pull request:
 
 * Select "Squash Merge"
-* **Remove all of the commit messages in the extended description, and make sure the commit title is clear and short.** 
+* **Remove all of the commit messages in the extended description, and make sure the commit title is clear and short.**
 * Include “(fixes #IssueNumber)” in the title so it will automatically close the issue.
   * If you forget to add a keyword, go to the issue and manually close it and link to the original pull request.
   * An example of good commit title is: "update vi-configuration.md (fix #1530) (#1557)", where "1530" is the issue number and "1557" is pull request number.
