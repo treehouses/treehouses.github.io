@@ -18,12 +18,4 @@
 |[Xavierh93](profiles/Xavierh93.md)|2019-09-19|
 |[pattanawadee88](profiles/pattanawadee88.md)|2019-09-20|
 
-## Former Interns
-
-|**Username**|**Join Date**|**Until**|
-|------------|-------------|----|
-|**➤ Interns**|||
-|[jeevast](profiles/jeevast.md)|2019-05-31|2019-09-31|
-|[samuelchen1213](profiles/samuelchen1213.md)|2019-05-29|2019-08-29|
-
 To view the list of former interns, go to [former members page](retiredinterns.md).
