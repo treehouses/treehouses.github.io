@@ -5,13 +5,13 @@
 |**Username**|**Join Date**|
 |------------|-------------|
 |**➤ Interns**||
-|[Liew211](profilenotfound.md)|2019-05-22|
-|[Kid243](profilenotfound.md)|2019-06-03|
+|[Liew211](profiles/Liew211.md)|2019-05-22|
+|[Kid243](profiles/Kid243.md)|2019-06-03|
 |[ArranHL](profiles/ArranHL.md)|2019-06-17|
-|[Chiragawale](profilenotfound.md)|2019-06-17|
-|[hiroTochigi](profilenotfound.md)|2019-06-29|
-|[Irisb1701](profilenotfound.md)|2019-07-03|
-|[Lillyxxx](profilenotfound.md)|2019-07-17|
+|[Chiragawale](profiles/chiragawale.md)|2019-06-17|
+|[hiroTochigi](profiles/hiroTochigi.md)|2019-06-29|
+|[Irisb1701](profiles/irisb1701.md)|2019-07-03|
+|[Lillyxxx](profiles/lillyxxx.md)|2019-07-17|
 |[CalebProvost](profiles/CalebProvost.md)|2019-09-04|
 |[AnPham](profiles/phamduchongan93.md)|2019-09-07|
 |[vmnet8](profiles/vmnet8.md)|2019-09-11|
