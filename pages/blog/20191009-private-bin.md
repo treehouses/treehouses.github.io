@@ -60,7 +60,7 @@ Delete the three lines
 curl -L https://github.com/PrivateBin/PrivateBin/archive/master.zip > /var/www/master.zip && \
 ```
 
-This code downloads a `master.zip` file from Privatebin archive repository and stores in `/var/www` directory as the same name: `master.zip`. However, the `master.zip code is not the latest code. You do not want to use this image, so delete the line. 
+This code downloads a `master.zip` file from Privatebin archive repository and stores in `/var/www` directory as the same name: `master.zip`. However, the master.zip code is not the latest code. You do not want to use this image, so delete the line. 
 
 
 ```
@@ -69,16 +69,16 @@ rm -rf master.zip
 ```
 
 
-These two codes handle the zip file. The first code decompresses the `master.zip. The second code deletes the `master.zip. However, you git-cloned the uncompressed Privatebin, so not only are these codes not used anymore, but they also produce errors. 
+These two codes handle the zip file. The first code decompresses the master.zip. The second code deletes the master.zip. However, you git-cloned the uncompressed Privatebin, so not only are these codes not used anymore, but they also produce errors. 
 
 
 ### Modify Three Lines
 Change three lines
 
 
-1. `apt-get install -y unzip zlib1g-dev libpng-dev && \`  →  `apt-get install -y zlib1g-dev libpng-dev && \`
-1. `mv PrivateBin-master html && \`  →  `mv PrivateBin html && \`
-1. `a2enmod rewrite && \` →  `a2enmod rewrite`
+1. `apt-get install -y unzip zlib1g-dev libpng-dev && \`   →    `apt-get install -y zlib1g-dev libpng-dev && \`
+1. `mv PrivateBin-master html && \`   →    `mv PrivateBin html && \`
+1. `a2enmod rewrite && \`   →    `a2enmod rewrite`
 
 
 The first modification is optional. You do not need to use upzip in this Dockerfile. The second and third modifications are crucial. The second command changes the first directory name to html. If the name of the first directory is not PrivateBin, you get an error. The third command must be the last command in the first RUN command block. `&& \` tells Docker engine that there is a next command. If there is `&& \` but no command proceeds, you get an error.
@@ -141,9 +141,9 @@ You should get the similar result.
 
 ![](images/20191009-Docker-ps-before.png)
 
-You can see 0.0.0.0:80->80/tcp and 0.0.0.0:2200->5984/tcp. 80 and 2200 are already used so you cannot use them. If you use the used port number, you get an error. 
+You can see **_0.0.0.0:80->80/tcp_** and **_0.0.0.0:2200->5984/tcp_**. **_80_** and **_2200_** are already used so you cannot use them. If you use the used port number, you get an error. 
 
-Note: You should not use port numbers from 0 – 1023, too. They are called well-known ports and they are already reserved by other systems. Even though you could make a container, you might not be able to use it.
+Note: You should not use port numbers from **_0_** – **_1023_**, too. They are called well-known ports and they are already reserved by other systems. Even though you could make a container, you might not be able to use it.
 
 ### Make Container with Port Mapping
 
@@ -161,7 +161,7 @@ You get
 ![](images/20191009-Docker-ps-after.png)
 
 `docker run` makes a container from an image and lets the container running. In this case, the image is `privatebin:latest`. Also, put the name: privatebin on the container (`--name privatebin`), and flag `-d` indicates that the container runs background. 
-`-p 8080:80` indicates the port 8080 of the host machine (localhost) connects to the port 80 of the container. If you accesses to localhost:8080 by `curl`, you will get HTML content. 
+`-p 8080:80` indicates the port **_8080_** of the host machine (localhost) connects to the port **_80_** of the container. If you accesses to `localhost:8080` by `curl`, you will get HTML content. 
 
 ```
 curl localhost:8080
@@ -188,7 +188,7 @@ You should get a similar message.
 
 ![](images/20191009-Add-Tor.png)
 
-It means that you succeed adding port number 8080.
+It means that you succeed adding port number **_8080_**.
 Let’s be more clear about it. Type the below command.
 
 ```
@@ -199,8 +199,8 @@ You will get the similar result.
 
 ![](images/20191009-List-Tor.png)
 
-An external port number is used to communicate with a local port number over your Onion Address. The above example tells that the external port 2200 connects to the local port 2200, and the external port 80 connects to the local port 80. 
-The external port 8080 connects to the local port 8080. The local port 8080 attached to your Privatebin container because you can access to Privatebin over 127.0.0.1:8080.
+An external port number is used to communicate with a local port number over your Onion Address. The above example tells that the external port **_2200_** connects to the local port **_2200_**, and the external port **_80_** connects to the local port **_80_**. 
+The external port **_8080_** connects to the local port **_8080_**. The local port **_8080_** attached to your Privatebin container because you can access to Privatebin over **_127.0.0.1:8080_**.
 
 ### Discover Your Onion Address
 
