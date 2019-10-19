@@ -93,7 +93,6 @@ You will now add/modify these 5 files to your branch of the cli repo. Remember t
            Since our command is specifically related to the Pi, this condition ensures that the user will see a message saying it cannot be run if attempted with a nonrpi environment.
         * Your entry will look like this: ![](images/20190831-cli-addition.png)
 
-
 4. **Modules**: Now you will add your `temperature.sh` file into the modules folder. This is the file that has the source code for your new feature.
     * Inside the file you will make sure you have a second function called function `temperature_help`
     * Each command has a help function that when called will display a description of the command and show examples of its usage.
@@ -102,19 +101,16 @@ You will now add/modify these 5 files to your branch of the cli repo. Remember t
     ![](images/20190831-temp-function.png)
     ![](images/20190831-temp-help.png)
 
-
 5. **_treehouses**: Lastly you will open up `_treehouses` in the cli repo and make these four additions for tab autocompletion:
    * Under `commands=` and `help_cmds="` include the name of your feature in both lists alphabetically 
-   * next under `# services_cmds=""` add the subcommands by inlcuding this line: `temperature_cmds="kelvin, fahrenheit"`
+   * next under `# services_cmds=""` add the subcommands by inlcuding this line: `temperature_cmds="kelvin fahrenheit"`
    * Lastly under the cases you will include a case for your feature placed alphabetically. It should look like this:
    ```
    "temperature")
         COMPREPLY=( $(compgen -W "$temperature_cmds" -- $cur) ) 
         ;;
    ```
-  
   Now go ahead and push all the changes you've made to your branch on Github.
-
 
 ## Step 4: Testing Your Command
 
