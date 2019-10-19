@@ -1,5 +1,7 @@
 ## Blogs
 
+[Access Kolibri on treehouses using Docker](20191014-kolibri.md) on October 14, 2019 by irisb1701 `(Steps to launch kolibri on RPi using docker)`
+
 [Reviewing PRs on the CLI repository](20190930-reviewprs.md) on September 30, 2019 by XavierElon `(Guide to review pull requests)`
 
 [Android Screen Sharing](20190925-mobilescreenshare.md) on September 25, 2019 by CalebProvost `(Guide to share Android device's screen on PC)`
