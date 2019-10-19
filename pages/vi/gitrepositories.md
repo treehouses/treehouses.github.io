@@ -157,8 +157,10 @@ index bf400c0..fc7380b 100644
 This process needs to be repeated whenever you begin to work, to make sure that you are always up to date. If there are discrepancies, it will mess up the code and you could potentially lose your saved changes, because it was not updated properly. We will provide more information on editing and saving changes in the next tutorial.
 
 ## Summary of Steps
+Generally, this is what the structure of your workflow will look like:
+![Image](images/upstream_diagram.png)
 
-Generally, follow these commands in your command line, but refer back above if there are any errors or further questions about why you are writing any of the following commands:
+Use the following commands in your command line, but refer back to the descriptions above if there are any errors or further questions about why you are using them:
 
 #### Clone your GitHub repository username.github.io
 1. Open your command prompt/terminal and find the correct directory
