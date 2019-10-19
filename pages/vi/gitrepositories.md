@@ -50,7 +50,7 @@ There are now three different Github repository levels:
 These three levels need to be constantly synced and kept up to date with one another as we will all be contributing to the same upstream repository (treehouses.github.io). 
 
 Maintaining projects across multiple Git repositories with multiple team members requires strict adherance to process to avoid conflict. 
-1. Keep your chages small if possible, do not modify more than 100 lines of code at a time if possible
+1. Keep your changes small if possible, do not modify more than 100 lines of code at a time if possible
 2. Keep your fork updated regularly, this will avoid you doing work on an old version of the repository, which could mean your work may not be accepted
   
 There are various ways to sync the repository on your OS and the one on GitHub (username.github.io) with the upstream repository treehouses.github.io.
