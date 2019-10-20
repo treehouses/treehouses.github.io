@@ -22,9 +22,11 @@ Interns usually choose what project they want to work on based on their experien
 
 #### [remote](https://github.com/treehouses/remote/)
  * The Remote repository contain the Android application developed by the systems team that **allows Android devices to connect to the Raspberry Pi** via Bluetooth.
-   * The application can be found in the Google App Store by searching “treehouses remote”
+   * The application can be found in the Google App Store by searching “treehouses remote” or by following [this link](https://play.google.com/store/apps/details?id=io.treehouses.remote).
 
   ![](images/remoteiconsml.jpg)
+
+   * If you'd like to help us, [rate the app](https://play.google.com/store/apps/details?id=io.treehouses.remote) and follow [this link](https://play.google.com/apps/testing/io.treehouses.remote) to join and download the beta version.
 
 #### [builder](https://github.com/treehouses/builder)
 * Repository that contains scripts of the latest Raspbian image by installing packages, purging packages and executing custom commands, and then finally creates a bootable .img file that can be burned to the microSD card.

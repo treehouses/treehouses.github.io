@@ -1,5 +1,7 @@
 ## Blogs
 
+[Access Kolibri on treehouses using Docker](20191014-kolibri.md) on October 14, 2019 by irisb1701 `(Steps to launch kolibri on RPi using docker)`
+
 [Reviewing PRs on the CLI repository](20190930-reviewprs.md) on September 30, 2019 by XavierElon `(Guide to review pull requests)`
 
 [Android Screen Sharing](20190925-mobilescreenshare.md) on September 25, 2019 by CalebProvost `(Guide to share Android device's screen on PC)`
@@ -7,6 +9,10 @@
 [Creating a Script for Builder](20190921-builder.md) on September 21, 2019 by irisb1701 `(Howto create new feature images with treehouses-builder)`
 
 [Adding a New Feature to the cli](20190831-newfeature.md) on August 31, 2019 by irisb1701 `(Guide to add new features for treehouses-cli)`
+
+[Raspberry Pi and treehouses remote](20190729-rpiandtreehousesremote.md) on July 29, 2019 by Kid243
+
+[Setting up Pihole on boot drive for Raspberry Pi](20190717-pihole.md) on July 17, 2019 by liew211
 
 [Raspberry Pi Headless Setup](20190816-headless.md) on August 16, 2019 by irisb1701 `(Demonstrate VNC mode with treehouses-cli)`
 
