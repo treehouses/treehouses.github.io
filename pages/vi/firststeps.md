@@ -62,6 +62,20 @@ In GitHub, we "[Watch](https://help.github.com/en/articles/watching-and-unwatchi
 
 We interact with the Raspberry Pi via a command terminal which is natively available for both Mac and Linux based systems. If however you are on a Windows device, [Git Bash](https://git-scm.com/download/win) is highly recommended.
 
+### Working with Vi & Vim
+
+One of the most simple but most powerful text editors out there is Vim. Most Linux flavors including those on the Raspberry Pi include Vim. 
+The reason everyone loves it so much is because you can do all your work from the terminal! 
+Since you are probably already in your terminal, create a new file in your sandbox by typing `touch` `hello` and you can open a file in Vim by using `vim` `hello`. Now you are in Vim **CONGRATULATIONS!**
+
+* Now press `i` to start typing in Vim.
+* You know what's next, type `Hello World!`
+* Then press the `esc` button to get out of **edit mode**.
+* To save the file hold `shift` and press `:`
+* Now press `wq` to **write to the file** and **quit the editor**.
+
+You have just used vim to edit a file. Simple right? Vim can do much more than just writing to a file but this was just a taste of using Vim. If you want to see more of what Vim can do and how powerful it can be, you can learn more about Vim [here](https://danielmiessler.com/study/vim/#textobjects). Vim is not necessary for this internship but it is truly helpful when working on the Raspberry Pi not to have to download and install other text editors.
+
 _**NOTE:**_ You can skip ahead to Step 3 while you are waiting for your Raspberry Pi to come in the mail.
 
 ## Step 1 - Installing and finding your Raspberry Pi 
