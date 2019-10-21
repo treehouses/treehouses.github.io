@@ -1,10 +1,8 @@
 ### Justin Kim
-#### Location
-Seattle, WA
-#### Time Zone
-Pacific Time Zone
-#### OS
-Windows 10 v1809
+
+| Location    | Time Zone         | OS               |
+| ----------- | ----------------- | ---------------- |
+| Seattle, WA | Pacific Time Zone | Windows 10 v1809 |
 
 [GitHub](https://github.com/kjong)
 
