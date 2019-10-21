@@ -93,9 +93,10 @@ Make sure that you've linked to your github.io and pull request in the [Gitter c
 
 ## Step 4 - System Tutorial (Docker & Vagrant)
 
+Follow the directions in the [Vagrant Tutorial](vagranttutorial.md)
+
 Follow the directions in the [Docker Tutorial](dockertutorial.md)
 
-Follow the directions in the [Vagrant Tutorial](vagranttutorial.md)
 
 ## Step 5 - Keeping Fork Updated
 
