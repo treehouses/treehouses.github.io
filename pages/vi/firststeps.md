@@ -95,7 +95,7 @@ Make sure that you've linked to your github.io and pull request in the [Gitter c
 
 Follow the directions in the [Docker Tutorial](dockertutorial.md)
 
-Follow the directions in the []
+Follow the directions in the [Vagrant Tutorial](vagranttutorial.md)
 
 ## Step 5 - Keeping Fork Updated
 
