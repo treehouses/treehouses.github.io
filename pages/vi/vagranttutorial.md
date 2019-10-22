@@ -3,7 +3,7 @@
 ## Objectives
 
 - Learn about Vagrant
-- Learn Vagrant commands
+- Learn about Vagrant commands
 
 ## Introduction
 
@@ -22,7 +22,7 @@ There are three command-line programs you could use to interact with Vagrant CLI
 3. **Windows PowerShell**: Windows PowerShell is a default shell interface installed on your machine, its default directory is `C:\Users\YOUR_USERNAME`.
 
 **NOTE**: PowerShell and Command Prompt users will have to substitute forward slashes “/” with backslashes “\” throughout these introductory steps as it pertains to file paths.  
-Example: If you see an instruction saying `cd desktop/OLE/Planet` instead use `cd desktop\OLE\Planet`.
+Example: If you see an instruction saying `cd desktop/treehouses/Planet` instead use `cd desktop\treehouses\Planet`.
 
 #### macOS or Ubuntu - Terminal
 
@@ -32,7 +32,7 @@ Normally we use Terminal to interact with Vagrant CLI.
 
 A lot of Vagrant commands require us to specify a target machine. We can also run those commands from a directory with the target machine’s Vagrant File. Otherwise, you may encounter an error like "A Vagrant environment or target machine is required." Please go to the directory that contains our Vagrant file:
 
-- Windows users should: `cd C:\Users\YOUR_USERNAME\Desktop\OLE\planet`.
+- Windows users should: `cd C:\Users\YOUR_USERNAME\Desktop\treehouses\planet`.
 - macOS or Linux users should: `cd` into the location where they ran `git clone` to copy the `planet` repository back in Step 1 - Planet Installation.
 
 ## Global Status
@@ -42,20 +42,21 @@ A lot of Vagrant commands require us to specify a target machine. We can also ru
 ```
 id       name   provider   state   directory
 ---------------------------------------------------------------------------
-219abaa  prod     virtualbox running /Users/aberdean/planet
+a618a3b  prod   virtualbox running  /Users/pattanawadee/Desktop/planet 
 
 The above shows information about all known Vagrant environments
 on this machine. This data is cached and may not be completely
-up-to-date. To interact with any of the machines, you can go to
-that directory and run Vagrant, or you can use the ID directly
-with Vagrant commands from any directory. For example:
+up-to-date (use "vagrant global-status --prune" to prune invalid
+entries). To interact with any of the machines, you can go to that
+directory and run Vagrant, or you can use the ID directly with
+Vagrant commands from any directory. For example:
 "vagrant destroy 1a2b3c4d"
 ```
 
 The above output tells us:
 
 - We have a Vagrant virtual machine called `prod` running in VirtualBox.
-- The directory of the virtual machine's Vagrantfile is located at `/Users/aberdean/planet`.
+- The directory of the virtual machine's Vagrantfile is located at `/Users/pattanawadee/Desktop/planet`.
 
 ## Vagrant Commands
 
