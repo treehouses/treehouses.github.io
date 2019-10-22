@@ -18,7 +18,7 @@
   * [Step 3 - Markdown and Fork Tutorial](pages/vi/githubandmarkdown.md)
   * [Step 4 - Docker Tutorial](pages/vi/dockertutorial.md)
   * [Step 5 - Keeping Fork Updated](pages/vi/gitrepositories.md)
-  * [Step 6 - GitHub Issues Tutorial](pages/vi/firststeps.md#Step_6_-_GitHub_Issues_Tutorial)
+  * [Step 6 - GitHub Issues Tutorial](pages/vi/github-issues.md)
   * [Step 7 - Other Services Running from a Raspberry Pi](pages/vi/nextcloud-tor.md)
   * [Step 8 - Create Issues and Pull Requests](pages/vi/firststeps.md#Step_8_-_Create_Issues_and_Pull_Requests)
   * [Step 9 - Be Part of the Team](pages/vi/firststeps.md#Step_9_-_Be_Part_of_the_Team)
