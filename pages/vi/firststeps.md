@@ -150,7 +150,7 @@ Just as your learning with this Wiki was made possible by the efforts of previou
 
 **NOTE**: You can track your progress with the number of pull requests and issues [here](trackprogress.md).
 
-## Step 9 - Be part of the team
+## Step 9 - Be part of the Team
 
 Next thing is to add yourself to the virtual intern list found in [team.md](team.md) and create a pull request. Message us ("@/all" and "@dogi") in the Gitter chat room so that we can set up a meeting and add you to the team as soon as possible.
 
