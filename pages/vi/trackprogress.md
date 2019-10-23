@@ -45,7 +45,7 @@
             fetch(url)
                 .then(checkStatus)
                 .then(function(data) {
-                    res.innerHTML = "<h2> Progress: </h2>";
+                    res.innerHTML = "<h2> Progress for " + user + ":</h2>";
                     Total_PRs();
                     Total_Issues();
                     Merged_PRs();
