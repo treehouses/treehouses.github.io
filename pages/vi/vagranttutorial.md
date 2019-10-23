@@ -22,7 +22,7 @@ There are three command-line programs you could use to interact with Vagrant CLI
 3. **Windows PowerShell**: Windows PowerShell is a default shell interface installed on your machine, its default directory is `C:\Users\YOUR_USERNAME`.
 
 **NOTE**: PowerShell and Command Prompt users will have to substitute forward slashes “/” with backslashes “\” throughout these introductory steps as it pertains to file paths.  
-Example: If you see an instruction saying `cd desktop/treehouses/Planet` instead use `cd desktop\treehouses\Planet`.
+Example: If you see an instruction saying `cd desktop/treehouses/cli` instead use `cd desktop\treehouses\cli`.
 
 #### macOS or Ubuntu - Terminal
 
@@ -32,8 +32,8 @@ Normally we use Terminal to interact with Vagrant CLI.
 
 A lot of Vagrant commands require us to specify a target machine. We can also run those commands from a directory with the target machine’s Vagrant File. Otherwise, you may encounter an error like "A Vagrant environment or target machine is required." Please go to the directory that contains our Vagrant file:
 
-- Windows users should: `cd C:\Users\YOUR_USERNAME\Desktop\treehouses\planet`.
-- macOS or Linux users should: `cd` into the location where they ran `git clone` to copy the `planet` repository back in Step 1 - Planet Installation.
+- Windows users should: `cd C:\Users\YOUR_USERNAME\Desktop\treehouses\cli`.
+- macOS or Linux users should: `cd` into the location where they ran `git clone` to copy the `cli` repository back in Step 1 - Planet Installation.
 
 ## Global Status
 
@@ -42,7 +42,7 @@ A lot of Vagrant commands require us to specify a target machine. We can also ru
 ```
 id       name   provider   state   directory
 ---------------------------------------------------------------------------
-a618a3b  prod   virtualbox running  /Users/pattanawadee/Desktop/planet 
+0e6abb1  cli    virtualbox running  /Users/pattanawadee/cli 
 
 The above shows information about all known Vagrant environments
 on this machine. This data is cached and may not be completely
@@ -55,17 +55,17 @@ Vagrant commands from any directory. For example:
 
 The above output tells us:
 
-- We have a Vagrant virtual machine called `prod` running in VirtualBox.
-- The directory of the virtual machine's Vagrantfile is located at `/Users/pattanawadee/Desktop/planet`.
+- We have a Vagrant virtual machine called `cli` running in VirtualBox.
+- The directory of the virtual machine's Vagrantfile is located at `/Users/pattanawadee/cli `.
 
 ## Vagrant Commands
 
-- [`vagrant up prod`](https://www.vagrantup.com/docs/cli/up.html) will turn the virtual machine back on if it's currently "poweroff".
-- [`vagrant suspend prod`](https://www.vagrantup.com/docs/cli/suspend.html) will suspend the "running" virtual machine, its state will become "saved".
-- [`vagrant halt prod`](https://www.vagrantup.com/docs/cli/halt.html) will shut down the "running" virtual machine, its state will become "poweroff".
-- [`vagrant destroy prod`](https://www.vagrantup.com/docs/cli/destroy.html) will delete the virtual machine entirely. To use community Planet again, we will have to rebuild a new machine from scratch using `vagrant up`.
+- [`vagrant up cli`](https://www.vagrantup.com/docs/cli/up.html) will turn the virtual machine back on if it's currently "poweroff".
+- [`vagrant suspend cli`](https://www.vagrantup.com/docs/cli/suspend.html) will suspend the "running" virtual machine, its state will become "saved".
+- [`vagrant halt cli`](https://www.vagrantup.com/docs/cli/halt.html) will shut down the "running" virtual machine, its state will become "poweroff".
+- [`vagrant destroy cli`](https://www.vagrantup.com/docs/cli/destroy.html) will delete the virtual machine entirely. To use community Planet again, we will have to rebuild a new machine from scratch using `vagrant up`.
 
-To conserve hardware resources of your computer, you could use `vagrant halt prod` to shutdown the virtual machine that's running your community Planet. Use `vagrant up prod` to turn the virtual machine back on when you need to access your community Planet again.
+To conserve hardware resources of your computer, you could use `vagrant halt cli` to shutdown the virtual machine that's running your community Planet. Use `vagrant up cli` to turn the virtual machine back on when you need to access your community Planet again.
 
 ## More about Vagrant CLI
 
