@@ -17,5 +17,6 @@
 |[vmnet8](profiles/vmnet8.md)|2019-09-11|
 |[Xavierh93](profiles/Xavierh93.md)|2019-09-19|
 |[pattanawadee88](profiles/pattanawadee88.md)|2019-09-20|
+|[sriharivishnu](profiles/sriharivishnu.md)|2019-10-22|
 
 To view the list of former interns, go to [former members page](retiredinterns.md).
