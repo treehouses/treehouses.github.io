@@ -6,7 +6,7 @@ What is treehouses?
 
 treehouses is the name of our system allowing us to share our different learning platforms via the Raspberry Pi series of single-board computer devices.
 
-Currently, the Raspberry Pi models supported are: the zero W, the Pi 3, the Pi 3B+ and the Pi 4
+Currently the Raspberry Pi models supported are: the zero W, the Pi 3, the Pi 3B+ and the Pi 4
 
 
 Main system branches
