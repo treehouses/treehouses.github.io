@@ -4,7 +4,7 @@ Welcome to treehouses
 What is treehouses?
 -------------------
 
-treehouses is the name of our system allowing us to share our different learning platforms via the Rasperry Pi series of single-board computer devices.
+treehouses is the name of our system allowing us to share our different learning platforms via the Raspberry Pi series of single-board computer devices.
 
 Currently the Raspberry Pi models supported are: the zero W, the Pi 3, the Pi 3B+ and the Pi 4
 
@@ -16,7 +16,7 @@ treehouses consists of several parts:
 
 ### cli
 
-We have created our own suite of commands to be used in the Raspberry Pi terminal, which can be found in [treehouses/cli](https://www.npmjs.com/package/@treehouses/cli)
+We have created our suite of commands to be used in the Raspberry Pi terminal, which can be found in [treehouses/cli](https://www.npmjs.com/package/@treehouses/cli)
 
 ```
 npm i @treehouses/cli
