@@ -62,6 +62,10 @@ In GitHub, we "[Watch](https://help.github.com/en/articles/watching-and-unwatchi
 
 We interact with the Raspberry Pi via a command terminal which is natively available for both Mac and Linux based systems. If however you are on a Windows device, [Git Bash](https://git-scm.com/download/win) is highly recommended.
 
+### Working with Vi & Vim
+
+One of the most simple but most powerful text editors out there is Vim. If you want to see what Vim can do and how powerful it can be, you can learn more about Vim [here](https://danielmiessler.com/study/vim/#textobjects). Vim is not necessary for this internship but it is truly helpful when working on the Raspberry Pi not to have to download and install other text editors.
+
 _**NOTE:**_ You can skip ahead to Step 3 while you are waiting for your Raspberry Pi to come in the mail.
 
 ## Step 1 - Installing and finding your Raspberry Pi 
