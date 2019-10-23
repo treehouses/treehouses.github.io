@@ -133,7 +133,7 @@ In this step we will adopt the motto of "Practice makes Perfect". You will follo
 You should: 
 * Add comments to three issues other than your own (somebody else's issue)
 * Create three new issues (in addition to those you have already created in previous steps)
-	* Get approval to work on the issues you have created **Make sure someone from the System's team confirms that you should work on the isseue, BEFORE you start to work on it** 
+	* Get approval to work on the issues you have created **Make sure someone from the System's team confirms that you should work on the issue, BEFORE you start to work on it** 
 * Resolve the three issues by making the necessary changes in your repo with three separate pull requests. 
 
 	

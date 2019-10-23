@@ -35,7 +35,7 @@ Then, turn to your command prompt and type your repository URL in the form of `g
 
 ### Clone with HTTPS or SSH
 
-Both HTTPS(Hypertext Transfer Protocol Secure) and SSH(Secure Shell) URLs identify the same remote repositories but use different protocols to access the codebase. Both HTTPS and SSH to do the same thing, the diffrences between the two can be examined [here](https://help.github.com/articles/which-remote-url-should-i-use/).
+Both HTTPS(Hypertext Transfer Protocol Secure) and SSH(Secure Shell) URLs identify the same remote repositories but use different protocols to access the codebase. Both HTTPS and SSH to do the same thing, the differences between the two can be examined [here](https://help.github.com/articles/which-remote-url-should-i-use/).
 
 
 ### Repositories and the Syncing Process
@@ -50,7 +50,7 @@ There are now three different Github repository levels:
 These three levels need to be constantly synced and kept up to date with one another as we will all be contributing to the same upstream repository (treehouses.github.io). 
 
 Maintaining projects across multiple Git repositories with multiple team members requires strict adherance to process to avoid conflict. 
-1. Keep your chages small if possible, do not modify more than 100 lines of code at a time if possible
+1. Keep your changes small if possible, do not modify more than 100 lines of code at a time if possible
 2. Keep your fork updated regularly, this will avoid you doing work on an old version of the repository, which could mean your work may not be accepted
   
 There are various ways to sync the repository on your OS and the one on GitHub (username.github.io) with the upstream repository treehouses.github.io.
@@ -157,8 +157,11 @@ index bf400c0..fc7380b 100644
 This process needs to be repeated whenever you begin to work, to make sure that you are always up to date. If there are discrepancies, it will mess up the code and you could potentially lose your saved changes, because it was not updated properly. We will provide more information on editing and saving changes in the next tutorial.
 
 ## Summary of Steps
+Generally, this is what the structure of your workflow will look like: 
 
-Generally, follow these commands in your command line, but refer back above if there are any errors or further questions about why you are writing any of the following commands:
+![Image](images/upstream_diagram.png)
+
+Use the following commands in your command line, but refer back to the descriptions above if there are any errors or further questions about why you are using them:
 
 #### Clone your GitHub repository username.github.io
 1. Open your command prompt/terminal and find the correct directory
