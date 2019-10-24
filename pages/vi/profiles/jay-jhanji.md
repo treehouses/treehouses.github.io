@@ -9,7 +9,7 @@
 #####OS - Windows Server 2016 (Working on a server lab assignment and building my profile)
 
 ##About me
->An engineering graduate in Computer Science and currently pursuing Post Graduation Certificate in Cyber Infrastructure Specialist at Lambton College, Sarnia, ON. 
+>An engineering graduate in Computer Science and currently pursuing Post Graduation in Cyber Infrastructure Specialist at Lambton College, Sarnia, ON. 
 
 >![Lambton College](https://communities-wcmimages-cache.prod.postmedia.digital/images?url=http://storage.theobserver.ca/v1/dynamic_resize/sws_path/suns-prod-images/1297958617388_ORIGINAL.jpg%3Fsize=650x&w=840&h=420)
 
