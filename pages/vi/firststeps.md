@@ -16,8 +16,8 @@ The goal of OLE is to provide educational infrastructure to learners and educato
 ## Pre-Requisites
 ### Hardware requirement:
 1.  Raspberry Pi 4 ([Pi 4 information](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/))
-	- Raspberry Pi 3B/3B+ also work, but Pi 4 is recommended
 	- Any amount of RAM will work, but more is better.
+	- Raspberry Pi 3B/3B+ also work, but Pi 4 is recommended
 2.  Power supply for the Pi
 	- Pi 4: minimum 3.0A, Standard USB-C port
 	- Pi 3B/3B+: minimum 2.5A, Micro USB port
