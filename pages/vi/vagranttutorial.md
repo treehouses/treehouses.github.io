@@ -60,12 +60,12 @@ The above output tells us:
 
 ## Vagrant Commands
 
-- [`vagrant up cli`](https://www.vagrantup.com/docs/cli/up.html) will turn the virtual machine back on if it's currently "poweroff".
-- [`vagrant suspend cli`](https://www.vagrantup.com/docs/cli/suspend.html) will suspend the "running" virtual machine, its state will become "saved".
-- [`vagrant halt cli`](https://www.vagrantup.com/docs/cli/halt.html) will shut down the "running" virtual machine, its state will become "poweroff".
-- [`vagrant destroy cli`](https://www.vagrantup.com/docs/cli/destroy.html) will delete the virtual machine entirely. To use community Planet again, we will have to rebuild a new machine from scratch using `vagrant up`.
+- [`vagrant up`](https://www.vagrantup.com/docs/cli/up.html) will turn the virtual machine back on if it's currently "poweroff".
+- [`vagrant suspend`](https://www.vagrantup.com/docs/cli/suspend.html) will suspend the "running" virtual machine, its state will become "saved".
+- [`vagrant halt`](https://www.vagrantup.com/docs/cli/halt.html) will shut down the "running" virtual machine, its state will become "poweroff".
+- [`vagrant destroy`](https://www.vagrantup.com/docs/cli/destroy.html) will delete the virtual machine entirely. To use community Planet again, we will have to rebuild a new machine from scratch using `vagrant up`.
 
-To conserve hardware resources of your computer, you could use `vagrant halt cli` to shutdown the virtual machine that's running your community Planet. Use `vagrant up cli` to turn the virtual machine back on when you need to access your community Planet again.
+To conserve hardware resources of your computer, you could use `vagrant halt` to shutdown the virtual machine that's running your community Planet. Use `vagrant up` to turn the virtual machine back on when you need to access your community Planet again.
 
 ## More about Vagrant CLI
 
