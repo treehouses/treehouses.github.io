@@ -29,7 +29,7 @@ enhance my skills while gaining some valuable experience.
 
 - **ETL tools**: Informatica, IBM Cognos
 
-##Hobbies:
+##Hobbies
 -  Playing, watching and reading about Soccer, Tennis, Basketball, UFC (just watching)
 
 - Resistance training using free weights
