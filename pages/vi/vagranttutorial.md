@@ -33,7 +33,7 @@ Normally we use Terminal to interact with Vagrant CLI.
 A lot of Vagrant commands require us to specify a target machine. We can also run those commands from a directory with the target machine’s Vagrant File. Otherwise, you may encounter an error like "A Vagrant environment or target machine is required." Please go to the directory that contains our Vagrant file:
 
 - Windows users should: `cd C:\Users\YOUR_USERNAME\Desktop\treehouses\cli`.
-- macOS or Linux users should: `cd` into the location where they ran `git clone` to copy the `cli` repository back in Step 1 - Planet Installation.
+- macOS or Linux users should: `cd` into the location where they ran `git clone` to copy the `cli` repository.
 
 ## Global Status
 
@@ -63,9 +63,9 @@ The above output tells us:
 - [`vagrant up`](https://www.vagrantup.com/docs/cli/up.html) will turn the virtual machine back on if it's currently "poweroff".
 - [`vagrant suspend`](https://www.vagrantup.com/docs/cli/suspend.html) will suspend the "running" virtual machine, its state will become "saved".
 - [`vagrant halt`](https://www.vagrantup.com/docs/cli/halt.html) will shut down the "running" virtual machine, its state will become "poweroff".
-- [`vagrant destroy`](https://www.vagrantup.com/docs/cli/destroy.html) will delete the virtual machine entirely. To use community Planet again, we will have to rebuild a new machine from scratch using `vagrant up`.
+- [`vagrant destroy`](https://www.vagrantup.com/docs/cli/destroy.html) will delete the virtual machine entirely. To use the cli virtual machine again, we will have to rebuild a new machine from scratch using `vagrant up`.
 
-To conserve hardware resources of your computer, you could use `vagrant halt` to shutdown the virtual machine that's running your community Planet. Use `vagrant up` to turn the virtual machine back on when you need to access your community Planet again.
+To conserve hardware resources of your computer, you could use `vagrant halt` to shutdown the virtual machine that's running. Use `vagrant up` to turn the virtual machine back on when you need to access your cli again.
 
 ## More about Vagrant CLI
 
