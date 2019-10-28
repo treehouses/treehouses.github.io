@@ -206,7 +206,7 @@ For more info on differences of merging vs. rebasing (and when to use which one)
 
 If you would like to understand how syncing with the fork works, here is a useful [video](https://www.youtube.com/watch?v=-zvHQXnBO6c)
 
-[![video](https://img.youtube.com/watch?v=-zvHQXnBO6c/0.jpg)](https://www.youtube.com/watch?v=-zvHQXnBO6c)
+[![video](http://img.youtube.com/vi/-zvHQXnBO6c/0.jpg)](https://www.youtube.com/watch?v=-zvHQXnBO6c)
 
 
 ## Useful links
