@@ -16,7 +16,7 @@
   * [Step 1 - Installing and finding your Raspberry Pi](pages/vi/firststeps.md#Step_1_-_Installing_and_finding_your_Raspberry_Pi)
   * [Step 2 - SSH Tutorial](pages/vi/sshpi.md)
   * [Step 3 - Markdown and Fork Tutorial](pages/vi/githubandmarkdown.md)
-  * [Step 4 - Docker Tutorial](pages/vi/dockertutorial.md)
+  * [Step 4 - System Tutorial](pages/vi/firststeps.md#Step_4_-_System_Tutorial)
   * [Step 5 - Keeping Fork Updated](pages/vi/gitrepositories.md)
   * [Step 6 - GitHub Issues Tutorial](pages/vi/github-issues.md)
   * [Step 7 - Other Services Running from a Raspberry Pi](pages/vi/nextcloud-tor.md)
