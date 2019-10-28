@@ -88,9 +88,5 @@ A few common Docker CLI commands you might need for working with `treehouses` ar
 
 Compose is a tool for defining and running multi-container Docker applications. With Compose, you use a YAML file to configure your application’s [services](https://docs.docker.com/get-started/part3/#about-services). Then, with a single command, you create and start all the services from your configuration. You can read more about Docker Compose at [Overview of Docker Compose](https://docs.docker.com/compose/overview/).
 
-
-----------------------------------------------------------------------------------------------------------------------------
-**NOTE** At the end of this step, when you have completed all the sections and executed the `docker-compose --version` command go to the Gitter [chat](https://gitter.im/treehouses/Lobby) and post which version of docker you are running.
-
-----------------------------------------------------------------------------------------------------------------------------
-
+**NOTE**: At the end of this step, when you have completed all the sections and executed the `docker-compose --version` command go to the Gitter [chat](https://gitter.im/treehouses/Lobby) and post which version of docker you are running.
+" @/all I'm on step 4 - Docker Tutorial, I am running `docker version` and `docker compose version` "
