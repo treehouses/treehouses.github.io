@@ -160,6 +160,7 @@ Just as your learning with this Wiki was made possible by the efforts of previou
 
 ## Step 9 - Be Part of the Team
 
-Next thing is to add yourself to the virtual intern list found in [team.md](team.md) and create a pull request. Message us ("@/all" and "@dogi") in the Gitter chat room so that we can set up a meeting and add you to the team as soon as possible.
+Next thing is to post a screenshot of your completed progress to the Gitter chat room.
+Message us ("@/all" and "@dogi") and ask about adding yourself to the virtual intern list found in [team.md](team.md) and setting up a meeting so you can become a part of the team as soon as possible.
 
 Make sure to read through the [intern orientation document](orientation.md) before the meeting.
