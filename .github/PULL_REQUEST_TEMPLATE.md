@@ -14,3 +14,5 @@ Description of changes made.
 
 ### Raw.Githack preview link
 raw.githack link to page(s) changed.
+
+e.g. https://raw.githack.com/UserName/Repository/Branch/Path/To/File.md
