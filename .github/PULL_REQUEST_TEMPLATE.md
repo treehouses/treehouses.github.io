@@ -7,7 +7,7 @@ Please make sure to:
 Thank you for contributing! -->
 
 <!-- issue number this pull request resolves -->
-Fixes #
+Fixes #issue_number
 
 ### Description
 Description of changes made.
