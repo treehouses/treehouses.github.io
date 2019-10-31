@@ -1,14 +1,17 @@
-## Issue title
+<!-- This is a new issue template for treehouses.github.io.
+Please ensure you have searched open and closed issues for duplicate.
+You may preview your issue before submission.
+Please write N/A in the sections that aren't applicable to your particular issue.
+Thank you for contributing! -->
 
-### Description:
-Insert a short description of the issue. This text must contain data about the issue purpose.
+### Problem
+Insert a short description of the problem.
 
-### Acceptance criteria:
-Describe what the issue must comply, so it can be finished.
+### Steps to reproduce the problem
+Write N/A if not applicable.
 
-- 
+### Screenshots
+Drag and drop images below. Write N/A if not applicable.
 
-### Tasks:
-Checklist of to do tasks.
-
-- [ ]
+### Proposed solution
+Write N/A if not applicable.
