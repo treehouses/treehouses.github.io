@@ -1,17 +1,16 @@
-## Description
+<!-- This is a new pull request template for treehouses.github.io.
 
-Concise description of what was done
+Please make sure to:
+- add (fixes #issue_number) to the end of pull request title when applicable,
+- drop a link to your new pull request in our gitter chat.
 
-## Solve (Issues)
+Thank you for contributing! -->
 
-Resolved Issues with this PR
+<!-- issue number this pull request resolves -->
+Fixes #
 
-## Related PRs, if there is anyone
+### Description
+Description of changes made.
 
-branch | PR
-—---- | —----
-another_realated_pr | [link]()
-
-## General related tasks 
-* Task 1
-* Task 2
+### Raw.Githack preview link
+raw.githack link to page(s) changed.
