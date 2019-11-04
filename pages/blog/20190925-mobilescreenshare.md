@@ -16,7 +16,7 @@ To make things easier, this tutorial style blog has been written so you can skip
 
 #### Mac
 1. Macs will need [Homebrew](https://brew.sh/) installed. If you don't already have this installed, open the terminal and run the command `/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`.
-1. scrcpy will need Homebrew dependent packages installed to run: `brew install sd12 ffmpeg` and `brew install pkg-config meson`.
+1. scrcpy will need Homebrew dependent packages installed to run: `brew install sdl2 ffmpeg` and `brew install pkg-config meson`.
 1. Allow `adb` accessable to PATH by using ` brew cask install android-platform-tools`.
 1. Next, download the source files needed to run scrcpy [here](https://github.com/Genymobile/scrcpy/archive/master.zip) and extract the directory where desired.
 1. Download the [server](https://github.com/Genymobile/scrcpy/releases/download/v1.10/scrcpy-server-v1.10.jar) and store it within the directory you just extracted. <div class="alert alert-info">Note: If prompted by your browser to keep or discard the download, select keep.<div>
