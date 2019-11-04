@@ -57,7 +57,7 @@ There are various ways to sync the repository on your OS and the one on GitHub (
 
 
 First, the [GitHub help section](https://help.github.com/en) and the [Git website](https://git-scm.com) are incredibly helpful in answering your basic questions. 
-For example, [this link](https://help.github.com/articles/syncing-a-fork/) explains how to sync a fork with the correct upstream repo, because as you renamed your repository, it does not automatically assume that `treehouses.github.io` is the source. Instead, it assumes that `username.github.io`  This means that when you do `git diff` and `git status`, it only looks at your username.github.io. You will therefore need to use `git fetch upstream`, `git checkout master`, and `git merge upstream/master` to correctly sync to treehouses.github.io as we will see below.
+For example, [this link](https://help.github.com/articles/syncing-a-fork/) explains how to sync a fork with the correct upstream repo, because as you renamed your repository, it does not automatically assume that `treehouses.github.io` is the source. Instead, it assumes that `username.github.io` is the source. This means that when you do `git diff` and `git status`, it only looks at your username.github.io. You will therefore need to use `git fetch upstream`, `git checkout master`, and `git merge upstream/master` to correctly sync to treehouses.github.io as we will see below.
 
 
 
