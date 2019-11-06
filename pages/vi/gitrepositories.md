@@ -29,9 +29,9 @@ This is just a summary of the steps that you will need to perform. Keep on readi
 
 ### Clone Your GitHub Repository username.github.io
 
-Now, we will be using GitHub repositories on a command line, which means that there is a separate step to get your GitHub repository on your OS. To be clear, you will be using both the command line and the GitHub user interface, meaning that you **need to constantly check to make sure that your version is not behind to avoid merge conflicts**. Therefore, open a command line and open your username.github.io repository on the  GitHub user interface. You then need to copy the link provided in the repository.
+Now, we will be using GitHub repositories on a command line, which means that there is a separate step to get your GitHub repository on your OS. To be clear, you will be using both the command line and the GitHub user interface, meaning that you **need to constantly check to make sure that your version is not behind to avoid merge conflicts**. Therefore, open your username.github.io repository on the GitHub user interface and copy the link provided by clicking the "Clone or download" button.
 
-Then, turn to your command prompt and type your repository URL in the form of `git clone https://github.com/EmilyLarkin/EmilyLarkin.github.io.git` into the command line. Be sure to use the correct URL to clone your repository (you will obviously type your own username).  If you  `cd  ` into your `username.github.io` you can see different files which you will be working on during your internship.
+Then, turn to your command prompt and type `git clone <repository_url>` into the command line. For example `git clone https://github.com/EmilyLarkin/EmilyLarkin.github.io.git`. Be sure to use the correct URL to clone your repository (you will obviously type your own username).  If you `cd` into your `username.github.io` you can see different files which you will be working on during your internship.
 
 ### Clone with HTTPS or SSH
 
