@@ -19,5 +19,6 @@
 |[pattanawadee88](profiles/pattanawadee88.md)|2019-09-20|
 |[sriharivishnu](profiles/sriharivishnu.md)|2019-10-22|
 |[kjong](profiles/kjong.md)|2019-10-28|
+|[Nida8930](profiles/Nida8930.md)|2019-11-12|
 
 To view the list of former interns, go to [former members page](retiredinterns.md).
