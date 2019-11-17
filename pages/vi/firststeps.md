@@ -2,7 +2,7 @@
 
 # The Big Picture
 
-Welcome to the first steps for becoming becoming a Systems Engineering Virtual Intern at OLE! After completing these steps, you will be working on OLE’s project, treehouses. These first steps are a process to prove that you have learned the foundational skills before you can progress to working on harder projects with larger teams. Consider this to be the interview for the internship.
+Welcome to the first steps for becoming a Systems Engineering Virtual Intern at OLE! After completing these steps, you will be working on OLE’s project, treehouses. These first steps are a process to prove that you have learned the foundational skills before you can progress to working on harder projects with larger teams. Consider this to be the interview for the internship.
 
 If you are selected for the internship after completing the steps, you will be officially invited to join the OLE interns team! We’ll add you to the Virtual Interns Gitter chatroom and assign you to a specific team to work on developing and improving OLE’s software.
 
