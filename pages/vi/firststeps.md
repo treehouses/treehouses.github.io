@@ -30,9 +30,11 @@ The goal of OLE is to provide educational infrastructure to learners and educato
 6.  Laptop or computer with minimum 8GB of RAM
 7.  Android device (phone or tablet)
 	- Memory (Ram): Minimum 2GB
-	- Operating System: Suggested Android 8 (Oreo) (minimum Android 6) 
-8.  Optional: USB keyboard, mouse, monitor, and HDMI cable, Raspberry 
-	Pi Zero, Raspberry Pi Camera.
+	- Operating System: Suggested Android 8 (Oreo) (minimum Android 6)
+8. Optional: Real Time Clock (rtc) ds1302. [ds1302]("https://www.amazon.com/s?k=raspberry+pi+rtc")
+9. Optional: Raspberry Pi 0W. [Raspberry Pi 0W]("https://www.raspberrypi.org/products/raspberry-pi-zero-w/")
+10. Optional: Raspberry pi Camera. [Raspberry Pi Camera]("https://www.raspberrypi.org/products/camera-module-v2/") [Raspberry Pi Night Vision Camera]("https://www.raspberrypi.org/products/pi-noir-camera-v2/") [Raspberry Pi 5 Megapixel Camera]("https://www.amazon.com/AuviPal-Megapixels-Raspberry-Camera-Module/dp/B07PQ63D2S/ref=sr_1_1_sspa?keywords=raspberry+pi+camera&qid=1574106202&sr=8-1-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyMkpHMEpXQzlJNUw5JmVuY3J5cHRlZElkPUEwNzc1OTkzMVpaVDVQWjBaMklDMyZlbmNyeXB0ZWRBZElkPUEwNzYxMjU4MlNLQUlOTVlMS1JQUyZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=")
+8.  Optional: USB keyboard, mouse, monitor, and HDMI cable.
 
 
 ---
