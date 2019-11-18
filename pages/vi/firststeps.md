@@ -31,9 +31,8 @@ The goal of OLE is to provide educational infrastructure to learners and educato
 7.  Android device (phone or tablet)
 	- Memory (Ram): Minimum 2GB
 	- Operating System: Suggested Android 8 (Oreo) (minimum Android 6) 
-8.  Want to start supporting rpiOW
-9.  Want to start supporting treehouses camera
-10.  Optional: USB keyboard, mouse, monitor, and HDMI cable
+8.  Optional: USB keyboard, mouse, monitor, and HDMI cable, Raspberry 
+	Pi Zero, Raspberry Pi Camera.
 
 
 ---
