@@ -31,8 +31,10 @@ The goal of OLE is to provide educational infrastructure to learners and educato
 7.  Android device (phone or tablet)
 	- Memory (Ram): Minimum 2GB
 	- Operating System: Suggested Android 8 (Oreo) (minimum Android 6) 
-8.  Optional: USB keyboard, mouse, monitor, and HDMI cable, Raspberry 
-	Pi Zero, Raspberry Pi Camera.
+8.  Optional: Real Time Clock (rtc) ds1302.
+9.  Optional: Raspberry Pi 0W.
+10.  Optional: Raspberry Pi Camera.
+11.  Optional: USB keyboard, mouse, monitor, and HDMI cable.
 
 
 ---
