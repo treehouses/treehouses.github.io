@@ -16,3 +16,4 @@
 * Playing Video Games
 
 ### Hometown: Glendale, CA
+![Photo](images/ca-glendale.jpg)
