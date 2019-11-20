@@ -1,8 +1,8 @@
 
 
 # Hello Everyone
-> My Name is Tarik Rajper, and I am a fourth year Computer Science student graduating in May 2020. I am in Los Angeles, California,
-> Timezone is PST(Pacific Standard Time) and use both a Windows 10 OS along with a Linux OS on a virtual machine. I will be graduating
+> My Name is Tarik Rajper, and I am a fourth year Computer Science student graduating in May 2020. I am in **Los Angeles, California,
+> Timezone is PST(Pacific Standard Time)** and use both a Windows 10 OS along with a Linux OS on a virtual machine. I will be graduating
 > with a Bachelors Degree, and I currently do research in Image Retrieval with focus on Machine Learning and parallel processing.
 > I currently attend Cal Poly Pomona.
 
@@ -16,4 +16,3 @@
 * Playing Video Games
 
 ### Hometown: Glendale, CA
-![Photo](images/ca-glendale.jpg)
