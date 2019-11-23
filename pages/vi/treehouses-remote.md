@@ -18,7 +18,7 @@ The app may ask for your device location, feel free to decline.
 1. Scan and pair with the Pi device (look for `treehouses`)
 1. Open the `treehouses remote` app
 1. Click on "Connect to RPI"
-1. Select your Raspberry Pi (`treehouses-version`)
+1. Select your Raspberry Pi (`treehouses-<4-digit-number>`) ie `treehouses-8930`
 
 1. Once you have connected to your Raspberry Pi, tap the menu button on the top left of your screen to view a whole host of options to interact with your Raspberry Pi.
 1. Go to Terminal
