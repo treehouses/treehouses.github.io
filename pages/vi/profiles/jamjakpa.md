@@ -2,7 +2,7 @@ Name | San Francisco CA | Time | OS |
 ------------ | ------------- | ------------- | ------------
 James Jakubczyk | San Francisco, CA | PST | Windows 10 / Ubuntu 16
 
-country |
+
 
 Hi my name is James ( jamjakpa ) I live in San Francisco, CA.
 I do have a Bachelor Degree in Computer Science.
@@ -10,7 +10,7 @@ I am very excited to be in this project.
 
 ## Contact and Experience
 
-It's very easy to **contact me**  *italic* with Markdown. You can find everything about me through [Linkedin!](https://www.linkedin.com/in/james-jakubczyk-318b2753/) or [Github!](https://github.com/jamjakpa).
+It's very easy to **contact me** . You can find everything about me through [Linkedin!](https://www.linkedin.com/in/james-jakubczyk-318b2753/) or [Github!](https://github.com/jamjakpa).
 
 * Python
 * Deep Learning OpenCV 
