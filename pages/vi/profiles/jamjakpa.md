@@ -11,7 +11,7 @@ James Jakubczyk | San Francisco, CA | PST | Windows 10 / Ubuntu 16
 
 ## Contact and Experience
 
-It's very easy to **contact me** . You can find everything about me through [Linkedin!](https://www.linkedin.com/in/james-jakubczyk-318b2753/) or [Github!](https://github.com/jamjakpa).
+It's very easy to **contact me** . You can `find everything` about me through [Linkedin!](https://www.linkedin.com/in/james-jakubczyk-318b2753/) or [Github!](https://github.com/jamjakpa).
 
 * Python
 * Deep Learning OpenCV 
