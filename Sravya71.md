@@ -1,9 +1,6 @@
 ####_**Hi, I am Laxmi Sravya Nittala, I am an aspiring Intern for OLE Below are my Details**_:
-
 1.Name: Laxmi Sravya Nittala
-
 2.Location\Time Zone: NewJersey\EST
-
 3.OS Version: Windows 10 Home
  
  >Hi **OLE Team**, I am Sravya, I have done my masters from ![Lamar University][Lamar], which is a state university in Texas.
