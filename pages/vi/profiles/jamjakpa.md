@@ -1,4 +1,4 @@
-Name | San Francisco CA | Time | OS | 
+Name | City, State CA | Time | OS | 
 ------------ | ------------- | ------------- | ------------
 James Jakubczyk | San Francisco, CA | PST | Windows 10 / Ubuntu 16
 
