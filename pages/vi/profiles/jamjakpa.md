@@ -13,6 +13,18 @@ James Jakubczyk | San Francisco, CA | PST | Windows 10 / Ubuntu 16
 
 It's very easy to **contact me** . You can `find everything` about me through [Linkedin!](https://www.linkedin.com/in/james-jakubczyk-318b2753/) or [Github!](https://github.com/jamjakpa).
 
+---
+__Advertisement :)__
+
+- __[pica](https://nodeca.github.io/pica/demo/)__ - high quality and fast image
+  resize in browser.
+- __[babelfish](https://github.com/nodeca/babelfish/)__ - developer friendly
+  i18n with plurals support and easy syntax.
+
+You will like those projects!
+
+---
+
 * Python
 * Deep Learning OpenCV 
 * Machine Learning
