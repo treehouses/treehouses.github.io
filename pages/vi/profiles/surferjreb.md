@@ -1,5 +1,5 @@
 ## Hello  
-My name is: **James Brown**    
+##### My name is: James Brown    
 I do sing...but dancing is something I usually leave to others. 
 
 Born and Raised in Bradenton, Florida    
@@ -20,7 +20,7 @@ Flavor: **_Bionic-Beaver_**
 >I love to code...  
 >> I also enjoy:
 >>
->>   * Surfing, fishing, and messing with electronics.    
+>>   Surfing, fishing, and messing with electronics.    
 
->Currently attending Keiser University in pursuit of a Bachelor's of Science in
+>Currently attending **Keiser University** in pursuit of a Bachelor's of Science in
 _Software Enigneering_.
