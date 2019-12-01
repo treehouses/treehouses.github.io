@@ -9,7 +9,7 @@ Eastern Standard Time(GMT-5)
 
 OS: Linux, Ubuntu  
 
-* Flavor: **_Bionic-Beaver_**
+Flavor: **_Bionic-Beaver_**
 
    * **Version:** 18.04.3 LTS 
    
@@ -19,7 +19,7 @@ OS: Linux, Ubuntu
 >
 >I love to code...  
 >> I also enjoy:  
->> * Surfing, fishing, and messing with electronics.    
+>>  * Surfing, fishing, and messing with electronics.    
 
 >Currently attending Keiser University in pursuit of a Bachelor's of Science in
 software enigneering.
