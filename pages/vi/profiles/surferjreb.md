@@ -20,7 +20,7 @@ Flavor: **_Bionic-Beaver_**
 >I love to code...  
 >> I also enjoy:
 >>
->>  * Surfing, fishing, and messing with electronics.    
+>>   * Surfing, fishing, and messing with electronics.    
 
 >Currently attending Keiser University in pursuit of a Bachelor's of Science in
-software enigneering.
+_Software Enigneering_.
