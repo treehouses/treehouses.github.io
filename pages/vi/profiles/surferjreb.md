@@ -3,7 +3,8 @@ My name is: **James Brown**
 I do sing...but dancing is something I usually leave to others. 
 
 Born and Raised in Bradenton, Florida    
-Eastern Standard Time(GMT-5)      
+Eastern Standard Time(GMT-5)    
+
 ![Bradenton City Hall](https://upload.wikimedia.org/wikipedia/commons/thumb/4/42/Bradenton_City_Hall.jpg/375px-Bradenton_City_Hall.jpg)    
 
 OS: Linux, Ubuntu  
