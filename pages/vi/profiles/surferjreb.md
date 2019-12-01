@@ -18,7 +18,8 @@ Flavor: **_Bionic-Beaver_**
 >There is a lot I could include here, but I will keep this short..  
 >
 >I love to code...  
->> I also enjoy:  
+>> I also enjoy:
+>>
 >>  * Surfing, fishing, and messing with electronics.    
 
 >Currently attending Keiser University in pursuit of a Bachelor's of Science in
