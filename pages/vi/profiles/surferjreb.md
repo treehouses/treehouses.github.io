@@ -23,7 +23,9 @@ Flavor: **_Bionic-Beaver_**
 >>   Surfing, fishing, and messing with electronics.    
 
 >Currently attending **Keiser University** in pursuit of a Bachelor's of Science in
-_Software Enigneering_.
+_Software Enigneering_.  
+>I have designed various projects using Java, C++, python, MERN Fullstack and some MEAN.  Developed using HTML, CSS, Bootstrap, and Javascript.
+>I look forward to working on this project and joining the team.
 
 You can find some of my code here 
 
