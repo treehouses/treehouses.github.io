@@ -25,10 +25,12 @@ Flavor: **_Bionic-Beaver_**
 >Currently attending **Keiser University** in pursuit of a Bachelor's of Science in
 _Software Enigneering_.
 
-You can find some of my code here    
+You can find some of my code here 
+
   * [GitHub][github_account]
 
-You can also find more about what I have done here    
+You can also find more about what I have done here 
+
   * [Linked-In][linkedIn_link]
  
  [github_account]: https://github.com/surferjreb
