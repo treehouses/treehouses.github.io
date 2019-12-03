@@ -11,6 +11,6 @@
 >I have attained AWS, CCNA certifications.I am here to learn, Contribute and Collaborate with the **OLE Team**. Looking forward to work **OLE**!
  
  You can Connect with me on:
- 1. [LinkedIn](https://www.linkedin.com/in/sravya-nl-18147217a/) 
- 2. [GitHub](https://github.com/sravya71)
+   1. [LinkedIn](https://www.linkedin.com/in/sravya-nl-18147217a/) 
+   2. [GitHub](https://github.com/sravya71)
  
