@@ -29,9 +29,14 @@ It works as a front end "script" on top of the same docker api used by docker, s
 **Docker and Docker Compose are installed on your Raspberry Pi by default, and the subsequent exercises can be performed without any installations.**  The below guide includes steps to install Docker and Docker Compose directly on to your computer, in case of further development, but is entirely optional. 
 
 
-### Windows
+### Windows 10 Pro
 
-- Please follow the official guide [Install Docker Toolbox on Windows](https://docs.docker.com/toolbox/toolbox_install_windows/).
+- Please follow the official guide [Install Docker Desktop on Windows](https://docs.docker.com/docker-for-windows/install/).
+
+
+### Windows 7 or higher
+
+- Please follow the legacy guide [Install Docker Toolbox on Windows](https://docs.docker.com/toolbox/toolbox_install_windows/).
 
 **NOTE**: If you already have a previous version of VirtualBox installed, do not reinstall it with **Docker Toolbox**. When prompted, uncheck it. Otherwise, it might downgrade your virtual box or you might run into some errors during installation. Make sure that your virtual box is up to date after installation.
 
