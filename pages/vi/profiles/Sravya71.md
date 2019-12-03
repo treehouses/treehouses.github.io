@@ -5,9 +5,10 @@
 |Laxmi Sravya Nittala| NewJersey | EST | Windows 10 Pro|
 
  
- >Hi **OLE Team**, I am Sravya, I have done my masters from Lamar University, I am currently staying in New Jersey ![New Jersey](https://upload.wikimedia.org/wikipedia/commons/3/3e/New_Jersey_skyline.jpg "NewJersey Logo")
- 
- >I have attained AWS, CCNA certifications.I am here to learn, Contribute and Collaborate with the **OLE Team**. Looking forward to work **OLE**!
+>Hi **OLE Team**, I am Sravya, I have done my masters from Lamar University, I am currently staying in New Jersey ![New Jersey](https://doubletree3.hilton.com/resources/media/dt/EWRWTDT/en_US/img/shared/full_page_image_gallery/main/DT_jerseycitskyline_1280x560_FitToBoxSmallDimension_Center.jpg "NewJerseyLogo")
+>
+>
+>I have attained AWS, CCNA certifications.I am here to learn, Contribute and Collaborate with the **OLE Team**. Looking forward to work **OLE**!
  
  You can Connect with me on:
  * [LinkedIn](https://www.linkedin.com/in/sravya-nl-18147217a/) 
