@@ -34,7 +34,7 @@ It works as a front end "script" on top of the same docker api used by docker, s
 - Please follow the official guide here: [Install Docker Desktop on Windows](https://docs.docker.com/docker-for-windows/install/).
 
 
-### Windows 7/8/10 Home
+### Windows 7/8/10
 
 - Please follow this official guide: [Install Docker Toolbox on Windows](https://docs.docker.com/toolbox/toolbox_install_windows/).
 
