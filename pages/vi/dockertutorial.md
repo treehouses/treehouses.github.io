@@ -29,12 +29,12 @@ It works as a front end "script" on top of the same docker api used by docker, s
 **Docker and Docker Compose are installed on your Raspberry Pi by default, and the subsequent exercises can be performed without any installations.**  The below guide includes steps to install Docker and Docker Compose directly on to your computer, in case of further development, but is entirely optional. 
 
 
-### Windows 10 Pro
+### Windows
+#### 10 Pro
 
 - Please follow the official guide here: [Install Docker Desktop on Windows](https://docs.docker.com/docker-for-windows/install/).
 
-
-### Windows 7/8/10
+#### 7/8/10
 
 - Please follow this official guide: [Install Docker Toolbox on Windows](https://docs.docker.com/toolbox/toolbox_install_windows/).
 
