@@ -42,7 +42,7 @@ This Dockerfile builds an image of Privatebin based on Apache server. However, i
 Add one line between `FROM` command and `RUN` command
 
 ```
-ADD PrivateBin var/www/PrivateBin
+ADD PrivateBin /var/www/PrivateBin
 ```
 
 This code downloads a `master.zip` file from the Privatebin archive repository and stores in `/var/www/master.zip` in Docker image. However, the `master.zip` code is not the latest code. You do not want to use this image, so delete the line.
