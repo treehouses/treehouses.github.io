@@ -68,7 +68,7 @@ Check your current Linux version with `hostnamectl` . Something like this will b
 You can also use `cat /etc/os-release` or `lsb_release -a`.  
 Any of these three commands will tell you the information you need.
 
-You will need to use `uname -r`.  You should see something like this `4.19.4-microsoft-standard` for a windows base linux system .
+You may need to use `uname -r`.  If using a windows based linux system.  You should see something like this `4.19.4-microsoft-standard`.
 
 For:
 
