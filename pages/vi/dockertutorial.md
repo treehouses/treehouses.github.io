@@ -32,11 +32,11 @@ It works as a front end "script" on top of the same docker api used by docker, s
 ### Windows
 #### 10 Pro
 
-- Please follow the official guide here: [Install Docker Desktop on Windows](https://docs.docker.com/docker-for-windows/install/).
+Please follow the official guide here: [Install Docker Desktop on Windows](https://docs.docker.com/docker-for-windows/install/).
 
 #### 7/8/10
 
-- Please follow this official guide: [Install Docker Toolbox on Windows](https://docs.docker.com/toolbox/toolbox_install_windows/).
+Please follow this official guide: [Install Docker Toolbox on Windows](https://docs.docker.com/toolbox/toolbox_install_windows/).
 
 **NOTE**: If you already have a previous version of VirtualBox installed, do not reinstall it with **Docker Toolbox**. When prompted, uncheck it. Otherwise, it might downgrade your virtual box or you might run into some errors during installation. Make sure that your virtual box is up to date after installation.
 
