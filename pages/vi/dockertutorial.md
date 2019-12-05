@@ -52,7 +52,8 @@ No matter your distribution of choice, you’ll need a 64-bit installation and a
 Please find your distro at https://docs.docker.com/install/#server and follow the guide to install Docker CE.
 
 
-Check your current Linux version with `hostnamectl` . You should see something like:
+Check your current Linux version with `hostnamectl` . Something like this will be in the terminal output:
+
 ```  
     Static hostname: <your_host_name_here>
     Icon name: computer-laptop
@@ -63,8 +64,13 @@ Check your current Linux version with `hostnamectl` . You should see something l
     Kernel: Linux 4.15.0-70-generic
     Architecture: x86-64
 ```  
+
 You can also use `cat /etc/os-release` or `lsb_release -a`.  
-Any of these three commands will tell you the information you need to know prior to proceeding.  For a windows base linux system you should see the same output.
+Any of these three commands will tell you the information you need to know prior to proceeding.
+
+You will need to use `uname -r`.  You should see something like this `4.19.4-microsoft-standard` for a windows base linux system .
+
+For:
 
 #### For:
 - Disco 19.04
