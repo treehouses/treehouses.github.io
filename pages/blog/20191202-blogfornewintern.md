@@ -1,6 +1,6 @@
 # How to handle aspiring interns
 
-02, December 2019 • [pattanawadee88](https://github.com/pattanawadee88)
+04, December 2019 • [pattanawadee88](https://github.com/pattanawadee88)
 
 ---
 
@@ -9,10 +9,10 @@ This blog is about how to work with aspiring interns. Your jobs are
 • Welcome all new aspiring intern 
 • Reviewing issues and pull requests in [treehouses.github.io](https://github.com/treehouses/treehouses.github.io)
 • Merging pull requests
-• Answer all the questions when they have problems (they might send you a private message so please regularly check your Gitter  )
+• Answer all the questions when they have problems (they might send you a private message so please regularly check your Gitter)
 
 ## How to welcome all new aspiring intern
-If you see new aspiring interns send a message `@/all Hello Team my name is .... I'd like to become a virtual intern. What is the next step?`, you need to welcome them and send `https://treehouses.io/#!./pages/vi/sshpi.md` to them. To they can start working on the First Steps. 
+If you see new aspiring interns send a message `@/all Hello Team my name is .... I'd like to become a virtual intern. What is the next step?`, you need to welcome them and send `https://treehouses.io/#!./pages/vi/sshpi.md` to them. So they can start working on the First Steps. 
 
 ## How to review Pull Requests and Issues
 One of your responsibilities as an intern is to review and help aspiring interns with their issues and pull requests on [treehouses.github.io](https://github.com/treehouses/treehouses.github.io) 
@@ -21,13 +21,13 @@ So, it would be very important to understand how to review pull requests.
 1. **Check branches:** the aspiring interns should create a new branch every time when they start working on a new issue (one issue per one pull request)
 
     `Warning: they should not work on their master branch!`
-
+    
+1. **Check the raw.githack link:** please check the raw.githack link as everything looks good and is working. It should be in this pattern `https://raw.githack.com/YourUserName/YourUserName.github.io/YourBranchName/#!pages/vi/profiles/YourUserName.md`.
 1. **Review files:** you can comment, approve, and request changes in the 'Files Changed'. For this step, you should take your time to review a file. Do not rush :)
-1. **Check the raw.githack link:** the raw.githack link is very important for us for reviewing interns' works. It should be in this pattern `https://raw.githack.com/YourUserName/YourUserName.github.io/YourBranchName/#!pages/vi/profiles/YourUserName.md`. 
 
-Every time you comment on an issue or review a pull request, message those involved on the Gitter chat with a link to the issue / pull request. For example: 
+Every time you comment on an issue or review a pull request, message those involved on the Gitter chat with a link to the issue or the pull request. So an aspiring intern can see a comment. For example: 
 ```
-@username_of_intern please see my comments (URL link of the issue or pull request)
+@username_of_intern please see my comment (URL link of the issue or pull request)
 ```
 Also, if you find any issue that must be addressed with a pull request, do not forget to use the Request changes option when starting your review.
 
