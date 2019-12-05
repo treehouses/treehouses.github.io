@@ -5,11 +5,11 @@
 ---
 
 This blog is about how to work with aspiring interns. Your jobs are 
-* Check Gitter chat as much as you can
-* Welcome all new aspiring intern 
-* Reviewing issues and pull requests in [treehouses.github.io](https://github.com/treehouses/treehouses.github.io)
-* Merging pull requests
-* Answer all the questions when they have problems (they might send you a private message so please regularly check your Gitter  )
+• Check Gitter chat as much as you can
+• Welcome all new aspiring intern 
+• Reviewing issues and pull requests in [treehouses.github.io](https://github.com/treehouses/treehouses.github.io)
+• Merging pull requests
+• Answer all the questions when they have problems (they might send you a private message so please regularly check your Gitter  )
 
 ## How to welcome all new aspiring intern
 If you see new aspiring interns send a message `@/all Hello Team my name is .... I'd like to become a virtual intern. What is the next step?`, you need to welcome them and send `https://treehouses.io/#!./pages/vi/sshpi.md` to them. To they can start working on the First Steps. 
@@ -52,11 +52,10 @@ We recommend you follow this basic daily routine:
 1. [Check gitter chat](https://gitter.im/treehouses/Lobby)
 1. Review any issues or pull requests that have been added or changed on [treehouses.github.io](https://github.com/treehouses/treehouses.github.io) since last time you reviewed.
 1. Make pull requests as early as possible so you can get feedback as you work.
-1. Join the Google hangout session at [http://talk.ole.org]( http://talk.ole.org). At the Hangout meeting, we will discuss about our projects. If you have any questions, you can also ask the team at the meeting. For Treehouses meeting, we have three sessions which are...
-
-* Happy Hacking Hangout on Monday
-* Raspberry Pi Hangout on Wednesday
-* Secret Hacking Hangout on Friday. 
+1. Join the Google hangout session at [http://talk.ole.org]( http://talk.ole.org). At the Hangout meeting, we will discuss about our projects. If you have any questions, you can also ask the team at the meeting. For Treehouses meeting, we have three sessions which are ...
+• Happy Hacking Hangout on Monday
+• Raspberry Pi Hangout on Wednesday
+• Secret Hacking Hangout on Friday. 
 
 **NOTE**:
 • if you are not be able to join the hangout, please left a message to Dogi. 
