@@ -4,28 +4,26 @@
 
 ---
 
-This blog is about working with aspiring interns.
+This blog is about how to work with aspiring interns.
 
-Your job are 
+Your jobs are 
 * Welcome all new aspiring intern and send them the link `https://treehouses.io/#!pages/vi/firststeps.md`
 * Reviewing issues and pull requests in [treehouses.github.io](https://github.com/treehouses/treehouses.github.io)
 * Merging PRs
 * Answer all the questions when they have problems (they might send you a private message so please regularly check your Gitter  )
-
-    
+   
 ## How to review Pull Requests and Issues
-One of your responsibilities as an intern is to review and help prospective interns with their issues and pull requests on treehouses.github.io. 
+One of your responsibilities as an intern is to review and help aspiring interns with their issues and pull requests on [treehouses.github.io](https://github.com/treehouses/treehouses.github.io) 
 So, it would be very important to understand how to review pull requests.
 
-1. **Check branches:** the prospective interns should create a new branch every time when they start working on new issues (one issue per one pull request)
+1. **Check branches:** the aspiring interns should create a new branch every time when they start working on a new issue (one issue per one pull request)
 
     `Warning: they should not work on their master branch!`
 
 1. **Review files:** you can comment, approve, and request changes in the 'Files Changed'. For this step, you should take your time to review a file. Do not rush :)
 1. **Check the raw.githack link:** the raw.githack link is very important for us for reviewing interns' works. It should be in this pattern `https://raw.githack.com/YourUserName/YourUserName.github.io/YourBranchName/#!pages/vi/profiles/YourUserName.md`. 
 
-Every time you comment on an issue or review a pull request, message those involved on the Gitter chat with a link to the issue / pull request. 
-For example: 
+Every time you comment on an issue or review a pull request, message those involved on the Gitter chat with a link to the issue / pull request. For example: 
 ```
 @usernameofintern please see my comments (URL link of the issue or pull request)
 ```
@@ -38,6 +36,7 @@ The pull request can be merged if at least two other people have approved the pu
 1. **Delete all the commit messages:** It is very crucial to delete all the commit messages. `You must not forget this step!`
 1. **Check title:** In the title of pull requests must included a keyword to automatically close the issue, for example, `(fix #issue number)` or `(fixes #issue number)`. [READ MORE ABOUT CLOSING ISSUES USING KEYWORDS](https://help.github.com/en/github/managing-your-work-on-github/closing-issues-using-keywords) 
     * if you accidently merged PRs which not included closing keywords, you need to manually close the issue and link it to the original pull request.
+    * title needs to be lowercase letter `we do not want uppercase letters in the title of PRs`
     
 Every time you merge the pull requests, please send a message to the interns on the Gitter chat with a link to the issue and merged link. For example:
 
@@ -54,24 +53,25 @@ We recommend you follow this basic daily routine:
 1. Join the Google hangout session at [http://talk.ole.org]( http://talk.ole.org). At the Hangout meeting, we will discuss about our projects. If you have any questions, you can also ask the team at the meeting.
 
 **NOTE**:
-* if you are not be able to join the hangout, please left a message to Dogi. 
-* Before leaving the hangout, you need to do check out with Dogi.
-* Share you screen every time 
-* For Treehouses, we have three sessions which are 
-   * Happy Hacking Hangout on Monday
-   * Raspberry Pi Hangout on Wednesday
-   * Secret Hacking Hangout on Friday. 
-   
+1. if you are not be able to join the hangout, please left a message to Dogi. 
+1. Before leaving the hangout, you need to do check out with Dogi.
+1. Share you screen every time 
+1. For Treehouses meeting, we have three sessions which are 
+
+* Happy Hacking Hangout on Monday
+* Raspberry Pi Hangout on Wednesday
+* Secret Hacking Hangout on Friday. 
+
 ## Active System Teams Projects
-### [Cli](https://github.com/treehouses/cli): 
-Cli is Command-Line Interface for the treehouses system image, it allows different commands to be entered in the Raspberry Pi terminal. 
+### [cli](https://github.com/treehouses/cli): 
+cli is Command-Line Interface for the treehouses system image, it allows different commands to be entered in the Raspberry Pi terminal. 
 For example, 
 ```
 root@treehouses:~# treehouses help
 ```
 `treehouses help` is a command that gives you a more detailed info about the command or will output this
 
+### [builder](https://github.com/treehouses/builder)
+builder is a repository that contains scripts of the latest Raspbian image by installing packages, purging packages and executing custom commands, and then finally creates a bootable .img file that can be burned to the microSD card.
 
-
-
-
+For this project, you have to work with [Travis](https://travis-ci.org/treehouses?utm_medium=notification&utm_source=github_status). You can learn more abut Travis [HERE](https://docs.travis-ci.com/user/for-beginners/)
