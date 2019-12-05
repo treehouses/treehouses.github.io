@@ -4,14 +4,16 @@
 
 ---
 
-This blog is about how to work with aspiring interns.
-
-Your jobs are 
-* Welcome all new aspiring intern and send them the link `https://treehouses.io/#!pages/vi/firststeps.md`
+This blog is about how to work with aspiring interns. Your jobs are 
+* Check Gitter chat as much as you can
+* Welcome all new aspiring intern 
 * Reviewing issues and pull requests in [treehouses.github.io](https://github.com/treehouses/treehouses.github.io)
-* Merging PRs
+* Merging pull requests
 * Answer all the questions when they have problems (they might send you a private message so please regularly check your Gitter  )
-   
+
+## How to welcome all new aspiring intern
+If you see new aspiring interns send a message `@/all Hello Team my name is .... I'd like to become a virtual intern. What is the next step?`, you need to welcome them and send `https://treehouses.io/#!./pages/vi/sshpi.md` to them. To they can start working on the First Steps. 
+
 ## How to review Pull Requests and Issues
 One of your responsibilities as an intern is to review and help aspiring interns with their issues and pull requests on [treehouses.github.io](https://github.com/treehouses/treehouses.github.io) 
 So, it would be very important to understand how to review pull requests.
@@ -25,7 +27,7 @@ So, it would be very important to understand how to review pull requests.
 
 Every time you comment on an issue or review a pull request, message those involved on the Gitter chat with a link to the issue / pull request. For example: 
 ```
-@usernameofintern please see my comments (URL link of the issue or pull request)
+@username_of_intern please see my comments (URL link of the issue or pull request)
 ```
 Also, if you find any issue that must be addressed with a pull request, do not forget to use the Request changes option when starting your review.
 
@@ -41,7 +43,7 @@ The pull request can be merged if at least two other people have approved the pu
 Every time you merge the pull requests, please send a message to the interns on the Gitter chat with a link to the issue and merged link. For example:
 
 ```
-@usernameofintern please look at (URL link of the issue) and (URL link of the merged link)
+@username_of_intern please look at (URL link of the issue) and (URL link of the merged link)
 ```
 
 ## Working Routine
@@ -50,17 +52,16 @@ We recommend you follow this basic daily routine:
 1. [Check gitter chat](https://gitter.im/treehouses/Lobby)
 1. Review any issues or pull requests that have been added or changed on [treehouses.github.io](https://github.com/treehouses/treehouses.github.io) since last time you reviewed.
 1. Make pull requests as early as possible so you can get feedback as you work.
-1. Join the Google hangout session at [http://talk.ole.org]( http://talk.ole.org). At the Hangout meeting, we will discuss about our projects. If you have any questions, you can also ask the team at the meeting.
-
-**NOTE**:
-1. if you are not be able to join the hangout, please left a message to Dogi. 
-1. Before leaving the hangout, you need to do check out with Dogi.
-1. Share you screen every time 
-1. For Treehouses meeting, we have three sessions which are 
+1. Join the Google hangout session at [http://talk.ole.org]( http://talk.ole.org). At the Hangout meeting, we will discuss about our projects. If you have any questions, you can also ask the team at the meeting. For Treehouses meeting, we have three sessions which are...
 
 * Happy Hacking Hangout on Monday
 * Raspberry Pi Hangout on Wednesday
 * Secret Hacking Hangout on Friday. 
+
+**NOTE**:
+• if you are not be able to join the hangout, please left a message to Dogi. 
+• Before leaving the hangout, you need to do check out with Dogi.
+• Share you screen every time 
 
 ## Active System Teams Projects
 ### [cli](https://github.com/treehouses/cli): 
