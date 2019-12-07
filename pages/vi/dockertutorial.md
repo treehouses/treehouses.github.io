@@ -70,7 +70,6 @@ Any of these three commands will tell you the information you need.
 
 You may need to use `uname -r`.  If using a windows based linux system.  You should see something like this `4.19.4-microsoft-standard`.
 
-For:
 
 #### For:
 - Disco 19.04
