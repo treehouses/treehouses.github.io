@@ -15,10 +15,10 @@ The goal of OLE is to provide educational infrastructure to learners and educato
 
 # Pre-Requisites
 
-## Required Prerequisite
-The following are required hardware componants that will be needed as part of the Virtual Intern placement. Software solutions such as containers are used by the Treehouses team to ensure that the solutions we devellop work across computers and locations. However as part of the Systems team, you will need some basic hardware of your own to make sure you can run, test and contribute to the software that the team is devellping.
+## Required Prerequisites
+The following are required hardware components that will be needed as part of the Virtual Intern placement. Software solutions such as containers are used by the Treehouses team to ensure that the solutions we develop work across computers and locations. However as part of the Systems team, you will need some basic hardware of your own to make sure you can run, test and contribute to the software that the team is developing.
 
-### Hardware requirement:
+### Hardware requirements:
 
 1.  Raspberry Pi 4 ([Pi 4 information](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/))
 	- Any amount of RAM will work, but more is better.
@@ -36,12 +36,12 @@ The following are required hardware componants that will be needed as part of th
 	- Memory (Ram): Minimum 2GB
 	- Operating System: Suggested Android 8 (Oreo) (minimum Android 6)
 	
-	`NOTE: You can purshase all of these componantds together for your conviniance (or if there are discounts) on places such as Amazon, Ebay ect... 
+	`NOTE: You can purchase all of these components together for your convenience (or if there are discounts) on places such as Amazon, Ebay etc... 
 	
-## Optional Prerequisite
-There are allso "optional" pices of hardware that you can chose to purchase should you choose to, these are not compulsory for participation in the internship but may greatly assit you in develloping your skills and contributing to the project. 
+## Optional Prerequisites
+There are also "optional" pieces of hardware that you can choose to purchase should you choose to, these are not compulsory for participation in the internship but may greatly assist you in developing your skills and contributing to the project. 
 
-1.  Ethernet cable - For Direct connection and troublshooting of the Pi
+1. Ethernet cable - For Direct connection and troublshooting of the Pi
 1. Optional: [Real Time Clock (rtc)]("https://www.amazon.com/s?k=raspberry+pi+rtc")
 1. Optional: [Raspberry Pi 0W]("https://www.raspberrypi.org/products/raspberry-pi-zero-w/").
 1. Optional: Raspberry pi Camera(s):
