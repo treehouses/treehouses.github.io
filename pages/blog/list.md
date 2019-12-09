@@ -29,3 +29,5 @@
 [treehouses.io in MoodleMoot Philippines 2018](20180505-moodlemootph18.md) on May 5, 2018 by empeje `(Learning Management System by treehouses)`
 
 [treehouses.io in DevOpsDay Jakarta 2018](20180505-devopsdayjkt18.md) on May 5, 2018 by empeje `(DevOps in non-profits)`
+
+[Setting up usb serial cable](20191206-serial-usb.md) on May 6, 2019 by An Pham `(Guide to connect usb serial cable with your PC)`
