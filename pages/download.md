@@ -13,7 +13,7 @@ The main features of treehouses-powered Raspberry Pi image are
 
 * Bluetooth Remote Server, and many more 😀
 
-## Getting Other Images
+## Getting Other Images 
 
 If you need a specific version, you can download it [here](http://dev.ole.org/).
 
