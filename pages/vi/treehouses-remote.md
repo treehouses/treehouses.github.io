@@ -29,7 +29,7 @@ The app may ask for your device location, feel free to decline.
 1. Now type `treehouses default network`
     * Here we are preparing to get internet access
 1. Reboot the system by entering the command `reboot` and go back to the home screen to re-connect to your Pi
-1. Back in the terminal type `treehouses bridge "wifiname" treehouses "wifipassword"`, and replace `wifiname` with the name of your wifi network, and `wifipassword` with the password.
+1. Back in the terminal type `treehouses bridge "wifiname" treehouses "wifipassword" "hotspot-password"`, and replace `wifiname` with the name of your wifi network, `wifipassword` with the password for your wifi, and `hotspot-password` with a new password for the hotspot being created.
 1. Reboot once again
 
 #### Congrats, you have just connected your Raspberry Pi! 
