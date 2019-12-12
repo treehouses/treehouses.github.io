@@ -63,6 +63,8 @@ To log into root, you can run `sudo -s` while logged into the Pi user, or with t
 
 To rename your Raspberry Pi, run `treehouses rename "username"` and replace `username` with your Github username.
 
+**Note for later:** Every time you use a new image on your RPI, the `known_hosts` file must be updated for ssh to connect without an error. Instructions can be found on the [FAQ](https://treehouses.io/#!pages/vi/faq.md) page.
+
 ## Tor
 Tor is a computer network run by volunteers worldwide. Each volunteer runs what is called a relay, which is just a computer that runs software allowing users to connect to the Internet via the Tor network.
 
