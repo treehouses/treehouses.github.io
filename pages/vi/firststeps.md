@@ -37,6 +37,7 @@ The goal of OLE is to provide educational infrastructure to learners and educato
 	- [Raspberry Pi Camera]("https://www.raspberrypi.org/products/camera-module-v2/")
 	- [Raspberry Pi Night Vision Camera]("https://www.raspberrypi.org/products/pi-noir-camera-v2/")
 	- [generic Raspberry Pi 5 Megapixel Camera]("https://www.amazon.com/AuviPal-Megapixels-Raspberry-Camera-Module/dp/B07PQ63D2S/")
+	- [Raspberry Serial Cable]("https://www.amazon.com/s?k=raspberry+pi+serial+cable")
 11.  Optional: USB keyboard, mouse, monitor, and HDMI cable.
 
 
