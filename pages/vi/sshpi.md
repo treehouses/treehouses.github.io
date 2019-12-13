@@ -46,7 +46,7 @@ This is a security risk - please login as the 'pi' user and type 'passwd' to set
 
 pi@treehouses:~ $
 ```
-**Note for later**: Every time you use a new image on your RPI, the `known_hosts` file must be updated for ssh to connect without an error. Instructions can be found on the [FAQ](https://treehouses.io/#!pages/vi/faq.md) page.
+**NOTE**: Every time you use a new image on your RPI, the `known_hosts` file must be updated for ssh to connect without an error. Instructions can be found on the [FAQ](https://treehouses.io/#!pages/vi/faq.md) page.
 
 ### Add ssh key to the Raspberry Pi
 
