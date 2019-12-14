@@ -14,4 +14,4 @@
   
 ![alt text][logo]
 
-[logo]: https://raw.githack.com/sabe-lab/sabe-lab.github.io/sabe-new-branch/#!pages/vi/profiles/ninja.jpg
+[logo]: https://github.com/sabe-lab/sabe-lab.github.io/blob/sabe-new-branch/pages/vi/profiles/ninja.jpg
