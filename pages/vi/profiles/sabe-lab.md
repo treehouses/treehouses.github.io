@@ -13,4 +13,5 @@
 
 [My Linkedin](https://www.linkedin.com/in/shota-a-0a928b190)
 
-![ninja](https://github.com/sabe-lab/sabe-lab.github.io/blob/sabe-new-branch/pages/vi/profiles/images/ninja.jpg)
+![ninja]
+(https://github.com/sabe-lab/sabe-lab.github.io/blob/sabe-new-branch/pages/vi/profiles/images/ninja.jpg)
