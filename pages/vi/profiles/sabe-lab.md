@@ -12,7 +12,6 @@
   - **(Hobby)** Walking, Radio, Electronic Kits
   - **(SNS)** [My Linkedin](https://www.linkedin.com/in/shota-a-0a928b190)
 
-
 ```php
   function main(){
     return "Nice to meet you !";
