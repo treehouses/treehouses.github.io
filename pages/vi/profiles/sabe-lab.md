@@ -11,7 +11,7 @@
   - (Age) 28
   - (Hobby) Walking, Radio, Electronic Kits
   - (Linkedin) [Push here](https://www.linkedin.com/in/shota-a-0a928b190)
-
+  
 ![alt text][logo]
 
-[logo]: https://raw.githack.com/sabe-lab/sabe-lab.github.io/sabe-new-branch/#!images/ninja.jpg
+[logo]: https://github.com/sabe-lab/sabe-lab.github.io/blob/sabe-new-branch/pages/vi/profiles/ninja.jpg
