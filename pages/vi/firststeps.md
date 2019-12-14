@@ -50,7 +50,6 @@ There are also "optional" pieces of hardware that you can choose to purchase sho
 	- [generic Raspberry Pi 5 Megapixel Camera]("https://www.amazon.com/AuviPal-Megapixels-Raspberry-Camera-Module/dp/B07PQ63D2S/")
 1.  Optional: USB keyboard, mouse, monitor, and HDMI cable.
 
-
 ---
 
 # The Steps
@@ -76,7 +75,7 @@ There is no official deadline to complete these steps, but most candidates who a
 
 In GitHub, we "[Watch](https://help.github.com/en/articles/watching-and-unwatching-repositories)" organization repositories and ["Follow"](https://help.github.com/en/articles/following-people) individuals. Look for the "Watch" button at the top right of the page when you are in a repository.  Also, follow each other to see what others in the group are doing. (Click on the image to enlarge.)   
 
-### Setting up your environmnent
+### Setting up your environment
 
 We interact with the Raspberry Pi via a command terminal which is natively available for both Mac and Linux based systems. If however you are on a Windows device, [Git Bash](https://git-scm.com/download/win) is highly recommended.
 
