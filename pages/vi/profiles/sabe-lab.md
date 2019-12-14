@@ -10,6 +10,7 @@
   - (Sex) Male
   - (Age) 28
   - (Hobby) Walking, Radio, Electronic Kits
-
-
+  - (Linkedin) [Push here](https://www.linkedin.com/in/shota-a-0a928b190)
+  
+  
 ![alt text](https://github.com/sabe-lab/sabe-lab.github.io/blob/sabe-new-branch/images/ninja.jpg)
