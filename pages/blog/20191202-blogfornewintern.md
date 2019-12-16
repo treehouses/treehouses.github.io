@@ -13,7 +13,7 @@ As an intern, your job is to look in the Gitter chat for:
 • Questions and problems they are stuck on (they might send you a private message so please regularly check your Gitter)
 
 ## How to welcome all new aspiring virtual interns
-If you see this message `@/all Hello Team my name is .... I'd like to become a virtual intern. What is the next step?`, you need to welcome the new intern and send this link `https://treehouses.io/#!./pages/vi/sshpi.md` so they can start working on the First Steps.
+If you see this message `@/all Hello Team my name is .... I'd like to become a virtual intern. What is the next step?`, you need to welcome the new intern and send this link `https://treehouses.io/#!./pages/vi/firststeps.md` so they can start working on the First Steps.
 
 ## How to review Pull Requests and Issues
 One of your responsibilities as an intern is to review and help aspiring virtual interns with their issues and pull requests on [treehouses.github.io](https://github.com/treehouses/treehouses.github.io), so it's very important to understand how to review pull requests.
