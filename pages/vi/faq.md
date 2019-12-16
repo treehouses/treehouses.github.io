@@ -103,7 +103,7 @@
 * Reference/Advanced
     - [Git Pro (Book)](https://git-scm.com/book/en/v2)
     - [GitHub Tips](https://github.com/git-tips/tips/blob/master/README.md)
-    - [Oh, Shit, Git](http://ohshitgit.com/)
+    - [Oh, sh*t, Git](http://ohshitgit.com/)
 
 * Git Workflow
     - [Git Workflow - High Level](https://www.atlassian.com/git/tutorials/comparing-workflows)
