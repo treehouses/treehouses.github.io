@@ -1,5 +1,7 @@
 ## Blogs
 
+[Fresh Interns: Starting Guide](20191202-blogfornewintern.md) on December 02, 2019 by pattanawadee88 `(Onboarding steps for newly joined interns)`
+
 [Access Kolibri on treehouses using Docker](20191014-kolibri.md) on October 14, 2019 by irisb1701 `(Steps to launch kolibri on RPi using docker)`
 
 [Reviewing PRs on the CLI repository](20190930-reviewprs.md) on September 30, 2019 by XavierElon `(Guide to review pull requests)`
