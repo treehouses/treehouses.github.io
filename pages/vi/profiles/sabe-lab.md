@@ -19,7 +19,4 @@
    }
 ```
 
-
-![ninja](https://raw.githack.com/sabe-lab/sabe-lab.github.io/sabe-new-branch/#!pages/vi/profiles/images/ninja.jpg)
-
 ![ninja](https://raw.githack.com/sabe-lab/sabe-lab.github.io/sabe-new-branch/pages/vi/profiles/images/ninja.jpg)
