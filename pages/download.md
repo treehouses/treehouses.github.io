@@ -5,7 +5,7 @@
 The main features of treehouses-powered Raspberry Pi image are
 
 * Docker-ready
-* Educational applications that are only few commands away
+* Educational applications that are only a few commands away
   * [Planet](https://github.com/open-learning-exchange/planet/)
   * [Moodle](https://github.com/treehouses/moodole)
   * [Kolibri](https://github.com/treehouses/kolibri)
