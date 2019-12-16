@@ -1,5 +1,7 @@
 ## Blogs
 
+[Fresh Interns: Starting Guide](20191202-blogfornewintern.md) on December 02, 2019 by pattanawadee88 `(Onboarding steps for newly joined interns)`
+
 [Access Kolibri on treehouses using Docker](20191014-kolibri.md) on October 14, 2019 by irisb1701 `(Steps to launch kolibri on RPi using docker)`
 
 [Install PrivateBin on Raspberry Pi by treehouses image](20191009-private-bin.md) on October 09, 2019 by hiroTochigi `(Guide to launch PrivateBin on RPi using docker)`
