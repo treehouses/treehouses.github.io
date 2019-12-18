@@ -1,10 +1,10 @@
-# Treehouses / chat
+# treehouses / chat
 
 ## Gitter
 
-Our **Gitter** chat is a great place to learn, discuss, and collaborate with other members to build a better Treehouses platform. The chat lets our development team and interns communicate easily, and signup is through each member’s GitHub account.
+Our **Gitter** chat is a great place to learn, discuss, and collaborate with other members to build a better treehouses platform. The chat lets our development team and interns communicate easily, and signup is through each member’s GitHub account.
 
-Communication is key in every collaborative project, and Treehouses is no different. Gitter provides tight integration with *Github* and provides full rich text support through **Markdown**, an important tool for clean, efficient communication. Combining these features allows members to mention other members in a message, format text, share images and code, and directly link to GitHub issues and repositories.
+Communication is key in every collaborative project, and treehouses is no different. Gitter provides tight integration with *Github* and provides full rich text support through **Markdown**, an important tool for clean, efficient communication. Combining these features allows members to mention other members in a message, format text, share images and code, and directly link to GitHub issues and repositories.
 
 ## Best Practices
 
