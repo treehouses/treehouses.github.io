@@ -16,7 +16,7 @@ The goal of OLE is to provide educational infrastructure to learners and educato
 # Pre-Requisites
 
 ## Required Prerequisites
-The following are required hardware components that will be needed as part of the Virtual Intern placement. Software solutions such as containers are used by the Treehouses team to ensure that the solutions we develop work across computers and locations. However as part of the Systems team, you will need some basic hardware of your own to make sure you can run, test and contribute to the software that the team is developing.
+The following are required hardware components that will be needed as part of the Virtual Intern placement. Software solutions such as containers are used by the treehouses team to ensure that the solutions we develop work across computers and locations. However as part of the Systems team, you will need some basic hardware of your own to make sure you can run, test and contribute to the software that the team is developing.
 
 ### Hardware requirements:
 

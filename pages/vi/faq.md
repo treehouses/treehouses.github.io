@@ -24,7 +24,7 @@
 
 #### Q1: What will I be working on during this internship?
 
-+ Virtual systems engineering interns will be helping develop OLE’s treehouses system. Treehouses allows us to share our different learning platforms via the Rasperry Pi series of single-board computer devices.
++ Virtual systems engineering interns will be helping develop OLE’s treehouses system. treehouses allows us to share our different learning platforms via the Rasperry Pi series of single-board computer devices.
 
 #### Q2: What kind of software will we be using for this internship?
 
@@ -45,7 +45,7 @@
 
 #### Q6: What happens after the initial steps?
 
-+ The initial steps are meant to introduce potential interns to the Treehouses system and begin assigning you assignments! To be more clear: the initial 10 steps are a vetting process to determine whether or not people are fit for the internship, so consider it an interview for the internship. Once you have completed the 10 steps and are approved, you have officially joined the OLE interns team! We’ll add you to the interns Gitter chatroom and assign you to a team. You and your team will be working on an assignment, and we’ll switch up the assignments each week.
++ The initial steps are meant to introduce potential interns to the treehouses system and begin assigning you assignments! To be more clear: the initial 10 steps are a vetting process to determine whether or not people are fit for the internship, so consider it an interview for the internship. Once you have completed the 10 steps and are approved, you have officially joined the OLE interns team! We’ll add you to the interns Gitter chatroom and assign you to a team. You and your team will be working on an assignment, and we’ll switch up the assignments each week.
 
 #### Q7: If I'm an international student, how soon can I get my paperwork required by my visa?
 

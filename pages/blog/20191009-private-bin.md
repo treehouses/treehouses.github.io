@@ -4,7 +4,7 @@ Oct 09, 2019 • [hiroTochigi](https://www.github.com/hiroTochigi)
 
 ---
 
-This tutorial lets you install Privatebin on your Raspberry Pi via a Treehouses image. The Treehouses image already has Tor Hidden Service and Docker so you can easily configure Privatebin on your Raspberry Pi through your Onion Server with Docker. You can use Privatebin through your Tor Browser with your Onion address. Also, you can learn a simple example of a way to use Docker and a configuration of the installed software on your Onion address.
+This tutorial lets you install Privatebin on your Raspberry Pi via a treehouses image. The treehouses image already has Tor Hidden Service and Docker so you can easily configure Privatebin on your Raspberry Pi through your Onion Server with Docker. You can use Privatebin through your Tor Browser with your Onion address. Also, you can learn a simple example of a way to use Docker and a configuration of the installed software on your Onion address.
 
 ### Prerequisite 
 * Raspberry Pi with treehouses

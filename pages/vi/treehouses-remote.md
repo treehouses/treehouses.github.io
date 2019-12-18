@@ -22,7 +22,7 @@ The app may ask for your device location, feel free to decline.
 
 1. Once you have connected to your Raspberry Pi, tap the menu button on the top left of your screen to view a whole host of options to interact with your Raspberry Pi.
 1. Go to Terminal
-    * Just like a computer terminal, the Treehouses Remote app allows you to interact with your Raspberry Pi using CLI (command line interface)
+    * Just like a computer terminal, the treehouses Remote app allows you to interact with your Raspberry Pi using CLI (command line interface)
 1. In the Terminal window type `treehouses detectrpi` and "send" it 
     * You can also access this command without writing: tap the `Commands` button at the top right of your screen to display a set of pre-entered commands you can use.
   

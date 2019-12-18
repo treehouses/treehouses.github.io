@@ -44,4 +44,4 @@ _**NOTE:**_ The latest image will be at the bottom of the download page and will
 1. Connect the power cable, and if your device has a power switch, turn it on.
     * A red "power" LED should turn on.
 
-## Next Section: [Using Treehouses Remote](treehouses-remote.md)
+## Next Section: [Using treehouses Remote](treehouses-remote.md)

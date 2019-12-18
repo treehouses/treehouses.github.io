@@ -1,9 +1,9 @@
-# Initial Steps to Get Started with Treehouses
-Welcome to treehouses. This is our system allowing us to share our different learning platforms via the Rasperry Pi series of single-board computer devices. Here is a quick start for interacting your Raspberry Pi with Treehouses Remote.
+# Initial Steps to Get Started with treehouses
+Welcome to treehouses. This is our system allowing us to share our different learning platforms via the Rasperry Pi series of single-board computer devices. Here is a quick start for interacting your Raspberry Pi with treehouses Remote.
 ## Step 1: Image Download and Burn
 Assuming you have an Android device and/or using an Android simulator; here is the way to go about it:
 Download the latest version of treehouses image [here](http://download.treehouses.io/) and burn it with [etcher](https://www.balena.io/etcher/). Once burned put your microsd card into your raspberry pi 
-## Step 2: Treehouses Remote App
+## Step 2: treehouses Remote App
 With your android device download [treehouses remote](https://play.google.com/store/apps/details?id=io.treehouses.remote). 
 ## Step 3: Bluetooth Pairing
 After installing it, get into your bluetooth settings and pair your system with your Raspberry Pi (optional).

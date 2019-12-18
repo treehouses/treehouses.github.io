@@ -6,7 +6,7 @@
 
 As a system's engineer you may need to work with the [treehouses cli](https://github.com/treehouses/cli) (command line interface). 
 
-Here are step by step instructions on how to review Pull Resquests (PR) for the Treehouses/CLI repository.
+Here are step by step instructions on how to review Pull Resquests (PR) for the treehouses/CLI repository.
 
 ## Step 1: Check the pull request title and description
 

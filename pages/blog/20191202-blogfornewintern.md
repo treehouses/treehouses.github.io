@@ -55,7 +55,7 @@ We recommend you follow this basic daily routine:
 1. [Check gitter chat](https://gitter.im/treehouses/Lobby)
 1. Review any issues or pull requests that have been added or changed on [treehouses.github.io](https://github.com/treehouses/treehouses.github.io) since the last time you reviewed.
 1. Make pull requests as early as possible so you can get feedback as you work.
-1. Join the Google hangout sessions at [http://talk.ole.org]( http://talk.ole.org). At the Hangout meeting, we will discuss our projects. If you have any questions, you can also ask the team at the meeting. For the Treehouses meeting, we have three sessions which are ...
+1. Join the Google hangout sessions at [http://talk.ole.org]( http://talk.ole.org). At the Hangout meeting, we will discuss our projects. If you have any questions, you can also ask the team at the meeting. For the treehouses meeting, we have three sessions which are ...
 • Happy Hacking Hangout on Monday
 • Raspberry Pi Hangout on Wednesday
 • Secret Hacking Hangout on Friday
