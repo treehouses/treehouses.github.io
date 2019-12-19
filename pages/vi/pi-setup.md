@@ -35,7 +35,8 @@ After getting your microSD cards and card reader/adapter, your first step will b
     * Select the microSD card you have just inserted 
     * Click "Flash!".  The process will take approximately 10 minutes to complete.
 1. Once it's done burning, you can view the contents in the `boot` partition of your microSD card using a file explorer.
-1. Unmount and safely eject the microSD card from your computer. 
+1. Unmount and safely eject the microSD card from your computer.
+
 **NOTE:** If you run into any issues with flashing, to try and update Etcher.
 
 ### Powering on the Raspberry Pi:
