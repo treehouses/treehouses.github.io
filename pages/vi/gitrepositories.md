@@ -218,14 +218,7 @@ If you would like to understand how syncing with the fork works, here is a usefu
 [Git-it Workshop](http://jlord.us/git-it/) - Runs in your terminal to work and provides a hands-on approach to learn Git and GitHub repositories.
 [Git help](https://git-scm.com/) - An encyclopedia of useful git workflows and terminology explanations.
 [Other helpful links and videos](faq.md#Helpful_Links)
-
-## You Earned It! (The Git Gooey Section)
 [List of Git GUI's](https://git-scm.com/downloads/guis)
-Windows (Recommended): [TortoiseGit](https://tortoisegit.org/)
-Linux (Recommended): [RabbitVCS](http://rabbitvcs.org/)
-Have you ever wanted to Sync your Fork in a single click?
-Now you can with [UpRiver](https://upriver.github.io/)!
-
 
 ## Next Section _(Step 6)_ **→**
 
