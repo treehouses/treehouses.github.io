@@ -217,8 +217,9 @@ If you would like to understand how syncing with the fork works, here is a usefu
 [GitHub's Git Tutorial](https://try.github.io/) - An interactive tutorial to learn GitHub in the browser.
 [Git-it Workshop](http://jlord.us/git-it/) - Runs in your terminal to work and provides a hands-on approach to learn Git and GitHub repositories.
 [Git help](https://git-scm.com/) - An encyclopedia of useful git workflows and terminology explanations.
+[Git GUIs](https://git-scm.com/downloads/guis) - Git Graphical User Interfaces
 [Other helpful links and videos](faq.md#Helpful_Links)
-[List of Git Graphical User Interfaces](https://git-scm.com/downloads/guis)
+
 
 ## Next Section _(Step 6)_ **→**
 
