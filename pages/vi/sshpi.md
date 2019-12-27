@@ -99,7 +99,7 @@ Install [Tor](https://www.torproject.org/download/)
 
 To activate Tor, SSH into your Raspberry Pi with `root`, and run `treehouses tor add 22`, `treehouses tor add 80`, and `treehouses tor notice on`.  To view the Tor address of your Pi, run `treehouses tor`, then copy-paste this address into your Tor Browser, to make sure it works; you should see a configuration page for Planet Learning, one of our other services.
 
---------------------------------------------------------------
+---
 #### At the end of this section, post the code of your successful SSH terminal to the [Gitter chat](https://gitter.im/treehouses/Lobby)
 
 It may look like this:
@@ -120,9 +120,9 @@ Last login: Thu Aug 22 23:20:37 2019 from unknown.comcast.net
 root@treehouses:~#
 ```
 
---------------------------------------------------------------
+---
 
 You can find instructions on Code and Syntax Highlighting [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code-and-syntax-highlighting)
 
-
-#### Return to [First Steps](firststeps.md#)
+---
+#### Return to [First Steps](firststeps.md#Step_2_-_Use_SSH_and_Tor_to_remotely_control_your_Raspberry_Pi)

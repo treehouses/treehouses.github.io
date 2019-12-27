@@ -98,5 +98,5 @@ Once you reach this page, send a screenshot of the window (including the URL) in
 
 After you have created an admin account and logged in, you can play around with the settings, add users, install apps to augment your Nextcloud experience, and more.  As long as your Raspberry Pi is connected to internet, and the Docker container is running, you will be able to access Nextcloud through the same Tor address (if you forget it, you can always ssh into your Pi and run `treehouses tor`).
 
-
-[Return to First Steps](firststeps.md)
+---
+#### Return to [First Steps](firststeps.md#Step_7_-_other_Services_running_from_a_Raspberry_Pi)

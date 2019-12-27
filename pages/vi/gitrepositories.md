@@ -219,15 +219,5 @@ If you would like to understand how syncing with the fork works, here is a usefu
 [Git help](https://git-scm.com/) - An encyclopedia of useful git workflows and terminology explanations.
 [Other helpful links and videos](faq.md#Helpful_Links)
 
-## You Earned It! (The Git Gooey Section)
-[List of Git GUI's](https://git-scm.com/downloads/guis)
-Recommended: [Git Extensions](https://sourceforge.net/projects/gitextensions/) (cross-platform)
-Have you ever wanted to Sync your Fork in a single click?
-Now you can with [UpRiver](https://upriver.github.io/)!
-
-
-## Next Section _(Step 6)_ **→**
-
-In the next section, you will learn the process for creating and resolving issues with GitHub.
-
-#### Return to [First Steps](firststeps.md#)
+---
+#### Return to [First Steps](firststeps.md#Step_5_-_Keeping_Fork_Updated)
