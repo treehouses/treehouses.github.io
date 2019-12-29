@@ -130,7 +130,7 @@ Finally, click "Create pull request" button and post the link to your github.io 
 Remember, it can take a while for `https://YourUserName.github.io` to be up and running, so don't worry if you see a **404** when you access the link!
 
 
-Someone from our team will review the changes and notify you on gitter. Often there will be some feedback from the reviewer for you to address. If that is the case, go to your pull request first, then select "files changed" --> next select "..." on the top right --> select "Edit File" --> make the required changes --> scroll down and select "commit" on the pull request when done. Any changes you make to your branch will be automatically updated in the pull request. Once you get 3 approving reviews, we will merge your Markdown profile with the main repository.
+Someone from our team will review the changes and notify you on gitter. Often there will be some feedback from the reviewer for you to address. If that is the case, go to your pull request first then select "files changed" --> next select "..." on the top right --> select "Edit File" --> make the required changes --> scroll down and select "commit" on the pull request when done. Any changes you make to your branch will be automatically updated in the pull request. Once you get 3 approving reviews, we will merge your Markdown profile with the main repository.
 
 After the pull request is merged, you'll be able to see your personal page at `treehouses.github.io/#!pages/vi/profiles/<YourUserName>.md`. Let us know in the [gitter.im chat](https://gitter.im/treehouses/Lobby) after you complete this step.
 
