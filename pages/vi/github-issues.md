@@ -160,7 +160,5 @@ This is an exercise to help you familiarize with GitHub issues, committing, and 
 [Helpful links and videos](faq.md#Helpful_Links)
 [How to Contribute to Open Source](https://opensource.guide/how-to-contribute/)
 
-
-
-
-#### Return to [First Steps](firststeps.md)
+---
+#### Return to [First Steps](firststeps.md#Step_6_-_GitHub_Issues_Tutorial)

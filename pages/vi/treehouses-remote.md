@@ -40,4 +40,6 @@ The app may ask for your device location, feel free to decline.
 **NOTE:** The time it takes to reboot is about 2-4 minutes.
 
 **NOTE:** You will need to unpair, re-pair, and restart your phone evey time you use a new image version.
-## Next Section: [Finding your Pi](find-pi.md)
+
+---
+#### Next Section: [Finding your Pi](find-pi.md)
