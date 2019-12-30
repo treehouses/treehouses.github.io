@@ -149,4 +149,5 @@ After the pull request is merged, you'll be able to see your personal page at `t
 
 [Other helpful links and videos](faq.md#Helpful_Links)
 
-#### Return to [First Steps](firststeps.md)
+---
+#### Return to [First Steps](firststeps.md#Step_3_-_Markdown_and_Fork_Tutorial)

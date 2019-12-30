@@ -45,4 +45,5 @@ After getting your microSD cards and card reader/adapter, your first step will b
 1. Connect the power cable, and if your device has a power switch, turn it on.
     * A red "power" LED should turn on.
 
-## Next Section: [Using Treehouses Remote](treehouses-remote.md)
+---
+#### Next Section: [Using Treehouses Remote](treehouses-remote.md)

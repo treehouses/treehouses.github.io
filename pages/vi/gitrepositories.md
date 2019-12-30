@@ -225,4 +225,6 @@ If you would like to understand how syncing with the fork works, here is a usefu
 
 In the next section, you will learn the process for creating and resolving issues with GitHub.
 
-#### Return to [First Steps](firststeps.md#)
+---
+#### Return to [First Steps](firststeps.md#Step_5_-_Keeping_Fork_Updated)
+

@@ -86,5 +86,5 @@ Your phone and your Raspberry Pi have to be on the same network, so connect your
 
 When you open the Fing app, touch the refresh button in the upper right-hand corner of the screen. After a few seconds you will get a list with all the devices connected to your network. Scroll down to the entry with the name "treehouses". You will see the IP address in the bottom left-hand corner, and the MAC address in the bottom right-hand corner of the entry.
 
-
-## Return to [First Steps](firststeps.md)
+---
+#### Return to [First Steps](firststeps.md#Step_1_-_Installing_and_finding_your_Raspberry_Pi)
