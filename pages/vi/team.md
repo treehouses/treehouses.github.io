@@ -16,5 +16,6 @@
 |[kjong](profiles/kjong.md)|2019-10-28|
 |[Nida8930](profiles/Nida8930.md)|2019-11-12|
 |[Dun08015](profiles/dun08015.md)|2019-12-18|
+|[LordJashin32](profiles/LordJashin32.md)|2020-01-01|
 
 To view the list of former interns, go to [former members page](retiredinterns.md).
