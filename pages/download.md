@@ -12,8 +12,22 @@ The **main features** of treehouses-powered Raspberry Pi image are:
   * **[Kolibri](https://github.com/treehouses/kolibri)**
 * **Bluetooth Remote Server, and many more** 😀
 
+## Download Image
 
-**Officially Supported Models:**
+![treehouses](https://avatars1.githubusercontent.com/u/33208073?size=75)
+* **[DOWNLOAD LATEST IMAGES](http://dev.ole.org/latest.img.gz)**
+  * **[treehouses-116.img.gz](http://download.treehouses.io/treehouse-116.img.gz)**
+  * **[treehouses-115.img.gz](http://download.treehouses.io/treehouse-115.img.gz)**
+  * **[treehouses-114.img.gz](http://download.treehouses.io/treehouse-114.img.gz)**
+* **[DOWNLOAD OLDER IMAGES](http://download.treehouses.io/)**
+
+## Run into problems?
+
+Our customized image is under active development and might have some minor flaws.  
+Spot any issues? Create an issue in our GitHub repository **[treehouses/builder](https://github.com/treehouses/builder/issues)**.
+
+## Officially Supported Models
+
 ```
 rpimodels["Beta"]="BETA"
   rpimodels["0002"]="RPIB"
@@ -54,16 +68,3 @@ rpimodels["Beta"]="BETA"
   rpimodels["c03111"]="RPI4B" # 4gb
   rpimodels["c03112"]="RPI4B" # 4gb
 ```
-## Download Image
-
-![treehouses](https://avatars1.githubusercontent.com/u/33208073?size=75)
-**[DOWNLOAD LATEST IMAGE](http://dev.ole.org/latest.img.gz)**
-**[treehouses-116.img.gz](http://download.treehouses.io/treehouse-116.img.gz)**
-**[treehouses-115.img.gz](http://download.treehouses.io/treehouse-115.img.gz)**
-**[treehouses-114.img.gz](http://download.treehouses.io/treehouse-114.img.gz)**
-**[DOWNLOAD OLDER IMAGES](http://download.treehouses.io/)**
-
-## Run into problems?
-
-Our customized image is under active development and might have some minor flaws.  
-Spot any issues? Create an issue in our GitHub repository **[treehouses/builder](https://github.com/treehouses/builder/issues)**.
