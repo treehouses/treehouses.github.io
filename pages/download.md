@@ -14,7 +14,7 @@ We recommend **[Etcher](https://www.balena.io/etcher/)** to write our images to 
 * **Bluetooth Remote Server, and many more** 😀
 
 
-## Downloads
+### Downloads
 
 * **[![treehouses](https://avatars1.githubusercontent.com/u/33208073?size=25)Latest Image](http://dev.ole.org/latest.img.gz)**
   * **[![treehouses](https://avatars1.githubusercontent.com/u/33208073?size=25)treehouses-116.img.gz](http://download.treehouses.io/treehouse-116.img.gz)**
@@ -23,13 +23,13 @@ We recommend **[Etcher](https://www.balena.io/etcher/)** to write our images to 
 * **[![treehouses](https://avatars1.githubusercontent.com/u/33208073?size=25)Past Versions](http://download.treehouses.io/)**
 
 
-## Run into problems?
+### Run into problems?
 
 Our customized image is under active development and might have some minor flaws.  
 Spot any issues? Create an issue in our GitHub repository **[treehouses/builder](https://github.com/treehouses/builder/issues)**.
 
 
-## Officially Supported Models
+#### Officially Supported Models
 
 
 ```
