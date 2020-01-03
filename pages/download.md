@@ -1,10 +1,10 @@
 ## treehouses
 
 
-**treehouses** is **[OLE's](http://www.ole.org/)** officially supported operating system image based on **[Raspbian](https://www.raspberrypi.org)**.
-We recommend **[Etcher](https://www.balena.io/etcher/)** to write the image to your micro SD card.
+**[OLE's](http://www.ole.org/)** officially supported operating system image based on **[Raspbian](https://www.raspberrypi.org)**.
+We recommend **[Etcher](https://www.balena.io/etcher/)** to write our images to your micro SD card.
 
-The **main features** of treehouses-powered Raspberry Pi image are:
+**Main features** of *treehouses-powered* Raspberry Pi image are:
 
 * **Docker-ready**
 * **Educational applications that are only a few commands away**
@@ -16,13 +16,11 @@ The **main features** of treehouses-powered Raspberry Pi image are:
 
 ## Download Image
 
-![treehouses](https://avatars1.githubusercontent.com/u/33208073?size=125)
-
-* **[Download Latest Images](http://dev.ole.org/latest.img.gz)**
-  * **[treehouses-116.img.gz](http://download.treehouses.io/treehouse-116.img.gz)**
-  * **[treehouses-115.img.gz](http://download.treehouses.io/treehouse-115.img.gz)**
-  * **[treehouses-114.img.gz](http://download.treehouses.io/treehouse-114.img.gz)**
-* **[Download Older Images](http://download.treehouses.io/)**
+* **[![treehouses](https://avatars1.githubusercontent.com/u/33208073?size=25)Download Latest Images](http://dev.ole.org/latest.img.gz)**
+  * **[![treehouses](https://avatars1.githubusercontent.com/u/33208073?size=25)treehouses-116.img.gz](http://download.treehouses.io/treehouse-116.img.gz)**
+  * **[![treehouses](https://avatars1.githubusercontent.com/u/33208073?size=25)treehouses-115.img.gz](http://download.treehouses.io/treehouse-115.img.gz)**
+  * **[![treehouses](https://avatars1.githubusercontent.com/u/33208073?size=25)treehouses-114.img.gz](http://download.treehouses.io/treehouse-114.img.gz)**
+* **[![treehouses](https://avatars1.githubusercontent.com/u/33208073?size=25)Download Older Images](http://download.treehouses.io/)**
 
 
 ## Run into problems?
