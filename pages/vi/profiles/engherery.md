@@ -16,4 +16,4 @@
 
 3. #### Master in Computer Science from Kampala International Univeristy
  
-###### You can contact me through : herery@mu.edu.so
+###### You can contact me through : ***herery@mu.edu.so***
