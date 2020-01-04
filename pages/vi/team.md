@@ -4,8 +4,7 @@
 
 |**Username**|**Join Date**|
 |------------|-------------|
-|**➤ Interns**||
-
+|**➤ Interns**|
 |[![ArranHL](http://github.com/ArranHL.png?size=25)ArranHL](profiles/ArranHL.md)|2019-06-17|
 |[![hiroTochigi](https://avatars1.githubusercontent.com/u/33208073?s=25)hiroTochigi](profiles/hiroTochigi.md)|2019-06-29|
 |[![Irisb1701](https://avatars1.githubusercontent.com/u/33208073?s=25)Irisb1701](profiles/irisb1701.md)|2019-07-03|
