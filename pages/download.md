@@ -13,13 +13,12 @@ We recommend **[Etcher](https://www.balena.io/etcher/)** to write our images to 
 * **[![treehouses](https://avatars1.githubusercontent.com/u/33208073?size=25)Past Versions](http://download.treehouses.io/)**
 
 **Main features** of *treehouses-powered* Raspberry Pi image are:
-
-* **Docker-ready**
 * **Educational applications that are only a few commands away**
   * **[Planet](https://github.com/open-learning-exchange/planet/)**
   * **[Moodle](https://github.com/treehouses/moodole)**
   * **[Kolibri](https://github.com/treehouses/kolibri)**
-* **Bluetooth Remote Server, and many more** 😀
+* **Docker-ready**
+* **Bluetooth Remote Server, and many more**
 
 
 ### Run into problems?
