@@ -217,10 +217,9 @@ If you would like to understand how syncing with the fork works, here is a usefu
 [GitHub's Git Tutorial](https://try.github.io/) - An interactive tutorial to learn GitHub in the browser.
 [Git-it Workshop](http://jlord.us/git-it/) - Runs in your terminal to work and provides a hands-on approach to learn Git and GitHub repositories.
 [Git help](https://git-scm.com/) - An encyclopedia of useful git workflows and terminology explanations.
+[Git GUIs](https://git-scm.com/downloads/guis) - A list of Git Graphical User Interfaces and what platforms they work for.
 [Other helpful links and videos](faq.md#Helpful_Links)
 
-## Next Section _(Step 6)_ **→**
 
-In the next section, you will learn the process for creating and resolving issues with GitHub.
-
-#### Return to [First Steps](firststeps.md#)
+---
+#### Return to [First Steps](firststeps.md#Step_5_-_Keeping_Fork_Updated)

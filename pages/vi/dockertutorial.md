@@ -111,3 +111,6 @@ Compose is a tool for defining and running multi-container Docker applications. 
 
 **NOTE**: At the end of this step, when you have completed all the sections and executed the `docker-compose --version` command go to the Gitter [chat](https://gitter.im/treehouses/Lobby) and post which version of docker you are running.
 " @/all I'm on step 4 - Docker Tutorial, I am running `docker version` and `docker compose version` "
+
+---
+#### Return to [First Steps](firststeps.md#Step_4_-_System_Tutorial)
