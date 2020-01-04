@@ -14,9 +14,11 @@ We recommend **[Etcher](https://www.balena.io/etcher/)** to write our images to 
 
 ### treehouses remote 
 
-App to remote control a raspberry pi over bluetooth with treehouses.
-[Google Play Store Link](https://play.google.com/store/apps/details?id=io.treehouses.remote)
-![remote](https://lh3.googleusercontent.com/nqnUXI5Vmlxr7AeHI2pBKuZE4JSfKqCtDA1w0rkX9khGSekxNnZRMkRZXdmbnQpq9_E=w720-h310-rw)
+[Android App](https://play.google.com/store/apps/details?id=io.treehouses.remote) to remote control a raspberry pi over bluetooth with the custom raspbian treehouses images.
+
+
+* [![remote](https://lh3.googleusercontent.com/nqnUXI5Vmlxr7AeHI2pBKuZE4JSfKqCtDA1w0rkX9khGSekxNnZRMkRZXdmbnQpq9_E=w720-h310-rw)](https://play.google.com/store/apps/details?id=io.treehouses.remote)
+ 
 
 **Main features** of *treehouses-powered* Raspberry Pi image are:
 
