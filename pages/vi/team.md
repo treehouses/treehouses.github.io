@@ -6,10 +6,8 @@
 |------------|-------------|
 |**➤ Interns**||
 |[![](https://avatars1.githubusercontent.com/u/33208073?s=25)](http://github.com/ArranHL)[ArranHL](profiles/ArranHL.md)|2019-06-17|
-
 |[![](https://avatars1.githubusercontent.com/u/33208073?s=25)](http://github.com/hiroTochigi)[hiroTochigi](profiles/hiroTochigi.md)|2019-06-29|
 |[![](https://avatars1.githubusercontent.com/u/33208073?s=25)](http://github.com/Irisb1701)[Irisb1701](profiles/irisb1701.md)|2019-07-03|
-
 |[![](https://avatars1.githubusercontent.com/u/33208073?s=25)](http://github.com/CalebProvost)[CalebProvost](profiles/CalebProvost.md)|2019-09-04|
 |[![](https://avatars1.githubusercontent.com/u/33208073?s=25)](http://github.com/AnPham)[AnPham](profiles/phamduchongan93.md)|2019-09-07|
 |[![](https://avatars1.githubusercontent.com/u/33208073?s=25)](http://github.com/vmnet8)[vmnet8](profiles/vmnet8.md)|2019-09-11|
