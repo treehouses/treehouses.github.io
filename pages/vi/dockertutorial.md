@@ -52,7 +52,23 @@ No matter your distribution of choice, you’ll need a 64-bit installation and a
 Please find your distro at https://docs.docker.com/install/#server and follow the guide to install Docker CE.
 
 
-Check your current Linux version with `uname -r` . You should see something like `3.10.[alphanumeric string].x86_64` or `4.19.43-microsoft-standard` for a windows based Linux system.
+Check your current Linux version with `hostnamectl` . Something like this will be in the terminal output:
+
+```  
+    Static hostname: <your_host_name_here>
+    Icon name: computer-laptop
+    Chassis: laptop
+    Machine ID: <your_machine_id_here>
+    Boot ID: <your_boot_id_here>
+    Operating System: Ubuntu 18.04.3 LTS 
+    Kernel: Linux 4.15.0-70-generic
+    Architecture: x86-64
+```  
+
+You can also use `cat /etc/os-release` or `lsb_release -a`.  
+Any of these three commands will tell you the information you need.
+
+You may need to use `uname -r`.  If using a windows based linux system.  You should see something like this `4.19.4-microsoft-standard`.
 
 
 #### For:
@@ -95,3 +111,6 @@ Compose is a tool for defining and running multi-container Docker applications. 
 
 **NOTE**: At the end of this step, when you have completed all the sections and executed the `docker-compose --version` command go to the Gitter [chat](https://gitter.im/treehouses/Lobby) and post which version of docker you are running.
 " @/all I'm on step 4 - Docker Tutorial, I am running `docker version` and `docker compose version` "
+
+---
+#### Return to [First Steps](firststeps.md#Step_4_-_System_Tutorial)

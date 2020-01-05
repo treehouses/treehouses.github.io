@@ -30,11 +30,16 @@ The app may ask for your device location, feel free to decline.
     * Here we are preparing to get internet access
 1. Reboot the system by entering the command `reboot` and go back to the home screen to re-connect to your Pi
 1. Back in the terminal type `treehouses bridge "wifiname" treehouses "wifipassword"`, and replace `wifiname` with the name of your wifi network, and `wifipassword` with the password.
+
+**NOTE:** If you want to add a password to the treehouses hotspot, enter the command exactly as above being sure to add a custom hotspot password after your wifi password.
+
 1. Reboot once again
 
 #### Congrats, you have just connected your Raspberry Pi! 
 
 **NOTE:** The time it takes to reboot is about 2-4 minutes.
 
-**Note for later:** You will need to unpair and re-pair eveytime you use a new Image version
-## Next Section: [Finding your Pi](find-pi.md)
+**NOTE:** You will need to unpair, re-pair, and restart your phone evey time you use a new image version.
+
+---
+#### Next Section: [Finding your Pi](find-pi.md)

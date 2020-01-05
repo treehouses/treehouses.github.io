@@ -23,7 +23,7 @@ After getting your microSD cards and card reader/adapter, your first step will b
 1. Go to http://download.treehouses.io
 1. Scroll down to find the latest release, and download it to your computer.
 
-_**NOTE:**_ The latest image will be at the bottom of the download page and will have the format _treehouses-xxx.img.gz_ where _xxx_ is the version number.
+**NOTE:** The latest image will be at the bottom of the download page and will have the format _treehouses-xxx.img.gz_ where _xxx_ is the version number.
 
 ### Burning the treehouses image onto the microSD card:
 ![](images/etcher.gif)
@@ -35,8 +35,9 @@ _**NOTE:**_ The latest image will be at the bottom of the download page and will
     * Select the microSD card you have just inserted 
     * Click "Flash!".  The process will take approximately 10 minutes to complete.
 1. Once it's done burning, you can view the contents in the `boot` partition of your microSD card using a file explorer.
-1. Unmount and safely eject the microSD card from your computer. 
+1. Unmount and safely eject the microSD card from your computer.
 
+**NOTE:** If you run into any issues with flashing, to try and update Etcher.
 
 ### Powering on the Raspberry Pi:
 1. With the Raspberry Pi still off, insert the microSD card into the card reader on the bottom. 
@@ -44,4 +45,5 @@ _**NOTE:**_ The latest image will be at the bottom of the download page and will
 1. Connect the power cable, and if your device has a power switch, turn it on.
     * A red "power" LED should turn on.
 
-## Next Section: [Using Treehouses Remote](treehouses-remote.md)
+---
+#### Next Section: [Using Treehouses Remote](treehouses-remote.md)

@@ -120,3 +120,6 @@ or not commonly used. To see all subcommands, run the command
 [Vagrant download](https://www.vagrantup.com/downloads.html)
 [Wikipedia page on Vagrant](https://en.wikipedia.org/wiki/Vagrant_%28software%29)
 [Other helpful links and videos](vi-faq.md#Helpful_Links)
+
+---
+#### Return to [First Steps](firststeps.md#Step_4_-_System_Tutorial)

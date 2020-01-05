@@ -46,12 +46,13 @@ This is a security risk - please login as the 'pi' user and type 'passwd' to set
 
 pi@treehouses:~ $
 ```
+**NOTE**: Every time you use a new image on your RPI, the `known_hosts` file must be updated for ssh to connect without an error. Instructions can be found on the [FAQ](https://treehouses.io/#!pages/vi/faq.md) page.
 
 ### Add ssh key to the Raspberry Pi
 
 To add your SSH key to your Raspberry Pi you first need to copy your public key. Since you did copy this same key to already github you can see it by navigating with your browser to `https://github.com/<yourgithubusername>.keys` or by running linux/macosx from command line you can run `wget -O- -q https://github.com/<yourgithubusername>.keys`.
 
-Now you can add the public key to run: `sudo treehouses sshkey add "your SSH key"` (copy-paste your SSH key in between the quotes) or just `sudo treehouse sshkey addgithubuser <yourgithubusername>`.
+Now you can add the public key to run: `sudo treehouses sshkey add "your SSH key"` (copy-paste your SSH key in between the quotes) or just `sudo treehouses sshkey addgithubuser <yourgithubusername>`.
 
 In the future on ssh login it will ask you for your sshkey passphrase where as before used the default password for pi user "raspberry".
 
@@ -98,7 +99,7 @@ Install [Tor](https://www.torproject.org/download/)
 
 To activate Tor, SSH into your Raspberry Pi with `root`, and run `treehouses tor add 22`, `treehouses tor add 80`, and `treehouses tor notice on`.  To view the Tor address of your Pi, run `treehouses tor`, then copy-paste this address into your Tor Browser, to make sure it works; you should see a configuration page for Planet Learning, one of our other services.
 
---------------------------------------------------------------
+---
 #### At the end of this section, post the code of your successful SSH terminal to the [Gitter chat](https://gitter.im/treehouses/Lobby)
 
 It may look like this:
@@ -119,9 +120,9 @@ Last login: Thu Aug 22 23:20:37 2019 from unknown.comcast.net
 root@treehouses:~#
 ```
 
---------------------------------------------------------------
+---
 
 You can find instructions on Code and Syntax Highlighting [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code-and-syntax-highlighting)
 
-
-#### Return to [First Steps](firststeps.md#)
+---
+#### Return to [First Steps](firststeps.md#Step_2_-_Use_SSH_and_Tor_to_remotely_control_your_Raspberry_Pi)

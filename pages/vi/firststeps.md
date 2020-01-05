@@ -13,32 +13,42 @@ The goal of OLE is to provide educational infrastructure to learners and educato
 
 **NOTE**: This is an unpaid but intensive internship that requires 16 hours of work each week. More information about the internship can be found in our [FAQ](faq.md#General_Internship_Questions). If you have further questions, don’t hesitate to ask other members in the Gitter [chat](https://gitter.im/treehouses/Lobby)!
 
-## Pre-Requisites
-### Hardware requirement:
+# Pre-Requisites
+
+## Required Prerequisites
+The following are required hardware components that will be needed as part of the Virtual Intern placement. Software solutions such as containers are used by the Treehouses team to ensure that the solutions we develop work across computers and locations. However as part of the Systems team, you will need some basic hardware of your own to make sure you can run, test and contribute to the software that the team is developing.
+
+### Hardware requirements:
+
 1.  Raspberry Pi 4 ([Pi 4 information](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/))
 	- Any amount of RAM will work, but more is better.
 	- Raspberry Pi 3B/3B+ also work, but Pi 4 is recommended
-2.  Power supply for the Pi
+1.  Power supply for the Pi
 	- Pi 4: minimum 3.0A, Standard USB-C port
 	- Pi 3B/3B+: minimum 2.5A, Micro USB port
-3.  3 microSD cards
+1.  3 microSD cards
 	- Minimum 16GB
 	- U1 or Class 10 required
-4.  MicroSD card reader
+1.  MicroSD card reader
 	- You will need a USB reader if your computer doesn't have an SD card slot
-5.  Ethernet cable
-6.  Laptop or computer with minimum 8GB of RAM
-7.  Android device (phone or tablet)
+1.  Laptop or computer with minimum 8GB of RAM
+1.  Android device (phone or tablet)
 	- Memory (Ram): Minimum 2GB
 	- Operating System: Suggested Android 8 (Oreo) (minimum Android 6)
-8. Optional: [Real Time Clock (rtc)]("https://www.amazon.com/s?k=raspberry+pi+rtc")
-9. Optional: [Raspberry Pi 0W]("https://www.raspberrypi.org/products/raspberry-pi-zero-w/").
-10. Optional: Raspberry pi Camera(s):
-	- [Raspberry Pi Camera]("https://www.raspberrypi.org/products/camera-module-v2/")
-	- [Raspberry Pi Night Vision Camera]("https://www.raspberrypi.org/products/pi-noir-camera-v2/")
-	- [generic Raspberry Pi 5 Megapixel Camera]("https://www.amazon.com/AuviPal-Megapixels-Raspberry-Camera-Module/dp/B07PQ63D2S/")
-11.  Optional: USB keyboard, mouse, monitor, and HDMI cable.
+	
+	`NOTE: You can purchase all of these components together for your convenience (or if there are discounts) on places such as Amazon, Ebay etc... 
+	
+## Optional Hardware
+There are also "optional" pieces of hardware that you can choose to purchase should you choose to, these are not compulsory for participation in the internship but may greatly assist you in developing your skills and contributing to the project. 
 
+1. Ethernet cable - For Direct connection and troublshooting of the Pi
+1. Optional: [Real Time Clock (rtc)](https://www.amazon.com/s?k=raspberry+pi+rtc)
+1. Optional: [Raspberry Pi 0W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/).
+1. Optional: Raspberry pi Camera(s):
+	- [Raspberry Pi Camera](https://www.raspberrypi.org/products/camera-module-v2/)
+	- [Raspberry Pi Night Vision Camera](https://www.raspberrypi.org/products/pi-noir-camera-v2/)
+	- [generic Raspberry Pi 5 Megapixel Camera](https://www.amazon.com/AuviPal-Megapixels-Raspberry-Camera-Module/dp/B07PQ63D2S/)
+1. Optional: USB keyboard, mouse, monitor, and HDMI cable.
 
 ---
 
@@ -65,7 +75,7 @@ There is no official deadline to complete these steps, but most candidates who a
 
 In GitHub, we "[Watch](https://help.github.com/en/articles/watching-and-unwatching-repositories)" organization repositories and ["Follow"](https://help.github.com/en/articles/following-people) individuals. Look for the "Watch" button at the top right of the page when you are in a repository.  Also, follow each other to see what others in the group are doing. (Click on the image to enlarge.)   
 
-### Setting up your environmnent
+### Setting up your environment
 
 We interact with the Raspberry Pi via a command terminal which is natively available for both Mac and Linux based systems. If however you are on a Windows device, [Git Bash](https://git-scm.com/download/win) is highly recommended.
 

@@ -28,7 +28,7 @@ The following resources can be used (and bookmarked) to familiarize yourself wit
 - [Markdown Interactive Tutorial](http://www.markdowntutorial.com/lesson/1/) - Another awesome interactive tutorial to experiment and learn more Markdown syntax.
 
 **NOTE**:
-• **If you have not used Markdown before, we recommend you to go through at least one of the tutorials/guides.** 
+• **If you have not used Markdown before, we recommend you to go through at least one of the tutorials/guides.**
 
 
 ## Start Here
@@ -106,11 +106,12 @@ When you are finished, press 'commit changes' below.
 
 If you need to edit your file again, click the pencil icon to edit.
 
-Now, check what this looks like on your own page `https://raw.githack.com/YourUserName/YourUserName.github.io/YourBranchName/#!pages/vi/profiles/YourUserName.md`. The raw.githack link allows reviewers to preview your changes. Please double check that everything looks good and is working as you hoped before moving on to next section.
+Now, check what this looks like on your own page `https://raw.githack.com/YourUserName/YourUserName.github.io/YourBranchName/#!pages/vi/profiles/YourUserName.md`. The [raw.githack](https://raw.githack.com/) link allows reviewers to preview your changes. Please double check that everything looks good and is working as you hoped before moving on to next section.
 
 **NOTE**:
 • If you don't see any changes in your page after editing your file then you need to clear your browser's cache or open your page in your browser's **"incognito"** or **"privacy"** mode. You can also press Ctrl+Shift+R or Ctrl+F5 to reload the page with cache cleared.
 • As MDwiki site is what we use for "production," please **always check** if everything renders as you expected using raw.githack link. There are [different flavors of Markdown](https://github.com/commonmark/CommonMark/wiki/Markdown-Flavors). Use GitHub's preview tab for reference only.
+• The [raw.githack](https://raw.githack.com/) link is different from the raw link available on Github page.
 
 
 ### Open a pull request
@@ -130,7 +131,7 @@ Finally, click "Create pull request" button and post the link to your github.io 
 Remember, it can take a while for `https://YourUserName.github.io` to be up and running, so don't worry if you see a **404** when you access the link!
 
 
-Someone from our team will review the changes and notify you on gitter. Often there will be some feedback from the reviewer for you to address. If that is the case, make changes to your branch and comment on the pull request when done. Any changes you make to your branch will be automatically updated in the pull request. Once you get 3 approving reviews, we will merge your Markdown profile with the main repository.
+Someone from our team will review the changes and notify you on gitter. Often there will be some feedback from the reviewer for you to address. If that is the case, go to your pull request first then select "files changed" --> next select "..." on the top right --> select "Edit File" --> make the required changes --> scroll down and select "commit" on the pull request when done. Any changes you make to your branch will be automatically updated in the pull request. Once you get 3 approving reviews, we will merge your Markdown profile with the main repository.
 
 After the pull request is merged, you'll be able to see your personal page at `treehouses.github.io/#!pages/vi/profiles/<YourUserName>.md`. Let us know in the [gitter.im chat](https://gitter.im/treehouses/Lobby) after you complete this step.
 
@@ -148,4 +149,5 @@ After the pull request is merged, you'll be able to see your personal page at `t
 
 [Other helpful links and videos](faq.md#Helpful_Links)
 
-#### Return to [First Steps](firststeps.md)
+---
+#### Return to [First Steps](firststeps.md#Step_3_-_Markdown_and_Fork_Tutorial)
