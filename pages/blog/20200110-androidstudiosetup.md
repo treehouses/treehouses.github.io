@@ -56,7 +56,6 @@ your AndroidManifest.xml file. E.g. ```remote\app\src\main```
 5. Click Import project from external model
 6. Select the 2nd option (Gradle) (With the elephant icon)
 7. Click Next.
----
 ![](./images/2020105-select-gradle.png)
 8. Click the 3 dots button (...) next to Gradle Project: to pull up
 a file/folder browser. Select the folder containing your Gradle directory. E.g. ```C:\Users\nmnmhjmj\Desktop\remote```
