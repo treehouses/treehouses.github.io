@@ -90,4 +90,11 @@ Which just so happens to be the folder for your repository.
 4. Finally you should be able to hit the big green play button (Run) and get the following.
  
 ![](./images/20200105-run-apk.png)
- 
+
+---
+
+## Run into problems?
+
+ * Google your errors and post them in [Gitter](https://treehouses.io/#!pages/chat.md) if you need help. 
+ * You might need to reinstall Java/JRE or Android Studio to fix your problem.
+ * Make sure Java is in your [system environment variables](https://en.wikipedia.org/wiki/PATH_%28variable%29) for your system. [See here](https://docs.oracle.com/goldengate/1212/gg-winux/GDRAD/java.htm#BGBBABJA). 
