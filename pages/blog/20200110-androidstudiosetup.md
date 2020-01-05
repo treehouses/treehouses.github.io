@@ -5,7 +5,7 @@
 ---
 
 This blog is about how to setup [Android Studio](https://en.wikipedia.org/wiki/Android_Studio) for the [treehouses remote](https://github.com/treehouses/remote) repository.
-These projects rely on the [Java](https://en.wikipedia.org/wiki/Java_(programming_language\)) programming language and Android Studio is an Integrated Development Environment (IDE) for Android Apps. 
+These projects rely on the [Java](https://en.wikipedia.org/wiki/Java_%28programming_language%29) programming language and Android Studio is an Integrated Development Environment (IDE) for Android Apps. 
 
 ---
 
