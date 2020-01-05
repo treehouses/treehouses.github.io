@@ -59,7 +59,7 @@ Install [Tor](https://www.torproject.org/download/)
 
 Plug the microSD into your Raspberry Pi, and power it on.  The red LED should turn on, indicating that the Raspberry Pi is connected to power.  Once the green LED next to it on your Raspberry Pi stabilizes into a solid green, you should see "treehouses" appear in available Wifi networks.  Connect to it, and make sure that you have an internet connection by opening up another web page.  
 
-Find the Raspberry Pi's IP address in your network settings (it will probably be `192.168.2.1`).  Open up your terminal or command prompt, and run `ssh root@[IP address]` to enter the root of your Pi.  Run 
+Find the Raspberry Pi's IP address in your network settings (it will probably be `192.168.2.1`).  Open up your terminal or command prompt, and run `ssh root@[IP address]` to enter the root of your Pi or use `ssh pi@[local IP address]`, To log into root, you can run `sudo -s` while logged into the Pi user. Run.
 ```
 docker run -d -p 8080:80 --name nextcloud --restart=unless-stopped nextcloud
 ```
