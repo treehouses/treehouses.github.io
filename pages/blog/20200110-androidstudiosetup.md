@@ -46,49 +46,24 @@ will need this to run an emulator to test your APKs you build.
 
 ## Importing the project
 
-1. Open Android Studio. 
-
-![](./images/20200105-android-studio.png)
-
+1. Open Android Studio.![](./images/20200105-android-studio.png)
 2. Click Import Project (Gradle, Eclipse ADT, etc.)
-
 3. Navigate to your local clone. Select your Main directory that contains
-your AndroidManifest.xml file. E.g. ```remote\app\src\main```
-
-![](./images/20200105-import-project.png)
-
+your AndroidManifest.xml file. E.g. ```remote\app\src\main```![](./images/20200105-import-project.png)
 4. Click Ok
-
 5. Click Import project from external model
-
 6. Select the 2nd option (Gradle) (With the elephant icon)
-
-![](./images/2020105-select-gradle.png)
-
-7. Click the 3 dots button (...) next to Gradle Project: to pull up
+7. Click Next.![](./images/2020105-select-gradle.png)
+8. Click the 3 dots button (...) next to Gradle Project: to pull up
 a file/folder browser. Select the folder containing your Gradle directory. E.g. ```C:\Users\nmnmhjmj\Desktop\remote```
-Which just so happens to be the folder for your repository.
-
-![](./images/20200105-gradle-folder.png)
-
-8. Click Finish!
+Which just so happens to be the folder for your repository.![](./images/20200105-gradle-folder.png)
+9. Click Finish!
 
 ---
 
 ## Running the project
 
-1. Now you should see the project do a build and if everything is working correctly all green checkmarks.
-
-![](./images/20200105-green-checks.png)
-
-2. You will need to setup a build configuration to run your project (Shift + F10 to run).
-
-![](./images/20200105-build-config.png)
-
-3. You will need to setup a emulator device for the project to run the apk on using AVD manager.
-
-![](./images/20200105-avd-manager.png)
-
-4. Finally you should be able to hit the big green play button (Run) and get the following.
-
-![](./images/20200105-run-apk.png)
+1. Now you should see the project do a build and if everything is working correctly all green checkmarks.![](./images/20200105-green-checks.png)
+2. You will need to setup a build configuration to run your project (Shift + F10 to run).![](./images/20200105-build-config.png)
+3. You will need to setup a emulator device for the project to run the apk on using AVD manager.![](./images/20200105-avd-manager.png)
+4. Finally you should be able to hit the big green play button (Run) and get the following.![](./images/20200105-run-apk.png)
