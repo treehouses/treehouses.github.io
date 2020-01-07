@@ -11,7 +11,7 @@ Once accepted, you and your team will work on an assignment, and we’ll switch 
 The goal of OLE is to provide educational infrastructure to learners and educators in remote areas of the globe. The Raspberry Pi is used in pursuit of this goal to provide a cost-effective means by which devices can access educational resources.  We aim to provide a stable system that is widely accessible by numerous devices and operating systems.  This equipment will be deployed in the field with little or no access to the internet, so its reliability is of paramount importance.
 
 
-**NOTE**: This is an unpaid but intensive internship that requires 16 hours of work each week. More information about the internship can be found in our [FAQ](faq.md#General_Internship_Questions). If you have further questions, don’t hesitate to ask other members in the Gitter [chat](https://gitter.im/treehouses/Lobby)!
+**NOTE:** This is an unpaid but intensive internship that requires 16 hours of work each week. More information about the internship can be found in our [FAQ](faq.md#General_Internship_Questions). If you have further questions, don’t hesitate to ask other members in the Gitter [chat](https://gitter.im/treehouses/Lobby)!
 
 # Pre-Requisites
 
@@ -36,7 +36,7 @@ The following are required hardware components that will be needed as part of th
 	- Memory (Ram): Minimum 2GB
 	- Operating System: Suggested Android 8 (Oreo) (minimum Android 6)
 	
-	`NOTE: You can purchase all of these components together for your convenience (or if there are discounts) on places such as Amazon, Ebay etc... 
+	**NOTE:** You can purchase all of these components together for your convenience (or if there are discounts) on places such as Amazon, Ebay etc... 
 	
 ## Optional Hardware
 There are also "optional" pieces of hardware that you can choose to purchase should you choose to, these are not compulsory for participation in the internship but may greatly assist you in developing your skills and contributing to the project. 
@@ -83,7 +83,7 @@ We interact with the Raspberry Pi via a command terminal which is natively avail
 
 One of the most simple but most powerful text editors out there is Vim. If you want to see what Vim can do and how powerful it can be, you can learn more about Vim [here](https://danielmiessler.com/study/vim/#textobjects). Vim is not necessary for this internship but it is truly helpful when working on the Raspberry Pi not to have to download and install other text editors.
 
-_**NOTE:**_ You can skip ahead to Step 3 while you are waiting for your Raspberry Pi to come in the mail.
+**NOTE:** You can skip ahead to Step 3 while you are waiting for your Raspberry Pi to come in the mail.
 
 ## Step 1 - Installing and finding your Raspberry Pi 
 
