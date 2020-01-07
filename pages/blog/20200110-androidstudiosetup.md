@@ -9,24 +9,6 @@ These projects rely on the [Java](https://en.wikipedia.org/wiki/Java_%28programm
 
 ---
 
-## Download Java
-
-[JRE](https://en.wikipedia.org/wiki/Java_virtual_machine#Java_Runtime_Environment) is required for Java programming in Android Studio. 
-Android Studio relies on JRE to compile and create [APKs](https://en.wikipedia.org/wiki/Android_application_package) for Android Devices. 
-
-1. Since we are getting JRE we might as well get Java too. Java runs on all platforms and uses the motto "Write once, run anywhere" (WORA). [Download link](https://www.java.com/en/download/).
-
-2. Pickup JRE for your computer. Note you may have to create an Oracle account in order to download JRE.
-[Download link](https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html).
-
-3. Install Java and Java Runtime Environment. If you need help installing it. Please read some of the many
-documents on Oracle's website including some [here](https://docs.oracle.com/goldengate/1212/gg-winux/GDRAD/java.htm).
-
-4. Verify Java is installed by running ```java -version``` in your favourite terminal. For Windows this would be
-your command prompt (cmd.exe).
-
----
-
 ## Download Android Studio
 
 1. Android Studio is available for Linux, Mac, and Windows platforms. Go ahead and download the installer. 
@@ -96,5 +78,4 @@ Which just so happens to be the folder for your repository.
 ## Run into problems?
 
  * Google your errors and post them in [Gitter](https://treehouses.io/#!pages/chat.md) if you need help. 
- * You might need to reinstall Java/JRE or Android Studio to fix your problem.
- * Make sure Java is in your [system environment variables](https://en.wikipedia.org/wiki/PATH_%28variable%29) for your system. [See here](https://docs.oracle.com/goldengate/1212/gg-winux/GDRAD/java.htm#BGBBABJA). 
+ * You might need to reinstall Android Studio to fix your problem.
