@@ -34,7 +34,7 @@ will need this to run an emulator to test your APKs you build.
  
 2. Click Import Project (Gradle, Eclipse ADT, etc.)
 3. Navigate to your local clone. Select your Main directory that contains
-your AndroidManifest.xml file. E.g. ```remote\app\src\main```
+your AndroidManifest.xml file. E.g. `remote\app\src\main`
  
 ![](./images/20200105-import-project.png)
  
@@ -46,7 +46,7 @@ your AndroidManifest.xml file. E.g. ```remote\app\src\main```
 ![](./images/2020105-select-gradle.png)
  
 8. Click the 3 dots button (...) next to Gradle Project: to pull up
-a file/folder browser. Select the folder containing your Gradle directory. E.g. ```C:\Users\nmnmhjmj\Desktop\remote```
+a file/folder browser. Select the folder containing your Gradle directory. E.g. `C:\Users\nmnmhjmj\Desktop\remote`
 Which just so happens to be the folder for your repository.
  
 ![](./images/20200105-gradle-folder.png)
