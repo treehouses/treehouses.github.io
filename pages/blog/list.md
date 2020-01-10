@@ -1,5 +1,7 @@
 ## Blogs
 
+[Android Studio Setup](20200110-androidstudiosetup.md) on January 10, 2020 by LordJashin32 `(Setup the treehouses remote project on Android Studio)`
+
 [Fresh Interns: Starting Guide](20191202-blogfornewintern.md) on December 02, 2019 by pattanawadee88 `(Onboarding steps for newly joined interns)`
 
 [Access Kolibri on treehouses using Docker](20191014-kolibri.md) on October 14, 2019 by irisb1701 `(Steps to launch kolibri on RPi using docker)`
