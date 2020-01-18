@@ -13,9 +13,9 @@ Moustafa Zaky
 | Moustafa Mohamed Zaky | Sharjah, United Arab Emirates |  UTC+04:00 | Windows10 |
 
 ## About me
-#### I have done my bachelor at University of sharjah majoring Electrical and Electronics Engineering.
-#### I would like  to Contribute and Collaborate with the OLE Team to make the world better place.  
-#### I always go beyond my limits. 
+* #### I have done my bachelor at University of sharjah majoring Electrical and Electronics Engineering.
+* #### I would like  to Contribute and Collaborate with the OLE Team to make the world better place.  
+* #### I always go beyond my limits. 
 
 #### 👨‍💻 Skills 
 ```
