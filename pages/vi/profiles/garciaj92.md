@@ -11,7 +11,7 @@
 * I'm bilingual (**Spanish** & **English**).
 * I love sushi almost as much as I love developing `software`.
 * Things I can't live without:
-  >[:sushi: , :coffee: , :computer:, :dog:]
+  >[ &#127843; , &#9749; , 	&#128187;, &#128054;]
 
 #### Languages I use almost daily:
 > C, C++, Python, Java, JavaScript (ES6), HTML5, CSS3
