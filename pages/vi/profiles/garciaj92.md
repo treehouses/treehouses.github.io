@@ -9,13 +9,10 @@
 * I'm a first generation immigrant from Argentina.
 * I'm a first generation college student.
 * I'm bilingual (**Spanish** & **English**).
-* I love sushi almost as much as I love developing `software`.
-* Things I can't live without:
-  >[ 🍣, ☕️, 	💻, 🐶]
+* I love ☕️ almost as much as I love developing `software`.
 
 #### Languages I use almost daily:
 > C, C++, Python, Java, JavaScript (ES6), HTML5, CSS3
 
 Thanks for checking out my MDwiki page. 
-Please feel free to checkout my [personal website](https://jorgegarcia.co "Jorge L. Garcia") and connect 
-with me on [LinkedIn](https://www.linkedin.com/in/jorge-garcia-7217b3110/).
+Please feel free to checkout my [personal website](https://jorgegarcia.co "Jorge L. Garcia") and connect with me on [LinkedIn](https://www.linkedin.com/in/jorge-garcia-7217b3110/).
