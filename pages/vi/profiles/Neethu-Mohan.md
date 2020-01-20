@@ -19,7 +19,7 @@ RHEL |7
 
 ## Contacts
 
-![Linkedin](www.linkedin.com/in/NeethuMohan)
+![Linkedin](www.linkedin.com/in/neethumohan)
 
 
 
