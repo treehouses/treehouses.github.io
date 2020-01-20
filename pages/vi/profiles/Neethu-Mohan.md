@@ -18,7 +18,7 @@ Windows | 10
 RHEL |7
 
 ## Contacts
-Linkedln :  *www.linkedin.com/in/NeethuMohan*
+Linkedln :  www.linkedin.com/in/NeethuMohan
 
 
 
