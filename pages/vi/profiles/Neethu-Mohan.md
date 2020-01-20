@@ -20,8 +20,6 @@ RHEL |7
 ## Contacts
 Linkedln :  *www.linkedin.com/in/NeethuMohan*
 
- 
-
 
 
 
