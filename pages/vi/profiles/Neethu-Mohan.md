@@ -3,7 +3,7 @@
 ## About me
 I was working as a Server Engineer. I am from India currently living in Abudhabi, UAE. I have done my masters in Wireless Networks and Applications and bachelors in Electrical and Electronics Engineering.I have certified in both RHCSA and RHCE. I am familiar with C, C++, Python, bash scripting and Docker.  
 
-![](https://github.com/Neethu-Mohan/Neethu-Mohan.github.io/blob/Profile/pages/vi/profiles/images/MyCity.jpg)
+![](http://github.com/Neethu-Mohan/Neethu-Mohan.github.io/blob/Profile/pages/vi/profiles/images/MyCity.jpg)
 
 **Location** :  Abudhabi, UAE
 
