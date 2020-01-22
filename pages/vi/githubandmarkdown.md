@@ -67,11 +67,11 @@ After you fork the repository, you will be on your repository: &lt;YourUserName&
 
 ![](images/fork1.png)
 
-**Note:** In case you have the **https://YourUserName.github.io** in use, please refer to the [FAQ](faq.md).
+**Note:** In case you have the **`https://YourUserName.github.io`** in use, please refer to the [FAQ](faq.md).
 
 ### Check to see if your github.io works
 
-After renaming your forked repository, go to  https://YourUserName.github.io and make sure it works.
+After renaming your forked repository, go to  `https://YourUserName.github.io` and make sure it works.
 
 Don't worry if you see a **404** page not found error. When you access the link, it will take a while for the page to load and run. Make sure in **Settings > GitHub Pages**, the **source** is set to **_master branch_**.
 
