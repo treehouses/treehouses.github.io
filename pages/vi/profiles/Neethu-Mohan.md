@@ -5,7 +5,6 @@ I am originally from India and currently living in Abudhabi, UAE. I have a maste
 
 ![Profile Photo](images/MyCity.jpg)
 
-
 **Location** :  Abudhabi, UAE
 
 **Timezone** : (GMT+4)
