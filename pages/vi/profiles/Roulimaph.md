@@ -8,12 +8,29 @@ Colmar, FR | UTC+1 | openSUSE Tumbleweed "20200125" | FR/EN |
 
 
 ## About Me
-Hi  Son of seafaring parents I was raised on ships and develloped a
-passion for a sustainability, that I later put to use in non-profits.
-Over the years I grew more and more intrested in the application of tech in the sector and here I am :)
 
-Hi All! With a university degree in IT systems & networking, I'm passionate about embedded robotic systems and IoT. I have a lot of fun with ESP8266, ESP32, SMC, Nordic, Silicon Labs electronic boards, often driven by SOC equipment like Rpi, Orange Pi, Odroid and other little wonders.
-I have fun with various languages C, C++, Rust, Lua, Python,... embedded side, javascript, nodejs, Angular, Vuejs, Electron, Hoodie,... for front and CouchDB, RxCouch, MQTT, Home Assistant,... for the back-end, on different real time or non-real time OSes.
+Hi All ! With a university degree in IT systems & networking, I'm passionate about embedded robotic systems and IoT. I have a lot of fun with 
+
+```bash
+ESP8266, ESP32, SMC, Nordic, Silicon Labs, ... 
+```
+electronic boards, often driven by SOC equipment like Rpi, Orange Pi, Odroid and other little wonders.
+I have fun with various languages 
+
+```bash
+C, C++, Rust, Lua, Python,...
+```
+ embedded side, 
+
+```bash
+javascript, nodejs, Angular, Vuejs, Electron, Hoodie,...
+```
+ for front and 
+
+```bash
+CouchDB, RxCouch, MQTT, Home Assistant,...
+```
+ for the back-end, on different real time or non-real time OS.
 Also creator and director of a non-profit association, which promotes digital technologies in schools and different popular colleges and universities. Your approach interests me a lot in this approach. Nice to team up with you.
 
 
