@@ -31,3 +31,6 @@
 * I am focused on cyber security but like to try my hand on coding as much as I can.
 * I also like swimming when I get a moment.
 * [Click here to discover one of my favorite sites](https://www.youtube.com/)
+
+One of my favorite quotes is by Frank Lloyd Wright: 
+> less is only more when more is no good.
