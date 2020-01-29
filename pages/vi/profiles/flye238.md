@@ -2,7 +2,7 @@
 
 ## Introduction
 
-* Hello everyone, my name is Derick.
+* Hello everyone, my name is _Derick_.
 * Close friends call me _Flye_
 
 ## Location
@@ -16,7 +16,7 @@
 ![](https://redmondmag.com/blogs/scott-bekker/2018/03/~/media/ECG/redmondmag/Images/2018/03/0308red_kali3b.ashx)
 
 
-* I use both Windows 10 and kali Linux SMP Debian 4.15.11...
+* I use both **Windows 10** and **kali Linux** SMP Debian 4.15.11...
 * My hypervisor of choice right now is VirtualBox. Although, I use VMware Workstation on occasion.
 
 ## Education
