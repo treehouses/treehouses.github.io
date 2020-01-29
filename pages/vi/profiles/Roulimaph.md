@@ -14,7 +14,11 @@ Hi All ! With a university degree in IT systems & networking, I'm passionate abo
 ```bash
 ESP8266, ESP32, SMC, Nordic, Silicon Labs, ... 
 ```
-electronic boards, often driven by SOC equipment like Rpi, Orange Pi, Odroid and other little wonders.
+electronic boards, often driven by SOC equipment like 
+```bash
+Rpi, Orange Pi, Odroid, ...
+```
+and other little wonders.
 I have fun with various languages 
 
 ```bash
