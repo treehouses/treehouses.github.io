@@ -1,9 +1,9 @@
 ## About Me
 
-..* **Name:** Eric Voong
-⋅⋅* **Location:** Vaughan Ontario
-⋅⋅* **Time Zone:** EST
-⋅⋅* **OS:** Windows 10 Home Version 1909
+- **Name:** Eric Voong
+- **Location:** Vaughan Ontario
+- **Time Zone:** EST
+- **OS:** Windows 10 Home Version 1909
 
 ## Description:
 ⋅⋅* I am a second year Nanotechnology Student from the Unviersity of Waterloo.
