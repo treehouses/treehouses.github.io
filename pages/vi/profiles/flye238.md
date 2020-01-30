@@ -24,7 +24,7 @@
 * I am a junior at University of Maryland.
 
 
-![ ](https://www.rhsmith.umd.edu/files/photo-campus_1_0.jpg)
+![](https://www.rhsmith.umd.edu/files/photo-campus_1_0.jpg)
 
 ## Interests
 
