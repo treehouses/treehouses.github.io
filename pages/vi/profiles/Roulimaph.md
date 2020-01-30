@@ -1,8 +1,8 @@
 # Rouli Maph 
 
-Location | Timezone | OS | Languages |
-:--- | :--- | :--- | :--- |
-Colmar, FR | UTC+1 | openSUSE Tumbleweed "20200125" | FR/EN |
+| Location | Timezone | OS | Languages |
+| :--- | :--- | :--- | :--- |
+| Colmar, FR | UTC+1 | openSUSE Tumbleweed "20200125" | FR/EN |
 
 [![colmar](https://tourisme-colmar.com/templates/yootheme/cache/AdobeStock_213722511d-b593ffc0.jpeg)](https://tourisme-colmar.com/fr/)
 
