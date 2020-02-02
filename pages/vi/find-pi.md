@@ -13,7 +13,7 @@ In the [previous step](treehouses-remote.md), you were able to access the termin
 wlan0: essid: wifiname, ip: 192.168.0.19, has password
 ap0: essid: treehouses, ip: 192.168.2.1, has no password
 ```
-
+The first ip address listed is your Pi's ip address.
 
 
 ## Method 2: Pinging your Raspberry Pi
