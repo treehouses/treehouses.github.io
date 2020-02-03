@@ -65,7 +65,7 @@ For example, [this link](https://help.github.com/articles/syncing-a-fork/) expla
 
 To be able to fetch updates from the upstream repository, you need to first configure the upstream repository by following these steps:
 
-1. Open your command prompt/terminal and find the correct directory, `cd username.github.io.`
+1. Open your command prompt/terminal and find the correct directory, `cd username.github.io`
 
 2. List the current configured remote repository for your fork with `git remote -v`. This is what it should look like:
 ```
