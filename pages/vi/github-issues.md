@@ -54,10 +54,9 @@ Before you create your branch, sync your repo using next commands:
 `git merge upstream/master`
 `git push origin master`
 
-To create a new branch, go to your github repo and create it using the same steps as you can see [here](https://help.github.com/en/articles/creating-and-deleting-branches-within-your-repository) (do not delete your branch)
+To create a new branch, go to your github repo and create it using the same steps as you can see [here](https://help.github.com/en/articles/creating-and-deleting-branches-within-your-repository) (do not delete your branch).Then at the terminal, use `git fetch origin` to get the new changes to your local repository and use `git checkout <name_of_your_new_branch>` to switch to your new branch.
 
-
-Use `git checkout master` to switch to master branch, then use `git checkout -b <name_of_your_new_branch>` to create and switch to a new branch on your local repository. Make sure to remove the angled brackets (< & >) as they are just place holders. More documentation on checkout can be found [here.](https://git-scm.com/docs/git-checkout)
+Or you can create a new branch from the terminal. For that, use `git checkout master` to switch to master branch, then use `git checkout -b <name_of_your_new_branch>` to create and switch to a new branch on your local repository. Make sure to remove the angled brackets (< & >) as they are just place holders. More documentation on checkout can be found [here.](https://git-scm.com/docs/git-checkout)
 
 Now you can go and make the proposed changes to your local files. You can use any IDE or text editor you prefer. You can also use VIM or Nano to edit files from the terminal. [This guide on VIM](https://www.vim.org/docs.php ) and [this guide on Nano](https://www.nano-editor.org/docs.php) contain more information on their proper usage.
 
