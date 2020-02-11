@@ -103,7 +103,7 @@ The Systems team uses SSH (Secure Shell) to securely and remotely control the Ra
 
 Follow the instructions on [GitHub and Markdown](githubandmarkdown.md)
 
-Make sure that you've linked to your github.io and pull request in the [Gitter chat](https://gitter.im/treehouses/Lobby). Also include the `raw.githack` link in your pull request `https://raw.githack.com/YourUserName/YourUserName.github.io/YourBranchName/#!pages/vi/profiles/YourUserName.md` .
+Make sure that you've linked to your github.io and pull request in the [Gitter chat](https://gitter.im/treehouses/Lobby). Also include the `raw.githack` link in your pull request `https://raw.githack.com/YourUserName/YourUserName.github.io/YourBranchName/#!pages/vi/profiles/YourUserName.md`
 
 **NOTE**: The `raw.githack` link is case sensitive to your username. 
 
