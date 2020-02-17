@@ -110,7 +110,7 @@ This is a security risk - please login as the 'pi' user and type 'passwd' to set
 pi@treehouses:~ $ 
 ```
 
-## Verify images compatibility to Remote app
+## Verify new image's compatibility with Remote app
 - Download **Treehouses Remote** app from android market and connect to your pi.
 
 - Select your pi model 
