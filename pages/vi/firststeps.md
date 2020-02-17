@@ -103,7 +103,7 @@ The Systems team uses SSH (Secure Shell) to securely and remotely control the Ra
 
 Follow the instructions on [GitHub and Markdown](githubandmarkdown.md)
 
-Make sure that you've linked to your github.io and pull request in the [Gitter chat](https://gitter.im/treehouses/Lobby). Also include the `raw.githack` link in your pull request (https://raw.githack.com/YourUserName/YourUserName.github.io/YourBranchName/#!pages/vi/profiles/YourUserName.md).
+Make sure that you've linked to your github.io and pull request in the [Gitter chat](https://gitter.im/treehouses/Lobby). Also include the `raw.githack` link in your pull request `https://raw.githack.com/YourUserName/YourUserName.github.io/YourBranchName/#!pages/vi/profiles/YourUserName.md`
 
 **NOTE**: The `raw.githack` link is case sensitive to your username. 
 
@@ -176,7 +176,7 @@ Just as your learning with this Wiki was made possible by the efforts of previou
 
 ## Step 9 - Be Part of the Team
 
-Next thing is to post a screenshot of your completed progress to the Gitter chat room.
+Next thing is to post a screenshot of your completed progress to the Gitter chat room. Click [here](trackprogress.md) to find your completed progress.
 Message us ("@/all" and "@dogi") and ask about adding yourself to the virtual intern list found in [team.md](team.md) and setting up a meeting so you can become a part of the team as soon as possible.
 
 Make sure to read through the [intern orientation document](orientation.md) before the meeting.

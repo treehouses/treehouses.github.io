@@ -51,7 +51,7 @@ To stay up to date with the projects you are contributing to, make sure you "sta
 
 ## A Few Things to Know...
 
-Once you officially become a virtual intern, you will receive email invites to become GitHub organization members of[treehouses](https://github.com/treehouses), [open-learning-exchange](https://github.com/open-learning-exchange), and [ole-vi](https://github.com/ole-vi).
+Once you officially become a virtual intern, you will receive email invites to become GitHub organization members of [treehouses](https://github.com/treehouses), [open-learning-exchange](https://github.com/open-learning-exchange), and [ole-vi](https://github.com/ole-vi).
 
 **Now you should work on treehouses's repositories instead of your own forked repositories, the workflow will be [Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)**. Note that this will give you the ability to make bigger mistakes - so make sure you always double check what branch you are working on. Remember to commit often and create pull requests early, so other virtual interns can look at your code and make sure you are on the right track at an early stage.
 
