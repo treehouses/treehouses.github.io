@@ -1,5 +1,7 @@
 ## Blogs
 
+[Set up headless treehouses node](20200209-headlessrpi.md) on Feb 2, 2019 by An Pham `(Headless node deploy)`
+
 [Android Studio Setup](20200110-androidstudiosetup.md) on January 10, 2020 by LordJashin32 `(Setup the treehouses remote project on Android Studio)`
 
 [Fresh Interns: Starting Guide](20191202-blogfornewintern.md) on December 02, 2019 by pattanawadee88 `(Onboarding steps for newly joined interns)`
@@ -32,4 +34,3 @@
 
 [treehouses.io in DevOpsDay Jakarta 2018](20180505-devopsdayjkt18.md) on May 5, 2018 by empeje `(DevOps in non-profits)`
 
-[Set up headless treehouses node](20190209-headlessrpi.md) on Feb 2, 2019 by An Pham `(Headless node deploy)`
