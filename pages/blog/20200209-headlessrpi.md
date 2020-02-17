@@ -61,7 +61,9 @@ wlp2s0: flags=4163<UP,BROADCAST,RUNNING,MULTICAST>  mtu 1500
 
 The important lines:
 
-`inet 192.168.0.90  netmask 255.255.255.0  broadcast 192.168.0.255`
+```
+inet 192.168.0.90  netmask 255.255.255.0  broadcast 192.168.0.255
+```
 
 or 
 
@@ -126,7 +128,7 @@ pi@treehouses:~ $
 ![](images/20200217-remote-services2.jpg)
 ![](images/20200217-remote-services.jpg)
 
-- Go to tunnel to start tor service
+- Go to tunnel located on sidebar to start tor service
 
 ![](images/20200217-remote-tunnel-sidebar.jpg)
 ![](images/20200217-remote-tunnel-main.jpg)
@@ -135,7 +137,7 @@ pi@treehouses:~ $
 
 
 ## Conclusion
-- This tutorial should help you to have a stable deployment and to establish communication with your pi over WLAN. However, occasionally, there are cases where you find yourselve not having a reliable WLAN, forcing you to think of a PAN alternatives. In another word, bluetooth network will be your main drive. The remote app offers variety of features such network troubeshooting, ssh tunneling, docker apps deploy. Above all, treehouses systems offer tor network port tunneling. By accessing onion addresses, you should able to have access to docker services via tor network. 
+- This tutorial should help you to have a stable deployment and to establish communication with your pi over WLAN. However, occasionally, there are cases where you find yourselve not having a reliable WLAN, forcing you to think of a PAN alternatives. In another word, bluetooth network will be your main drive. The remote app offers variety of features such as network troubeshooting, ssh tunneling, and docker apps deploy. Above all, treehouses systems offer tor network port tunneling. By accessing onion addresses, you should be able to have access to docker services via tor network. 
 - Keep in mind that you can switched your installed sd card between pi zero and pi 4. 
 - We provided the tool, the rest is for your creativity. Happy hacking!
 
