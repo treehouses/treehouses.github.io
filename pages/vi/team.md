@@ -21,5 +21,4 @@
 |[![](https://avatars1.githubusercontent.com/u/33208073?s=25)](http://github.com/evoong)[evoong](profiles/evoong.md)|2020-02-01|
 |[![](https://avatars1.githubusercontent.com/u/33208073?s=25)](https://github.com/Neethu-Mohan)[Neethu-Mohan](profiles/Neethu-Mohan.md)|2020-02-16|
 
-
 To view the list of former interns, go to [former members page](retiredinterns.md).
