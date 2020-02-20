@@ -132,22 +132,9 @@ pi@treehouses:~ $
 
 ![](images/20200217-remote-tunnel-sidebar.jpg)
 ![](images/20200217-remote-tunnel-main.jpg)
-## Test the images  
- 
-
 
 ## Conclusion
 - This tutorial should help you to have a stable deployment and to establish communication with your pi over WLAN. However, occasionally, there are cases where you find yourselve not having a reliable WLAN, forcing you to think of a PAN alternatives. In another word, bluetooth network will be your main drive. The remote app offers variety of features such as network troubeshooting, ssh tunneling, and docker apps deploy. Above all, treehouses systems offer tor network port tunneling. By accessing onion addresses, you should be able to have access to docker services via tor network. 
 - Keep in mind that you can switched your installed sd card between pi zero and pi 4. 
 - We provided the tool, the rest is for your creativity. Happy hacking!
-
-
-
-
-<!--
-## Step 4: ssh over tor (optional)
-- ssh-add
-- ssh-add -l 
-- ssh -A root@<pi-ip-address>
---> 
 
