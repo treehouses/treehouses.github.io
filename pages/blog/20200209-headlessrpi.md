@@ -30,11 +30,11 @@ This tells me that boot directory is mounted at `/media/anpham/boot`.
 
 ![](images/20200217-windows-boot.png)
 
-The file we want to edit  is 'autorunonce' file. Before editing this file, we need to find the current network info so that we can assign IP address for our pi.
+The file we want to edit  is `autorunonce` file. Before editing this file, we need to find the current network info so that we can assign IP address for our pi.
 
-**Note: ** we look for 'autorunonce', not 'autoranonce'. If you don't find the 'autorunonce', then create an empty file and name it as 'autorunonce'
+**Note: ** we look for `autorunonce`, not `autoranonce`. If you don't find the `autorunonce`, then create an empty file and name it as `autorunonce`
 
-After opening the autrunonce file, go ahead and erase the content of the file since we will start from the scratch. 
+After opening the `autrunonce` file, go ahead and erase the content of the file since we will start from the scratch. 
 
 ## Assign IP address for pi
 First, we need to find your current subnet and ip of your network. 
