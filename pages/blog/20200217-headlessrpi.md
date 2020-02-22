@@ -1,9 +1,9 @@
 # Treehouses node deploy
 
-Feb 12, 2020 • [An Pham](https://github.com/phamduchongan93)
+Feb 17, 2020 • [An Pham](https://github.com/phamduchongan93)
 
 ---
-![](images/20200212_cover.jpg "web corver")
+![](images/20200217-cover.jpg "web corver")
 
 ## Compatible devices
 1.  Raspberry Pi 4 B, 3 B/B+, or Zero W

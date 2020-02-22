@@ -1,6 +1,6 @@
 ## Blogs
 
-[Set up headless treehouses node](20200209-headlessrpi.md) on Feb 2, 2019 by An Pham `(Headless node deploy)`
+[Set up headless treehouses node](20200217-headlessrpi.md) on Feb 17, 2020 by An Pham `(Headless node deploy)`
 
 [Android Studio Setup](20200110-androidstudiosetup.md) on January 10, 2020 by LordJashin32 `(Setup the treehouses remote project on Android Studio)`
 
