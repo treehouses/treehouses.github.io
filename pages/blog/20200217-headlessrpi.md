@@ -3,7 +3,7 @@
 Feb 17, 2020 • [An Pham](https://github.com/phamduchongan93)
 
 ---
-![](images/20200217-cover.jpg "web corver")
+![](images/20200217-cover.jpg "web cover")
 
 ## Compatible devices
 1.  Raspberry Pi 4 B, 3 B/B+, or Zero W
