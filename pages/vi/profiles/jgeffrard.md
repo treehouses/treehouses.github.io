@@ -10,7 +10,8 @@
 * Sleeping.
 * Reading.
 
-I use Java these days but I also use Python, SQL, JavaScript, HTML, and CSS regularly as well.
+**I use Java these days but I also use Python, SQL, JavaScript, HTML, and CSS regularly as well.**
 I have also dabbled in some other languages trying to crack some math riddles (you can see that on my GitHub).
+Here is a link to my [Github](https://github.com/jgeffrard "Github").
 
 _I'm happy to be here and am looking forward to learning a bunch of new things!_
