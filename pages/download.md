@@ -10,9 +10,9 @@ We recommend **[Etcher](https://www.balena.io/etcher/)** to write our images to 
 
 * **[![treehouses](https://avatars1.githubusercontent.com/u/33208073?size=25)Latest Image](http://dev.ole.org/latest.img.gz)**
 
-  * **[![treehouses](https://avatars1.githubusercontent.com/u/33208073?size=25)treehouses-120.img.gz](http://download.treehouses.io/treehouse-120.img.gz)** 
-  * **[![treehouses](https://avatars1.githubusercontent.com/u/33208073?size=25)treehouses-119.img.gz](http://download.treehouses.io/treehouse-119.img.gz)**
-  * **[![treehouses](https://avatars1.githubusercontent.com/u/33208073?size=25)treehouses-118.img.gz](http://download.treehouses.io/treehouse-118.img.gz)**
+  * **[![treehouses](https://avatars1.githubusercontent.com/u/33208073?size=25)treehouses-122.img.gz](http://download.treehouses.io/treehouse-122.img.gz)** 
+  * **[![treehouses](https://avatars1.githubusercontent.com/u/33208073?size=25)treehouses-121.img.gz](http://download.treehouses.io/treehouse-121.img.gz)**
+  * **[![treehouses](https://avatars1.githubusercontent.com/u/33208073?size=25)treehouses-120.img.gz](http://download.treehouses.io/treehouse-120.img.gz)**
 * **[![treehouses](https://avatars1.githubusercontent.com/u/33208073?size=25)Past Versions](http://download.treehouses.io/)**
 * **[![treehouses](https://avatars1.githubusercontent.com/u/33208073?size=25)Experimental Versions](http://dev.ole.org/)**
 ---
