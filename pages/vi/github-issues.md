@@ -27,7 +27,7 @@ Go to the "Issues" tab and click on "New issue" to create a new issue:
 
 ![New Issue](images/fs6-new-issue.png)
 
-Give it a short title and a decriptive body and you can now submit your issue. If you are explaining a bug or how to replicate an issue, please be as explicit as possible and use pictures as necessary.
+Give it a short title and a descriptive body and you can now submit your issue. If you are explaining a bug or how to replicate an issue, please be as explicit as possible and use pictures as necessary.
 
 ![New Issue 2](images/fs6-issue.png)
 
@@ -39,7 +39,7 @@ If a Systems Team member does not approve your issue prior to the creation of th
 * Your issue does not improve treehouses enough
 * Your fix is not suitable
 
-In this case your the Pull Request will not be merged and the Issue will not be counted towards your "First Steps" progress. Therefore, it is suggested that you wait for the OLE member(s) to approve your Issue submission.'
+In this case your Pull Request will not be merged and the Issue will not be counted towards your "First Steps" progress. Therefore, it is suggested that you wait for the OLE member(s) to approve your Issue submission.'
 
 **Already available issues:** You can also help on issues which have already been created. Issues which are tagged as `first step intern` can be taken and worked on. Please make sure when you start working on these issues that you assign yourself to said issue or ask to be assigned. If someone else is already assigned to an issue, do not try to work on that issue.
 
