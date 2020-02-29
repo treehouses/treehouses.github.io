@@ -42,7 +42,7 @@ To stay up to date with the projects you are contributing to, make sure you "sta
 * Bluetooth service for treehouses image which interacts with treehouses/remote android app
 
 #### [rpi-couchdb](https://github.com/treehouses/rpi-couchdb)
-* CouchDB is a document database meaning that it. This means a NOSQL database that uses JSON for documents, an HTTP API, & JavaScript/declarative indexing.
+* CouchDB is a document database meaning that it is a NOSQL database that uses JSON for documents, an HTTP API, & JavaScript/declarative indexing.
   * The OLE Systems team aims to use CouchDB to ensure that the programs we develop operate reliably on different computing environments.
 
 #### [Docker](https://hub.docker.com/r/treehouses/)
