@@ -144,7 +144,7 @@ Make sure you have created at least one issue, resolved it, commented on an issu
 Please note that creating and working on Issues are not exactly bound by the "Step" you are in. Feel free to move on to other steps, and make more Issues and Pull Requests while you wait on OLE approval for your merge(s). 
 
 
-## Step 7 - other Services running from a Raspberry Pi
+## Step 7 - Other Services running from a Raspberry Pi
 
 ### Nextcloud over Tor
 
