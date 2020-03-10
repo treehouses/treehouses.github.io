@@ -8,7 +8,7 @@ Windows 10 x64/Ubuntu 19.10
 ![Dog](https://avatars3.githubusercontent.com/u/3631329?s=460&v=4 "woof")
 
 
-I'm a Computer Science major currently working on my Bachelor's degree. Lately I've been dabbling in AI and I have an interest in blockchain and embedded systems.
+I'm a Computer Science major currently working on my Bachelor's degree. I have an interest in AI, blockchain, and embedded systems.
 
 Programming Languages:
 
