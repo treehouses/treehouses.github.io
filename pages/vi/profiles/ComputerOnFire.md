@@ -5,7 +5,7 @@ Central Standard Time / GMT-6
 
 Windows 10 x64/Ubuntu 19.10
 
-![Dog](https://avatars3.githubusercontent.com/u/3631329?s=460&v=4 "woof")
+![Capitol](https://chicagocooperator.com/_data/ch/articles/4329_image1.jpg "Land of Lincoln")
 
 
 I'm a Computer Science major currently working on my Bachelor's degree. I have an interest in AI, blockchain, and embedded systems.
