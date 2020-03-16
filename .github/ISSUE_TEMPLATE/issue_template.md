@@ -8,14 +8,14 @@ You may preview your issue before submission.
 Please write N/A in the sections that aren't applicable to your particular issue.
 Thank you for contributing! -->
 
-### Problem
+ ### Problem
 Insert a short description of the problem.
 
-### Steps to reproduce the problem
+ ### Steps to reproduce the problem
 Write N/A if not applicable.
 
-### Screenshots
+ ### Screenshots
 Drag and drop images below. Write N/A if not applicable.
 
-### Proposed solution
+ ### Proposed solution
 Write N/A if not applicable.
