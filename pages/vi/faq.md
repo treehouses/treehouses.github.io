@@ -78,7 +78,7 @@
 #### Q12: Why can't I ssh into my Raspberry Pi after installing a new treehouses image?
 
 + If you run into this error you will see a message like " WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!" when you try to ssh into your Raspberry Pi after installing a new treehouses image onto it. Thankfully this is an easy fix
-+ To fix this tpye the command `cd` on your local machine. Then `cd .ssh`. Open the `known_hosts` file by typing `vim known_hosts`. Inside of this file you need to find your Raspberry Pi's ip address and delete that line since that is old known host for the previous treehouses image. Save the file. Now you should be able to ssh into your Raspberry Pi wihtout an issue.
++ To fix this type the command `cd` on your local machine. Then `cd .ssh`. Open the `known_hosts` file by typing `vim known_hosts`. Inside of this file you need to find your Raspberry Pi's ip address and delete that line since that is old known host for the previous treehouses image. Save the file. Now you should be able to ssh into your Raspberry Pi wihtout an issue.
 
 ---
 
