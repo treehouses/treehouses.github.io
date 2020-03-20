@@ -1,4 +1,6 @@
-**Jessy Ayala**
+# Jessy Ayala
+
+-----------------------
 
 Location/Time Zone: San Diego, CA/Pacific
 
