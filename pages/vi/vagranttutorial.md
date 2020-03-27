@@ -119,7 +119,7 @@ or not commonly used. To see all subcommands, run the command
 [Why install Vagrant?](https://www.vagrantup.com/intro/index.html) - Explanation of some basic concepts about why Vagrant is useful for developers, operators and designers.
 [Vagrant download](https://www.vagrantup.com/downloads.html)
 [Wikipedia page on Vagrant](https://en.wikipedia.org/wiki/Vagrant_%28software%29)
-<!-- [Other helpful links and videos](vi-faq.md#Helpful_Links) --->
+[Other helpful links and videos](https://treehouses.io/#!./pages/vi/faq.md#Helpful_Links)
 
 ---
 #### Return to [First Steps](firststeps.md#Step_4_-_System_Tutorial)
