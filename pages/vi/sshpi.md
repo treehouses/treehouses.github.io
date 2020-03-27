@@ -56,6 +56,8 @@ Now you can add the public key to run: `sudo treehouses sshkey add "your SSH key
 
 In the future on ssh login it will ask you for your sshkey passphrase where as before used the default password for pi user "raspberry".
 
+**NOTE**: The above step must be done in order to log in as `root` user during SSH session. Not doing so may leave vulnerabilities and security issues open for your Raspberry Pi.
+
 ### Log in by Root
 
 To log into root, you can run `sudo -s` while logged into the Pi user, or with the keys over SSH directly into it by running `ssh root@[local IP address]` instead of `ssh pi@[local IP address]`.
