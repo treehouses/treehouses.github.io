@@ -121,7 +121,7 @@ or not commonly used. To see all subcommands, run the command
 [Wikipedia page on Vagrant](https://en.wikipedia.org/wiki/Vagrant_%28software%29)
 [Vagrant Cheatsheet](https://gist.github.com/wpscholar/a49594e2e2b918f4d0c4)
 
-[Other helpful links and videos](vi-faq.md#Helpful_Links)
+[Other helpful links and videos](faq.md#Helpful_Links)
 
 ---
 #### Return to [First Steps](firststeps.md#Step_4_-_System_Tutorial)
