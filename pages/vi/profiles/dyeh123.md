@@ -2,7 +2,7 @@
 *West Coast of US/Pacific Time Zone*
 I am using **Windows 10**
 
-I am a ~junior~ rising senior studying Computer Science at UC Irvine! 
+I am a junior studying Computer Science at UC Irvine! 
 * I like 
   * learning new things
   * football and basketball 
