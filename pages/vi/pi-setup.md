@@ -37,7 +37,7 @@ After getting your microSD cards and card reader/adapter, your first step will b
 1. Once it's done burning, you can view the contents in the `boot` partition of your microSD card using a file explorer.
 1. Unmount and safely eject the microSD card from your computer.
 
-**NOTE:** If you run into any issues with flashing, to try and update Etcher. You can also try [Rufus]( https://rufus.ie/) (Windows) or [Raspberry Pi Imager](.https://www.raspberrypi.org/downloads/).
+**NOTE:** If you run into any issues with flashing, to try and update Etcher. You can also try [Rufus]( https://rufus.ie/) (Windows) or [Raspberry Pi Imager](https://www.raspberrypi.org/downloads/).
 
 ### Powering on the Raspberry Pi:
 1. With the Raspberry Pi still off, insert the microSD card into the card reader on the bottom. 
