@@ -54,7 +54,7 @@ To add your SSH key to your Raspberry Pi you first need to copy your public key.
 
 Now you can add the public key to run: `sudo treehouses sshkey add "your SSH key"` (copy-paste your SSH key in between the quotes) or just `sudo treehouses sshkey addgithubuser <yourgithubusername>`.
 
-In the future on SSH login it will ask you for your sshkey passphrase where as before used the default password for pi user "raspberry".
+In the future on SSH login it will ask you for your sshkey passphrase whereas before it used the default password for pi user "raspberry".
 
 **NOTE**: The above step must be done in order to log in as `root` user during SSH session. Not doing so may leave vulnerabilities and security issues open for your Raspberry Pi.
 
