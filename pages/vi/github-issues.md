@@ -95,7 +95,6 @@ For edits to this Markdown wiki, we recommend that your commit messages only con
 * Do not capitalize the subject line
 * Do not end the subject line with a period
 * Use the imperative mood (give a command) in the subject line
-  * e.g. "Fix bug with X"
 
 Here is an example of how you would write your commit message:
 `$ git commit -m "Add commit message style guide and add raw.githack section (fixes #841)"`
