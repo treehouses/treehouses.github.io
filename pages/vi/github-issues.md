@@ -92,7 +92,7 @@ Because the commits you will be making on this Markdown wiki are fairly basic, i
 For edits to this Markdown wiki, we recommend that your commit messages only consist of the subject line (refer to the article for more on what the subject is). Rules 2-5 are the most important:
 
 * Limit the subject line to 50 characters
-* Capitalize the subject line
+* Do not capitalize the subject line
 * Do not end the subject line with a period
 * Use the imperative mood (give a command) in the subject line
   * e.g. "Fix bug with X"
