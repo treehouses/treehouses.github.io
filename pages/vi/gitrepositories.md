@@ -84,8 +84,8 @@ $ git remote add upstream https://github.com/treehouses/treehouses.github.io.git
 $ git remote -v
 origin  https://github.com/username/username.github.io.git (fetch)
 origin  https://github.com/username/username.github.io.git (push)
-upstream  https://github.com/treehouses/treehouses.github.io (fetch)
-upstream  https://github.com/treehouses/treehouses.github.io (push)
+upstream  https://github.com/treehouses/treehouses.github.io.git (fetch)
+upstream  https://github.com/treehouses/treehouses.github.io.git (push)
 ```
 
 ### Sync Your Fork
