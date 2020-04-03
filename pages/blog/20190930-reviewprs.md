@@ -115,7 +115,7 @@ Example:
       Otherwise the bluetooth mode will be changed to hotspot
 
   treehouses bluetooth id number
-      This will display the bluetooth id numberroot@treehouses:/root/cli# ./cli.sh help bluetoothid
+      This will display the bluetooth id number
 ```
 
 Run the command:
