@@ -111,7 +111,7 @@ Example:
       This will display the network name along with the bluetooth id number
 
   treehouses bluetooth button
-      When the GPIO pin 18 is on the bluetooth will ne turned off
+      When the GPIO pin 18 is on the bluetooth will be turned off
       Otherwise the bluetooth mode will be changed to hotspot
 
   treehouses bluetooth id number
@@ -121,7 +121,7 @@ Example:
 Run the command:
 
 ```
-root@treehouses:/root/cli#  ./cli.sh bluetooth id
+root@treehouses:/root/cli# ./cli.sh bluetooth id
 xavierelon-8941
 ```
 
