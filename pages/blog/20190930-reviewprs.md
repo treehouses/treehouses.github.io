@@ -83,7 +83,7 @@ As you can see the `treehouses` file is a symbolic link for a `cli.sh` file loca
 View the help page of the command to see it's usage:
 
 ```
-root@treehouses:~ $ treehouses help bluetooth
+root@treehouses:~ $ ./cli.sh help bluetooth
 
 Usage: treehouses bluetooth <on|off|pause|mac|id|button>
 
@@ -116,8 +116,6 @@ Example:
 
   treehouses bluetooth id number
       This will display the bluetooth id numberroot@treehouses:/root/cli# ./cli.sh help bluetoothid
-
-Usage: cli.sh bluetoothid [number]
 ```
 
 Run the command:
