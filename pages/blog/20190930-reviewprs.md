@@ -83,21 +83,49 @@ As you can see the `treehouses` file is a symbolic link for a `cli.sh` file loca
 View the help page of the command to see it's usage:
 
 ```
-root@treehouses:/root/cli# ./cli.sh help bluetoothid
+root@treehouses:~ $ ./cli.sh help bluetooth
 
-Usage: cli.sh bluetoothid [number]
+Usage: treehouses bluetooth <on|off|pause|mac|id|button>
+
+Switches between hotspot / regular bluetooth mode, or displays the bluetooth mac address
+
+Example:
+  treehouses bluetooth
+      off
+
+  treehouses bluetooth on
+      This will start the bluetooth server, which lets the user control the raspberry pi using the mobile app.
+
+  treehouses bluetooth off
+      This will stop the bluetooth server, and bring everything back to regular mode.
+      This will also remove the bluetooth device id.
+
+  treehouses bluetooth pause
+      Performs the same as 'treehouses bluetooth off'
+      The only difference is that this command will not remove the bluetooth device id.
+
+  treehouses bluetooth  mac
+      This will display the bluetooth MAC address
+
+  treehouses bluetooth id
+      This will display the network name along with the bluetooth id number
+
+  treehouses bluetooth button
+      When the GPIO pin 18 is on the bluetooth will be turned off
+      Otherwise the bluetooth mode will be changed to hotspot
+
+  treehouses bluetooth id number
+      This will display the bluetooth id number
 ```
 
 Run the command:
 
 ```
-root@treehouses:/root/cli#  ./cli.sh bluetoothid
+root@treehouses:/root/cli# ./cli.sh bluetooth id
 xavierelon-8941
-root@treehouses:/root/cli# treehouses bluetoothid number
-8941
 ```
 
-As you can see the `bluetoothid` command works!
+As you can see the `bluetooth id` command works!
      
 ## Step 8: (Optional) Request Changes
 
