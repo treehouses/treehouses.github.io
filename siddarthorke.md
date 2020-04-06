@@ -15,7 +15,7 @@ One of the prime motivators to get into Web Development is a quote from **Richar
 
 > "Personally, I rather look forward to a computer program winning the world chess championship. Humanity needs a lesson in humility."
 
-A novice in Python (self-taught) and an AI enthusiast.
+A novice at `Python` (self-taught) and an AI enthusiast.
 
 Outside of work, I play DOTA (2) and have been playing DOTA for 10 years now. I also started learning drums (self-taught). I love to travel!
 
