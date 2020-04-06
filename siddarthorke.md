@@ -17,6 +17,11 @@ One of the prime motivators to get into Web Development is a quote from **Richar
 
 A novice at `Python` (self-taught) and an AI enthusiast.
 
+```python
+s="Novice I am"
+print (s)
+```
+
 Outside of work, I play DOTA (2) and have been playing DOTA for 10 years now. I also started learning drums (self-taught). I love to travel!
 
 [Reddit](https://www.reddit.com/user/NOTsiddarthorke) (Not that it matters)
