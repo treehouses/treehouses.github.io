@@ -1,7 +1,7 @@
 Siddarth Orke
 ====
-Network Engineer
-----
+## Network Engineer
+
 :clock4: : Toronto, ON (GMT -4)
 
 :computer: : macOS Catalina ver. 10.15.3
