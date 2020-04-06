@@ -24,6 +24,8 @@ print (s)
 
 Outside of work, I play DOTA (2) and have been playing DOTA for 10 years now. I also started learning drums (self-taught). I love to travel!
 
-[Reddit](https://www.reddit.com/user/NOTsiddarthorke) (Not that it matters)
+[Reddit](https://www.reddit.com/user/NOTsiddarthorke)(Not that it matters)
 
-[LinkedIn](http://www.linkedin.com/in/siddarthorke)
+[LinkedIn][1]
+
+[1]: http://www.linkedin.com/in/siddarthorke/   "LinkedIn"
