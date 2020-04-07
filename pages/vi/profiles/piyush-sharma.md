@@ -3,7 +3,7 @@ Location | Toronto, :canada:
 :---|:---
 **Time Zone** | **Eastern Time (ET)** &#x1F556;
 **Operating System** | **Windows 10** &#x1F4BB;  
-About Me
+### About Me
 I am an undergraduate student studying Computer Science at the University of Toronto - St. George Campus. I love software development and learning more about artificial intelligence. I also organize and attend many tech events such as hackathons.
 ```python 
 print("Skills & Technologies") 
@@ -15,7 +15,7 @@ print("Skills & Technologies")
 * Git
 * Raspberry Pi
 * Arduino
-Contact Me
+### Contact Me
 [Personal Email](mailto:piyush19sha@gmail.com)  
 [Student Email](mailto:pi.sharma@mail.utoronto.ca)  
 [Personal Website](https://www.sharmapiyush.com)  
