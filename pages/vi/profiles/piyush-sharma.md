@@ -1,5 +1,5 @@
 # Piyush Sharma
-Location | Toronto, :canada:
+Location | Toronto, 🇨🇦
 :---|:---
 **Time Zone** | **Eastern Time (ET)** &#x1F556;
 **Operating System** | **Windows 10** &#x1F4BB;  
