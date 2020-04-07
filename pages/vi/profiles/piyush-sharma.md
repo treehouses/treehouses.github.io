@@ -1,8 +1,8 @@
 # Piyush Sharma
 Location | Toronto, :canada:
 :---|:---
-**Time Zone** | **Eastern Time (ET)** `:alarm_clock:`
-**Operating System** | **Windows 10** `:computer:`
+**Time Zone** | **Eastern Time (ET)** &#x1F556;
+**Operating System** | **Windows 10** &#x1F4BB;
 ## About Me
 I am an undergraduate student studying Computer Science at the University of Toronto - St. George Campus. I love software development and learning more about artificial intelligence. I also organize and attend many tech events such as hackathons.
 ```python 
