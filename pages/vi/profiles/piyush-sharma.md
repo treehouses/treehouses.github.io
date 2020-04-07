@@ -14,7 +14,8 @@ print("Skills & Technologies")
 * HTML & CSS
 * Git
 * Raspberry Pi
-* Arduino
+* Arduino 
+
 ### Contact Me
 [Personal Email](mailto:piyush19sha@gmail.com)  
 [Student Email](mailto:pi.sharma@mail.utoronto.ca)  
