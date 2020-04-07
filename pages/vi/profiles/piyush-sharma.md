@@ -19,7 +19,7 @@ print("Skills & Technologies")
 ### Contact Me
 [Personal Email](mailto:piyush19sha@gmail.com)  
 [Student Email](mailto:pi.sharma@mail.utoronto.ca)  
-[Personal Website](https://www.sharmapiyush.com)  
+[Personal Website](https://sharmapiyush.com)  
 [GitHub](https://www.github.com/piyush-sharma)  
 [LinkedIn](https://www.linkedin.com/in/piyush19sha)  
 [Devpost](https://www.devpost.com/piyush-sharma)
