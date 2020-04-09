@@ -2,9 +2,9 @@ Siddarth Orke
 ====
 ## Network Engineer
 
-:clock4: : Toronto, ON (GMT -4)
+🕓 : Toronto, ON (GMT -4)
 
-:computer: : macOS Catalina ver. 10.15.3
+🖳 : macOS Catalina ver. 10.15.3
 
 ![](https://cdnassets.hw.net/dims4/GG/7a0a8de/2147483647/resize/876x%3E/quality/90/?url=https%3A%2F%2Fcdnassets.hw.net%2F47%2F12%2Fc43fa4664a4192dd3f45bb9047f8%2Fsmu-dallas-hall-02.jpg)
 I got my Master's in Telecommunication and Network Engineering in 2015 from Southern Methodist University, Dallas TX. 
