@@ -9,7 +9,7 @@ Turtle Blocks is an activity with a Logo-inspired graphical "turtle" that draws 
 
 ## Step 1: Git clone your target github repo 
 
-[sugarlabs](https://github.com/sugarlabs/turtleblocksjs) provides all codes I need to build turtleblocksjs dockerimage.
+[sugarlabs](https://github.com/sugarlabs/turtleblocksjs) provides all codes I need to build turtleblocksjs docker image.
 I make a directory named turtleblocksjs then work under this directory.
 
 ```
@@ -21,7 +21,7 @@ git clone https://github.com/sugarlabs/turtleblocksjs
 Under the same directory, create a file name `Dockerfile`.
 
 Note:  
-1.  The file name has to be the exactly `Dockerfile`, otherwise the docker building process will fail.
+1.  The file name has to be the exact `Dockerfile`, otherwise the docker build process will fail.
 1.  The Dockerfile has to be under the same turtleblocksjs directory.
 
 
@@ -75,12 +75,14 @@ CONTAINER ID        IMAGE                             COMMAND                  C
 e9769bca5f47        treehouses/turtleblocksjs         "/usr/sbin/httpd -D …"   5 seconds ago       Up 2 seconds                443/tcp, 0.0.0.0:31000->80/tcp   silly_bell
 ```
 
-Go to web browser, I can see the turtle
+Go to web browser, I can see turtleblocksjs web interface.
 
 ![](images/20200409-turtle1.png)
 ![](images/20200409-turtle2.png)
 
-You can use this tool to create very cool picture, like this!
+You can use this tool to create very cool pictures, like this one (you can image it as a rubber band ball or a flower :p)!
+
+
  
 
 ![](images/20200409-turtle3.png)
