@@ -80,7 +80,7 @@ Go to web browser, I can see turtleblocksjs web interface.
 ![](images/20200409-turtle1.png)
 ![](images/20200409-turtle2.png)
 
-You can use this tool to create very cool pictures, like this one (you can image it as a rubber band ball or a flower :p)!
+You can use this tool to create very cool pictures, like this one! 
 
 
  
