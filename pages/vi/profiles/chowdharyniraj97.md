@@ -1,6 +1,6 @@
 
 
-## Howdy Everyone :wave:
+## Howdy Everyone 👋
 | Key   |      Value      |   |
 |----------|:-------------:|------:|
 | Name |  Niraj Chowdhary | 😃|
