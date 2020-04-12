@@ -11,6 +11,7 @@ I'm a big fan of soccer, badminton, *and* table tennis.
 I'm currently learning `Emacs`, and try to use it as much as possible. 
 
 Here are some of the technologies that I'm working on:
+
 * Python Flask
 * PostgreSQL
 * NGINX
