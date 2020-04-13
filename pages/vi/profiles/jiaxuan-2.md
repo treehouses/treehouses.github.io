@@ -4,7 +4,7 @@
 
 * Singapore 
 * Eastern Standard Time  
-* macOS Catalina
+* macOS Catalina 10.15.3
 
 ### About me 
 I am currently studying Software Engineering. Piano is what I love to play.
