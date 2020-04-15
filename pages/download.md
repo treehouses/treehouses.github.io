@@ -16,8 +16,9 @@ We recommend **[Etcher](https://www.balena.io/etcher/)** to write our images to 
 * **[![treehouses](https://avatars1.githubusercontent.com/u/33208073?size=25)Past Versions](http://download.treehouses.io/)**
 * **[![treehouses](https://avatars1.githubusercontent.com/u/33208073?size=25)Experimental Versions](http://dev.ole.org/)**
 
-**NOTE**:
+
 To do a checksum of the downloaded img.gz, run `shasum "location of img.gz"` in your terminal.
+
 
 ---
 
