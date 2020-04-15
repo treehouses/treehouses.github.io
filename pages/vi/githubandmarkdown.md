@@ -90,7 +90,7 @@ Next, we are going to create your page
 1. Go to the `pages/vi/profiles` folder
 1. Make sure you are still on the new branch you just created, look for "Branch: **new-branch-name**" on the branch selector menu
 1. Click `Create new file` button
-1. Name the file exactly the same as your GitHub username with file extension `.md`
+1. Name the file exactly the same as your GitHub username with the .md file extension `username.md`
   * It is important that you stick with your GitHub username so we could easily identify you
 
 
