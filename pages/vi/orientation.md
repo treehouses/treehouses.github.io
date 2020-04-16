@@ -118,7 +118,7 @@ All of our Google Hangouts sessions can be joined at <http://talk.ole.org>. Curr
 * Secret Hacking Hangout
 
 
-Every Monday at the "[Happy hacking hangout](http://talk.ole.org)" session, we work on problems together and catch up on what people have been doing all week. It is also advisable to schedule a day out of the week to meet with a team leader, especially if you can’t make it to the meeting. Use the calendar to set up meetings and other events with interns.
+Every Monday at the "[Happy Hacking Hangout](http://talk.ole.org)" session, we work on problems together and catch up on what people have been doing all week. It is also advisable to schedule a day out of the week to meet with a team leader, especially if you can’t make it to the meeting. Use the calendar to set up meetings and other events with interns.
 
 Please subscribe to our calendar:
 
