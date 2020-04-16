@@ -13,12 +13,6 @@ About Me
 
   Here's my [Linkedin](https://linkedin.com/in/lawrencelin101/).
 
-<<<<<<< HEAD
-  Take a look at my beautiful home:
-  ![](https://i.pinimg.com/originals/6e/3a/d0/6e3ad0f9192c1578842f5f78facbd229.jpg)
-  (it's under construction, don't judge)
-=======
   Take a look at my beautiful home (it's under construction, don't judge):
   ![](https://i.pinimg.com/originals/6e/3a/d0/6e3ad0f9192c1578842f5f78facbd229.jpg)
   
->>>>>>> upstream/master
