@@ -41,9 +41,9 @@ After getting your microSD cards and card reader/adapter, your first step will b
 
 ### Powering on the Raspberry Pi:
 1. With the Raspberry Pi still off, insert the microSD card into the card reader on the bottom. 
-1. Use an ethernet cable to connect it to a router.
 1. Connect the power cable, and if your device has a power switch, turn it on.
     * A red "power" LED should turn on.
+1. Connect it to an android device using [Treehouses Remote](https://play.google.com/store/apps/details?id=io.treehouses.remote) (preferred) or use an ethernet cable to connect it to a router.
 
 ---
 #### Next Section: [Using Treehouses Remote](treehouses-remote.md)
