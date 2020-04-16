@@ -20,8 +20,8 @@ After getting your microSD cards and card reader/adapter, your first step will b
 
 ### Preparing the image:
 1. Download and install [Etcher](https://etcher.io)
-1. Go to http://download.treehouses.io
-1. Scroll down to find the latest release, and download it to your computer.
+1. Go to https://treehouses.io/#!pages/download.md
+1. Click on `Latest Image` to download the image
 
 **NOTE:** The latest image will be at the bottom of the download page and will have the format _treehouses-xxx.img.gz_ where _xxx_ is the version number.
 
@@ -41,9 +41,9 @@ After getting your microSD cards and card reader/adapter, your first step will b
 
 ### Powering on the Raspberry Pi:
 1. With the Raspberry Pi still off, insert the microSD card into the card reader on the bottom. 
-1. Use an ethernet cable to connect it to a router.
 1. Connect the power cable, and if your device has a power switch, turn it on.
     * A red "power" LED should turn on.
+1. Connect it to an android device using [Treehouses Remote](https://play.google.com/store/apps/details?id=io.treehouses.remote) (preferred) or use an ethernet cable to connect it to a router.
 
 ---
 #### Next Section: [Using Treehouses Remote](treehouses-remote.md)
