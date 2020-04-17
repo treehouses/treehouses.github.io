@@ -30,7 +30,7 @@ treehouses bridge 'wifiname' 'treehouses' 'wifipassword'
 
 reboot
 ```
-Replace `username` with your Github username,and replace `wifiname` and `wifipassword` with your wifi name and password that you are connecting.Save the file, and safely eject the SD card.
+Replace `username` with your Github username,and replace `wifiname` and `wifipassword` with your wifi name and password that you are connecting. Save the file, and safely eject the SD card.
 
 **NOTE**: You must modify the `autorunonce` file _before_ using the SD card with the Raspberry Pi. Failure to do this step correctly will cause "Planet Learning" - another OLE service - to load when starting Tor. Don’t hesitate to ask other members in the [Gitter chat](https://gitter.im/treehouses/Lobby) if you are not able to load Nextcloud _after attempting this step again_.  
 
