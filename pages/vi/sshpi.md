@@ -83,7 +83,7 @@ The Systems Team utilizes this tool to provide a further layer of security when 
 You should already have [Homebrew](https://brew.sh) installed.  You can check if it's already installed by running `brew -v` in your terminal.  If you haven't yet installed it, run the following:
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew install wget
+brew install wget cask
 ```
 
 Then, install Tor and Tor Browser:
