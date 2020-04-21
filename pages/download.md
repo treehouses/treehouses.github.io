@@ -15,6 +15,11 @@ We recommend **[Etcher](https://www.balena.io/etcher/)** to write our images to 
   * **[![treehouses](https://avatars1.githubusercontent.com/u/33208073?size=25)treehouses-121.img.gz](http://download.treehouses.io/treehouse-121.img.gz)**
 * **[![treehouses](https://avatars1.githubusercontent.com/u/33208073?size=25)Past Versions](http://download.treehouses.io/)**
 * **[![treehouses](https://avatars1.githubusercontent.com/u/33208073?size=25)Alpha Images](http://dev.ole.org/)**
+
+**NOTE**:
+To do a checksum of the downloaded img.gz, run `shasum "/path/to/img.gz"` in your terminal.
+
+
 ---
 
 ### treehouses remote 

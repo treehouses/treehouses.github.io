@@ -16,7 +16,7 @@ The goal of OLE is to provide educational infrastructure to learners and educato
 # Pre-Requisites
 
 ## Required Prerequisites
-The following are required hardware components that will be needed as part of the Virtual Intern placement. Software solutions such as containers are used by the Treehouses team to ensure that the solutions we develop work across computers and locations. However as part of the Systems team, you will need some basic hardware of your own to make sure you can run, test and contribute to the software that the team is developing.
+The following are the required hardware components that will be needed as part of the Virtual Intern placement. Software solutions such as containers are used by the Treehouses team to ensure that the solutions we develop work across computers and locations. However, as part of the Systems team, you will need some basic hardware of your own to make sure you can run, test and contribute to the software that the team is developing.
 
 ### Hardware requirements:
 
@@ -36,7 +36,7 @@ The following are required hardware components that will be needed as part of th
 	- Memory (Ram): Minimum 2GB
 	- Operating System: Suggested Android 8 (Oreo) (minimum Android 6)
 	
-	**NOTE:** You can purchase all of these components together for your convenience (or if there are discounts) on places such as Amazon, Ebay etc... 
+	**NOTE:** You can purchase all of these components together for your convenience (or if there are discounts) on places such as Amazon, eBay, etc... 
 	
 ## Optional Hardware
 There are also "optional" pieces of hardware that you can choose to purchase should you choose to, these are not compulsory for participation in the internship but may greatly assist you in developing your skills and contributing to the project. 
@@ -103,7 +103,7 @@ The Systems team uses SSH (Secure Shell) to securely and remotely control the Ra
 
 Follow the instructions on [GitHub and Markdown](githubandmarkdown.md)
 
-Make sure that you've linked to your github.io and pull request in the [Gitter chat](https://gitter.im/treehouses/Lobby). Also include the `raw.githack` link in your pull request `https://raw.githack.com/YourUserName/YourUserName.github.io/YourBranchName/#!pages/vi/profiles/YourUserName.md`
+Make sure that you've linked to your github.io and pull request in the [Gitter chat](https://gitter.im/treehouses/Lobby). Also, include the `raw.githack` link in your pull request `https://raw.githack.com/YourUserName/YourUserName.github.io/YourBranchName/#!pages/vi/profiles/YourUserName.md`
 
 **NOTE**: The `raw.githack` link is case sensitive to your username. 
 
@@ -153,12 +153,12 @@ Follow the [Nextcloud and Tor Tutorial](nextcloud-tor.md) to set up the Nextclou
 
 ## Step 8 - Create Issues and Pull Requests
 
-In this step we will adopt the motto of "Practice makes Perfect". You will follow the same steps as in **Step 6**, continuing to improve this Markdown Wiki so that it is educational, yet easy to understand for future interns.
+In this step, we will adopt the motto of "Practice makes Perfect". You will follow the same steps as in **Step 6**, continuing to improve this Markdown Wiki so that it is educational, yet easy to understand for future interns.
 
 You should: 
 * Add comments to three issues other than your own (somebody else's issue)
 * Create three new issues (in addition to those you have already created in previous steps)
-	* Get approval to work on the issues you have created. **Make sure someone from the System's team confirms that you should work on the issue, BEFORE you start to work on it.** 
+	* Get approval to work on the issues you have created. **Make sure someone from the System's team confirms that you should work on the issue BEFORE you start to work on it.** 
 * Resolve the three issues by making the necessary changes in your repo with three separate pull requests. 
 
 	
