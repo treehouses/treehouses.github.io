@@ -2,7 +2,7 @@
  <img float = "right" src="https://www.gannett-cdn.com/presto/2019/02/01/USAT/2af52e69-3fd1-4438-99d7-487a9b51d03c-GettyImages-878868924.jpg"
      width="320" height="180" title="Seattle City" alt="Seattle City"/>  
      
-<br />**Location**: Seattle, Washington
+**Location**: Seattle, Washington
 <br />**Time Zone**: Pacific Daylight Time (PDT)
 <br />**OS Name**: Windows 10
 <br />
@@ -13,7 +13,7 @@
      width="320" height="240" title="Bellevue College" alt="Bellevue College"/>
  </left>
      
-<br />-A 21-year-old Computer Science junior at Bellevue College
+-A 21-year-old Computer Science junior at Bellevue College
 <br />-Good knowledge of Java, C++, C, SQL,HTML/CSS
 <br />-I enjoy playing with Arduino and Raspberry Pi
 <br />-Coffee and rosemary tea are my favorites
@@ -26,7 +26,7 @@
      width="320" height="180" title="Hobbies" alt="Hobbies"/>   
      </right>
      
-<br />-Music (Opera, Classical, Folk music)
+-Music (Opera, Classical, Folk music)
 <br />-Sewing
 <br />-Cooking
 <br />-Photography
