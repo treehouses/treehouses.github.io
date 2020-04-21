@@ -16,6 +16,9 @@
 - I enjoy playing with Arduino and Raspberry Pi
 - Coffee and rosemary tea are my favorites
 - I love the sunset
+>You must expect great things from yourself
+>before you can do them.
+Michael Jordan
 
 
 ## Hobbies
