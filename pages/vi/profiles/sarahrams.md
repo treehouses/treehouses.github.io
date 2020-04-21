@@ -7,28 +7,28 @@
 <br />**OS Name**: Windows 10
 <br />
 <br />
-## About me
+## _About me_
 <img float = "right" src="https://images.squarespace-cdn.com/content/v1/57c0bfcd20099e1e8b2a7d57/1535566696717-73A6MSOS5GCTNNIQOUJ4/ke17ZwdGBToddI8pDm48kBV2fDZA8bP3r7mhBL3c5I4UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dqBOk1EnYZ5fR8xNLdCF2JLK9xiqdmmEv8uiBKTr9tDsCjLISwBs8eEdxAxTptZAUg/bellevuecollege2.png"
      width="320" height="240" title="Bellevue College" alt="Bellevue College"/>
    
-<br />-A 21-year-old Computer Science junior at Bellevue College
-<br />-Good knowledge of Java, C++, C, SQL, HTML/CSS
-<br />-I enjoy playing with Arduino and Raspberry Pi
-<br />-Coffee and rosemary tea are my favorites
-<br />-I love the sunset
+<br />- A 21-year-old Computer Science junior at Bellevue College
+<br />- Good knowledge of Java, C++, C, SQL, HTML/CSS
+<br />- I enjoy playing with Arduino and Raspberry Pi
+<br />- Coffee and rosemary tea are my favorites
+<br />- I love the sunset
 <br />
 <br />
-## Hobbies
+## _Hobbies_
 <img float = "right" src="https://res.cloudinary.com/twenty20/private_images/t_watermark-criss-cross-10/v1563208010000/photosp/8e17f3bd-1e45-4dd2-8c0c-d35aa57139e5/stock-photo-still-life-wood-morning-coffee-leisure-hobby-knitting-needlework-hygge-8e17f3bd-1e45-4dd2-8c0c-d35aa57139e5.jpg"
      width="320" height="180" title="Hobbies" alt="Hobbies"/>   
    
-<br />-Music (Opera, Classical, Folk music)
-<br />-Sewing
-<br />-Cooking
-<br />-Photography
+<br />1. Music (Opera, Classical, Folk music)
+<br />2. Sewing
+<br />3. Cooking
+<br />4. Photography
 <br />
 <br />
-## Social Media  
+## _Social Media_  
  <a href="https://www.linkedin.com/in/sarah-ramazani/">
    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/Linkedin_icon.svg/1024px-Linkedin_icon.svg.png"
      width="30" height="30" title="LinkedIn" alt="LinkedIn"
