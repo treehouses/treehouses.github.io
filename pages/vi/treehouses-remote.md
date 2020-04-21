@@ -41,5 +41,6 @@ The app may ask for your device location, feel free to decline.
 
 **NOTE:** You will need to unpair, re-pair, and restart your phone evey time you use a new image version.
 
+**NOTE:** If you are experiencing frequent Bluetooth disconnects, restart your Android device and try again.
 ---
 #### Next Section: [Finding your Pi](find-pi.md)
