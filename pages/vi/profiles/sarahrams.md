@@ -16,16 +16,16 @@
 - I enjoy playing with Arduino and Raspberry Pi
 - Coffee and rosemary tea are my favorites
 - I love the sunset
->You must expect great things from yourself
+>You must expect great things of yourself
 >before you can do them.
-Michael Jordan
+_-Michael Jordan_
 
 
 ## Hobbies
 <img float = "right" src="https://res.cloudinary.com/twenty20/private_images/t_watermark-criss-cross-10/v1563208010000/photosp/8e17f3bd-1e45-4dd2-8c0c-d35aa57139e5/stock-photo-still-life-wood-morning-coffee-leisure-hobby-knitting-needlework-hygge-8e17f3bd-1e45-4dd2-8c0c-d35aa57139e5.jpg"
      width="320" height="180" title="Hobbies" alt="Hobbies"/>   
    
-1. Music (Opera, Classical, Folk music)
+1. Music (Opera, Classical, Folk music) [One of my favorites](https://www.youtube.com/watch?v=jI7zeFpI2dY)
 2. Sewing
 3. Cooking
 4. Photography
