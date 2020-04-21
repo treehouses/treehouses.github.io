@@ -1,7 +1,6 @@
 # Sarah Ramazani
- <right><img align = "left" src="https://www.gannett-cdn.com/presto/2019/02/01/USAT/2af52e69-3fd1-4438-99d7-487a9b51d03c-GettyImages-878868924.jpg"
+ <img float = "left" src="https://www.gannett-cdn.com/presto/2019/02/01/USAT/2af52e69-3fd1-4438-99d7-487a9b51d03c-GettyImages-878868924.jpg"
      width="320" height="180" title="Seattle City" alt="Seattle City"/>  
- </right>
      
 <br />**Location**: Seattle, Washington
 <br />**Time Zone**: Pacific Daylight Time (PDT)
