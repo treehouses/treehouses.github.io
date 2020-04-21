@@ -2,7 +2,7 @@
  <left><img float = "right" src="https://www.gannett-cdn.com/presto/2019/02/01/USAT/2af52e69-3fd1-4438-99d7-487a9b51d03c-GettyImages-878868924.jpg"
      width="320" height="180" title="Seattle City" alt="Seattle City"/>  
  </left>    
-**Location**: Seattle, Washington
+<br />**Location**: Seattle, Washington
 <br />**Time Zone**: Pacific Daylight Time (PDT)
 <br />**OS Name**: Windows 10
 <br />
@@ -12,7 +12,7 @@
 <left><img float = "right" src="https://images.squarespace-cdn.com/content/v1/57c0bfcd20099e1e8b2a7d57/1535566696717-73A6MSOS5GCTNNIQOUJ4/ke17ZwdGBToddI8pDm48kBV2fDZA8bP3r7mhBL3c5I4UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dqBOk1EnYZ5fR8xNLdCF2JLK9xiqdmmEv8uiBKTr9tDsCjLISwBs8eEdxAxTptZAUg/bellevuecollege2.png"
      width="320" height="220" title="Bellevue College" alt="Bellevue College"/>
  </left>    
--A 21-year-old Computer Science junior at Bellevue College
+<br />-A 21-year-old Computer Science junior at Bellevue College
 <br />-Good knowledge of Java, C++, C, SQL,HTML/CSS
 <br />-I enjoy playing with Arduino and Raspberry Pi
 <br />-Coffee and rosemary tea are my favorites
@@ -24,7 +24,7 @@
 <left><img float = "right" src="https://res.cloudinary.com/twenty20/private_images/t_watermark-criss-cross-10/v1563208010000/photosp/8e17f3bd-1e45-4dd2-8c0c-d35aa57139e5/stock-photo-still-life-wood-morning-coffee-leisure-hobby-knitting-needlework-hygge-8e17f3bd-1e45-4dd2-8c0c-d35aa57139e5.jpg"
      width="320" height="180" title="Hobbies" alt="Hobbies"/>   
  </left>    
--Music (Opera, Classical, Folk music)
+<br />-Music (Opera, Classical, Folk music)
 <br />-Sewing
 <br />-Cooking
 <br />-Photography
