@@ -22,5 +22,6 @@
 |[![](https://avatars1.githubusercontent.com/u/33208073?s=25)](http://github.com/jayala-29)[jayala-29](profiles/jayala-29.md)|2020-03-30|
 |[![](https://avatars1.githubusercontent.com/u/33208073?s=25)](https://github.com/dyeh123)[dyeh123](profiles/dyeh123.md)|2020-04-05|
 |[![](https://avatars1.githubusercontent.com/u/33208073?s=25)](https://github.com/ComputerOnFire)[ComputerOnFire](profiles/ComputerOnFire.md)|2020-04-09|
+|[![](https://avatars1.githubusercontent.com/u/33208073?s=25)](https://github.com/jiaxuan-2)[jiaxuan-2](profiles/jiaxuan-2.md)|2020-04-20|
 
 To view the list of former interns, go to [former members page](retiredinterns.md).
