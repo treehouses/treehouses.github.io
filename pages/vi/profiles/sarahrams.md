@@ -9,8 +9,9 @@
 <br />
 
 ## About me
- <img align = "left" src="https://images.squarespace-cdn.com/content/v1/57c0bfcd20099e1e8b2a7d57/1535566696717-73A6MSOS5GCTNNIQOUJ4/ke17ZwdGBToddI8pDm48kBV2fDZA8bP3r7mhBL3c5I4UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dqBOk1EnYZ5fR8xNLdCF2JLK9xiqdmmEv8uiBKTr9tDsCjLISwBs8eEdxAxTptZAUg/bellevuecollege2.png"
+<left> <img align = "left" src="https://images.squarespace-cdn.com/content/v1/57c0bfcd20099e1e8b2a7d57/1535566696717-73A6MSOS5GCTNNIQOUJ4/ke17ZwdGBToddI8pDm48kBV2fDZA8bP3r7mhBL3c5I4UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYy7Mythp_T-mtop-vrsUOmeInPi9iDjx9w8K4ZfjXt2dqBOk1EnYZ5fR8xNLdCF2JLK9xiqdmmEv8uiBKTr9tDsCjLISwBs8eEdxAxTptZAUg/bellevuecollege2.png"
      width="320" height="200" title="Bellevue College" alt="Bellevue College"/>
+ </left>
      
 <br />A 21-year-old Computer Science junior at Bellevue College
 <br />Good knowledge of Java, C++, C, SQL,HTML/CSS
