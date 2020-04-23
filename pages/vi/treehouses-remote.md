@@ -37,11 +37,10 @@ The app may ask for your device location, feel free to decline.
 
 #### Congrats, you have just connected your Raspberry Pi! 
 
-**NOTE:** The time it takes to reboot is about 2-4 minutes.
+**NOTE:** The time it takes to reboot is about 2-4 minutes
 
 **NOTE:** You will need to unpair, re-pair, and restart your phone evey time you use a new image version.
 
-**NOTE:** 
-If you are experiencing frequent Bluetooth disconnects, restart your Android device and try again.
+**NOTE:** If you are experiencing frequent Bluetooth disconnects, restart your Android device and try again.
 ---
 #### Next Section: [Finding your Pi](find-pi.md)
