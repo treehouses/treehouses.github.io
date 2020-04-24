@@ -10,7 +10,7 @@ ___
 
 ### About Me
 
-I am a student pursuing Bachelor degree in Computer Engineering.
+I am a student pursuing Bachelor degree in *Computer Engineering*.
 
 #### Programming Languages/Tools 
 
@@ -20,3 +20,5 @@ I am a student pursuing Bachelor degree in Computer Engineering.
 - HTML & CSS
 - Matlab
 - Raspberry Pi
+### Profile Links
+[GitHub](https://github.com/srobin22)
