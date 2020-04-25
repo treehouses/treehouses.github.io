@@ -24,9 +24,9 @@ There are three command-line programs you could use to interact with Vagrant CLI
 **NOTE**: PowerShell and Command Prompt users will have to substitute forward slashes “/” with backslashes “\” throughout these introductory steps as it pertains to file paths.  
 Example: If you see an instruction saying `cd desktop/treehouses/cli` instead use `cd desktop\treehouses\cli`.
 
-#### macOS or Ubuntu - Terminal
+#### macOS or GNU\Linux -Terminal
 
-Normally we use Terminal to interact with Vagrant CLI.
+Normally we use a terminal emulator to interact with Vagrant CLI 
 
 ## Stay in the Right Directory
 
