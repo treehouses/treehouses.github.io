@@ -21,23 +21,23 @@ The following are the required hardware components that will be needed as part o
 ### Hardware requirements:
 
 1.  Raspberry Pi 4 ([Pi 4 information](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/))
-	- Any amount of RAM will work, but more is better.
-	- Raspberry Pi 3B/3B+ also work, but Pi 4 is recommended
+    - Any amount of RAM will work, but more is better.
+    - Raspberry Pi 3B/3B+ also work, but Pi 4 is recommended
 1.  Power supply for the Pi
-	- Pi 4: minimum 3.0A, Standard USB-C port
-	- Pi 3B/3B+: minimum 2.5A, Micro USB port
+    - Pi 4: minimum 3.0A, Standard USB-C port
+    - Pi 3B/3B+: minimum 2.5A, Micro USB port
 1.  3 microSD cards
-	- Minimum 16GB
-	- U1 or Class 10 required
+    - Minimum 16GB
+    - U1 or Class 10 required
 1.  MicroSD card reader
-	- You will need a USB reader if your computer doesn't have an SD card slot
+    - You will need a USB reader if your computer doesn't have an SD card slot
 1.  Laptop or computer with minimum 8GB of RAM
 1.  Android device (phone or tablet)
-	- Memory (Ram): Minimum 2GB
-	- Operating System: Suggested Android 8 (Oreo) (minimum Android 6)
-	
-	**NOTE:** You can purchase all of these components together for your convenience (or if there are discounts) on places such as Amazon, eBay, etc... 
-	
+    - Memory (Ram): Minimum 2GB
+    - Operating System: Suggested Android 8 (Oreo) (minimum Android 6)
+    
+    **NOTE:** You can purchase all of these components together for your convenience (or if there are discounts) on places such as Amazon, eBay, etc... 
+    
 ## Optional Hardware
 There are also "optional" pieces of hardware that you can choose to purchase should you choose to, these are not compulsory for participation in the internship but may greatly assist you in developing your skills and contributing to the project. 
 
@@ -45,9 +45,9 @@ There are also "optional" pieces of hardware that you can choose to purchase sho
 1. Optional: [Real Time Clock (rtc)](https://www.amazon.com/s?k=raspberry+pi+rtc)
 1. Optional: [Raspberry Pi 0W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/).
 1. Optional: Raspberry pi Camera(s):
-	- [Raspberry Pi Camera](https://www.raspberrypi.org/products/camera-module-v2/)
-	- [Raspberry Pi Night Vision Camera](https://www.raspberrypi.org/products/pi-noir-camera-v2/)
-	- [generic Raspberry Pi 5 Megapixel Camera](https://www.amazon.com/AuviPal-Megapixels-Raspberry-Camera-Module/dp/B07PQ63D2S/)
+    - [Raspberry Pi Camera](https://www.raspberrypi.org/products/camera-module-v2/)
+    - [Raspberry Pi Night Vision Camera](https://www.raspberrypi.org/products/pi-noir-camera-v2/)
+    - [generic Raspberry Pi 5 Megapixel Camera](https://www.amazon.com/AuviPal-Megapixels-Raspberry-Camera-Module/dp/B07PQ63D2S/)
 1. Optional: USB keyboard, mouse, monitor, and HDMI cable.
 
 ---
@@ -88,7 +88,7 @@ One of the most simple but most powerful text editors out there is Vim. If you w
 ## Step 1 - Installing and finding your Raspberry Pi 
 
 There are 3 sections in this step:
-1. [Starting up your Raspberry Pi](pi-setup.md)
+1. [Setting up your Raspberry Pi](pi-setup.md)
 2. [Using treehouses Remote](treehouses-remote.md)
 3. [Finding your Pi](find-pi.md)
 
@@ -158,10 +158,10 @@ In this step, we will adopt the motto of "Practice makes Perfect". You will foll
 You should: 
 * Add comments to three issues other than your own (somebody else's issue)
 * Create three new issues (in addition to those you have already created in previous steps)
-	* Get approval to work on the issues you have created. **Make sure someone from the System's team confirms that you should work on the issue BEFORE you start to work on it.** 
+    * Get approval to work on the issues you have created. **Make sure someone from the System's team confirms that you should work on the issue BEFORE you start to work on it.** 
 * Resolve the three issues by making the necessary changes in your repo with three separate pull requests. 
 
-	
+    
 
 Just as your learning with this Wiki was made possible by the efforts of previous interns, now we turn to you to continue that tradition and help future interns take their First Steps. Through this step, you should try to further improve our Markdown Wiki, with better explanations, formatting fixes, and more! You must have made your pull requests and have them each approved by at least two other OLE team members/interns in order for it to be merged to the upstream repository. Just as before, announce your Pull Request on the Gitter chat so other members can review it. You may need to make some additional corrections. Learn by teaching - or editing our teaching tool, in this case!
 
