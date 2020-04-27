@@ -161,8 +161,6 @@ You should:
     * Get approval to work on the issues you have created. **Make sure someone from the System's team confirms that you should work on the issue BEFORE you start to work on it.** 
 * Resolve the three issues by making the necessary changes in your repo with three separate pull requests. 
 
-    
-
 Just as your learning with this Wiki was made possible by the efforts of previous interns, now we turn to you to continue that tradition and help future interns take their First Steps. Through this step, you should try to further improve our Markdown Wiki, with better explanations, formatting fixes, and more! You must have made your pull requests and have them each approved by at least two other OLE team members/interns in order for it to be merged to the upstream repository. Just as before, announce your Pull Request on the Gitter chat so other members can review it. You may need to make some additional corrections. Learn by teaching - or editing our teaching tool, in this case!
 
 **NOTE**: When you are fixing an issue, mention the issue number you are fixing in the title of your pull request and make a new branch for every new issue from the master branch.
