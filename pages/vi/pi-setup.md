@@ -21,8 +21,7 @@ After getting your microSD cards and card reader/adapter, your first step will b
 ### Preparing the image:
 1. Download and install [Etcher](https://etcher.io)
 1. Go to https://treehouses.io/#!pages/download.md
-1. Click on `Beta Image` to download the image
-
+1. Download the latest stable image (the one with the highest version number)
 
 ### Burning the treehouses image onto the microSD card:
 ![](images/etcher.gif)
