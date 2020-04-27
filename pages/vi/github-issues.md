@@ -45,14 +45,18 @@ In this case your Pull Request will not be merged and the Issue will not be coun
 
 _**SPECIAL NOTE:**_ Aspiring Virtual Interns have a tendency to speed through this process in order to check off their "First Steps" requirements. The purpose of these requirements is to fix an actual problem and improve the "First Steps" as a whole. Take time to review the "First Steps" materials to identify real issues and to research helpful solutions. It is also important to search current/open Issues to see if the problem has already been identified.
 
-## Create a New Branch
+## Sync Your Fork
 
 **Every time you start to work on an issue, you need to create a branch to keep issues you are working on separated from each other.**
 Before you create your branch, sync your repo using next commands:
-`git fetch upstream`  
-`git checkout master`
-`git merge upstream/master`
-`git push origin master`
+```
+git fetch upstream
+git checkout master
+git merge upstream/master
+git push origin master
+```
+
+## Create a New Branch
 
 To create a new branch, go to your github repo and create it using the same steps as you can see [here](https://help.github.com/en/articles/creating-and-deleting-branches-within-your-repository) (do not delete your branch).Then at the terminal, use `git fetch origin` to get the new changes to your local repository and use `git checkout <name_of_your_new_branch>` to switch to your new branch.
 
