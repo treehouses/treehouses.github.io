@@ -20,21 +20,21 @@ The following are the required hardware components that will be needed as part o
 
 ### Hardware requirements:
 
-1.  Raspberry Pi 4 ([Pi 4 information](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/))
-    - Any amount of RAM will work, but more is better.
-    - Raspberry Pi 3B/3B+ also work, but Pi 4 is recommended
-1.  Power supply for the Pi
-    - Pi 4: minimum 3.0A, Standard USB-C port
-    - Pi 3B/3B+: minimum 2.5A, Micro USB port
-1.  3 microSD cards
-    - Minimum 16GB
-    - U1 or Class 10 required
-1.  MicroSD card reader
-    - You will need a USB reader if your computer doesn't have an SD card slot
-1.  Laptop or computer with minimum 8GB of RAM
-1.  Android device (phone or tablet)
-    - Memory (Ram): Minimum 2GB
-    - Operating System: Suggested Android 8 (Oreo) (minimum Android 6)
+1. Raspberry Pi 4 ([Pi 4 information](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/))
+  - Any amount of RAM will work, but more is better.
+  - Raspberry Pi 3B/3B+ also work, but Pi 4 is recommended
+1. Power supply for the Pi
+  - Pi 4: minimum 3.0A, Standard USB-C port
+  - Pi 3B/3B+: minimum 2.5A, Micro USB port
+1. 3 microSD cards
+  - Minimum 16GB
+  - U1 or Class 10 required
+1. MicroSD card reader
+  - You will need a USB reader if your computer doesn't have an SD card slot
+1. Laptop or computer with minimum 8GB of RAM
+1. Android device (phone or tablet)
+  - Memory (Ram): Minimum 2GB
+  - Operating System: Suggested Android 8 (Oreo) (minimum Android 6)
     
     **NOTE:** You can purchase all of these components together for your convenience (or if there are discounts) on places such as Amazon, eBay, etc... 
     
@@ -45,9 +45,9 @@ There are also "optional" pieces of hardware that you can choose to purchase sho
 1. Optional: [Real Time Clock (rtc)](https://www.amazon.com/s?k=raspberry+pi+rtc)
 1. Optional: [Raspberry Pi 0W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/).
 1. Optional: Raspberry pi Camera(s):
-    - [Raspberry Pi Camera](https://www.raspberrypi.org/products/camera-module-v2/)
-    - [Raspberry Pi Night Vision Camera](https://www.raspberrypi.org/products/pi-noir-camera-v2/)
-    - [generic Raspberry Pi 5 Megapixel Camera](https://www.amazon.com/AuviPal-Megapixels-Raspberry-Camera-Module/dp/B07PQ63D2S/)
+  - [Raspberry Pi Camera](https://www.raspberrypi.org/products/camera-module-v2/)
+  - [Raspberry Pi Night Vision Camera](https://www.raspberrypi.org/products/pi-noir-camera-v2/)
+  - [generic Raspberry Pi 5 Megapixel Camera](https://www.amazon.com/AuviPal-Megapixels-Raspberry-Camera-Module/dp/B07PQ63D2S/)
 1. Optional: USB keyboard, mouse, monitor, and HDMI cable.
 
 ---
@@ -109,7 +109,7 @@ Make sure that you've linked to your github.io and pull request in the [Gitter c
 
 
 * Once you complete Step 3 you will have:
-    * 1 Pull request made
+  * 1 Pull request made
 
 
 ## Step 4 - System Tutorial
@@ -137,9 +137,9 @@ Follow the [GitHub Issues tutorial](github-issues.md) to create at least one iss
 Make sure you have created at least one issue, resolved it, commented on an issue you didn't create and have a pull request with the fix merged. You may continue making Issues, Pull requests and Comments, or move on to the next step, while you are waiting for your pull request to be merged. The approval process for your Step 6 fix may take time, but it is OK to continue working.
 
 - Once you complete Step 6 you will have:
-   * 2 pull requests made (one at step 3 and one at step 6)
-   * 1 comment added (on an issue you didn't create)
-   * 1 issue created
+  * 2 pull requests made (one at step 3 and one at step 6)
+  * 1 comment added (on an issue you didn't create)
+  * 1 issue created
 
 Please note that creating and working on Issues are not exactly bound by the "Step" you are in. Feel free to move on to other steps, and make more Issues and Pull Requests while you wait on OLE approval for your merge(s). 
 
@@ -166,9 +166,9 @@ Just as your learning with this Wiki was made possible by the efforts of previou
 **NOTE**: When you are fixing an issue, mention the issue number you are fixing in the title of your pull request and make a new branch for every new issue from the master branch.
 
 - Once you complete Step 8, you should have:
-   * 5 merged pull requests (one at step 3, one at step 6 and three at step 8)
-   * 4 comments made on *issues you didn't create* (one at step 6 and three at step 8)
-   * 4 issues created (one at step 6 and three at step 8)
+  * 5 merged pull requests (one at step 3, one at step 6 and three at step 8)
+  * 4 comments made on *issues you didn't create* (one at step 6 and three at step 8)
+  * 4 issues created (one at step 6 and three at step 8)
 
 **NOTE**: You can track your progress with the number of pull requests and issues [here](trackprogress.md).
 
