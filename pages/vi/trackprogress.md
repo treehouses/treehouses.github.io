@@ -24,7 +24,7 @@
 
 <script>
     const res = document.getElementById('results');
-    var user = "dogi";
+    var user = "";
 
     //Functions
     //Check response from the API
