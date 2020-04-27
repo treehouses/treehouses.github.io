@@ -58,13 +58,21 @@ git push origin master
 
 ## Create a New Branch
 
-To create a new branch, go to your github repo and create it using the same steps as you can see [here](https://help.github.com/en/articles/creating-and-deleting-branches-within-your-repository) (do not delete your branch).Then at the terminal, use `git fetch origin` to get the new changes to your local repository and use `git checkout <name_of_your_new_branch>` to switch to your new branch.
+1. Check for existing branches with `git branch`
 
-Or you can create a new branch from the terminal. For that, use `git checkout master` to switch to master branch, then use `git checkout -b <name_of_your_new_branch>` to create and switch to a new branch on your local repository. Make sure to remove the angled brackets (< & >) as they are just place holders. More documentation on checkout can be found [here.](https://git-scm.com/docs/git-checkout)
+   **NOTE**: The branch which is active will have a `*` before its name
+
+2. Create a new branch for the issue / fix with `git branch branch-name`
+
+   **NOTE**: Make sure you give a descriptive name to the new branch
+
+3. Switch to the newly created branch with `git checkout branch-name`
+
+    (More documentation on checkout can be found [here.](https://git-scm.com/docs/git-checkout))
 
 Now you can go and make the proposed changes to your local files. You can use any IDE or text editor you prefer. You can also use VIM or Nano to edit files from the terminal. [This guide on VIM](https://www.vim.org/docs.php ) and [this guide on Nano](https://www.nano-editor.org/docs.php) contain more information on their proper usage.
 
- _**NOTE:**_  Use `git branch` to see which branch you are in. Your `master` branch is the base working branch. It needs to remain untouched just in case you need to revert some changes back to a working version. Make sure you are on right branch using `git branch` to see what branch you are currently on, and `git checkout <branch-name>` to switch to the proper branch before making changes to your local files and committing.
+ _**NOTE:**_  Use `git branch` to see which branch you are in. Your `master` branch is the base working branch. It needs to remain untouched just in case you need to revert some changes back to a working version. Make sure you are on right branch using `git branch` to see what branch you are currently on, and `git checkout branch-name` to switch to the proper branch before making changes to your local files and committing.
 
 If you're still confused, that's quite alright. [Forking Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow) can be quite challenging at first. See this diagram below. For better context, the new branch you just made is inside your "Forked GitHub IO".
 
