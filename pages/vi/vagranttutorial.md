@@ -26,7 +26,7 @@ Example: If you see an instruction saying `cd desktop/treehouses/cli` instead us
 
 #### macOS or GNU\Linux - Terminal
 
-Normally we use a terminal emulator to interact with Vagrant CLI 
+Normally we use a terminal emulator to interact with Vagrant CLI
 
 ## Stay in the Right Directory
 
