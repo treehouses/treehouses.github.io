@@ -141,13 +141,21 @@ _**NOTE:**_ While you are waiting on two OLE team members to approve your Pull R
 *  **Wait for the pull request merge!**
 All that remains is posting your pull request in the chat and waiting until one of the OLE staff gets a chance to look at it. Be aware that a staff member may either submit a code review asking you to modify some of your changes, or accept the pull request and close the issue. You can see the process.
 
-* **Delete the branch from your remote repository.**
-After your pull request has been approved and merged by OLE staff, you might want to delete the branch that is associated with your pull request. It can keep your local and remote (yourUserName.github.io on GitHub) repository away from a mess of defunct branches. To delete the defunct branch in your remote repository, you can click the "Delete branch" button in your pull request (see the picture below).
+* Follow the below steps to delete your branch:
 
-![Delete Branch](images/delete-branch.png)
-
-* **Delete the branch from your local repository.**
-To delete the defunct branch in your local repository, use the command `git branch -d <yourLocalBranchName>` (make sure you are not on the branch that you want to delete). Go [here](https://tecadmin.net/delete-git-remote-and-local-branch/) to find out more about how to delete a branch locally.
+    1. Switch to the master branch using `git checkout master` as you cannot be on the branch you want to delete.
+    
+    2. Pull all changes first using `git pull origin master`.
+    
+    3. Check branches that have been merged with master using `git branch --merged`.
+    
+    4. Merge branch branch-name with master using `git merge branch-name`.
+    
+    5. Push changes to remote master branch with `git push origin master`.
+    
+    6. Delete local branch using `git branch -d branch-name`.
+    
+    7. Delete remote branch using `git push origin --delete branch-name`.
 
 _**NOTE:**_ Remember to always sync your fork before starting to work on a new issue. To sync your fork you can follow the process in the [previous step](gitrepositories.md).
 
