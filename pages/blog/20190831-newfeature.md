@@ -30,7 +30,7 @@ Vim is an easy way to test your code. Here are instructions on how to use it.
 1. Create a new file and give it a name`vim mycoolnewfile`
 1. The new file will automatically open, now press i on your keyboard to edit it
 1. Include `#!/bin/bash` at the top
-1. Copy the below script and press `:wq` to save it and exit
+1. Copy the below script, press Esc, type `:wq`, and press Enter to save it and exit
 1. ![](images/20190831-vim-file.png)
 1. Now enter the command `chmod 755 mycoolnewfile` so you can run it
 1. Enter `./mycoolnewfile`
