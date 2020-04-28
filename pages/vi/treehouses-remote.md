@@ -50,5 +50,6 @@ Lastly, navigate to Settings by clicking the top right icon and scroll down to e
 ![](images/enabledata2.png)
 
 **NOTE:** If you are experiencing frequent Bluetooth disconnects, restart your Android device and try again.
+
 ---
 #### Next Section: [Finding your Pi](find-pi.md)
