@@ -6,7 +6,7 @@
 
 
 ## About me
-![](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS-MvQ8SiE4Rgum9EtAlQUqdjqdz3SmTqhMxkYZILJpl29-a1Sj&usqp=CAU){: style="float: left"} 
+![](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS-MvQ8SiE4Rgum9EtAlQUqdjqdz3SmTqhMxkYZILJpl29-a1Sj&usqp=CAU){: .img-left} 
 - A 21-year-old Computer Science junior at Bellevue College
 - Good knowledge of Java, C++, C, SQL, HTML/CSS
 - I enjoy playing with Arduino and Raspberry Pi
