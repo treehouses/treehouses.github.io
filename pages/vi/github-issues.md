@@ -47,9 +47,9 @@ _**SPECIAL NOTE:**_ Aspiring Virtual Interns have a tendency to speed through th
 
 ## Sync Your Fork
 
-**Every time you start to work on an issue, you need to create a branch to keep issues you are working on separated from each other.**
-Before you create your branch, sync your repo using next commands:
-```
+**Every time we start to work on an issue. We need to create a branch to keep the issues we are working on separate from each other.**
+Before you create your branch. Sync your repo using the following commands:
+```bash
 git fetch upstream
 git checkout master
 git merge upstream/master
@@ -68,9 +68,9 @@ git push origin master
 
 3. Switch to the newly created branch with `git checkout branch-name`
 
-    (More documentation on checkout can be found [here.](https://git-scm.com/docs/git-checkout))
+    (More documentation on checkout can be found [here](https://git-scm.com/docs/git-checkout).)
 
-Now you can go and make the proposed changes to your local files. You can use any IDE or text editor you prefer. You can also use VIM or Nano to edit files from the terminal. [This guide on VIM](https://www.vim.org/docs.php ) and [this guide on Nano](https://www.nano-editor.org/docs.php) contain more information on their proper usage.
+Now you can go and make the proposed changes to your local files. You can use any IDE or text editor you prefer. You can also use VIM or Nano to edit files from the terminal. [This guide on VIM](https://www.vim.org/docs.php) and [this guide on Nano](https://www.nano-editor.org/docs.php) contain more information on their proper usage.
 
  _**NOTE:**_  Use `git branch` to see which branch you are in. Your `master` branch is the base working branch. It needs to remain untouched just in case you need to revert some changes back to a working version. Make sure you are on right branch using `git branch` to see what branch you are currently on, and `git checkout branch-name` to switch to the proper branch before making changes to your local files and committing.
 
