@@ -35,7 +35,7 @@ The app may ask for your device location, feel free to decline.
 
     ![Treehouses Command outputs](images/treehouses-output.jpg)
 
-**NOTE:** If you want to add a password to the treehouses hotspot, enter the command exactly as above being sure to add a custom hotspot password after your wifi password.
+    **NOTE:** If you want to add a password to the treehouses hotspot, enter the command exactly as above being sure to add a custom     hotspot password after your wifi password.
 
 12. Reboot once again
 
