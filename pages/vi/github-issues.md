@@ -48,7 +48,7 @@ _**SPECIAL NOTE:**_ Aspiring Virtual Interns have a tendency to speed through th
 ## Sync Your Fork
 
 **Every time we start to work on an issue. We need to create a branch to keep the issues we are working on separate from each other.**
-Before you create your branch. Sync your repo using the following commands:
+Before we create our branch. We sync our repo using the following commands:
 ```bash
 git fetch upstream
 git checkout master
