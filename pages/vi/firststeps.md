@@ -108,7 +108,7 @@ Make sure that you've linked to your github.io and pull request in the [Gitter c
 **NOTE**: The `raw.githack` link is case sensitive to your username. 
 
 
-* Once you complete Step 3 you will have:
+> Once you complete Step 3 you will have:
   * 1 Pull request made
 
 
@@ -136,7 +136,7 @@ Follow the [GitHub Issues tutorial](github-issues.md) to create at least one iss
 
 Make sure you have created at least one issue, resolved it, commented on an issue you didn't create and have a pull request with the fix merged. You may continue making Issues, Pull requests and Comments, or move on to the next step, while you are waiting for your pull request to be merged. The approval process for your Step 6 fix may take time, but it is OK to continue working.
 
-- Once you complete Step 6 you will have:
+> Once you complete Step 6 you will have:
   * 2 pull requests made (one at step 3 and one at step 6)
   * 1 comment added (on an issue you didn't create)
   * 1 issue created
@@ -165,7 +165,7 @@ Just as your learning with this Wiki was made possible by the efforts of previou
 
 **NOTE**: When you are fixing an issue, mention the issue number you are fixing in the title of your pull request and make a new branch for every new issue from the master branch.
 
-- Once you complete Step 8, you should have:
+> Once you complete Step 8, you should have:
   * 5 merged pull requests (one at step 3, one at step 6 and three at step 8)
   * 4 comments made on *issues you didn't create* (one at step 6 and three at step 8)
   * 4 issues created (one at step 6 and three at step 8)
