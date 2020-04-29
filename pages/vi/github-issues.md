@@ -145,17 +145,9 @@ All that remains is posting your pull request in the chat and waiting until one 
 
     1. Switch to the master branch using `git checkout master` as you cannot be on the branch you want to delete.
     
-    2. Pull all changes first using `git pull origin master`.
+    2. Delete local branch using `git branch -d branch-name`.
     
-    3. Check branches that have been merged with master using `git branch --merged`.
-    
-    4. Merge branch branch-name with master using `git merge branch-name`.
-    
-    5. Push changes to remote master branch with `git push origin master`.
-    
-    6. Delete local branch using `git branch -d branch-name`.
-    
-    7. Delete remote branch using `git push origin --delete branch-name`.
+    3. Delete remote branch using `git push origin --delete branch-name`.
 
 _**NOTE:**_ Remember to always sync your fork before starting to work on a new issue. To sync your fork you can follow the process in the [previous step](gitrepositories.md).
 
