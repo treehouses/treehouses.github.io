@@ -1,8 +1,8 @@
 # _Sarah Ramazani_
-![Seattle City](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRDZ20-UshipqQspjR9hBlG9yTgCfQNq-uSlRHo7rtHRNHb_Kdl&usqp=CAU)<br>
 - **Location**: Seattle, Washington<br>
 - **Time Zone**: Pacific Daylight Time (PDT)<br>
 - **OS Name**: Windows 10<br>
+![Seattle City](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRDZ20-UshipqQspjR9hBlG9yTgCfQNq-uSlRHo7rtHRNHb_Kdl&usqp=CAU)<br>
 
 ## About me
 - A 21-year-old Computer Science junior at Bellevue College
