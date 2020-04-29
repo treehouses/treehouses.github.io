@@ -13,6 +13,7 @@
 >You must expect great things of yourself
 >before you can do them.
 _-Michael Jordan_
+
 ![Bellevue College](https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS-MvQ8SiE4Rgum9EtAlQUqdjqdz3SmTqhMxkYZILJpl29-a1Sj&usqp=CAU) 
 
 
