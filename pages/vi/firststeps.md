@@ -33,8 +33,10 @@ The following are the required hardware components that will be needed as part o
   - You will need a USB reader if your computer doesn't have an SD card slot
 1. Laptop or computer with minimum 8GB of RAM
 1. Android device (phone or tablet)
-  - Memory (Ram): Minimum 2GB
-  - Operating System: Suggested Android 8 (Oreo) (minimum Android 6)
+  - Memory (RAM): Minimum 2GB
+  - Operating System:
+    * Minimum: Android 6 "Marshmallow"
+    * Recommended: Android 8 "Oreo" 
 
   **NOTE:** You can purchase all of these components together for your convenience (or if there are discounts) on places such as Amazon, eBay, etc... 
 
