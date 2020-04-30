@@ -89,7 +89,7 @@ You will now add/modify these 5 files to your branch of the cli repo. Remember t
     ![](images/20190831-temp-function.png)
     ![](images/20190831-temp-help.png)
 
-4. **_treehouses**: lastly you will open up `_treehouses` in the cli repo and add your commands to the heredoc (between the `EOF`s) in `_treehouses_complete()`
+4. **_treehouses**: Lastly you will open up `_treehouses` in the cli repo and add your commands to the heredoc (between the `EOF`s) in `_treehouses_complete()`
 
   Now go ahead and push all the changes you've made to your branch on Github.
 
