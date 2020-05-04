@@ -27,7 +27,7 @@ Go to the "Issues" tab and click on "New issue" to create a new issue:
 
 ![New Issue](images/fs6-new-issue.png)
 
-Give it a short title and a decriptive body and you can now submit your issue. If you are explaining a bug or how to replicate an issue, please be as explicit as possible and use pictures as necessary.
+Give it a short title and a descriptive body and you can now submit your issue. If you are explaining a bug or how to replicate an issue, please be as explicit as possible and use pictures as necessary.
 
 ![New Issue 2](images/fs6-issue.png)
 
@@ -39,28 +39,40 @@ If a Systems Team member does not approve your issue prior to the creation of th
 * Your issue does not improve treehouses enough
 * Your fix is not suitable
 
-In this case your the Pull Request will not be merged and the Issue will not be counted towards your "First Steps" progress. Therefore, it is suggested that you wait for the OLE member(s) to approve your Issue submission.'
+In this case your Pull Request will not be merged and the Issue will not be counted towards your "First Steps" progress. Therefore, it is suggested that you wait for the OLE member(s) to approve your Issue submission.'
 
 **Already available issues:** You can also help on issues which have already been created. Issues which are tagged as `first step intern` can be taken and worked on. Please make sure when you start working on these issues that you assign yourself to said issue or ask to be assigned. If someone else is already assigned to an issue, do not try to work on that issue.
 
 _**SPECIAL NOTE:**_ Aspiring Virtual Interns have a tendency to speed through this process in order to check off their "First Steps" requirements. The purpose of these requirements is to fix an actual problem and improve the "First Steps" as a whole. Take time to review the "First Steps" materials to identify real issues and to research helpful solutions. It is also important to search current/open Issues to see if the problem has already been identified.
 
+## Sync Your Fork
+
+**Every time we start to work on an issue. We need to create a branch to keep the issues we are working on separate from each other.**
+Before we create our branch. We sync our repo using the following commands:
+```bash
+git fetch upstream
+git checkout master
+git merge upstream/master
+git push origin master
+```
+
 ## Create a New Branch
 
-**Every time you start to work on an issue, you need to create a branch to keep issues you are working on separated from each other.**
-Before you create your branch, sync your repo using next commands:
-`git fetch upstream`  
-`git checkout master`
-`git merge upstream/master`
-`git push origin master`
+1. Check for existing branches with `git branch`
 
-To create a new branch, go to your github repo and create it using the same steps as you can see [here](https://help.github.com/en/articles/creating-and-deleting-branches-within-your-repository) (do not delete your branch).Then at the terminal, use `git fetch origin` to get the new changes to your local repository and use `git checkout <name_of_your_new_branch>` to switch to your new branch.
+   **NOTE**: The branch which is active will have a `*` before its name
 
-Or you can create a new branch from the terminal. For that, use `git checkout master` to switch to master branch, then use `git checkout -b <name_of_your_new_branch>` to create and switch to a new branch on your local repository. Make sure to remove the angled brackets (< & >) as they are just place holders. More documentation on checkout can be found [here.](https://git-scm.com/docs/git-checkout)
+2. Create a new branch for the issue / fix with `git branch branch-name`
 
-Now you can go and make the proposed changes to your local files. You can use any IDE or text editor you prefer. You can also use VIM or Nano to edit files from the terminal. [This guide on VIM](https://www.vim.org/docs.php ) and [this guide on Nano](https://www.nano-editor.org/docs.php) contain more information on their proper usage.
+   **NOTE**: Make sure you give a descriptive name to the new branch
 
- _**NOTE:**_  Use `git branch` to see which branch you are in. Your `master` branch is the base working branch. It needs to remain untouched just in case you need to revert some changes back to a working version. Make sure you are on right branch using `git branch` to see what branch you are currently on, and `git checkout <branch-name>` to switch to the proper branch before making changes to your local files and committing.
+3. Switch to the newly created branch with `git checkout branch-name`
+
+    (More documentation on checkout can be found [here](https://git-scm.com/docs/git-checkout).)
+
+Now you can go and make the proposed changes to your local files. You can use any IDE or text editor you prefer. You can also use VIM or Nano to edit files from the terminal. [This guide on VIM](https://www.vim.org/docs.php) and [this guide on Nano](https://www.nano-editor.org/docs.php) contain more information on their proper usage.
+
+ _**NOTE:**_  Use `git branch` to see which branch you are in. Your `master` branch is the base working branch. It needs to remain untouched just in case you need to revert some changes back to a working version. Make sure you are on right branch using `git branch` to see what branch you are currently on, and `git checkout branch-name` to switch to the proper branch before making changes to your local files and committing.
 
 If you're still confused, that's quite alright. [Forking Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow) can be quite challenging at first. See this diagram below. For better context, the new branch you just made is inside your "Forked GitHub IO".
 
@@ -92,9 +104,9 @@ Because the commits you will be making on this Markdown wiki are fairly basic, i
 For edits to this Markdown wiki, we recommend that your commit messages only consist of the subject line (refer to the article for more on what the subject is). Rules 2-5 are the most important:
 
 * Limit the subject line to 50 characters
-* Capitalize the subject line
+* Do not capitalize the subject line
 * Do not end the subject line with a period
-* Use the imperative mood in the subject line
+* Use the imperative mood (give a command) in the subject line
 
 Here is an example of how you would write your commit message:
 `$ git commit -m "Add commit message style guide and add raw.githack section (fixes #841)"`
@@ -141,13 +153,13 @@ _**NOTE:**_ While you are waiting on two OLE team members to approve your Pull R
 *  **Wait for the pull request merge!**
 All that remains is posting your pull request in the chat and waiting until one of the OLE staff gets a chance to look at it. Be aware that a staff member may either submit a code review asking you to modify some of your changes, or accept the pull request and close the issue. You can see the process.
 
-* **Delete the branch from your remote repository.**
-After your pull request has been approved and merged by OLE staff, you might want to delete the branch that is associated with your pull request. It can keep your local and remote (yourUserName.github.io on GitHub) repository away from a mess of defunct branches. To delete the defunct branch in your remote repository, you can click the "Delete branch" button in your pull request (see the picture below).
+* Follow the below steps to delete your branch:
 
-![Delete Branch](images/delete-branch.png)
-
-* **Delete the branch from your local repository.**
-To delete the defunct branch in your local repository, use the command `git branch -d <yourLocalBranchName>` (make sure you are not on the branch that you want to delete). Go [here](https://tecadmin.net/delete-git-remote-and-local-branch/) to find out more about how to delete a branch locally.
+    1. Switch to the master branch using `git checkout master` as you cannot be on the branch you want to delete.
+    
+    2. Delete local branch using `git branch -d branch-name`.
+    
+    3. Delete remote branch using `git push origin --delete branch-name`.
 
 _**NOTE:**_ Remember to always sync your fork before starting to work on a new issue. To sync your fork you can follow the process in the [previous step](gitrepositories.md).
 

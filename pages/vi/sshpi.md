@@ -48,13 +48,15 @@ pi@treehouses:~ $
 ```
 **NOTE**: Every time you use a new image on your RPI, the `known_hosts` file must be updated for ssh to connect without an error. Instructions can be found on the [FAQ](https://treehouses.io/#!pages/vi/faq.md) page.
 
-### Add ssh key to the Raspberry Pi
+### Add SSH key to the Raspberry Pi
 
-To add your SSH key to your Raspberry Pi you first need to copy your public key. Since you did copy this same key to already github you can see it by navigating with your browser to `https://github.com/<yourgithubusername>.keys` or by running linux/macosx from command line you can run `wget -O- -q https://github.com/<yourgithubusername>.keys`.
+To add your SSH key to your Raspberry Pi you first need to copy your public key. Since you did copy this same key to already github you can see it by navigating with your browser to `https://github.com/<yourgithubusername>.keys` or by running Linux/macOS from command line you can run `wget -O- -q https://github.com/<yourgithubusername>.keys`.
 
-Now you can add the public key to run: `sudo treehouses sshkey add "your SSH key"` (copy-paste your SSH key in between the quotes) or just `sudo treehouses sshkey addgithubuser <yourgithubusername>`.
+Now you can add the public key to run: `sudo treehouses sshkey add "your SSH key"` (copy-paste your SSH key in between the quotes) or just `sudo treehouses sshkey github adduser <yourgithubusername>`.
 
-In the future on ssh login it will ask you for your sshkey passphrase where as before used the default password for pi user "raspberry".
+In the future on SSH login it will ask you for your sshkey passphrase whereas before it, used the default password for pi user "raspberry".
+
+**NOTE**: The above step must be done in order to log in as `root` user during SSH session. Not doing so may leave vulnerabilities and security issues open for your Raspberry Pi.
 
 ### Log in by Root
 
@@ -81,7 +83,7 @@ The Systems Team utilizes this tool to provide a further layer of security when 
 You should already have [Homebrew](https://brew.sh) installed.  You can check if it's already installed by running `brew -v` in your terminal.  If you haven't yet installed it, run the following:
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew install wget
+brew install wget cask
 ```
 
 Then, install Tor and Tor Browser:

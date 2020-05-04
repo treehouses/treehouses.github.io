@@ -30,7 +30,7 @@ Vim is an easy way to test your code. Here are instructions on how to use it.
 1. Create a new file and give it a name`vim mycoolnewfile`
 1. The new file will automatically open, now press i on your keyboard to edit it
 1. Include `#!/bin/bash` at the top
-1. Copy the below script and press `:wq` to save it and exit
+1. Copy the below script, press Esc, type `:wq`, and press Enter to save it and exit
 1. ![](images/20190831-vim-file.png)
 1. Now enter the command `chmod 755 mycoolnewfile` so you can run it
 1. Enter `./mycoolnewfile`
@@ -81,19 +81,7 @@ You will now add/modify these 5 files to your branch of the cli repo. Remember t
 
 2. **help.sh**: Now go into cli/modules and modify the `help.sh` file in the exact same way you modified the `README.md` file
 
-3. **cli.sh**: Next you will modify the `cli.sh` file. In this file you will include two entries, a filepath and a case that calls the command. Place your new entries here in the same spots you placed it in the `README.md`
-
-    * For the filepath, your new entry will look like this `source "$SCRIPTFOLDER/modules/temperature.sh"`
-    * Below you will see cases.
-        * Copy the format of the other cases to create a new one for temperature
-        * Inside you will include `temperature "$2"` (`$0` is `treehouses`, `$1` is `temperature` and `"$2"` is for our subcommands.)
-            Without this, your command will not run when you call it.
-        * If your command is affected by a condition then you will include a second entry.
-           We want to include `checkrpi` inside right above `temperature "$2"`. Checkrpi detects if our command is being used with a raspberry pi or a non-raspberry pi environment (vagrant for example).
-           Since our command is specifically related to the Pi, this condition ensures that the user will see a message saying it cannot be run if attempted with a nonrpi environment.
-        * Your entry will look like this: ![](images/20190831-cli-addition.png)
-
-4. **Modules**: Now you will add your `temperature.sh` file into the modules folder. This is the file that has the source code for your new feature.
+3. **Modules**: Now you will add your `temperature.sh` file into the modules folder. This is the file that has the source code for your new feature.
     * Inside the file you will make sure you have a second function called function `temperature_help`
     * Each command has a help function that when called will display a description of the command and show examples of its usage.
     * Using a different command's help function as a template you can easily create one for your own command
@@ -101,15 +89,8 @@ You will now add/modify these 5 files to your branch of the cli repo. Remember t
     ![](images/20190831-temp-function.png)
     ![](images/20190831-temp-help.png)
 
-5. **_treehouses**: Lastly you will open up `_treehouses` in the cli repo and make these four additions for tab autocompletion:
-   * Under `commands=` and `help_cmds="` include the name of your feature in both lists alphabetically 
-   * next under `# services_cmds=""` add the subcommands by inlcuding this line: `temperature_cmds="kelvin fahrenheit"`
-   * Lastly under the cases you will include a case for your feature placed alphabetically. It should look like this:
-   ```
-   "temperature")
-        COMPREPLY=( $(compgen -W "$temperature_cmds" -- $cur) ) 
-        ;;
-   ```
+4. **_treehouses**: Lastly you will open up `_treehouses` in the cli repo and add your commands to the heredoc (between the `EOF`s) in `_treehouses_complete()`
+
   Now go ahead and push all the changes you've made to your branch on Github.
 
 ## Step 4: Testing Your Command

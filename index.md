@@ -12,7 +12,7 @@ The  project is divided into several parts to meet the needs of different users,
 ![OLE Raspberry Pi](./images/OLE_RPi.png)
 
 More information about the internship and treehouses can be found in our [FAQ](https://treehouses.io/#!./pages/vi/faq.md#General_Internship_Questions). 
-Should you wish to reach out for information or assistance, feel free to contact us in the [Gitter chatroom](https://gitter.im/treehouses/Lobby). Feel free to direct message our [members](./pages/vi/team.md) in Gitter if you like.
+Should you wish to reach out for information or assistance, feel free to contact us in the [Gitter chatroom](https://gitter.im/treehouses/Lobby). Feel free to direct message our [members](./pages/vi/team.md) in Gitter if you'd like.
 
 ---
 

@@ -21,7 +21,7 @@ The following resources can be used (and bookmarked) to familiarize yourself wit
 
 - [Git Cheat Sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf) - A resource for commonly used git commands.
 
-- [Markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) - A bigger Markdown cheat sheets with examples
+- [Markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) - A bigger Markdown cheat sheet with examples.
 
 - [Markdown Tutorial](https://tylingsoft.github.io/tutorial.md/#whats-markdown) - An interactive tutorial to learn Markdown.
 
@@ -90,7 +90,7 @@ Next, we are going to create your page
 1. Go to the `pages/vi/profiles` folder
 1. Make sure you are still on the new branch you just created, look for "Branch: **new-branch-name**" on the branch selector menu
 1. Click `Create new file` button
-1. Name the file exactly the same as your GitHub username with file extension `.md`
+1. Name the file exactly the same as your GitHub username plus the `.md` file extension `<username>.md`
   * It is important that you stick with your GitHub username so we could easily identify you
 
 
@@ -99,7 +99,7 @@ Then, in the new Markdown file, include the following information:
 * your name, location/time zone, and OS (including version)
 * a short description of yourself (so your fellow virtual interns know who you are)
 
-You may use the "Preview" tab to have a primitive look of what your Markdown will look like. Please use at least 5 different types of Markdown elements so you can get an idea of how it works. Avoid using HTML as the purpose of Markdown is to make pages easy to write and read. Try to be as creative as possible. Some good examples of profiles are: [Profile 1](profiles/Loshma93.md) (links), [Profile 2](profiles/ketruong.md) (picture), [Profile 3](profiles/paulbert.md) (lists)
+You may use the "Preview" tab to have a primitive look of what your Markdown will look like. Please use at least 5 different types of Markdown elements so you can get an idea of how it works. Avoid using HTML as the purpose of Markdown is to make pages easy to write and read. Try to be as creative as possible. Some good examples of profiles are: [Profile 1](profiles/Loshma93.md) (links), [Profile 2](profiles/ketruong.md) (picture), [Profile 3](profiles/paulbert.md) (lists), [Profile 4](profiles/xdmtk.md) (nerdy)
 
 When you are finished, press 'commit changes' below.
 
