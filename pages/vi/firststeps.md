@@ -21,7 +21,7 @@ The following are the required hardware components that will be needed as part o
 ### Hardware requirements:
 
 1. Raspberry Pi 4 ([Pi 4 information](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/))
-  - Any amount of RAM will work, but more is better.
+  - Any amount of RAM will work, but more is better
   - Raspberry Pi 3B/3B+ also work, but Pi 4 is recommended
 1. Power supply for the Pi
   - Pi 4: minimum 3.0A, Standard USB-C port
