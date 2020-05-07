@@ -52,6 +52,7 @@ directory and run Vagrant, or you can use the ID directly with
 Vagrant commands from any directory. For example:
 "vagrant destroy 1a2b3c4d"
 ```
+If no environments show up as active, use the command `vagrant up` and try again. 
 
 The above output tells us:
 
