@@ -45,7 +45,7 @@ There are also "optional" pieces of hardware that you can choose to purchase sho
 
 1. Ethernet cable - For Direct connection and troubleshooting of the Pi
 1. Optional: [Real Time Clock (rtc)](https://www.amazon.com/s?k=raspberry+pi+rtc)
-1. Optional: [Raspberry Pi 0W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/).
+1. Optional: [Raspberry Pi 0W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/)
 1. Optional: Raspberry pi Camera(s):
   - [Raspberry Pi Camera](https://www.raspberrypi.org/products/camera-module-v2/)
   - [Raspberry Pi Night Vision Camera](https://www.raspberrypi.org/products/pi-noir-camera-v2/)
