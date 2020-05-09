@@ -50,7 +50,7 @@ There are also "optional" pieces of hardware that you can choose to purchase sho
   - [Raspberry Pi Camera](https://www.raspberrypi.org/products/camera-module-v2/)
   - [Raspberry Pi Night Vision Camera](https://www.raspberrypi.org/products/pi-noir-camera-v2/)
   - [generic Raspberry Pi 5 Megapixel Camera](https://www.amazon.com/AuviPal-Megapixels-Raspberry-Camera-Module/dp/B07PQ63D2S/)
-1. Optional: USB keyboard, mouse, monitor, and HDMI cable.
+1. Optional: USB keyboard, mouse, monitor, and HDMI cable
 
 ---
 
