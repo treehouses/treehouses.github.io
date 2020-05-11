@@ -22,4 +22,4 @@ I am a recent graduate student from Boston University majoring in Computer Scien
 
 `C/C++, Java`
 
-![boston_harbor](https://i.imgur.com/S4a8IHz.jpg)
+![boston_harbor](https://i.imgur.com/S4a8IHz.jpg "Boston Harbor")
