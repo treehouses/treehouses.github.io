@@ -3,7 +3,7 @@
 * **Location:** Boston, MA
 * **Time Zone:** Eastern Standard Time
 * | Devices | OS |
-  | - | - |
+  | --- | --- |
   | Desktop | Win10 Home|
   | Raspberry Pi 4 | Raspbian |
   | HUAWEI Mate SE | Android 8 |
@@ -18,4 +18,4 @@ I am a recent graduate student from Boston University majoring in Computer Scien
 
 `C/C++, Java`
 
-![boston_harbor](https://github.com/fankaiyuan/Leetcode-Notebook/blob/master/Pics/boston_harbor.jpg)
+![boston_harbor](https://i.imgur.com/S4a8IHz.jpg)
