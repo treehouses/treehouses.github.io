@@ -50,7 +50,7 @@ pi@treehouses:~ $
 
 ### Add SSH key to the Raspberry Pi
 
-To add your SSH key to your Raspberry Pi you first need to copy your public key. Since you did copy this same key to already github you can see it by navigating with your browser to `https://github.com/<yourgithubusername>.keys` or by running Linux/macOS from command line you can run `wget -O- -q https://github.com/<yourgithubusername>.keys`.
+To add your SSH key to your Raspberry Pi you first need to copy your public key. Since you copied this same key to github already, you can see it by navigating with your browser to `https://github.com/<yourgithubusername>.keys` or by running Linux/macOS from command line you can run `wget -O- -q https://github.com/<yourgithubusername>.keys`.
 
 Now you can add the public key to run: `sudo treehouses sshkey add "your SSH key"` (copy-paste your SSH key in between the quotes) or just `sudo treehouses sshkey github adduser <yourgithubusername>`.
 
