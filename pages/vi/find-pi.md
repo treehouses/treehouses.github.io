@@ -18,7 +18,7 @@ The first ip address listed is your Pi's ip address.
 
 ## Method 2: Pinging your Raspberry Pi
 
-Type `ping treehouses.local`, `ping treehouses.home` or `ping treehouses.lan` in your terminal or command prompt (Windows users will need to install [Bonjour](https://support.apple.com/kb/DL999?viewlocale=en_US&locale=en_US)). You should see something like this:
+Type `ping treehouses.local`, `ping treehouses.home` or `ping treehouses.lan` in your computer terminal or command prompt (Windows users will need to install [Bonjour](https://support.apple.com/kb/DL999?viewlocale=en_US&locale=en_US)). You should see something like this:
 ```
 $ ping treehouses.local
 PING treehouses.local (192.168.0.19): 56 data bytes
