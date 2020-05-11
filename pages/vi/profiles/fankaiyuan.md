@@ -2,7 +2,9 @@
 
 * **Location:** Boston, MA
 * **Time Zone:** Eastern Standard Time
-* Devices | OS
+* **Operating Systems:**
+
+  Devices | OS
   --- | ---
   Desktop | Win10 Home
   Raspberry Pi 4 | Raspbian
