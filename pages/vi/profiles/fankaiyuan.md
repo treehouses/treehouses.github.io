@@ -2,11 +2,11 @@
 
 * **Location:** Boston, MA
 * **Time Zone:** Eastern Standard Time
-* | Devices | OS |
-  | --- | --- |
-  | Desktop | Win10 Home|
-  | Raspberry Pi 4 | Raspbian |
-  | HUAWEI Mate SE | Android 8 |
+* Devices | OS
+  --- | ---
+  Desktop | Win10 Home
+  Raspberry Pi 4 | Raspbian
+  HUAWEI Mate SE | Android 8
   
   
 
@@ -14,6 +14,7 @@
 
 I am a recent graduate student from Boston University majoring in Computer Science. I like video games and watching soccer :)
 
+[Linkedin](https://www.linkedin.com/in/kaiyuan-fan/)
 ### Language
 
 `C/C++, Java`
