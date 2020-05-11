@@ -24,7 +24,7 @@
 
 <script>
     const res = document.getElementById('results');
-    var user = "Replace me with your GitHub username";
+    var user = "replace me with your GitHub username";
 
     //Functions
     //Check response from the API
