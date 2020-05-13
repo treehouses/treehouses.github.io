@@ -8,6 +8,15 @@
 
 
 ### Create your SSH key
+**NOTE**: Be sure to not confuse SSH key pair and SSH fingerprint. The fingerprint of a key is unique and used to identify the key. Just like the fingerprints of two individuals, the fingerprints of two different keys can never be similar. A key has various characteristics, like the name and email of the key owner. When you are searching for a public key and you find multiple keys with the same properties, the only way to identify the key you are looking for is to compare the fingerprints of the two keys with the fingerprint of the key you require.
+
+SSH keys are stored in a `~/.ssh` directory. You will need to find a set of files looking like `id_dsa` or `id_rsa` (your private key or key fingerprint) and a complimentary `.pub` file (your public key).
+This is the key fingerprint format: `SHA256:mA1vMrsRkP6l42bs0dsXejq3YgxNX2r5NqboIpeUssw0 youremail@address.local`.
+However, the public keys are similar to this: 
+```
+$ cat ~/.ssh/id_rsa.pub
+ssh-rsa BBBBB3NzaC1yc2EAAAABIwAAAQEAklOUpkDHrfHY17SbrmTIpNLTGK9Tjom/BWDSUGPl+nafzlHDTYW7hdI4yZ5ew18JH4JW9jbhUFrviQzM7xlELEVf4h9lFX5KDkbPppSwg0cda3Pbv7kOdJ/MTyBlWXFCR+HAo3FXRitBqxiX1nKhXpHAZsMciLq8V6RjsNAQwdsdMFvSlVK/7XAt3FaoJoAsncM1Q9x5+3V0Ww68/eIFmb1zuHOljQJKprrX88XypNDvjYNby6xc/Pb0rwert/EnmZ+AW4OZPnTPI89ZPmVMLuayrD2cE86Z/il8b+gw3r3+1nKatmIkjn2so1d01QraTlMqVSsbxNrRFi9wrf+M7Q== youremail@address.local
+```
 Follow these steps to create your SSH key:
 - [Generate a new SSH key and add it to the ssh-agent](https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)  
 - [Add the SSH key to your GitHub account](https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account)
