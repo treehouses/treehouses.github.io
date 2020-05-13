@@ -5,7 +5,7 @@
 - Set up Tor
 
 ## Create your SSH key 
-Be sure to not confuse SSH key pair and SSH fingerprint. The fingerprint of a key is unique and used to identify the key. Just like the fingerprints of two individuals, the fingerprints of two different keys can never be similar. A key has various characteristics, like the name and email of the key owner. When you are searching for a public key and you find multiple keys with the same properties, the only way to identify the key you are looking for is to compare the fingerprints of the two keys with the fingerprint of the key you require.
+**NOTE**:Be sure to not confuse SSH key pair and SSH fingerprint. The fingerprint of a key is unique and used to identify the key. Just like the fingerprints of two individuals, the fingerprints of two different keys can never be similar. A key has various characteristics, like the name and email of the key owner. When you are searching for a public key and you find multiple keys with the same properties, the only way to identify the key you are looking for is to compare the fingerprints of the two keys with the fingerprint of the key you require.
 
 SSH keys are stored in a `~/.ssh` directory. You will need to find a set of files looking like `id_dsa` or `id_rsa` (your private key or key fingerprint) and a complimentary `.pub` file (your public key).
 This is the key fingerprint format: `SHA256:mA1vMrsRkP6l42bs0dsXejq3YgxNX2r5NqboIpeUssw0 youremail@address.local`.
@@ -22,9 +22,9 @@ NrRFi9wrf+M7Q== youremail@address.local
 Follow these steps to create your SSH key:
 - [Generate a new SSH key and add it to the ssh-agent](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 - [Add the SSH key to your GitHub account](https://help.github.com/en/github/authenticating-to-github/adding-a-new-ssh-key-to-your-github-account)
-```
-NOTE: With `cat ~/.ssh/id_rsa*` you can check your SSH key pair. Both parts (private and public) of your recently created SSH key should show up. Please be sure that your (private) key is protected by a passphrase and has been created on your computer; not on the Raspberry Pi.
-```
+
+**NOTE**: With `cat ~/.ssh/id_rsa*` you can check your SSH key pair. Both parts (private and public) of your recently created SSH key should show up. Please be sure that your (private) key is protected by a passphrase and has been created on your computer; not on the Raspberry Pi.
+
 A trick to whether github is configured correctly is to navigate to `https://github.com/<yourgithubusername>.keys` in a browser - your public SSH key should show up there.
 
 ## Log in with the Pi user
@@ -55,9 +55,9 @@ This is a security risk - please login as the 'pi' user and type 'passwd' to set
 pi@treehouses:~ $
 ```
 
-```
-NOTE: Every time you use a new image on your RPI, the `known_hosts` file must be updated for ssh to connect without an error. Instructions can be found on the [FAQ page.
-```
+
+**NOTE**: Every time you use a new image on your RPI, the `known_hosts` file must be updated for ssh to connect without an error. Instructions can be found on the [FAQ](https://treehouses.io/#!pages/vi/faq.md) page.
+
 ## Add SSH key to the Raspberry Pi
 To add your SSH key to your Raspberry Pi you first need to copy your public key. Since you did copy this same key to already github you can see it by navigating with your browser to `https://github.com/<yourgithubusername>.keys` or by running Linux/macOS from command line you can run `wget -O- -q https://github.com/<yourgithubusername>.keys`.
 ***
