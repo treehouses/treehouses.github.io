@@ -12,12 +12,7 @@ This is the key fingerprint format: `SHA256:mA1vMrsRkP6l42bs0dsXejq3YgxNX2r5Nqbo
 However, the public keys are similar to this: 
 ```
 $ cat ~/.ssh/id_rsa.pub
-ssh-rsa BBBBB3NzaC1yc2EAAAABIwAAAQEAklOUpkDHrfHY17SbrmTIpNLTGK9Tjom/BWDSU
-GPl+nafzlHDTYW7hdI4yZ5ew18JH4JW9jbhUFrviQzM7xlELEVf4h9lFX5KDkbPppSwg0cda3
-Pbv7kOdJ/MTyBlWXFCR+HAo3FXRitBqxiX1nKhXpHAZsMciLq8V6RjsNAQwdsdMFvSlVK/7XA
-t3FaoJoAsncM1Q9x5+3V0Ww68/eIFmb1zuHOljQJKprrX88XypNDvjYNby6xc/Pb0rwert/En
-mZ+AW4OZPnTPI89ZPmVMLuayrD2cE86Z/il8b+gw3r3+1nKatmIkjn2so1d01QraTlMqVSsbx
-NrRFi9wrf+M7Q== youremail@address.local
+ssh-rsa BBBBB3NzaC1yc2EAAAABIwAAAQEAklOUpkDHrfHY17SbrmTIpNLTGK9Tjom/BWDSUGPl+nafzlHDTYW7hdI4yZ5ew18JH4JW9jbhUFrviQzM7xlELEVf4h9lFX5KDkbPppSwg0cda3Pbv7kOdJ/MTyBlWXFCR+HAo3FXRitBqxiX1nKhXpHAZsMciLq8V6RjsNAQwdsdMFvSlVK/7XAt3FaoJoAsncM1Q9x5+3V0Ww68/eIFmb1zuHOljQJKprrX88XypNDvjYNby6xc/Pb0rwert/EnmZ+AW4OZPnTPI89ZPmVMLuayrD2cE86Z/il8b+gw3r3+1nKatmIkjn2so1d01QraTlMqVSsbxNrRFi9wrf+M7Q== youremail@address.local
 ```
 Follow these steps to create your SSH key:
 - [Generate a new SSH key and add it to the ssh-agent](https://help.github.com/en/github/authenticating-to-github/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
