@@ -3,6 +3,7 @@
 - Set up your SSH key
 - Log into your Pi with Root
 - Set up Tor
+
 ## Create your SSH key 
 Be sure to not confuse SSH key pair and SSH fingerprint. The fingerprint of a key is unique and used to identify the key. Just like the fingerprints of two individuals, the fingerprints of two different keys can never be similar. A key has various characteristics, like the name and email of the key owner. When you are searching for a public key and you find multiple keys with the same properties, the only way to identify the key you are looking for is to compare the fingerprints of the two keys with the fingerprint of the key you require.
 
@@ -25,6 +26,7 @@ Follow these steps to create your SSH key:
 NOTE: With `cat ~/.ssh/id_rsa*` you can check your SSH key pair. Both parts (private and public) of your recently created SSH key should show up. Please be sure that your (private) key is protected by a passphrase and has been created on your computer; not on the Raspberry Pi.
 ```
 A trick to whether github is configured correctly is to navigate to `https://github.com/<yourgithubusername>.keys` in a browser - your public SSH key should show up there.
+
 ## Log in with the Pi user
 Once you start up your Raspberry Pi and find its local IP address, you can connect to it from your computer using your Terminal. Windows users should use Git Bash.
 Run the following:
