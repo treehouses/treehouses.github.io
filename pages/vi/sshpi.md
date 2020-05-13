@@ -8,7 +8,7 @@
 
 
 ### Create your SSH key
-**NOTE**: Be sure to not confuse SSH key pair and SSH fingerprint. The fingerprint of a key is unique and used to identify the key. Just like the fingerprints of two individuals, the fingerprints of two different keys can never be similar. A key has various characteristics, like the name and email of the key owner. When you are searching for a public key and you find multiple keys with the same properties, the only way to identify the key you are looking for is to compare the fingerprints of the two keys with the fingerprint of the key you require.
+**NOTE**: Be sure not to confuse the public SSH key and the key fingerprint. The fingerprint of a key is unique and used to identify the key. Just like the fingerprints of two individuals, the fingerprints of two different keys can never be similar. A key has various characteristics, like the name and email of the key owner. When you are searching for a public key and you find multiple keys with the same properties, the only way to identify the key you are looking for is to compare the fingerprints of the two keys with the fingerprint of the key you require.
 
 SSH keys are stored in a `~/.ssh` directory. You will need to find a set of files looking like `id_dsa` or `id_rsa` (your private key or key fingerprint) and a complimentary `.pub` file (your public key).
 This is the key fingerprint format: `SHA256:mA1vMrsRkP6l42bs0dsXejq3YgxNX2r5NqboIpeUssw0 youremail@address.local`.
