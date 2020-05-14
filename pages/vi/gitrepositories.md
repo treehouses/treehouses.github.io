@@ -12,20 +12,6 @@ On GitHub, our software code is organized in repositories, each of which represe
 
 You previously forked a repository from treehouses to work on, which means that that a version of the treehouses repository was available on your own GitHub account. You were then able to modify your fork, then send an update to the upstream repository in the form of a pull request. 
 
-
-## Start here
-
-This is just a summary of the steps that you will need to perform. Keep on reading for a detailed explanation of each step.
-
-
-* [Clone Your GitHub Repository username.github.io](#Clone_Your_GitHub_Repository_username.github.io)
-* [Clone with HTTPS or Clone with SSH?](#Clone_with_HTTPS_or_SSH)
-* [Explanation About Repositories and Syncing Process](#Repositories_and_the_Syncing_Process)
-* [Configure a Remote Repository for Your Fork](#Configure_a_Remote_Repository_for_Your_Fork)
-* [Sync Your Fork](#Sync_Your_Fork)
-
-**NOTE**: You will see some common names used in git (*which you can change*), such as `master`: the name of the main branch, `upstream`: the location where you forked the repository from, and `origin`: the location you cloned repository from. Both `upstream and origin` are considered **remote**. Keep in mind also, a repository may contain many branches.
-
 ## Summary of Steps
 Generally, this is what the structure of your workflow will look like: 
 
@@ -77,6 +63,19 @@ For more info on differences of merging vs. rebasing (and when to use which one)
 If you would like to understand how syncing with the fork works, here is a useful [video](https://www.youtube.com/watch?v=-zvHQXnBO6c)
 
 [![video](http://img.youtube.com/vi/-zvHQXnBO6c/0.jpg)](https://www.youtube.com/watch?v=-zvHQXnBO6c)
+
+## Detailed Steps
+
+This is just a summary of the steps that you will need to perform. Keep on reading for a detailed explanation of each step.
+
+
+* [Clone Your GitHub Repository username.github.io](#Clone_Your_GitHub_Repository_username.github.io)
+* [Clone with HTTPS or Clone with SSH?](#Clone_with_HTTPS_or_SSH)
+* [Explanation About Repositories and Syncing Process](#Repositories_and_the_Syncing_Process)
+* [Configure a Remote Repository for Your Fork](#Configure_a_Remote_Repository_for_Your_Fork)
+* [Sync Your Fork](#Sync_Your_Fork)
+
+**NOTE**: You will see some common names used in git (*which you can change*), such as `master`: the name of the main branch, `upstream`: the location where you forked the repository from, and `origin`: the location you cloned repository from. Both `upstream and origin` are considered **remote**. Keep in mind also, a repository may contain many branches.
 
 ### Clone Your GitHub Repository username.github.io
 
