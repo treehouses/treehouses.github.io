@@ -2,13 +2,14 @@
 
 There are several ways to find the local IP address of your Raspberry Pi, which you will need to know for the subsequent steps.
 
-> You will only need to do one of these steps
+**NOTE**:
+• **You will only need to do *one* of the methods below**
 
-## Looking at your router
+## **Method 0**: Looking at your router
 
 If you have access to your router's admin account, you can log into it and view the currently connected devices.  Here, you will be able to find your Raspberry Pi device (named "treehouses"), and its IP address.
 
-## Using treehouses remote
+## **Method 1**: Using treehouses remote
 
 In the [previous step](treehouses-remote.md), you were able to access the terminal on treehouses remote using Bluetooth.  Here, run `treehouses networkmode info`.  The output in `bridge` mode will look like this:
 ```
@@ -18,7 +19,7 @@ ap0: essid: treehouses, ip: 192.168.2.1, has no password
 The first ip address listed is your Pi's ip address.
 
 
-## Pinging your Raspberry Pi
+## **Method 2**: Pinging your Raspberry Pi
 
 Type `ping treehouses.local`, `ping treehouses.home` or `ping treehouses.lan` in your terminal or command prompt (Windows users will need to install [Bonjour](https://support.apple.com/kb/DL999?viewlocale=en_US&locale=en_US)). You should see something like this:
 ```
@@ -33,7 +34,7 @@ You can stop this process with `Ctrl`+`C`.
 
 As you can see here its local IP address is `192.168.0.19`.
 
-## nmap command
+## **Method 3**: nmap command
 
 The `nmap` command ([Network Mapper](https://nmap.org)) is a free and open-source tool for network discovery, available for Linux, macOS, and Windows.
 
@@ -72,7 +73,7 @@ Nmap done: 256 IP addresses (4 hosts up) scanned in 2.41 seconds
 ```
 Here you can see the local IP address of "treehouses" is `192.168.1.8`.
 
-## arp command
+## **Method 4**: arp command
 
 **This will only work if the Raspberry Pi you are using is the only one on your network.**  In your command line, you can run the the `arp` command and search for the Raspberry Pi's MAC address, assuming it has not been changed or spoofed.  A MAC address is a unique device identifying number, used as a network identifier.  Run `arp -a | grep dc:a6:32` if you are using a Raspberry Pi 4, otherwise run `arp -a | grep b8:27:eb`.
 
@@ -80,7 +81,7 @@ You should see something like this:
 `? (10.0.0.32) at b8:27:eb:c7:60:57 on en0 ifscope [ethernet]`  
 Here you can see the local IP address of the Raspberry Pi is `10.0.0.32`.
 
-## Fing app
+## **Method 5**: Fing app
 
 The Fing app is a free network scanner for smartphones. It is available for Android and iOS.
 
