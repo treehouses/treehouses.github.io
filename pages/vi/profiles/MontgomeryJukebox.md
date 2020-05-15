@@ -21,4 +21,4 @@ I lo**v**e mus**i**c.
 
 Check out my [GitHub](https://www.github.com/Daves1245) and [Sourcerer Profile](https://www.sourcerer.io/Daves1245)
 
-There's a secret on this page... but it's really hard to see!
+_There's a secret on this page... but it's really hard to see! Can you find it?_
