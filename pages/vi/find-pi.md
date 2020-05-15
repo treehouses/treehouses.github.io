@@ -33,7 +33,7 @@ You can stop this process with `Ctrl`+`C`.
 
 As you can see here its local IP address is `192.168.0.19`.
 
-## **Method 3**: nmap command
+## Method 3: nmap command
 
 The `nmap` command ([Network Mapper](https://nmap.org)) is a free and open-source tool for network discovery, available for Linux, macOS, and Windows.
 
