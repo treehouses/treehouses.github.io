@@ -4,14 +4,14 @@
 * UTC-5
 * **U**buntu 18.04.4
 
-## A Quote
+### A Quote
 "It is easy to make a simp**l**e thing co**m**plicated, b**u**t hard to make **s**omething complicated simple"
 
-## About Me
+### About Me
 My name is **David Santamaria**, I am a most**l**y self-t**a**ught Comput**e**r Science student with a coffee addiction, and
 I lo**v**e mus**i**c.
 
-## Languages
+### Languages
 * C/C++
 * Java
 * Python
@@ -19,4 +19,6 @@ I lo**v**e mus**i**c.
 * C**S**S3
 * JavaScript
 
-Check out my [GitHub](https://www.github.com/Daves1245)
+Check out my [GitHub](https://www.github.com/Daves1245) and [Sourcerer Profile](https://www.sourcerer.io/Daves1245)
+
+There's a secret on this page... but it's really hard to see!
