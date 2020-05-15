@@ -87,7 +87,7 @@ One of the most simple but most powerful text editors out there is Vim. If you w
 
 **NOTE:** You can skip ahead to Step 3 while you are waiting for your Raspberry Pi to come in the mail.
 
-## Step 1 - Installing and finding your Raspberry Pi 
+## Step 1 - Installing and Finding Your Raspberry Pi 
 
 There are 3 sections in this step:
 1. [Setting up your Raspberry Pi](pi-setup.md)
@@ -95,7 +95,7 @@ There are 3 sections in this step:
 3. [Finding your Pi](find-pi.md)
 
 
-## Step 2 - Use SSH and Tor to remotely control your Raspberry Pi
+## Step 2 - Use SSH and Tor to Remotely Control Your Raspberry Pi
 
 The Systems team uses SSH (Secure Shell) to securely and remotely control the Raspberry Pis we work with.  SSH works by providing an admin protocol that allows users to control and modify their remote servers over the Internet.  Follow the [Raspberry Pi SSH  & Tor Tutorial](sshpi.md) to learn how.
 
@@ -148,7 +148,7 @@ Make sure you have created at least one issue, resolved it, commented on an issu
 Please note that creating and working on Issues are not exactly bound by the "Step" you are in. Feel free to move on to other steps, and make more Issues and Pull Requests while you wait on OLE approval for your merge(s). 
 
 
-## Step 7 - Other Services running from a Raspberry Pi
+## Step 7 - Other Services Running from a Raspberry Pi
 
 ### Nextcloud over Tor
 
