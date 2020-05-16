@@ -2,7 +2,7 @@
 
 There are several ways to find the local IP address of your Raspberry Pi, which you will need to know for the subsequent steps.
 
-**NOTE**: **You will only need to do *one* of the methods below**
+**NOTE**: **You will only need to do at least *one* of the methods below, but it is good to know all of them.**
 
 ## Method 0: Looking at your router
 
