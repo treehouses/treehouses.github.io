@@ -115,7 +115,7 @@
     - [Markdown Cheat Sheet (PDF)](https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf)
     - [Markdown Editor](https://jbt.github.io/markdown-editor/)
 * Vi/Vim
-    - [Vim Cheatsheet](https://devhints.io/vim)
+    - [Vim Cheat Sheet](https://devhints.io/vim)
 
 ## Helpful Videos
 
