@@ -53,7 +53,7 @@
 
 #### Q8: How many pull requests and issues in total do I need to make to finish the steps?
 
-+ To finish the initial steps, you need to make a **minimum** of 4 issues and 5 pull requests so you can get familiar with GitHub and to show us that you can write proper issues/PRs.
++ To finish the initial steps, you need to make a **minimum** of 4 issues and 5 pull requests so you can get familiar with GitHub and to show us that you can write proper issues/PRs. Check your progress [here](https://treehouses.io/#!./pages/vi/trackprogress.md).
 
 #### Q9: How long do I have to complete these steps?
 
