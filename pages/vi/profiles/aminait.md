@@ -10,7 +10,7 @@
 | ----| ----|
 | GMT +3 | LInux Ubuntu 16.04 |
 
-
+---
 #### A little about me
 ---
 *  I'm a computer engineering student
@@ -19,6 +19,7 @@
 *  I'd *love* to travel more
 *  Good knowledge of ROS and python, with experience in developing software for autonomous underwater vehicle
 
+---
 #### Languages/Frameworks
 ---
 
@@ -26,6 +27,7 @@
 HTML, CSS, JavaScript, JAVA, C, C++, Python, Flask, PHP, ASP.NET, C#, SQL
 ```
 
+---
 #### More
 ---
 
