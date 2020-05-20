@@ -23,3 +23,5 @@ std::cout<< str<<endl;
 ```
 
 *Emphasizing how excited I am*
+
+~~It is really cold here.~~ It is hot now.
