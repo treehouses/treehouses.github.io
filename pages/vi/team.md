@@ -26,5 +26,6 @@
 |[![](http://github.com/law-lin.png?size=25)](https://github.com/law-lin)[law-lin](profiles/law-lin.md)|2020-04-24|
 |[![](https://avatars1.githubusercontent.com/u/33208073?s=25)](https://github.com/darthnoward)[darthnoward](profiles/darthnoward.md)|2020-05-02|
 |[![](http://github.com/saura8h.png?size=25)](https://github.com/saura8h)[saura8h](profiles/saura8h.md)|2020-05-02|
+|[![](https://avatars1.githubusercontent.com/u/33208073?s=25)](https://github.com/sydneyaldo)[sydneyaldo](profiles/sydneyaldo.md)|2020-05-20|
 
 To view the list of former interns, go to [former members page](retiredinterns.md).
