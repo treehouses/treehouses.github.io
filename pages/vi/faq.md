@@ -32,7 +32,7 @@
 
 #### Q3: Where can I find more information about this internship?
 
-+ More information about the internship can be found at the Virtual Software Engineer Intern listing. [here](https://www.indeed.com/cmp/Open-Learning-Exchange,-Inc./jobs).
++ More information about the internship can be found at the Virtual Software Engineer Intern listing [here](https://www.indeed.com/cmp/Open-Learning-Exchange,-Inc./jobs).
 
 #### Q4: What are the hours of the internship?
 
