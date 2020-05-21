@@ -49,7 +49,7 @@
 
 #### Q7: If I'm an international student, how soon can I get my paperwork required by my visa?
 
-+ Since the first 10 steps are a vetting process, your internship technically doesn't start until you finish them. Think of the first 10 steps as a continued application process; you are not working on or adding to our organizational software, but rather showing that you have enough technical background to work with us. After you finish the first 10 steps, let us know if you need us to sign some paperwork, give you organizational information, or provide you with an offer letter for your visa compliance and we'd be more than happy to help.
++ Since the first 10 steps are a vetting process, your internship technically doesn't start until you finish them. Think of the first 10 steps as a continued application process; you are not working on or adding to our organizational software, but rather showing that you have enough technical background to work with us. After you finish the first 10 steps, let us know if you need us to sign some paperwork, give you organizational information, or provide you with an offer letter for your visa compliance and we'd be more than happy to help. Find out information related to your paperwork [here](https://isso.columbia.edu/content/unpaid-internships-and-volunteering).
 
 #### Q8: How many pull requests and issues in total do I need to make to finish the steps?
 
