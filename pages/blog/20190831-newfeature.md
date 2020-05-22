@@ -27,13 +27,13 @@ Vim is an easy way to test your code. Here are instructions on how to use it.
 1. Download Vim [here](https://www.vim.org/download.php) for windows and follow their instructions for set-up or
     * type `brew install vim` in your terminal for Mac
     * `sudo apt-get install vim` in your terminal for Ubuntu
-1. Create a new file and give it a name`vim mycoolnewfile`
+1. Create a new file and give it a name`vim mycoolnewfile.sh`
 1. The new file will automatically open, now press i on your keyboard to edit it
 1. Include `#!/bin/bash` at the top
 1. Copy the below script, press Esc, type `:wq`, and press Enter to save it and exit
 1. ![](images/20190831-vim-file.png)
-1. Now enter the command `chmod 755 mycoolnewfile` so you can run it
-1. Enter `./mycoolnewfile`
+1. Now enter the command `chmod 755 mycoolnewfile.sh` so you can run it
+1. Enter `./mycoolnewfile.sh`
 1. You should now see what the function returns. This is how you can easily test your functions
 1. ![](images/20190831-vim-commands.png)
 
