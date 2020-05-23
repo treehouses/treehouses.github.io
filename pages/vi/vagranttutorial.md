@@ -11,6 +11,9 @@
 
 ## Preparation
 
+Before installing vagrant we must setup the cli repository, enable virtualization on our computer, and install virtual box.
+
+
 #### Windows – Pick your command-line program
 
 There are three command-line programs you could use to interact with Vagrant CLI:
@@ -32,8 +35,38 @@ Normally we use a terminal emulator to interact with Vagrant CLI
 
 A lot of Vagrant commands require us to specify a target machine. We can also run those commands from a directory with the target machine’s Vagrant File. Otherwise, you may encounter an error like "A Vagrant environment or target machine is required." Please go to the directory that contains our Vagrant file:
 
-- Windows users should: `cd C:\Users\YOUR_USERNAME\Desktop\treehouses\cli`.
-- macOS or Linux users should: `cd` into the location where they ran `git clone` to copy the `cli` repository.
+Windows users should do the following:
+- Go into git bash and clone the repository https://github.com/treehouses/cli
+- `cd C:\Users\YOUR_USERNAME\Desktop\treehouses\cli`
+
+macOS or Linux users should do the following:
+- `cd Desktop`
+- `git clone https://github.com/treehouses/cli`
+
+## Enable Virtualization, Install Virtualbox, and Install Vagrant
+
+Since we are planning on using VirtualBox to control Virtual Machines with our RaspberryPi, we must first enable virtualization
+
+Please visit the following website to learn how to enable Virtualization on your own machine: https://2nwiki.2n.cz/pages/viewpage.action?pageId=75202968
+
+Next, we must install VirtualBox to get Vagrant to work properly
+
+Windows users should do the following:
+- Go to https://www.virtualbox.org/wiki/Downloads and select windows hosts to install virtualbox
+- Follow the steps until you can successfully open virtual box
+
+macOS or Linux users should do the following:
+- In your command line interface type the following: `brew cask install virtualbox` or `sudo apt-get install virtualbox`
+
+Last, we must install Vagrant so we can move onto the next steps
+
+Windows users should do the following:
+- Go to https://www.vagrantup.com/downloads.html and select windows hosts to install vagrant 
+- Follow the steps until you have completed install for vagrant 
+
+macOS or Linux users should do the following:
+- In your command line interface type the following: `brew cask install vagrant` or `sudo apt-get install vagrant`
+
 
 ## Global Status
 
