@@ -2,6 +2,8 @@
 
 There are several ways to find the local IP address of your Raspberry Pi, which you will need to know for the subsequent steps.
 
+**NOTE**: **You will only need to do at least *one* of the methods below, but it is good to know all of them.**
+
 ## Method 0: Looking at your router
 
 If you have access to your router's admin account, you can log into it and view the currently connected devices.  Here, you will be able to find your Raspberry Pi device (named "treehouses"), and its IP address.
@@ -18,7 +20,7 @@ The first ip address listed is your Pi's ip address.
 
 ## Method 2: Pinging your Raspberry Pi
 
-Type `ping treehouses.local`, `ping treehouses.home` or `ping treehouses.lan` in your terminal or command prompt (Windows users will need to install [Bonjour](https://support.apple.com/kb/DL999?viewlocale=en_US&locale=en_US)). You should see something like this:
+Type `ping treehouses.local`, `ping treehouses.home` or `ping treehouses.lan` in your computer terminal or command prompt (Windows users will need to install [Bonjour](https://support.apple.com/kb/DL999?viewlocale=en_US&locale=en_US)). You should see something like this:
 ```
 $ ping treehouses.local
 PING treehouses.local (192.168.0.19): 56 data bytes

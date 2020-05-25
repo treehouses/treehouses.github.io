@@ -89,6 +89,8 @@ To see the full list of `treehouses tor` commands, run `treehouses help tor`.
 
 In the Tor browser on your computer, navigate to the .onion address.  For instance, I would navigate to `b3pesvpay2ouaxl556jwbknf32qlurspdregg672lgm5wjk5gejuonid.onion` in my Tor browser.  If the Nextcloud container is up and running, you should see the Nextcloud set up page:  
 
+**NOTE**: The Tor link may take some time to load.
+
 ![](images/nextcloud-login.png)
 
 Once you reach this page, send a screenshot of the window (including the URL) in the Gitter chat.
