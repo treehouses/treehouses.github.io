@@ -49,7 +49,7 @@ Since you have already created an account on GitHub, we will assume that you und
 There is a lot to learn about GitHub, but to acclimatize you to it, we will walk you through a basic example of how to create your own &lt;username&gt;.github.io and allow you to edit and commit your changes.
 
 **NOTE**: Existing GitHub users, please make sure to set your email address per local repository or make sure global settings are accurate. Follow [this](https://help.github.com/articles/setting-your-commit-email-address-in-git/) for more information.
-To check for your configuration settings, use the command `git config --list` and Git will list all the settings found at this point, including your email address and your username.
+To check for your configuration settings, use the command `git config --list` and Git will list all the settings found at this point, including your current email address and username.
 
 ### Find and fork the correct repository
 
