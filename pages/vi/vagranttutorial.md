@@ -11,7 +11,7 @@
 
 ## Preparation
 
-Before installing vagrant we must setup the cli repository, enable virtualization on our computer, and install virtual box.
+Before installing Vagrant we must setup the cli repository, enable virtualization on our computer, and install VirtualBox.
 
 
 #### Windows – Pick your command-line program
@@ -45,15 +45,15 @@ macOS or Linux users should do the following:
 
 ## Enable Virtualization, Install Virtualbox, and Install Vagrant
 
-Since we are planning on using VirtualBox to control Virtual Machines with our RaspberryPi, we must first enable virtualization
+Since we are planning on using VirtualBox to control Virtual Machines with our Raspberry Pi, we must first enable virtualization
 
-Please visit the following website to learn how to enable Virtualization on your own machine: https://2nwiki.2n.cz/pages/viewpage.action?pageId=75202968
+Please visit the following website to learn how to enable virtualization on your own machine: https://2nwiki.2n.cz/pages/viewpage.action?pageId=75202968
 
 Next, we must install VirtualBox to get Vagrant to work properly
 
 Windows users should do the following:
-- Go to https://www.virtualbox.org/wiki/Downloads and select windows hosts to install virtualbox
-- Follow the steps until you can successfully open virtual box
+- Go to https://www.virtualbox.org/wiki/Downloads and select windows hosts to install VirtualBox
+- Follow the steps until you can successfully open VirtualBbox
 
 macOS or Linux users should do the following:
 - In your command line interface type the following: `brew cask install virtualbox` or `sudo apt-get install virtualbox`
@@ -61,8 +61,8 @@ macOS or Linux users should do the following:
 Last, we must install Vagrant so we can move onto the next steps
 
 Windows users should do the following:
-- Go to https://www.vagrantup.com/downloads.html and select windows hosts to install vagrant 
-- Follow the steps until you have completed install for vagrant 
+- Go to https://www.vagrantup.com/downloads.html and select windows hosts to install Vagrant 
+- Follow the steps until you have completed install for Vagrant 
 
 macOS or Linux users should do the following:
 - In your command line interface type the following: `brew cask install vagrant` or `sudo apt-get install vagrant`
