@@ -27,6 +27,6 @@
 |[![](https://avatars1.githubusercontent.com/u/33208073?s=25)](https://github.com/darthnoward)[darthnoward](profiles/darthnoward.md)|2020-05-02|
 |[![](http://github.com/saura8h.png?size=25)](https://github.com/saura8h)[saura8h](profiles/saura8h.md)|2020-05-02|
 |[![](https://avatars1.githubusercontent.com/u/33208073?s=25)](https://github.com/warthog16)[warthog16](profiles/warthog16.md)|2020-05-17|
-|[![](https://avatars1.githubusercontent.com/u/33208073?s=25)](https://github.com/ali18997)[ali18997](profiles/ali18997.md)|2020-05-23|
+|[![](https://avatars2.githubusercontent.com/u/20432955?s=460&u=49774b160d15f1d2769f1f296fd0a260739d3f8d&v=4)](https://github.com/ali18997)[ali18997](profiles/ali18997.md)|2020-05-23|
 
 To view the list of former interns, go to [former members page](retiredinterns.md).
