@@ -138,6 +138,8 @@ upstream  https://github.com/treehouses/treehouses.github.io.git (fetch)
 upstream  https://github.com/treehouses/treehouses.github.io.git (push)
 ```
 
+**NOTE:** You may need to check for the remote repository configurations, especially the url location. For this, run the command `cat .git/config` and the details of the remote repository named origin are defined in the lines after the **[remote “origin”]** line.
+
 ### Sync Your Fork
 
 Then, use the command `git fetch upstream` to fetch branches from the upstream repository (in this case, it is treehouses.github.io). Next, check your fork's master branch with `git checkout master`. You should see some variation of this response:
