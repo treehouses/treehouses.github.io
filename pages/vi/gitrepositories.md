@@ -111,6 +111,9 @@ For example, [this link](https://help.github.com/articles/syncing-a-fork/) expla
 
 
 
+### Adding a Remote Repository to Local Repository
+Once you set up a remote repository, you will need to add the remote repo url to your local git config, and set an upstream branch for your local branches. To explicitly add the remote repository, run the `git remote add origin` followed with your repository url. In your case, it is going to be `git remote add origin https://github.com/username/username.github.io.git`.
+
 ### Configure a Remote Repository for Your Fork
 
 To be able to fetch updates from the upstream repository, you need to first configure the upstream repository by following these steps:
