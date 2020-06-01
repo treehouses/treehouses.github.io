@@ -28,13 +28,13 @@ The treehouses remote app was initially developed on the [Java](https://en.wikip
 
 1. Open Android Studio
  
- ![](./images/20200105-android-studio.png)
+    ![](./images/20200105-android-studio.png)
 
 1. Click **Import Project (Gradle, Eclipse ADT, etc.)**
 
 1. Navigate to your local clone. Select your main directory that contains your AndroidManifest.xml file. e.g. `remote\app\src\main`
  
- ![](./images/20200105-import-project.png)
+    ![](./images/20200105-import-project.png)
  
 1. Click **OK**
 1. Select **Import project from external model**
@@ -62,7 +62,7 @@ You should be able to run the project on a real device or an emulator. For your 
 
 1. In the toolbar, select the device that you want to run your app on from the target device drop-down menu
 
- ![](./images/20200601-device-dropdown.png)
+    ![](./images/20200601-device-dropdown.png)
 
 1. Click **Run** ![](./images/20200601-run-button.png)
  
@@ -79,11 +79,11 @@ Run the app on an emulator as follows:
 1. In the toolbar, select your app from the run/debug configurations drop-down menu
 1. From the target device drop-down menu, select the AVD that you want to run your app on
 
- ![](./images/20200601-device-dropdown.png)
+    ![](./images/20200601-device-dropdown.png)
 
 1. Click `Run` ![](./images/20200601-run-button.png)
 1. By now, you should see something like this:
-![](./images/20200105-run-apk.png)
+    ![](./images/20200105-run-apk.png)
 
 ---
 
