@@ -6,7 +6,7 @@ Updated on 1, June 2020 • [law-lin](https://github.com/law-lin)
 ---
 
 This blog is about how to setup [Android Studio](https://en.wikipedia.org/wiki/Android_Studio) for the [treehouses remote](https://github.com/treehouses/remote) repository.
-The treehouses remote app was initially developed on the [Java](https://en.wikipedia.org/wiki/%28Java_programming_language%29) programming language, but we have migrated to [Kotlin](https://en.wikipedia.org/wiki/%28Kotlin_programming_language%29) since May 2020. Android Studio is an Integrated Development Environment (IDE) for Android Apps. 
+The treehouses remote app was initially developed on the [Java](https://en.wikipedia.org/wiki/%28Java_programming_language) programming language, but we have migrated to [Kotlin](https://en.wikipedia.org/wiki/%28Kotlin_programming_language) since May 2020. Android Studio is an Integrated Development Environment (IDE) for Android Apps. 
 
 ---
 
