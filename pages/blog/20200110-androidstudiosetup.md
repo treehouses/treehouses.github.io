@@ -6,7 +6,7 @@ Updated on 1, June 2020 • [law-lin](https://github.com/law-lin)
 ---
 
 This blog is about how to setup [Android Studio](https://en.wikipedia.org/wiki/Android_Studio) for the [treehouses remote](https://github.com/treehouses/remote) repository.
-The treehouses remote app was initially developed on the [Java](https://en.wikipedia.org/wiki/Java_(programming_language)) programming language, but we have migrated to [Kotlin](https://en.wikipedia.org/wiki/Kotlin_(programming_language)) since May 2020. Android Studio is an Integrated Development Environment (IDE) for Android Apps. 
+The treehouses remote app was initially developed on the [Java](https://en.wikipedia.org/wiki/Java_programming_language) programming language, but we have migrated to [Kotlin](https://en.wikipedia.org/wiki/Kotlin_programming_language) since May 2020. Android Studio is an Integrated Development Environment (IDE) for Android Apps. 
 
 ---
 
@@ -29,15 +29,19 @@ The treehouses remote app was initially developed on the [Java](https://en.wikip
 1. Open Android Studio
  
 ![](./images/20200105-android-studio.png)
- 
-2. Click Import Project (Gradle, Eclipse ADT, etc.)
+
+2. Click **Import Project (Gradle, Eclipse ADT, etc.)**
+
 3. Navigate to your local clone. Select your main directory that contains your AndroidManifest.xml file. e.g. `remote\app\src\main`
  
 ![](./images/20200105-import-project.png)
  
 4. Click **OK**
+
 5. Select **Import project from external model**
+
 6. Select **Gradle** (the second option with the elephant icon)
+
 7. Click **Finish**
  
 ---
@@ -46,7 +50,7 @@ The treehouses remote app was initially developed on the [Java](https://en.wikip
 
 You should be able to run the project on a real device or an emulator. For your convenience, the following steps on how to run are taken from [here](https://developer.android.com/training/basics/firstapp/running-app)
 
-# Set up your device as follows:
+### Set up your device as follows:
 1. Connect your device to your development machine with a USB cable. If you developed on Windows, you might need to install the appropriate USB driver for your device
 1. Perform the following steps to enable **USB debugging** in the **Developer options** window:
     1. Open the **Settings** app
@@ -56,16 +60,17 @@ You should be able to run the project on a real device or an emulator. For your 
     1. Return to the previous screen, scroll to the bottom, and tap **Developer options**
     1. In the **Developer options** window, scroll down to find and enable **USB debugging**
  
-# Run the app on your device as follows:
+### Run the app on your device as follows:
 1. In Android Studio, select your app from the run/debug configurations drop-down menu in the toolbar
+
 2. In the toolbar, select the device that you want to run your app on from the target device drop-down menu
 
 ![](./images/20200601-device-dropdown.png)
 
 3. Click **Run** ![](./images/20200601-run-button.png)
  
-# Run on an emulator
-f
+### Run on an emulator
+
 Run the app on an emulator as follows:
 
 1. In Android Studio, create an Android Virtual Device (AVD) that the emulator can use to install and run your app
@@ -80,6 +85,7 @@ Run the app on an emulator as follows:
 ![](./images/20200601-device-dropdown.png)
 
 4. Click `Run` ![](./images/20200601-run-button.png)
+
 5. By now, you should see something like this:
 ![](./images/20200105-run-apk.png)
 
