@@ -64,7 +64,7 @@ You should be able to run the project on a real device or an emulator. For your 
 
 ![](./images/20200601-device-dropdown.png)
 
-3\. Click **Run** (the green play button) or press `Shift + F10` (Windows/Linux) or `Control + R` (Mac)
+3\. Click **Run** \(the green play button\) or press `Shift + F10` \(Windows/Linux\) or `Control + R` \(Mac\)
  
 ### Run on an emulator
 
@@ -81,8 +81,10 @@ Run the app on an emulator as follows:
 
 ![](./images/20200601-device-dropdown.png)
 
-4\. Click **Run** (the green play button) or press `Shift + F10` (Windows/Linux) or `Control + R` (Mac)
+4\. Click **Run** \(the green play button\) or press `Shift + F10` \(Windows/Linux\) or `Control + R` \(Mac\)
+
 5\. By now, you should see something like this:
+
 ![](./images/20200105-run-apk.png)
 
 ---
