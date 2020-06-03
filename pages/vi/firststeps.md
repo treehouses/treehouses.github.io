@@ -114,6 +114,8 @@ Make sure that you've linked to your github.io and pull request in the [Gitter c
 
 * 1 Pull request made
 
+Check your progress here: https://treehouses.io/#!./pages/vi/trackprogress.md
+
 
 ## Step 4 - System Tutorial
 
@@ -144,6 +146,8 @@ Make sure you have created at least one issue, resolved it, commented on an issu
 * 2 pull requests made (one at step 3 and one at step 6)
 * 1 comment added (on an issue you didn't create)
 * 1 issue created
+
+Check your progress here: https://treehouses.io/#!./pages/vi/trackprogress.md
 
 Please note that creating and working on Issues are not exactly bound by the "Step" you are in. Feel free to move on to other steps, and make more Issues and Pull Requests while you wait on OLE approval for your merge(s). 
 
