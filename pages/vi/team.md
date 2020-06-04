@@ -23,6 +23,5 @@
 |[![](https://avatars1.githubusercontent.com/u/33208073?s=25)](https://github.com/dyeh123)[dyeh123](profiles/dyeh123.md)|2020-04-05|
 |[![](https://avatars1.githubusercontent.com/u/33208073?s=25)](https://github.com/ComputerOnFire)[ComputerOnFire](profiles/ComputerOnFire.md)|2020-04-09|
 |[![](https://avatars1.githubusercontent.com/u/33208073?s=25)](https://github.com/jiaxuan-2)[jiaxuan-2](profiles/jiaxuan-2.md)|2020-04-20|
-|[![](https://avatars1.githubusercontent.com/u/33208073?s=25)](https://github.com/sarahrams)[sarahrams](profiles/sarahrams.md)|2020-06-04|
 
 To view the list of former interns, go to [former members page](retiredinterns.md).
