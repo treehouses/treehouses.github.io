@@ -12,7 +12,7 @@
 
 ## Prepare Treehouses image
 
-Download the latest treehouses image from http://download.treehouses.io, then use [balenaEtcher](https://etcher.io) to flash the image onto your SD card.
+Download the latest treehouses image [here](https://treehouses.io/#!pages/download.md), then use [balenaEtcher](https://etcher.io) to flash the image onto your SD card.
 
 `Warning: Use a new SD Card for these steps; otherwise you will encounter errors.`
 
@@ -88,6 +88,8 @@ b3pesvpay2ouaxl556jwbknf32qlurspdregg672lgm5wjk5gejuonid.onion
 To see the full list of `treehouses tor` commands, run `treehouses help tor`.  
 
 In the Tor browser on your computer, navigate to the .onion address.  For instance, I would navigate to `b3pesvpay2ouaxl556jwbknf32qlurspdregg672lgm5wjk5gejuonid.onion` in my Tor browser.  If the Nextcloud container is up and running, you should see the Nextcloud set up page:  
+
+**NOTE**: The Tor link may take some time to load.
 
 ![](images/nextcloud-login.png)
 

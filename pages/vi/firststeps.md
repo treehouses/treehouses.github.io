@@ -20,35 +20,37 @@ The following are the required hardware components that will be needed as part o
 
 ### Hardware requirements:
 
-1.  Raspberry Pi 4 ([Pi 4 information](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/))
-	- Any amount of RAM will work, but more is better.
-	- Raspberry Pi 3B/3B+ also work, but Pi 4 is recommended
-1.  Power supply for the Pi
-	- Pi 4: minimum 3.0A, Standard USB-C port
-	- Pi 3B/3B+: minimum 2.5A, Micro USB port
-1.  3 microSD cards
-	- Minimum 16GB
-	- U1 or Class 10 required
-1.  MicroSD card reader
-	- You will need a USB reader if your computer doesn't have an SD card slot
-1.  Laptop or computer with minimum 8GB of RAM
-1.  Android device (phone or tablet)
-	- Memory (Ram): Minimum 2GB
-	- Operating System: Suggested Android 8 (Oreo) (minimum Android 6)
-	
-	**NOTE:** You can purchase all of these components together for your convenience (or if there are discounts) on places such as Amazon, eBay, etc... 
-	
+1. Raspberry Pi 4 ([Pi 4 information](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/))
+  - Any amount of RAM will work, but more is better
+  - Raspberry Pi 3B/3B+ also work, but Pi 4 is recommended
+1. Power supply for the Pi
+  - Pi 4: minimum 3.0A, Standard USB-C port
+  - Pi 3B/3B+: minimum 2.5A, Micro USB port
+1. 3 microSD cards
+  - Minimum 16GB
+  - U1 or Class 10 required
+1. MicroSD card reader
+  - You will need a USB reader if your computer doesn't have an SD card slot
+1. Laptop or computer with minimum 8GB of RAM
+1. Android device (phone or tablet)
+  - Memory (RAM): Minimum 2GB
+  - Operating System:
+    * Minimum: Android 6 "Marshmallow"
+    * Recommended: Android 8 "Oreo" 
+
+  **NOTE:** You can purchase all of these components together for your convenience (or if there are discounts) on places such as Amazon, eBay, etc... 
+
 ## Optional Hardware
 There are also "optional" pieces of hardware that you can choose to purchase should you choose to, these are not compulsory for participation in the internship but may greatly assist you in developing your skills and contributing to the project. 
 
 1. Ethernet cable - For Direct connection and troubleshooting of the Pi
 1. Optional: [Real Time Clock (rtc)](https://www.amazon.com/s?k=raspberry+pi+rtc)
-1. Optional: [Raspberry Pi 0W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/).
+1. Optional: [Raspberry Pi 0W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/)
 1. Optional: Raspberry pi Camera(s):
-	- [Raspberry Pi Camera](https://www.raspberrypi.org/products/camera-module-v2/)
-	- [Raspberry Pi Night Vision Camera](https://www.raspberrypi.org/products/pi-noir-camera-v2/)
-	- [generic Raspberry Pi 5 Megapixel Camera](https://www.amazon.com/AuviPal-Megapixels-Raspberry-Camera-Module/dp/B07PQ63D2S/)
-1. Optional: USB keyboard, mouse, monitor, and HDMI cable.
+  - [Raspberry Pi Camera](https://www.raspberrypi.org/products/camera-module-v2/)
+  - [Raspberry Pi Night Vision Camera](https://www.raspberrypi.org/products/pi-noir-camera-v2/)
+  - [generic Raspberry Pi 5 Megapixel Camera](https://www.amazon.com/AuviPal-Megapixels-Raspberry-Camera-Module/dp/B07PQ63D2S/)
+1. Optional: USB keyboard, mouse, monitor, and HDMI cable
 
 ---
 
@@ -85,15 +87,15 @@ One of the most simple but most powerful text editors out there is Vim. If you w
 
 **NOTE:** You can skip ahead to Step 3 while you are waiting for your Raspberry Pi to come in the mail.
 
-## Step 1 - Installing and finding your Raspberry Pi 
+## Step 1 - Installing and Finding Your Raspberry Pi 
 
 There are 3 sections in this step:
-1. [Starting up your Raspberry Pi](pi-setup.md)
+1. [Setting up your Raspberry Pi](pi-setup.md)
 2. [Using treehouses Remote](treehouses-remote.md)
 3. [Finding your Pi](find-pi.md)
 
 
-## Step 2 - Use SSH and Tor to remotely control your Raspberry Pi
+## Step 2 - Use SSH and Tor to Remotely Control Your Raspberry Pi
 
 The Systems team uses SSH (Secure Shell) to securely and remotely control the Raspberry Pis we work with.  SSH works by providing an admin protocol that allows users to control and modify their remote servers over the Internet.  Follow the [Raspberry Pi SSH  & Tor Tutorial](sshpi.md) to learn how.
 
@@ -108,8 +110,9 @@ Make sure that you've linked to your github.io and pull request in the [Gitter c
 **NOTE**: The `raw.githack` link is case sensitive to your username. 
 
 
-* Once you complete Step 3 you will have:
-    * 1 Pull request made
+> Once you complete Step 3 you will have:
+
+* 1 Pull request made
 
 
 ## Step 4 - System Tutorial
@@ -136,15 +139,16 @@ Follow the [GitHub Issues tutorial](github-issues.md) to create at least one iss
 
 Make sure you have created at least one issue, resolved it, commented on an issue you didn't create and have a pull request with the fix merged. You may continue making Issues, Pull requests and Comments, or move on to the next step, while you are waiting for your pull request to be merged. The approval process for your Step 6 fix may take time, but it is OK to continue working.
 
-- Once you complete Step 6 you will have:
-   * 2 pull requests made (one at step 3 and one at step 6)
-   * 1 comment added (on an issue you didn't create)
-   * 1 issue created
+> Once you complete Step 6 you will have:
+
+* 2 pull requests made (one at step 3 and one at step 6)
+* 1 comment added (on an issue you didn't create)
+* 1 issue created
 
 Please note that creating and working on Issues are not exactly bound by the "Step" you are in. Feel free to move on to other steps, and make more Issues and Pull Requests while you wait on OLE approval for your merge(s). 
 
 
-## Step 7 - Other Services running from a Raspberry Pi
+## Step 7 - Other Services Running from a Raspberry Pi
 
 ### Nextcloud over Tor
 
@@ -158,19 +162,18 @@ In this step, we will adopt the motto of "Practice makes Perfect". You will foll
 You should: 
 * Add comments to three issues other than your own (somebody else's issue)
 * Create three new issues (in addition to those you have already created in previous steps)
-	* Get approval to work on the issues you have created. **Make sure someone from the System's team confirms that you should work on the issue BEFORE you start to work on it.** 
+  * Get approval to work on the issues you have created. **Make sure someone from the System's team confirms that you should work on the issue BEFORE you start to work on it.** 
 * Resolve the three issues by making the necessary changes in your repo with three separate pull requests. 
-
-	
 
 Just as your learning with this Wiki was made possible by the efforts of previous interns, now we turn to you to continue that tradition and help future interns take their First Steps. Through this step, you should try to further improve our Markdown Wiki, with better explanations, formatting fixes, and more! You must have made your pull requests and have them each approved by at least two other OLE team members/interns in order for it to be merged to the upstream repository. Just as before, announce your Pull Request on the Gitter chat so other members can review it. You may need to make some additional corrections. Learn by teaching - or editing our teaching tool, in this case!
 
 **NOTE**: When you are fixing an issue, mention the issue number you are fixing in the title of your pull request and make a new branch for every new issue from the master branch.
 
-- Once you complete Step 8, you should have:
-   * 5 merged pull requests (one at step 3, one at step 6 and three at step 8)
-   * 4 comments made on *issues you didn't create* (one at step 6 and three at step 8)
-   * 4 issues created (one at step 6 and three at step 8)
+> Once you complete Step 8, you should have:
+
+* 5 merged pull requests (one at step 3, one at step 6 and three at step 8)
+* 4 comments made on *issues you didn't create* (one at step 6 and three at step 8)
+* 4 issues created (one at step 6 and three at step 8)
 
 **NOTE**: You can track your progress with the number of pull requests and issues [here](trackprogress.md).
 

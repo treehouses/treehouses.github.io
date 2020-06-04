@@ -11,6 +11,9 @@
 
 ## Preparation
 
+Before installing Vagrant we must setup the cli repository, enable virtualization on our computer, and install VirtualBox.
+
+
 #### Windows – Pick your command-line program
 
 There are three command-line programs you could use to interact with Vagrant CLI:
@@ -24,16 +27,46 @@ There are three command-line programs you could use to interact with Vagrant CLI
 **NOTE**: PowerShell and Command Prompt users will have to substitute forward slashes “/” with backslashes “\” throughout these introductory steps as it pertains to file paths.  
 Example: If you see an instruction saying `cd desktop/treehouses/cli` instead use `cd desktop\treehouses\cli`.
 
-#### macOS or Ubuntu - Terminal
+#### macOS or GNU\Linux - Terminal
 
-Normally we use Terminal to interact with Vagrant CLI.
+Normally we use a terminal emulator to interact with Vagrant CLI
 
 ## Stay in the Right Directory
 
 A lot of Vagrant commands require us to specify a target machine. We can also run those commands from a directory with the target machine’s Vagrant File. Otherwise, you may encounter an error like "A Vagrant environment or target machine is required." Please go to the directory that contains our Vagrant file:
 
-- Windows users should: `cd C:\Users\YOUR_USERNAME\Desktop\treehouses\cli`.
-- macOS or Linux users should: `cd` into the location where they ran `git clone` to copy the `cli` repository.
+Windows users should do the following:
+- Go into git bash and clone the repository https://github.com/treehouses/cli
+- `cd C:\Users\YOUR_USERNAME\Desktop\treehouses\cli`
+
+macOS or Linux users should do the following:
+- `cd Desktop`
+- `git clone https://github.com/treehouses/cli`
+
+## Enable Virtualization, Install Virtualbox, and Install Vagrant
+
+Since we are planning on using VirtualBox to control Virtual Machines with our Raspberry Pi, we must first enable virtualization
+
+Please visit the following website to learn how to enable virtualization on your own machine: https://2nwiki.2n.cz/pages/viewpage.action?pageId=75202968
+
+Next, we must install VirtualBox to get Vagrant to work properly
+
+Windows users should do the following:
+- Go to https://www.virtualbox.org/wiki/Downloads and select windows hosts to install VirtualBox
+- Follow the steps until you can successfully open VirtualBbox
+
+macOS or Linux users should do the following:
+- In your command line interface type the following: `brew cask install virtualbox` or `sudo apt-get install virtualbox`
+
+Last, we must install Vagrant so we can move onto the next steps
+
+Windows users should do the following:
+- Go to https://www.vagrantup.com/downloads.html and select windows hosts to install Vagrant 
+- Follow the steps until you have completed install for Vagrant 
+
+macOS or Linux users should do the following:
+- In your command line interface type the following: `brew cask install vagrant` or `sudo apt-get install vagrant`
+
 
 ## Global Status
 
@@ -52,6 +85,7 @@ directory and run Vagrant, or you can use the ID directly with
 Vagrant commands from any directory. For example:
 "vagrant destroy 1a2b3c4d"
 ```
+If no environments show up as active, use the command `vagrant up` and try again. 
 
 The above output tells us:
 
