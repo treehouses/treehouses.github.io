@@ -29,6 +29,6 @@
 |[![](https://avatars1.githubusercontent.com/u/33208073?s=25)](https://github.com/warthog16)[warthog16](profiles/warthog16.md)|2020-05-17|
 |[![](https://github.com/sydneyaldo.png?size=25)](https://github.com/sydneyaldo)[sydneyaldo](profiles/sydneyaldo.md)|2020-05-20|
 |[![](https://avatars1.githubusercontent.com/u/20432955?s=25)](https://github.com/ali18997)[ali18997](profiles/ali18997.md)|2020-05-23|
-|[![](https://github.com/sarahrams.png?size=10)](https://github.com/sarahrams)[sarahrams](profiles/sarahrams.md)|2020-06-04|
+|[![](https://avatars1.githubusercontent.com/u/33208073?s=25)](https://github.com/sarahrams)[sarahrams](profiles/sarahrams.md)|2020-06-04|
 
 To view the list of former interns, go to [former members page](retiredinterns.md).
