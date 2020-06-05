@@ -2,3 +2,4 @@
 * I am graduate student at **San Jose State University**. Currently, I am pursuing my master's in Electrcial Engineering with specialization in **_Embedded System Design_** and **_Networking_** 
 * I have three years of work experience as a Technical Design Engineer in Polycab India Limited in Wires and Cable Division.
 * My project work on [github](https://github.com/amirajnigam)
+* Connect with me on [Linkedin](https://www.linkedin.com/in/amirajnigam/)
