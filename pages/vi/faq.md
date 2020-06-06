@@ -84,7 +84,7 @@
 
 ## Helpful Links
 
-#### *GitHub and Markdown*
+#### *GitHub, Markdown, and CLI*
 
 
 * General
@@ -114,6 +114,10 @@
     - [Markdown Syntax](https://daringfireball.net/projects/markdown/syntax)
     - [Markdown Cheat Sheet (PDF)](https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf)
     - [Markdown Editor](https://jbt.github.io/markdown-editor/)
+* CLI
+    - [MacOS CLI Cheat Sheet](https://www.makeuseof.com/tag/mac-terminal-commands-cheat-sheet/)
+    - [Linux/Ubuntu CLI Cheat Sheet](http://images.linoxide.com/linux-cheat-sheet.pdf)
+    - [Windows CLI(CMD) Cheat Sheet](https://ss64.com/nt/)
 * Vi/Vim
     - [Vim Cheat Sheet](https://devhints.io/vim)
 
