@@ -1,27 +1,30 @@
-# How To Setup Android Studio 
+# How To Setup Github to work with Android Studio on a Windows Machine 
 
-Created on 10, January 2020 • [LordJashin32](https://github.com/LordJashin32)
-Updated on 1, June 2020 • [law-lin](https://github.com/law-lin)
-
----
-
-This blog is about how to setup [Android Studio](https://en.wikipedia.org/wiki/Android_Studio) for the [treehouses remote](https://github.com/treehouses/remote) repository.
-The treehouses remote app was initially developed on the [Java](https://en.wikipedia.org/wiki/Java_%28programming_language%29) programming language, but we have migrated to [Kotlin](https://en.wikipedia.org/wiki/Kotlin_%28programming_language%29) since May 2020. Android Studio is an Integrated Development Environment (IDE) for Android Apps. 
+Created on 10, June 2020 • [ali18997](https://github.com/ali18997)
 
 ---
 
-## Download Android Studio
-
-1. Android Studio is available for Linux, Mac, and Windows platforms. Download it [here](https://developer.android.com/studio)
-
-1. Install Android Studio by running the installer. Make sure you select Android Virtual Device in the components section of the install because you will need this to run an emulator to test your APKs you build
+This blog is about how to setup [GitHub](https://github.com/) while working on [Android Studio](https://en.wikipedia.org/wiki/Android_Studio) for the [treehouses remote](https://github.com/treehouses/remote) repository using a Windows Machine.
+To follow the steps here you should have Android Studio setup properly as per the [How To Setup Android Studio](./20200110-androidstudiosetup.md) blog post.
 
 ---
 
-## Download treehouses remote 
+## Download GitHub Desktop App 
+
+1. GitHub Desktop is available for the Windows platform. Download it [here](https://desktop.github.com/)
+
+1. Install GitHub Desktop by running the installer and wait for it to finish installation
+
+1. Click Sign into Github.com on the welcome screen and sign in with your GitHub account
+
+![](./images/20200610-github-welcome.png)
+
+---
+
+## Setting up the treehouses remote repository  
 
 1. Clone the [treehouses remote](https://github.com/treehouses/remote) repository to a folder somewhere on your computer
-
+![](./images/20200610-github-repo-setting.png)
 ---
 
 ## Importing the project
