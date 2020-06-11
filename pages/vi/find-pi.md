@@ -43,6 +43,8 @@ The `nmap` command ([Network Mapper](https://nmap.org)) is a free and open-sourc
 - macOS: in your terminal, run `brew install nmap`
 - Windows: see the [nmap download page](http://nmap.org/download.html)
 
+**NOTE:** **If this is your first time using the CLI on macOS you need to install brew, a package management system for the CLI**
+
 ### Find your subnet
 
 To use `nmap` to scan the devices on your network, you need to know the subnet you are connected to. First find your own IP address, in other words the one of the computer you're using to find your Pi's IP address:
