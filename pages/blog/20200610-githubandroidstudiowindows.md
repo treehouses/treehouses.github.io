@@ -61,11 +61,17 @@ To follow the steps here you should have Android Studio setup properly as per th
 
 ![](./images/20200610-commit.png)
 
-4\. Your Android Studio project will automatically be switched to this new branch. Make the changes and when you come back they will automatically be detected by GitHub Desktop. Give your commit a description and click **Commit to "your branch name"**
+4\. Click **Publish Branch**
 
 ![](./images/20200610-publish.png)
 
+5\. Click **Create Pull Request**
+
 ![](./images/20200610-create-pr.png)
+
+6\. It will open it on a browser where you can complete the Pull Request
+
+---
 
 ### Set up your device as follows:
 1. Connect your device to your development machine with a USB cable. If you developed on Windows, you might need to install the appropriate USB driver for your device
