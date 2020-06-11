@@ -33,7 +33,7 @@ To follow the steps here you should have Android Studio setup properly as per th
 
 ---
 
-## Importing the project
+## Importing the project in Android Studio
 
 1\. Open Android Studio
  
@@ -41,20 +41,31 @@ To follow the steps here you should have Android Studio setup properly as per th
 
 2\. Click **Import Project (Gradle, Eclipse ADT, etc.)**
 
-3\. Navigate to your local clone. Select your main directory that contains your AndroidManifest.xml file. e.g. `remote\app\src\main`
+3\. Navigate to where the GitHub Desktop stored the remote repository locally. By default its in the `GitHub\remote` directory inside your Documents folder. Select the remote folder with Android icon and click **OK**
  
 ![](./images/20200610-android-studio-import.png)
  
-4\. Click **OK**
-5\. Select **Import project from external model**
-6\. Select **Gradle** (the second option with the elephant icon)
-7\. Click **Finish**
- 
 ---
 
-## Running the project
+## Making Changes and Pull Requests
 
-You should be able to run the project on a real device or an emulator. For your convenience, the following steps on how to run are taken from [here](https://developer.android.com/training/basics/firstapp/running-app)
+1\. By Default you would be on the Master branch, so you should make a new branch to make your changes. Give it a name and click **New Branch**
+
+![](./images/20200610-branch.png)
+
+2\. Click **Create branch**
+
+![](./images/20200610-branch2.png)
+
+3\. Your Android Studio project will automatically be switched to this new branch. Make the changes and when you come back they will automatically be detected by GitHub Desktop. Give your commit a description and click **Commit to "your branch name"**
+
+![](./images/20200610-commit.png)
+
+4\. Your Android Studio project will automatically be switched to this new branch. Make the changes and when you come back they will automatically be detected by GitHub Desktop. Give your commit a description and click **Commit to "your branch name"**
+
+![](./images/20200610-publish.png)
+
+![](./images/20200610-create-pr.png)
 
 ### Set up your device as follows:
 1. Connect your device to your development machine with a USB cable. If you developed on Windows, you might need to install the appropriate USB driver for your device
