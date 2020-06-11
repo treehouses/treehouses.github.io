@@ -41,9 +41,9 @@ The app may ask for your device location, feel free to decline.
 
 #### Congrats, you have just connected your Raspberry Pi! 
 
-**NOTE:** The Raspberry Pi may reboot in less than a minute, but time may vary by such factors as read/write speed of the microSD card and the particular Treehouses image being loaded.
+**NOTE:** The Raspberry Pi may reboot in less than a minute, but time may vary by factors such as read/write speed of the microSD card and the particular Treehouses image being loaded.
 
-**NOTE:** You can observe the Rapsberry Pi reboot by watching the steady red LED (labeled "PWR" in small letters on the circuit board). At the moment it reboots, the red light should briefly wink out, then come back on. Right after rebooting, the green LED (labeled "ACT" in small letters on the circuit board) will rapidly flash as the microSD card reads the initialization steps. Once the image has fully loaded, the green LED will then begin to blink at a less rapid rate.
+**NOTE:** You can observe the Rapsberry Pi reboot by watching the steady red LED (labeled "PWR" in small letters on the circuit board). During a reboot, the red light should briefly wink out, then come back on. Right after rebooting, the green LED (labeled "ACT" in small letters on the circuit board) will rapidly flash as the microSD card reads the initialization steps. Once the image has fully loaded, the green LED will then begin to blink at a less rapid rate.
 
 **NOTE:** You will need to unpair, re-pair, and restart your phone every time you use a new image version.
 
