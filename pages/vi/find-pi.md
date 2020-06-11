@@ -34,7 +34,6 @@ You can stop this process with `Ctrl`+`C`.
 As you can see here its local IP address is `192.168.0.19`.
 
 ## Method 3: nmap command
-**NOTE:** **If this is your first time using the CLI on macOS you need to install brew, a package management system for the CLI**
 
 The `nmap` command ([Network Mapper](https://nmap.org)) is a free and open-source tool for network discovery, available for Linux, macOS, and Windows.
 
@@ -43,6 +42,8 @@ The `nmap` command ([Network Mapper](https://nmap.org)) is a free and open-sourc
 - Linux: in your terminal, run `sudo apt-get install nmap`
 - macOS: in your terminal, run `brew install nmap`
 - Windows: see the [nmap download page](http://nmap.org/download.html)
+
+**NOTE:** **If this is your first time using the CLI on macOS you need to install brew, a package management system for the CLI**
 
 ### Find your subnet
 
