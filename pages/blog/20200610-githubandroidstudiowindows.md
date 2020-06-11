@@ -11,11 +11,11 @@ To follow the steps here you should have Android Studio setup properly as per th
 
 ## Download GitHub Desktop App 
 
-1. GitHub Desktop is available for the Windows platform. Download it [here](https://desktop.github.com/)
+1. GitHub Desktop is available for the Windows platform. **Download** it [here](https://desktop.github.com/)
 
-1. Install GitHub Desktop by running the installer and wait for it to finish installation
+2. Install GitHub Desktop by running the installer and wait for it to finish installation
 
-1. Click Sign into Github.com on the welcome screen and sign in with your GitHub account
+3. Click **Sign into Github.com** on the welcome screen and sign in with your GitHub account
 
 ![](./images/20200610-github-welcome.png)
 
@@ -23,21 +23,27 @@ To follow the steps here you should have Android Studio setup properly as per th
 
 ## Setting up the treehouses remote repository  
 
-1. Clone the [treehouses remote](https://github.com/treehouses/remote) repository to a folder somewhere on your computer
+1. Click **Repository** on the Menu bar and click **Repository settings** in the list.
+
 ![](./images/20200610-github-repo-setting.png)
+
+2. Select **Remote** and enter **https://github.com/treehouses/remote.git** as the URL and click **Save**.
+
+![](./images/20200610-remote-link.png)
+
 ---
 
 ## Importing the project
 
 1\. Open Android Studio
  
-![](./images/20200105-android-studio.png)
+![](./images/20200610-android-studio-start.png)
 
 2\. Click **Import Project (Gradle, Eclipse ADT, etc.)**
 
 3\. Navigate to your local clone. Select your main directory that contains your AndroidManifest.xml file. e.g. `remote\app\src\main`
  
-![](./images/20200105-import-project.png)
+![](./images/20200610-android-studio-import.png)
  
 4\. Click **OK**
 5\. Select **Import project from external model**
