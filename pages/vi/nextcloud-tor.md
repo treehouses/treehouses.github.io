@@ -37,12 +37,14 @@ Replace `username` with your Github username,and replace `wifiname` and `wifipas
 
 ## Install Tor 
 
+**NOTE**: You can skip this section if you already installed Tor from [Step 2](sshpi.md).
+
 ### macOS
 
 You should already have [Homebrew](https://brew.sh) installed.  You can check if it's already installed by running `brew -v` in your terminal.  If you haven't yet installed it, run the following:
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew install wget
+brew install wget cask
 ```
 
 Then, install Tor and Tor Browser:
