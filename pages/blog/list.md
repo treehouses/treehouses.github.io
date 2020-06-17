@@ -1,5 +1,7 @@
 ## Blogs
 
+[How To Setup Github to work with Android Studio on a Windows Machine](20200610-githubandroidstudiowindows.md) on June 10, 2020 by ali18997 `(GitHub Configure with Windows for Android Studio for treehouses remote)`
+
 [Set up headless treehouses node](20200217-headlessrpi.md) on Feb 17, 2020 by An Pham `(Headless node deploy)`
 
 [Android Studio Setup](20200110-androidstudiosetup.md) on January 10, 2020 by LordJashin32 `(Setup the treehouses remote project on Android Studio)`
