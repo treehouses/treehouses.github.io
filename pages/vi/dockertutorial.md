@@ -58,6 +58,12 @@ Check your current Linux version with `uname -r` . You should see something like
 
 Please use [this](https://docs.docker.com/install/linux/docker-ce/ubuntu/) set of instructions 
 
+
+### VirtualBox
+
+Please check out this resource [Install Docker for Virtualbox](https://cyverse.atlassian.net/wiki/spaces/HDFDE/overview) or use official [Install Docker through Boot2Docker](https://docs.docker.com/machine/drivers/virtualbox/)
+
+
 ### Install Docker Compose
 
 Follow the official [Install Docker Compose](https://docs.docker.com/compose/install/#install-compose) guide or the brief rundown below:
