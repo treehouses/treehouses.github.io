@@ -13,7 +13,7 @@ Here are step by step instructions on how to create a new feature for treehouses
 Example situation:
 As you're testing the new image for treehouses you notice your raspberry pi is getting hot. You know anything past 85°C may damage your pi so you'd like to monitor its core temperature.
 
-If you run the raspberry pi command `vcgencmd measure_temp`, it return its core temperature in celsius.
+If you run the raspberry pi command `vcgencmd measure_temp`, it will return its core temperature in celsius.
 
 Looking at the treehouses cli commands, you notice there aren't any commands involving detecting temperature and decide it would be a useful addition.
 
