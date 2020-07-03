@@ -99,6 +99,7 @@ You will now add/modify these 5 files to your branch of the cli repo. Remember t
   1. Once you are connected to treehouses in your terminal, git clone the cli repo using `git clone https://github.com/treehouses/cli.git`
   1. Make cli your current directory using `cd cli`
   1. Now go to your branch using `git checkout <whatever you named your branch>`
+  NOTE: When creating a branch, make sure it uses the feature you are adding or updating to be the prefix. For example, here we are creating the  `temperature` module with subcommands `fahrenheit` and `kelvin`. So a good name for this branch could be: `temperature-conversions`.
   1. Enter `git branch` for safe measure to see that you really are on your branch
   1. Now you can test out your new command and subcommands: `treehouses temperature`, `treehouses temperature fahrenheit`, and `treehouses temperature kelvin`
   1. You may have to use `./cli.sh` instead of `treehouses` until your branch is approved: `./cli.sh temperature`
