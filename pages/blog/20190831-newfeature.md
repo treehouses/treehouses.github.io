@@ -13,7 +13,7 @@ Here are step by step instructions on how to create a new feature for treehouses
 Example situation:
 As you're testing the new image for treehouses you notice your raspberry pi is getting hot. You know anything past 85°C may damage your pi so you'd like to monitor its core temperature.
 
-You already know the raspberry pi command `vcgencmd measure_temp` will return its core temperature in celsius.
+If you run the raspberry pi command `vcgencmd measure_temp`, it will return its core temperature in celsius.
 
 Looking at the treehouses cli commands, you notice there aren't any commands involving detecting temperature and decide it would be a useful addition.
 
@@ -99,6 +99,9 @@ You will now add/modify these 5 files to your branch of the cli repo. Remember t
   1. Once you are connected to treehouses in your terminal, git clone the cli repo using `git clone https://github.com/treehouses/cli.git`
   1. Make cli your current directory using `cd cli`
   1. Now go to your branch using `git checkout <whatever you named your branch>`
+  
+ _**IMPORTANT NOTE:**_ When creating a branch, make sure it uses the feature you are adding or updating to be the prefix. For example, here we are creating the  `temperature` module with subcommands `fahrenheit` and `kelvin`. So a good name for this branch could be: `temperature-conversions`
+ 
   1. Enter `git branch` for safe measure to see that you really are on your branch
   1. Now you can test out your new command and subcommands: `treehouses temperature`, `treehouses temperature fahrenheit`, and `treehouses temperature kelvin`
   1. You may have to use `./cli.sh` instead of `treehouses` until your branch is approved: `./cli.sh temperature`
