@@ -17,15 +17,9 @@
 *Java, Python*
 
 ## HOBBIES
-1.Photography
-2.Singing
-3.Painting
+1. Photography
+2. Singing
+3. Painting
 
 *MY Favorite Click*
-![myphotography](images/CANYONS.jpeg)
-
-
-
- 
-
-
+![](https://500px.com/photo/1018597198/CANYONS-by-Pavithra-Venkatesan?ctx_page=1&from=user&user_id=21314627)
