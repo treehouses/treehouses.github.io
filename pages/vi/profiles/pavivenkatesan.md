@@ -1,10 +1,10 @@
-# PAVITHRA VENKATESAN
-======================
-|DETAILS   | INFO                     |
-|----------|:------------------------:|
-|LOCATION  | Malden,MA                |
-|OS VERSION| Catalina 10.15.5 (19F101)|
-|TIME ZONE | Eastern Time             |
+   # PAVITHRA VENKATESAN
+
+|**DETAILS**| **INFO**                 |
+|---------- |--------------------------|
+|LOCATION   | Malden,MA                |
+|OS VERSION | Catalina 10.15.5 (19F101)|
+|TIME ZONE  | Eastern Time             |
 
 ## ABOUT ME
 -----------------
@@ -17,15 +17,9 @@
 *Java, Python*
 
 ## HOBBIES
-1.Photography
-2.Singing
-3.Painting
+1. Photography
+2. Singing
+3. Painting
 
-*MY Favorite Click*
-![myphotography](images/CANYONS.jpeg)
-
-
-
- 
-
-
+*MY Favorite Click from *
+[500px](https://500px.com/photo/1018597198/CANYONS-by-Pavithra-Venkatesan?ctx_page=1&from=user&user_id=21314627)
