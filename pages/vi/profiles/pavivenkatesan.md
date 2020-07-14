@@ -1,10 +1,10 @@
-# PAVITHRA VENKATESAN
-======================
-|DETAILS   | INFO                     |
-|----------|:------------------------:|
-|LOCATION  | Malden,MA                |
-|OS VERSION| Catalina 10.15.5 (19F101)|
-|TIME ZONE | Eastern Time             |
+   # PAVITHRA VENKATESAN
+
+|**DETAILS**| **INFO**                 |
+|---------- |--------------------------|
+|LOCATION   | Malden,MA                |
+|OS VERSION | Catalina 10.15.5 (19F101)|
+|TIME ZONE  | Eastern Time             |
 
 ## ABOUT ME
 -----------------
