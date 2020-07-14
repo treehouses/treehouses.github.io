@@ -16,6 +16,16 @@
 ## LANGUAGE
 *Java, Python*
 
+## HOBBIES
+1.Photography
+2.Singing
+3.Painting
+
+*MY Favorite Click*
+![myphotography](images/CANYONS.jpeg)
+
+
+
  
 
 
