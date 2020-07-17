@@ -43,7 +43,7 @@ The `nmap` command ([Network Mapper](https://nmap.org)) is a free and open-sourc
 - macOS: in your terminal, run `brew install nmap`
 - Windows: see the [nmap download page](http://nmap.org/download.html)
 
-**NOTE:** **If this is your first time using the CLI on macOS you need to install brew, a package management system for the CLI**
+**NOTE:** **If this is your first time using the CLI on macOS you need to install [brew](https://brew.sh/),a package management system for the CLI**
 
 ### Find your subnet
 
