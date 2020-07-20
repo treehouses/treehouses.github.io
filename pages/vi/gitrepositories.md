@@ -38,7 +38,7 @@ The **upstream repository** is the one we are contributing to.
 3. `git remote add upstream https://github.com/treehouses/treehouses.github.io.git`
 4. `git remote -v` origins should remain the same, but you should also be fetching and pushing to OLE as the upstream now
 
-#### Sync Your Fork
+#### Sync/Update Your Fork
 1. `git fetch upstream` -  to fetch branches from the upstream repository ([more info](https://git-scm.com/docs/git-fetch))
 2. `git checkout master` - to checkout the `master` branch ([more info](https://git-scm.com/docs/git-checkout))
 3. `git show-branch` - to see branches and the changes made in them ([more info](https://git-scm.com/docs/git-show-branch))
