@@ -106,12 +106,12 @@ When you are finished, press 'commit changes' below.
 
 If you need to edit your file again, click the pencil icon to edit.
 
-Now, check what this looks like on your own page `https://raw.githack.com/YourUserName/YourUserName.github.io/YourBranchName/#!pages/vi/profiles/YourUserName.md`. The [raw.githack](https://raw.githack.com/) link allows reviewers to preview your changes. Don't forget to add `#!` after the forward slash proceeding your branch name in order to show the markdown in presentation mode. Please double check that everything looks good and is working as you hoped before moving on to next section.
+Now, check what this looks like on your own page `https://raw.githack.com/YourUserName/YourUserName.github.io/YourBranchName/#!pages/vi/profiles/YourUserName.md`. The`raw.githack`link allows reviewers to preview your changes. Don't forget to add `#!` after the forward slash proceeding your branch name in order to show the markdown in presentation mode. Please double check that everything looks good and is working as you hoped before moving on to next section.
 
 **NOTE**:
 • If you don't see any changes in your page after editing your file then you need to clear your browser's cache or open your page in your browser's **"incognito"** or **"privacy"** mode. You can also press Ctrl+Shift+R or Ctrl+F5 to reload the page with cache cleared.
 • As MDwiki site is what we use for "production," please **always check** if everything renders as you expected using raw.githack link. There are [different flavors of Markdown](https://github.com/commonmark/CommonMark/wiki/Markdown-Flavors). Use GitHub's preview tab for reference only.
-• The [raw.githack](https://raw.githack.com/) link is different from the raw link available on Github page.
+• The `raw.githack` link is different from the raw link available on [Github page](https://treehouses.io/#!pages/vi/githubandmarkdown.md).
 
 
 ### Open a pull request
