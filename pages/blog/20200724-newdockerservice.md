@@ -10,6 +10,10 @@ You can browse [Docker Hub](https://hub.docker.com/search?q=&type=image) to find
 
 Once you find the service you wish to add, ensure that it supports ARM 64 and navigate to the section that instructs you how to set it up.
 
+## Writing the Script
+
+---
+
 ![](./images/20200724-dockersnippet.png)
 
 This is a snippet taken from the grocy service's "Usage" section. Take note of any properties needed in the script to install the service properly, such as `image`.
