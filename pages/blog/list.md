@@ -1,5 +1,9 @@
 ## Blogs
 
+[The Intertwined Components of Treehouses](20200724-treehousescomponents.md) on July 24, 2020 by law-lin `(Description on the active treehouses projects)`
+
+[Adding a New Docker Service](20200724-newdockerservice.md) on July 24, 2020 by law-lin `(Guide on how to add a new Docker service to the CLI)`
+
 [How To Setup Github to work with Android Studio on a Windows Machine](20200610-githubandroidstudiowindows.md) on June 10, 2020 by ali18997 `(GitHub Configure with Windows for Android Studio for treehouses remote)`
 
 [Set up headless treehouses node](20200217-headlessrpi.md) on Feb 17, 2020 by An Pham `(Headless node deploy)`
