@@ -159,11 +159,17 @@ Add BATS tests for the new service as well.
 
 ## Testing If The Service Works
 
+---
+
 You would run `./cli.sh services <service-name> start` to start the Docker container. Run `docker ps` to list the containers currently running and see if it was successfuly started. If you don't see the container there, try `docker ps -a` to show all containers. Note the container ID and use `docker logs <container-id> -f` to help debug the issue.
 
-Note that sometimes, it may take time for the service to load and show up on your local port.
+After the container is started, go to your browser and enter in the port that the service is being hosted on.
+
+Note that it may take time for the service to load and show up.
 
 ## Submitting the PR
+
+---
 
 Name the title of the PR `treehouses services <service-name> (fixes #<issue-number>)`.
 
