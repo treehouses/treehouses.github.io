@@ -111,7 +111,7 @@ Now, check what this looks like on your own page `https://raw.githack.com/YourUs
 **NOTE**:
 • If you don't see any changes in your page after editing your file then you need to clear your browser's cache or open your page in your browser's **"incognito"** or **"privacy"** mode. You can also press Ctrl+Shift+R or Ctrl+F5 to reload the page with cache cleared.
 • As MDwiki site is what we use for "production," please **always check** if everything renders as you expected using raw.githack link. There are [different flavors of Markdown](https://github.com/commonmark/CommonMark/wiki/Markdown-Flavors). Use GitHub's preview tab for reference only.
-• The `raw.githack` link is different from the raw link available on [Github page](https://raw.githack.com/Pavivenkatesan/pavivenkatesan.github.io/rawgithublink_fix/#!pages/vi/github-issues.md).
+• The `raw.githack` link is different from the raw link available on [Github page](https://treehouses.io/#!pages/vi/github-issues.md).
 
 
 ### Open a pull request
