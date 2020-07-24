@@ -6,11 +6,11 @@ Created on 24, July 2020 • [law-lin](https://github.com/law-lin)
 
 Upon joining the treehouses team, you will probably start working on either the command line interface (CLI) or remote, depending on your experiences and what you wish to gain out of this internship. Having spent time with the CLI, builder, and remote, I'm writing this post to give you a sense of how all the different components work together in harmony to make treehouses what it is.
 
-## [CLI](https://github.com/treehouses/cli)
+## CLI
 
 ---
 
-The CLI is what we use to input commands into the Raspberry Pi to perform various services and functions. For example, if you wanted to display Christmas LED lights on the Pi, you could input `treehouses led christmas`. If you start working on this repository, your first task will probably be to implement a new LED light setting. You can find more about adding a new feature to the CLI [here](https://treehouses.io/#!./pages/blog/20190831-newfeature.md).
+The [CLI](https://github.com/treehouses/cli) is what we use to input commands into the Raspberry Pi to perform various services and functions. For example, if you wanted to display Christmas LED lights on the Pi, you could input `treehouses led christmas`. If you start working on this repository, your first task will probably be to implement a new LED light setting. You can find more about adding a new feature to the CLI [here](https://treehouses.io/#!./pages/blog/20190831-newfeature.md).
 
 To give you some insight on what you could be working on in the CLI, here's some of the tasks I did:
 
@@ -21,11 +21,11 @@ To give you some insight on what you could be working on in the CLI, here's some
 
 The main goal in working on the CLI is to create meaningful features that can be utilized with our remote app.
 
-## [treehouses remote](https://github.com/treehouses/remote)
+## treehouses remote
 
 ---
 
-[treehouses remote](https://play.google.com/store/apps/details?id=io.treehouses.remote&hl=en_US) is an Android app that communicates with a headless Raspberry Pi mobile server that is running treehouses image via Bluetooth. It was initially developed with Java but we migrated to Kotlin mid-2020.
+[treehouses remote](https://github.com/treehouses/remote) is an Android app that communicates with a headless Raspberry Pi mobile server that is running treehouses image via Bluetooth. It was initially developed with Java but we migrated to Kotlin mid-2020. You can find it on the Play Store [here](https://play.google.com/store/apps/details?id=io.treehouses.remote&hl=en_US)
 
 The remote app uses a Bluetooth chat service to send and receive messages to the Pi. For example, when you tap the LED Heavy Metal setting, the command `treehouses led heavymetal` is sent.
 
@@ -44,11 +44,11 @@ Code Climate is an app that is used to help ensure software quality in codebases
 
 Here, you see that there are a total of 152 issues for the remote repository. An issue can be anything from having too many lines of code in a file, a method that has a high [Cognitive Complexity](https://www.sonarsource.com/docs/CognitiveComplexity.pdf) score, or duplicate/similar blocks of code in a file.
 
-## [Builder](https://github.com/treehouses/builder)
+## Builder
 
 ---
 
-The builder is used to create the bootable custom Raspbian treehouses image that is then burned to the microSD card. There are scripts to install pcakages, purge packages, and execute custom commands in this repository. If there needs to be a new package installed for a CLI feature, the builder is where you would create a script to install the package onto the image.
+The [builder](https://github.com/treehouses/builder) is used to create the bootable custom Raspbian treehouses image that is then burned to the microSD card. There are scripts to install pcakages, purge packages, and execute custom commands in this repository. If there needs to be a new package installed for a CLI feature, the builder is where you would create a script to install the package onto the image.
 
 For example, I worked on a feature on the CLI that lets the user track the uptime of their Raspberry Pi, which required a package called [uptimed](https://github.com/rpodgorny/uptimed). I had initially included the package installation in the CLI - but don't do that. These types of packages should come pre-installed and should be set so that they're not always running, which can be all accomplished with a builder script.
 
