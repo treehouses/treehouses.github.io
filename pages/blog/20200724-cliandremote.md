@@ -142,6 +142,7 @@ When the user taps on the button specified by this listener, `treehouses remote 
 You can use `Log.d(TAG, "<message>")` to send log output when the app is running. This is useful for debugging problems and identifying what is being sent/received over the Bluetooth Chat Service.
 
 Click "Run" where shown below to see the logged output.
+
 ![](./images/20200724-android-studio-run.png)
 
 Here, you see the logged output. Note how `treehouses remote key send` is sent and the Bluetooth Chat Service reads the output. The profile, piPublicKey, piPrivateKey, storedPublicKey, and storedPrivateKey are the log messages I wrote to see what the SSH keys are.
