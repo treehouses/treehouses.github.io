@@ -76,7 +76,7 @@ To follow the steps here you should have Android Studio setup properly as per th
 ## Testing Pull Requests of Others:
 1. Select the Pull Request you want to test in GitHub Desktop. Click on it and wait for it to fetch that branch. Once it is done, Android Studio will automatically be configured to work on that branch and you can build/run the code to test the pull request.
  
-![](./images/20200610-pr.png)
+![](./images/20200610-pr.png) 
 
 
 ---
