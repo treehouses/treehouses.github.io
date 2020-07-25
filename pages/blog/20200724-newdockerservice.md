@@ -10,7 +10,7 @@ You can browse [Docker Hub](https://hub.docker.com/search?q=&type=image) to find
 
 Once you find the service you wish to add, ensure that it supports ARM 64 and navigate to the section that instructs you how to set it up.
 
-Our services are all listed in the remote app, as shown below:
+Most of all our services are listed in the remote app, as shown below:
 
 ![](./images/20200724-remote-services.png)
 

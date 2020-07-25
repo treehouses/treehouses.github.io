@@ -1,4 +1,4 @@
-# Creating a Feature on the CLI and Remote
+# Creating a Feature On the CLI and Remote
 
 Created on 24, July 2020 • [law-lin](https://github.com/law-lin)
 

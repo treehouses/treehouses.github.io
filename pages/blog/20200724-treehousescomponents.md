@@ -1,4 +1,4 @@
-# The Intertwined Components of Treehouses
+# The Intertwined Components Of Treehouses
 
 Created on 24, July 2020 • [law-lin](https://github.com/law-lin)
 
