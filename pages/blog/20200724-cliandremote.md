@@ -63,7 +63,7 @@ I only realized I needed these changes after developing the remote side of the f
 
 ---
 
-By this point your CLI feature should at least be functional - it doesn't have to be perfect.
+By this point your CLI feature should at least be functional - it doesn't have to be perfect nor does your PR have to be already merged.
 
 ### Upgrade your CLI
 
@@ -85,7 +85,11 @@ Below shows all the currently existing fragments for the app.
 
 ![](./images/20200724-androidstudiofragments.png)
 
-In my case, the SSH tunnel key feature would belong in the SystemFragment and that's where I placed it. Of course, deciding where to place it is open to debate and you can seek the advice of other people for this if the answer isn't obvious.
+Not all of these fragments directly show up as "tabs" in the menu, but you can see some of them here:
+
+![](./images/20200724-remote-menu.png)
+
+In my case, the SSH tunnel key feature would belong in the SystemFragment/System tab and that's where I placed it. Of course, deciding where to place it is open to debate and you can seek the advice of other people for this if the answer isn't obvious.
 
 ### Bluetooth Chat Service
 
