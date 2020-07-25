@@ -174,6 +174,7 @@ Add BATS tests for the new service as well.
 5. If you don't see the container there, try `docker ps -a` to show all containers. Note the container ID and use `docker logs <container-id> -f` to help debug the issue.
 
 You should see something like this:
+
 ![](./images/20200724-docker-ps.png)
 
 After the container is started, go to your browser and enter in the port that the service is being hosted on. In this example, I would navigate to `<RPi's IP address>:8091`.
