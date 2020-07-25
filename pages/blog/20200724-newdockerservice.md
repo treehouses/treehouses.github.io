@@ -167,9 +167,16 @@ Add BATS tests for the new service as well.
 
 ---
 
-You would run `./cli.sh services <service-name> start` to start the Docker container. Run `docker ps` to list the containers currently running and see if it was successfuly started. If you don't see the container there, try `docker ps -a` to show all containers. Note the container ID and use `docker logs <container-id> -f` to help debug the issue.
+1. Run `./cli.sh services <service-name> install` to install the service
+2. Run `./cli.sh services <service-name> up` to create the container
+3. Run `./cli.sh services <service-name> start` to start the service
+4. Run `docker ps` to list the containers currently running and see if it was successfuly started.
+5. If you don't see the container there, try `docker ps -a` to show all containers. Note the container ID and use `docker logs <container-id> -f` to help debug the issue.
 
-After the container is started, go to your browser and enter in the port that the service is being hosted on.
+You should see something like this:
+![](./images/20200724-docker-ps.png)
+
+After the container is started, go to your browser and enter in the port that the service is being hosted on. In this example, I would navigate to `<RPi's IP address>:8091`.
 
 Note that it may take time for the service to load and show up.
 
@@ -179,7 +186,13 @@ Note that it may take time for the service to load and show up.
 
 Name the title of the PR `treehouses services <service-name> (fixes #<issue-number>)`.
 
-You should show screenshots of what the service initially looks like in your browser. If there is any login, attempt to login and screenshot the screen after logging in as well.
+You should show screenshots of what the service initially looks like in your browser.
+
+![](./images/20200724-grocy.png)
+
+If there is any login, attempt to login and screenshot the screen after logging in as well.
+
+![](./images/20200724-grocy-login.png)
 
 Once you have confirmed that the service works on your end, submit the PR and wait for others to review it!
 
