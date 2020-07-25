@@ -71,6 +71,8 @@ You will need to use `treehouses upgrade cli <branch-name>` to upgrade the CLI t
 
 ### Choosing the Fragment
 
+Now it's time to start developing. If you need help setting Android Studio up, check [this guide](20200110-androidstudiosetup.md) out.
+
 Depending on what feature you're adding, you have to think about where you want to place this feature.
 
 If it's a systems-related feature, like a camera or SSH key related feature, then that would probably go into the Systems fragment.
@@ -79,7 +81,11 @@ If it's a network-related feature then the Network fragment makes sense.
 
 If it's a feature that's larger scale and doesn't really fit into the existing fragments, you could even add a new fragment for the feature.
 
-In my case, the SSH tunnel key feature would belong in the Systems fragment and that's where I placed it. Of course, deciding where to place it is open to debate and you can seek the advice of other people for this if the answer isn't obvious.
+Below shows all the currently existing fragments for the app.
+
+![](./images/20200724-androidstudiofragments.png)
+
+In my case, the SSH tunnel key feature would belong in the SystemFragment and that's where I placed it. Of course, deciding where to place it is open to debate and you can seek the advice of other people for this if the answer isn't obvious.
 
 ### Bluetooth Chat Service
 
@@ -126,5 +132,16 @@ btnGetKeys.setOnClickListener {
 ```
 
 When the user taps on the button specified by this listener, `treehouses remote key send <profile>` is sent to the Pi and the app will receive the message in the handler implemented before this step.
+
+### Sending Log Output
+
+You can use `Log.d(TAG, "<message>")` to send log output when the app is running. This is useful for debugging problems and identifying what is being sent/received over the Bluetooth Chat Service.
+
+Click "Run" where shown below to see the logged output.
+![](./images/20200724-androidstudiorun.png)
+
+Here, you see the logged output. Note how `treehouses remote key send` is sent and the Bluetooth Chat Service reads the output. The profile, piPublicKey, piPrivateKey, storedPublicKey, and storedPrivateKey are the log messages I wrote to see what the SSH keys are.
+
+![](./images/20200724-androidstudiolog.png)
 
 After this, everything else is up to you to implement. Good luck!
