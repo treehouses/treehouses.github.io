@@ -6,6 +6,8 @@ Created on 24, July 2020 • [law-lin](https://github.com/law-lin)
 
 As you may already know, every feature on the CLI is designed with the intent to be used on the remote app. This guide may help you create a new feature on both the CLI and remote app. This means you would have one PR in the cli repository and one PR in the remote repository.
 
+I am writing this post under the assumption that you have experience with the CLI, remote, and developing Android apps in general.
+
 The feature that I helped develop was `treehouses sshtunnel`/`remote` send/receive keys. I will be discussing how I approached this task. Hopefully you'll gain some insight on how you could create your own feature.
 
 ## Adding the CLI Feature
@@ -67,7 +69,7 @@ By this point your CLI feature should at least be functional - it doesn't have t
 
 You will need to use `treehouses upgrade cli <branch-name>` to upgrade the CLI to a specific branch. This is necessary for testing features on the remote that depend on a specific branch in the CLI repository. When you create your PR, let others know to use this command and specify the branch name.
 
-### The Fragment the Feature Belongs In
+### Choosing the Fragment
 
 Depending on what feature you're adding, you have to think about where you want to place this feature.
 
@@ -125,4 +127,4 @@ btnGetKeys.setOnClickListener {
 
 When the user taps on the button specified by this listener, `treehouses remote key send <profile>` is sent to the Pi and the app will receive the message in the handler implemented before this step.
 
-After this, everything else is up to you to implement.
+After this, everything else is up to you to implement. Good luck!
