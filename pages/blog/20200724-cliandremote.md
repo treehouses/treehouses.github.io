@@ -4,7 +4,7 @@ Created on 24, July 2020 • [law-lin](https://github.com/law-lin)
 
 ---
 
-As you may already know, every feature on the CLI is designed with the intent to be used on the remote app. This guide may help you create a new feature on both the CLI and remote app. This means you would have one PR in the cli repository and one PR in the remote repository.
+As you may already know, most features on the CLI is designed with the intent to be used on the remote app. This guide may help you create a new feature on both the CLI and remote app. This means you would have one PR in the cli repository and one PR in the remote repository.
 
 I am writing this post under the assumption that you have experience with the CLI, remote, and developing Android apps in general.
 
