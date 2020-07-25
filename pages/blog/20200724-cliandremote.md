@@ -63,7 +63,7 @@ I only realized I needed these changes after developing the remote side of the f
 
 ---
 
-By this point your CLI feature should at least be functional - it doesn't have to be perfect nor does your PR have to be already merged.
+**NOTE**: By this point your CLI feature should at least be functional - it doesn't have to be perfect nor does your PR have to be already merged.
 
 ### Upgrade your CLI
 
