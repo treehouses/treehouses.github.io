@@ -20,7 +20,7 @@ After following this guide and getting your PR merged, the service you added wil
 
 ---
 
-![](./images/20200724-dockersnippet.png)
+![](./images/20200724-docker-snippet.png)
 
 This is a snippet taken from the grocy service's "Usage" section. Take note of any properties needed in the script to install the service properly, such as `image`.
 

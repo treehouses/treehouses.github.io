@@ -40,7 +40,7 @@ To give you some insight on what you could be working on in remote, here's some 
 
 Code Climate is an app that is used to help ensure software quality in codebases. We use it to identify areas to refactor and reduce [technical debt](https://en.wikipedia.org/wiki/Technical_debt). Although we are using Code Climate for all our repositories, remote is the one you should pay particular attention to because more issues tend to arise there.
 
-![](./images/20200724-codeclimateissues.png)
+![](./images/20200724-code-climate-issues.png)
 
 Here, you see that there are a total of 152 issues for the remote repository. An issue can be anything from having too many lines of code in a file, a method that has a high [Cognitive Complexity](https://www.sonarsource.com/docs/CognitiveComplexity.pdf) score, or duplicate/similar blocks of code in a file.
 
@@ -56,6 +56,6 @@ For example, I worked on a feature on the CLI that lets the user track the uptim
 
 Travis CI is a [continuous integration](https://en.wikipedia.org/wiki/Continuous_integration) service that we use to automatically test if our code is working or not. When working on the builder, you'll be inspecting Travis builds to confirm everything works and to debug if necessary. The screenshow below shows the `master` branch, with the most recent two builds succeeding but the third build failing.
 
-![](./images/20200724-travisci.png)
+![](./images/20200724-travis-ci.png)
 
 Whenever you push a change to your PR, Travis will automatically deploy the current build and verify that it succeeds or not.
