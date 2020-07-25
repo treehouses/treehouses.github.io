@@ -122,7 +122,7 @@ btnGetKeys.setOnClickListener {
     var profile = profileText.toString()
     listener.sendMessage("treehouses remote key send $profile")
     jsonSend(true)
-    }
+}
 ```
 
 When the user taps on the button specified by this listener, `treehouses remote key send <profile>` is sent to the Pi and the app will receive the message in the handler implemented before this step.
