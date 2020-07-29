@@ -37,7 +37,7 @@ A lot of Vagrant commands require us to specify a target machine. We can also ru
 
 Windows users should do the following:
 - Go into git bash and clone the repository https://github.com/treehouses/cli
-- `cd C:\Users\YOUR_USERNAME\Desktop\treehouses\cli`
+- `cd {Whichever directory your Vagrant file is stored}`
 
 macOS or Linux users should do the following:
 - `cd Desktop`
