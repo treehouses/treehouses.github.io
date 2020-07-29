@@ -36,7 +36,7 @@ Normally we use a terminal emulator to interact with Vagrant CLI
 A lot of Vagrant commands require us to specify a target machine. We can also run those commands from a directory with the target machine’s Vagrant File. Otherwise, you may encounter an error like "A Vagrant environment or target machine is required." Please go to the directory that contains our Vagrant file:
 
 Windows users should do the following:
-- Go into git bash and run the command `git clonehttps://github.com/treehouses/cli`
+- Go into git bash and run the command `git clone https://github.com/treehouses/cli`
 - `cd {Whichever directory your Vagrant file is stored}`
 
 macOS or Linux users should do the following:
