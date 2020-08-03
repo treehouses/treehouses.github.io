@@ -12,7 +12,8 @@ I am a high school student who absolutely loves to code!
 ![](https://west.slcschools.org/brand/images/West-High-Spirit-Primary-Intro.png)
 
 My favorite coding activities include: `robotics, computational biology, machine learning, and app development`   
-**At school I am involved in:**                         
+**At school I am involved in:** 
+
 * Robotics
 
 * Science Fair 
@@ -21,7 +22,8 @@ My favorite coding activities include: `robotics, computational biology, machine
 
 * HOSA              
 
-**In my free time, I love to:**                        
+**In my free time, I love to:**   
+
 * Go camping
 
 * Play tennis
