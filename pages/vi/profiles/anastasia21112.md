@@ -13,16 +13,23 @@ I am a high school student who absolutely loves to code!
 
 My favorite coding activities include: `robotics, computational biology, machine learning, and app development`   
 **At school I am involved in:**                         
-* Robotics              
-* Science Fair        
-* Tennis                  
+* Robotics
+
+* Science Fair 
+
+* Tennis 
+
 * HOSA              
 
 **In my free time, I love to:**                        
-* Go camping           
-* Play tennis          
-* Play frisbee         
-* See friends          
+* Go camping
+
+* Play tennis
+
+* Play frisbee 
+
+* See friends  
+
 * CODE! – of course              
 
 ## Let's Connect!           
