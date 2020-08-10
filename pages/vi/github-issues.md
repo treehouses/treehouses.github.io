@@ -31,7 +31,7 @@ Give it a short title and a descriptive body and you can now submit your issue. 
 
 ![New Issue 2](images/fs6-issue.png)  
 
-Issues are written in Markdown format. Make sure that they look neat, and you use the template provided. Once you are down with your issue, click Preview to see how it looks like. If it looks good, click submit. 
+Issues are written in Markdown format. Make sure that they look neat, and you use the template provided. Once you are down with your issue, click Preview to see how it looks like. If it looks good, click submit.
 
 _**IMPORTANT NOTE:**_ Issues are _not required_ to be approved _before_ a Pull Request is submitted for the respective fix; however, we do suggest that you wait until someone from the System Team confirms/approves the change that your issue addresses BEFORE you begin work on the fix.
 
