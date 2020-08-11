@@ -29,7 +29,9 @@ Go to the "Issues" tab and click on "New issue" to create a new issue:
 
 Give it a short title and a descriptive body and you can now submit your issue. If you are explaining a bug or how to replicate an issue, please be as explicit as possible and use pictures as necessary.
 
-![New Issue 2](images/fs6-issue.png)
+![New Issue 2](images/fs6-issue.png)  
+
+Issues are written in Markdown format. You can preview your issue by clicking `Preview`. Once you are happy with how it looks, click `Submit` to submit your new issue. 
 
 _**IMPORTANT NOTE:**_ Issues are _not required_ to be approved _before_ a Pull Request is submitted for the respective fix; however, we do suggest that you wait until someone from the System Team confirms/approves the change that your issue addresses BEFORE you begin work on the fix.
 
@@ -156,9 +158,9 @@ All that remains is posting your pull request in the chat and waiting until one 
 * Follow the below steps to delete your branch:
 
     1. Switch to the master branch using `git checkout master` as you cannot be on the branch you want to delete.
-    
+
     2. Delete local branch using `git branch -d branch-name`.
-    
+
     3. Delete remote branch using `git push origin --delete branch-name`.
 
 _**NOTE:**_ Remember to always sync your fork before starting to work on a new issue. To sync your fork you can follow the process in the [previous step](gitrepositories.md).
