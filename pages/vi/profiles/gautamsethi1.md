@@ -4,7 +4,7 @@ I am currently using macOS Catalina Version 10.15.6
 
 ---
 
-I am an incoming sophomore studying Computer Science and Data Science at Arizona State University (ASU). My interests lie in utilizing Machine Learning to optimize normal proceses. 
+I am an incoming sophomore studying Computer Science and Data Science at Arizona State University (ASU). My interests lie in utilizing Machine Learning to optimize normal processes. 
 My last research paper detailed how ML could aid developing countries in their pursuit of constructing infrastructure. In order to create such a model, I am currently 
 learning common industry ML frameworks. 
 
