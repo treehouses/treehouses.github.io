@@ -24,9 +24,10 @@ It works as a front end "script" on top of the same docker api used by docker, s
 
 
 
-## Docker Installation
+## Docker Installation (Optional)
 
-**Docker and Docker Compose are installed on your Raspberry Pi by default, and the subsequent exercises can be performed without any installations.**  The below guide includes steps to install Docker and Docker Compose directly on to your computer, in case of further development, but is entirely optional. 
+**NOTE**: Docker and Docker Compose are installed on your Raspberry Pi by default, and the subsequent exercises can be performed **without any installations**.  
+The below guide includes steps to install Docker and Docker Compose directly on to your computer, in case of further development, but is entirely optional. 
 
 
 ### Windows
