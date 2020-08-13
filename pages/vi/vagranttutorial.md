@@ -11,7 +11,8 @@
 
 ## Preparation
 
-Before installing Vagrant we must setup the cli repository, enable virtualization on our computer, and install VirtualBox.
+Before installing Vagrant we must setup the cli repository, enable virtualization on our computer, and install VirtualBox.  
+`NOTE: You should have at least 7 GB of free storage space before installing Vagrant and VirtualBox.`
 
 
 #### Windows – Pick your command-line program
@@ -61,8 +62,8 @@ macOS or Linux users should do the following:
 Last, we must install Vagrant so we can move onto the next steps
 
 Windows users should do the following:
-- Go to https://www.vagrantup.com/downloads.html and select windows hosts to install Vagrant 
-- Follow the steps until you have completed install for Vagrant 
+- Go to https://www.vagrantup.com/downloads.html and select windows hosts to install Vagrant
+- Follow the steps until you have completed install for Vagrant
 
 macOS or Linux users should do the following:
 - In your command line interface type the following: `brew cask install vagrant` or `sudo apt-get install vagrant`
@@ -75,7 +76,7 @@ macOS or Linux users should do the following:
 ```
 id       name   provider   state   directory
 ---------------------------------------------------------------------------
-0e6abb1  cli    virtualbox running  /Users/pattanawadee/cli 
+0e6abb1  cli    virtualbox running  /Users/pattanawadee/cli
 
 The above shows information about all known Vagrant environments
 on this machine. This data is cached and may not be completely
@@ -85,7 +86,7 @@ directory and run Vagrant, or you can use the ID directly with
 Vagrant commands from any directory. For example:
 "vagrant destroy 1a2b3c4d"
 ```
-If no environments show up as active, use the command `vagrant up` and try again. 
+If no environments show up as active, use the command `vagrant up` and try again.
 
 The above output tells us:
 
