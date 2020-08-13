@@ -38,7 +38,7 @@ Below is a summary of the steps that we will walk you through:
 * [Login to GitHub with your username and password](#Login_to_GitHub_with_your_username_and_password)
 * [Find and fork the correct repository](#Find_and_fork_the_correct_repository)
 * [Go to Settings and rename your repository](#Go_to_Settings_and_rename_your_repository)
-* [Check if your github.io works](#Check_if_you_github.io_works)
+* [Check if your github.io works](#Check_to_see_if_your_github.io_works)
 * [Create a new file as your personal MDwiki page and commit your changes](#Create_a_new_file_as_your_personal_MDwiki_page_and_commit_your_changes)
 * [Open a pull request](#Open_a_pull_request)
 
