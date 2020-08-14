@@ -50,7 +50,7 @@ Every time you merge a pull request, please send a message to the intern on the 
 ```
 
 ## Work Routine
-We recommend you follow this basic daily routine:
+We recommend you to follow this basic daily routine:
 
 1. [Check gitter chat](https://gitter.im/treehouses/Lobby)
 1. Review any issues or pull requests that have been added or changed on [treehouses.github.io](https://github.com/treehouses/treehouses.github.io) since the last time you reviewed.
@@ -75,7 +75,7 @@ root@treehouses:~# treehouses help
 ```
 `treehouses help` is a command that gives you more detailed info about the command.
 
-If you are interested in coding in bash and working on the cli, check out the [cli issues](https://github.com/treehouses/cli/issues) on github. Once you have reviewed the issues, talk to dogi on potentially being assigned one to work with. If there aren't any issues you are ready for, you can get familiar by testing someone else's [pull request](https://github.com/treehouses/cli/pulls). Look at [this blog](20190930-reviewprs.md) for steps on how to review PR's on the cli and [this blog](20190831-newfeature.md) for how to create a new feature for the cli.
+If you are interested in coding in bash and working on the cli, check out the [cli issues](https://github.com/treehouses/cli/issues) on github. Once you have reviewed the issues, talk to dogi on potentially being assigned one to work with. If there aren't any issues you are ready for, you can get familiar by testing someone else's [pull requests](https://github.com/treehouses/cli/pulls). Look at [this blog](20190930-reviewprs.md) for steps on how to review PR's on the cli and [this blog](20190831-newfeature.md) for how to create a new feature for the cli.
 
 ### [builder](https://github.com/treehouses/builder)
 builder is a repository that contains scripts of the latest Raspbian image by installing packages, purging packages and executing custom commands, which then finally creates a bootable .img file that can be burned to a microSD card.
@@ -86,4 +86,4 @@ If you are interested in working on builder and with docker, let dogi know and i
 
 ### [Remote](https://github.com/treehouses/remote)
 treehouses remote is our Android app that communicates with a headless Raspberry Pi mobile server running treehouses image via Bluetooth.
-Download treehouses on your android device and take a look at the app. If you are part of the remote team, you will be working specifically with this app, working on new features and fixing bugs. Look at [the issues](https://github.com/treehouses/remote/issues) on remote and speak to dogi about working with this team.
+Download treehouses on your Android device and take a look at the app. If you are part of the remote team, you will be working specifically with this app, working on new features and fixing bugs. Look at [the issues](https://github.com/treehouses/remote/issues) on remote and speak to dogi about working with this team.
