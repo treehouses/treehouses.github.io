@@ -30,13 +30,13 @@ This tells me that boot directory is mounted at `/media/anpham/boot`.
 
 ![](images/20200217-windows-boot.png)
 
-The file we want to edit  is `autorunonce` file. Before editing this file, we need to find the current network info so that we can assign IP address for our pi.
+The file we want to edit  is `autorunonce` file. Before editing this file, we need to find the current network info so that we can assign IP address for our Pi.
 
 **Note: ** we look for `autorunonce`, not `autoranonce`. If you don't find the `autorunonce`, then create an empty file and name it as `autorunonce`
 
 After opening the `autrunonce` file, go ahead and erase the content of the file since we will start from the scratch. 
 
-## Assign IP address for pi
+## Assign IP address for Pi
 First, we need to find your current subnet and ip of your network. 
 
 - In Windows environment
@@ -91,12 +91,12 @@ reboot
 
 Save the file and detach your SD card from your PC. Plug it in the Raspberry Pi and power your Raspberry Pi on. Pi zero which has slower processor will take around 15 mins or more, but the Raspberry Pi model 4 should take less than 3 mins. Also, during the booting process, your Raspberry Pi will reboot one time to reload the config.
 
-**Note: ** You can use ping command to check if your rpi is up and running.
+**Note: ** You can use ping command to check if your Raspberry Pi is up and running.
 - In Linus, `ping <pi_ip>`  e.g. `ping 192.168.0.11` 
 - In window, open powershell and type `test-netconnection <pi address>` e.g.`test-netconnection 192.168.0.11`
 
 ## Test ssh communication
-Try to ssh to your pi
+Try to ssh to your Pi
 `ssh pi@<pi_address>`
 
 Expected output:
@@ -113,7 +113,7 @@ pi@treehouses:~ $
 ## Verify new image's compatibility with Remote app
 - Download **Treehouses Remote** app from android market and connect to your pi.
 
-- Select your pi model 
+- Select your Pi model 
 
 ![Remote App](images/20200217-treehosues-remote.jpg)
 ![Remote App](images/20200217-remote-conneted.jpg)
