@@ -24,6 +24,8 @@ Use the following commands in your command line, but refer back to the descripti
 2. Copy the HTTPS or SSH link from your repository on the GitHub site
 3. On the command line, type `git clone *paste your HTTPS or SSH link here*`
 
+The local files will be saved at `C:\Users\{your-repo-here}` if you decide to use the `git clone` command.
+
 #### Understand that there are three levels of a Github repository:
 - the upstream ([treehouses.github.io](https://github.com/treehouses/treehouses.github.io))
 - Your username.github.io on GitHub
