@@ -13,7 +13,7 @@ Feb 17, 2020 • [An Pham](https://github.com/phamduchongan93)
 Download the [latest treehouses image](http://download.treehouses.io/) to your computer, and flash it onto your microSD card using [balenaEtcher](https://etcher.io).
 
 ## Mount the **/boot/** directory for editing 
-Based on your current running system, we will locate the **/boot** directory. I am using linux system, so I would type the following command to mount your boot partition.
+Based on your current running system, we will locate the **/boot** directory. I am using Linux system, so I would type the following command to mount your boot partition.
 
 - In Linux 
 `lsblk -f`
@@ -26,7 +26,7 @@ sr0
 ```
 This tells me that boot directory is mounted at `/media/anpham/boot`. 
 
-- In window system, you should have your **boot** directory auto mounted already.
+- In Windows system, you should have your **boot** directory auto mounted already.
 
 ![](images/20200217-windows-boot.png)
 
@@ -72,7 +72,7 @@ IPv4 Address. . . . . . . . . . . : 192.168.0.90
 Subnet Mask . . . . . . . . . . . : 255.255.255.0
 ```
 
-This tells me that I'm in subnet 192.168.0.90/24, meaning the network ip come from 192.168.0.1 to 192.168.0.255. Except the 192.168.0.90 which is belonged to my current host, I can assign the RPI with any ip from 192.168.0.2 to 192.168.0.254.
+This tells me that I'm in subnet 192.168.0.90/24, meaning the network ip come from 192.168.0.1 to 192.168.0.255. Except the 192.168.0.90 which belongs to my current host, I can assign the Raspberry Pi with any ip from 192.168.0.2 to 192.168.0.254.
 An example of an 'autorunce' file would look like this:
 
 ```
@@ -89,7 +89,7 @@ treehouses ssh on
 reboot
 ```
 
-Save the file and detach your sd card from your PC. Plug it in the rpi and power your raspberry pi on. Pi zero which has slower processor will take around 15 mins or more, but the pi model 4 should take less than 3 mins. Also, during the booting process, your pi will reboot one time to reload the config.
+Save the file and detach your SD card from your PC. Plug it in the Raspberry Pi and power your Raspberry Pi on. Pi zero which has slower processor will take around 15 mins or more, but the Raspberry Pi model 4 should take less than 3 mins. Also, during the booting process, your Raspberry Pi will reboot one time to reload the config.
 
 **Note: ** You can use ping command to check if your rpi is up and running.
 - In Linus, `ping <pi_ip>`  e.g. `ping 192.168.0.11` 
@@ -134,7 +134,7 @@ pi@treehouses:~ $
 ![](images/20200217-remote-tunnel-main.jpg)
 
 ## Conclusion
-- This tutorial should help you to have a stable deployment and to establish communication with your pi over WLAN. However, occasionally, there are cases where you find yourselve not having a reliable WLAN, forcing you to think of a PAN alternatives. In another word, bluetooth network will be your main drive. The remote app offers variety of features such as network troubeshooting, ssh tunneling, and docker apps deploy. Above all, treehouses systems offer tor network port tunneling. By accessing onion addresses, you should be able to have access to docker services via tor network. 
-- Keep in mind that you can switched your installed sd card between pi zero and pi 4. 
+- This tutorial should help you to have a stable deployment and to establish communication with your Raspberry Pi over WLAN. However, occasionally, there are cases where you find yourself not having a reliable WLAN, forcing you to think of a PAN alternative. In other words, Bluetooth network will be your main drive. The remote app offers variety of features such as network troubleshooting, ssh tunneling, and docker apps deploy. Above all, treehouses systems offer tor network port tunneling. By accessing onion addresses, you should be able to have access to docker services via tor network. 
+- Keep in mind that you can switch your installed SD card between Pi zero and Pi 4. 
 - We provided the tool, the rest is for your creativity. Happy hacking!
 
