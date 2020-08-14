@@ -64,7 +64,7 @@ We recommend you to follow this basic daily routine:
 **NOTE**:
 • If you are unable to join a hangout, just message dogi in advance.
 • Before leaving the hangout, everyone must do a quick check-out with dogi.
-• Make sure you are sharing your screen during the hangout
+• Make sure you are sharing your screen during the hangout.
 
 ## Active Systems Team Projects
 ### [cli](https://github.com/treehouses/cli):
@@ -80,9 +80,9 @@ If you are interested in coding in bash and working on the cli, check out the [c
 ### [builder](https://github.com/treehouses/builder)
 builder is a repository that contains scripts of the latest Raspbian image by installing packages, purging packages and executing custom commands, which then finally creates a bootable .img file that can be burned to a microSD card.
 
-For this project, you have to work with [Travis](https://travis-ci.org/treehouses?utm_medium=notification&utm_source=github_status). You can learn more abut Travis [HERE](https://docs.travis-ci.com/user/for-beginners/)
+For this project, you have to work with [Travis](https://travis-ci.org/treehouses?utm_medium=notification&utm_source=github_status). You can learn more abut Travis [HERE](https://docs.travis-ci.com/user/for-beginners/).
 
-If you are interested in working on builder and with docker, let dogi know and in the meantime review [this blog](20190921-builder.md) on how to create a new script for builder
+If you are interested in working on builder and with docker, let dogi know and in the meantime review [this blog](20190921-builder.md) on how to create a new script for builder.
 
 ### [Remote](https://github.com/treehouses/remote)
 treehouses remote is our Android app that communicates with a headless Raspberry Pi mobile server running treehouses image via Bluetooth.
