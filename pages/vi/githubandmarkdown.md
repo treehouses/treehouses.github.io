@@ -137,15 +137,5 @@ After the pull request is merged, you'll be able to see your personal page at `t
 
 **NOTE**: Try to add and experiment with as many markdown elements as you can and make your page attractive. A list of sample profile pages can be found [**here**](https://github.com/treehouses/treehouses.github.io/tree/master/pages/vi/profiles). Be creative.
 
-## Useful Links
-
-[MDWiki – Quick Start](http://dynalon.github.io/mdwiki/#!quickstart.md) - The official MDwiki quick start guide on Markdown syntax.
-
-[GitHub - Writing and Formatting](https://help.github.com/categories/writing-on-github/) - A GitHub help page on how to format and write, along with working with saved replies.
-
-[GitHub - How to fork a repo](https://help.github.com/articles/fork-a-repo/) - A more in-depth explanation about how and why we fork repositories.
-
-[Other helpful links and videos](faq.md#Helpful_Links)
-
 ---
 #### Return to [First Steps](firststeps.md#Step_3_-_Markdown_and_Fork_Tutorial)
