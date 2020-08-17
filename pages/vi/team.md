@@ -32,5 +32,6 @@
 |[![](https://avatars1.githubusercontent.com/u/33208073?s=25)](https://github.com/sarahrams)[sarahrams](profiles/sarahrams.md)|2020-06-04|
 |[![](https://avatars1.githubusercontent.com/u/17788840?s=25)](https://github.com/fankaiyuan)[fankaiyuan](profiles/fankaiyuan.md)|2020-06-18|
 |[![](https://avatars1.githubusercontent.com/u/33208073?s=25)](https://github.com/rohansuri17)[rohansuri17](profiles/rohansuri17.md)|2020-06-22|
+|[![](https://avatars1.githubusercontent.com/u/33208073?s=25)](https://github.com/anthonyhvo12)[anthonyhvo12](profiles/anthonyhvo12.md)|2020-08-14|
 |[![](https://avatars1.githubusercontent.com/u/33208073?s=25)](https://github.com/anastasia21112)[anastasia21112](profiles/anastasia21112.md)|2020-08-17|
 To view the list of former interns, go to [former members page](retiredinterns.md).
