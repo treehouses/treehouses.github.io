@@ -1,39 +1,37 @@
-# How To Setup Github to work with Android Studio on a Windows Machine 
+# How to install OpenEdx by tutor
 
-Created on 10, June 2020 • [ali18997](https://github.com/ali18997)
-
----
-
-This blog is about how to setup [GitHub](https://github.com/) while working on [Android Studio](https://en.wikipedia.org/wiki/Android_Studio) for the [treehouses remote](https://github.com/treehouses/remote) repository using a Windows Machine.
-To follow the steps here you should have Android Studio setup properly as per the [How To Setup Android Studio](./20200110-androidstudiosetup.md) blog post.
+Created on xx, Aug 2020 • [hiroTochigi](https://github.com/hiroTochigi)
 
 ---
 
-## Download GitHub Desktop App 
+This blog is about how to install OpenEdx by [Tutor(rpi)](https://github.com/ole-vi/tutor-rpi) on Tor network. Tutor(rpi) is forked from [Tutor](https://github.com/overhangio/tutor) and customized to run on Raspberry pi 4.
 
-1. GitHub Desktop is available for the Windows platform. **Download** it [here](https://desktop.github.com/)
-
-2. Install GitHub Desktop by running the installer and wait for it to finish installation
-
-3. Click **Sign into Github.com** on the welcome screen and sign in with your GitHub account
-
-![](./images/20200610-github-welcome.png)
+[Tutor](https://github.com/overhangio/tutor) is a docker-based [Open edX](https://openedx.org/) distribution, both for production and local development. The goal of Tutor is to make it easy to deploy, customize, upgrade and scale Open edX. Tutor is reliable, fast, extensible, and it is already used by dozens of Open edX platforms around the world.
 
 ---
 
-## Setting up the treehouses remote repository  
-
-1. Click **Repository** on the Menu bar and click **Repository settings** in the list.
-
-![](./images/20200610-github-repo-setting.png)
-
-2. Select **Remote** and enter **https://github.com/treehouses/remote.git** as the URL and click **Save**.
-
-![](./images/20200610-remote-link.png)
+### [Prerequisite](https://openedx.atlassian.net/wiki/spaces/OpenOPS/pages/146440579/Native+Open+edX+platform+Ubuntu+16.04+64+bit+Installation)
+* Raspberry Pi 4 with 8GB RAM
+* 32GB or more storage
 
 ---
 
-## Importing the project in Android Studio
+## Setting up Environment in Raspberry Pi for OpenEdx
+
+1. Delete all Docker containers and Docker images
+The default treehouses starts Planet.
+They might hinder Tutor from installing OpenEdx, so you should delete them.
+
+1. Get Onion Address
+Tutor asks hosting address to host OpenEdx.
+Get your Onion Address by `treehouses tor`
+
+Note. If you boot up your image first time, you should reboot it again.
+Without rebooting, your stoarage might not be enough to install OpenEdx.
+
+---
+
+## 
 
 1\. Open Android Studio
  
