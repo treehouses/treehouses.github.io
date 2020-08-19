@@ -31,50 +31,28 @@ Without rebooting, your stoarage might not be enough to install OpenEdx.
 
 ---
 
-## 
+## Install Tutor
 
-1\. Open Android Studio
- 
-![](./images/20200610-android-studio-start.png)
+1. Download Tutor Binary Data
+You can download Tutor by a below command.
+```
+wget https://github.com/ole-vi/tutor/releases/download/v10.0.10-rpi/tutor
+```
+This command should download Tutor in your current directory.
 
-2\. Click **Import Project (Gradle, Eclipse ADT, etc.)**
+1. Make Tutor  Executable
+You can make Tutor executable by below command.
+```
+chmod +x tutor
+```
+Witihout making executable, you cannot use Tutor.
 
-3\. Navigate to where the GitHub Desktop stored the remote repository locally. By default its in the `GitHub\remote` directory inside your Documents folder. Select the remote folder with Android icon and click **OK**
- 
-![](./images/20200610-android-studio-import.png)
- 
----
+1. Move Tutor in `usr/local/bin/`
+You should move Tutor in `/usr/local/bin/` by a below command
+```
+mv tutor /usr/local/bin
+```
+Note. There are several directories named `bin`.
+Tutor should be stored in `/usr/local/bin` because Tutor is a normal user programs not managed by the distribution package manager.
+Please look at [this page](https://unix.stackexchange.com/questions/8656/usr-bin-vs-usr-local-bin-on-linux/8663) for more precise information.
 
-## Making Changes and Pull Requests
-
-1\. By Default you would be on the Master branch, so you should make a new branch to make your changes. Give it a name and click **New Branch**
-
-![](./images/20200610-branch.png)
-
-2\. Click **Create branch**
-
-![](./images/20200610-branch2.png)
-
-3\. Your Android Studio project will automatically be switched to this new branch. Make the changes and when you come back they will automatically be detected by GitHub Desktop. Give your commit a description and click **Commit to "your branch name"**
-
-![](./images/20200610-commit.png)
-
-4\. Click **Publish Branch**
-
-![](./images/20200610-publish.png)
-
-5\. Click **Create Pull Request**
-
-![](./images/20200610-create-pr.png)
-
-6\. It will open it on a browser where you can complete the Pull Request
-
----
-
-## Testing Pull Requests of Others:
-1. Select the Pull Request you want to test in GitHub Desktop. Click on it and wait for it to fetch that branch. Once it is done, Android Studio will automatically be configured to work on that branch and you can build/run the code to test the pull request.
- 
-![](./images/20200610-pr.png)
-
-
----
