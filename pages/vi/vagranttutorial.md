@@ -53,7 +53,7 @@ Next, we must install VirtualBox to get Vagrant to work properly
 
 Windows users should do the following:
 - Go to https://www.virtualbox.org/wiki/Downloads and select windows hosts to install VirtualBox
-- Follow the steps until you can successfully open VirtualBbox
+- Follow the steps until you can successfully open VirtualBox
 
 macOS or Linux users should do the following:
 - In your command line interface type the following: `brew cask install virtualbox` or `sudo apt-get install virtualbox`
