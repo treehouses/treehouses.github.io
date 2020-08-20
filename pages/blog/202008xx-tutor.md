@@ -40,6 +40,7 @@ wget https://github.com/ole-vi/tutor/releases/download/v10.0.10-rpi/tutor
 ```
 This command should download Tutor in your current directory.
 
+
 1. Make Tutor  Executable
 You can make Tutor executable by below command.
 ```
@@ -47,14 +48,14 @@ chmod +x tutor
 ```
 Witihout making executable, you cannot use Tutor.
 
+
 1. Move Tutor in `usr/local/bin/`
 You should move Tutor in `/usr/local/bin/` by a below command
 ```
 mv tutor /usr/local/bin
 ```
 
-Note. 
-There are several directories named `bin`.
+note There are several directories named `bin`.
 Tutor should be stored in `/usr/local/bin` because Tutor is a normal user programs not managed by the distribution package manager.
 Please look at [this page](https://unix.stackexchange.com/questions/8656/usr-bin-vs-usr-local-bin-on-linux/8663) for more precise information.
 
