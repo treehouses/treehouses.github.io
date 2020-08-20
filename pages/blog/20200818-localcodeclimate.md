@@ -1,10 +1,10 @@
-# Run Codeclimate Locally
+# Run Code Climate Locally
 
 Created on 18 August 2020 • [sydneyaldo](https://github.com/sydneyaldo)
 
 ---
 This blog is a guide to running Code Climate locally (without having to create pull requests)
-Useful for code quality checking prior to being uploaded
+Useful for code quality checking prior to upload
 
 ---
 
@@ -17,22 +17,21 @@ Check for a file named Vagrantfile. If it does not exist, please check out [Vagr
 
 ## 3. Run Git Bash or Terminal
 
-## 4. Run `vagrant up`
+## 4. Run **vagrant up**
 
 If errors exist, make sure Vagrant is set up properly.
 
 **Note:** Text output may vary depending on the Vagrantfile content
 
-## 5. Run `vagrant ssh`
+## 5. Run **vagrant ssh**
 
-## 6. Invoke CLI Commands
+## 6. Navigate to the Directory of the Code to be Analyzed
 
-- Make sure that Code Climate wrapper is installed in /usr/local/bin 
-If not, consider [running Code Climate natively](#you-can-natively-run-the-cli-commands-by-running:) 
-
-Navigate to the directory of the code to be analyzed
+## 7. Invoke CLI Commands
 
 Run `codeclimate analyze`
+
+- If Code Climate wrapper is not installed in */usr/local/bin*, consider [running Code Climate natively](#you-can-natively-run-the-cli-commands-by-running:) 
 
 - We can also run other Code Climate CLI commands by invoking `codeclimate <command>`
 	Run `codeclimate help` for a list of available commands
@@ -49,6 +48,8 @@ docker run \
   --volume /tmp/cc:/tmp/cc \
   codeclimate/codeclimate analyze
  ```
+
+Or: 
 
 ```
 docker run \
