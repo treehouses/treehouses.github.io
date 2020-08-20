@@ -46,12 +46,12 @@ If errors exist, make sure Vagrant is set up properly
 
 Run `codeclimate analyze`
 
-![](./images/20200818-codeclimate-analyze.PNG)
-
 - We can also run other Code Climate CLI commands by invoking `codeclimate <command>`
 	Run `codeclimate help` for a list of available commands
 
 - If Code Climate wrapper is not installed in */usr/local/bin*, consider running the CLI commands natively
+
+![](./images/20200818-codeclimate-analyze.PNG)
  
 
 #### Natively run the CLI command by running:
