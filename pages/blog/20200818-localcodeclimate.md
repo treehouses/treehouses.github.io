@@ -3,9 +3,10 @@
 Created on 18 August 2020 • [sydneyaldo](https://github.com/sydneyaldo)
 
 ---
-This blog is a guide to running code climate locally (without having to create pull requests)
+This blog is a guide to running Code Climate locally (without having to create pull requests), useful for code quality checking prior to being uploaded
 
 ---
+
 
 ## 1. Navigate to the Project Folder
 
@@ -23,14 +24,19 @@ If errors exist, make sure Vagrant is set up properly.
 
 ## 5. Run `vagrant ssh`
 
-## 6. Pull Docker Image
+## 6. Invoke CLI Commands
 
-Run `docker pull codeclimate/codeclimate`
+- Make sure that codeclimate-wrapper is installed in /usr/local/bin 
+If not, consider running codeclimate natively. 
 
+- We can run codeclimate CLI commands by invoking `codeclimate <command>`
+	Run `codeclimate help` for a list of available commands
 
-## 7. Invoke CLI via Docker
+Navigate to the directory of the code to be analyzed
 
-Navigate to the project directory then run:
+Run `codeclimate analyze` 
+
+### You can natively run codeclimate commands by running:
 
 ```
 docker run \
@@ -42,7 +48,6 @@ docker run \
   codeclimate/codeclimate analyze
  ```
 
-or run:
 ```
 docker run \
   --interactive --tty --rm \
