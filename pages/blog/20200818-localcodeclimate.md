@@ -27,17 +27,17 @@ If errors exist, make sure Vagrant is set up properly.
 
 ## 6. Navigate to the Directory of the Code to be Analyzed
 
-## 7. Invoke CLI Commands
+## 7. Invoke Code Climate CLI Command
 
 Run `codeclimate analyze`
 
-- If Code Climate wrapper is not installed in */usr/local/bin*, consider [running Code Climate natively](#you-can-natively-run-the-cli-commands-by-running:) 
+- If Code Climate wrapper is not installed in */usr/local/bin*, consider [running Code Climate natively](#natively-run-the-CLI-command-by-running:) 
 
 - We can also run other Code Climate CLI commands by invoking `codeclimate <command>`
 	Run `codeclimate help` for a list of available commands
  
 
-### You can natively run the CLI commands by running:
+#### Natively run the CLI command by running:
 
 ```
 docker run \
