@@ -2,8 +2,7 @@
 
 September 25, 2019 • [CalebProvost](https://github.com/CalebProvost)
 
-Updated on August 19, 2020 • [anthonyhvo12](https://github.com/anthonyhvo12)
-• Based off of [Genymobile’s documentation](https://github.com/Genymobile/scrcpy)
+Updated on August 19, 2020 • [anthonyhvo12](https://github.com/anthonyhvo12) • Based off of [Genymobile’s documentation](https://github.com/Genymobile/scrcpy)
 
 ---
 
