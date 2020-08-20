@@ -15,9 +15,9 @@ Useful for code quality checking prior to upload
 
 ## 2. Make Sure that Vagrant is Set Up
 
-![](./images/20200818-Vagrantfile.PNG)
-
 Check for a file named Vagrantfile. If it does not exist, please check out [Vagrant Setup Guide](https://learn.hashicorp.com/collections/vagrant/getting-started)
+
+![](./images/20200818-Vagrantfile.PNG)
 
 ## 3. Run Git Bash or Terminal
 
