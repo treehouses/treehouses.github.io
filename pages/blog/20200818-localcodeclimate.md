@@ -11,22 +11,22 @@ Useful for code quality checking prior to upload
 
 ## 1. Navigate to the Project Folder
 
-![](./images/20200818-project-folder.png)
+![](./images/20200818-project-folder.PNG)
 
 ## 2. Make Sure that Vagrant is Set Up
 
-![](./images/20200818-vagrant.png)
+![](./images/20200818-vagrant.PNG)
 
 Check for a file named Vagrantfile. If it does not exist, please check out [Vagrant Setup Guide](https://learn.hashicorp.com/collections/vagrant/getting-started)
 
 ## 3. Run Git Bash or Terminal
 
-![](./images/20200818-GitBash.png)
+![](./images/20200818-GitBash.PNG)
 
 ## 4. Run vagrant up
 
-![](./images/20200818-vagrant-up.png)
-![](./images/20200818-vagrant-up-complete.png)
+![](./images/20200818-vagrant-up.PNG)
+![](./images/20200818-vagrant-up-complete.PNG)
 
 If errors exist, make sure Vagrant is set up properly
 
@@ -34,19 +34,19 @@ If errors exist, make sure Vagrant is set up properly
 
 ## 5. Run vagrant ssh
 
-![](./images/20200818-vagrant-SSH.png)
+![](./images/20200818-vagrant-SSH.PNG)
 
-![](./images/20200818-vagrant-SSH-complete.png)
+![](./images/20200818-vagrant-SSH-complete.PNG)
 
 ## 6. Navigate to the Directory of the Code to be Analyzed
 
-![](./images/20200818-change-directory.png)
+![](./images/20200818-change-directory.PNG)
 
 ## 7. Invoke Code Climate CLI Command
 
 Run `codeclimate analyze`
 
-![](./images/20200818-codeclimate-analyze.png)
+![](./images/20200818-codeclimate-analyze.PNG)
 
 - We can also run other Code Climate CLI commands by invoking `codeclimate <command>`
 	Run `codeclimate help` for a list of available commands
