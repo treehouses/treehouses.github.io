@@ -15,7 +15,7 @@ Useful for code quality checking prior to upload
 
 ## 2. Make Sure that Vagrant is Set Up
 
-![](./images/20200818-vagrant.PNG)
+![](./images/20200818-Vagrantfile.PNG)
 
 Check for a file named Vagrantfile. If it does not exist, please check out [Vagrant Setup Guide](https://learn.hashicorp.com/collections/vagrant/getting-started)
 
@@ -26,6 +26,7 @@ Check for a file named Vagrantfile. If it does not exist, please check out [Vagr
 ## 4. Run vagrant up
 
 ![](./images/20200818-vagrant-up.PNG)
+
 ![](./images/20200818-vagrant-up-complete.PNG)
 
 If errors exist, make sure Vagrant is set up properly
