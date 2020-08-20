@@ -17,13 +17,13 @@ Check for a file named Vagrantfile. If it does not exist, please check out [Vagr
 
 ## 3. Run Git Bash or Terminal
 
-## 4. Run **vagrant up**
+## 4. Run vagrant up
 
 If errors exist, make sure Vagrant is set up properly.
 
 **Note:** Text output may vary depending on the Vagrantfile content
 
-## 5. Run **vagrant ssh**
+## 5. Run vagrant ssh
 
 ## 6. Navigate to the Directory of the Code to be Analyzed
 
@@ -31,7 +31,7 @@ If errors exist, make sure Vagrant is set up properly.
 
 Run `codeclimate analyze`
 
-- If Code Climate wrapper is not installed in */usr/local/bin*, consider [running Code Climate natively](#natively-run-the-CLI-command-by-running:) 
+- If Code Climate wrapper is not installed in */usr/local/bin*, consider running the CLI commands natively 
 
 - We can also run other Code Climate CLI commands by invoking `codeclimate <command>`
 	Run `codeclimate help` for a list of available commands
