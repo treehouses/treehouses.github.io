@@ -150,6 +150,11 @@ or not commonly used. To see all subcommands, run the command
 
 **NOTE**: At the end of this section, when you successfully installed `vagrant` and configured `cli`. Execute `vagrant global-status` command and post the code of your terminal to the [Gitter chat](https://gitter.im/treehouses/Lobby).
 
+## Troubleshooting
+
+What if I already have a Virtual Machine running with VirtualBox?
+    Use the command `vagrant up [name of cli folder]`
+
 ## Useful Links
 
 [Why install Vagrant?](https://www.vagrantup.com/intro/index.html) - Explanation of some basic concepts about why Vagrant is useful for developers, operators and designers.
