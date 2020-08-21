@@ -153,7 +153,7 @@ or not commonly used. To see all subcommands, run the command
 ## Troubleshooting
 
 What if I already have a Virtual Machine running with VirtualBox?
-    Use the command `vagrant up [name of cli folder]`
+- Use the command `vagrant up [name of cli folder]`
 
 ## Useful Links
 
