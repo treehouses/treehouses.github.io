@@ -94,12 +94,68 @@ Please look at [this page](https://unix.stackexchange.com/questions/8656/usr-bin
 
 ## Start OpenEdx
 
-1. Copy Your Onion Addfress
-It is used for the configuration
+1\. Copy Your Onion Addfress
+Your Onion Address is used for the configuration
+Type the below command.
+```
+sudo treehouses tor
+```
+You should get the Onion Address like the below picture.
 
-1. Start Tutor
+![](images/20200820-get-onion-address.png)
+
+2\. Start Tutor
 Type the below command.
 ```
 tutor local quickstart
 ```
+At first, Tutor starts interactive platform configuration.
+Answer yes for the above questioin because OpenEdx is on your Onion Address.
+
+![](images/20200820-tutor-interactive-mode.png)
+
+3\. Configuration
+
+* LMS Configuration
+Paste your Onion Addrress.  
+
+![](images/20200820-lms-conf.png)
+
+* CMS Configuration
+Type "studio." and then paste your Onion Address
+
+![](images/20200820-cms-conf.png)
+
+* Platform Name
+Default
+
+* Public Email Address
+If you actually use OpenEdx, you should configure your actual email address. Otherwise, default email address is fine.
+
+* Language Code
+Default
+
+* HTTPS access
+No
+
+After all setting, you should get the similar display like the below picture
+
+![](images/20200820-complete-configuration.png)
+
+After that, Tutor starts to build containers and start services.
+It takes 4 - 10 minutes to start OpemEdx.
+If you get the below message, open Tor browser and go to the URL
+
+![](images/20200820-start-openedx.png)
+
+You can get the below pages
+
+* LMS
+
+![](images/20200820-lms.png)
+
+* CMS
+
+![](images/20200820-cms.png)
+
 
