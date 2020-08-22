@@ -1,6 +1,6 @@
 ## Blogs
 
-[How to install OpenEdx by Tutor](202008xx-tutor.md) on Aug xx, 2020 by hiroTochigi `(How to install OpenEdx by Tutor)`
+[How to install OpenEdx by Tutor](20200820-tutor.md) on Aug 20 2020 by hiroTochigi `(How to install OpenEdx by Tutor)`
 
 [How To Setup Github to work with Android Studio on a Windows Machine](20200610-githubandroidstudiowindows.md) on June 10, 2020 by ali18997 `(GitHub Configure with Windows for Android Studio for treehouses remote)`
 
