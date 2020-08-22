@@ -13,7 +13,7 @@
 
 Before installing Vagrant we must setup the cli repository, enable virtualization on our computer, and install VirtualBox.
 
-`NOTE: You should have at least 7 GB of free storage space before installing Vagrant and VirtualBox.`
+`NOTE: You should have at least 7 GB of free storage space this step.`
 
 
 #### Windows – Pick your command-line program
