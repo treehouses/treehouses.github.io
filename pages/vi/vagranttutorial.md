@@ -45,7 +45,7 @@ macOS or Linux users should do the following:
 - `cd Desktop`
 - `git clone https://github.com/treehouses/cli`
 
-## Enable Virtualization, Install Virtualbox, and Install Vagrant
+## Enable Virtualization, Install VirtualBox, and Install Vagrant
 
 Since we are planning on using VirtualBox to control Virtual Machines with our Raspberry Pi, we must first enable virtualization
 
