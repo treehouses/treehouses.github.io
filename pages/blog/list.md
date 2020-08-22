@@ -1,6 +1,6 @@
 ## Blogs
 
-[Run Code Climate Locally](20200818-localcodeclimate.md) on August 18, 2020 by sydneyaldo `(Local code quality analysis using Code Climate)`
+[Run Code Climate Locally](20200818-localcodeclimate.md) on August 18, 2020 by sydneyaldo `(Locally analyze code quality using Code Climate)`
 
 [How To Setup Github to work with Android Studio on a Windows Machine](20200610-githubandroidstudiowindows.md) on June 10, 2020 by ali18997 `(GitHub Configure with Windows for Android Studio for treehouses remote)`
 
