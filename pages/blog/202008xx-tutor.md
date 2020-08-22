@@ -1,6 +1,6 @@
 # How to install OpenEdx by tutor
 
-Created on xx, Aug 2020 • [hiroTochigi](https://github.com/hiroTochigi)
+Created on 20, Aug 2020 • [hiroTochigi](https://github.com/hiroTochigi)
 
 ---
 
