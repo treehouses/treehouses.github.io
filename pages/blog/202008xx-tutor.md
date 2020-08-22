@@ -158,4 +158,16 @@ You can get the below pages
 
 ![](images/20200820-cms.png)
 
+## Advance Commands
 
+1. Install Demo Course
+
+```
+tutor local importdemocourse
+```
+
+1. Create an User with Admin Right 
+
+```
+tutor local createuser --staff --superuser yourusername user@email.com
+```
