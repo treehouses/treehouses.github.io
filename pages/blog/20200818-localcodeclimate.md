@@ -58,7 +58,31 @@ Run `codeclimate analyze` (if wrapper is installed)
 
 ![](./images/20200818-codeclimate-analyze.PNG)
 
-**Note:** Running structure may take a while, if the engine timed out please run the Code Climate command `engines:install`
+**Note:** Running structure may take a while, if the engine timed out please run the `codeclimate engines:install` (command and output shown below)
+
+```
+vagrant@remote:~$ codeclimate engines:install
+Pulling docker images.
+Using default tag: latest
+latest: Pulling from codeclimate/codeclimate-structure
+75cb2ebf3b3c: Pulling fs layer 
+bf9f7b182d6c: Pulling fs layer 
+...
+d072530a3378: Pull complete 
+e198cf3b1351: Pull complete 
+Digest: sha256:63601288051ac8d71d910dc2cee871bf0d22c5bf7e4a3a66e313ef5047a9f2fe
+Status: Downloaded newer image for codeclimate/codeclimate-structure:latest
+Using default tag: latest
+latest: Pulling from codeclimate/codeclimate-duplication
+75cb2ebf3b3c: Already exists 
+bf9f7b182d6c: Already exists 
+...
+cf818c6259f3: Pull complete 
+e929626cf0b2: Pull complete 
+Digest: sha256:d80a157b3093af6422b5e5ff16b9fc2883c66c435848caf6ac557dd06c83c491
+Status: Downloaded newer image for codeclimate/codeclimate-duplication:latest
+vagrant@remote:~$ 
+```
 
 #### Natively run the CLI command by running:
 
