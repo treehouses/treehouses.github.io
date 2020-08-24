@@ -17,17 +17,17 @@ Useful for code quality checking prior to upload
 
 ## 2. Navigate to the Project Folder
 
-![](./images/20200818-project-folder.PNG)
+![](./images/20200818-project-folder.png)
 
 ## 3. Make Sure that Vagrant is Set Up
 
 Check for a file named Vagrantfile. If it does not exist, please check out [Vagrant Setup Guide](https://learn.hashicorp.com/collections/vagrant/getting-started)
 
-![](./images/20200818-Vagrantfile.PNG)
+![](./images/20200818-Vagrantfile.png)
 
 ## 4. Run Git Bash or Terminal
 
-![](./images/20200818-GitBash.PNG)
+![](./images/20200818-GitBash.png)
 
 ## 5. Start SSH in Vagrant
 
@@ -35,11 +35,11 @@ Create a machine using `vagrant up` command
 
 Run `vagrant ssh`
 
-![](./images/20200818-vagrant-up-complete.PNG)
+![](./images/20200818-vagrant-up-complete.png)
 
 **Note:** Output may vary on different machines when running `vagrant up`
 
-![](./images/20200818-vagrant-SSH-complete.PNG)
+![](./images/20200818-vagrant-SSH-complete.png)
 
 - If errors exist, make sure Vagrant is set up properly
 
@@ -59,7 +59,7 @@ Run `codeclimate analyze` (if wrapper is installed)
 
 - If Code Climate wrapper is not installed in */usr/local/bin*, consider running the CLI commands natively (to check, navigate to */usr/local/bin* and see if Code Climate exists in the directory)
 
-![](./images/20200818-codeclimate-analyze.PNG)
+![](./images/20200818-codeclimate-analyze.png)
 
 **Note:** Running structure may take a while, if the engine timed out please run the `codeclimate engines:install` (command and output shown below)
 
