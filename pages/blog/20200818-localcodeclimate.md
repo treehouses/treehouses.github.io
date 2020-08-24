@@ -37,7 +37,7 @@ Run `vagrant ssh`
 
 ![](./images/20200818-vagrant-up-complete.PNG)
 
-**Note:** Text output may vary depending on the Vagrantfile content
+**Note:** Output may vary on different machines when running `vagrant up`
 
 ![](./images/20200818-vagrant-SSH-complete.PNG)
 
@@ -54,10 +54,11 @@ Run `codeclimate analyze` (if wrapper is installed)
 - We can also run other Code Climate CLI commands by invoking `codeclimate <command>`
 	Run `codeclimate help` for a list of available commands
 
-- If Code Climate wrapper is not installed in */usr/local/bin*, consider running the CLI commands natively
+- If Code Climate wrapper is not installed in */usr/local/bin*, consider running the CLI commands natively (to check, navigate to */usr/local/bin* and see if Code Climate exists in the directory)
 
 ![](./images/20200818-codeclimate-analyze.PNG)
- 
+
+**Note:** Running structure may take a while, if the engine timed out please run the Code Climate command `engines:install`
 
 #### Natively run the CLI command by running:
 
