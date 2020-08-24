@@ -45,7 +45,10 @@ Run `vagrant ssh`
 
 ## 6. Change to the Directory of the Code to be Analyzed
 
-![](./images/20200818-change-directory.PNG)
+```
+vagrant@remote:~$ cd remote/app/src/main/kotlin/io/treehouses/remote/Network/
+vagrant@remote:~/remote/app/src/main/kotlin/io/treehouses/remote/Network$
+```
 
 ## 7. Invoke Code Climate CLI Command
 
