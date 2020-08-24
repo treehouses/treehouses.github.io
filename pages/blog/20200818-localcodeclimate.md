@@ -87,7 +87,9 @@ Status: Downloaded newer image for codeclimate/codeclimate-duplication:latest
 vagrant@remote:~$ 
 ```
 
-#### Natively run the CLI command by running:
+## 8. Interesting 
+
+Natively run the CLI command by running:
 
 ```
 docker run \
