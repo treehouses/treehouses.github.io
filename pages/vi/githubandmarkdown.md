@@ -38,7 +38,7 @@ Below is a summary of the steps that we will walk you through:
 * [Login to GitHub with your username and password](#Login_to_GitHub_with_your_username_and_password)
 * [Find and fork the correct repository](#Find_and_fork_the_correct_repository)
 * [Go to Settings and rename your repository](#Go_to_Settings_and_rename_your_repository)
-* [Check if your github.io works](#Check_if_you_github.io_works)
+* [Check to see if your github.io works](#Check_to_see_if_your_github.io_works)
 * [Create a new file as your personal MDwiki page and commit your changes](#Create_a_new_file_as_your_personal_MDwiki_page_and_commit_your_changes)
 * [Open a pull request](#Open_a_pull_request)
 
@@ -136,18 +136,6 @@ Someone from our team will review the changes and notify you on gitter. Often th
 After the pull request is merged, you'll be able to see your personal page at `treehouses.github.io/#!pages/vi/profiles/<YourUserName>.md`. Let us know in the [gitter.im chat](https://gitter.im/treehouses/Lobby) after you complete this step.
 
 **NOTE**: Try to add and experiment with as many markdown elements as you can and make your page attractive. A list of sample profile pages can be found [**here**](https://github.com/treehouses/treehouses.github.io/tree/master/pages/vi/profiles). Be creative.
-
-## Useful Links
-
-[GitHub – Mastering Markdown](https://guides.github.com/features/mastering-markdown/) - The official GitHub Guide for Markdown syntax.
-
-[MDWiki – Quick Start](http://dynalon.github.io/mdwiki/#!quickstart.md) - The official MDwiki quick start guide on Markdown syntax.
-
-[GitHub - Writing and Formatting](https://help.github.com/categories/writing-on-github/) - A GitHub help page on how to format and write, along with working with saved replies.
-
-[GitHub - How to fork a repo](https://help.github.com/articles/fork-a-repo/) - A more in-depth explanation about how and why we fork repositories.
-
-[Other helpful links and videos](faq.md#Helpful_Links)
 
 ---
 #### Return to [First Steps](firststeps.md#Step_3_-_Markdown_and_Fork_Tutorial)

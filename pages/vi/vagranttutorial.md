@@ -13,6 +13,8 @@
 
 Before installing Vagrant we must setup the cli repository, enable virtualization on our computer, and install VirtualBox.
 
+`NOTE: You should have at least 7 GB of free storage space this step.`
+
 
 #### Windows – Pick your command-line program
 
@@ -36,14 +38,14 @@ Normally we use a terminal emulator to interact with Vagrant CLI
 A lot of Vagrant commands require us to specify a target machine. We can also run those commands from a directory with the target machine’s Vagrant File. Otherwise, you may encounter an error like "A Vagrant environment or target machine is required." Please go to the directory that contains our Vagrant file:
 
 Windows users should do the following:
-- Go into git bash and clone the repository https://github.com/treehouses/cli
+- Go into git bash and clone using `git clone https://github.com/treehouses/cli`
 - `cd C:\Users\YOUR_USERNAME\Desktop\treehouses\cli`
 
 macOS or Linux users should do the following:
 - `cd Desktop`
 - `git clone https://github.com/treehouses/cli`
 
-## Enable Virtualization, Install Virtualbox, and Install Vagrant
+## Enable Virtualization, Install VirtualBox, and Install Vagrant
 
 Since we are planning on using VirtualBox to control Virtual Machines with our Raspberry Pi, we must first enable virtualization
 
@@ -53,7 +55,7 @@ Next, we must install VirtualBox to get Vagrant to work properly
 
 Windows users should do the following:
 - Go to https://www.virtualbox.org/wiki/Downloads and select windows hosts to install VirtualBox
-- Follow the steps until you can successfully open VirtualBbox
+- Follow the steps until you can successfully open VirtualBox
 
 macOS or Linux users should do the following:
 - In your command line interface type the following: `brew cask install virtualbox` or `sudo apt-get install virtualbox`
@@ -61,8 +63,8 @@ macOS or Linux users should do the following:
 Last, we must install Vagrant so we can move onto the next steps
 
 Windows users should do the following:
-- Go to https://www.vagrantup.com/downloads.html and select windows hosts to install Vagrant 
-- Follow the steps until you have completed install for Vagrant 
+- Go to https://www.vagrantup.com/downloads.html and select windows hosts to install Vagrant
+- Follow the steps until you have completed install for Vagrant
 
 macOS or Linux users should do the following:
 - In your command line interface type the following: `brew cask install vagrant` or `sudo apt-get install vagrant`
@@ -75,7 +77,7 @@ macOS or Linux users should do the following:
 ```
 id       name   provider   state   directory
 ---------------------------------------------------------------------------
-0e6abb1  cli    virtualbox running  /Users/pattanawadee/cli 
+0e6abb1  cli    virtualbox running  /Users/pattanawadee/cli
 
 The above shows information about all known Vagrant environments
 on this machine. This data is cached and may not be completely
@@ -85,7 +87,7 @@ directory and run Vagrant, or you can use the ID directly with
 Vagrant commands from any directory. For example:
 "vagrant destroy 1a2b3c4d"
 ```
-If no environments show up as active, use the command `vagrant up` and try again. 
+If no environments show up as active, use the command `vagrant up` and try again.
 
 The above output tells us:
 

@@ -12,12 +12,12 @@
 
 ## Prepare Treehouses image
 
-Download the latest treehouses image [here](https://treehouses.io/#!pages/download.md), then use [balenaEtcher](https://etcher.io) to flash the image onto your SD card.
-
 `Warning: Use a new SD Card for these steps; otherwise you will encounter errors.`
 
+Download the latest treehouses image [here](https://treehouses.io/#!pages/download.md), then use [balenaEtcher](https://etcher.io) to flash the image onto your SD card.
+
 In your file explorer, navigate to the `boot` drive, and open the `autorunonce` file in a text editor of your choice.  Delete everything, and paste this in:
-	
+
 ```bash
 #!/bin/bash
 
@@ -35,7 +35,7 @@ Replace `username` with your Github username,and replace `wifiname` and `wifipas
 **NOTE**: You must modify the `autorunonce` file _before_ using the SD card with the Raspberry Pi. Failure to do this step correctly will cause "Planet Learning" - another OLE service - to load when starting Tor. Don’t hesitate to ask other members in the [Gitter chat](https://gitter.im/treehouses/Lobby) if you are not able to load Nextcloud _after attempting this step again_.  
 
 
-## Install Tor 
+## Install Tor
 
 **NOTE**: You can skip this section if you already installed Tor from [Step 2](sshpi.md).
 
