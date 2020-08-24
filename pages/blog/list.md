@@ -1,5 +1,7 @@
 ## Blogs
 
+[Testing over bluetooth with treehouses remote](20200824-testingoverbluetooth.md) on August 24, 2020 by sarahrams `(Guide to test treehouses commands over the bluetooth using the phone)`
+
 [Set up headless treehouses node](20200217-headlessrpi.md) on Feb 17, 2020 by An Pham `(Headless node deploy)`
 
 [Android Studio Setup](20200110-androidstudiosetup.md) on January 10, 2020 by LordJashin32 `(Setup the treehouses remote project on Android Studio)`
