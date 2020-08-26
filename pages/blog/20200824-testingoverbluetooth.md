@@ -5,6 +5,7 @@
 ---
 
 The most common way to access Raspberry Pi is by using ssh through internet like WiFi or Ethernet. However, if you don’t have internet connection, bluetooth becomes your best friend to access your raspberry pi.
+
 **Example situation:**
 The command **treehouses internet** allows to check the availability of internet. In this way, it normally outputs true if the rpi can reach internet, or false if it doesn't. 
 What if we want to refactor the internet in such a way that when the output is false, it immediately exits and otherwise the command returns true?
