@@ -26,16 +26,17 @@ The treehouses remote app is principally used to remote control the raspberry pi
 ## Step2: Connect to Treehouses Remote and Set Network to Default
 1. Go then to your phone within the treehouses remote app. Click `connect to RPI` to pair Raspberry Pi to android device. On the main menu, go to the terminal and run the command `treehouses default network`. This command is to set the network back to the initial configuration of when installed.
 1. This previous action requires a device reboot to be functional. After rebooting, connect again to RPi over bluetooth.
+
 ![](images/20200824-treehouses-default.png)
 ![](images/20200824-treehouses-reboots.png)
 
 1. If you enter `treehouses networkmode info` you will notice that the network has been set to default mode. This command shows the current status of the network mode or to test if the internet is on or off.
+
 ![](images/20200824-treehouses-networkmode.png)
 
 ## Step3: Test your commands (`treehouses internet`)
 1. Then, you can test your commands in internet.sh and make sure to test all other files using the new commands, if any.
 In this case, we are firstly running `treehouses internet`.
-
 1. As there are several commands in treehouses that need to check the internet before running, this means they should also be tested to assure they do not crash. If you go to the Github cli directory and enter `checkinternet` in search tab, you will get all the files that need to be tested: anime.sh, gpio.sh, inspire.sh, internet.sh, magazine.sh, upgrade.sh. We should also remember that `treehouses remote status` and `treehouses remote statuspage` will break if there is no internet. 
 1. Once everything is working perfectly, you can create a pull request. In the meanwhile, logging back into your terminal and testing over ssh are blocked, which means you will need to burn a new image and set network configuration as preferred.
 
