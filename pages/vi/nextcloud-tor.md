@@ -12,12 +12,12 @@
 
 ## Prepare Treehouses image
 
-Download the latest treehouses image from http://download.treehouses.io, then use [balenaEtcher](https://etcher.io) to flash the image onto your SD card.
-
 `Warning: Use a new SD Card for these steps; otherwise you will encounter errors.`
 
+Download the latest treehouses image [here](https://treehouses.io/#!pages/download.md), then use [balenaEtcher](https://etcher.io) to flash the image onto your SD card.
+
 In your file explorer, navigate to the `boot` drive, and open the `autorunonce` file in a text editor of your choice.  Delete everything, and paste this in:
-	
+
 ```bash
 #!/bin/bash
 
@@ -30,19 +30,21 @@ treehouses bridge 'wifiname' 'treehouses' 'wifipassword'
 
 reboot
 ```
-Replace `username` with your Github username,and replace `wifiname` and `wifipassword` with your wifi name and password that you are connecting.Save the file, and safely eject the SD card.
+Replace `username` with your Github username,and replace `wifiname` and `wifipassword` with your wifi name and password that you are connecting. Save the file, and safely eject the SD card.
 
 **NOTE**: You must modify the `autorunonce` file _before_ using the SD card with the Raspberry Pi. Failure to do this step correctly will cause "Planet Learning" - another OLE service - to load when starting Tor. Don’t hesitate to ask other members in the [Gitter chat](https://gitter.im/treehouses/Lobby) if you are not able to load Nextcloud _after attempting this step again_.  
 
 
-## Install Tor 
+## Install Tor
+
+**NOTE**: You can skip this section if you already installed Tor from [Step 2](sshpi.md).
 
 ### macOS
 
 You should already have [Homebrew](https://brew.sh) installed.  You can check if it's already installed by running `brew -v` in your terminal.  If you haven't yet installed it, run the following:
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew install wget
+brew install wget cask
 ```
 
 Then, install Tor and Tor Browser:
@@ -88,6 +90,8 @@ b3pesvpay2ouaxl556jwbknf32qlurspdregg672lgm5wjk5gejuonid.onion
 To see the full list of `treehouses tor` commands, run `treehouses help tor`.  
 
 In the Tor browser on your computer, navigate to the .onion address.  For instance, I would navigate to `b3pesvpay2ouaxl556jwbknf32qlurspdregg672lgm5wjk5gejuonid.onion` in my Tor browser.  If the Nextcloud container is up and running, you should see the Nextcloud set up page:  
+
+**NOTE**: The Tor link may take some time to load.
 
 ![](images/nextcloud-login.png)
 

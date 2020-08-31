@@ -22,18 +22,18 @@ To stay up to date with the projects you are contributing to, make sure you "sta
 ### Active System Teams Projects
 
 #### [treehouses.io](https://github.com/treehouses/treehouses.github.io/)
-* treehouses is the name of our Markdown wiki which you have been using throughout the 10 steps.
+* treehouses is the name of our Markdown wiki which you have been using throughout the 10 steps
 
 #### [remote](https://github.com/treehouses/remote/)
- * The Remote repository contain the Android application developed by the systems team that **allows Android devices to connect to the Raspberry Pi** via Bluetooth.
-   * The application can be found in the Google App Store by searching “treehouses remote” or by following [this link](https://play.google.com/store/apps/details?id=io.treehouses.remote).
+ * The Remote repository contain the Android application developed by the systems team that **allows Android devices to connect to the Raspberry Pi** via Bluetooth
+   * The application can be found in the Google App Store by searching “treehouses remote” or by following [this link](https://play.google.com/store/apps/details?id=io.treehouses.remote)
 
   ![](images/remoteiconsml.jpg)
 
-   * If you'd like to help us, [rate the app](https://play.google.com/store/apps/details?id=io.treehouses.remote) and follow [this link](https://play.google.com/apps/testing/io.treehouses.remote) to join and download the beta version.
+   * If you'd like to help us, [rate the app](https://play.google.com/store/apps/details?id=io.treehouses.remote) and follow [this link](https://play.google.com/apps/testing/io.treehouses.remote) to join and download the beta version
 
 #### [builder](https://github.com/treehouses/builder)
-* Repository that contains scripts of the latest Raspbian image by installing packages, purging packages and executing custom commands, and then finally creates a bootable .img file that can be burned to the microSD card.
+* Repository that contains scripts of the latest Raspbian image by installing packages, purging packages and executing custom commands, and then finally creates a bootable .img file that can be burned to the microSD card
 
 #### [cli](https://github.com/treehouses/cli)
 * Cli is  Command-Line Interface for the treehouses system image, it allows different commands to be entered in the Raspberry Pi terminal
@@ -42,11 +42,11 @@ To stay up to date with the projects you are contributing to, make sure you "sta
 * Bluetooth service for treehouses image which interacts with treehouses/remote android app
 
 #### [rpi-couchdb](https://github.com/treehouses/rpi-couchdb)
-* CouchDB is a document database meaning that it is a NOSQL database that uses JSON for documents, an HTTP API, & JavaScript/declarative indexing.
-  * The OLE Systems team aims to use CouchDB to ensure that the programs we develop operate reliably on different computing environments.
+* CouchDB is a document database meaning that it is a NOSQL database that uses JSON for documents, an HTTP API, & JavaScript/declarative indexing
+  * The OLE Systems team aims to use CouchDB to ensure that the programs we develop operate reliably on different computing environments
 
 #### [Docker](https://hub.docker.com/r/treehouses/)
-* Docker is a powerful and widely-used software option for creating, deploying, and running applications in containers.
+* Docker is a powerful and widely-used software option for creating, deploying, and running applications in containers
   * Used by OLE for educational applications such as `planet`
 
 ## A Few Things to Know...
@@ -63,7 +63,7 @@ Once you have accepted your invitation, mark yourself as a public member in the 
 
 One major responsibility as an intern is to review and help prospective interns with their issues / pull requests in OLE treehouses. You can start a review by going to the files changed tab on a pull request. You can read more about [Review on GitHub](https://help.github.com/articles/about-pull-request-reviews/).
 
-Since we are a very diverse community with people coming from different background and culture, it might be hard to find the right language to use in reviewing other's code. Please make sure to read [**a guide for reviewing code and having your code reviewed**](https://github.com/thoughtbot/guides/tree/master/code-review#code-review) for some useful tips.
+Since we are a very diverse community with people coming from different backgrounds and cultures, it might be hard to find the right language to use in reviewing other's code. Please make sure to read [**a guide for reviewing code and having your code reviewed**](https://github.com/thoughtbot/guides/tree/master/code-review#code-review) for some useful tips.
 
 You should check if the following conditions are met:
 
@@ -84,11 +84,11 @@ The pull request can be merged if at least two other people have approved the pu
 When you are ready to merge the pull request:
 
 * Select "Squash Merge"
-* **Remove all of the commit messages in the extended description, and make sure the commit title is clear and short.**
-* Include “(fixes #IssueNumber)” in the title so it will automatically close the issue.
-  * If you forget to add a keyword, go to the issue and manually close it and link to the original pull request.
-  * An example of good commit title is: "update vi-configuration.md (fix #1530) (#1557)", where "1530" is the issue number and "1557" is pull request number.
-  * Read more about [closing Issues using keywords](https://help.github.com/articles/closing-issues-using-keywords/).
+* **Remove all of the commit messages in the extended description, and make sure the commit title is clear and short**
+* Include “(fixes #IssueNumber)” in the title so it will automatically close the issue
+  * If you forget to add a keyword, go to the issue and manually close it and link to the original pull request
+  * An example of good commit title is: "update vi-configuration.md (fix #1530) (#1557)", where "1530" is the issue number and "1557" is pull request number
+  * Read more about [closing Issues using keywords](https://help.github.com/articles/closing-issues-using-keywords/)
 
 Every time you merge a pull request, message the author on [Gitter chat](https://gitter.im/treehouses/Lobby), make sure you include a link to the pull request and commit id.
 
@@ -98,11 +98,11 @@ Every time you merge a pull request, message the author on [Gitter chat](https:/
 
 While you are free to work in your own style, we recommend you follow this basic daily routine:
 
-* Check Gitter interns room and your Gitter private messages.
-* Join the [OLE Google Hangouts session](http://talk.ole.org) if you are able to, so you can follow what everyone is working on and get help fast.
-* Review any issues or pull requests that have been added or changed on [treehouses.io](https://github.com/treehouses/treehouses.github.io) since last time you reviewed.
-* Work on your issues and write in the intern chat any time you run into problems.
-* Make pull requests as early as possible so you can get feedback as you work.
+* Check Gitter interns room and your Gitter private messages
+* Join the [OLE Google Hangouts session](http://talk.ole.org) if you are able to, so you can follow what everyone is working on and get help fast
+* Review any issues or pull requests that have been added or changed on [treehouses.io](https://github.com/treehouses/treehouses.github.io) since last time you reviewed
+* Work on your issues and write in the intern chat any time you run into problems
+* Make pull requests as early as possible so you can get feedback as you work
 * Try to close issues using some of the following keywords and variations of them in the headings: `close`, `fix` and `resolve`. [Closing Issues using keywords](https://help.github.com/articles/closing-issues-using-keywords/)
 
 ### Weekly Schedule
@@ -118,12 +118,12 @@ All of our Google Hangouts sessions can be joined at <http://talk.ole.org>. Curr
 * Secret Hacking Hangout
 
 
-Every Monday at the "[Happy hacking hangout](http://talk.ole.org)" session, we work on problems together and catch up on what people have been doing all week. It is also advisable to schedule a day out of the week to meet with a team leader, especially if you can’t make it to the meeting. Use the calendar to set up meetings and other events with interns.
+Every Monday at the "[Happy Hacking Hangout](http://talk.ole.org)" session, we work on problems together and catch up on what people have been doing all week. It is also advisable to schedule a day out of the week to meet with a team leader, especially if you can’t make it to the meeting. Use the calendar to set up meetings and other events with interns.
 
 Please subscribe to our calendar:
 
-* In [Google Calendar](https://calendar.google.com/), paste `ole.org_u2koassrool56icb7fqko9abac@group.calendar.google.com` into "*Add a friend's calendar*" and **hit `Enter` (do not click the + sign)**.
-* Use [this iCalendar file](https://calendar.google.com/calendar/ical/ole.org_u2koassrool56icb7fqko9abac%40group.calendar.google.com/public/basic.ics) to access our calendar from other applications.
+* In [Google Calendar](https://calendar.google.com/), paste `ole.org_u2koassrool56icb7fqko9abac@group.calendar.google.com` into "*Add a friend's calendar*" and **hit `Enter` (do not click the + sign)**
+* Use [this iCalendar file](https://calendar.google.com/calendar/ical/ole.org_u2koassrool56icb7fqko9abac%40group.calendar.google.com/public/basic.ics) to access our calendar from other applications
 
 ![Google Calendar add a friend's calendar](images/calendar.jpg)
 

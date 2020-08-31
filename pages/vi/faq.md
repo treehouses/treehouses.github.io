@@ -36,7 +36,7 @@
 
 #### Q4: What are the hours of the internship?
 
-+ This is an intensive internship that requires 16 hours of work each week. Work with your fellow interns and keep us updated in the [Gitter chat](https://gitter.im/open-learning-exchange/treehouses/Lobby).
++ This is an intensive internship that requires 16 hours of work each week. Work with your fellow interns and keep us updated in the [Gitter chat](https://gitter.im/treehouses/Lobby).
 + The reason we have a 16 hour minimal commitment per week is that things are moving forward quickly and it might be hard for virtual interns to catch up with changes. Basically, we would have a few hours of Google Hangout sessions per week where everyone shares their screen, discusses problems, and works on issues together. Then the rest of the time is for catching up with the changes and working on issues assigned.
 
 #### Q5: Is this a paid internship?
@@ -49,11 +49,11 @@
 
 #### Q7: If I'm an international student, how soon can I get my paperwork required by my visa?
 
-+ Since the first 10 steps are a vetting process, your internship technically doesn't start until you finish them. Think of the first 10 steps as a continued application process; you are not working on or adding to our organizational software, but rather showing that you have enough technical background to work with us. After you finish the first 10 steps, let us know if you need us to sign some paperwork, give you organizational information, or provide you with an offer letter for your visa compliance and we'd be more than happy to help.
++ Since the first 10 steps are a vetting process, your internship technically doesn't start until you finish them. Think of the first 10 steps as a continued application process; you are not working on or adding to our organizational software, but rather showing that you have enough technical background to work with us. After you finish the first 10 steps, let us know if you need us to sign some paperwork, give you organizational information, or provide you with an offer letter for your visa compliance and we'd be more than happy to help. Find out information related to your paperwork [here](https://isso.columbia.edu/content/unpaid-internships-and-volunteering).
 
 #### Q8: How many pull requests and issues in total do I need to make to finish the steps?
 
-+ To finish the initial steps, you need to make a **minimum** of 4 issues and 5 pull requests so you can get familiar with GitHub and to show us that you can write proper issues/PRs.
++ To finish the initial steps, you need to make a **minimum** of 4 issues and 5 pull requests so you can get familiar with GitHub and to show us that you can write proper issues/PRs. Check your progress [here](trackprogress.md).
 
 #### Q9: How long do I have to complete these steps?
 
@@ -84,7 +84,7 @@
 
 ## Helpful Links
 
-#### *GitHub and Markdown*
+#### *GitHub, Markdown, and CLI*
 
 
 * General
@@ -114,7 +114,12 @@
     - [Markdown Syntax](https://daringfireball.net/projects/markdown/syntax)
     - [Markdown Cheat Sheet (PDF)](https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf)
     - [Markdown Editor](https://jbt.github.io/markdown-editor/)
-
+* CLI
+    - [MacOS CLI Cheat Sheet](https://www.makeuseof.com/tag/mac-terminal-commands-cheat-sheet/)
+    - [Linux/Ubuntu CLI Cheat Sheet](http://images.linoxide.com/linux-cheat-sheet.pdf)
+    - [Windows CLI(CMD) Cheat Sheet](https://ss64.com/nt/)
+* Vi/Vim
+    - [Vim Cheat Sheet](https://devhints.io/vim)
 
 ## Helpful Videos
 

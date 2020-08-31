@@ -8,6 +8,7 @@
 
 
 ### Create your SSH key
+
 Follow these steps to create your SSH key:
 - [Generate a new SSH key and add it to the ssh-agent](https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)  
 - [Add the SSH key to your GitHub account](https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account)
@@ -15,6 +16,16 @@ Follow these steps to create your SSH key:
 **NOTE**: With `cat ~/.ssh/id_rsa*` you can check your SSH key pair. Both parts (private and public) of your recently created SSH key should show up. Please be sure that your (private) key is protected by a passphrase and has been created on your computer; **not** on the Raspberry Pi.
 
 A trick to whether github is configured correctly is to navigate to `https://github.com/<yourgithubusername>.keys` in a browser - your public SSH key should show up there.
+
+**NOTE**: Be sure not to confuse the public SSH key and the key fingerprint. The fingerprint of a key is unique and used to identify the key. 
+
+SSH keys are stored in a `~/.ssh` directory. You will need to find a set of files looking like `id_dsa` or `id_rsa` (your private key or key fingerprint) and a complimentary `.pub` file (your public key).
+This is the key fingerprint format: `SHA256:PqNGgIJfgjnoq9JMd2czLPAevkAzr4OIKb22GxMZg1M dogi@ole.org`.
+However, the public keys are similar to this: 
+```
+$ cat ~/.ssh/id_rsa.pub
+ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEArMkyotKz1J5+Kux3ToBNe+X3Qm+6WzTXflEEeOWdmxDZ5f5le7Ujes81ybRnavWSNR2TGr1evigE7vGsxHm2aEeR0YICWR24lPcJ2FUROmEdwn2OjDzh1YcKJDNvlMzXt1x0dNeEkSisHpk6p5RJ7OfCtyD/OjKhGyajbxS/n3RDSMgND46M7AiiaaIzlut3D09Gyhd93t16NTyR9Ej1RRRk8z9of3qLwhC1AqVJpSkuWn9+q111AfljsVZCHHDLw0+j7NIntk5x+yzrl2QQECNEaPpm1Pt4gmLG2nnrNjPAtrjWIfyWfhdSbgk/QscAE2XpCYoSFBW9d8bdIVMfSw== dogi@ole.org
+```
 
 ### Log in with the Pi user
 
@@ -50,9 +61,9 @@ pi@treehouses:~ $
 
 ### Add SSH key to the Raspberry Pi
 
-To add your SSH key to your Raspberry Pi you first need to copy your public key. Since you did copy this same key to already github you can see it by navigating with your browser to `https://github.com/<yourgithubusername>.keys` or by running linux/macosx from command line you can run `wget -O- -q https://github.com/<yourgithubusername>.keys`.
+To add your SSH key to your Raspberry Pi you first need to copy your public key. Since you copied this same key to github already, you can see it by navigating with your browser to `https://github.com/<yourgithubusername>.keys` or by running Linux/macOS from command line you can run `wget -O- -q https://github.com/<yourgithubusername>.keys`.
 
-Now you can add the public key to run: `sudo treehouses sshkey add "your SSH key"` (copy-paste your SSH key in between the quotes) or just `sudo treehouses sshkey addgithubuser <yourgithubusername>`.
+Now you can add the public key to run: `sudo treehouses sshkey add "your SSH key"` (copy-paste your SSH key in between the quotes) or just `sudo treehouses sshkey github adduser <yourgithubusername>`.
 
 In the future on SSH login it will ask you for your sshkey passphrase whereas before it, used the default password for pi user "raspberry".
 
@@ -71,10 +82,9 @@ Tor is a computer network run by volunteers worldwide. Each volunteer runs what 
 
 Before hitting the open Internet, the Tor Browser will connect to several different relays, wiping its tracks each step of the way, making it difficult to figure out where, and who, you really are.
 
-First start by watching this [video](https://www.youtube.com/watch?v=6czcc1gZ7Ak) on the Tor browser
-[Get Tor](https://www.torproject.org/download/)
-
 The Systems Team utilizes this tool to provide a further layer of security when interacting with the Raspberry Pis deployed in the field.
+
+Please start by watching this [video](https://www.youtube.com/watch?v=6czcc1gZ7Ak) about the Tor browser.
 
 ### Get Tor
 
@@ -83,7 +93,7 @@ The Systems Team utilizes this tool to provide a further layer of security when 
 You should already have [Homebrew](https://brew.sh) installed.  You can check if it's already installed by running `brew -v` in your terminal.  If you haven't yet installed it, run the following:
 ```
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew install wget
+brew install wget cask
 ```
 
 Then, install Tor and Tor Browser:
