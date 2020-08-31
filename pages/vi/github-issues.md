@@ -29,7 +29,9 @@ Go to the "Issues" tab and click on "New issue" to create a new issue:
 
 Give it a short title and a descriptive body and you can now submit your issue. If you are explaining a bug or how to replicate an issue, please be as explicit as possible and use pictures as necessary.
 
-![New Issue 2](images/fs6-issue.png)
+![New Issue 2](images/fs6-issue.png)  
+
+Issues are written in Markdown format. You can preview your issue by clicking `Preview`. Once you are happy with how it looks, click `Submit` to submit your new issue. 
 
 _**IMPORTANT NOTE:**_ Issues are _not required_ to be approved _before_ a Pull Request is submitted for the respective fix; however, we do suggest that you wait until someone from the System Team confirms/approves the change that your issue addresses BEFORE you begin work on the fix.
 
@@ -72,7 +74,7 @@ git push origin master
 
 Now you can go and make the proposed changes to your local files. You can use any IDE or text editor you prefer. You can also use VIM or Nano to edit files from the terminal. [This guide on VIM](https://www.vim.org/docs.php) and [this guide on Nano](https://www.nano-editor.org/docs.php) contain more information on their proper usage.
 
- _**NOTE:**_  Use `git branch` to see which branch you are in. Your `master` branch is the base working branch. It needs to remain untouched just in case you need to revert some changes back to a working version. Make sure you are on right branch using `git branch` to see what branch you are currently on, and `git checkout branch-name` to switch to the proper branch before making changes to your local files and committing.
+ _**NOTE:**_  Everytime you create a new branch, make sure that you switch to master branch using the command `git checkout master`, then follow the above steps to avoid creating a branch off other branch. Your `master` branch is the base working branch. It needs to remain untouched just in case you need to revert some changes back to a working version. Make sure you are on the right branch using `git branch` to see what branch you are currently on, and `git checkout branch-name` to switch to the a proper branch before making changes to your local files and committing. Use `git status` to check the changes that you made in your repository before making a commit.
 
 If you're still confused, that's quite alright. [Forking Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow) can be quite challenging at first. See this diagram below. For better context, the new branch you just made is inside your "Forked GitHub IO".
 
@@ -156,9 +158,9 @@ All that remains is posting your pull request in the chat and waiting until one 
 * Follow the below steps to delete your branch:
 
     1. Switch to the master branch using `git checkout master` as you cannot be on the branch you want to delete.
-    
+
     2. Delete local branch using `git branch -d branch-name`.
-    
+
     3. Delete remote branch using `git push origin --delete branch-name`.
 
 _**NOTE:**_ Remember to always sync your fork before starting to work on a new issue. To sync your fork you can follow the process in the [previous step](gitrepositories.md).

@@ -1,5 +1,7 @@
 ## Blogs
 
+[Run Code Climate Locally](20200818-localcodeclimate.md) on August 18, 2020 by sydneyaldo `(Locally analyze code quality using Code Climate)`
+
 [The Intertwined Components Of Treehouses](20200724-treehousescomponents.md) on July 24, 2020 by law-lin `(Description on the active treehouses projects)`
 
 [Adding a New Docker Service](20200724-newdockerservice.md) on July 24, 2020 by law-lin `(Guide on how to add a new Docker service to the CLI)`
