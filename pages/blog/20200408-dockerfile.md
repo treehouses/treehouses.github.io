@@ -44,7 +44,7 @@ EXPOSE 80 443
 
 CMD ["-D","FOREGROUND"]
 
-# Srart httpd when container runs
+# Start httpd when container runs
 ENTRYPOINT ["/usr/sbin/httpd"]
 ```
 
