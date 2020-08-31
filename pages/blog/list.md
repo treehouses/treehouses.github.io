@@ -8,7 +8,7 @@
 
 [Creating a Feature On the CLI and Remote](20200724-cliandremote.md) on July 24, 2020 by law-lin `(Guide to create a feature in cli and remote)`
 
-[How To Setup Github to work with Android Studio on a Windows Machine](20200610-githubandroidstudiowindows.md) on June 10, 2020 by ali18997 `(GitHub Configure with Windows for Android Studio for treehouses remote)`
+[Set up Github to work with Android Studio on Windows](20200610-githubandroidstudiowindows.md) on June 10, 2020 by ali18997 `(Configure Android Studio and GitHub on Windows for treehouses remote)`
 
 [Turtleart dockerized](20200408-dockerfile.md) on April 09, 2020 by vmnet8 `(Create a Dockerfile and build Docker image)`
 
