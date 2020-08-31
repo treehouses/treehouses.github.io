@@ -2,6 +2,12 @@
 
 [Run Code Climate Locally](20200818-localcodeclimate.md) on August 18, 2020 by sydneyaldo `(Locally analyze code quality using Code Climate)`
 
+[The Intertwined Components Of Treehouses](20200724-treehousescomponents.md) on July 24, 2020 by law-lin `(Description on the active treehouses projects)`
+
+[Adding a New Docker Service](20200724-newdockerservice.md) on July 24, 2020 by law-lin `(Guide on how to add a new Docker service to the CLI)`
+
+[Creating a Feature On the CLI and Remote](20200724-cliandremote.md) on July 24, 2020 by law-lin `(Guide to create a feature in cli and remote)`
+
 [How To Setup Github to work with Android Studio on a Windows Machine](20200610-githubandroidstudiowindows.md) on June 10, 2020 by ali18997 `(GitHub Configure with Windows for Android Studio for treehouses remote)`
 
 [Set up headless treehouses node](20200217-headlessrpi.md) on Feb 17, 2020 by An Pham `(Headless node deploy)`
