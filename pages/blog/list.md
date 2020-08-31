@@ -1,5 +1,7 @@
 ## Blogs
 
+[Turtleart dockerized](20200408-dockerfile.md) on April 09, 2020 by vmnet8 `(Create a Dockerfile and build Docker image)`
+
 [Set up headless treehouses node](20200217-headlessrpi.md) on Feb 17, 2020 by An Pham `(Headless node deploy)`
 
 [Android Studio Setup](20200110-androidstudiosetup.md) on January 10, 2020 by LordJashin32 `(Setup the treehouses remote project on Android Studio)`
