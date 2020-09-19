@@ -11,7 +11,7 @@ My name is Sean Tang. I'm currently a Junior attending a high school in the Bay 
 -python  
 -java  
 -android studio  
--C/C++ (compeition only)  
+-C/C++ (competition only)  
 -golang (entry level)  
 ___
 ## Contact Info
