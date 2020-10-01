@@ -2,9 +2,9 @@
 
 ![Image of Downtown Columbus](https://downtowncolumbus.com/wp-content/uploads/2020/03/south-08899.jpg)
 ## Information
-Location :house:| TimeZone :watch:|Operating System :computer:
-----------------|-----------------|-------------------------------
-Columbus, Ohio  | Eastern         | MacOS Catalina Version 10.15.5
+Location      | TimeZone |Operating System 
+--------------|----------|-------------------------------
+Columbus, Ohio| Eastern  |MacOS Catalina Version 10.15.5
 
 
 ## Personal
