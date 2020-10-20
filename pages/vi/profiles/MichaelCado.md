@@ -10,11 +10,7 @@
 
 ### The *Pandemic* Project that saves _me_
 
-![alt text][logo1]
-
 [logo1]: https://github.com/MichaelCado/Pi-Loton-Project/blob/master/Screen%20Shot%202020-06-10%20at%2011.08.46%20AM.png "Pi-loton Project Node flow "
-
-![alt text][logo2]
 
 [logo2]: https://github.com/MichaelCado/Pi-Loton-Project/blob/master/Screen%20Shot%202020-06-11%20at%201.47.49%20PM.png " Hardware wiring"
 
