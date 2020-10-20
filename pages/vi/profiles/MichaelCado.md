@@ -16,6 +16,6 @@
 
 ![alt text][logo2]
 
-[logo2]: https://github.com/MichaelCado/Pi-Loton-Project/blob/master/Screen%20Shot%202020-06-11%20at%201.47.49%20PM.png
+[logo2]: https://github.com/MichaelCado/Pi-Loton-Project/blob/master/Screen%20Shot%202020-06-11%20at%201.47.49%20PM.png " Hardware wiring"
 
 [Raspberry pi and  Amateur Weather Enthusiast]( https://www.arcgis.com/home/webmap/viewer.html?webmap=5e7f16de8339411b900cd9cafefb4bda)
