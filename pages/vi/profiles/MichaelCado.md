@@ -1,4 +1,4 @@
-### Greetings from the sunshine state of Florida (GMT-4/New York EDT).
+### Greetings from the sunshine state of Florida (GMT-4/New York EDT).macOS Mojave 10.14.6
 ##### My name is Michael Cadosales.I recently finished my Computer Science degree at the University of the People while being a Mr.Mom to my two beautiful daughters :)
 ###### Tiny Toolbox
 1. IBM NodeRed IOT
