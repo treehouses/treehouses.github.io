@@ -8,7 +8,7 @@
 5. LAMP  
 6. ArcGIS
 
-## The *Pandemic* Project that saves _me_
+### The *Pandemic* Project that saves _me_
 
 ![alt text][logo1]
 
