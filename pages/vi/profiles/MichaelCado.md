@@ -8,6 +8,10 @@
 5. LAMP  
 6. ArcGIS
 
-### The *Pandemic* Project that saves _me_
+### Some *projects* I made
+
+![](https://github.com/MichaelCado/Pi-Loton-Project/blob/master/Screen%20Shot%202020-10-20%20at%2010.15.04%20PM.png)
+
+
 
 [Raspberry pi and Weather Enthusiast]( https://www.arcgis.com/home/webmap/viewer.html?webmap=5e7f16de8339411b900cd9cafefb4bda)
