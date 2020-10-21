@@ -8,6 +8,8 @@
 5. LAMP  
 6. ArcGIS
 
+![test pic](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
 ### Some projects I made. *The* *Pi-loton*
 
 ![Poor Mans Peloton trainer](https://github.com/MichaelCado/MichaelCado.github.io/blob/cado-treehouses-branch/pages/vi/profiles/images/Screen%20Shot%202020-06-18%20at%205.36.36%20PM.png)
