@@ -10,8 +10,4 @@
 
 ### The *Pandemic* Project that saves _me_
 
-![flow](https://github.com/MichaelCado/Pi-Loton-Project/blob/master/Screen%20Shot%202020-06-10%20at%2011.08.46%20AM.png)
-
-![wiring](https://github.com/MichaelCado/Pi-Loton-Project/blob/master/Screen%20Shot%202020-06-11%20at%201.47.49%20PM.png)
-
 [Raspberry pi and Weather Enthusiast]( https://www.arcgis.com/home/webmap/viewer.html?webmap=5e7f16de8339411b900cd9cafefb4bda)
