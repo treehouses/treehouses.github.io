@@ -8,10 +8,8 @@
 5. LAMP  
 6. ArcGIS
 
-### Some *projects* I made
+### Some projects I made. *The* *Pi-loton*
 
-![](https://github.com/MichaelCado/Pi-Loton-Project/blob/master/Screen%20Shot%202020-10-20%20at%2010.15.04%20PM.png)
-
-
+![](https://github.com/MichaelCado/MichaelCado.github.io/blob/cado-treehouses-branch/pages/vi/profiles/images/Screen%20Shot%202020-06-18%20at%205.36.36%20PM.png)
 
 [Raspberry pi and Weather Enthusiast]( https://www.arcgis.com/home/webmap/viewer.html?webmap=5e7f16de8339411b900cd9cafefb4bda)
