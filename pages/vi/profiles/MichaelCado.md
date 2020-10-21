@@ -8,10 +8,9 @@
 5. LAMP  
 6. ArcGIS
 
+### *Peace* be with  *you*
 
-### Some projects I made. *The* *Pi-loton*
-
-![Poor Mans Peloton trainer](https://github.com/MichaelCado/MichaelCado.github.io/blob/cado-treehouses-branch/pages/vi/profiles/images/Screen%20Shot%202020-06-18%20at%205.36.36%20PM.png)
+![Port Saint Luice](https://github.com/MichaelCado/Pi-Loton-Project/blob/master/PSL.jpg)
 
 ###### Hobby:
 [Raspberry pi and Weather Enthusiast]( https://www.arcgis.com/home/webmap/viewer.html?webmap=5e7f16de8339411b900cd9cafefb4bda)
