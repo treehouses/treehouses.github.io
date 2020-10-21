@@ -20,11 +20,9 @@ to my two beautiful daughters :)
 ![](https://media.giphy.com/media/26AHzeyITON4vzMM8/giphy.gif)
 
 
-![test](https://www.ssd.noaa.gov/jma/twpac/ft-l.gif)
-
 ### Sea level Rise : *I'll* be watching  *you*
 
 
 ###### Hobby:
-[Weather and climate Monitorin]( https://www.arcgis.com/home/webmap/viewer.html?webmap=5e7f16de8339411b900cd9cafefb4bda)
+[Weather and climate Monitoring]( https://www.arcgis.com/home/webmap/viewer.html?webmap=5e7f16de8339411b900cd9cafefb4bda)
 
