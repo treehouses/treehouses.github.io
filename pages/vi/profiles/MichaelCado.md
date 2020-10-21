@@ -8,7 +8,8 @@
 5. LAMP  
 6. ArcGIS
 
-![Port Saint Luice](https://github.com/MichaelCado/Pi-Loton-Project/blob/master/PSL.jpg)
+Port Saint Lucie:
+![PSL](https://github.com/MichaelCado/Pi-Loton-Project/blob/master/PSL.jpg)
 
 ### *Peace* be with  *you*
 
