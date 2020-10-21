@@ -10,9 +10,6 @@
 
 ### Some projects I made. *The* *Pi-loton*
 
-#### test pic
-![](https://github.com/MichaelCado/MichaelCado.github.io/blob/cado-treehouses-branch/pages/vi/profiles/images/MyCity.jpg)
-
 ![Poor Mans Peloton](https://github.com/MichaelCado/MichaelCado.github.io/blob/cado-treehouses-branch/pages/vi/profiles/images/Screen%20Shot%202020-06-18%20at%205.36.36%20PM.png)
 
 ###### Hobby:
