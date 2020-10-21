@@ -8,7 +8,6 @@
 5. LAMP  
 6. ArcGIS
 
-![test pic](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
 ### Some projects I made. *The* *Pi-loton*
 
