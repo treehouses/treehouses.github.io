@@ -1,6 +1,8 @@
 ![](https://media.giphy.com/media/elDtdTbV1YVUO7rW09/giphy.gif)
 
-### Greetings from the sunshine state of Florida (GMT-4/New York EDT)
+### Greetings from The Sunshine State
+
+###### Time Zone: (GMT-4/New York EDT)
 
 ###### Operating System: macOS Mojave 10.14.6
 
