@@ -26,5 +26,4 @@ to my two beautiful daughters :)
 
 
 ###### Hobby:
-[Weather and climate Monitoring]( https://www.arcgis.com/home/webmap/viewer.html?webmap=5e7f16de8339411b900cd9cafefb4bda)
-
+[Weather and climate Monitoring](https://www.arcgis.com/home/webmap/viewer.html?webmap=5e7f16de8339411b900cd9cafefb4bda)
