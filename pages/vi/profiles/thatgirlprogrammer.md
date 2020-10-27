@@ -14,8 +14,8 @@ I am interested in learing more about software engineering and data science.
 | iPhone | IOS 14 |
 
 Connect with me:
-- Github: [github] (https://github.com/thatgirlprogrammer) 
-- Linkedin: [linkedin] (https://www.linkedin.com/in/amy-mullins-0a5858111/) 
+Github: [github] (https://github.com/thatgirlprogrammer) 
+Linkedin: [linkedin] (https://www.linkedin.com/in/amy-mullins-0a5858111/) 
 
 Programming Languages:
 - Python 
