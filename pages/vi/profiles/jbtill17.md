@@ -4,7 +4,7 @@
 
 * Rochester, NY
 * Eastern Standard Time
-* Windows 10/Manjaro
+* Windows 10 / Manjaro
 
 
 ## About me
