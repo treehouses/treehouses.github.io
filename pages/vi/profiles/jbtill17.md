@@ -2,9 +2,9 @@
 
 ![rochester ny](https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Skyline_Rochester%2C_NY.jpg/1200px-Skyline_Rochester%2C_NY.jpg "Rochester, NY")
 
-* :house_with_garden: Rochester, NY
-* :clock4: Eastern Standard Time
-* :computer: Windows 10/Manjaro
+* Rochester, NY
+* Eastern Standard Time
+* Windows 10/Manjaro
 
 
 ## About me
