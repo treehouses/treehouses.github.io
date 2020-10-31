@@ -7,11 +7,7 @@ Hi everyone!I am Farzana. Recently I graduated from the University of Texas at A
 ![alt text](https://user-images.githubusercontent.com/35871883/97783802-0044f500-1b68-11eb-9e10-a3f55a0fc395.PNG)
 
 
-I have knowledge on the following fields:
-* Object Oriented Programming Languages
-* Data Structure and Algorithm
-* Database Management System
-* Computer Architecture
+I have knowledge on Object Oriented Programming Languages,Data Structure and Algorithm, Database Management System and Computer Architecture.
 
 ### Languages and Tools
 ```
