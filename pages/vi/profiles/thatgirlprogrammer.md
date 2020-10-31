@@ -1,7 +1,7 @@
 # Amy Mullins
 #### Atlanta, GA
 
-```print('Hello there')```
+`print('Hello there')`
 
 I am interested in learing more about software engineering and data science.
 
