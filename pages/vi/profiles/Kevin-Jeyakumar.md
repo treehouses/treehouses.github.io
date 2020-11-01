@@ -5,7 +5,7 @@ getting his hands dirty when it comes to puzzles and challenges(usually coding r
 Masters student in the Computer Engineering program at the University of Massachusetts Lowell.
 
 Location | Timezone | Operating System
-:---: | :---: | :---:
+:--- | :--- | :---
 Lowell, MA | EST | Windows10/Ubuntu18.04
 
 ## Languages
