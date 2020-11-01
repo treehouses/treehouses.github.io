@@ -1,7 +1,7 @@
 # Kevin Jeyakumar
 
 Hey there, welcome to my page! Meet the coder, maker and tinkerer with a love for 
-getting his hands dirty when it comes to puzzles and challenges(usually coding related 😝). I am currently a 
+getting his hands dirty dealing with puzzles and challenges(usually coding related 😝). I am currently a 
 Masters student in the Computer Engineering program at the University of Massachusetts Lowell.
 
 Location | Timezone | Operating System
