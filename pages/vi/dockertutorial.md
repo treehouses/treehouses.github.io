@@ -93,6 +93,13 @@ Follow the official [Install Docker Compose](https://docs.docker.com/compose/ins
 - Apply executable permissions to the binary: `sudo chmod +x /usr/local/bin/docker-compose`
 - Test the installation: `docker-compose --version`
 
+If this results in an error, such as `/usr/local/bin/docker-compose: line 1: Not: command not found`, follow this set of steps to uninstall and reinstall docker compose via python 3.
+- Update to the latest package sources list: `sudo apt update`
+- Install/update to the latest version of python 3: `sudo apt install -y python3 python3-pip libffi-dev`
+- Unistall Docker Compose on your system: `sudo pip3 uninstall docker-compose`. When prompted to proceed, press `y`
+- Reinstall Docker Compose: `sudo pip3 install docker-compose`
+- Test the installation: `docker-compose --version`
+
 ---
 
 
