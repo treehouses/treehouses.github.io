@@ -20,7 +20,14 @@ The first ip address listed is your Pi's ip address.
 
 ## Method 2: Pinging your Raspberry Pi
 
-Type `ping treehouses.local`, `ping treehouses.home` or `ping treehouses.lan` in your computer terminal or command prompt (Windows users will need to install [Bonjour](https://support.apple.com/kb/DL999?viewlocale=en_US&locale=en_US)). You should see something like this:
+###### For MacOS and Linux : 
+
+  Use Terminal, (search Terminal and hit Enter). Then Copy and Paste the command below at the Terminal and hit enter
+```
+  ping treehouses.local
+  ```
+  
+###### Expected Output similar to this
 ```
 $ ping treehouses.local
 PING treehouses.local (192.168.0.19): 56 data bytes
@@ -31,7 +38,32 @@ PING treehouses.local (192.168.0.19): 56 data bytes
 ```
 You can stop this process with `Ctrl`+`C`.
 
-As you can see here its local IP address is `192.168.0.19`.
+###### For Windows 10
+  Use CMD, (search CMD and hit enter). Then Copy and paste this command below at the command prompt and hit enter
+```
+  ping treehouses.local -4
+  ```
+  
+###### Expected Output similar to this
+```
+C:\>ping treehouses.local -4
+
+
+Pinging treehouses.local [192.168.0.19] with 32 bytes of data:
+Reply from 192.168.0.19 bytes=32 time=7ms TTL=64
+Reply from 192.168.0.19 bytes=32 time=5ms TTL=64
+Reply from 192.168.0.19 bytes=32 time=5ms TTL=64
+Reply from 192.168.0.19 bytes=32 time=3ms TTL=64
+
+Ping Statistics for 192.168.0.19:
+  Packets: Sent = 4, Recieved = 4, Lost = 0, (0% loss),
+Approximate round trip times in milli-seconds:
+  Minimum = 3ms, Maximum = 7ms, Average = 5ms
+```
+
+As you can see here your Raspberry Pi's local IP address is `192.168.0.19`.
+
+
 
 ## Method 3: nmap command
 
