@@ -20,7 +20,7 @@ The first ip address listed is your Pi's ip address.
 
 ## Method 2: Pinging your Raspberry Pi
 
-###### For MacOS and Linux : 
+##### For MacOS and Linux : 
 
   Use Terminal, (search Terminal and hit Enter). Then Copy and Paste the command below at the Terminal and hit enter
 ```
@@ -38,7 +38,7 @@ PING treehouses.local (192.168.0.19): 56 data bytes
 ```
 You can stop this process with `Ctrl`+`C`.
 
-###### For Windows 10
+##### For Windows 10
   Use CMD, (search CMD and hit enter). Then Copy and paste this command below at the command prompt and hit enter
 ```
   ping treehouses.local -4
