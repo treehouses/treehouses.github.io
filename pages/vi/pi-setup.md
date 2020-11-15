@@ -36,7 +36,6 @@ After getting your microSD cards and card reader/adapter, your first step will b
 1. Unmount and safely eject the microSD card from your computer.
 
 **NOTE:** 
-
 * If you run into any issues with flashing, try and update Etcher. You can also try [Raspberry Pi Imager](https://www.raspberrypi.org/downloads) or [Rufus](https://github.com/pbatard/rufus/releases) (Windows only).
 * Keep downloaded treehouses image, as you have to repeat this process in [Step 7](https://treehouses.io/#!./pages/vi/nextcloud-tor.md).
 
