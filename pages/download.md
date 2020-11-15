@@ -7,7 +7,7 @@ We recommend **[Etcher](https://www.balena.io/etcher/)** to write our images to 
 ---
 
 ### Downloads
-* **[![treehouses](https://avatars1.githubusercontent.com/u/33208073?size=25)Beta Image](http://dev.ole.org/latest.img.gz)**(1.7 GB)
+* **[![treehouses](https://avatars1.githubusercontent.com/u/33208073?size=25)Beta Image](http://dev.ole.org/latest.img.gz)**
 
   * **[![treehouses](https://avatars1.githubusercontent.com/u/33208073?size=25)treehouses-139.img.gz](http://download.treehouses.io/treehouse-139.img.gz)** (1.8 GB)
   * **[![treehouses](https://avatars1.githubusercontent.com/u/33208073?size=25)treehouses-138.img.gz](http://download.treehouses.io/treehouse-138.img.gz)** (1.8 GB)
