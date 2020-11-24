@@ -35,7 +35,7 @@ After getting your microSD cards and card reader/adapter, your first step will b
 1. Once it's done burning, you can view the contents in the `boot` partition of your microSD card using a file explorer.
 1. Unmount and safely eject the microSD card from your computer.
 
-**NOTE:** If you run into any issues with flashing, try and update Etcher. You can also try [Raspberry Pi Imager](https://www.raspberrypi.org/downloads) or [Rufus](https://github.com/pbatard/rufus/releases) (Windows only).
+**NOTE:** If you run into any issues with flashing, try and update Etcher. You can also try [Raspberry Pi Imager](https://www.raspberrypi.org/downloads) or [Rufus](https://github.com/pbatard/rufus/releases) (Windows only). Keep your downloaded treehouses image, as you have to repeat this process in [Step 7](https://treehouses.io/#!./pages/vi/nextcloud-tor.md).
 
 ### Powering on the Raspberry Pi:
 1. With the Raspberry Pi still off, insert the microSD card into the card reader on the bottom.
