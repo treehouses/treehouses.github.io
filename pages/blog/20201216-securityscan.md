@@ -24,7 +24,7 @@ MobSF is a neat tool because it can quickly analyze source code and provide usef
 
 The scan that we will use for the purpose of this blog can be found [here](https://github.com/treehouses/remote/releases/download/v6042/6042-security-scan.pdf)
 
-After downloading the PDF of the security scan with version 6042, please have it side-by-side as you are reading through what's to follow below.
+After downloading the PDF of the security scan with version 6042, please have it side-by-side as you are reading through what's to follow:
 
 ### The Front Page
 
