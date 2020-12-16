@@ -1,10 +1,10 @@
-# How to Read and Interpret a Static Scan
+# How to Read and Interpret a Security Scan
 
 16, December 2020 • [jayala-29](https://github.com/jayala-29)
 
 ---
 
-## What is a static security scan?
+## What is a security scan?
 
 When developing an application, whether it's mobile or web, it's important to keep security in mind for ensuring the safety of potential users. Running a security scan on source files is a simple yet effective way of making sure secure code practices are being followed and that there are little to no holes for attackers to take advantage of. 
 
