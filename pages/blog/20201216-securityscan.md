@@ -46,7 +46,7 @@ When we look below that entry, we have a "bad" status because the "Application i
 
 The way to approach this section is to always keep the following in mind: What is the purpose of each permission? Are they necessary to the application's functionality?
 
-If the answer is yes, then simply ignore the severity and move on. No need to panic over a dangerous android.permission.ACCESS_FINE_LOCATION if it's necessary to collect data for dogi, or android.permission.BLUETOOTH if it's necessary for pairing with the Raspberri Pi.
+If the answer is yes, then simply ignore the severity and move on. No need to panic over a dangerous android.permission.ACCESS_FINE_LOCATION if it's necessary to collect data for **dogi**, or android.permission.BLUETOOTH if it's necessary for pairing with the Raspberri Pi.
 
 However, you might want to bring up if android.permission.WRITE_SETTINGS is necessary for the application to function. Because if not, we can see the potential attack in the description shown: Malicious applications can
 corrupt your system's configuration.
@@ -55,7 +55,7 @@ corrupt your system's configuration.
 
 So this is the part where points get deducted from the Security Score mentioned above. In addition, these sections can be the ones to provide the most insight to developers about what the application uses.
 
-Take for example the entry under Manifest Analysis: is it necessary to have cleartext traffic enabled? If so, don't worry about it and feel free to add them points back to the Security Score. If not, then a simple fix for this can be to set this flag set to false (as mentioned in the DESCRIPTION). Talk to dogi and the developers about this, they'll provide insight :)
+Take for example the entry under Manifest Analysis: is it necessary to have cleartext traffic enabled? If so, don't worry about it and feel free to add them points back to the Security Score. If not, then a simple fix for this can be to set this flag set to false (as mentioned in the DESCRIPTION). Talk to **dogi** and the developers about this, they'll provide insight :)
 
 Moving on to the Code Analysis section, let's pick out one or two entries from here and see what we could debunk.
 
@@ -65,6 +65,6 @@ Scroll to Entry 9: App uses SQLite Database and execute raw SQL query. Here we c
 
 ### Hardcoded Secrets
 
-Scroll to Page  17 of the report. This can be a potential danger, reach out to dogi and the developers to see if they can locate this information in the original source code using `grep` and find a way to secure these secrets if they are crucial to the application. Security through obscurity is a booboo, any secrets stored in "hidden" parts of the source code can easily be located by an attacker and exploited...
+Scroll to Page  17 of the report. This can be a potential danger, reach out to **dogi** and the developers to see if they can locate this information in the original source code using `grep` and find a way to secure these secrets if they are crucial to the application. Security through obscurity is a booboo, any secrets stored in "hidden" parts of the source code can easily be located by an attacker and exploited...
 
 ## Congrats! You just read through and interpreted a once tedious static scan report :)
