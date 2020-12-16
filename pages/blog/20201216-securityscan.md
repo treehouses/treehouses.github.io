@@ -67,4 +67,4 @@ Scroll to Entry 9: App uses SQLite Database and execute raw SQL query. Here we c
 
 Scroll to Page  17 of the report. This can be a potential danger, reach out to dogi and the developers to see if they can locate this information in the original source code using `grep` and find a way to secure these secrets if they are crucial to the application. Security through obscurity is a booboo, any secrets stored in "hidden" parts of the source code can easily be located by an attacker and exploited...
 
-## Congrats! You just read through and interpreteed a once tedious static scan report :)
+## Congrats! You just read through and interpreted a once tedious static scan report :)
