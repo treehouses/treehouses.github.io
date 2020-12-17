@@ -1,5 +1,7 @@
 ## Blogs
 
+[Check Android App security](20201216-securityscan.md) on December 16, 2020 by jayala-29 `(Scan Android App security using Mobile Security Framework)`
+
 [Run Code Climate Locally](20200818-localcodeclimate.md) on August 18, 2020 by sydneyaldo `(Locally analyze code quality using Code Climate)`
 
 [The Intertwined Components Of Treehouses](20200724-treehousescomponents.md) on July 24, 2020 by law-lin `(Description on the active treehouses projects)`
