@@ -1,7 +1,5 @@
-**Name**: Jamie Kwong
-
-**Time Zone**: Pacific Standard Time
-
+**Name**: Jamie Kwong  
+**Time Zone**: Pacific Standard Time  
 **OS**: Windows 10, Version 10.0.19042, Build 19042
 
 I'm a curious and nerdy foodie who enjoys learning, reading, and having deep, esoteric conversations. In 2014, I experienced a catastrophic hardship, and there was pretty much no hope in me overcoming it - at least, that’s what I thought. Fast-forward to now, and I have track record above and beyond what I, or anyone else, believed I was capable of:
