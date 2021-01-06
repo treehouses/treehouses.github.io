@@ -12,4 +12,4 @@ I'm a curious and nerdy foodie who enjoys learning, reading, and having deep, es
 * **Quarantined and restored 100+ PC's from scratch** after a devastating Mount Locker ransomware attack by identifying infected PC's, disconnecting them from the network, powering them off, imaging them, and reinstalling software according to each department's needs  
 * **Communicated hourly and daily updates with the IT team** during the Mount Locker ransomware attack to triage and restore the company home office back to full operations within 2 weeks
 
-I am a resilient, talented, and high-potential prospective software engineer intern at the Open Learning Exchange. By the end of 2021, I hope to kickstart my career in software engineering. :D
+I am a resilient, talented, and high-potential prospective software engineer intern at the Open Learning Exchange. By the end of 2021, I hope to kickstart my career in software engineering. :D Add me on LinkedIn: <a>https://www.linkedin.com/in/jamielk/</a>
