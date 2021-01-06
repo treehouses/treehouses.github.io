@@ -141,7 +141,7 @@ Follow the [GitHub Issues tutorial](github-issues.md) to create at least one iss
 
 Make sure you have created at least one issue, resolved it, commented on an issue you didn't create and have a pull request with the fix merged. You may continue making Issues, Pull requests and Comments, or move on to the next step, while you are waiting for your pull request to be merged. The approval process for your Step 6 fix may take time, but it is OK to continue working.
 
-**NOTE**: When posting a link in the Gitter, it may be helpful to tag the newest interns since they are likely the most active.`
+**NOTE**: When posting a link in the Gitter, it may be helpful to tag the newest interns since they are likely the most active.
 
 > Once you complete Step 6 you will have:
 
