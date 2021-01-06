@@ -69,6 +69,8 @@ Windows users should do the following:
 macOS or Linux users should do the following:
 - In your command line interface type the following: `brew cask install vagrant` or `sudo apt-get install vagrant`
 
+## Start up the Vagrant machine
+Start up your vagrant environment by executing `vagrant up`, the most commonly used vagrant command.
 
 ## Global Status
 
@@ -87,7 +89,6 @@ directory and run Vagrant, or you can use the ID directly with
 Vagrant commands from any directory. For example:
 "vagrant destroy 1a2b3c4d"
 ```
-If no environments show up as active, use the command `vagrant up` and try again.
 
 The above output tells us:
 
