@@ -127,7 +127,7 @@
 - [Shorter Git/GitHub Tutorial (Playlist)](https://www.youtube.com/watch?v=vR-y_2zWrIE&list=PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF)
 - [Mastering Markdown (Playlist)](https://www.youtube.com/watch?v=Je5w18nn-e8&list=PLu8EoSxDXHP7v7K5nZSMo9XWidbJ_Bns3)
 - [How to Manually Fix Git Merge Conflicts](https://www.youtube.com/watch?v=g8BRcB9NLp4) - Please note that this video will explain how to fix a merge conflict from the point of view of the repo owner who is trying to merge a pull request. However, it is helpful also when you have to fix a merge conflict on your own local and forked repos.
-- [How to Use VirtualBox](https://www.youtube.com/watch?v=Dbblu_HVROk)
+- [How to Use VirtualBox](https://www.youtube.com/watch?v=sB_5fqiysi4)
 - [Vagrant Tutorial](https://www.youtube.com/watch?v=PmOMc4zfCSw)
 - [Docker Tutorial](https://www.youtube.com/watch?v=fqMOX6JJhGo)
 - [SSH_Key Tutorial](https://youtu.be/y2SWzw9D4RA)
