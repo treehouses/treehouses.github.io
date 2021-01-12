@@ -52,6 +52,8 @@ There are also "optional" pieces of hardware that you can choose to purchase sho
   - [generic Raspberry Pi 5 Megapixel Camera](https://www.amazon.com/AuviPal-Megapixels-Raspberry-Camera-Module/dp/B07PQ63D2S/)
 1. Optional: USB keyboard, mouse, monitor, and HDMI cable
 
+[Useful link for Rapberry Pi set up](https://www.youtube.com/watch?v=-9V4EpNNR6k)
+
 ---
 
 # The Steps
