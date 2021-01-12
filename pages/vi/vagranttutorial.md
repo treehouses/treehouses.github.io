@@ -153,7 +153,7 @@ or not commonly used. To see all subcommands, run the command
 **NOTE**: At the end of this section, when you successfully installed `vagrant` and configured `cli`. Execute `vagrant global-status` command and post the code of your terminal to the [Gitter chat](https://gitter.im/treehouses/Lobby).
 
 ## Useful Links
- 
+
 [Why install Vagrant?](https://www.vagrantup.com/intro/index.html) - Explanation of some basic concepts about why Vagrant is useful for developers, operators and designers.
 [Vagrant download](https://www.vagrantup.com/downloads.html)
 [Wikipedia page on Vagrant](https://en.wikipedia.org/wiki/Vagrant_%28software%29)
