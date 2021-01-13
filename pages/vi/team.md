@@ -34,4 +34,5 @@
 |[![](https://avatars1.githubusercontent.com/u/33208073?s=25)](https://github.com/rohansuri17)[rohansuri17](profiles/rohansuri17.md)|2020-06-22|
 |[![](https://avatars1.githubusercontent.com/u/33208073?s=25)](https://github.com/anthonyhvo12)[anthonyhvo12](profiles/anthonyhvo12.md)|2020-08-14|
 |[![](https://github.com/anastasia21112.png?size=25)](https://github.com/anastasia21112)[anastasia21112](profiles/anastasia21112.md)|2020-08-17|
+|[![](https://avatars1.githubusercontent.com/u/33208073?s=25)](https://github.com/BryanGazali)[BryanGazali](profiles/BryanGazali.md)|2021-01-12|
 To view the list of former interns, go to [former members page](retiredinterns.md).
