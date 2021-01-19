@@ -44,13 +44,13 @@ The following are the required hardware components that will be needed as part o
 There are also "optional" pieces of hardware that you can choose to purchase should you choose to, these are not compulsory for participation in the internship but may greatly assist you in developing your skills and contributing to the project.
 
 1. Ethernet cable - For Direct connection and troubleshooting of the Pi
-1. Optional: [Real Time Clock (rtc)](https://www.amazon.com/s?k=raspberry+pi+rtc)
-1. Optional: [Raspberry Pi 0W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/)
-1. Optional: Raspberry pi Camera(s):
+1. [Real Time Clock (rtc)](https://www.amazon.com/s?k=raspberry+pi+rtc)
+1. [Raspberry Pi 0W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/)
+1. Raspberry pi Camera(s):
   - [Raspberry Pi Camera](https://www.raspberrypi.org/products/camera-module-v2/)
   - [Raspberry Pi Night Vision Camera](https://www.raspberrypi.org/products/pi-noir-camera-v2/)
   - [generic Raspberry Pi 5 Megapixel Camera](https://www.amazon.com/AuviPal-Megapixels-Raspberry-Camera-Module/dp/B07PQ63D2S/)
-1. Optional: USB keyboard, mouse, monitor, and HDMI cable
+1. USB keyboard, mouse, monitor, and HDMI cable
 
 ---
 
