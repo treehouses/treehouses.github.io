@@ -44,13 +44,15 @@ The following are the required hardware components that will be needed as part o
 There are also "optional" pieces of hardware that you can choose to purchase should you choose to, these are not compulsory for participation in the internship but may greatly assist you in developing your skills and contributing to the project.
 
 1. Ethernet cable - For Direct connection and troubleshooting of the Pi
-1. Optional: [Real Time Clock (rtc)](https://www.amazon.com/s?k=raspberry+pi+rtc)
-1. Optional: [Raspberry Pi 0W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/)
-1. Optional: Raspberry pi Camera(s):
+1. [Real Time Clock (rtc)](https://www.amazon.com/s?k=raspberry+pi+rtc)
+1. [Raspberry Pi 0W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/)
+1. Raspberry pi Camera(s):
   - [Raspberry Pi Camera](https://www.raspberrypi.org/products/camera-module-v2/)
   - [Raspberry Pi Night Vision Camera](https://www.raspberrypi.org/products/pi-noir-camera-v2/)
   - [generic Raspberry Pi 5 Megapixel Camera](https://www.amazon.com/AuviPal-Megapixels-Raspberry-Camera-Module/dp/B07PQ63D2S/)
-1. Optional: USB keyboard, mouse, monitor, and HDMI cable
+1. USB keyboard, mouse, monitor, and HDMI cable
+
+[Useful link for Rapberry Pi set up](https://www.youtube.com/watch?v=-9V4EpNNR6k)
 
 ---
 
@@ -62,7 +64,7 @@ Because these steps are simple, we expect high-quality work, which may take a lo
 
 The MDwiki has plenty of resources to help you complete the steps. There is a list of useful links at the end of each step. We also created a [FAQ page](faq.md) where you can find the answers to some commonly asked questions. This page has even more [useful links and video tutorials](faq.md#Helpful_Links) that will help you become familiar with the tools/languages we use. For anything that is not on the FAQ page, Google and Stack Exchange are your friends :)
 
-**We also want you to keep us updated a relatively good amount in the [Gitter chat](https://gitter.im/treehouses/Lobby) as you complete these steps. We will ask you to send us messages, links, and screenshots along the First Steps, and we will use this to track your progress, so please do not forget to do so.**
+**We also want you to keep us updated on a relatively good amount in the [Gitter chat](https://gitter.im/treehouses/Lobby) as you complete these steps. We will ask you to send us messages, links, and screenshots along the First Steps, and we will use this to track your progress, so please do not forget to do so.**
 
 A very large part of these steps is finding problems with these steps and this MDwiki, so take note of any issues that you run into or suggestions for improvement while doing these steps.
 
