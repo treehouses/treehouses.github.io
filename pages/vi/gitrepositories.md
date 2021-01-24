@@ -12,7 +12,10 @@ On GitHub, our software code is organized in repositories, each of which represe
 
 You previously forked a repository from treehouses to work on, which means that that a version of the treehouses repository was available on your own GitHub account. You were then able to modify your fork, then send an update to the upstream repository in the form of a pull request. 
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> Reformated Summary of Steps to bottom of page (fixes #785)
 
 ## Detailed Steps
 
@@ -161,10 +164,50 @@ index bf400c0..fc7380b 100644
 
 This process needs to be repeated whenever you begin to work, to make sure that you are always up to date. If there are discrepancies, it will mess up the code and you could potentially lose your saved changes, because it was not updated properly. We will provide more information on editing and saving changes in the next tutorial.
 
+<<<<<<< HEAD
+=======
+## Summary of Steps
+>>>>>>> Reformated Summary of Steps to bottom of page (fixes #785)
 Generally, this is what the structure of your workflow will look like: 
 
 ![Image](images/upstream_diagram.png)
 
+<<<<<<< HEAD
+=======
+Use the following commands in your command line, but refer back to the descriptions above if there are any errors or further questions about why you are using them:
+
+#### Clone your GitHub repository username.github.io
+1. Open your command prompt/terminal and find the correct directory
+2. Copy the HTTPS or SSH link from your repository on the GitHub site
+3. On the command line, type `git clone *paste your HTTPS or SSH link here*`
+
+#### Understand that there are three levels of a Github repository:
+- The upstream ([treehouses.github.io](https://github.com/treehouses/treehouses.github.io))
+- Your username.github.io on GitHub
+- Your username.github.io on your OS.
+
+These need to be synced and checked constantly.
+The **upstream repository** is the one we are contributing to.
+
+#### Configure the upstream repository to your fork
+1. `cd username.github.io`
+2. `git remote -v` see above to make sure you are pushing and fetching to your own repository on GitHub as the origin
+3. `git remote add upstream https://github.com/treehouses/treehouses.github.io.git`
+4. `git remote -v` origins should remain the same, but you should also be fetching and pushing to OLE as the upstream now
+
+#### Sync/Update Your Fork
+1. `git fetch upstream` -  to fetch branches from the upstream repository ([more info](https://git-scm.com/docs/git-fetch))
+2. `git checkout master` - to checkout the `master` branch ([more info](https://git-scm.com/docs/git-checkout))
+3. `git show-branch` - to see branches and the changes made in them ([more info](https://git-scm.com/docs/git-show-branch))
+4. `git merge upstream/master` - You repository should now be synced to upstream/master ([more info](https://git-scm.com/docs/git-merge))
+
+#### Make sure your repository is up to date
+1. `git diff` - for comparing different versions of the same file ([more info](https://git-scm.com/docs/git-diff))
+2. `git status` - to view the changes made in the branch, whether the branch is up-to-date with master ([more info](https://git-scm.com/docs/git-status))
+3. `git pull` - to sync the local repository with the remote repository ([more info](https://git-scm.com/docs/git-pull))
+4. `git push` - to push the updates that you made to the local repositories to the GitHub repositories ([more info](https://git-scm.com/docs/git-push))
+
+>>>>>>> Reformated Summary of Steps to bottom of page (fixes #785)
 **NOTE**: Developers should always sync their fork and make sure their repositories are up to date with GitHub every time they begin to work. This way we as a team can minimize data loss, and can save you some time.
 
 #### If you find yourself needing to rebase your forked repository, the following two links should help:
