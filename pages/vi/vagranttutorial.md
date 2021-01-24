@@ -27,7 +27,7 @@ There are three command-line programs you could use to interact with Vagrant CLI
 3. **Windows PowerShell**: Windows PowerShell is a default shell interface installed on your machine, its default directory is `C:\Users\YOUR_USERNAME`.
 
 **NOTE**: PowerShell and Command Prompt users will have to substitute forward slashes “/” with backslashes “\” throughout these introductory steps as it pertains to file paths.  
-Example: If you see an instruction saying `cd desktop/treehouses/cli` instead use `cd desktop\treehouses\cli`.
+Example: If you see an instruction saying `cd desktop/cli` instead use `cd desktop\cli`.
 
 #### macOS or GNU\Linux - Terminal
 
@@ -38,8 +38,9 @@ Normally we use a terminal emulator to interact with Vagrant CLI
 A lot of Vagrant commands require us to specify a target machine. We can also run those commands from a directory with the target machine’s Vagrant File. Otherwise, you may encounter an error like "A Vagrant environment or target machine is required." Please go to the directory that contains our Vagrant file:
 
 Windows users should do the following:
-- Go into git bash and clone using `git clone https://github.com/treehouses/cli`
-- `cd C:\Users\YOUR_USERNAME\Desktop\treehouses\cli`
+- Go into git bash and type `cd ~/Desktop`
+- `git clone https://github.com/treehouses/cli`
+- `cd ~/Desktop/cli`
 
 macOS or Linux users should do the following:
 - `cd Desktop`
@@ -92,7 +93,7 @@ If no environments show up as active, use the command `vagrant up` and try again
 The above output tells us:
 
 - We have a Vagrant virtual machine called `cli` running in VirtualBox.
-- The directory of the virtual machine's Vagrantfile is located at `/Users/pattanawadee/cli `.
+- The directory of the virtual machine's Vagrantfile is located at `/Users/pattanawadee/Desktop/cli `.
 
 ## Vagrant Commands
 
