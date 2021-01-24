@@ -12,10 +12,6 @@ On GitHub, our software code is organized in repositories, each of which represe
 
 You previously forked a repository from treehouses to work on, which means that that a version of the treehouses repository was available on your own GitHub account. You were then able to modify your fork, then send an update to the upstream repository in the form of a pull request. 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> Reformated Summary of Steps to bottom of page (fixes #785)
 
 ## Detailed Steps
 
@@ -164,16 +160,11 @@ index bf400c0..fc7380b 100644
 
 This process needs to be repeated whenever you begin to work, to make sure that you are always up to date. If there are discrepancies, it will mess up the code and you could potentially lose your saved changes, because it was not updated properly. We will provide more information on editing and saving changes in the next tutorial.
 
-<<<<<<< HEAD
-=======
 ## Summary of Steps
->>>>>>> Reformated Summary of Steps to bottom of page (fixes #785)
 Generally, this is what the structure of your workflow will look like: 
 
 ![Image](images/upstream_diagram.png)
 
-<<<<<<< HEAD
-=======
 Use the following commands in your command line, but refer back to the descriptions above if there are any errors or further questions about why you are using them:
 
 #### Clone your GitHub repository username.github.io
@@ -207,7 +198,6 @@ The **upstream repository** is the one we are contributing to.
 3. `git pull` - to sync the local repository with the remote repository ([more info](https://git-scm.com/docs/git-pull))
 4. `git push` - to push the updates that you made to the local repositories to the GitHub repositories ([more info](https://git-scm.com/docs/git-push))
 
->>>>>>> Reformated Summary of Steps to bottom of page (fixes #785)
 **NOTE**: Developers should always sync their fork and make sure their repositories are up to date with GitHub every time they begin to work. This way we as a team can minimize data loss, and can save you some time.
 
 #### If you find yourself needing to rebase your forked repository, the following two links should help:
