@@ -90,5 +90,15 @@ Your phone and your Raspberry Pi have to be on the same network, so connect your
 
 When you open the Fing app, touch the refresh button in the upper right-hand corner of the screen. After a few seconds you will get a list with all the devices connected to your network. Scroll down to the entry with the name "treehouses". You will see the IP address in the bottom left-hand corner, and the MAC address in the bottom right-hand corner of the entry.
 
+## Method 6: Advanced IP Scanner
+
+The [Advanced IP Scanner](https://www.advanced-ip-scanner.com/) is a reliable and free network scanner with a simple and clean interface to analyze local area network, available for Windows.
+
+1. Connect your Raspberry Pi to the same LAN as your computer. 
+
+2. In the search bar, enter your range of IP address and press Scan button to scan devices under your specified subnet. _(Advanced IP Scanner will start scanning your Ethernet and Wi-Fi LANs, then return results as it detects each machine on your local network.)_
+
+3. In the Results tab, Advanced IP Scanner will display the Status, Name, IP, Manufacturer, and MAC Address of each device. _(You will find your Raspberry Pi with the name "treehouses".)_
+
 ---
 #### Return to [First Steps](firststeps.md#Step_1_-_Installing_and_finding_your_Raspberry_Pi)
