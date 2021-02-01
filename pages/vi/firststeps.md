@@ -32,6 +32,7 @@ The following are the required hardware components that will be needed as part o
 1. MicroSD card reader
   - You will need a USB reader if your computer doesn't have an SD card slot
 1. Laptop or computer with minimum 8GB of RAM
+  - You will need a Wi-Fi adapter if you are using a desktop without Wi-Fi capabilities.
 1. Android device (phone or tablet)
   - Memory (RAM): Minimum 2GB
   - Operating System:
