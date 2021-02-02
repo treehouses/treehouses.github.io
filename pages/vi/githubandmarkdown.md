@@ -129,7 +129,7 @@ Someone from our team will review the changes and notify you on gitter. Often th
 
 After the pull request is merged, you'll be able to see your personal page at `treehouses.github.io/#!pages/vi/profiles/<YourUserName>.md`. Let us know in the [gitter.im chat](https://gitter.im/treehouses/Lobby) after you complete this step.
 
-**NOTE**: Try to add and experiment with as many markdown elements as you can and make your page attractive. A list of sample profile pages can be found [**here**](https://github.com/treehouses/treehouses.github.io/tree/master/pages/vi/profiles). Be creative.
+**NOTE**: Try to add and experiment with as many markdown elements as you can and make your page attractive. A list of sample profile pages can be found [**here**](https://github.com/treehouses/treehouses.github.io/tree/master/pages/vi/profiles). Be creative. Additional resources for markdown are below:
 • [GitHub – Mastering Markdown](https://guides.github.com/features/mastering-markdown/) - The official GitHub Guide for Markdown syntax.
 • [Markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) - A bigger Markdown cheat sheet with examples.
 
