@@ -8,7 +8,7 @@
 
 ## Preparation
 
-[GitHub](https://help.github.com/categories/writing-on-github/) – a web-based hosting service for version control using git, source code management system for treehouses.
+[GitHub](https://education.github.com/git-cheat-sheet-education.pdf) – a web-based hosting service for version control using [git](https://training.github.com/downloads/github-git-cheat-sheet.pdf), source code management system for treehouses.
 
 [Markdown](https://en.wikipedia.org/wiki/Markdown) – a lightweight markup language with plain text formatting syntax.
 
@@ -16,12 +16,6 @@
 
 ### Markdown
 The following resources can be used (and bookmarked) to familiarize yourself with Markdown:
-
-- [GitHub – Mastering Markdown](https://guides.github.com/features/mastering-markdown/) - The official GitHub Guide for Markdown syntax.
-
-- [Git Cheat Sheet](https://github.github.com/training-kit/downloads/github-git-cheat-sheet.pdf) - A resource for commonly used git commands.
-
-- [Markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) - A bigger Markdown cheat sheet with examples.
 
 - [Markdown Tutorial](https://tylingsoft.github.io/tutorial.md/#whats-markdown) - An interactive tutorial to learn Markdown.
 
@@ -136,6 +130,8 @@ Someone from our team will review the changes and notify you on gitter. Often th
 After the pull request is merged, you'll be able to see your personal page at `treehouses.github.io/#!pages/vi/profiles/<YourUserName>.md`. Let us know in the [gitter.im chat](https://gitter.im/treehouses/Lobby) after you complete this step.
 
 **NOTE**: Try to add and experiment with as many markdown elements as you can and make your page attractive. A list of sample profile pages can be found [**here**](https://github.com/treehouses/treehouses.github.io/tree/master/pages/vi/profiles). Be creative.
+• [GitHub – Mastering Markdown](https://guides.github.com/features/mastering-markdown/) - The official GitHub Guide for Markdown syntax.
+• [Markdown cheat sheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet) - A bigger Markdown cheat sheet with examples.
 
 ---
 #### Return to [First Steps](firststeps.md#Step_3_-_Markdown_and_Fork_Tutorial)
