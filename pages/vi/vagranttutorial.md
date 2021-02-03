@@ -7,7 +7,7 @@
 
 ## Introduction
 
-**First, we will set up our PC for virtualization. Virtualization is when your PC uses some of its hardware as if it is running another system (e.g. running Linux on a Windows PC, or vice versa). Then, we will install Vagrant. Vagrant is an open-source software product for building and maintaining portable virtual software development environments, which requires our PC to be able to virtualize.** Below, you will find some basic instructions on setting up your PC to interact with Vagrant through the command-line interface (CLI). You should be familiar with this since you will need to use it to control virtual machines during your internship.
+First, we will set up our PC for **virtualization**, which is when your PC uses some of its hardware as if it is running another system (e.g. running Linux on a Windows PC, or vice versa). Then, we will install **Vagrant**, which is an open-source software product for building and maintaining portable virtual software development environments (this requires our PC to be able to virtualize). Below, you will find some basic instructions on setting up your PC to interact with Vagrant through the command-line interface (CLI). You should be familiar with this since you will need to use it to control virtual machines during your internship.
 
 ## Preparation
 
@@ -73,7 +73,9 @@ macOS or Linux users should do the following:
 ## Go to Vagrant's Directory
 
 A lot of Vagrant commands require us to specify a target machine. We can also run those commands from a directory with the target machine’s Vagrant File. Otherwise, you may encounter an error like "A Vagrant environment or target machine is required." Please go to the directory that contains our Vagrant file:
+
 Windows users should do the following: `cd C:\Users\%USERNAME%\cli`
+
 macOS or Linux users should do the following: `cd Desktop`
 
 ## Global Status
