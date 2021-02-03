@@ -47,7 +47,7 @@ To stay up to date with the projects you are contributing to, make sure you "sta
 
 #### [Docker](https://hub.docker.com/r/treehouses/)
 * Docker is a powerful and widely-used software option for creating, deploying, and running applications in containers
-  * Used by OLE for educational applications such as `planet`
+  * Used by OLE for educational applications such as [`planet`](https://www.ole.org/our-platform/)
 
 ## A Few Things to Know...
 
