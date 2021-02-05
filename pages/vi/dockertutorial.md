@@ -106,8 +106,6 @@ Please read about [Docker concepts](https://docs.docker.com/get-started/#docker-
 
 A few common Docker CLI commands you might need for working with `treehouses` are:
 
-- `docker start <container-id>` – start one or multiple stopped containers
-- `docker stop <container-id>` - stop one or multiple running containers
 - `docker ps` – show running containers
 - `docker ps -a` - show all containers
 - `docker logs <container-id> -f` - follow the log output of a container
