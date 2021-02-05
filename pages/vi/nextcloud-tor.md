@@ -61,10 +61,9 @@ Install [Tor](https://www.torproject.org/download/)
 
 Plug the microSD into your Raspberry Pi, and power it on.  The red LED should turn on, indicating that the Raspberry Pi is connected to power.  Once the green LED next to it on your Raspberry Pi stabilizes into a solid green, you should see "treehouses" appear in available Wifi networks.  Connect to it, and make sure that you have an internet connection by opening up another web page.  
 
-Find the Raspberry Pi's IP address in your network settings (it will probably be `192.168.2.1`). Use one of the following ways to enter the root of your Pi:
- 
-1. Open up your terminal or command prompt, and run `ssh root@[IP address]`.
-2. First log into the Pi user by using `ssh pi@[local IP address]`, then log into the root by running `sudo -s`.
+Find the Raspberry Pi's IP address in your network settings (it will probably be 192.168.2.1). Open up your terminal or command prompt, and use one of the following ways to enter the root of your Pi:
+ * run ssh root@[IP address] to enter the root of your Pi using the password (root password).
+ * First log into the Pi user by using ssh pi@[local IP address] using the (default) password "raspberry", then log into the root by running sudo -s.
 
 Run
 ```
