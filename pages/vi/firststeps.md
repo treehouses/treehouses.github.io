@@ -79,9 +79,9 @@ There is no official deadline to complete these steps, but most candidates who a
 
 In GitHub, we "[Watch](https://help.github.com/en/articles/watching-and-unwatching-repositories)" organization repositories and ["Follow"](https://help.github.com/en/articles/following-people) individuals. Look for the "Watch" button at the top right of the page when you are in a repository.  Also, follow each other to see what others in the group are doing. (Click on the image to enlarge.)
 
-![Watch organization repository](https://oimg.photobucket.com/images/i/JLeeKwong/Watch(1).png?width=450&height=278&fit=bounds&crop=fill)
+![Watch organization repository](images\Watch.png)
 
-![Follow individual](https://oimg.photobucket.com/images/i/JLeeKwong/Follow(1).png?width=450&height=278&fit=bounds&crop=fill)
+![Follow individual](images\Follow.png)
 
 ### Setting up your environment
 
