@@ -122,12 +122,12 @@ Check your progress [here](trackprogress.md)
 
 ## Step 4 - System Tutorial
 
-Vagrant
+### Vagrant
 
 Vagrant is an open-source software product for building and maintaining portable virtual software development environments. In this step, you will learn about how to interact with Vagrant through the command-line interface.
 Follow the directions in the [Vagrant Tutorial](vagranttutorial.md)
 
-Docker
+### Docker
 
 Docker is a computer program that performs operating-system-level virtualization also known as containerization. In this step, you will learn the basics of interacting with Docker and Docker Compose through the command-line interface and basic commands for maintaining your Planet installation.
 Follow the directions in the [Docker Tutorial](dockertutorial.md)
