@@ -96,6 +96,7 @@
     - [GitHub's Git Tutorial](https://try.github.io/)
     - [Git-it Workshop](http://jlord.us/git-it/)
     - [Codecademy's Learn Git Course](https://www.codecademy.com/learn/learn-git)
+    - [Learn Git Branching](https://learngitbranching.js.org)
 
 * Intermediate
     - [Git Immersion](http://gitimmersion.com/)

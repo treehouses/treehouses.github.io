@@ -32,6 +32,7 @@ The following are the required hardware components that will be needed as part o
 1. MicroSD card reader
   - You will need a USB reader if your computer doesn't have an SD card slot
 1. Laptop or computer with minimum 8GB of RAM
+  - You will need a Wi-Fi adapter if you are using a desktop without Wi-Fi capabilities.
 1. Android device (phone or tablet)
   - Memory (RAM): Minimum 2GB
   - Operating System:
@@ -121,12 +122,12 @@ Check your progress [here](trackprogress.md)
 
 ## Step 4 - System Tutorial
 
-Vagrant
+### Vagrant
 
 Vagrant is an open-source software product for building and maintaining portable virtual software development environments. In this step, you will learn about how to interact with Vagrant through the command-line interface.
 Follow the directions in the [Vagrant Tutorial](vagranttutorial.md)
 
-Docker
+### Docker
 
 Docker is a computer program that performs operating-system-level virtualization also known as containerization. In this step, you will learn the basics of interacting with Docker and Docker Compose through the command-line interface and basic commands for maintaining your Planet installation.
 Follow the directions in the [Docker Tutorial](dockertutorial.md)
