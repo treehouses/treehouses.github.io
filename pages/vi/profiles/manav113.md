@@ -1,4 +1,4 @@
-<div align="center">:om:</div>
+
 
 # Manav Patel
 ### _Hello There!_
@@ -9,7 +9,7 @@ to tour the entire world before 40.
 
 |Location|Time Zone | OS|
 |-------|------------|----|
-| :india:Gujarat, India|UTC/GMT +5:30 hours|  [LXLE OS 18.04.3](https://lxle.net/)|
+| Gujarat, India|UTC/GMT +5:30 hours|  [LXLE OS 18.04.3](https://lxle.net/)|
 
 ![](https://media.giphy.com/media/xUOxfeqfXbzHV8dcDC/giphy.gif)
 
