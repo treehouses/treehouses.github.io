@@ -40,9 +40,11 @@ The following are the required hardware components that will be needed as part o
     * Recommended: Android 8 "Oreo"
 1. Specializations (Choose at least 1, but you can choose after Step 9)
   - Sensor__s__
-    * 
+    * RAK2245 Pi Hat Edition
+    * TTGO T-Beam module
   - Machine Learning
-    * 
+    * Google Coral AI developer board
+    * Coral USB Accelerator
   - Cryptocurrency
     * External hard drive
 
