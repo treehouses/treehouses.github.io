@@ -38,6 +38,13 @@ The following are the required hardware components that will be needed as part o
   - Operating System:
     * Minimum: Android 6 "Marshmallow"
     * Recommended: Android 8 "Oreo"
+1. Specializations (Choose at least 1, but you can choose after Step 9)
+  - Sensor__s__
+    * 
+  - Machine Learning
+    * 
+  - Cryptocurrency
+    * External hard drive
 
   **NOTE:** You can purchase all of these components together for your convenience (or if there are discounts) on places such as Amazon, eBay, etc...
 
