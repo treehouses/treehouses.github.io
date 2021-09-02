@@ -41,12 +41,14 @@ The following are the required hardware components that will be needed as part o
 1. Specializations (Choose at least 1, but you can choose after Step 9)
   - Sensor**__s__**
     * RAK2245 Pi Hat Edition
-    * TTGO T-Beam module
+    * Camera
+    * Microphone
   - Machine Learning
-    * Google Coral AI developer board
     * Coral USB Accelerator
+    * Camera
+    * Microphone
   - Cryptocurrency
-    * External hard drive
+    * 1TB external hard drive
 
   **NOTE:** You can purchase all of these components together for your convenience (or if there are discounts) on places such as Amazon, eBay, etc...
 
