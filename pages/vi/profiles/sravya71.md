@@ -2,13 +2,13 @@
 
 |Name | Location | Time Zone | OS Version|
 |------|-----------|--------|------------|
-|Laxmi Sravya Nittala| NewJersey | EST | Windows 10 Pro|
+|Sravya | NewJersey | EST | Windows 10 Pro|
 
  
->Hi **OLE Team**, I am Sravya, I have done my masters from Lamar University, I am currently staying in New Jersey ![New Jersey](https://doubletree3.hilton.com/resources/media/dt/EWRWTDT/en_US/img/shared/full_page_image_gallery/main/DT_jerseycitskyline_1280x560_FitToBoxSmallDimension_Center.jpg "NewJerseyLogo")
+>Hi **OLE Team**, I am Sravya, I am currently staying in New Jersey ![New Jersey](https://doubletree3.hilton.com/resources/media/dt/EWRWTDT/en_US/img/shared/full_page_image_gallery/main/DT_jerseycitskyline_1280x560_FitToBoxSmallDimension_Center.jpg "NewJerseyLogo")
 >
 >
->I have attained AWS, CCNA certifications.I am here to learn, Contribute and Collaborate with the **OLE Team**. Looking forward to work **OLE**!
+>I am here to learn, Contribute and Collaborate with the **OLE Team**. Looking forward to work **OLE**!
  
  You can Connect with me on:
    1. [LinkedIn](https://www.linkedin.com/in/sravya-nl-18147217a/) 
