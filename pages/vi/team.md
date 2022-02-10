@@ -39,4 +39,3 @@
 |[![](https://avatars.githubusercontent.com/u/61807745?s=25)](https://github.com/JLKwong)[JLKwong](profiles/JLKwong.md)|2021-02-11|
 |[![](https://avatars1.githubusercontent.com/u/23529006?s=25)](https://github.com/rjpadilla)[rjpadilla](profiles/rjpadilla.md)|2021-02-11|
 To view the list of former interns, go to [former members page](retiredinterns.md).
-
