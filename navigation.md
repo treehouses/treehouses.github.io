@@ -13,7 +13,7 @@
   * [FAQ](pages/vi/faq.md)
   - - - -
   * [Step 0 - Introductory Steps](pages/vi/firststeps.md#Step_0_-_Introductory_Steps)
-  * [Step 1 - Installing and finding your Raspberry Pi](pages/vi/firststeps.md#Step_1_-_Installing_and_finding_your_Raspberry_Pi)
+  * [Step 1 - Installing and finding your Raspberry Pi](pages/vi/firststeps.md#Step_1_-_Installing_and_Finding_Your_Raspberry_Pi)
   * [Step 2 - SSH Tutorial](pages/vi/sshpi.md)
   * [Step 3 - Markdown and Fork Tutorial](pages/vi/githubandmarkdown.md)
   * [Step 4 - System Tutorial](pages/vi/firststeps.md#Step_4_-_System_Tutorial)
