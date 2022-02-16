@@ -21,4 +21,4 @@ Follow the [first steps](pages/vi/firststeps.md) in order to learn how.
 
 **Find Us On:** [Linkedin](https://www.linkedin.com/company/open-learning-exchange) | [Twitter](https://twitter.com/oleorg) | [Facebook](https://www.facebook.com/openlearningexchange/)
 
-## _We strongly believe that the roots of human technology can be found in the crown of trees_
+***We strongly believe that the roots of human technology can be found in the crown of trees***
