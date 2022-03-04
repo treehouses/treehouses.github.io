@@ -1,6 +1,6 @@
 # About Me
 
-> My name is Ahmed Burale and I am currently a junior of an undergraduate Computer Engineering student at the [Metropolitan State University of Denver](https://www.msudenver.edu/).
+> My name is **Ahmed Burale** and I am currently a junior of an undergraduate Computer Engineering student at the [Metropolitan State University of Denver](https://www.msudenver.edu/).
 > I am located in Aurora, CO USA. My OS name is Microsoft Windows 11 HOme, x64-based PC with a version 10.0.2200 with Build 22000. 
 
 ![Alt Text](https://www.msudenver.edu/wp-content/uploads/2022/02/Campus_002ms_180823cc.jpg)
