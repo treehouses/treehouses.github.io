@@ -25,3 +25,7 @@
 - Have two cats and rabbits
 - LEGO player
 - Play games on XBOX, SONY, Nintendo
+
+#### You can find me
+- [Github](https://github.com/Mia-XXXX)
+- [Linkedin](https://www.linkedin.com/in/hui-tang-/)
