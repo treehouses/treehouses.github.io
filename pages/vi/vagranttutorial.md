@@ -45,6 +45,7 @@ Windows users should do the following:
 macOS or Linux users should do the following:
 - `cd Desktop`
 - `git clone https://github.com/treehouses/cli`
+- `cd ~/Desktop/cli`
 
 ## Enable Virtualization, Install VirtualBox, and Install Vagrant
 
@@ -71,6 +72,7 @@ macOS or Linux users should do the following:
 - In your command line interface type the following: `brew cask install vagrant` or `sudo apt-get install vagrant`
 
 ## Start up the Vagrant machine
+Please make sure you are in the folder of `cli` which contains the existing vagrantfile. You can use command `ls` in Mac/Linux or `dir` in Windows to make sure you are in correct directory
 Start up your vagrant environment by executing `vagrant up`, the most commonly used vagrant command.
 
 ## Global Status
