@@ -45,7 +45,7 @@ Windows users should do the following:
 macOS or Linux users should do the following:
 - `cd Desktop`
 - `git clone https://github.com/treehouses/cli`
-- `cd ~/Desktop/cli`
+- `cd cli`
 
 ## Enable Virtualization, Install VirtualBox, and Install Vagrant
 
