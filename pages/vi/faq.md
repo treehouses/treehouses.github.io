@@ -36,7 +36,7 @@
 
 #### Q4: What are the hours of the internship?
 
-+ This is an intensive internship that requires 16 hours of work each week. Work with your fellow interns and keep us updated in the [Gitter chat](https://gitter.im/treehouses/Lobby).
++ This is an intensive internship that requires 16 hours of work each week. Work with your fellow interns and keep us updated in the [Discord server](https://discord.com/invite/mtgGD4EnYW).
 + The reason we have a 16 hour minimal commitment per week is that things are moving forward quickly and it might be hard for virtual interns to catch up with changes. Basically, we would have a few hours of Google Hangout sessions per week where everyone shares their screen, discusses problems, and works on issues together. Then the rest of the time is for catching up with the changes and working on issues assigned.
 
 #### Q5: Is this a paid internship?
@@ -45,7 +45,7 @@
 
 #### Q6: What happens after the initial steps?
 
-+ The initial steps are meant to introduce potential interns to the Treehouses system and begin assigning you assignments! To be more clear: the initial 10 steps are a vetting process to determine whether or not people are fit for the internship, so consider it an interview for the internship. Once you have completed the 10 steps and are approved, you have officially joined the OLE interns team! We’ll add you to the interns Gitter chatroom and assign you to a team. You and your team will be working on an assignment, and we’ll switch up the assignments each week.
++ The initial steps are meant to introduce potential interns to the Treehouses system and begin assigning you assignments! To be more clear: the initial 10 steps are a vetting process to determine whether or not people are fit for the internship, so consider it an interview for the internship. Once you have completed the 10 steps and are approved, you have officially joined the OLE interns team! We’ll add you to the interns Discord channel and assign you to a team. You and your team will be working on an assignment, and we’ll switch up the assignments each week.
 
 #### Q7: If I'm an international student, how soon can I get my paperwork required by my visa?
 
