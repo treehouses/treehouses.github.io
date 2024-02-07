@@ -13,11 +13,11 @@
  
  * **Account** means a unique account created for You to access our Service or parts of our Service.
  
- * **Affiliate** means an entity that controls, is controlled by or is under common control with a party, where &quot;control&quot; means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.
+ * **Affiliate** means an entity that controls, is controlled by or is under common control with a party, where "control" means ownership of 50% or more of the shares, equity interest or other securities entitled to vote for election of directors or other managing authority.
  
  * **Application** refers to  treehouses remote, the software program provided by the Company.
  
- * **Company** (referred to as either &quot;the Company&quot;, &quot;We&quot;, &quot;Us&quot; or &quot;Our&quot; in this Agreement) refers to Open Learning Exchange.
+ * **Company** (referred to as either "the Company", "We", "Us" or "Our" in this Agreement) refers to Open Learning Exchange.
 
  * **Device** means any device that can access the Service such as a computer, a cellphone or a digital tablet.
 
@@ -27,10 +27,9 @@
  While using Our Service, We do not collect any personally identifiable information that can be used to contact or identify You directly, such as your name, username, email address, or phone number.
  
  * **Usage Data**
- Usage Data is collected automatically when using the Service.
- Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), browser type, browser version, the pages of our Service that You visit, the time and date of Your visit, the time spent on those pages, unique device identifiers and other diagnostic data.
- When You access the Service by or through a mobile device, We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, the type of mobile Internet browser You use, unique device identifiers and other diagnostic data.
- We may also collect information that Your browser sends whenever You visit our Service or when You access the Service by or through a mobile device.
+ Usage Data may include information such as Your Device's Internet Protocol address (e.g. IP address), device type, android device version, unique device identifiers and other diagnostic data.
+ We may collect certain information automatically, including, but not limited to, the type of mobile device You use, Your mobile device unique ID, the IP address of Your mobile device, Your mobile operating system, unique device identifiers and other diagnostic data.
+ We may also collect information that Your device sends whenever You visit our Service or when You access the Service by or through a mobile device.
 
  * **Information Collected while Using the Application**
  While using Our Application, in order to provide features of Our Application, We may collect, with Your prior permission:
@@ -95,10 +94,10 @@
 
 ## Changes to this Privacy Policy
  We may update Our Privacy Policy from time to time. We will notify You of any changes by posting the new Privacy Policy on this page.
- We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the &quot;Last updated&quot; date at the top of this Privacy Policy.
+ We will let You know via email and/or a prominent notice on Our Service, prior to the change becoming effective and update the "Last updated" date at the top of this Privacy Policy.
  You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.
 
 ## Contact Us
  If you have any questions about this Privacy Policy, You can contact us:
-    *By phone number: +1 617-401-2300
+ - By filling this form on our website: [here](https://www.ole.org/contact-us/)
 
