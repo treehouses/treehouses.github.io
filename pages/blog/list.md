@@ -48,4 +48,6 @@
 
 [treehouses.io in DevOpsDay Jakarta 2018](20180505-devopsdayjkt18.md) on May 5, 2018 by empeje `(DevOps in non-profits)`
 
+---
+
 [Privacy policy](20240206-privacypolicy.md) on February 6, 2024 by Okuro `(Google playstore policy)`
