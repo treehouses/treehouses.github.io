@@ -2,7 +2,7 @@
 
 Please make sure to:
 - add (fixes #issue_number) to the end of pull request title when applicable,
-- drop a link to your new pull request in our gitter chat.
+- drop a link to your new pull request in our discord server.
 
 Thank you for contributing! -->
 

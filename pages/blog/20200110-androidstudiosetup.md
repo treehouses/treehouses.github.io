@@ -91,7 +91,7 @@ Run the app on an emulator as follows:
 
 ## Run into problems?
 
- * Google your errors and post them in [Gitter](https://treehouses.io/#!pages/chat.md) if you need help.
+ * Google your errors and post them in our Discord server if you need help.
  * You might need to reinstall Android Studio to fix your problem.
 
 ---

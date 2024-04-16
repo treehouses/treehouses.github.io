@@ -35,7 +35,7 @@
   * [**Introduction**](pages/docs/chat.md)
   - - - -
   * [General Chat (Open to Public)](https://gitter.im/treehouses/Lobby)
-  * [Virtual Interns](https://gitter.im/open-learning-exchange/interns)
+  * [Virtual Interns](https://discord.com/channels/1079980988421132369/1229436065090371616)
   * [RaspberryPi](https://gitter.im/open-learning-exchange/raspberrypi)
 
 <!-- System Manual -->
