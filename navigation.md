@@ -34,9 +34,9 @@
 
   * [**Introduction**](pages/docs/chat.md)
   - - - -
-  * [General Chat (Open to Public)](https://gitter.im/treehouses/Lobby)
-  * [Virtual Interns](https://discord.com/channels/1079980988421132369/1229436065090371616)
-  * [RaspberryPi](https://gitter.im/open-learning-exchange/raspberrypi)
+  * [Discord Chat (Open to Public)](https://discord.gg/NdrumrSNSA)
+  * [Discord - Virtual Interns Lounge](https://discord.com/channels/1079980988421132369/1229436065090371616)
+  * [RaspberryPi](https://discord.gg/NdrumrSNSA)
 
 <!-- System Manual -->
 

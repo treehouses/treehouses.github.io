@@ -2,7 +2,7 @@ Welcome to treehouses
 =====================
 
 [![Website treehouses.io](https://img.shields.io/website?url=https%3A%2F%2Ftreehouses.io)](https://treehouses.io)
-[![Gitter chatroom](https://img.shields.io/gitter/room/treehouses/Lobby)](https://gitter.im/treehouses/Lobby)
+[![chat on discord](https://img.shields.io/discord/1079980988421132369?logo=discord&color=%237785cc)](https://discord.gg/NdrumrSNSA)
 
 What is treehouses?
 -------------------
