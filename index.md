@@ -1,4 +1,7 @@
 ## Welcome to the treehouses project!
+*We strongly believe that the roots of human technology can be found in the crown of trees*
+
+---
 
 The [Open Learning Exchange](http://www.ole.org/) is a social benefit and for-purpose organization based in Cambridge, Massachusetts. Our mission is to provide universal quality education using open source materials and technology to overcome educational barriers.
 
