@@ -7,22 +7,22 @@
 
 ## Introduction
 
-**[Vagrant](https://www.vagrantup.com/) is an open-source software product for building and maintaining portable virtual software development environments.** Below, you will find some basic instructions on interacting with Vagrant through the command-line interface (CLI). You should be familiar with this since you will need to use it to control virtual machines during your internship.
+First, we will set up our PC for **virtualization**, which is when your PC uses some of its hardware as if it is running another system (e.g. running Linux on a Windows PC, or vice versa). Then, we will install **Vagrant**, which is an open-source software product for building and maintaining portable virtual software development environments (this requires our PC to be able to virtualize). Below, you will find some basic instructions on setting up your PC to interact with Vagrant through the command-line interface (CLI). You should be familiar with this since you will need to use it to control virtual machines during your internship.
 
 ## Preparation
 
-Before installing Vagrant we must setup the cli repository, enable virtualization on our computer, and install VirtualBox.
+Before installing Vagrant, we must set up the cli repository, enable virtualization on our computer, and install VirtualBox.
 
-`NOTE: You should have at least 7 GB of free storage space this step.`
+`NOTE: You should have at least 7 GB of free storage space for this step.`
 
 
 #### Windows – Pick your command-line program
 
-There are three command-line programs you could use to interact with Vagrant CLI:
+There are three command-line programs you could use for the rest of this tutorial:
 
 1. **Git Bash**: This is our recommended command line program. **Git Bash** is already installed along with planet installation script. After you open **Git Bash**, you will find its default directory at `C:\Users\YOUR_USERNAME`.
 
-2. **Command Prompt**: There are two Command Prompt options on Windows: **Command Prompt** and **Command Prompt(Admin)**. You could use either of them to access directories and interact with Vagrant CLI. The only difference is their default directory: **Command Prompt(Admin)** has `C:\Windows\system32` as default directory and **Command Prompt** has `C:\Users\YOUR_USERNAME` as the default directory.
+2. **Command Prompt**: There are two Command Prompt options on Windows: **Command Prompt** and **Command Prompt(Admin)**. You could use either of them to access directories. The only difference is their default directory: **Command Prompt(Admin)** has `C:\Windows\system32` as default directory and **Command Prompt** has `C:\Users\YOUR_USERNAME` as the default directory.
 
 3. **Windows PowerShell**: Windows PowerShell is a default shell interface installed on your machine, its default directory is `C:\Users\YOUR_USERNAME`.
 
@@ -31,11 +31,11 @@ Example: If you see an instruction saying `cd desktop/cli` instead use `cd deskt
 
 #### macOS or GNU\Linux - Terminal
 
-Normally we use a terminal emulator to interact with Vagrant CLI
+Normally we use a terminal emulator.
 
-## Stay in the Right Directory
+## Clone (Copy) the Treehouses Repository Files to Your PC
 
-A lot of Vagrant commands require us to specify a target machine. We can also run those commands from a directory with the target machine’s Vagrant File. Otherwise, you may encounter an error like "A Vagrant environment or target machine is required." Please go to the directory that contains our Vagrant file:
+`git clone` is a command to download a git project from an online repository (collection of files) to your computer. You will need a local copy of these files throughout your internship.
 
 Windows users should do the following:
 - Go into git bash and type `cd ~/Desktop`
@@ -62,7 +62,7 @@ Windows users should do the following:
 macOS or Linux users should do the following:
 - In your command line interface type the following: `brew cask install virtualbox` or `sudo apt-get install virtualbox`
 
-Last, we must install Vagrant so we can move onto the next steps
+Last, we must install [Vagrant](https://www.vagrantup.com/) so we can move onto the next steps
 
 Windows users should do the following:
 - Go to https://www.vagrantup.com/downloads.html and select windows hosts to install Vagrant
@@ -74,6 +74,14 @@ macOS or Linux users should do the following:
 ## Start up the Vagrant machine
 Please make sure you are in the folder of `cli` which contains the existing vagrantfile. You can use command `ls` in Mac/Linux or `dir` in Windows to make sure you are in correct directory
 Start up your vagrant environment by executing `vagrant up`, the most commonly used vagrant command.
+
+## Go to Vagrant's Directory
+
+A lot of Vagrant commands require us to specify a target machine. We can also run those commands from a directory with the target machine’s Vagrant File. Otherwise, you may encounter an error like "A Vagrant environment or target machine is required." Please go to the directory that contains our Vagrant file:
+
+Windows users should do the following: `cd C:\Users\%USERNAME%\cli`
+
+macOS or Linux users should do the following: `cd Desktop`
 
 ## Global Status
 
