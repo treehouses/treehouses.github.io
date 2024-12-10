@@ -1,47 +1,58 @@
-# First Steps
+# First Steps – Systems Engineering Virtual Intern
 
 # The Big Picture
 
-Welcome to the first steps for becoming a Systems Engineering Virtual Intern at OLE! After completing these steps, you will be working on OLE’s project, treehouses. These first steps are a process to prove that you have learned the foundational skills before you can progress to working on harder projects with larger teams. Consider this to be the interview for the internship.
+Welcome to the first steps for becoming a Systems Engineering Virtual Intern at OLE! We treat these first steps as a vetting process to prove that you can follow simple instructions before you can progress to working on harder projects in bigger teams. Consider this to be the interview for the internship.
 
-If you are selected for the internship after completing the steps, you will be officially invited to join the OLE interns team! We’ll add you to the Virtual Interns Discord channel and assign you to a specific team to work on developing and improving OLE’s software.
+If you are selected for the internship after completing the steps, you will be officially invited to join the OLE systems engineering interns team! We’ll add you to relevant Discord channels and assign you to a specific team to work on developing and improving OLE’s **[treehouses](https://github.com/treehouses)** software.
 
-Once accepted, you and your team will work on an assignment, and we’ll switch up the assignments each week. As part of this internship, you will have the opportunity to work with software and languages including **[Git](https://git-scm.com/)**, **[GitHub](https://github.com/)**, **[Markdown](https://daringfireball.net/projects/markdown/syntax)**, **[Command Line/Terminal Scripts](https://www.codecademy.com/articles/command-line-commands)**, **[Vim](https://www.vim.org/)**, and **[Docker](https://www.docker.com/).** Furthermore, you will be able to learn and practice your skills in using **[Raspberry Pi Hardware](https://raspberrypi.org)**.
+During this internship, you will have the opportunity to work with various software, tools, and technologies, including **[Git](https://git-scm.com/)**, **[GitHub](https://github.com/)**, **[Markdown](https://daringfireball.net/projects/markdown/)**, **[Command Line](https://www.codecademy.com/articles/command-line-commands)**, **[Bash/Shell](https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29)**, **[Vim](https://www.vim.org/)**, and **[Docker](https://www.docker.com/)**. Furthermore, you will be able to learn and practice your skills in using **[Raspberry Pi Hardware](https://www.raspberrypi.com/products/)**.
 
-The goal of OLE is to provide educational infrastructure to learners and educators in remote areas of the globe. The Raspberry Pi is used in pursuit of this goal to provide a cost-effective means by which devices can access educational resources.  We aim to provide a stable system that is widely accessible by numerous devices and operating systems.  This equipment will be deployed in the field with little or no access to the internet, so its reliability is of paramount importance.
+OLE's goal is to provide educational infrastructure to learners and educators in remote areas around the world. To support this mission, we use Raspberry Pi devices as a cost-effective solution for delivering access to educational resources. Our objective is to create a stable system that is widely compatible with various devices and operating systems. Since this equipment is often deployed in areas with limited or no internet access, ensuring its reliability is absolutely critical.
 
+**NOTE**: This is an unpaid, intensive internship requiring a minimum commitment of 24 hours per week for at least 3 months. Additional details about the internship can be found in our [FAQ](faq.md#General_Internship_Questions). If you have further questions, feel free to ask in our Discord server!
 
-**NOTE:** This is an unpaid but intensive internship that requires 16 hours of work each week. More information about the internship can be found in our [FAQ](faq.md#General_Internship_Questions). If you have further questions, don’t hesitate to ask other members in the [Discord #seednest channel](https://discord.com/channels/1079980988421132369/1081433296333963274)!
+# Prerequisites
 
-# Pre-Requisites
+## Required Hardware
 
-## Required Prerequisites
 The following are the required hardware components that will be needed as part of the Virtual Intern placement. Software solutions such as containers are used by the Treehouses team to ensure that the solutions we develop work across computers and locations. However, as part of the Systems team, you will need some basic hardware of your own to make sure you can run, test and contribute to the software that the team is developing.
 
-### Hardware requirements:
+### Required Hardware for Virtual Intern Placement
 
-1. Raspberry Pi 4 ([Pi 4 information](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/))
-  - Any amount of RAM will work, but more is better
-  - Raspberry Pi 3B/3B+ also work, but Pi 4 is recommended
-1. Power supply for the Pi
-  - Pi 4: minimum 3.0A, Standard USB-C port
-  - Pi 3B/3B+: minimum 2.5A, Micro USB port
-1. 3 microSD cards
-  - Minimum 16GB
-  - U1 or Class 10 required
-1. MicroSD card reader
-  - You will need a USB reader if your computer doesn't have an SD card slot
-1. Laptop or computer with minimum 8GB of RAM
-  - You will need a Wi-Fi adapter if you are using a desktop without Wi-Fi capabilities.
-1. Android device (phone or tablet)
-  - Memory (RAM): Minimum 2GB
-  - Operating System:
-    * Minimum: Android 6 "Marshmallow"
-    * Recommended: Android 8 "Oreo"
+1. **Raspberry Pi 4 or Newer**
+  - ✅ [Raspberry Pi 5 (minimum 2GB RAM)](https://www.raspberrypi.com/products/raspberry-pi-5/)
+  - ✅ [Raspberry Pi 4 (minimum 2GB RAM)](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/)
+  - ⚠️ [Raspberry Pi Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/)
+     - Compatibility with our image still needs verification.
+     - Note: This model lacks an Ethernet port.
+  - ❌ Models released before 2019 (e.g., 3B/3B+) are no longer supported.
+
+2. **Power Supply for Raspberry Pi**
+  - Ensure the power supply is compatible and provides sufficient current.
+  - [Details on recommended power supplies](https://www.raspberrypi.com/documentation/computers/getting-started.html#power-supply).
+
+3. **MicroSD Cards**
+  - Quantity: 3
+  - Capacity: Minimum 32GB
+  - Speed: U1/Class 10 or better
+  - [More details on SD cards](https://www.raspberrypi.com/documentation/computers/getting-started.html#recommended-sd-cards).
+
+4. **MicroSD Card Reader**
+  - Required if your computer lacks an SD card slot.
+
+5. **Laptop or Computer**
+  - RAM: Minimum 8GB (16GB preferred)
+  - If using a desktop without built-in Wi-Fi, a Wi-Fi adapter is required.
+
+6. **Android Device or Chromebook**
+  - RAM: Minimum 3GB
+  - Operating System: Android 9 ("Pie") or newer
 
   **NOTE:** You can purchase all of these components together for your convenience (or if there are discounts) on places such as Amazon, eBay, etc...
 
 ## Optional Hardware
+
 There are also "optional" pieces of hardware that you can choose to purchase should you choose to, these are not compulsory for participation in the internship but may greatly assist you in developing your skills and contributing to the project.
 
 1. Ethernet cable - For Direct connection and troubleshooting of the Pi
