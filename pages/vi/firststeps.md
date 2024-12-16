@@ -39,11 +39,15 @@ The following hardware components are required for the Systems Engineering Virtu
 4. **MicroSD Card Reader**
   - Required if your computer lacks an SD card slot.
 
-5. **Laptop or Computer**
+5. **Ethernet cable**
+  – For direct connection and troubleshooting of the Pi without Wi-Fi
+  – An available Ethernet port on your router/switch will also be required
+
+6. **Laptop or Computer**
   - RAM: Minimum 8GB (16GB preferred)
   - If using a desktop without built-in Wi-Fi, a Wi-Fi adapter is required.
 
-6. **Android Device or Chromebook**
+7. **Android Device or Chromebook**
   - **RAM:** Minimum 3GB
   - **Operating System:** Android 9 ("Pie") or newer
   - If you don’t already own one, consider asking friends or family if they have an old Android phone they no longer use.
@@ -54,11 +58,10 @@ The following hardware components are required for the Systems Engineering Virtu
 
 There are also optional hardware components you may choose to purchase. While these are not required for participation in the internship, they can further help you develop your skills and contribute to the project. Once you have completed the First Steps and officially become an intern, feel free to reach out to us for guidance and to explore potential additional projects utilizing these hardware components.
 
-1. Ethernet cable – For direct connection and troubleshooting of the Pi without Wi-Fi
-2. USB keyboard, mouse, monitor, and HDMI cable
-3. [Real Time Clock (RTC)](https://www.amazon.com/s?k=raspberry+pi+rtc)
-4. [Raspberry Pi Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/)
-5. [Raspberry Pi Camera](https://www.raspberrypi.com/products/#cameras-and-displays)
+1. USB keyboard, mouse, monitor, and HDMI cable
+1. [Real Time Clock (RTC)](https://www.amazon.com/s?k=raspberry+pi+rtc)
+1. [Raspberry Pi Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/)
+1. [Raspberry Pi Camera](https://www.raspberrypi.com/products/#cameras-and-displays)
 
 [YouTube: Boot of Raspberry Pi4 with HDMI Screen and Configure WiFi Live](https://www.youtube.com/watch?v=-9V4EpNNR6k)
 
@@ -90,19 +93,22 @@ For technical questions not covered in the FAQ, in addition to contacting us on 
 
 ## Step 0 - Introductory Steps
 
-1. Complete the [New Virtual Intern Application form](http://apply.treehouses.io). If you have already done this after being invited to join the team then good job, you're all set!
+### Watch the Organization and Follow Contributors
 
-2. Log into your [GitHub account](https://github.com/) then watch [treehouses.github.io repo](https://github.com/treehouses/treehouses.github.io) and Follow [Dogi](https://github.com/dogi), [Ryan](https://github.com/indepthh), [Vassilis](https://github.com/vers4ce), [Roshan](https://github.com/rrijal53), [Sam](https://github.com/Liew211), [Samuel](https://github.com/samuelchen1213) and [Arran](https://github.com/ArranHL) on GitHub.
+In GitHub, we [follow organizations](https://docs.github.com/en/get-started/exploring-projects-on-github/following-organizations) and [follow people](https://docs.github.com/en/get-started/exploring-projects-on-github/following-people) to receive notifications about their activity. Look for the "Watch" button at the top right of the page when you are in a repository. Additionally, follow each other to stay updated on what others in the group are working on.
 
-In GitHub, we "[Watch](https://help.github.com/en/articles/watching-and-unwatching-repositories)" organization repositories and ["Follow"](https://help.github.com/en/articles/following-people) individuals. Look for the "Watch" button at the top right of the page when you are in a repository.  Also, follow each other to see what others in the group are doing. (Click on the image to enlarge.)   
+- Use the "Watch" button in repositories you're working on and "Follow" individuals to keep up with the latest activities.
+- Visit GitHub and "Follow" the [Treehouses organization](https://github.com/treehousest) to stay updated on changes.
+- Follow OLE's CTO, [dogi](https://github.com/dogi).
+- You can also follow [other active Systems Engineering Virtual Interns](team.md) to stay updated on their activities.
 
-### Setting up your environment
+### Setting Up Your Environment
 
-We interact with the Raspberry Pi via a command terminal, which is natively available for both Mac and Linux based systems. However, if you are on a Windows device, [Git Bash](https://git-scm.com/download/win) is highly recommended.
+We interact with the Raspberry Pi via a command terminal, which is natively available on both Mac and Linux-based systems. However, if you are using a Windows device, we highly recommend [Git Bash](https://git-scm.com/downloads/win).
 
 ### Working with Vi & Vim
 
-One of the most simple but most powerful text editors out there is Vim. If you want to see what Vim can do and how powerful it can be, you can learn more about Vim [here](https://danielmiessler.com/study/vim/#textobjects). Vim is not necessary for this internship but it is truly helpful when working on the Raspberry Pi not to have to download and install other text editors.
+One of the most simple but most powerful text editors out there is Vim. If you want to see what Vim can do and how powerful it can be, you can learn more about Vim [here](https://danielmiessler.com/p/vim/#textobjects). Vim is not necessary for this internship but it is truly helpful when working on the Raspberry Pi not to have to download and install other text editors.
 
 **NOTE:** You can skip ahead to Step 3 while you are waiting for your Raspberry Pi to come in the mail.
 
@@ -113,12 +119,9 @@ There are 3 sections in this step:
 2. [Using treehouses Remote](treehouses-remote.md)
 3. [Finding your Pi](find-pi.md)
 
-
 ## Step 2 - Use SSH and Tor to Remotely Control Your Raspberry Pi
 
 The Systems team uses SSH (Secure Shell) to securely and remotely control the Raspberry Pis we work with.  SSH works by providing an admin protocol that allows users to control and modify their remote servers over the Internet.  Follow the [Raspberry Pi SSH  & Tor Tutorial](sshpi.md) to learn how.
-
-
 
 ## Step 3 - Markdown and Fork Tutorial
 
