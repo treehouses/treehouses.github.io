@@ -1,10 +1,10 @@
 # First Steps – Systems Engineering Virtual Intern
 
-# The Big Picture
+## The Big Picture
 
 Welcome to the first steps for becoming a Systems Engineering Virtual Intern at OLE! We treat these first steps as a vetting process to prove that you can follow simple instructions before you can progress to working on harder projects in bigger teams. Consider this to be the interview for the internship.
 
-If you are selected for the internship after completing the steps, you will be officially invited to join the OLE systems engineering interns team! We’ll add you to relevant Discord channels and assign you to a specific team to work on developing and improving OLE’s **[treehouses](https://github.com/treehouses)** software.
+If you are selected for the internship after completing the steps, you will be officially invited to join the OLE systems engineering interns team! We’ll add you to relevant Discord channels and assign you to a specific team to work on developing and improving OLE’s **[treehouses](https://github.com/treehouses)** software, which directly supports the deployment of OLE's [planet](https://github.com/open-learning-exchange/planet) and [myPlanet](https://github.com/open-learning-exchange/myplanet) app.
 
 During this internship, you will have the opportunity to work with various software, tools, and technologies, including **[Git](https://git-scm.com/)**, **[GitHub](https://github.com/)**, **[Markdown](https://daringfireball.net/projects/markdown/)**, **[Command Line](https://www.codecademy.com/articles/command-line-commands)**, **[Bash/Shell](https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29)**, **[Vim](https://www.vim.org/)**, and **[Docker](https://www.docker.com/)**. Furthermore, you will be able to learn and practice your skills in using **[Raspberry Pi Hardware](https://www.raspberrypi.com/products/)**.
 
@@ -12,9 +12,9 @@ OLE's goal is to provide educational infrastructure to learners and educators in
 
 **NOTE**: This is an unpaid, intensive internship requiring a minimum commitment of 24 hours per week for at least 3 months. Additional details about the internship can be found in our [FAQ](faq.md#General_Internship_Questions). If you have further questions, feel free to ask in our Discord server!
 
-# Prerequisites
+## Prerequisites
 
-## Required Hardware
+### Required Hardware
 
 The following hardware components are required for the Systems Engineering Virtual Internship. While the Treehouses team utilizes software solutions such as containers to ensure our projects work across different computers and locations, as a member of the Systems team, you will need some basic hardware of your own. This will enable you to run, test, and contribute to the software that the team is developing.
 
@@ -50,7 +50,7 @@ The following hardware components are required for the Systems Engineering Virtu
 
   **NOTE:** You can purchase a Raspberry Pi from an [Approved Reseller](https://www.raspberrypi.com/resellers/?q=&country=1&forHome=1#United%20States). Some resellers offer starter kits that include a power supply, SD card, case, heat sink, and more. Alternatively, you can look for discounts on platforms like Amazon, Best Buy, or eBay.
 
-## Optional Hardware
+### Optional Hardware
 
 There are also optional hardware components you may choose to purchase. While these are not required for participation in the internship, they can further help you develop your skills and contribute to the project. Once you have completed the First Steps and officially become an intern, feel free to reach out to us for guidance and to explore potential additional projects utilizing these hardware components.
 
@@ -62,22 +62,31 @@ There are also optional hardware components you may choose to purchase. While th
 
 [YouTube: Boot of Raspberry Pi4 with HDMI Screen and Configure WiFi Live](https://www.youtube.com/watch?v=-9V4EpNNR6k)
 
+## The Steps
+
+Social coding is a huge part of any open source and collaborative project, and the Open Learning Exchange (OLE) is no different. In the following series of steps, you will learn about Markdown, Docker, Bash, Vim, Git, GitHub, GitHub issues, GitHub pull requests, etc.
+
+**These steps may seem simple, but we expect high-quality work, which may require additional time. We want to see that you can effectively use — or learn to use — these tools, including writing clear GitHub issues, using basic Git commands, creating proper pull requests, and working with Docker. Simply following the steps is the bare minimum; we encourage you to read more about the tools and languages we use to deepen your understanding and address any confusion. Treat these steps as valuable learning opportunities!**
+
+Take the opportunity to read more about the tools and languages we use to deepen your understanding and reduce confusion. **Treat these steps as learning opportunities!** The GitHub and Markdown skills you practice in first steps are crucial for both this internship and a future career in software development.
+
+The MDwiki offers plenty of resources to help you complete these steps. You may find a list of useful links at the end of each step. :)
+
+**We also would like you to keep us regularly updated in our Discord server's `#seednest` channel as you complete these steps. We will ask you to send messages, links, and screenshots along the way, which will keep us informed of your progress. Please make sure not to miss this.**
+
+A significant part of these steps is identifying problems or suggesting improvements for this MDwiki. As you complete the steps, take note of any issues you encounter or ideas for enhancements. This helps improve the MDwiki and these steps for future interns.
+
+While there's no official deadline for completing these steps, most successful candidates finish them within 7-8 days. Good luck!
+
+## FAQ - Frequently Asked Questions
+
+**[Our FAQ page](faq.md)** is a comprehensive resource containing answers to common questions about the internship and First Steps. It also features additional helpful links and video tutorials aimed at familiarizing you with the tools and languages integral to our work.
+
+If you have general internship inquiries and can't find the information you need on the FAQ page, please don't hesitate to reach out to us via Discord. Try to avoid DMs as others might have the same question!
+
+For technical questions not covered in the FAQ, in addition to contacting us on Discord, Google, Stack Exchange, and ChatGPT serve as excellent supplementary resources to explore. :)
+
 ---
-
-# The Steps
-
-Social coding is a huge part of any open source and collaborative project, and [treehouses](https://github.com/treehouses) is no different. In the following series of steps, you will learn about Markdown, Docker, Bash, Vim, Git, GitHub, GitHub issues, and GitHub pull requests.
-
-Because these steps are simple, we expect high-quality work, which may take a longer time. We want to see that you are capable of using or learning how to use these tools (writing good GitHub issues, creating pull requests, using Markdown and Docker, etc.). These steps may seem easy, but we want you to impress us with good GitHub etiquette and quality Markdown. The bare minimum would be to just passively follow the steps; you should do further reading about the tools/languages we use so you can further your understanding and relieve confusion if you're unclear about how something works. **Treat these steps as learning opportunities!** The GitHub and Markdown skills you practice here are very important for both this internship and a future software development career.
-
-The MDwiki has plenty of resources to help you complete the steps. There is a list of useful links at the end of each step. We also created a [FAQ page](faq.md) where you can find the answers to some commonly asked questions. This page has even more [useful links and video tutorials](faq.md#Helpful_Links) that will help you become familiar with the tools/languages we use. For anything that is not on the FAQ page, Google and Stack Exchange are your friends :)
-
-**We also want you to keep us updated on a relatively good amount in the [Discord server](../chat.md) as you complete these steps. We will ask you to send us messages, links, and screenshots along the First Steps, and we will use this to track your progress, so please do not forget to do so.**
-
-A very large part of these steps is finding problems with these steps and this MDwiki, so take note of any issues that you run into or suggestions for improvement while doing these steps.
-
-There is no official deadline to complete these steps, but most candidates who are approved for the internship program finished the steps within 7-8 days. Good luck!
-
 
 ## Step 0 - Introductory Steps
 
