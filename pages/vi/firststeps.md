@@ -16,9 +16,7 @@ OLE's goal is to provide educational infrastructure to learners and educators in
 
 ## Required Hardware
 
-The following are the required hardware components that will be needed as part of the Virtual Intern placement. Software solutions such as containers are used by the Treehouses team to ensure that the solutions we develop work across computers and locations. However, as part of the Systems team, you will need some basic hardware of your own to make sure you can run, test and contribute to the software that the team is developing.
-
-### Required Hardware for Virtual Intern Placement
+The following hardware components are required for the Systems Engineering Virtual Internship. While the Treehouses team utilizes software solutions such as containers to ensure our projects work across different computers and locations, as a member of the Systems team, you will need some basic hardware of your own. This will enable you to run, test, and contribute to the software that the team is developing.
 
 1. **Raspberry Pi 4 or Newer**
   - ✅ [Raspberry Pi 5 (minimum 2GB RAM)](https://www.raspberrypi.com/products/raspberry-pi-5/)
@@ -46,25 +44,23 @@ The following are the required hardware components that will be needed as part o
   - If using a desktop without built-in Wi-Fi, a Wi-Fi adapter is required.
 
 6. **Android Device or Chromebook**
-  - RAM: Minimum 3GB
-  - Operating System: Android 9 ("Pie") or newer
+  - **RAM:** Minimum 3GB
+  - **Operating System:** Android 9 ("Pie") or newer
+  - If you don’t already own one, consider asking friends or family if they have an old Android phone they no longer use.
 
-  **NOTE:** You can purchase all of these components together for your convenience (or if there are discounts) on places such as Amazon, eBay, etc...
+  **NOTE:** You can purchase a Raspberry Pi from an [Approved Reseller](https://www.raspberrypi.com/resellers/?q=&country=1&forHome=1#United%20States). Some resellers offer starter kits that include a power supply, SD card, case, heat sink, and more. Alternatively, you can look for discounts on platforms like Amazon, Best Buy, or eBay.
 
 ## Optional Hardware
 
-There are also "optional" pieces of hardware that you can choose to purchase should you choose to, these are not compulsory for participation in the internship but may greatly assist you in developing your skills and contributing to the project.
+There are also optional hardware components you may choose to purchase. While these are not required for participation in the internship, they can further help you develop your skills and contribute to the project. Once you have completed the First Steps and officially become an intern, feel free to reach out to us for guidance and to explore potential additional projects utilizing these hardware components.
 
-1. Ethernet cable - For Direct connection and troubleshooting of the Pi
-1. [Real Time Clock (rtc)](https://www.amazon.com/s?k=raspberry+pi+rtc)
-1. [Raspberry Pi 0W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/)
-1. Raspberry pi Camera(s):
-  - [Raspberry Pi Camera](https://www.raspberrypi.org/products/camera-module-v2/)
-  - [Raspberry Pi Night Vision Camera](https://www.raspberrypi.org/products/pi-noir-camera-v2/)
-  - [generic Raspberry Pi 5 Megapixel Camera](https://www.amazon.com/AuviPal-Megapixels-Raspberry-Camera-Module/dp/B07PQ63D2S/)
-1. USB keyboard, mouse, monitor, and HDMI cable
+1. Ethernet cable – For direct connection and troubleshooting of the Pi without Wi-Fi
+2. USB keyboard, mouse, monitor, and HDMI cable
+3. [Real Time Clock (RTC)](https://www.amazon.com/s?k=raspberry+pi+rtc)
+4. [Raspberry Pi Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/)
+5. [Raspberry Pi Camera](https://www.raspberrypi.com/products/#cameras-and-displays)
 
-[Useful link for Rapberry Pi set up](https://www.youtube.com/watch?v=-9V4EpNNR6k)
+[YouTube: Boot of Raspberry Pi4 with HDMI Screen and Configure WiFi Live](https://www.youtube.com/watch?v=-9V4EpNNR6k)
 
 ---
 
