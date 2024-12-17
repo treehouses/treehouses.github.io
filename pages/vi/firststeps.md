@@ -10,7 +10,7 @@ During this internship, you will have the opportunity to work with various softw
 
 OLE's goal is to provide educational infrastructure to learners and educators in remote areas around the world. To support this mission, we use Raspberry Pi devices as a cost-effective solution for delivering access to educational resources. Our objective is to create a stable system that is widely compatible with various devices and operating systems. Since this equipment is often deployed in areas with limited or no internet access, ensuring its reliability is absolutely critical.
 
-**NOTE**: This is an unpaid, intensive internship requiring a minimum commitment of 24 hours per week for at least 3 months. Additional details about the internship can be found in our [FAQ](faq.md#General_Internship_Questions). If you have further questions, feel free to ask in our Discord server!
+**NOTE**: This is an unpaid, intensive internship requiring a minimum commitment of 24 hours per week for at least 3 months. Additional details about the internship can be found in our [FAQ](faq.md#General_Internship_Questions). If you have further questions, feel free to ask in our Discord server's #seednest channel!
 
 ## Prerequisites
 
