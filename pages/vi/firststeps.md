@@ -97,10 +97,13 @@ Follow the instructions in [Introductory Steps](introductory-steps.md) to watch 
 
 ## Step 1 - Installing and Finding Your Raspberry Pi
 
+**NOTE:** You can skip ahead to Step 3 if you are waiting for your Raspberry Pi to come in the mail.
+
 There are 3 sections in this step:
-1. [Setting up your Raspberry Pi](pi-setup.md)
 2. [Using treehouses Remote](treehouses-remote.md)
 3. [Finding your Pi](find-pi.md)
+
+1. [Setting up Your Raspberry Pi](pi-setup.md)
 
 ## Step 2 - Use SSH and Tor to Remotely Control Your Raspberry Pi
 
