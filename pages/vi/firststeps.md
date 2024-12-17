@@ -93,24 +93,7 @@ For technical questions not covered in the FAQ, in addition to contacting us on 
 
 ## Step 0 - Introductory Steps
 
-### Watch the Organization and Follow Contributors
-
-In GitHub, we [follow organizations](https://docs.github.com/en/get-started/exploring-projects-on-github/following-organizations) and [follow people](https://docs.github.com/en/get-started/exploring-projects-on-github/following-people) to receive notifications about their activity. Look for the "Watch" button at the top right of the page when you are in a repository. Additionally, follow each other to stay updated on what others in the group are working on.
-
-- Use the "Watch" button in repositories you're working on and "Follow" individuals to keep up with the latest activities.
-- Visit GitHub and "Follow" the [Treehouses organization](https://github.com/treehousest) to stay updated on changes.
-- Follow OLE's CTO, [dogi](https://github.com/dogi).
-- You can also follow [other active Systems Engineering Virtual Interns](team.md) to stay updated on their activities.
-
-### Setting Up Your Environment
-
-We interact with the Raspberry Pi via a command terminal, which is natively available on both Mac and Linux-based systems. However, if you are using a Windows device, we highly recommend [Git Bash](https://git-scm.com/downloads/win).
-
-### Working with Vi & Vim
-
-One of the most simple but most powerful text editors out there is Vim. If you want to see what Vim can do and how powerful it can be, you can learn more about Vim [here](https://danielmiessler.com/p/vim/#textobjects). Vim is not necessary for this internship but it is truly helpful when working on the Raspberry Pi not to have to download and install other text editors.
-
-**NOTE:** You can skip ahead to Step 3 while you are waiting for your Raspberry Pi to come in the mail.
+Follow the instructions in [Introductory Steps](introductory-steps.md) to watch the organization, join Discord, set up your environment, and learn Vi/Vim basics.
 
 ## Step 1 - Installing and Finding Your Raspberry Pi
 
