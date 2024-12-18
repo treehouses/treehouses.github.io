@@ -16,8 +16,9 @@
 
 ## Technical Questions
 
-- **Q1:** [What do I do if I already have a github.io with my username?](#Q1:_What_do_I_do_if_I_already_have_a_github.io_with_my_username?)
-- **Q2:** [What should I do if I encounter *Host key verification failed*?](#Q2:_What_should_I_do_if_I_encounter_Host_key_verification_failed?)
+- **TQ1:** [What do I do if I already have a github.io with my username?](#TQ1:_What_do_I_do_if_I_already_have_a_github.io_with_my_username?)
+- **TQ2:** [What should I do if I encounter *Host key verification failed*?](#TQ2:_What_should_I_do_if_I_encounter_Host_key_verification_failed?)
+- **TQ3:** [What do I do if I have trouble with pairing with my RPi via Bluetooth?](#TQ3:_What_should_I_do_if_I_encounter_issues_pairing_with_my_Raspberry_Pi_via_Bluetooth?)
 
 ---
 
@@ -73,7 +74,7 @@
 
 ### Technical Questions
 
-#### Q1: What do I do if I already have a github.io with my username?
+#### TQ1: What do I do if I already have a github.io with my username?
 
 You have a few options:
 
@@ -86,10 +87,15 @@ You have a few options:
   3. **Use an Organization:**
      If you are still using the repository but want to fork a new one, [create a free organization](https://help.github.com/articles/creating-a-new-organization-from-scratch/) that belongs to your personal account, then fork our `treehouses.github.io` repository with your new organization as the owner. Afterwards, the repository will be accessible at: `<orgname>.github.io`
 
-#### Q2: What should I do if I encounter Host key verification failed?
+#### TQ2: What should I do if I encounter Host key verification failed?
 
 - If you encounter the error "WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED" or "Host key verification failed" when trying to SSH into your Raspberry Pi, it means the host key has changed. This typically happens after re-installing the Raspberry Pi image or modifying its configuration.
 - To resolve this issue, remove the old host key by running: `ssh-keygen -R <hostname>`, where `<hostname>` is whatever you just attempted to SSH into, typically the IP address of your Raspberry Pi.
+
+#### TQ3: What should I do if I encounter issues pairing with my Raspberry Pi via Bluetooth?
+
+- If you can see the Raspberry Pi's `treehouses` name in the Bluetooth device list but encounter issues pairing with it, you can manually enable pairing and discovery with `bluetoothctl`. Follow the instructions in [Finding your Pi](find-pi.md) and [Step 2 - SSH Tutorial](sshpi.md) until you can SSH into your Raspberry Pi as the `root` user.
+- Once connected via SSH as `root`, type `bluetoothctl` in the terminal. Then, run the commands `discoverable on` and `pairable on` to enable the Raspberry Pi for discovery and pairing with your phone. During this process, you may need to enter the pairing code displayed on your phone in the terminal.
 
 ---
 
