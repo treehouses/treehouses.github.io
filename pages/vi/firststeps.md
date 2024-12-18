@@ -16,7 +16,7 @@ OLE's goal is to provide educational infrastructure to learners and educators in
 
 ### Required Hardware
 
-The following hardware components are required for the Systems Engineering Virtual Internship. While the Treehouses team utilizes software solutions such as containers to ensure our projects work across different computers and locations, as a member of the Systems team, you will need some basic hardware of your own. This will enable you to run, test, and contribute to the software that the team is developing.
+The following hardware components are required for the Systems Engineering Virtual Internship at OLE. While the treehouses team utilizes software solutions such as containers to ensure our projects work across different computers and locations, as a member of the Systems team, you will need some basic hardware of your own. This will enable you to run, test, and contribute to the software that the team is developing.
 
 1. **Raspberry Pi 4 or Newer**
   - ✅ [Raspberry Pi 5 (minimum 2GB RAM)](https://www.raspberrypi.com/products/raspberry-pi-5/)
@@ -62,8 +62,6 @@ There are also optional hardware components you may choose to purchase. While th
 1. [Real Time Clock (RTC)](https://www.amazon.com/s?k=raspberry+pi+rtc)
 1. [Raspberry Pi Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/)
 1. [Raspberry Pi Camera](https://www.raspberrypi.com/products/#cameras-and-displays)
-
-[YouTube: Boot of Raspberry Pi4 with HDMI Screen and Configure WiFi Live](https://www.youtube.com/watch?v=-9V4EpNNR6k)
 
 ## The Steps
 
