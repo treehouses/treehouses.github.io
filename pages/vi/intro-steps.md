@@ -9,14 +9,21 @@ In GitHub, we [follow organizations](https://docs.github.com/en/get-started/expl
 - Follow OLE's CTO, [dogi](https://github.com/dogi).
 - You can also follow [other active Systems Engineering Virtual Interns](team.md) to stay updated on their activities.
 
+## Package Management (macOS/Windows)
+
+If you are on macOS or Windows, we recommend you get a package manager:
+
+- macOS: [Homebrew](https://brew.sh/) or [MacPorts](https://www.macports.org/)
+- Windows: [Chocolatey Community](https://community.chocolatey.org/)
+
 ## Discord Installation and Server Nickname
 
 - Discord will be the primary communication tool for this internship, so please [download and install it](https://discord.com/download) on your computer. Once installed:
 - If your preferred name differs significantly from your Discord "Display Name," click on "treehouses" in the upper left of the Discord interface. Then, select "Edit Server Profile" from the menu and update your server nickname to include your preferred name or first name and last name initial.
 
-## Setting Up Your Environment
+## Terminal (Windows)
 
-We interact with the Raspberry Pi via a command terminal, which is natively available on both Mac and Linux-based systems. However, if you are using a Windows device, we highly recommend [Git Bash](https://git-scm.com/downloads/win).
+We interact with the Raspberry Pi through a command terminal, which is natively available on both macOS and Linux-based systems. For Windows users, please install [Git Bash](https://git-scm.com/downloads/win) or, if you have Chocolatey installed, run `choco install git` in the Windows PowerShell or Command Prompt.
 
 ## Working with Vi & Vim
 
