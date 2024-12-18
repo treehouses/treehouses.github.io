@@ -1,26 +1,34 @@
-# Finding your Pi
+# Finding the Raspberry Pi on Your Local Network
 
-There are several ways to find the local IP address of your Raspberry Pi, which you will need to know for the subsequent steps.
+## Objectives
 
-**NOTE**: **You will only need to do at least *one* of the methods below, but it is good to know all of them.**
+- Learn different methods to find your Raspberry Pi's IP address on your local network for connecting in later steps.
 
-## Method 0: Looking at your router
+**NOTE**: **You only need to use *one* of the methods below, but it's helpful to know all of them.**
 
-If you have access to your router's admin account, you can log into it and view the currently connected devices.  Here, you will be able to find your Raspberry Pi device (named "treehouses"), and its IP address.
+## Method 0: Checking Your Router
+
+If you have access to your router's web interface or app, you can log in and view the list of currently connected devices. Here, you’ll find your Raspberry Pi device (named "treehouses") along with its IP address.
+
+Certainly! Here’s the text with the proper Markdown formatting for code blocks:
 
 ## Method 1: Using treehouses remote
 
-In the [previous step](treehouses-remote.md), you were able to access the terminal on treehouses remote using Bluetooth.  Here, run `treehouses networkmode info`.  The output in `bridge` mode will look like this:
+In the [previous sub-step](treehouses-remote.md), you accessed the terminal on treehouses remote via Bluetooth. Now, run the command `treehouses networkmode info` in the treehouses remote terminal.
+
+The output in `bridge` mode with the Raspberry Pi connected to your home network will look something like this:
+
 ```
 wlan0: essid: wifiname, ip: 192.168.0.19, has password
 ap0: essid: treehouses, ip: 192.168.2.1, has no password
 ```
-The first ip address listed is your Pi's ip address.
 
+Look for the IP address on either the `wlan0` (Wi-Fi) or `eth0` (Ethernet) line, depending on your connection type.
 
-## Method 2: Pinging your Raspberry Pi
+## Method 2: Pinging Your Raspberry Pi with its Hostname
 
-Type `ping treehouses.local`, `ping treehouses.home` or `ping treehouses.lan` in your computer terminal or command prompt (Windows users will need to install [Bonjour](https://support.apple.com/kb/DL999?viewlocale=en_US&locale=en_US)). You should see something like this:
+Type `ping treehouses.local`, `ping treehouses.home` or `ping treehouses.lan` in your computer's terminal or Windows Command Prompt (Windows users might need to install [Bonjour](https://support.apple.com/kb/DL999?viewlocale=en_US&locale=en_US)). You should see something like this:
+
 ```
 $ ping treehouses.local
 PING treehouses.local (192.168.0.19): 56 data bytes
@@ -29,28 +37,27 @@ PING treehouses.local (192.168.0.19): 56 data bytes
 64 bytes from 192.168.0.19: icmp_seq=2 ttl=64 time=2.945 ms
 64 bytes from 192.168.0.19: icmp_seq=3 ttl=64 time=3.372 ms
 ```
+
 You can stop this process with `Ctrl`+`C`.
 
 As you can see here its local IP address is `192.168.0.19`.
 
-## Method 3: nmap command
+## Method 3: Using Nmap - the Network Mapper
 
 The `nmap` command ([Network Mapper](https://nmap.org)) is a free and open-source tool for network discovery, available for Linux, macOS, and Windows.
 
 ### Installation
 
-- Linux: in your terminal, run `sudo apt-get install nmap`
-- macOS: in your terminal, run `brew install nmap`
-- Windows: see the [nmap download page](http://nmap.org/download.html)
+- Linux: in your terminal, run `sudo apt update && sudo apt install nmap`
+- macOS: in your terminal, run `brew install nmap` or go to [nmap download page](http://nmap.org/download.html)
+- Windows: in Windows PowerShell or Command Prompt, run `choco install nmap`. Or go to [nmap download page](http://nmap.org/download.html)
 
-**NOTE:** **If this is your first time using the CLI on macOS you need to install [brew](https://brew.sh/), a package management system for the CLI**
-
-### Find your subnet
+### Find Your Subnet
 
 To use `nmap` to scan the devices on your network, you need to know the subnet you are connected to. First find your own IP address, in other words the one of the computer you're using to find your Pi's IP address:
 
 - On Linux, type `hostname -I` into a terminal window
-- On macOS, go to System Preferences then Network and select your active network connection to view the IP address
+- On macOS, type `ipconfig getifaddr en0` or go to System Preferences then Network and select your active network connection to view the IP address
 - On Windows, go to the Control Panel, then under `Network and Sharing Center`, click `View network connections`, select your active network connection and click `View status of this connection` to view the IP address
 
 Now you have the IP address of your computer, you can scan the whole subnet for other devices. For example, if your IP address is `192.168.1.5`, other devices will be at addresses like `192.168.1.2`, `192.168.1.3`, `192.168.1.4`, etc. The notation of this subnet range is `192.168.1.*` (this covers `192.168.1.0` to `192.168.1.255`).
@@ -60,6 +67,7 @@ Now use the `nmap` command with the `-sn` flag (ping scan) on the whole subnet r
 `nmap -sn 192.168.1.*`
 
 You should see something like this:
+
 ```
 Starting Nmap 7.70 ( https://nmap.org ) at 2019-08-16 17:00 EDT
 Nmap scan report for hpprinter (192.168.1.2)
@@ -72,9 +80,10 @@ Nmap scan report for treehouses (192.168.1.8)
 Host is up (0.0030s latency).
 Nmap done: 256 IP addresses (4 hosts up) scanned in 2.41 seconds
 ```
+
 Here you can see the local IP address of "treehouses" is `192.168.1.8`.
 
-## Method 4: arp command
+## Method 4: Using the arp command
 
 **This will only work if the Raspberry Pi you are using is the only one on your network.**  In your command line, you can run the the `arp` command and search for the Raspberry Pi's MAC address, assuming it has not been changed or spoofed.  A MAC address is a unique device identifying number, used as a network identifier.  Run `arp -a | grep dc:a6:32` if you are using a Raspberry Pi 4, otherwise run `arp -a | grep b8:27:eb`.
 
@@ -82,13 +91,14 @@ You should see something like this:
 `? (10.0.0.32) at b8:27:eb:c7:60:57 on en0 ifscope [ethernet]`  
 Here you can see the local IP address of the Raspberry Pi is `10.0.0.32`.
 
-## Method 5: Fing app
+## Method 5: Using Fing app
 
-The Fing app is a free network scanner for smartphones. It is available for Android and iOS.
+The [Fing app](https://www.fing.com/app/) is a free network scanner for smartphones. It is available for Android and iOS.
 
 Your phone and your Raspberry Pi have to be on the same network, so connect your phone to the correct wireless network.
 
 When you open the Fing app, touch the refresh button in the upper right-hand corner of the screen. After a few seconds you will get a list with all the devices connected to your network. Scroll down to the entry with the name "treehouses". You will see the IP address in the bottom left-hand corner, and the MAC address in the bottom right-hand corner of the entry.
 
 ---
-#### Return to [First Steps](firststeps.md#Step_1_-_Installing_and_finding_your_Raspberry_Pi)
+
+#### Return to [First Steps](firststeps.md#Step_1_-_Installing_and_Finding_Your_Raspberry_Pi)
