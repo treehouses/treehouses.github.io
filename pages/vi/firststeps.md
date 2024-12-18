@@ -93,7 +93,7 @@ For technical questions not covered in the FAQ, in addition to contacting us on 
 
 ## Step 0 - Introductory Steps
 
-Follow the instructions in [Introductory Steps](introductory-steps.md) to watch the organization, join Discord, set up your environment, and learn Vi/Vim basics.
+Follow the instructions in [Introductory Steps](intro-steps.md) to watch the organization, join Discord, set up your environment, and learn Vi/Vim basics.
 
 ## Step 1 - Installing and Finding Your Raspberry Pi
 
