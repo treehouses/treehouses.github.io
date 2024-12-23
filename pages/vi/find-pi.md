@@ -91,13 +91,17 @@ You should see something like this:
 `? (10.0.0.32) at b8:27:eb:c7:60:57 on en0 ifscope [ethernet]`  
 Here you can see the local IP address of the Raspberry Pi is `10.0.0.32`.
 
-## Method 5: Using Fing app
+## Method 5: Using a Phone App
 
-The [Fing app](https://www.fing.com/app/) is a free network scanner for smartphones. It is available for Android and iOS.
+The [Fing app](https://www.fing.com/app/) is a free network scanner for smartphones, available for both Android and iOS. Alternatives for Android devices include [Vernet - Network Analyzer](https://play.google.com/store/apps/details?id=org.fsociety.vernet.store) and [Port Authority - Port Scanner](https://play.google.com/store/apps/details?id=com.aaronjwood.portauthority.free).
 
-Your phone and your Raspberry Pi have to be on the same network, so connect your phone to the correct wireless network.
+Ensure your phone and Raspberry Pi are connected to the same network by joining the correct wireless network on your phone.
 
-When you open the Fing app, touch the refresh button in the upper right-hand corner of the screen. After a few seconds you will get a list with all the devices connected to your network. Scroll down to the entry with the name "treehouses". You will see the IP address in the bottom left-hand corner, and the MAC address in the bottom right-hand corner of the entry.
+To use the Fing app:
+1. Open the app and tap on the "Scan my network" button in the upper-right corner of the screen.
+2. After a few seconds, you'll see a list of devices connected to your network.
+3. Scroll down and locate the entry labeled "treehouses."
+4. The IP address will appear in the bottom left corner, and the MAC address in the bottom right corner of the entry (if the MAC address is not in the app's known vendor database.)
 
 ---
 
