@@ -52,7 +52,7 @@ The following hardware components are required for the Systems Engineering Virtu
   - **Operating System:** Android 9 ("Pie") or newer
   - If you don’t already own one, consider asking friends or family if they have an old Android phone they no longer use.
 
-  **NOTE:** You can purchase a Raspberry Pi from an [Approved Reseller](https://www.raspberrypi.com/resellers/?q=&country=1&forHome=1#United%20States). Some resellers offer starter kits that include a power supply, SD card, case, heat sink, and more. Alternatively, you can look for discounts on platforms like Amazon, Best Buy, or eBay.
+  **NOTE:** You can purchase a Raspberry Pi from an [Approved Reseller](https://www.raspberrypi.com/resellers/?q=&country=1&forHome=1). Some resellers offer starter kits that include a power supply, SD card, case, heat sink, and more. Alternatively, you can look for discounts on platforms like Amazon, Best Buy, or eBay.
 
 ### Optional Hardware
 
