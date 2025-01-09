@@ -137,4 +137,4 @@ root@treehouses:~#
 You can find instructions on Code and Syntax Highlighting [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code-and-syntax-highlighting)
 
 ---
-#### Return to [First Steps](firststeps.md#Step_2_-_Use_SSH_and_Tor_to_remotely_control_your_Raspberry_Pi)
+#### Return to [First Steps](firststeps.md#Step_2_-_Remotely_Connect_to_Your_Raspberry_Pi_Using_SSH_and_Tor)

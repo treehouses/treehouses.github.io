@@ -103,9 +103,9 @@ This step is divided into three sections:
 2. [Using the Treehouses Remote App](treehouses-remote.md)
 3. [Finding the Raspberry Pi on Your Local Network](find-pi.md)
 
-## Step 2 - Use SSH and Tor to Remotely Control Your Raspberry Pi
+### Step 2 - Remotely Connect to Your Raspberry Pi Using SSH and Tor
 
-The Systems team uses SSH (Secure Shell) to securely and remotely control the Raspberry Pis we work with.  SSH works by providing an admin protocol that allows users to control and modify their remote servers over the Internet.  Follow the [Raspberry Pi SSH  & Tor Tutorial](sshpi.md) to learn how.
+The Systems team uses [SSH (Secure Shell)](https://simple.wikipedia.org/wiki/Secure_Shell) to securely log into and manage the Raspberry Pi remotely. Follow the [Raspberry Pi SSH & Tor Tutorial](sshpi.md) to learn how to set it up.
 
 ## Step 3 - Markdown and Fork Tutorial
 
