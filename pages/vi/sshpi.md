@@ -1,120 +1,84 @@
-# SSH Tutorial
+# SSH & Tor Tutorial
 
 ## Objectives
 
-* Set up your SSH key
-* Log into your Pi with Root
-* Set up Tor
+- Set up your SSH key
+- Log into your Pi as `pi` and `root` user
+- Set up Tor
 
+## SSH Key
 
-### Create your SSH key
+1. Follow the guide at [Checking for existing SSH keys - GitHub Docs](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/checking-for-existing-ssh-keys#checking-for-existing-ssh-keys) to ensure you have an existing SSH key on your work machine (not the Raspberry Pi).
+   - If you don't have an existing SSH key, follow the instructions at [Generate a new SSH key and add it to the ssh-agent - GitHub Docs](https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent). Make sure the new key is protected by a passphrase.
+   - **Note**: Do not confuse the SSH private key, SSH public key, and key fingerprint. SSH keys are stored in the `~/.ssh` directory, where you'll find private keys like `id_dsa`, `id_rsa`, or `id_ed25519` and their corresponding `.pub` public key files. The fingerprint is a cryptographic hash of the public key used for verification.
+2. Visit `https://github.com/<YourUsername>.keys` in your browser to check if your SSH public key(s) are listed. If not, follow the guide at [Adding a new SSH key to your GitHub account](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account).
 
-Follow these steps to create your SSH key:
-- [Generate a new SSH key and add it to the ssh-agent](https://help.github.com/en/articles/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)  
-- [Add the SSH key to your GitHub account](https://help.github.com/en/articles/adding-a-new-ssh-key-to-your-github-account)
+## Log In as the Pi User
 
-**NOTE**: With `cat ~/.ssh/id_rsa*` you can check your SSH key pair. Both parts (private and public) of your recently created SSH key should show up. Please be sure that your (private) key is protected by a passphrase and has been created on your computer; **not** on the Raspberry Pi.
+1. Ensure your Raspberry Pi is powered on and that you have its [local IP address](find-pi.md) from the previous step.
+2. In your Terminal or Git Bash, run:
+   `ssh pi@<RPi local IP address>`
+3. When connecting for the first time, you will be prompted to accept the RSA key fingerprint. Type `yes` to continue.
+   - **Note**: After flashing a new Raspberry Pi image, you may need to update your `known_hosts` file for SSH to connect successfully. For troubleshooting and instructions on removing outdated host keys, refer to [FAQ #TQ2](faq.md#TQ2:_What_should_I_do_if_I_encounter_Host_key_verification_failed?).
+4. The default password for the `pi` user is `raspberry`. Once logged in, run `passwd` to set a stronger password.
 
-A trick to whether github is configured correctly is to navigate to `https://github.com/<yourgithubusername>.keys` in a browser - your public SSH key should show up there.
+### Add SSH Key to Raspberry Pi
 
-**NOTE**: Be sure not to confuse the public SSH key and the key fingerprint. The fingerprint of a key is unique and used to identify the key. 
+The treehouses image includes the [treehouses/cli](https://github.com/treehouses/cli) tool, which offers several methods for adding your public key to the `root` user's `authorized_keys` file. Use one of the following commands:
 
-SSH keys are stored in a `~/.ssh` directory. You will need to find a set of files looking like `id_dsa` or `id_rsa` (your private key or key fingerprint) and a complimentary `.pub` file (your public key).
-This is the key fingerprint format: `SHA256:PqNGgIJfgjnoq9JMd2czLPAevkAzr4OIKb22GxMZg1M dogi@ole.org`.
-However, the public keys are similar to this: 
-```
-$ cat ~/.ssh/id_rsa.pub
-ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEArMkyotKz1J5+Kux3ToBNe+X3Qm+6WzTXflEEeOWdmxDZ5f5le7Ujes81ybRnavWSNR2TGr1evigE7vGsxHm2aEeR0YICWR24lPcJ2FUROmEdwn2OjDzh1YcKJDNvlMzXt1x0dNeEkSisHpk6p5RJ7OfCtyD/OjKhGyajbxS/n3RDSMgND46M7AiiaaIzlut3D09Gyhd93t16NTyR9Ej1RRRk8z9of3qLwhC1AqVJpSkuWn9+q111AfljsVZCHHDLw0+j7NIntk5x+yzrl2QQECNEaPpm1Pt4gmLG2nnrNjPAtrjWIfyWfhdSbgk/QscAE2XpCYoSFBW9d8bdIVMfSw== dogi@ole.org
-```
+- If your Raspberry Pi is connected to the internet, run:
+  `sudo treehouses sshkey github adduser <YourGitHubUsername>`
+  This will add the public keys associated with your GitHub account.
 
-### Log in with the Pi user
+- If your Raspberry Pi is not connected to the internet, run:
+  `sudo treehouses sshkey add <YourPublicKey>`
+  Replace `<YourPublicKey>` with the content of your public key file.
 
-Once you start up your Raspberry Pi and find its **local IP address**, you can connect to it from your computer using your Terminal. Windows users should use Git Bash.  
+### Log In as the Root User
 
-Run the following:  
-`ssh pi@[local IP address]`
+With your public key added in the previous step, you can log in to your Raspberry Pi as the `root` user without a password by running the following command:
+`ssh root@[RPi local IP address]`
 
-When you connect through SSH for the first time, you will be prompted to accept the RSA key fingerprint, type “yes” to continue.  The Pi user's default password is "raspberry".  You should see something like this:
-```bash
-$ ssh pi@192.168.0.101
-The authenticity of host '192.168.0.101 (192.168.0.101)' can't be established.
-ECDSA key fingerprint is SHA256:BzmwLK14V/EVa0m/0/SYFtGM/60zm7mFe5vVCWAxqe4.
-Are you sure you want to continue connecting (yes/no)? yes
-Warning: Permanently added '192.168.0.101' (ECDSA) to the list of known hosts.
-Enter passphrase for key '/Users/username/.ssh/id_rsa':
-Linux treehouses 4.19.58-v7+ #1245 SMP Fri Jul 12 17:25:51 BST 2019 armv7l
+### Rename Pi by GitHub Name
 
-The programs included with the Debian GNU/Linux system are free software;
-the exact distribution terms for each program are described in the
-individual files in /usr/share/doc/*/copyright.
-
-Debian GNU/Linux comes with ABSOLUTELY NO WARRANTY, to the extent
-permitted by applicable law.
-Last login: Thu Aug 15 03:24:59 2019 from 192.168.0.100
-
-SSH is enabled and the default password for the 'pi' user has not been changed.
-This is a security risk - please login as the 'pi' user and type 'passwd' to set a new password.
-
-pi@treehouses:~ $
-```
-**NOTE**: Every time you use a new image on your RPI, the `known_hosts` file must be updated for ssh to connect without an error. Instructions can be found on the [FAQ](https://treehouses.io/#!pages/vi/faq.md) page.
-
-### Add SSH key to the Raspberry Pi
-
-To add your SSH key to your Raspberry Pi you first need to copy your public key. Since you copied this same key to github already, you can see it by navigating with your browser to `https://github.com/<yourgithubusername>.keys` or by running Linux/macOS from command line you can run `wget -O- -q https://github.com/<yourgithubusername>.keys`.
-
-Now you can add the public key to run: `sudo treehouses sshkey add "your SSH key"` (copy-paste your SSH key in between the quotes) or just `sudo treehouses sshkey github adduser <yourgithubusername>`.
-
-In the future on SSH login it will ask you for your sshkey passphrase whereas before it, used the default password for pi user "raspberry".
-
-**NOTE**: The above step must be done in order to log in as `root` user during SSH session. Not doing so may leave vulnerabilities and security issues open for your Raspberry Pi.
-
-### Log in by Root
-
-To log into root, you can run `sudo -s` while logged into the Pi user, or with the keys over SSH directly into it by running `ssh root@[local IP address]` instead of `ssh pi@[local IP address]`.
-
-### Rename Pi by Github Name
-
-To rename your Raspberry Pi, run `treehouses rename "username"` and replace `username` with your Github username.
+To rename your Raspberry Pi, run `treehouses rename <YourGitHubUsername>` and replace `<YourGitHubUsername>` with your Github username.
 
 ## Tor
-Tor is a computer network run by volunteers worldwide. Each volunteer runs what is called a relay, which is just a computer that runs software allowing users to connect to the Internet via the Tor network.
 
-Before hitting the open Internet, the Tor Browser will connect to several different relays, wiping its tracks each step of the way, making it difficult to figure out where, and who, you really are.
+Tor is a global volunteer-run computer network. Volunteers operate relays—computers running software that allows users to connect to the internet via the Tor network.
 
-The Systems Team utilizes this tool to provide a further layer of security when interacting with the Raspberry Pis deployed in the field.
+Before accessing the open internet, the Tor Browser connects through several relays, anonymizing your connection at each step. This process makes it difficult to determine your location or identity.
 
-Please start by watching this [video](https://www.youtube.com/watch?v=6czcc1gZ7Ak) about the Tor browser.
+The Systems Team uses this tool to add an extra layer of security when interacting with Raspberry Pis deployed in the field.
 
-### Get Tor
+Start by watching this [video](https://www.youtube.com/watch?v=6czcc1gZ7Ak) about the Tor browser.
 
-#### macOS
+### Get Tor Browser
 
-You should already have [Homebrew](https://brew.sh) installed.  You can check if it's already installed by running `brew -v` in your terminal.  If you haven't yet installed it, run the following:
-```
-/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
-brew install wget cask
-```
-
-Then, install Tor and Tor Browser:
-```
-brew install tor
-brew cask install tor-browser
-```
-
-#### Windows & Linux
-
-Install [Tor](https://www.torproject.org/download/)
-
+[Download Tor Browser](https://www.torproject.org/download/) or run `brew install --cask tor-browser` if you are on macOS.
 
 ### Turn on Tor
 
-To activate Tor, SSH into your Raspberry Pi with `root`, and run `treehouses tor add 22`, `treehouses tor add 80`, and `treehouses tor notice on`.  To view the Tor address of your Pi, run `treehouses tor`, then copy-paste this address into your Tor Browser, to make sure it works; you should see a configuration page for Planet Learning, one of our other services.
+[treehouses/cli](https://github.com/treehouses/cli) comes with some useful tor utilities, to learn more about all treehouses/cli commands, run `treehouses help tor`.
 
----
-#### At the end of this section, post the code of your successful SSH terminal to the [Discord #seednest channel](https://discord.com/channels/1079980988421132369/1081433296333963274)
+SSH into your Raspberry Pi as the `root` user,
 
-It may look like this:
+```
+# TODO: details...
+treehouses tor add 22
+treehouses tor add 80
+treehouses tor notice on
+treehouses tor
+```
+
+run `treehouses tor add 22`, `treehouses tor add 80`, and `treehouses tor notice on`.  To view the Tor address of your Pi, run `treehouses tor`, then copy-paste this address into your Tor Browser, to make sure it works; you should see a configuration page for Planet Learning, one of our other services.
+
+## Keep Us in the Loop
+
+Please copy and paste the content of your successful SSH connection from Terminal or Git Bash to the [Discord #seednest channel](https://discord.com/channels/1079980988421132369/1081433296333963274).
+
+It should look something like this:
+
 ```
 ssh root@192.168.0.101
 The authenticity of host '192.168.0.101 (192.168.0.101)' can't be established.                                                                                                                                                    
@@ -134,7 +98,4 @@ root@treehouses:~#
 
 ---
 
-You can find instructions on Code and Syntax Highlighting [here](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code-and-syntax-highlighting)
-
----
 #### Return to [First Steps](firststeps.md#Step_2_-_Remotely_Connect_to_Your_Raspberry_Pi_Using_SSH_and_Tor)
