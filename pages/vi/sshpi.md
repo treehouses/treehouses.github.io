@@ -63,19 +63,27 @@ Start by watching this [video](https://www.youtube.com/watch?v=6czcc1gZ7Ak) abou
 
 SSH into your Raspberry Pi as the `root` user,
 
-```
-# TODO: details...
+<!-- TODO: tor notice is still notifying gitter, after cli updated notify to discord then put it back -->
+
+<!-- ```
+# notify us that your tor setup is online
+treehouses tor notice on
+``` -->
+
+```bash
+# add ports to expose to tor service
 treehouses tor add 22
 treehouses tor add 80
-treehouses tor notice on
+
+# show tor address
 treehouses tor
 ```
 
-run `treehouses tor add 22`, `treehouses tor add 80`, and `treehouses tor notice on`.  To view the Tor address of your Pi, run `treehouses tor`, then copy-paste this address into your Tor Browser, to make sure it works; you should see a configuration page for Planet Learning, one of our other services.
+Copy and paste your tor address into your Tor Browser, to make sure it works; you should see a configuration page for Planet Learning, one of our other services.
 
 ## Keep Us in the Loop
 
-Please copy and paste the content of your successful SSH connection from Terminal or Git Bash to the [Discord #seednest channel](https://discord.com/channels/1079980988421132369/1081433296333963274).
+Please copy and paste the content of your successful SSH connection from Terminal or Git Bash to our Discord server's [#seednest channel](https://discord.com/channels/1079980988421132369/1081433296333963274) and let us know how the Tor setup went.
 
 It should look something like this:
 
