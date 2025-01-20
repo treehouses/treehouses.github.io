@@ -75,7 +75,7 @@ You should check if the following conditions are met:
 * [x] no merge conflicts
 * [x] commits are associated with GitHub account
 
-When you comment / review an issue or pull request, message those involved on the [Gitter chat](https://gitter.im/treehouses/Lobby) with a link to the issue / pull request. Also, if you find any issue that must be addressed with another commit, do not forget to use the `Request changes` option when creating your review.
+When you comment / review an issue or pull request, message those involved on the project's related Discord channel with a link to the issue / pull request. Also, if you find any issue that must be addressed with another commit, do not forget to use the `Request changes` option when creating your review.
 
 ### Merging a Pull Request
 
@@ -90,7 +90,7 @@ When you are ready to merge the pull request:
   * An example of good commit title is: "update vi-configuration.md (fix #1530) (#1557)", where "1530" is the issue number and "1557" is pull request number
   * Read more about [closing Issues using keywords](https://help.github.com/articles/closing-issues-using-keywords/)
 
-Every time you merge a pull request, message the author on [Gitter chat](https://gitter.im/treehouses/Lobby), make sure you include a link to the pull request and commit id.
+Every time you merge a pull request, message the author on the project's related Discord channel, make sure you include a link to the pull request and commit id.
 
 ## Form a Working Routine and Schedule
 
@@ -98,7 +98,7 @@ Every time you merge a pull request, message the author on [Gitter chat](https:/
 
 While you are free to work in your own style, we recommend you follow this basic daily routine:
 
-* Check Gitter interns room and your Gitter private messages
+* Check our Discord server and your Discord direct messages
 * Join the [OLE Google Hangouts session](http://talk.ole.org) if you are able to, so you can follow what everyone is working on and get help fast
 * Review any issues or pull requests that have been added or changed on [treehouses.io](https://github.com/treehouses/treehouses.github.io) since last time you reviewed
 * Work on your issues and write in the intern chat any time you run into problems
@@ -129,4 +129,4 @@ Please subscribe to our calendar:
 
 ## Communicate, Communicate, Communicate!
 
-It’s not good to go silent on Gitter or any other forms of communication. If you are ever unsure of what to work on, or cannot work for any other reason, please talk to us in the Gitter chat. It's better that we know why you aren’t able to do anything than to imagine reasons ourselves. Remember, the more you put into this internship, the more you will get out of it. It may take a while to get used to the fact that you will need a good amount of self-discipline and initiative to get anything done in a remote internship, but we are here to help, so take advantage of it!
+It’s not good to go silent on Discord or any other forms of communication. If you are ever unsure of what to work on, or cannot work for any other reason, please talk to us on our Discord server. It's better that we know why you aren’t able to do anything than to imagine reasons ourselves. Remember, the more you put into this internship, the more you will get out of it. It may take a while to get used to the fact that you will need a good amount of self-discipline and initiative to get anything done in a remote internship, but we are here to help, so take advantage of it!

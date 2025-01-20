@@ -12,7 +12,7 @@
   * [**Introduction / First Steps**](pages/vi/firststeps.md)
   * [FAQ](pages/vi/faq.md)
   - - - -
-  * [Step 0 - Introductory Steps](pages/vi/firststeps.md#Step_0_-_Introductory_Steps)
+  * [Step 0 - Introductory Steps](pages/vi/intro-steps.md)
   * [Step 1 - Installing and finding your Raspberry Pi](pages/vi/firststeps.md#Step_1_-_Installing_and_Finding_Your_Raspberry_Pi)
   * [Step 2 - SSH Tutorial](pages/vi/sshpi.md)
   * [Step 3 - Markdown and Fork Tutorial](pages/vi/githubandmarkdown.md)
@@ -34,9 +34,9 @@
 
   * [**Introduction**](pages/docs/chat.md)
   - - - -
-  * [General Chat (Open to Public)](https://gitter.im/treehouses/Lobby)
-  * [Virtual Interns](https://gitter.im/open-learning-exchange/interns)
-  * [RaspberryPi](https://gitter.im/open-learning-exchange/raspberrypi)
+  * [Discord Chat (Open to Public)](https://discord.gg/NdrumrSNSA)
+  * [Discord - Virtual Interns Lounge](https://discord.com/channels/1079980988421132369/1229436065090371616)
+  * [RaspberryPi](https://discord.gg/NdrumrSNSA)
 
 <!-- System Manual -->
 

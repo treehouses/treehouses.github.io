@@ -1,114 +1,117 @@
-# First Steps
+# First Steps – Systems Engineering Virtual Intern
 
-# The Big Picture
+## The Big Picture
 
-Welcome to the first steps for becoming a Systems Engineering Virtual Intern at OLE! After completing these steps, you will be working on OLE’s project, treehouses. These first steps are a process to prove that you have learned the foundational skills before you can progress to working on harder projects with larger teams. Consider this to be the interview for the internship.
+Welcome to the first steps for becoming a Systems Engineering Virtual Intern at OLE! We treat these first steps as a vetting process to prove that you can follow simple instructions before you can progress to working on harder projects in bigger teams. Consider this to be the interview for the internship.
 
-If you are selected for the internship after completing the steps, you will be officially invited to join the OLE interns team! We’ll add you to the Virtual Interns Gitter chatroom and assign you to a specific team to work on developing and improving OLE’s software.
+If you are selected for the internship after completing the steps, you will be officially invited to join the OLE systems engineering interns team! We’ll add you to relevant Discord channels and assign you to a specific team to work on developing and improving OLE’s **[treehouses](https://github.com/treehouses)** software, which directly supports the deployment of OLE's [planet](https://github.com/open-learning-exchange/planet) and [myPlanet](https://github.com/open-learning-exchange/myplanet) app.
 
-Once accepted, you and your team will work on an assignment, and we’ll switch up the assignments each week. As part of this internship, you will have the opportunity to work with software and languages including **[Git](https://git-scm.com/)**, **[GitHub](https://github.com/)**, **[Markdown](https://daringfireball.net/projects/markdown/syntax)**, **[Command Line/Terminal Scripts](https://www.codecademy.com/articles/command-line-commands)**, **[Vim](https://www.vim.org/)**, and **[Docker](https://www.docker.com/).** Furthermore, you will be able to learn and practice your skills in using **[Raspberry Pi Hardware](https://raspberrypi.org)**.
+During this internship, you will have the opportunity to work with various software, tools, and technologies, including **[Git](https://git-scm.com/)**, **[GitHub](https://github.com/)**, **[Markdown](https://daringfireball.net/projects/markdown/)**, **[Command Line](https://www.codecademy.com/articles/command-line-commands)**, **[Bash/Shell](https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29)**, **[Vim](https://www.vim.org/)**, and **[Docker](https://www.docker.com/)**. Furthermore, you will be able to learn and practice your skills in using **[Raspberry Pi Hardware](https://www.raspberrypi.com/products/)**.
 
-The goal of OLE is to provide educational infrastructure to learners and educators in remote areas of the globe. The Raspberry Pi is used in pursuit of this goal to provide a cost-effective means by which devices can access educational resources.  We aim to provide a stable system that is widely accessible by numerous devices and operating systems.  This equipment will be deployed in the field with little or no access to the internet, so its reliability is of paramount importance.
+OLE's goal is to provide educational infrastructure to learners and educators in remote areas around the world. To support this mission, we use Raspberry Pi devices as a cost-effective solution for delivering access to educational resources. Our objective is to create a stable system that is widely compatible with various devices and operating systems. Since this equipment is often deployed in areas with limited or no internet access, ensuring its reliability is absolutely critical.
 
+**NOTE**: This is an unpaid, intensive internship requiring a minimum commitment of 24 hours per week for at least 3 months. Additional details about the internship can be found in our [FAQ](faq.md#General_Internship_Questions). If you have further questions, feel free to ask in our Discord server's #seednest channel!
 
-**NOTE:** This is an unpaid but intensive internship that requires 16 hours of work each week. More information about the internship can be found in our [FAQ](faq.md#General_Internship_Questions). If you have further questions, don’t hesitate to ask other members in the Gitter [chat](https://gitter.im/treehouses/Lobby)!
+## Prerequisites
 
-# Pre-Requisites
+### Required Hardware
 
-## Required Prerequisites
-The following are the required hardware components that will be needed as part of the Virtual Intern placement. Software solutions such as containers are used by the Treehouses team to ensure that the solutions we develop work across computers and locations. However, as part of the Systems team, you will need some basic hardware of your own to make sure you can run, test and contribute to the software that the team is developing.
+The following hardware components are required for the Systems Engineering Virtual Internship at OLE. While the treehouses team utilizes software solutions such as containers to ensure our projects work across different computers and locations, as a member of the Systems team, you will need some basic hardware of your own. This will enable you to run, test, and contribute to the software that the team is developing.
 
-### Hardware requirements:
+1. **Raspberry Pi 4 or Newer**
+  - ✅ [Raspberry Pi 5 (minimum 2GB RAM)](https://www.raspberrypi.com/products/raspberry-pi-5/)
+  - ✅ [Raspberry Pi 4 (minimum 2GB RAM)](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/)
+  - ⚠️ [Raspberry Pi Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/)
+     - Compatibility with our image still needs verification.
+     - Note: This model lacks an Ethernet port.
+  - ❌ Models released before 2019 (e.g., 3B/3B+) are no longer supported.
 
-1. Raspberry Pi 4 ([Pi 4 information](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/))
-  - Any amount of RAM will work, but more is better
-  - Raspberry Pi 3B/3B+ also work, but Pi 4 is recommended
-1. Power supply for the Pi
-  - Pi 4: minimum 3.0A, Standard USB-C port
-  - Pi 3B/3B+: minimum 2.5A, Micro USB port
-1. 3 microSD cards
-  - Minimum 16GB
-  - U1 or Class 10 required
-1. MicroSD card reader
-  - You will need a USB reader if your computer doesn't have an SD card slot
-1. Laptop or computer with minimum 8GB of RAM
-  - You will need a Wi-Fi adapter if you are using a desktop without Wi-Fi capabilities.
-1. Android device (phone or tablet)
-  - Memory (RAM): Minimum 2GB
-  - Operating System:
-    * Minimum: Android 6 "Marshmallow"
-    * Recommended: Android 8 "Oreo"
+2. **Power Supply for Raspberry Pi**
+  - Ensure the power supply is compatible and provides sufficient current.
+  - [Details on recommended power supplies](https://www.raspberrypi.com/documentation/computers/getting-started.html#power-supply).
 
-  **NOTE:** You can purchase all of these components together for your convenience (or if there are discounts) on places such as Amazon, eBay, etc...
+3. **MicroSD Cards**
+  - Quantity: 3
+  - Capacity: Minimum 32GB
+  - Speed: U1/Class 10 or better
+  - [More details on SD cards](https://www.raspberrypi.com/documentation/computers/getting-started.html#recommended-sd-cards).
 
-## Optional Hardware
-There are also "optional" pieces of hardware that you can choose to purchase should you choose to, these are not compulsory for participation in the internship but may greatly assist you in developing your skills and contributing to the project.
+4. **MicroSD Card Reader**
+  - Required if your computer lacks an SD card slot.
 
-1. Ethernet cable - For Direct connection and troubleshooting of the Pi
-1. [Real Time Clock (rtc)](https://www.amazon.com/s?k=raspberry+pi+rtc)
-1. [Raspberry Pi 0W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/)
-1. Raspberry pi Camera(s):
-  - [Raspberry Pi Camera](https://www.raspberrypi.org/products/camera-module-v2/)
-  - [Raspberry Pi Night Vision Camera](https://www.raspberrypi.org/products/pi-noir-camera-v2/)
-  - [generic Raspberry Pi 5 Megapixel Camera](https://www.amazon.com/AuviPal-Megapixels-Raspberry-Camera-Module/dp/B07PQ63D2S/)
+5. **Ethernet cable**
+  – For direct connection and troubleshooting of the Pi without Wi-Fi
+  – An available Ethernet port on your router/switch will also be required
+
+6. **Laptop or Computer**
+  - RAM: Minimum 8GB (16GB preferred)
+  - If using a desktop without built-in Wi-Fi, a Wi-Fi adapter is required.
+
+7. **Android Device or Chromebook**
+  - **RAM:** Minimum 3GB
+  - **Operating System:** Android 9 ("Pie") or newer
+  - If you don’t already own one, consider asking friends or family if they have an old Android phone they no longer use.
+
+  **NOTE:** You can purchase a Raspberry Pi from an [Approved Reseller](https://www.raspberrypi.com/resellers/?q=&country=1&forHome=1). Some resellers offer starter kits that include a power supply, SD card, case, heat sink, and more. Alternatively, you can look for discounts on platforms like Amazon, Best Buy, or eBay.
+
+### Optional Hardware
+
+There are also optional hardware components you may choose to purchase. While these are not required for participation in the internship, they can further help you develop your skills and contribute to the project. Once you have completed the First Steps and officially become an intern, feel free to reach out to us for guidance and to explore potential additional projects utilizing these hardware components.
+
 1. USB keyboard, mouse, monitor, and HDMI cable
+1. [Real Time Clock (RTC)](https://www.amazon.com/s?k=raspberry+pi+rtc)
+1. [Raspberry Pi Zero 2 W](https://www.raspberrypi.com/products/raspberry-pi-zero-2-w/)
+1. [Raspberry Pi Camera](https://www.raspberrypi.com/products/#cameras-and-displays)
 
-[Useful link for Rapberry Pi set up](https://www.youtube.com/watch?v=-9V4EpNNR6k)
+## The Steps
+
+Social coding is a huge part of any open source and collaborative project, and the Open Learning Exchange (OLE) is no different. In the following series of steps, you will learn about Markdown, Docker, Bash, Vim, Git, GitHub, GitHub issues, GitHub pull requests, etc.
+
+**These steps may seem simple, but we expect high-quality work, which may require additional time. We want to see that you can effectively use — or learn to use — these tools, including writing clear GitHub issues, using basic Git commands, creating proper pull requests, and working with Docker. Simply following the steps is the bare minimum; we encourage you to read more about the tools and languages we use to deepen your understanding and address any confusion. Treat these steps as valuable learning opportunities!**
+
+Take the opportunity to read more about the tools and languages we use to deepen your understanding and reduce confusion. **Treat these steps as learning opportunities!** The GitHub and Markdown skills you practice in first steps are crucial for both this internship and a future career in software development.
+
+The MDwiki offers plenty of resources to help you complete these steps. You may find a list of useful links at the end of each step. :)
+
+**We also would like you to keep us regularly updated in our Discord server's `#seednest` channel as you complete these steps. We will ask you to send messages, links, and screenshots along the way, which will keep us informed of your progress. Please make sure not to miss this.**
+
+A significant part of these steps is identifying problems or suggesting improvements for this MDwiki. As you complete the steps, take note of any issues you encounter or ideas for enhancements. This helps improve the MDwiki and these steps for future interns.
+
+While there's no official deadline for completing these steps, most successful candidates finish them within 7-8 days. Good luck!
+
+## FAQ - Frequently Asked Questions
+
+**[Our FAQ page](faq.md)** is a comprehensive resource containing answers to common questions about the internship and First Steps. It also features additional helpful links and video tutorials aimed at familiarizing you with the tools and languages integral to our work.
+
+If you have general internship inquiries and can't find the information you need on the FAQ page, please don't hesitate to reach out to us via Discord. Try to avoid DMs as others might have the same question!
+
+For technical questions not covered in the FAQ, in addition to contacting us on Discord, Google, Stack Exchange, and ChatGPT serve as excellent supplementary resources to explore. :)
 
 ---
 
-# The Steps
-
-Social coding is a huge part of any open source and collaborative project, and [treehouses](https://github.com/treehouses) is no different. In the following series of steps, you will learn about Markdown, Docker, Bash, Vim, Git, GitHub, GitHub issues, and GitHub pull requests.
-
-Because these steps are simple, we expect high-quality work, which may take a longer time. We want to see that you are capable of using or learning how to use these tools (writing good GitHub issues, creating pull requests, using Markdown and Docker, etc.). These steps may seem easy, but we want you to impress us with good GitHub etiquette and quality Markdown. The bare minimum would be to just passively follow the steps; you should do further reading about the tools/languages we use so you can further your understanding and relieve confusion if you're unclear about how something works. **Treat these steps as learning opportunities!** The GitHub and Markdown skills you practice here are very important for both this internship and a future software development career.
-
-The MDwiki has plenty of resources to help you complete the steps. There is a list of useful links at the end of each step. We also created a [FAQ page](faq.md) where you can find the answers to some commonly asked questions. This page has even more [useful links and video tutorials](faq.md#Helpful_Links) that will help you become familiar with the tools/languages we use. For anything that is not on the FAQ page, Google and Stack Exchange are your friends :)
-
-**We also want you to keep us updated on a relatively good amount in the [Gitter chat](../chat.md) as you complete these steps. We will ask you to send us messages, links, and screenshots along the First Steps, and we will use this to track your progress, so please do not forget to do so.**
-
-A very large part of these steps is finding problems with these steps and this MDwiki, so take note of any issues that you run into or suggestions for improvement while doing these steps.
-
-There is no official deadline to complete these steps, but most candidates who are approved for the internship program finished the steps within 7-8 days. Good luck!
-
-
 ## Step 0 - Introductory Steps
 
-1. Complete the [New Virtual Intern Application form](http://apply.treehouses.io). If you have already done this after being invited to join the team then good job, you're all set!
-
-2. Log into your [GitHub account](https://github.com/) then watch [treehouses.github.io repo](https://github.com/treehouses/treehouses.github.io) and Follow [Dogi](https://github.com/dogi), [Ryan](https://github.com/indepthh), [Vassilis](https://github.com/vers4ce), [Roshan](https://github.com/rrijal53), [Sam](https://github.com/Liew211), [Samuel](https://github.com/samuelchen1213) and [Arran](https://github.com/ArranHL) on GitHub.
-
-In GitHub, we "[Watch](https://help.github.com/en/articles/watching-and-unwatching-repositories)" organization repositories and ["Follow"](https://help.github.com/en/articles/following-people) individuals. Look for the "Watch" button at the top right of the page when you are in a repository.  Also, follow each other to see what others in the group are doing. (Click on the image to enlarge.)   
-
-### Setting up your environment
-
-We interact with the Raspberry Pi via a command terminal, which is natively available for both Mac and Linux based systems. However, if you are on a Windows device, [Git Bash](https://git-scm.com/download/win) is highly recommended.
-
-### Working with Vi & Vim
-
-One of the most simple but most powerful text editors out there is Vim. If you want to see what Vim can do and how powerful it can be, you can learn more about Vim [here](https://danielmiessler.com/study/vim/#textobjects). Vim is not necessary for this internship but it is truly helpful when working on the Raspberry Pi not to have to download and install other text editors.
-
-**NOTE:** You can skip ahead to Step 3 while you are waiting for your Raspberry Pi to come in the mail.
+Follow the instructions in [Introductory Steps](intro-steps.md).
 
 ## Step 1 - Installing and Finding Your Raspberry Pi
 
-There are 3 sections in this step:
-1. [Setting up your Raspberry Pi](pi-setup.md)
-2. [Using treehouses Remote](treehouses-remote.md)
-3. [Finding your Pi](find-pi.md)
+**NOTE:** You can skip ahead to Step 3 if you are waiting for your Raspberry Pi to come in the mail.
 
+This step is divided into three sections:
 
-## Step 2 - Use SSH and Tor to Remotely Control Your Raspberry Pi
+1. [Setting Up Your Raspberry Pi](pi-setup.md)
+2. [Using the Treehouses Remote App](treehouses-remote.md)
+3. [Finding the Raspberry Pi on Your Local Network](find-pi.md)
 
-The Systems team uses SSH (Secure Shell) to securely and remotely control the Raspberry Pis we work with.  SSH works by providing an admin protocol that allows users to control and modify their remote servers over the Internet.  Follow the [Raspberry Pi SSH  & Tor Tutorial](sshpi.md) to learn how.
+### Step 2 - Remotely Connect to Your Raspberry Pi Using SSH and Tor
 
-
+The Systems team uses [SSH (Secure Shell)](https://simple.wikipedia.org/wiki/Secure_Shell) to securely log into and manage the Raspberry Pi remotely. Follow the [Raspberry Pi SSH & Tor Tutorial](sshpi.md) to learn how to set it up.
 
 ## Step 3 - Markdown and Fork Tutorial
 
 Follow the instructions on [GitHub and Markdown](githubandmarkdown.md)
 
-Make sure that you've linked to your github.io and pull request in the [Gitter chat](https://gitter.im/treehouses/Lobby). Also, include the `raw.githack` link in your pull request `https://raw.githack.com/YourUserName/YourUserName.github.io/YourBranchName/#!pages/vi/profiles/YourUserName.md`
+Make sure that you've linked to your github.io and pull request in the [Discord #seednest channel](https://discord.com/channels/1079980988421132369/1081433296333963274). Also, include the `raw.githack` link in your pull request `https://raw.githack.com/YourUserName/YourUserName.github.io/YourBranchName/#!pages/vi/profiles/YourUserName.md`
 
 **NOTE**: The `raw.githack` link is case sensitive to your username.
 
@@ -140,11 +143,11 @@ Follow the directions at [Git Repositories](gitrepositories.md) to keep your use
 
 ## Step 6 - GitHub Issues Tutorial
 
-Follow the [GitHub Issues tutorial](github-issues.md) to create at least one issue. Post a link in [Gitter](https://gitter.im/treehouses/Lobby) whenever you create an issue or when you comment on someone else's issue. You are encouraged to post as many issues as you can for improving the page as well as for personal practice. No issue is too big or too small to be filed and it is OK if you are not sure how to fix it yourself. If you know how to solve an issue, be sure to provide a detailed account of your research and show how to fix it. It is ok to file an issue about minor typos and very small changes, but do not make this the case for all of the issues that you file. You can also work on issues that you didn't create.
+Follow the [GitHub Issues tutorial](github-issues.md) to create at least one issue. Post a link in [Discord #seednest channel](https://discord.com/channels/1079980988421132369/1081433296333963274) whenever you create an issue or when you comment on someone else's issue. You are encouraged to post as many issues as you can for improving the page as well as for personal practice. No issue is too big or too small to be filed and it is OK if you are not sure how to fix it yourself. If you know how to solve an issue, be sure to provide a detailed account of your research and show how to fix it. It is ok to file an issue about minor typos and very small changes, but do not make this the case for all of the issues that you file. You can also work on issues that you didn't create.
 
 Make sure you have created at least one issue, resolved it, commented on an issue you didn't create and have a pull request with the fix merged. You may continue making Issues, Pull requests and Comments, or move on to the next step, while you are waiting for your pull request to be merged. The approval process for your Step 6 fix may take time, but it is OK to continue working.
 
-**NOTE**: When posting a link in the Gitter, it may be helpful to tag the newest interns since they are likely the most active.
+**NOTE**: When posting a link in the Discord channel, it may be helpful to tag the newest interns since they are likely the most active.
 
 > Once you complete Step 6 you will have:
 
@@ -175,7 +178,7 @@ You should:
   * Get approval to work on the issues you have created. **Make sure someone from the System's team confirms that you should work on the issue BEFORE you start to work on it.**
 * Resolve the three issues by making the necessary changes in your repo with three separate pull requests.
 
-Just as your learning with this Wiki was made possible by the efforts of previous interns, now we turn to you to continue that tradition and help future interns take their First Steps. Through this step, you should try to further improve our Markdown Wiki, with better explanations, formatting fixes, and more! You must have made your pull requests and have them each approved by at least two other OLE team members/interns in order for it to be merged to the upstream repository. Just as before, announce your Pull Request on the Gitter chat so other members can review it. You may need to make some additional corrections. Learn by teaching - or editing our teaching tool, in this case!
+Just as your learning with this Wiki was made possible by the efforts of previous interns, now we turn to you to continue that tradition and help future interns take their First Steps. Through this step, you should try to further improve our Markdown Wiki, with better explanations, formatting fixes, and more! You must have made your pull requests and have them each approved by at least two other OLE team members/interns in order for it to be merged to the upstream repository. Just as before, announce your Pull Request on the Discord channel so other members can review it. You may need to make some additional corrections. Learn by teaching - or editing our teaching tool, in this case!
 
 **NOTE**: When you are fixing an issue, mention the issue number you are fixing in the title of your pull request and make a new branch for every new issue from the master branch.
 
@@ -189,7 +192,7 @@ Just as your learning with this Wiki was made possible by the efforts of previou
 
 ## Step 9 - Be Part of the Team
 
-Next thing is to post a screenshot of your completed progress to the Gitter chat room. Click [here](trackprogress.md) to find your completed progress.
-Message us ("@/all" and "@dogi") and ask about adding yourself to the virtual intern list found in [team.md](team.md) and setting up a meeting so you can become a part of the team as soon as possible.
+Next thing is to post a screenshot of your completed progress to the [Discord #seednest channel](https://discord.com/channels/1079980988421132369/1081433296333963274). Click [here](trackprogress.md) to find your completed progress.
+Message us ("@vi-systems" and "@dogi") and ask about adding yourself to the virtual intern list found in [team.md](team.md) and setting up a meeting so you can become a part of the team as soon as possible.
 
 Make sure to read through the [intern orientation document](orientation.md) before the meeting.

@@ -11,12 +11,14 @@
 - **Q7:** [If I'm an international student, how soon can I get my paperwork required by my visa?](#Q7:_If_I'm_an_international_student,_how_soon_can_I_get_my_paperwork_required_by_my_visa?)
 - **Q8:** [How many pull requests and issues in total do I need to make to finish the steps?](#Q8:_How_many_pull_requests_and_issues_in_total_do_I_need_to_make_to_finish_the_steps?)
 - **Q9:** [How long do I have to complete these steps?](#Q9:_How_long_do_I_have_to_complete_these_steps?)
+- **Q10:** [How can I keep track of 10 steps vetting progress?](#Q10:_How_can_I_keep_track_of_10_steps_vetting_progress?)
+- **Q11:** [When does the internship start?](#Q11:_When_does_the_internship_start?)
 
 ## Technical Questions
 
-- **Q10:** [What do I do if '&lt;YourUserName&gt;.github.io' is already in use?](#Q10:_What_do_I_do_if_'&lt;YourUserName&gt;.github.io'_is_already_in_use?)
-- **Q11:** [What if you encounter *Host key verification fail*?](#Q11:_What_if_you_encounter_Host_key_verification_fail?)
-- **Q12:** [Why can't I ssh into my Raspberry Pi after installing a new treehouses image?](#Q12:_Why_can't_I_ssh_into_my_Raspberry_Pi_after_installing_a_new_treehouses_image?)
+- **TQ1:** [What do I do if I already have a github.io with my username?](#TQ1:_What_do_I_do_if_I_already_have_a_github.io_with_my_username?)
+- **TQ2:** [What should I do if I encounter *Host key verification failed*?](#TQ2:_What_should_I_do_if_I_encounter_Host_key_verification_failed?)
+- **TQ3:** [What do I do if I have trouble with pairing with my RPi via Bluetooth?](#TQ3:_What_should_I_do_if_I_encounter_issues_pairing_with_my_Raspberry_Pi_via_Bluetooth?)
 
 ---
 
@@ -24,103 +26,118 @@
 
 #### Q1: What will I be working on during this internship?
 
-+ Virtual systems engineering interns will be helping develop OLE’s treehouses system. Treehouses allows us to share our different learning platforms via the Rasperry Pi series of single-board computer devices.
+- Systems Engineering Virtual Interns will contribute to developing OLE’s treehouses system. Visit the [treehouses](https://github.com/treehouses) organization on GitHub to explore our ongoing projects. Treehouses projects supports the development and deployment of OLE's [planet](https://github.com/open-learning-exchange/planet) and [myPlanet](https://github.com/open-learning-exchange/myplanet) apps.
 
 #### Q2: What kind of software will we be using for this internship?
 
-+ As a part of this internship, you will be working with software, languages, and hardware including  Git, GitHub, Markdown, Vagrant, VirtualBox, Command Line/Terminal, Command Line/Terminal Scripts, Vim, CouchDB, Docker, and Raspberry Pis.
+- During this internship, you will have the opportunity to work with various software, tools, and technologies, including [Git](https://git-scm.com/), [GitHub](https://github.com/), [Markdown](https://daringfireball.net/projects/markdown/), [Command Line](https://www.codecademy.com/articles/command-line-commands), [Bash/Shell](https://en.wikipedia.org/wiki/Bash_%28Unix_shell%29), [Vim](https://www.vim.org/), [CouchDB](http://couchdb.apache.org/), and [Docker](https://www.docker.com/). Furthermore, you will be able to learn and practice your skills in using [Raspberry Pi Hardware](https://www.raspberrypi.com/products/).
 
 #### Q3: Where can I find more information about this internship?
 
-+ More information about the internship can be found at the Virtual Software Engineer Intern listing [here](https://www.indeed.com/cmp/Open-Learning-Exchange,-Inc./jobs).
+- More information about the internship can be found at the OLE's Virtual Software Engineer Intern listing on your university's Handshake site or [Wellfound](https://wellfound.com/company/open-learning-exchange/jobs).
 
 #### Q4: What are the hours of the internship?
 
-+ This is an intensive internship that requires 16 hours of work each week. Work with your fellow interns and keep us updated in the [Gitter chat](https://gitter.im/treehouses/Lobby).
-+ The reason we have a 16 hour minimal commitment per week is that things are moving forward quickly and it might be hard for virtual interns to catch up with changes. Basically, we would have a few hours of Google Hangout sessions per week where everyone shares their screen, discusses problems, and works on issues together. Then the rest of the time is for catching up with the changes and working on issues assigned.
+- This is an intensive internship requiring 24 hours of work per week for at least 3 months.
+- The 3-month commitment is necessary because the onboarding process typically takes 2–4 weeks, leaving about 2 months for productive work. During the final month, you should think about passing along your knowledge to newer interns.
+- The 24-hour minimum commitment per week is necessary due to the fast-paced nature of our work, which can make it challenging for virtual interns to stay up to date. We host a Google Meet virtual office from Monday to Friday, approximately 5 AM to 5 PM US Eastern Time. During this time, you can hear about ongoing projects, share your screen, ask questions, discuss challenges, and collaborate on issues. While some tasks can be done offline and outside of the virtual office—especially during unstaffed hours—we generally expect you to be present there for most of your work time. If you find the virtual office too distracting, please discuss this with us.
 
 #### Q5: Is this a paid internship?
 
-+ This position is unpaid, but it will provide a diverse range of experiences in the workplace. We can provide a certificate of completion, upon request. Also, academic credit can be provided through your institution (if applicable).
+- This is an unpaid position but offers a diverse range of workplace experiences. Upon request, we can provide a certificate of completion. Academic credit may be available through your institution (if applicable), and we can assist with paperwork for CPT or first-year OPT.
 
 #### Q6: What happens after the initial steps?
 
-+ The initial steps are meant to introduce potential interns to the Treehouses system and begin assigning you assignments! To be more clear: the initial 10 steps are a vetting process to determine whether or not people are fit for the internship, so consider it an interview for the internship. Once you have completed the 10 steps and are approved, you have officially joined the OLE interns team! We’ll add you to the interns Gitter chatroom and assign you to a team. You and your team will be working on an assignment, and we’ll switch up the assignments each week.
+- The initial steps are designed to introduce potential interns to the treehouses system and begin assigning you assignments! To clarify: the first 10 steps serve as a vetting process to assess whether candidates are a good fit for the internship, so consider it part of the interview. Once you complete the 10 steps, are approved, and have had a meeting with us, you will have officially joined the OLE interns team!
 
 #### Q7: If I'm an international student, how soon can I get my paperwork required by my visa?
 
-+ Since the first 10 steps are a vetting process, your internship technically doesn't start until you finish them. Think of the first 10 steps as a continued application process; you are not working on or adding to our organizational software, but rather showing that you have enough technical background to work with us. After you finish the first 10 steps, let us know if you need us to sign some paperwork, give you organizational information, or provide you with an offer letter for your visa compliance and we'd be more than happy to help. Find out information related to your paperwork [here](https://isso.columbia.edu/content/unpaid-internships-and-volunteering).
+- Since the First Steps serve as a vetting process, your internship technically doesn't begin until you complete them and have the initial meeting with us. Think of the first 10 steps as part of the application process; you're not working on or contributing to our organizational software, but rather demonstrating that you have the technical background needed to work with us. After completing the first 10 steps and during our initial meeting, let us know if you need us to sign any paperwork, provide organizational information, or issue an offer letter for visa compliance, and we'd be happy to assist.
 
 #### Q8: How many pull requests and issues in total do I need to make to finish the steps?
 
-+ To finish the initial steps, you need to make a **minimum** of 4 issues and 5 pull requests so you can get familiar with GitHub and to show us that you can write proper issues/PRs. Check your progress [here](trackprogress.md).
+- To complete the initial steps, you need to create a **minimum** of 4 issues and have 5 **merged** pull requests. This will help you become familiar with Git/GitHub/Markdown, demonstrate your ability to write clear issues and PRs, and show that you can navigate between tasks effectively.
 
 #### Q9: How long do I have to complete these steps?
 
-+ There is no official deadline, so work on your own time. However, please note that most people who continued into the internship program completed the steps within 7-8 days.
+- There is no official deadline, so you can work on your own time. However, please note that most people who continued into the internship program completed the steps within 1-2 weeks.
+
+#### Q10: How can I keep track of 10 steps vetting progress?
+
+- You can keep track of your progress using the [Tracking Progress Tool here](trackprogress.md).
+
+#### Q11: When does the internship start?
+
+- When we have an active job posting and invite you to the First Steps, we primarily seek interns who can start immediately after completing the steps and having a meeting with us.
+- If you're interested in an internship for a future semester or summer, please let us know in the Discord channel so we can stay in touch. We recommend checking back in the channel about a month before your intended start date to confirm if the internship program is active. If it is, you can then begin the First Steps process. This ensures you are following the most up-to-date version of the First Steps.
+- If we have more qualified virtual interns completing the first steps than we can accommodate at one time, we may request during the initial meeting that you start the internship in 1-3 months, if that works for you.
 
 ### Technical Questions
 
-#### Q10: What do I do if '&lt;YourUserName&gt;.github.io' is already in use?
+#### TQ1: What do I do if I already have a github.io with my username?
 
-+ Create an organization and use it to fork the repository:
-    - Click on the '+' icon next to your account icon (top right corner in github) and select 'New organization'.
-    - Name the organization '&lt;YourUserName&gt;-OLE', select 'My personal account', choose the 'Team For Open Source' option, and enter your email address to create the account.
-    - Now it will prompt you for which profile to use when you fork the [treehouses repository](https://github.com/treehouses/treehouses.github.io).
+You have a few options:
 
-#### Q11: What if you encounter Host key verification fail?
-+ You encountered this error because the host key has been changed due to new installation of the raspberry pi or your host key has been changed.
-+ To fix the issue, You can try the following methods:
-    - remove `known_hosts` file with `rm ~/.ssh/known_hosts`
-    - avoid checking for host keys with `ssh -o StrictHostKeyChecking=no <user>@<host>`
-    - remove the exact key line of the offending host by looking in the output for `Offending key in /home/peter/.ssh/known_hosts:<linenumber>` and then with `sed -i <linenumber>d ~/.ssh/known_hosts` remove this exact line
+  1. **Rename the Repository:**
+     If you are still using the forked repository and don’t want to overwrite it, go to the repository settings and rename it to `<YourUsername-ole>.github.io`.
+     Then deploy it to GitHub Pages by selecting **"master branch"** under the GitHub Pages section in the repository settings.
+     You can access the forked OLE repository at: `<YourUsername>.github.io/<YourUsername-ole>.github.io/`
+  2. **Delete the Repository:**
+     If you are no longer using the repository, rename or delete it and follow the First Steps guide to set up a fresh fork.
+  3. **Use an Organization:**
+     If you are still using the repository but want to fork a new one, [create a free organization](https://help.github.com/articles/creating-a-new-organization-from-scratch/) that belongs to your personal account, then fork our `treehouses.github.io` repository with your new organization as the owner. Afterwards, the repository will be accessible at: `<orgname>.github.io`
 
-#### Q12: Why can't I ssh into my Raspberry Pi after installing a new treehouses image?
+#### TQ2: What should I do if I encounter Host key verification failed?
 
-+ If you run into this error you will see a message like " WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!" when you try to ssh into your Raspberry Pi after installing a new treehouses image onto it. Thankfully this is an easy fix
-+ To fix this type the command `cd` on your local machine. Then `cd .ssh`. Open the `known_hosts` file by typing `vim known_hosts`. Inside of this file you need to find your Raspberry Pi's ip address and delete that line since that is old known host for the previous treehouses image. Save the file. Now you should be able to ssh into your Raspberry Pi wihtout an issue.
+- If you encounter the error "WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED" or "Host key verification failed" when trying to SSH into your Raspberry Pi, it means the host key has changed. This typically happens after re-installing the Raspberry Pi image or modifying its configuration.
+- To resolve this issue, remove the old host key by running: `ssh-keygen -R <hostname>`, where `<hostname>` is whatever you just attempted to SSH into, typically the IP address of your Raspberry Pi.
+
+#### TQ3: What should I do if I encounter issues pairing with my Raspberry Pi via Bluetooth?
+
+- If you can see the Raspberry Pi's `treehouses` name in the Bluetooth device list but encounter issues pairing with it, you can manually enable pairing and discovery with `bluetoothctl`. Follow the instructions in [Finding your Pi](find-pi.md) and [Step 2 - SSH Tutorial](sshpi.md) until you can SSH into your Raspberry Pi as the `root` user.
+- Once connected via SSH as `root`, type `bluetoothctl` in the terminal. Then, run the commands `discoverable on` and `pairable on` to enable the Raspberry Pi for discovery and pairing with your phone. During this process, you may need to enter the pairing code displayed on your phone in the terminal.
 
 ---
 
 ## Helpful Links
 
-#### *GitHub, Markdown, and CLI*
+### *GitHub, Markdown, and CLI*
 
+- General
+  - [GitHub Docs - Help for wherever you are on your GitHub journey](https://docs.github.com/en)
+  - [Git Cheat Sheet (PDF)](https://education.github.com/git-cheat-sheet-education.pdf)
 
-* General
-    - [GitHub and Markdown Short Tutorials](https://guides.github.com/)
-    - [GitHub Help](https://help.github.com/en/categories/github-pages-basics)
-    - [Git Cheat Sheet (PDF)](https://education.github.com/git-cheat-sheet-education.pdf)
+- Git
+  - [Getting started with GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages)
+  - [Codecademy's Learn Git Course](https://www.codecademy.com/learn/learn-git)
+  - [Learn Git Branching](https://learngitbranching.js.org)
 
-* First Steps
-    - [GitHub's Git Tutorial](https://try.github.io/)
-    - [Git-it Workshop](http://jlord.us/git-it/)
-    - [Codecademy's Learn Git Course](https://www.codecademy.com/learn/learn-git)
-    - [Learn Git Branching](https://learngitbranching.js.org)
+- Intermediate
+  - [Git Immersion](http://gitimmersion.com/)
 
-* Intermediate
-    - [Git Immersion](http://gitimmersion.com/)
+- Reference
+  - [GitHub Tips](https://github.com/git-tips/tips/blob/master/README.md) - Most commonly used git tips and tricks.
+  - [Dangit, Git!?!](https://dangitgit.com/) - Quick reference on some common git issues you might run into and how to resolve them.
+  - [Git Pro (Book)](https://git-scm.com/book/en/v2) -
 
-* Reference/Advanced
-    - [Git Pro (Book)](https://git-scm.com/book/en/v2)
-    - [GitHub Tips](https://github.com/git-tips/tips/blob/master/README.md)
-    - [Oh, sh*t, Git](http://ohshitgit.com/)
+- Git Workflows
+  [Forking Workflow | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/comparing-workflows/forking-workflow) - The workflow we use in first steps.
+  - [Feature Branch Workflow | Atlassian Git Tutorial](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow) - The workflow we use **after** you become an official intern.
+  - [Git - Branching Workflows](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows) - High Level, Short
 
-* Git Workflow
-    - [Git Workflow - High Level](https://www.atlassian.com/git/tutorials/comparing-workflows)
-    - [Git Workflow - High Level, Short](https://git-scm.com/book/en/v2/Git-Branching-Branching-Workflows)
-    - [Feature Branch Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows/feature-branch-workflow)
+- Markdown
+  - [Markdown Syntax](https://daringfireball.net/projects/markdown/syntax)
+  - [Markdown Cheat Sheet (PDF)](https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf)
+  - [Markdown Editor](https://jbt.github.io/markdown-editor/)
 
-* Markdown
-    - [Markdown Syntax](https://daringfireball.net/projects/markdown/syntax)
-    - [Markdown Cheat Sheet (PDF)](https://enterprise.github.com/downloads/en/markdown-cheatsheet.pdf)
-    - [Markdown Editor](https://jbt.github.io/markdown-editor/)
-* CLI
-    - [MacOS CLI Cheat Sheet](https://www.makeuseof.com/tag/mac-terminal-commands-cheat-sheet/)
-    - [Linux/Ubuntu CLI Cheat Sheet](http://images.linoxide.com/linux-cheat-sheet.pdf)
-    - [Windows CLI(CMD) Cheat Sheet](https://ss64.com/nt/)
-* Vi/Vim
-    - [Vim Cheat Sheet](https://devhints.io/vim)
+- CLI
+  - [Linux Command Cheat Sheet](https://www.loggly.com/wp-content/uploads/2015/05/Linux-Cheat-Sheet-Sponsored-By-Loggly.pdf)
+  - [macOS CLI Cheat Sheet](https://www.makeuseof.com/tag/mac-terminal-commands-cheat-sheet/)
+  - [Windows CLI(CMD) Cheat Sheet](https://ss64.com/nt/)
+
+- Vi/Vim
+  - [Learn Vim For the Last Time](https://danielmiessler.com/p/vim/)
+  - [Vim Cheat Sheet](https://devhints.io/vim)
 
 ## Helpful Videos
 
@@ -128,8 +145,4 @@
 - [Shorter Git/GitHub Tutorial (Playlist)](https://www.youtube.com/watch?v=vR-y_2zWrIE&list=PLWKjhJtqVAbkFiqHnNaxpOPhh9tSWMXIF)
 - [Mastering Markdown (Playlist)](https://www.youtube.com/watch?v=Je5w18nn-e8&list=PLu8EoSxDXHP7v7K5nZSMo9XWidbJ_Bns3)
 - [How to Manually Fix Git Merge Conflicts](https://www.youtube.com/watch?v=g8BRcB9NLp4) - Please note that this video will explain how to fix a merge conflict from the point of view of the repo owner who is trying to merge a pull request. However, it is helpful also when you have to fix a merge conflict on your own local and forked repos.
-- [How to Use VirtualBox](https://www.youtube.com/watch?v=sB_5fqiysi4)
-- [Vagrant Tutorial](https://www.youtube.com/watch?v=PmOMc4zfCSw)
-- [Docker Tutorial](https://www.youtube.com/watch?v=fqMOX6JJhGo)
-- [SSH_Key Tutorial](https://youtu.be/y2SWzw9D4RA)
-
+- [ How SSH key Works ? ](https://youtu.be/y2SWzw9D4RA)
