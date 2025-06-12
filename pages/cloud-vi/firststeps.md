@@ -20,7 +20,7 @@ The following are the required hardware components that will be needed as part o
 
 ### Hardware requirements:
 
-1. Raspberry Pi 4 or 5 ([Pi 4 information](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/))
+1. Raspberry Pi 4 or 5 ([Pi 5 information](https://www.raspberrypi.com/products/raspberry-pi-5/)) 
   - Any amount of RAM is acceptable (2GB minimum, 4GB+ recommended)
   - Raspberry Pi 3B/3B+ also work, but Pi 4+ is recommended
 1. Power supply for the Pi
@@ -105,7 +105,7 @@ Because these steps are simple, we expect high-quality work, which may take a lo
 
 The MDwiki has plenty of resources to help you complete the steps. There is a list of useful links at the end of each step. We also created a [FAQ page](faq.md) where you can find the answers to some commonly asked questions. This page has even more [useful links and video tutorials](faq.md#Helpful_Links) that will help you become familiar with the tools/languages we use. For anything that is not on the FAQ page, Google and Stack Exchange are your friends :)
 
-**We also want you to keep us updated on a relatively good amount in the [Gitter chat](../chat.md) as you complete these steps. We will ask you to send us messages, links, and screenshots along the First Steps, and we will use this to track your progress, so please do not forget to do so.**
+**We also want you to keep us updated regularly in the [Discord chat](https://discord.com/channels/1079980988421132369/1229437557843169280) as you complete these steps. We will ask you to send us messages, links, and screenshots along the First Steps, and we will use this to track your progress, so please do not forget to do so.**
 
 A very large part of these steps is finding problems with these steps and this MDwiki, so take note of any issues that you run into or suggestions for improvement while doing these steps.
 
@@ -116,7 +116,7 @@ There is no official deadline to complete these steps, but most candidates who a
 
 1. Complete the [New Virtual Intern Application form](http://apply.treehouses.io). If you have already done this after being invited to join the team then good job, you're all set!
 
-2. Log into your [GitHub account](https://github.com/) then watch [treehouses.github.io repo](https://github.com/treehouses/treehouses.github.io) and Follow [Dogi](https://github.com/dogi), [Ryan](https://github.com/indepthh), [Vassilis](https://github.com/vers4ce), [Roshan](https://github.com/rrijal53), [Sam](https://github.com/Liew211), [Samuel](https://github.com/samuelchen1213) and [Arran](https://github.com/ArranHL) on GitHub.
+2. Log into your [GitHub account](https://github.com/) then watch [treehouses.github.io repo](https://github.com/treehouses/treehouses.github.io) and Follow [Dogi](https://github.com/dogi) and [Jesse](https://github.com/jessewashburn) on GitHub.
 
 In GitHub, we "[Watch](https://help.github.com/en/articles/watching-and-unwatching-repositories)" organization repositories and ["Follow"](https://help.github.com/en/articles/following-people) individuals. Look for the "Watch" button at the top right of the page when you are in a repository.  Also, follow each other to see what others in the group are doing. (Click on the image to enlarge.)   
 
@@ -124,13 +124,136 @@ In GitHub, we "[Watch](https://help.github.com/en/articles/watching-and-unwatchi
 
 We interact with the Raspberry Pi via a command terminal, which is natively available for both Mac and Linux based systems. However, if you are on a Windows device, [Git Bash](https://git-scm.com/download/win) is highly recommended.
 
-### Working with Vi & Vim
+### Working with Vi & Vim (Optional)
 
-One of the most simple but most powerful text editors out there is Vim. If you want to see what Vim can do and how powerful it can be, you can learn more about Vim [here](https://danielmiessler.com/study/vim/#textobjects). Vim is not necessary for this internship but it is truly helpful when working on the Raspberry Pi not to have to download and install other text editors.
+Vim is a lightweight and powerful terminal-based text editor. It's especially useful when working directly on the Raspberry Pi or virtual machines where graphical interfaces may not be available.
+
+- Learn more about Vim [here](https://danielmiessler.com/study/vim/#textobjects)
+- Practice using Vim in your terminal by typing `vimtutor`
+
+While Vim is optional, learning it can make you more efficient in low-resource environments.
+
+### Recommended Alternative: Visual Studio Code (VS Code)
+
+For local development, debugging, and remote access to your Pi or Google VM, [Visual Studio Code](https://code.visualstudio.com/) is a highly recommended editor. With extensions like:
+
+- **Remote - SSH** (for editing files on your Pi or VM)
+- **Prettier** (for formatting code)
+- **GitHub** (for pushing/pulling code)
+
+VS Code offers a user-friendly and powerful coding environment.
+
+> If you're more comfortable in a GUI editor, go with VS Code. If you're curious about terminal power tools, give Vim a shot.
 
 **NOTE:** You can skip ahead to Step 3 while you are waiting for your Raspberry Pi to come in the mail.
 
-## Step 1 - Installing and Finding Your Raspberry Pi
+## Step 1 - Setting up your Google Cloud VM
+
+### ✅ Prerequisites
+
+- A Google account
+- Basic familiarity with terminal commands
+
+### 1. Create a Google Cloud Project
+
+1. Go to [https://console.cloud.google.com](https://console.cloud.google.com)
+2. In the top navigation bar, click the project dropdown and choose **"New Project"**
+3. Give it a name (e.g. `ole-vm`) and click **Create**
+
+### 2. Enable Billing (Required)
+
+If you haven't already, enable billing on your GCP account.
+- You can use the **Free Tier** which includes 90-day, $300 trial credit
+- A credit card is required for signup but won't be charged without usage beyond free limits
+
+### 3. Enable Compute Engine
+
+1. In the left-hand menu, go to **Compute Engine → VM Instances**
+2. Click **"Enable"** to activate the API
+
+### 4. Create a Virtual Machine
+
+1. Click **"Create Instance"**
+2. Use these recommended settings:
+   - **Name**: `ole-vm`
+   - **Region**: `us-east1` or your nearest region
+   - **Machine type**: `e2-medium` (2 vCPU, 4 GB RAM)
+   - **Boot disk**:
+     - Image: `Debian 12 (Bookworm)`
+   - **Firewall**:
+     - Check **Allow HTTP**
+     - Check **Allow HTTPS**
+3. Click **"Create"**
+
+### 5. Connect to Your VM via SSH
+
+Once your VM is running, you can connect to it in **three different ways** depending on your preference and development workflow.
+
+### ✅ Option 1: Use the Web SSH Console (Browser-Based)
+
+1. Visit [https://console.cloud.google.com](https://console.cloud.google.com)
+2. Navigate to **Compute Engine → VM Instances**
+3. Click the **"SSH"** button next to your VM to open a terminal directly in your browser.
+
+This is the simplest option and requires no setup on your computer.
+
+---
+
+### ✅ Option 2: Use Your Local Terminal
+
+You must first install the [Google Cloud SDK (gcloud CLI)](https://cloud.google.com/sdk/docs/install) if you haven’t already.
+
+Then, use the following command to connect from your terminal:
+
+```
+gcloud compute ssh ole-vm --zone=us-east1-b
+```
+
+> Replace `us-east1-b` with your actual zone if different.
+
+This method allows fast access for command-line tasks directly from your development machine.
+
+---
+
+### ✅ Option 3: Use Visual Studio Code with Remote-SSH
+
+This is the recommended method.
+
+#### Prerequisites:
+
+- [Visual Studio Code](https://code.visualstudio.com/)
+- Install the **Remote - SSH** extension  
+  https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh
+- (Optional) Install the **Remote Explorer** extension  
+  https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-explorer
+
+#### Steps:
+
+1. Open VS Code
+2. Press `Ctrl+Shift+P` or `Cmd+Shift+P` to open the **Command Palette**
+3. Choose:  
+   ```
+   Remote-SSH: Connect to Host...
+   ```
+4. Enter the external IP address of your VM (visible in the Compute Engine VM list)
+5. Select your SSH identity file if prompted (`.ssh` private key)
+6. VS Code will connect and open a remote window where you can edit and manage files as if they were local.
+
+> 💡 Pro Tip: Save your VM in `~/.ssh/config` to reuse it easily.
+
+Example `~/.ssh/config` entry:
+
+```
+Host ole-vm
+  HostName YOUR_VM_IP
+  User YOUR_USERNAME
+  IdentityFile ~/.ssh/YOUR_KEY
+```
+
+---
+
+## Step 2 - Installing and Finding Your Raspberry Pi
+**NOTE:** You can skip ahead to Step 4 while you are waiting for your Raspberry Pi to come in the mail.
 
 There are 3 sections in this step:
 1. [Setting up your Raspberry Pi](pi-setup.md)
@@ -138,13 +261,12 @@ There are 3 sections in this step:
 3. [Finding your Pi](find-pi.md)
 
 
-## Step 2 - Use SSH and Tor to Remotely Control Your Raspberry Pi
+## Step 3 - Use SSH and Tor to Remotely Control Your Raspberry Pi
 
 The Systems team uses SSH (Secure Shell) to securely and remotely control the Raspberry Pis we work with.  SSH works by providing an admin protocol that allows users to control and modify their remote servers over the Internet.  Follow the [Raspberry Pi SSH  & Tor Tutorial](sshpi.md) to learn how.
 
 
-
-## Step 3 - Markdown and Fork Tutorial
+## Step 4 - Markdown and Fork Tutorial
 
 Follow the instructions on [GitHub and Markdown](githubandmarkdown.md)
 
@@ -160,12 +282,7 @@ Make sure that you've linked to your github.io and pull request in the [Gitter c
 Check your progress [here](trackprogress.md)
 
 
-## Step 4 - System Tutorial
-
-### Vagrant
-
-Vagrant is an open-source software product for building and maintaining portable virtual software development environments. In this step, you will learn about how to interact with Vagrant through the command-line interface.
-Follow the directions in the [Vagrant Tutorial](vagranttutorial.md)
+## Step 5 - System Tutorial
 
 ### Docker
 
@@ -173,12 +290,9 @@ Docker is a computer program that performs operating-system-level virtualization
 Follow the directions in the [Docker Tutorial](dockertutorial.md)
 
 
-## Step 5 - Keeping Fork Updated
+## Step 6 - GitHub Issues Tutorial
 
 Follow the directions at [Git Repositories](gitrepositories.md) to keep your username.github.io and your local repository up to date.
-
-
-## Step 6 - GitHub Issues Tutorial
 
 Follow the [GitHub Issues tutorial](github-issues.md) to create at least one issue. Post a link in [Gitter](https://gitter.im/treehouses/Lobby) whenever you create an issue or when you comment on someone else's issue. You are encouraged to post as many issues as you can for improving the page as well as for personal practice. No issue is too big or too small to be filed and it is OK if you are not sure how to fix it yourself. If you know how to solve an issue, be sure to provide a detailed account of your research and show how to fix it. It is ok to file an issue about minor typos and very small changes, but do not make this the case for all of the issues that you file. You can also work on issues that you didn't create.
 
