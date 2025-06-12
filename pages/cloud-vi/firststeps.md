@@ -149,106 +149,167 @@ VS Code offers a user-friendly and powerful coding environment.
 
 ## Step 1 - Setting up your Google Cloud VM
 
-### ✅ Prerequisites
+This step will walk you through creating a virtual machine (VM) on Google Cloud Platform (GCP), configuring it securely, and preparing it for Planet development.
 
-- A Google account
-- Basic familiarity with terminal commands
+---
 
-### 1. Create a Google Cloud Project
+### 1. Enable Required APIs
 
-1. Go to [https://console.cloud.google.com](https://console.cloud.google.com)
-2. In the top navigation bar, click the project dropdown and choose **"New Project"**
-3. Give it a name (e.g. `ole-vm`) and click **Create**
+1. Go to [Google Cloud Console](https://console.cloud.google.com/)
+2. In the top search bar, search for **Compute Engine API**
+3. Click into it, and click **Enable**
+4. Wait for it to activate (this may take a few moments)
 
-### 2. Enable Billing (Required)
+---
 
-If you haven't already, enable billing on your GCP account.
-- You can use the **Free Tier** which includes 90-day, $300 trial credit
-- A credit card is required for signup but won't be charged without usage beyond free limits
+### 2. Add Your SSH Public Key
 
-### 3. Enable Compute Engine
+1. Search for **"Metadata"**
+2. Click **"Metadata"** under **Compute Engine**
+3. Navigate to the **"SSH KEYS"** tab
+4. Click **"Edit"**, then **"Add Item"**
+5. Paste your full public SSH key, formatted like:
 
-1. In the left-hand menu, go to **Compute Engine → VM Instances**
-2. Click **"Enable"** to activate the API
+   ```
+   ssh-ed25519 AAAAC3... yourusername
+   ```
 
-### 4. Create a Virtual Machine
+   > You must append a space and your **username** at the end of the key to satisfy Google Cloud’s required format.
 
-1. Click **"Create Instance"**
-2. Use these recommended settings:
+6. Share your key with the team via Discord
+---
+
+### 3. Create the VM Instance
+
+1. In the console, go to **Compute Engine > VM Instances**
+2. Click **"Create Instance"**
+3. Use the following settings:
+
    - **Name**: `ole-vm`
-   - **Region**: `us-east1` or your nearest region
-   - **Machine type**: `e2-medium` (2 vCPU, 4 GB RAM)
-   - **Boot disk**:
+   - **Region**: Select one near you (e.g., `us-east1`)
+   - **Machine Type**: `e2-medium` (2 vCPU, 4 GB RAM)
+   - **Boot Disk**:
      - Image: `Debian 12 (Bookworm)`
    - **Firewall**:
-     - Check **Allow HTTP**
-     - Check **Allow HTTPS**
-3. Click **"Create"**
+     - ✅ Check **Allow HTTP**
+     - ✅ Check **Allow HTTPS**
 
-### 5. Connect to Your VM via SSH
+4. Leave all other settings as defaults
+5. Click **"Create"**
 
-Once your VM is running, you can connect to it in **three different ways** depending on your preference and development workflow.
-
-### ✅ Option 1: Use the Web SSH Console (Browser-Based)
-
-1. Visit [https://console.cloud.google.com](https://console.cloud.google.com)
-2. Navigate to **Compute Engine → VM Instances**
-3. Click the **"SSH"** button next to your VM to open a terminal directly in your browser.
-
-This is the simplest option and requires no setup on your computer.
+> The VM will typically cost $25–$35/month depending on location and usage.
 
 ---
 
-### ✅ Option 2: Use Your Local Terminal
+### 4. Create Firewall Rule
 
-You must first install the [Google Cloud SDK (gcloud CLI)](https://cloud.google.com/sdk/docs/install) if you haven’t already.
+1. In the console, search for **"Firewall"** and go to **VPC Network > Firewall**
+2. Click **"CREATE FIREWALL RULE"**
+3. Set the following:
 
-Then, use the following command to connect from your terminal:
+   - **Name**: `planetdev-rules`
+   - **Targets**: All instances in the network
+   - **Source IPv4 Ranges**: `0.0.0.0/0`
+   - **Protocols and ports**:
+     - ✅ Check TCP
+     - Ports: `2200,3000,5000`
 
-```
-gcloud compute ssh ole-vm --zone=us-east1-b
-```
-
-> Replace `us-east1-b` with your actual zone if different.
-
-This method allows fast access for command-line tasks directly from your development machine.
+4. Click **"Create"**
 
 ---
 
-### ✅ Option 3: Use Visual Studio Code with Remote-SSH
+### 5. SSH Into the VM
 
-This is the recommended method.
+You can SSH into your VM in **three different ways**:
 
-#### Prerequisites:
+#### Option A: Google Cloud Console
 
-- [Visual Studio Code](https://code.visualstudio.com/)
-- Install the **Remote - SSH** extension  
-  https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-ssh
-- (Optional) Install the **Remote Explorer** extension  
-  https://marketplace.visualstudio.com/items?itemName=ms-vscode.remote-explorer
+- Go to **Compute Engine**
+- Click the **SSH** button next to your VM
 
-#### Steps:
+#### Option B: Local Terminal (with SSH key)
 
-1. Open VS Code
-2. Press `Ctrl+Shift+P` or `Cmd+Shift+P` to open the **Command Palette**
-3. Choose:  
-   ```
-   Remote-SSH: Connect to Host...
-   ```
-4. Enter the external IP address of your VM (visible in the Compute Engine VM list)
-5. Select your SSH identity file if prompted (`.ssh` private key)
-6. VS Code will connect and open a remote window where you can edit and manage files as if they were local.
-
-> 💡 Pro Tip: Save your VM in `~/.ssh/config` to reuse it easily.
-
-Example `~/.ssh/config` entry:
-
+```bash
+ssh -i ~/.ssh/id_ed25519 yourusername@<EXTERNAL_IP>
 ```
-Host ole-vm
-  HostName YOUR_VM_IP
-  User YOUR_USERNAME
-  IdentityFile ~/.ssh/YOUR_KEY
+
+#### Option C: VS Code with Remote SSH
+
+1. Install **Remote - SSH** extension in VS Code
+2. In the Command Palette:  
+   `Remote-SSH: Connect to Host...`
+3. Enter your VM's external IP and SSH key when prompted
+
+---
+
+### 6. Install Required Tools on Your VM
+
+Connect to the VM and run:
+
+```bash
+sudo apt-get update && sudo apt-get install git unzip
 ```
+
+Then follow Docker’s Debian installation guide here:  
+https://docs.docker.com/engine/install/debian/#install-using-the-repository
+
+> You can also reference:  
+> https://open-learning-exchange.github.io/#!pages/vi/vi-docker-development-tutorial.md
+
+---
+
+### ✅ 7. Node.js and Angular Setup
+
+> ⚠️ Important: **Do not install Node.js as root.** Use your regular user account.
+
+Install Node.js v14 and Angular CLI v10:
+
+```bash
+curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
+sudo apt-get install -y nodejs
+npm install -g @angular/cli@10
+```
+
+Then follow the official tutorial to install and configure the Planet development environment:
+
+[Planet Docker Development Tutorial](https://open-learning-exchange.github.io/#!pages/vi/vi-docker-development-tutorial.md)
+
+This includes:
+
+- Downloading the Planet dev Docker config
+- Running CouchDB and ChatAPI services
+- Setting up CouchDB with CORS
+- Cloning and configuring the `planet` repo
+
+Make sure to complete that guide before moving to the next step.
+
+---
+
+### 8. Running Planet in the Background
+
+Start a `screen` session to keep the frontend running after you disconnect:
+
+```bash
+screen
+ng serve
+```
+
+Once the frontend is running, press `Ctrl + A`, then `D` to detach.
+
+---
+
+### 9. Planet Configuration
+
+- When configuring your Planet instance in the browser, choose **Nation** (not Community)
+- Avoid common passwords like `12345`, `admin`, etc.
+
+---
+
+### ✅ 10. Share Access
+
+- Send your VM **external IP address** and CouchDB **username/password** to your team
+- Your VM is now part of the development network!
+
 
 ---
 
@@ -266,14 +327,28 @@ There are 3 sections in this step:
 The Systems team uses SSH (Secure Shell) to securely and remotely control the Raspberry Pis we work with.  SSH works by providing an admin protocol that allows users to control and modify their remote servers over the Internet.  Follow the [Raspberry Pi SSH  & Tor Tutorial](sshpi.md) to learn how.
 
 
-## Step 4 - Markdown and Fork Tutorial
+## Step 4 - System Tutorial
+
+### Docker
+
+Docker is a computer program that performs operating-system-level virtualization also known as containerization. In this step, you will learn the basics of interacting with Docker and Docker Compose through the command-line interface and basic commands for maintaining your Planet installation.
+Follow the directions in the [Docker Tutorial](dockertutorial.md)
+
+
+## Step 5 - Other Services Running from a Raspberry Pi
+
+### Nextcloud over Tor
+
+Follow the [Nextcloud and Tor Tutorial](nextcloud-tor.md) to set up the Nextcloud service on your Pi, and access it via Tor.  
+
+
+## Step 6 - Markdown and Fork Tutorial
 
 Follow the instructions on [GitHub and Markdown](githubandmarkdown.md)
 
-Make sure that you've linked to your github.io and pull request in the [Gitter chat](https://gitter.im/treehouses/Lobby). Also, include the `raw.githack` link in your pull request `https://raw.githack.com/YourUserName/YourUserName.github.io/YourBranchName/#!pages/vi/profiles/YourUserName.md`
+Make sure that you've linked to your github.io and pull request in the [Discord [chat](https://discord.com/channels/1079980988421132369/1229437557843169280)]. Also, include the `raw.githack` link in your pull request `https://raw.githack.com/YourUserName/YourUserName.github.io/YourBranchName/#!pages/vi/profiles/YourUserName.md`
 
 **NOTE**: The `raw.githack` link is case sensitive to your username.
-
 
 > Once you complete Step 3 you will have:
 
@@ -282,15 +357,7 @@ Make sure that you've linked to your github.io and pull request in the [Gitter c
 Check your progress [here](trackprogress.md)
 
 
-## Step 5 - System Tutorial
-
-### Docker
-
-Docker is a computer program that performs operating-system-level virtualization also known as containerization. In this step, you will learn the basics of interacting with Docker and Docker Compose through the command-line interface and basic commands for maintaining your Planet installation.
-Follow the directions in the [Docker Tutorial](dockertutorial.md)
-
-
-## Step 6 - GitHub Issues Tutorial
+## Step 7 - GitHub Issues Tutorial
 
 Follow the directions at [Git Repositories](gitrepositories.md) to keep your username.github.io and your local repository up to date.
 
@@ -309,13 +376,6 @@ Make sure you have created at least one issue, resolved it, commented on an issu
 Check your progress [here](trackprogress.md)
 
 Please note that creating and working on Issues are not exactly bound by the "Step" you are in. Feel free to move on to other steps, and make more Issues and Pull Requests while you wait on OLE approval for your merge(s).
-
-
-## Step 7 - Other Services Running from a Raspberry Pi
-
-### Nextcloud over Tor
-
-Follow the [Nextcloud and Tor Tutorial](nextcloud-tor.md) to set up the Nextcloud service on your Pi, and access it via Tor.  
 
 
 ## Step 8 - Create Issues and Pull Requests
