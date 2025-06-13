@@ -144,7 +144,7 @@ VS Code offers a user-friendly and powerful coding environment.
 To begin, you’ll set up a Debian-based virtual machine on Google Cloud. This VM will serve as your cloud-hosted Planet node and is a key part of the networked development environment.
 
 Follow the full setup instructions here:  
-👉 [vm-setup](vm-setup)
+👉 [vm-setup](vm-setup.md)
 
 Once complete, you’ll have a persistent, internet-accessible system ready to run Docker containers, host Planet, and connect with your Raspberry Pi and local machine.
 
