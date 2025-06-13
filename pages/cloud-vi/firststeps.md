@@ -24,8 +24,8 @@ The following are the required hardware components that will be needed as part o
   - Any amount of RAM is acceptable (2GB minimum, 4GB+ recommended)
   - Raspberry Pi 3B/3B+ also work, but Pi 4+ is recommended
 1. Power supply for the Pi
-   - Pi 4: USB-C, 3.0A minimum
-   - Pi 3B+: Micro USB, 2.5A minimum
+   - Pi 4+: USB-C, 3.0A minimum
+   - Pi 3: Micro USB, 2.5A minimum
 1. 3 microSD cards
   - Minimum 16GB each
   - U1 or Class 10 required
@@ -57,39 +57,31 @@ There are also "optional" pieces of hardware that you can choose to purchase sho
 
 ## Software Requirements
 
-In addition to the hardware listed above, you’ll need to install and configure software tools to support local and cloud-based development. These tools ensure your Pi, local machine, and cloud VM can all interoperate smoothly.
+In addition to the hardware listed above, you’ll need to install and configure software tools to support local and cloud-based development. These tools ensure your Pi, local machine, and cloud VM can all interoperate smoothly. Detailed installation structures will be provided in later steps. 
 
 ### Required Software
 
 1. **Docker**  
    - Must be installed on your local machine and your Google Cloud VM.  
-   - [Install Docker](https://docs.docker.com/get-docker/)
 
 2. **Node.js v14**  
    - Used to run the Planet application locally and on the VM.  
-   - Install via [nvm](https://github.com/nvm-sh/nvm) or your platform’s package manager.  
-   - Confirm with: `node -v`
 
 3. **Angular CLI v10**  
    - Required for building and running the Planet frontend.  
-   - Install with: `npm install -g @angular/cli@10`  
-   - Confirm with: `ng version`
 
 4. **Git + GitHub Account**  
    - Used to clone repositories and push your contributions.  
-   - [Install Git](https://git-scm.com/downloads)  
-   - [Create a GitHub account](https://github.com/join) if you don’t have one.
 
 5. **Google Cloud Platform (GCP) VM**  
-   - You’ll be assigned or asked to create a Debian 12 virtual machine on Google Cloud.  
+   - You’ll be asked to create a Debian 12 virtual machine on Google Cloud.  
    - This will host a cloud instance of Planet, running Dockerized services like CouchDB and ChatAPI.  
    - Must have SSH access and Docker installed.
 
 6. **Fauxton (CouchDB Admin Interface)**  
    - Automatically included in CouchDB containers.  
-   - Accessible at `http://localhost:2200/_utils` for development.
 
-7. **VS Code or other IDE with Git and SSH support**
+7. **VIM, VS Code or other IDE with Git and SSH support**
 
 ---
 
@@ -145,171 +137,16 @@ VS Code offers a user-friendly and powerful coding environment.
 
 > If you're more comfortable in a GUI editor, go with VS Code. If you're curious about terminal power tools, give Vim a shot.
 
-**NOTE:** You can skip ahead to Step 3 while you are waiting for your Raspberry Pi to come in the mail.
-
-## Step 1 - Setting up your Google Cloud VM
-
-This step will walk you through creating a virtual machine (VM) on Google Cloud Platform (GCP), configuring it securely, and preparing it for Planet development.
-
 ---
 
-### 1. Enable Required APIs
+## Step 1 – Set Up Your Cloud VM
 
-1. Go to [Google Cloud Console](https://console.cloud.google.com/)
-2. In the top search bar, search for **Compute Engine API**
-3. Click into it, and click **Enable**
-4. Wait for it to activate (this may take a few moments)
+To begin, you’ll set up a Debian-based virtual machine on Google Cloud. This VM will serve as your cloud-hosted Planet node and is a key part of the networked development environment.
 
----
+Follow the full setup instructions here:  
+👉 [pages/cloud-vi/vm-setup.md](pages/cloud-vi/vm-setup.md)
 
-### 2. Add Your SSH Public Key
-
-1. Search for **"Metadata"**
-2. Click **"Metadata"** under **Compute Engine**
-3. Navigate to the **"SSH KEYS"** tab
-4. Click **"Edit"**, then **"Add Item"**
-5. Paste your full public SSH key, formatted like:
-
-   ```
-   ssh-ed25519 AAAAC3... yourusername
-   ```
-
-   > You must append a space and your **username** at the end of the key to satisfy Google Cloud’s required format.
-
-6. Share your key with the team via Discord
----
-
-### 3. Create the VM Instance
-
-1. In the console, go to **Compute Engine > VM Instances**
-2. Click **"Create Instance"**
-3. Use the following settings:
-
-   - **Name**: `ole-vm`
-   - **Region**: Select one near you (e.g., `us-east1`)
-   - **Machine Type**: `e2-medium` (2 vCPU, 4 GB RAM)
-   - **Boot Disk**:
-     - Image: `Debian 12 (Bookworm)`
-   - **Firewall**:
-     - ✅ Check **Allow HTTP**
-     - ✅ Check **Allow HTTPS**
-
-4. Leave all other settings as defaults
-5. Click **"Create"**
-
-> The VM will typically cost $25–$35/month depending on location and usage.
-
----
-
-### 4. Create Firewall Rule
-
-1. In the console, search for **"Firewall"** and go to **VPC Network > Firewall**
-2. Click **"CREATE FIREWALL RULE"**
-3. Set the following:
-
-   - **Name**: `planetdev-rules`
-   - **Targets**: All instances in the network
-   - **Source IPv4 Ranges**: `0.0.0.0/0`
-   - **Protocols and ports**:
-     - ✅ Check TCP
-     - Ports: `2200,3000,5000`
-
-4. Click **"Create"**
-
----
-
-### 5. SSH Into the VM
-
-You can SSH into your VM in **three different ways**:
-
-#### Option A: Google Cloud Console
-
-- Go to **Compute Engine**
-- Click the **SSH** button next to your VM
-
-#### Option B: Local Terminal (with SSH key)
-
-```bash
-ssh -i ~/.ssh/id_ed25519 yourusername@<EXTERNAL_IP>
-```
-
-#### Option C: VS Code with Remote SSH
-
-1. Install **Remote - SSH** extension in VS Code
-2. In the Command Palette:  
-   `Remote-SSH: Connect to Host...`
-3. Enter your VM's external IP and SSH key when prompted
-
----
-
-### 6. Install Required Tools on Your VM
-
-Connect to the VM and run:
-
-```bash
-sudo apt-get update && sudo apt-get install git unzip
-```
-
-Then follow Docker’s Debian installation guide here:  
-https://docs.docker.com/engine/install/debian/#install-using-the-repository
-
-> You can also reference:  
-> https://open-learning-exchange.github.io/#!pages/vi/vi-docker-development-tutorial.md
-
----
-
-### ✅ 7. Node.js and Angular Setup
-
-> ⚠️ Important: **Do not install Node.js as root.** Use your regular user account.
-
-Install Node.js v14 and Angular CLI v10:
-
-```bash
-curl -fsSL https://deb.nodesource.com/setup_14.x | sudo -E bash -
-sudo apt-get install -y nodejs
-npm install -g @angular/cli@10
-```
-
-Then follow the official tutorial to install and configure the Planet development environment:
-
-[Planet Docker Development Tutorial](https://open-learning-exchange.github.io/#!pages/vi/vi-docker-development-tutorial.md)
-
-This includes:
-
-- Downloading the Planet dev Docker config
-- Running CouchDB and ChatAPI services
-- Setting up CouchDB with CORS
-- Cloning and configuring the `planet` repo
-
-Make sure to complete that guide before moving to the next step.
-
----
-
-### 8. Running Planet in the Background
-
-Start a `screen` session to keep the frontend running after you disconnect:
-
-```bash
-screen
-ng serve
-```
-
-Once the frontend is running, press `Ctrl + A`, then `D` to detach.
-
----
-
-### 9. Planet Configuration
-
-- When configuring your Planet instance in the browser, choose **Nation** (not Community)
-- Avoid common passwords like `12345`, `admin`, etc.
-
----
-
-### ✅ 10. Share Access
-
-- Send your VM **external IP address** and CouchDB **username/password** to your team
-- Your VM is now part of the development network!
-
+Once complete, you’ll have a persistent, internet-accessible system ready to run Docker containers, host Planet, and connect with your Raspberry Pi and local machine.
 
 ---
 
@@ -321,28 +158,42 @@ There are 3 sections in this step:
 2. [Using treehouses Remote](treehouses-remote.md)
 3. [Finding your Pi](find-pi.md)
 
+---
 
 ## Step 3 - Use SSH and Tor to Remotely Control Your Raspberry Pi
 
 The Systems team uses SSH (Secure Shell) to securely and remotely control the Raspberry Pis we work with.  SSH works by providing an admin protocol that allows users to control and modify their remote servers over the Internet.  Follow the [Raspberry Pi SSH  & Tor Tutorial](sshpi.md) to learn how.
 
+---
 
-## Step 4 - System Tutorial
-
-### Docker
-
-Docker is a computer program that performs operating-system-level virtualization also known as containerization. In this step, you will learn the basics of interacting with Docker and Docker Compose through the command-line interface and basic commands for maintaining your Planet installation.
-Follow the directions in the [Docker Tutorial](dockertutorial.md)
-
-
-## Step 5 - Other Services Running from a Raspberry Pi
+## Step 4 - Other Services Running from a Raspberry Pi
 
 ### Nextcloud over Tor
 
 Follow the [Nextcloud and Tor Tutorial](nextcloud-tor.md) to set up the Nextcloud service on your Pi, and access it via Tor.  
 
+---
 
-## Step 6 - Markdown and Fork Tutorial
+## Step 5 - Use SSH and Tor to Remotely Control Your Raspberry Pi
+
+The Systems team uses SSH (Secure Shell) to securely and remotely control the Raspberry Pis we work with.  SSH works by providing an admin protocol that allows users to control and modify their remote servers over the Internet.  Follow the [Raspberry Pi SSH  & Tor Tutorial](sshpi.md) to learn how.
+
+---
+
+## Step 6 – Install Planet on Your Local Machine
+
+Now that your Raspberry Pi and Google Cloud VM are set up, the final step is to set up Planet on your **local machine** (your laptop or desktop). This gives you a fully networked environment where you can develop, test, and collaborate across all three systems.
+
+Follow the guide below to install Planet using Docker:
+
+👉 [Planet Docker Development Tutorial](https://open-learning-exchange.github.io/#!pages/vi/vi-docker-development-tutorial.md)
+
+Make sure to use the same GitHub credentials across all three systems and configure your local instance to mirror or communicate with the others as needed. If you run into trouble during setup, feel free to ask in the Gitter or Discord support channels.
+
+
+---
+
+## Step 7 - Markdown and Fork Tutorial
 
 Follow the instructions on [GitHub and Markdown](githubandmarkdown.md)
 
@@ -357,7 +208,7 @@ Make sure that you've linked to your github.io and pull request in the [Discord 
 Check your progress [here](trackprogress.md)
 
 
-## Step 7 - GitHub Issues Tutorial
+## Step 8 - GitHub Issues Tutorial
 
 Follow the directions at [Git Repositories](gitrepositories.md) to keep your username.github.io and your local repository up to date.
 
@@ -378,7 +229,7 @@ Check your progress [here](trackprogress.md)
 Please note that creating and working on Issues are not exactly bound by the "Step" you are in. Feel free to move on to other steps, and make more Issues and Pull Requests while you wait on OLE approval for your merge(s).
 
 
-## Step 8 - Create Issues and Pull Requests
+## Step 9 - Create Issues and Pull Requests
 
 In this step, we will adopt the motto of "Practice makes Perfect". You will follow the same steps as in **Step 6**, continuing to improve this Markdown Wiki so that it is educational, yet easy to understand for future interns.
 
@@ -401,7 +252,7 @@ Just as your learning with this Wiki was made possible by the efforts of previou
 
 **NOTE**: You can track your progress with the number of pull requests and issues [here](trackprogress.md).
 
-## Step 9 - Be Part of the Team
+## Step 10 - Be Part of the Team
 
 Next thing is to post a screenshot of your completed progress to the Gitter chat room. Click [here](trackprogress.md) to find your completed progress.
 Message us ("@/all" and "@dogi") and ask about adding yourself to the virtual intern list found in [team.md](team.md) and setting up a meeting so you can become a part of the team as soon as possible.
