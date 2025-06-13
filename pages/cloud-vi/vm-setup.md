@@ -33,12 +33,10 @@ Before we can build a Planet server in the cloud, we’ll need to create a Googl
 4. Click **"Edit"**, then **"Add Item"**
 5. Paste your full public SSH key, formatted like:
 
-   ```
-   ssh-ed25519 AAAAC3... yourusername
-   ```
+   `ssh-ed25519 AAAAC3... yourusername`
 
-   > You must append a space and your **username** at the end of the key to satisfy Google Cloud’s required format.
-   > 🔐 Your SSH key should be **password protected** when generated. If you're not sure, re-generate it using:
+> You must append a space and your **username** at the end of the key to satisfy Google Cloud’s required format.
+> Your SSH key should be **password protected** when generated. If you're not sure, re-generate it using:
 
    ```bash
    ssh-keygen -t ed25519 -C "yourusername"
