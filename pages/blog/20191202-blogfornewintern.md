@@ -6,11 +6,11 @@
 
 This blog is about how to help aspiring interns complete the First Steps.
 
-As an intern, your job is to look in the Gitter chat for:
-• New aspiring virtual interns in the chat to welcome them
+As an intern, your job is to look in the Discord server for:
+• New aspiring virtual interns in the server to welcome them
 • New pull requests by them in [treehouses.github.io](https://github.com/treehouses/treehouses.github.io) that are ready for review
 • Pull requests ready to be merged (2 approvals)
-• Questions and problems they are stuck on (they might send you a private message so please regularly check your Gitter)
+• Questions and problems they are stuck on (they might send you a private message so please regularly check your Discord)
 
 ## How to welcome all new aspiring virtual interns
 If you see this message `@/all Hello Team my name is .... I'd like to become a virtual intern. What is the next step?`, you need to welcome the new intern and send this link `https://treehouses.io/#!./pages/vi/firststeps.md` so they can start working on the First Steps.
@@ -28,7 +28,7 @@ One of your responsibilities as an intern is to review and help aspiring virtual
 
 1. **Review files:** you can comment, approve, and request changes in the 'Files Changed' tab on their pull request. For this step, you should take your time to review a file. Do not rush :)
 
-Every time you comment on an issue or review a pull request, message those involved on the Gitter chat with a link to the issue or the pull request so the aspiring virtual intern can see the comment. For example:
+Every time you comment on an issue or review a pull request, message those involved on the Discord channel with a link to the issue or the pull request so the aspiring virtual intern can see the comment. For example:
 ```
 @username_of_intern please see my comment (URL link of the issue or pull request)
 ```
@@ -43,7 +43,7 @@ The pull request can be merged if at least two other people have approved it and
     * if you accidently merge a PR that does not include closing keywords, you need to manually close the issue and link it to the original pull request.
     * The title should also be in lowercase letters `we do not want uppercase letters in the title of PRs`
 
-Every time you merge a pull request, please send a message to the intern on the Gitter chat with a link to the issue and merged link. For example:
+Every time you merge a pull request, please send a message to the intern on the Discord channel with a link to the issue and merged link. For example:
 
 ```
 @username_of_intern please look at (URL link of the issue) and (URL link of the merged link)
@@ -52,7 +52,7 @@ Every time you merge a pull request, please send a message to the intern on the 
 ## Work Routine
 We recommend you to follow this basic daily routine:
 
-1. [Check gitter chat](https://gitter.im/treehouses/Lobby)
+1. Check our Discord server
 1. Review any issues or pull requests that have been added or changed on [treehouses.github.io](https://github.com/treehouses/treehouses.github.io) since the last time you reviewed.
 1. Make pull requests as early as possible so you can get feedback as you work.
 1. Join the Google hangout sessions at [http://talk.ole.org]( http://talk.ole.org). At the Hangout meeting, we will discuss our projects. If you have any questions, you can also ask the team at the meeting. For the Treehouses meeting, we have three sessions which are ...

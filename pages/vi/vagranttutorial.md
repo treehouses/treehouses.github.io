@@ -154,7 +154,7 @@ or not commonly used. To see all subcommands, run the command
 `vagrant list-commands`.
 ```
 
-**NOTE**: At the end of this section, when you successfully installed `vagrant` and configured `cli`. Execute `vagrant global-status` command and post the code of your terminal to the [Gitter chat](https://gitter.im/treehouses/Lobby).
+**NOTE**: At the end of this section, when you successfully installed `vagrant` and configured `cli`. Execute `vagrant global-status` command and post the code of your terminal to the [Discord #seednest channel](https://discord.com/channels/1079980988421132369/1081433296333963274).
 
 ## Useful Links
 
