@@ -17,6 +17,8 @@ Should you wish to reach out for information or assistance, feel free to contact
 ---
 
 #### Become a Virtual Intern!
-Follow the [first steps](pages/vi/firststeps.md) in order to learn how.
+Follow these first steps: 
+For hardware-based systems engineering: [first steps](pages/vi/firststeps.md).
+For cloud-based systems engineering: [first steps](pages/ci/firststeps.md).
 
 **Find Us On:** [Linkedin](https://www.linkedin.com/company/open-learning-exchange) | [Twitter](https://twitter.com/oleorg) | [Facebook](https://www.facebook.com/openlearningexchange/)
